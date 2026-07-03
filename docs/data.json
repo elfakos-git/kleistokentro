@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-07-03T10:26:21+00:00",
+  "generated_at": "2026-07-03T10:54:06+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 3,
       "consecutive_failures": 0,
-      "last_success": "2026-07-03T10:26:17+00:00"
+      "last_success": "2026-07-03T10:54:01+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
       "items": 4,
       "consecutive_failures": 0,
-      "last_success": "2026-07-03T10:26:18+00:00"
+      "last_success": "2026-07-03T10:54:03+00:00"
     },
     {
       "name": "iefimerida",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-03T10:26:19+00:00"
+      "last_success": "2026-07-03T10:54:05+00:00"
     },
     {
       "name": "kathimerini",
       "ok": true,
       "items": 10,
       "consecutive_failures": 0,
-      "last_success": "2026-07-03T10:26:19+00:00"
+      "last_success": "2026-07-03T10:54:06+00:00"
     },
     {
       "name": "tomtom",
@@ -40,23 +40,23 @@
   "active_events": [
     {
       "source": "Τροχαία (astynomia.gr)",
-      "title": "Αθηνών-Κορίνθου/Λ. Αθηνών (έξοδος)",
+      "title": "Αθηνών-Λαμίας(Αθηνών έως κόμβος Καλυφτάκη -έξοδος)",
       "url": "https://www.astynomia.gr/kykloforia-stous-dromous/deltio-kykloforias-attiki/",
-      "details": "ΑΠΌ ΣΚΑΡΑΜΑΓΚΑ ΕΩΣ ΔΙΥΛΙΣΤΗΡΙΑ",
+      "details": "ΑΠΌ ΚΤΕΛ ΕΩΣ ΦΙΛΑΔΕΛΦΕΙΑ",
       "new_this_run": false
     },
     {
       "source": "Τροχαία (astynomia.gr)",
-      "title": "Αθηνών-Λαμίας(Αθηνών έως κόμβος Καλυφτάκη -έξοδος)",
+      "title": "Βασ. Σοφίας (άνοδος)",
       "url": "https://www.astynomia.gr/kykloforia-stous-dromous/deltio-kykloforias-attiki/",
-      "details": "ΑΠΌ ΑΧΑΡΝΩΝ ΕΩΣ ΦΙΛΑΔΕΛΦΕΙΑ",
+      "details": "ΑΠΌ HILTON",
       "new_this_run": false
     },
     {
       "source": "Τροχαία (astynomia.gr)",
       "title": "Αττική Οδός",
       "url": "https://www.astynomia.gr/kykloforia-stous-dromous/deltio-kykloforias-attiki/",
-      "details": "ΕΞΟΔΟΙ ΛΑΜΙΑΣ",
+      "details": "ΚΥΜΗΣ ΕΩΣ ΠΛΑΚΕΝΤΙΑΣ ΡΕΥΜΑ ''Ε''",
       "new_this_run": false
     },
     {
@@ -64,62 +64,27 @@
       "title": "25406 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες κυκλοφοριακές ρυθμίσεις στα κάτωθι οδικά τμήματα περιοχής Δήμων Ζωγράφου και Παπάγου-Χολαργού, κατά το χρονικό διάστημα από 06/07/2026 έως 25/09/2026, κατά τις ώρες 19.00΄ έως 07.00΄της επομένης, με εξαίρεση τις επίσημες Αργίες, λόγω εκτέλεσης α",
       "url": "https://diavgeia.gov.gr/decision/view/935Ζ46ΜΤΛΒ-1ΕΦ",
       "details": "Επίσημη απόφαση Τροχαίας (03/07/2026)",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "source": "Διαύγεια (Τροχαία)",
       "title": "25404 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων επί της οδού Παύλου Μπακογιάννη, (παράδρομος της Λεωφ. Κηφισού), από το ύψος της οδού Νιρβάνα έως το ύψος της οδού Δερβενίων, στο ρεύμα κυκλοφορίας προς Λαμία, περιοχής Δήμου Μεταμόρφωσης, στις 07.07.2026, κα",
       "url": "https://diavgeia.gov.gr/decision/view/Ρ3ΔΤ46ΜΤΛΒ-1ΤΚ",
       "details": "Επίσημη απόφαση Τροχαίας (03/07/2026)",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "source": "Διαύγεια (Τροχαία)",
       "title": "25403 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στη δεξιά λωρίδα της οδού Κυψέλης, στο ύψος του ο.α.80, περιοχής Δήμου Αθηναίων, στις 05.07.2026, κατά τις ώρες 07.00΄ έως 12.00΄, λόγω εκτέλεσης εργασιών επισκευής των εξωστών του κτιρίου.",
       "url": "https://diavgeia.gov.gr/decision/view/95ΧΡ46ΜΤΛΒ-Υ6Χ",
       "details": "Επίσημη απόφαση Τροχαίας (03/07/2026)",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "source": "Διαύγεια (Τροχαία)",
       "title": "25402 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στη δεξιά λωρίδα της οδού Πανεπιστημίου, στο ύψος του ο.α.48, ρεύμα κυκλοφορίας προς Ομόνοια, περιοχής Δήμου Αθηναίων, στις 07, 08, 09, 10, 14, 15, 16, 17, 21, 22, 23, 24, 28, 29, 30 και 31-07-2026, κατά τις ",
       "url": "https://diavgeia.gov.gr/decision/view/63ΠΤ46ΜΤΛΒ-ΔΝ1",
       "details": "Επίσημη απόφαση Τροχαίας (03/07/2026)",
-      "new_this_run": true
-    },
-    {
-      "source": "iefimerida",
-      "title": "Κυκλοφοριακές ρυθμίσεις στον ΑΘΕ-Μετωπικός Σταθμός Διοδίων Θήβας",
-      "url": "https://www.iefimerida.gr/aytokinito/kykloforiakes-rythmiseis-ston-athe-metopikos-stathmos-diodion-thibas",
-      "details": "",
-      "new_this_run": false
-    },
-    {
-      "source": "kathimerini",
-      "title": "Κάνε συνδρομή με\n                            0,16€/μέρα",
-      "url": "https://www.kathimerini.gr/syndromes/?utm_source=header_blue&utm_medium=button",
-      "details": "",
-      "new_this_run": false
-    },
-    {
-      "source": "kathimerini",
-      "title": "K\n                    Premium",
-      "url": "https://www.kathimerini.gr/giati-na-eggrafw/",
-      "details": "",
-      "new_this_run": false
-    },
-    {
-      "source": "kathimerini",
-      "title": "NewslettersΑποκτήστε πλεονέκτημα στην ενημέρωση!",
-      "url": "https://www.kathimerini.gr/newsletters/",
-      "details": "",
-      "new_this_run": false
-    },
-    {
-      "source": "kathimerini",
-      "title": "Reimagine Tourism in GreeceΜία πρωτοβουλία της Καθημερινής",
-      "url": "https://www.kathimerini.gr/reimagine-tourism/el/",
-      "details": "",
       "new_this_run": false
     },
     {
@@ -163,44 +128,41 @@
       "url": "https://www.kathimerini.gr/society/564270133/kykloforiakes-rythmiseis-logo-tis-diexagogis-toy-6oy-agona-run-bike-care/",
       "details": "",
       "new_this_run": false
+    },
+    {
+      "source": "kathimerini",
+      "title": "Kυκλοφοριακές ρυθμίσεις στις 6 Ιουνίου στο κέντρο της Αθήνας",
+      "url": "https://www.kathimerini.gr/society/564263236/kykloforiakes-rythmiseis-stis-6-ioynioy-sto-kentro-tis-athinas/",
+      "details": "",
+      "new_this_run": false
+    },
+    {
+      "source": "kathimerini",
+      "title": "Νότια προάστια: Κυκλοφοριακές ρυθμίσεις στις 30 Μαΐου λόγω ποδηλατικού αγώνα",
+      "url": "https://www.kathimerini.gr/society/564255967/notia-proastia-kykloforiakes-rythmiseis-stis-30-ma-oy-logo-podilatikoy-agona/",
+      "details": "",
+      "new_this_run": false
+    },
+    {
+      "source": "kathimerini",
+      "title": "Κυκλοφοριακές ρυθμίσεις στη λεωφόρο Συγγρού στις 2 και 3 Ιουνίου",
+      "url": "https://www.kathimerini.gr/society/564253891/kykloforiakes-rythmiseis-sti-leoforo-syggroy-stis-2-kai-3-ioynioy/",
+      "details": "",
+      "new_this_run": false
+    },
+    {
+      "source": "kathimerini",
+      "title": "Κυκλοφοριακές ρυθμίσεις στη λεωφόρο Κηφισίας στις 30 και 31 Μαΐου",
+      "url": "https://www.kathimerini.gr/society/564251338/kykloforiakes-rythmiseis-sti-leoforo-kifisias-stis-30-kai-31-ma-oy/",
+      "details": "",
+      "new_this_run": false
     }
   ],
-  "recent_notifications": [
-    {
-      "time": "2026-07-03T10:26:21+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25402 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στη δεξιά λωρίδα της οδού Πανεπιστημίου, στο ύψος του ο.α.48, ρεύμα κυκλοφορίας προς Ομόνοια, περιοχής Δήμου Αθηναίων, στις 07, 08, 09, 10, 14, 15, 16, 17, 21, 22, 23, 24, 28, 29, 30 και 31-07-2026, κατά τις ",
-      "url": "https://diavgeia.gov.gr/decision/view/63ΠΤ46ΜΤΛΒ-ΔΝ1"
-    },
-    {
-      "time": "2026-07-03T10:26:21+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25403 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στη δεξιά λωρίδα της οδού Κυψέλης, στο ύψος του ο.α.80, περιοχής Δήμου Αθηναίων, στις 05.07.2026, κατά τις ώρες 07.00΄ έως 12.00΄, λόγω εκτέλεσης εργασιών επισκευής των εξωστών του κτιρίου.",
-      "url": "https://diavgeia.gov.gr/decision/view/95ΧΡ46ΜΤΛΒ-Υ6Χ"
-    },
-    {
-      "time": "2026-07-03T10:26:20+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25404 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων επί της οδού Παύλου Μπακογιάννη, (παράδρομος της Λεωφ. Κηφισού), από το ύψος της οδού Νιρβάνα έως το ύψος της οδού Δερβενίων, στο ρεύμα κυκλοφορίας προς Λαμία, περιοχής Δήμου Μεταμόρφωσης, στις 07.07.2026, κα",
-      "url": "https://diavgeia.gov.gr/decision/view/Ρ3ΔΤ46ΜΤΛΒ-1ΤΚ"
-    },
-    {
-      "time": "2026-07-03T10:26:20+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25406 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες κυκλοφοριακές ρυθμίσεις στα κάτωθι οδικά τμήματα περιοχής Δήμων Ζωγράφου και Παπάγου-Χολαργού, κατά το χρονικό διάστημα από 06/07/2026 έως 25/09/2026, κατά τις ώρες 19.00΄ έως 07.00΄της επομένης, με εξαίρεση τις επίσημες Αργίες, λόγω εκτέλεσης α",
-      "url": "https://diavgeia.gov.gr/decision/view/935Ζ46ΜΤΛΒ-1ΕΦ"
-    }
-  ],
+  "recent_notifications": [],
   "runs": [
     {
-      "time": "2026-07-03T09:49:16+00:00",
+      "time": "2026-07-03T10:54:06+00:00",
       "new": 0,
-      "sources_ok": 3,
-      "sources_total": 5
-    },
-    {
-      "time": "2026-07-03T10:26:21+00:00",
-      "new": 4,
       "sources_ok": 4,
       "sources_total": 5
     }
