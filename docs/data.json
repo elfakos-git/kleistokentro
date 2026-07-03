@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T20:56:02+00:00",
+  "generated_at": "2026-07-03T22:02:36+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -33,7 +33,7 @@
       "name": "tomtom",
       "ok": false,
       "items": 0,
-      "consecutive_failures": 11,
+      "consecutive_failures": 12,
       "last_success": null
     }
   ],
@@ -516,6 +516,12 @@
       "new": 0,
       "sources_ok": 4,
       "sources_total": 5
+    },
+    {
+      "time": "2026-07-03T22:02:36+00:00",
+      "new": 0,
+      "sources_ok": 0,
+      "sources_total": 1
     }
   ]
 }
