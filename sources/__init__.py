@@ -35,9 +35,29 @@ class Event:
     details: str = ""  # extra text (e.g. police remarks + congestion level)
 
 
-def get(url: str) -> requests.Response:
-    """Fetch a URL with sane defaults. Raises on HTTP errors."""
-    resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+# Transport: prefer curl_cffi, which impersonates a real Chrome browser's
+# TLS fingerprint. Plain python-requests has a distinctive TLS handshake
+# that WAFs block with 403 REGARDLESS of headers — this is exactly what
+# happened with astynomia.gr on GitHub's runners. Fall back to requests
+# if curl_cffi isn't installed (e.g. quick local checks before pip install).
+try:
+    from curl_cffi import requests as _http
+    _IMPERSONATE = {"impersonate": "chrome"}
+except ImportError:                       # pragma: no cover
+    _http = requests
+    _IMPERSONATE = {}
+    print("NOTE: curl_cffi not installed — falling back to plain requests; "
+          "some sites (astynomia.gr) may return 403. "
+          "Run: pip install -r requirements.txt")
+
+
+def get(url: str, params: dict | None = None,
+        extra_headers: dict | None = None):
+    """Fetch a URL with sane defaults + browser TLS impersonation.
+    Raises on HTTP errors. All source modules should use this."""
+    headers = {**HEADERS, **(extra_headers or {})}
+    resp = _http.get(url, params=params, headers=headers,
+                     timeout=TIMEOUT, **_IMPERSONATE)
     resp.raise_for_status()
     return resp
 

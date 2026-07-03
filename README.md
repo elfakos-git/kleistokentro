@@ -35,6 +35,16 @@ Extra guards on top of dedup:
   parser broke, so you get one summary message instead of spam.
 - If a source fails 6 runs in a row (~1 day) you get one warning message.
 
+## Why requests go through curl_cffi
+
+astynomia.gr returned 403 to GitHub's servers even with browser headers:
+its firewall fingerprints the TLS handshake itself, which plain Python
+requests can't disguise. All source fetches therefore go through
+`curl_cffi`, which impersonates a real Chrome browser's TLS fingerprint
+(see `get()` in `sources/__init__.py`). If curl_cffi isn't installed the
+code falls back to plain requests with a printed warning — fine for
+quick local checks, but install requirements.txt for real use.
+
 ## Telegram setup (one-time, ~5 minutes)
 
 1. In Telegram, talk to `@BotFather` → `/newbot` → follow prompts → copy the
@@ -51,7 +61,7 @@ Extra guards on top of dedup:
 2. Locally (or in a Codespace): `pip install -r requirements.txt`, then run
    each parser by hand and compare with the page in your browser:
    - `python -m sources.iefimerida`
-   - `python -m sources.kathimerini`  ← may be blocked; see below
+   - `python -m sources.kathimerini`  ← worked in production via RSS
    - `python -m sources.astynomia`    ← **must be verified**, see below
 3. In GitHub → Actions → "Athens traffic monitor" → **Run workflow** (manual
    trigger). Each source's first run seeds silently and commits `state.json`.
@@ -100,15 +110,16 @@ Zero. GitHub Actions free tier (~1 minute per run, ~180 minutes/month),
 Telegram bots are free, state lives in the repo.
 
 
-### Diavgeia (added)
+### Diavgeia (added, then de-noised after production testing)
 
 `sources/diavgeia.py` watches the official transparency portal where every
 police traffic-regulation decision must legally be published — usually
 before it takes effect. It uses the official OpenData JSON API (no
-scraping), dedups by ΑΔΑ, and — unlike the news sources — keeps a decision
-ONLY if its subject names central Athens (the API covers all of Greece, so
-strictness beats keep-when-ambiguous here; big events are still caught by
-the news sources as a second net).
+scraping) and dedups by ΑΔΑ. The first live run proved the API ignores
+fancy query syntax and returns unrelated decisions (police procurement),
+so precision is now enforced in our own code: a decision is kept ONLY if
+its subject contains the traffic stem "κυκλοφορ" AND names central
+Athens. Two simple queries are merged for recall.
 
 First-use check: `python -m sources.diavgeia` prints kept decisions;
 `python -m sources.diavgeia --all` also prints what was filtered out —
@@ -116,26 +127,29 @@ run it once to sanity-check the keyword filter against real data.
 Offline tests: `python tests/test_diavgeia.py`.
 
 
-### Waze (added)
+### Realtime layer: TomTom (replaced Waze after production testing)
 
-`sources/waze.py` reads the endpoint behind the public Waze Live Map for a
-central-Athens bounding box and keeps only road closures (any kind) and
-major accidents with community reliability ≥ 6/10 — the real-time layer
-for incidents and spontaneous protests. It runs on its OWN 30-minute
-workflow (`.github/workflows/waze.yml`, `python monitor.py --only waze`)
-because incidents expire too fast for the 4-hour cadence; both workflows
-share one concurrency group so they never race on state.json. This works
-on the free plan because public repos get unlimited Actions minutes.
+Waze's unofficial endpoint returned 403 to GitHub's servers on the first
+live run and disallows automated access — wrong foundation for a
+low-maintenance system. `sources/tomtom.py` uses TomTom's OFFICIAL
+Traffic Incidents API instead: free tier (~2,500 requests/day; the
+30-minute schedule uses ~48), Greek-language descriptions, proper terms
+of service.
 
-CAVEAT: the endpoint is unofficial. If Waze changes or blocks it, you'll
-get the consecutive-failure Telegram alert; the documented replacement is
-TomTom's official Traffic Incidents API (free tier, requires signing up
-for an API key — deliberately not used now to avoid managing a credential).
+Setup (one-time, ~5 min): create a free account at
+https://developer.tomtom.com, copy the API key it gives you, and add it
+as a repository secret named TOMTOM_API_KEY. Until then this source
+fails with a clear message — if you don't want the realtime layer at
+all, just disable the "Realtime fast check" workflow instead (Actions
+tab → the workflow → ⋯ menu → Disable workflow).
 
-First-use check: `python -m sources.waze --all` prints every alert in the
-box and which ones pass the filter. Tune the box in BOX (bboxfinder.com
-helps) and strictness via MIN_RELIABILITY.
-Offline tests: `python tests/test_waze.py`.
+It keeps road closures (always) and major accidents only, runs on its
+own 30-minute workflow (`.github/workflows/realtime.yml`), and both
+workflows share one concurrency group so they never race on state.json.
+First-use check: `python -m sources.tomtom --all` (needs the key in the
+environment — see the module docstring for the Windows command).
+Offline tests: `python tests/test_tomtom.py`.
+
 
 ## Dashboard (GitHub Pages)
 
@@ -171,6 +185,6 @@ Run the whole offline suite (no network, no secrets needed):
 
     python tests/test_monitor.py    # orchestration guarantees (8 scenarios)
     python tests/test_diavgeia.py   # Diavgeia parsing + filters
-    python tests/test_waze.py       # Waze parsing + filters
+    python tests/test_tomtom.py     # TomTom parsing + filters
 
 Run these after ANY change to monitor.py or a source module.

@@ -72,7 +72,11 @@ def _row_level(row) -> str:
 
 
 def fetch() -> list[Event]:
-    soup = BeautifulSoup(get(URL).text, "html.parser")
+    soup = BeautifulSoup(get(URL, extra_headers={
+        "Accept": ("text/html,application/xhtml+xml,application/xml;"
+                   "q=0.9,image/avif,image/webp,*/*;q=0.8"),
+        "Referer": "https://www.astynomia.gr/",
+    }).text, "html.parser")
     page_text = soup.get_text(" ", strip=True)
 
     updated = _bulletin_time(page_text)

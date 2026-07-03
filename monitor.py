@@ -3,7 +3,7 @@
 Flow of every run:
   1. Load state.json (seen IDs, per-source status, history).
   2. Fetch each selected source independently; one failure never blocks
-     the others. `--only waze` runs a subset (the fast 30-min workflow);
+     the others. `--only tomtom` runs a subset (the fast 30-min workflow);
      the 4-hour workflow runs everything.
   3. Notify events not yet seen; save state.json + docs/data.json.
 
@@ -28,7 +28,7 @@ import traceback
 from datetime import datetime, timezone
 from pathlib import Path
 
-from sources import astynomia, diavgeia, iefimerida, kathimerini, waze
+from sources import astynomia, diavgeia, iefimerida, kathimerini, tomtom
 import notify
 
 SOURCES = {
@@ -36,7 +36,7 @@ SOURCES = {
     "diavgeia": diavgeia,
     "iefimerida": iefimerida,
     "kathimerini": kathimerini,  # remove this line if it keeps failing
-    "waze": waze,                # also runs alone on the 30-min workflow
+    "tomtom": tomtom,            # realtime; also runs alone every 30 min
 }
 
 BASE = Path(__file__).parent

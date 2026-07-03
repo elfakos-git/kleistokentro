@@ -36,16 +36,21 @@ DEBUG
 """
 from datetime import datetime, timedelta, timezone
 
-from . import HEADERS, TIMEOUT, Event, mentions_athens
-
-import requests
+from . import Event, get, mentions_athens, norm_greek
 
 SOURCE = "Διαύγεια (Τροχαία)"
 SEARCH_URL = "https://diavgeia.gov.gr/luminapi/opendata/search.json"
 DECISION_URL = "https://diavgeia.gov.gr/decision/view/{ada}"
 
 ORG_UID = "100054489"          # Ministry of Citizen Protection (ΕΛ.ΑΣ)
-QUERY = '"κυκλοφοριακές ρυθμίσεις" OR "διακοπή κυκλοφορίας"'
+
+# LESSON FROM PRODUCTION: the API's `q` parameter silently ignored our
+# quoted "phrase OR phrase" syntax and returned EVERYTHING from the org
+# (fire-extinguisher procurement included). So: treat `q` only as a
+# recall-improving prefilter (two simple one-word queries, merged), and
+# enforce precision CLIENT-SIDE in _to_event(), which is code we control.
+QUERIES = ["κυκλοφοριακές", "κυκλοφορίας"]
+TRAFFIC_STEM = "κυκλοφορ"      # matches both words above after norm_greek
 MAX_AGE_DAYS = 3               # matches the news modules' date guard
 PAGE_SIZE = 100
 MAX_EVENTS = 15                # this source can never flood a run
@@ -65,25 +70,21 @@ def _issue_dt(raw):
         return None
 
 
-def _is_central_athens(subject: str) -> bool:
-    """STRICT: keep only if the subject names Athens or a central road."""
-    return mentions_athens(subject)
+def _is_relevant(subject: str) -> bool:
+    """STRICT, both required: the subject must actually be about traffic
+    (κυκλοφορ- stem) AND name Athens or a central road. Server-side
+    filtering proved unreliable; this is the filter that counts."""
+    return TRAFFIC_STEM in norm_greek(subject) and mentions_athens(subject)
 
 
-def _search(from_date: str) -> dict:
-    resp = requests.get(
-        SEARCH_URL,
-        params={
-            "q": QUERY,
-            "org": ORG_UID,
-            "from_issue_date": from_date,   # YYYY-MM-DD
-            "size": PAGE_SIZE,
-            "page": 0,
-        },
-        headers={**HEADERS, "Accept": "application/json"},
-        timeout=TIMEOUT,
-    )
-    resp.raise_for_status()
+def _search(query: str, from_date: str) -> dict:
+    resp = get(SEARCH_URL, params={
+        "q": query,
+        "org": ORG_UID,
+        "from_issue_date": from_date,   # YYYY-MM-DD
+        "size": PAGE_SIZE,
+        "page": 0,
+    }, extra_headers={"Accept": "application/json"})
     return resp.json()
 
 
@@ -103,7 +104,7 @@ def _to_event(dec: dict) -> Event | None:
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
     if issued is not None and issued < cutoff:
         return None                      # server-side filter backstop
-    if not _is_central_athens(subject):
+    if not _is_relevant(subject):
         return None
 
     details = "Επίσημη απόφαση Τροχαίας"
@@ -121,22 +122,23 @@ def _to_event(dec: dict) -> Event | None:
 def fetch() -> list[Event]:
     from_date = (datetime.now(timezone.utc)
                  - timedelta(days=MAX_AGE_DAYS)).strftime("%Y-%m-%d")
-    data = _search(from_date)
-    if "decisions" not in data or not isinstance(data["decisions"], list):
-        # Missing key must FAIL LOUDLY, not silently report zero events —
-        # a silent [] here would look healthy on the dashboard forever.
-        raise RuntimeError("diavgeia: unexpected response shape "
-                           "(no 'decisions' list) — API changed?")
-    decisions = data["decisions"]
-    events = []
-    for dec in decisions:
-        if not isinstance(dec, dict):
-            continue
-        ev = _to_event(dec)
-        if ev:
-            events.append(ev)
-        if len(events) >= MAX_EVENTS:
-            break
+    events, seen_ada = [], set()
+    for query in QUERIES:               # two nets, merged and deduped
+        data = _search(query, from_date)
+        if "decisions" not in data or not isinstance(data["decisions"], list):
+            # Missing key must FAIL LOUDLY, not silently report zero —
+            # a silent [] would look healthy on the dashboard forever.
+            raise RuntimeError("diavgeia: unexpected response shape "
+                               "(no 'decisions' list) — API changed?")
+        for dec in data["decisions"]:
+            if not isinstance(dec, dict) or dec.get("ada") in seen_ada:
+                continue
+            ev = _to_event(dec)
+            if ev:
+                seen_ada.add(ev.id)
+                events.append(ev)
+            if len(events) >= MAX_EVENTS:
+                return events
     return events
 
 
@@ -145,12 +147,14 @@ if __name__ == "__main__":  # manual check: python -m sources.diavgeia
     show_all = "--all" in sys.argv
     from_date = (datetime.now(timezone.utc)
                  - timedelta(days=MAX_AGE_DAYS)).strftime("%Y-%m-%d")
-    data = _search(from_date)
-    decisions = data.get("decisions") or []
-    print(f"API returned {len(decisions)} decision(s) since {from_date}\n")
-    for dec in decisions:
-        ev = _to_event(dec) if isinstance(dec, dict) else None
-        if ev:
-            print(f"KEEP  {ev.title}\n      {ev.url}\n")
-        elif show_all and isinstance(dec, dict):
-            print(f"skip  {' '.join((dec.get('subject') or '?').split())[:110]}")
+    for query in QUERIES:
+        data = _search(query, from_date)
+        decisions = data.get("decisions") or []
+        print(f"q={query!r}: {len(decisions)} decision(s) since {from_date}")
+        for dec in decisions:
+            ev = _to_event(dec) if isinstance(dec, dict) else None
+            if ev:
+                print(f"  KEEP  {ev.title[:100]}")
+            elif show_all and isinstance(dec, dict):
+                print(f"  skip  {' '.join((dec.get('subject') or '?').split())[:100]}")
+        print()

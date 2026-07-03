@@ -28,7 +28,18 @@ FIXTURE = {
      "subject": "Διακοπή κυκλοφορίας στη Βασιλίσσης Σοφίας λόγω "
                 "επίσημης επίσκεψης",
      "issueDate": "2026-07-01T09:30:00+03:00"},
-    {"subject": "Ρυθμίσεις στην Ομόνοια", "issueDate": now_ms},  # no ADA
+    {"subject": "Διακοπή κυκλοφορίας στην Ομόνοια", "issueDate": now_ms},  # no ADA
+    # PRODUCTION NOISE (verbatim category from the first live run):
+    # procurement decisions that mention Αττικής but aren't about traffic
+    {"ada": "ΝΟΙΣ46ΜΤΛΒ-ΠΡ7", "status": "PUBLISHED",
+     "subject": "Ανάθεση προμήθειας χημικών υλικών για την αναγόμωση "
+                "πυροσβεστήρων, για την κάλυψη αναγκών της Διεύθυνσης "
+                "Δίωξης και Εξιχνίασης Εγκλημάτων Αττικής",
+     "issueDate": now_ms - day},
+    {"ada": "ΝΟΙΣ46ΜΤΛΒ-ΠΡ8", "status": "PUBLISHED",
+     "subject": "Ανάθεση της εργασίας εκκένωσης λυμάτων βόθρου, προς "
+                "κάλυψη αναγκών του Τ.Δ.Ε.Ε. Ωρωπού/Αττικής",
+     "issueDate": now_ms - day},
     {"ada": "ΡΤΥΦ46ΜΤΛΒ-ΞΟ6",                         # minimal but valid
      "subject": "Κυκλοφοριακές ρυθμίσεις πέριξ της Πλατείας Συντάγματος"},
     "garbage-not-a-dict",
@@ -41,14 +52,12 @@ from sources import diavgeia
 def run():
     mock_resp = MagicMock()
     mock_resp.json.return_value = FIXTURE
-    mock_resp.raise_for_status.return_value = None
 
-    with patch.object(diavgeia.requests, "get", return_value=mock_resp) as m:
+    with patch.object(diavgeia, "get", return_value=mock_resp) as m:
         events = diavgeia.fetch()
+        assert m.call_count == len(diavgeia.QUERIES)   # two-net recall
         p = m.call_args.kwargs["params"]
-        assert m.call_args.kwargs.get("timeout") == 30
         assert p["org"] == "100054489" and p["page"] == 0 and p["size"] == 100
-        assert "κυκλοφοριακές ρυθμίσεις" in p["q"]
         assert len(p["from_issue_date"]) == 10
 
     ids = [e.id for e in events]
@@ -58,15 +67,18 @@ def run():
     assert "  " not in events[0].title
     assert "01/07/2026" in events[1].details
 
+    # Both nets returning the same decisions must not duplicate events
+    assert len({e.id for e in events}) == len(events)
+
     # Schema drift → loud failure (never a silent healthy-looking zero)
     for bad in ({"error": "gone"}, {"decisions": "nope"}):
         mock_resp.json.return_value = bad
-        with patch.object(diavgeia.requests, "get", return_value=mock_resp):
+        with patch.object(diavgeia, "get", return_value=mock_resp):
             try:
                 diavgeia.fetch(); raise AssertionError("should have raised")
             except RuntimeError as e:
                 assert "API changed" in str(e)
-    print("ALL DIAVGEIA TESTS PASSED (kept 3/8 fixture decisions)")
+    print(f"ALL DIAVGEIA TESTS PASSED (kept {len(events)}/10 — procurement noise rejected)")
 
 if __name__ == "__main__":
     run()

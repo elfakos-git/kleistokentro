@@ -1,8 +1,8 @@
-name: Waze fast check
+name: Realtime fast check
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 min — Waze incidents are short-lived
+    - cron: "*/30 * * * *"   # incidents are short-lived; 30 min cadence
   workflow_dispatch: {}
 
 permissions:
@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false  # schedules can never race on state.json
 
 jobs:
-  waze:
+  realtime:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -24,16 +24,17 @@ jobs:
           cache: "pip"
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Run monitor (waze only)
+      - name: Run monitor (tomtom only)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python monitor.py --only waze
+          TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
+        run: python monitor.py --only tomtom
       - name: Commit state
         run: |
           git config user.name "traffic-monitor-bot"
           git config user.email "actions@github.com"
           git add state.json docs/data.json
-          git diff --cached --quiet || git commit -m "Update state (waze) [skip ci]"
+          git diff --cached --quiet || git commit -m "Update state (realtime) [skip ci]"
           git pull --rebase
           git push

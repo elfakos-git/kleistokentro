@@ -41,17 +41,17 @@ def run():
     news = mk([Event('n1', 'iefimerida', 'Άρθρο 1', 'http://x/1')])
     wz = mk([])
     bad = types.ModuleType('b'); bad.fetch = boom
-    monitor.SOURCES = {'iefimerida': news, 'waze': wz, 'bad': bad}
+    monitor.SOURCES = {'iefimerida': news, 'fast': wz, 'bad': bad}
 
-    # 1. Waze-only runs FIRST (the old footgun): must seed only waze
-    monitor.main(['--only', 'waze'])
-    assert state()['seeded'] == ['waze'] and sent == []
+    # 1. Fast-source-only runs FIRST (the old footgun): must seed only fast
+    monitor.main(['--only', 'fast'])
+    assert state()['seeded'] == ['fast'] and sent == []
 
-    # 2. Full run: iefimerida seeds silently despite waze already seeded
+    # 2. Full run: iefimerida seeds silently despite fast already seeded
     monitor.main([])
-    assert sent == [] and set(state()['seeded']) == {'iefimerida', 'waze'}
+    assert sent == [] and set(state()['seeded']) == {'iefimerida', 'fast'}
     assert 'n1' in state()['seen']
-    assert {s['name'] for s in dash()['sources']} == {'iefimerida', 'waze', 'bad'}
+    assert {s['name'] for s in dash()['sources']} == {'iefimerida', 'fast', 'bad'}
     assert not any(e['new_this_run'] for e in dash()['active_events'])
 
     # 3. New article + Telegram DOWN: not delivered, NOT marked seen
@@ -69,7 +69,7 @@ def run():
     assert len(sent) == 1, "duplicate notification"
 
     # 5. Failure alert exactly at threshold: 'bad' has failed in the 4
-    #    full runs so far (the --only waze run correctly excluded it);
+    #    full runs so far (the --only fast run correctly excluded it);
     #    two more full runs reach 6 -> exactly one alert
     monitor.main([])
     monitor.main([])
@@ -88,11 +88,11 @@ def run():
     assert all(f'f{i}' in state()['seen'] for i in range(12))
 
     # 7. Removing a source prunes its state
-    monitor.SOURCES = {'iefimerida': news, 'waze': wz}
-    monitor.main(['--only', 'waze'])
+    monitor.SOURCES = {'iefimerida': news, 'fast': wz}
+    monitor.main(['--only', 'fast'])
     s = state()
     assert 'bad' not in s['source_status'] and 'bad' not in s['seeded']
-    assert {x['name'] for x in dash()['sources']} == {'iefimerida', 'waze'}
+    assert {x['name'] for x in dash()['sources']} == {'iefimerida', 'fast'}
 
     # 8. Legacy state migration: initialized:true -> all sources seeded
     STATE.write_text('{"initialized": true, "seen": [], "failures": {}}')
