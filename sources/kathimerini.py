@@ -21,10 +21,17 @@ import xml.etree.ElementTree as ET
 
 from bs4 import BeautifulSoup
 
-from . import Event, get
+import re
+
+from . import Event, canonical_url, get
 from .iefimerida import _is_relevant  # same keep-ambiguous policy
 
 SOURCE = "kathimerini"
+# Real articles look like kathimerini.gr/<section>/<numeric id>/<slug>.
+# Everything else on the tag page (subscription buttons, newsletters,
+# promos) is site chrome — production showed 4 of 10 scraped items were
+# junk before this filter existed.
+ARTICLE_RE = re.compile(r"kathimerini\.gr/[a-z-]+/\d{6,}/")
 FEED_URL = "https://www.kathimerini.gr/tag/kykloforiakes-rythmiseis/feed/"
 PAGE_URL = "https://www.kathimerini.gr/tag/kykloforiakes-rythmiseis/"
 MAX_AGE_DAYS = 3
@@ -40,6 +47,7 @@ def _from_rss() -> list[Event]:
         pub_raw = item.findtext("pubDate")
         if not title or not link:
             continue
+        link = canonical_url(link)
         if pub_raw:
             try:
                 if parsedate_to_datetime(pub_raw) < cutoff:
@@ -61,7 +69,8 @@ def _from_html() -> list[Event]:
             continue
         if href.startswith("/"):
             href = "https://www.kathimerini.gr" + href
-        if "kathimerini.gr" not in href or "/tag/" in href or href in seen:
+        href = canonical_url(href)
+        if not ARTICLE_RE.search(href) or href in seen:
             continue
         if _is_relevant(title):
             seen.add(href)

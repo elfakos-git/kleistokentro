@@ -19,7 +19,7 @@ import re
 
 from bs4 import BeautifulSoup
 
-from . import Event, get, mentions_athens, mentions_other_region
+from . import Event, canonical_url, get, mentions_athens, mentions_other_region
 
 SOURCE = "iefimerida"
 URL = "https://www.iefimerida.gr/tag/kykloforiakes-rythmiseis"
@@ -61,6 +61,7 @@ def fetch() -> list[Event]:
             continue
         if href.startswith("/"):
             href = "https://www.iefimerida.gr" + href
+        href = canonical_url(href)
         if "iefimerida.gr" not in href or href in seen_urls:
             continue
         if "/tag/" in href or "/category/" in href:

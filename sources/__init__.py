@@ -80,8 +80,15 @@ ATHENS_TERMS = [
 ]
 OTHER_REGIONS = [
     "θεσσαλονικ", "πατρα", "πατρών", "ηρακλει", "λαρισ", "βολο",
-    "ιωαννιν", "τεμπ", "κρητη", "ροδο", "κερκυρα", "χαλκιδικ",
+    "ιωαννιν", "τεμπ", "κρητη", "ροδο", "κερκυρα", "χαλκιδικ", "θηβ",
 ]
+
+
+def canonical_url(href: str) -> str:
+    """Strip query strings / fragments so rotating tracking parameters
+    (?utm_source=...) can never make an old page look like a NEW event.
+    Learned from production: kathimerini links carry utm parameters."""
+    return href.split("?")[0].split("#")[0]
 
 
 def norm_greek(text: str) -> str:

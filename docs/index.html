@@ -113,10 +113,14 @@ async function load(){
   const failing = srcs.filter(s=>!s.ok).length;
   const fresh = evs.filter(e=>e.new_this_run).length;
 
-  const col = evs.length ? "var(--alert)" : (failing ? "var(--warn)" : "var(--ok)");
-  const txt = evs.length
-      ? evs.length + " active event" + (evs.length>1?"s":"")
-      : "Nothing active right now";
+  // Red is reserved for NEWS: something appeared this run. A quiet
+  // backlog of known items stays green — otherwise the lamp would be
+  // permanently red and answer nothing at a glance.
+  const col = fresh ? "var(--alert)" : (failing ? "var(--warn)" : "var(--ok)");
+  const txt = fresh
+      ? fresh + " new event" + (fresh>1?"s":"") + " this run"
+      : (evs.length ? evs.length + " known active, nothing new"
+                    : "Nothing active right now");
   $("answer").innerHTML = `<span class="lamp" style="background:${col}"></span>${txt}`;
   $("checked").textContent = "Last check " + ago(d.generated_at)
       + (fresh ? ` · ${fresh} new this run` : "")
