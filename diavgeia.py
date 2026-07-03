@@ -1,0 +1,83 @@
+"""kathimerini.gr — traffic-regulations tag (WordPress).
+
+IMPORTANT: kathimerini.gr runs bot protection and blocked automated
+fetching during design. Strategy:
+  1. Try the WordPress per-tag RSS feed first (feeds usually bypass both
+     bot protection and the paywall).
+  2. If the feed 404s or is blocked, fall back to the HTML tag page.
+  3. If both fail, this module raises — monitor.py isolates the failure,
+     the other sources still run, and you get an alert only after
+     several consecutive failures.
+
+If it fails consistently for a week: remove "kathimerini" from SOURCES
+in monitor.py (one line) and rely on iefimerida, which republishes the
+same Traffic Police announcements.
+
+Debug:  python -m sources.kathimerini
+"""
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
+import xml.etree.ElementTree as ET
+
+from bs4 import BeautifulSoup
+
+from . import Event, get
+from .iefimerida import _is_relevant  # same keep-ambiguous policy
+
+SOURCE = "kathimerini"
+FEED_URL = "https://www.kathimerini.gr/tag/kykloforiakes-rythmiseis/feed/"
+PAGE_URL = "https://www.kathimerini.gr/tag/kykloforiakes-rythmiseis/"
+MAX_AGE_DAYS = 3
+
+
+def _from_rss() -> list[Event]:
+    root = ET.fromstring(get(FEED_URL).content)
+    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
+    events = []
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub_raw = item.findtext("pubDate")
+        if not title or not link:
+            continue
+        if pub_raw:
+            try:
+                if parsedate_to_datetime(pub_raw) < cutoff:
+                    continue
+            except (TypeError, ValueError):
+                pass  # unparseable date → keep, dedup protects us anyway
+        if _is_relevant(title):
+            events.append(Event(id=link, source=SOURCE, title=title, url=link))
+    return events
+
+
+def _from_html() -> list[Event]:
+    soup = BeautifulSoup(get(PAGE_URL).text, "html.parser")
+    events, seen = [], set()
+    for a in soup.find_all("a", href=True):
+        title = a.get_text(strip=True)
+        href = a["href"]
+        if not title or len(title) < 25:
+            continue
+        if href.startswith("/"):
+            href = "https://www.kathimerini.gr" + href
+        if "kathimerini.gr" not in href or "/tag/" in href or href in seen:
+            continue
+        if _is_relevant(title):
+            seen.add(href)
+            events.append(Event(id=href, source=SOURCE, title=title, url=href))
+    # No date on WP tag cards reliably → rely on dedup; cap to newest few
+    # so a first fetch can never flood (first run seeds silently anyway).
+    return events[:10]
+
+
+def fetch() -> list[Event]:
+    try:
+        return _from_rss()
+    except Exception:
+        return _from_html()
+
+
+if __name__ == "__main__":  # manual check: python -m sources.kathimerini
+    for e in fetch():
+        print(f"- {e.title}\n  {e.url}\n")
