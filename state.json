@@ -57,7 +57,7 @@
       "name": "tomtom",
       "ok": false,
       "items": 0,
-      "consecutive_failures": 4,
+      "consecutive_failures": 5,
       "last_success": null
     }
   },
@@ -211,6 +211,12 @@
     },
     {
       "time": "2026-07-03T14:40:40+00:00",
+      "new": 0,
+      "sources_ok": 0,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-03T16:22:38+00:00",
       "new": 0,
       "sources_ok": 0,
       "sources_total": 1
