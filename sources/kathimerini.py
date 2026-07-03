@@ -17,6 +17,7 @@ Debug:  python -m sources.kathimerini
 """
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+import re
 import xml.etree.ElementTree as ET
 
 from bs4 import BeautifulSoup
@@ -36,6 +37,12 @@ FEED_URL = "https://www.kathimerini.gr/tag/kykloforiakes-rythmiseis/feed/"
 PAGE_URL = "https://www.kathimerini.gr/tag/kykloforiakes-rythmiseis/"
 MAX_AGE_DAYS = 3
 
+# Real kathimerini articles have a long numeric ID in the path
+# (e.g. /society/564312118/...). Promo/nav links (subscriptions,
+# newsletters, campaigns) don't — production showed them leaking
+# through the old filter and polluting the dashboard.
+ARTICLE_RE = re.compile(r"/\d{6,}/")
+
 
 def _from_rss() -> list[Event]:
     root = ET.fromstring(get(FEED_URL).content)
@@ -54,7 +61,7 @@ def _from_rss() -> list[Event]:
                     continue
             except (TypeError, ValueError):
                 pass  # unparseable date → keep, dedup protects us anyway
-        if _is_relevant(title):
+        if _is_relevant(f"{title} {link}"):
             events.append(Event(id=link, source=SOURCE, title=title, url=link))
     return events
 

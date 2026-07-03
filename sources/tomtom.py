@@ -41,6 +41,7 @@ API_URL = "https://api.tomtom.com/traffic/services/5/incidentDetails"
 
 # Central Athens bounding box (~Syntagma ± 3-4 km), as minLon,minLat,maxLon,maxLat.
 BBOX = "23.690,37.945,23.775,38.005"
+ASSUME_TODAY = True   # realtime source: no date in text = happening now
 
 FIELDS = ("{incidents{properties{id,iconCategory,magnitudeOfDelay,"
           "startTime,from,to,events{description}},"

@@ -72,7 +72,7 @@ def fetch() -> list[Event]:
         pub = _parse_date(container.get_text(" ", strip=True))
         if pub is None or pub < cutoff:
             continue
-        if not _is_relevant(title):
+        if not _is_relevant(f"{title} {href}"):   # regions often hide in the URL
             continue
 
         seen_urls.add(href)

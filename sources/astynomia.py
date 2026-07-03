@@ -27,14 +27,22 @@ import re
 
 from bs4 import BeautifulSoup
 
-from . import Event, get, stable_id
+from . import Event, get, norm_greek, stable_id
 
 SOURCE = "Τροχαία (astynomia.gr)"
 URL = "https://www.astynomia.gr/kykloforia-stous-dromous/deltio-kykloforias-attiki/"
 MAX_STALENESS_HOURS = 12
+ASSUME_TODAY = True   # realtime source: no date in text = happening now
 ATHENS_TZ = ZoneInfo("Europe/Athens")
 
 LEVELS = ["Πολύ Αυξημένη", "Αυξημένη", "Ομαλή"]  # order matters (substring!)
+
+# Remarks that ONLY describe the extent of congestion ("ΑΠΟ ΑΧΑΡΝΩΝ ΕΩΣ
+# ΦΙΛΑΔΕΛΦΕΙΑ") are congestion state, not disruption events — the live
+# bulletin proved these churn as traffic ebbs, which would ping you
+# about nothing. Closures/demonstrations/incidents never match this
+# shape, so they still notify.
+EXTENT_RE = re.compile(r"^απ[οό]\s+\S.*\s+[εέ]ως\s+\S.*$")
 UPDATE_RE = re.compile(
     r"Τελευταία\s+Ενημέρωση[:\s]*"
     r"(\d{2})/(\d{2})/(\d{4})\s*[–—-]\s*(\d{1,2})[:.](\d{2})"
@@ -99,6 +107,8 @@ def fetch() -> list[Event]:
             continue
         if not remark or remark in LEVELS or len(remark) < 10:
             continue
+        if EXTENT_RE.match(norm_greek(remark)):
+            continue                        # congestion extent, not an event
 
         level = _row_level(row)
         details = remark if not level else f"{remark}\nΚίνηση αυτή τη στιγμή: {level}"

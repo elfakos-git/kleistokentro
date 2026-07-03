@@ -25,10 +25,10 @@ state entries of removed sources are pruned.
 import json
 import sys
 import traceback
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
-from sources import astynomia, diavgeia, iefimerida, kathimerini, tomtom
+from sources import astynomia, diavgeia, enrich, iefimerida, kathimerini, tomtom
 import notify
 
 SOURCES = {
@@ -48,6 +48,7 @@ MAX_NOTIFICATIONS_PER_RUN = 8
 FAILURE_ALERT_AFTER = 6
 MAX_HISTORY = 30
 MAX_RUNS = 60
+MAX_CLOSURES = 300   # registry cap (space guard; ~2 months of Athens)
 
 
 def now_iso() -> str:
@@ -85,6 +86,9 @@ def load_state() -> dict:
     state.setdefault("seeded", [])          # sources already silently seeded
     state.setdefault("source_status", {})   # name -> last known report
     state.setdefault("active", {})          # name -> events at last run
+    state.setdefault("closures", {})        # id -> event with known dates;
+                                            # lives until its LAST DAY passes,
+                                            # regardless of publication age
     state.setdefault("notifications", [])
     state.setdefault("runs", [])
     if state.pop("initialized", False) and not state["seeded"]:
@@ -97,6 +101,13 @@ def save_state(state: dict) -> None:
     for key in ("source_status", "active"):   # prune removed sources
         state[key] = {n: v for n, v in state[key].items() if n in SOURCES}
     state["seeded"] = [n for n in state["seeded"] if n in SOURCES]
+    today = date.today().isoformat()
+    live = {i: c for i, c in state["closures"].items()
+            if c.get("days") and max(c["days"]) >= today}
+    if len(live) > MAX_CLOSURES:            # keep the nearest-ending ones
+        keep = sorted(live, key=lambda i: live[i]["days"][0])[:MAX_CLOSURES]
+        live = {i: live[i] for i in keep}
+    state["closures"] = live
     state["seen"] = state["seen"][-MAX_SEEN:]
     state["notifications"] = state["notifications"][-MAX_HISTORY:]
     state["runs"] = state["runs"][-MAX_RUNS:]
@@ -114,6 +125,8 @@ def write_dashboard(state: dict) -> None:
                     if n in state["source_status"]],
         "active_events": [e for n in SOURCES
                           for e in state["active"].get(n, [])],
+        "closures": sorted(state["closures"].values(),
+                           key=lambda c: c["days"][0]),
         "recent_notifications": list(reversed(state["notifications"])),
         "runs": state["runs"],
     }, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -157,9 +170,21 @@ def main(argv=None) -> int:
                     state["seen"].append(e.id)    # seed silently
                 else:
                     pending.append(e)
-            current.append({"source": e.source, "title": e.title,
-                            "url": e.url, "details": e.details,
-                            "new_this_run": is_new and not first_time})
+            days = enrich.extract_days(e.title)   # TITLE only: details
+            if not days and getattr(module, "ASSUME_TODAY", False):
+                days = [date.today().isoformat()]   # realtime = happening now
+            area = enrich.classify_area(f"{e.title} {e.details}", url=e.url)
+            entry = {"source": e.source, "title": e.title,
+                     "url": e.url, "details": e.details,
+                     "area": area, "days": days,
+                     "new_this_run": is_new and not first_time}
+            if days:                        # remember until its LAST day
+                state["closures"][e.id] = {k: entry[k] for k in
+                    ("source", "title", "url", "details", "area", "days")}
+            if days and max(days) < date.today().isoformat():
+                continue                    # event is OVER: posting date is
+                                            # irrelevant; hide from "active"
+            current.append(entry)
         state["active"][name] = current
         state["source_status"][name] = {
             "name": name, "ok": True, "items": len(events),
@@ -169,11 +194,21 @@ def main(argv=None) -> int:
             state["seeded"].append(name)
 
     delivered = 0
+    today = date.today().isoformat()
     for e in pending:
+        days = enrich.extract_days(e.title)
+        if days and max(days) < today:      # ended before we ever saw it
+            state["seen"].append(e.id)      # mark seen, silently
+            print(f"Skipped (already over): [{e.source}] {e.title[:60]}")
+            continue
         if delivered >= MAX_NOTIFICATIONS_PER_RUN:
             state["seen"].append(e.id)            # deliberate flood skip
             continue
-        if safe_send(notify.format_event(e)):     # persist ONLY on success
+        text = notify.format_event(e)
+        area = enrich.classify_area(f"{e.title} {e.details}", url=e.url)
+        if area:
+            text += f"\n\n📍 {area}"
+        if safe_send(text):                       # persist ONLY on success
             state["seen"].append(e.id)
             state["notifications"].append({
                 "time": now_iso(), "source": e.source,
