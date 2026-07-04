@@ -292,7 +292,7 @@ def main(argv=None) -> int:
             print(f"[{name}] WARNING: kept 0 of {fetched} — filters may "
                   f"be over-tight; check the drop reasons above",
                   file=sys.stderr)
-        current, date_misses = [], 0
+        current, date_misses, lane_only = [], 0, 0
         for e in events:
             is_new = e.id not in seen
             if is_new:
@@ -304,6 +304,11 @@ def main(argv=None) -> int:
             ed = overrides["edits"].get(e.id) or {}
             if ed.get("title"):
                 e.title = str(ed["title"])[:300]
+            if enrich.is_lane_only(f"{e.title} {e.details}"):
+                lane_only += 1                    # below the notification
+                if is_new:                        # bar: seen, silent, gone
+                    state["seen"].append(e.id)
+                continue
             days = enrich.extract_days(               # TITLE only; Athens
                 e.title, date.fromisoformat(today))   # clock, not server
             if not days and enrich.looks_dated(e.title):
@@ -351,8 +356,10 @@ def main(argv=None) -> int:
                 continue                          # over → not "active"
             current.append(entry)
         state["active"][name] = current
+        if lane_only:
+            tally["μόνο μία λωρίδα/ΛΕΑ"] = lane_only
         state["source_status"][name] = {
-            "name": name, "ok": True, "items": len(events),
+            "name": name, "ok": True, "items": len(events) - lane_only,
             "fetched": fetched, "dropped": tally,
             "date_misses": date_misses,
             "consecutive_failures": 0, "last_success": now_iso(),

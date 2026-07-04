@@ -160,6 +160,28 @@ def extract_days(text: str, today: date | None = None) -> list[str]:
     return sorted(d.isoformat() for d in days)
 
 
+# ---------------------------------------------------------- severity
+# Single-lane restrictions ("στη δεξιά λωρίδα", ΛΕΑ, μία λωρίδα) are
+# real decisions but negligible disruptions — below the notification
+# bar (product rule). A MAJOR signal anywhere overrides: full closures,
+# events and multi-lane restrictions always survive, even when a lane
+# is mentioned in passing.
+LANE_ONLY_RE = re.compile(
+    r"(?:δεξι|αριστερ|μεσαι)\w*\s+λωριδ"      # δεξιά/αριστερή/μεσαία λωρίδα
+    r"|μιας?\s+λωριδ"                          # μία λωρίδα / μίας λωρίδας
+    r"|λωριδ\w*\s+εκτακτης"                   # λωρίδα έκτακτης ανάγκης
+    r"|\bλ\.?ε\.?α\.?\b")                  # ΛΕΑ
+MAJOR_RE = re.compile(
+    r"κλειστ|ολικ|πληρ(?:ης|ους)|πεζοδρομ|πορει|συγκεντρωσ|παρελασ|αγων"
+    r"|(?:δυο|τριων|των)\s+λωριδ")
+
+
+def is_lane_only(text: str) -> bool:
+    """True when the ONLY restriction described is a single lane."""
+    t = norm_greek(text or "")
+    return bool(LANE_ONLY_RE.search(t)) and not MAJOR_RE.search(t)
+
+
 DATEISH_RE = re.compile(r"\d{1,2}\s*/\s*\d{1,2}|\d{1,2}[./-]\d{1,2}[./-]\d{2,4}|"
                         + "|".join(f"\\d{{1,2}}\\S*\\s+{s}" for s in _MONTHS))
 

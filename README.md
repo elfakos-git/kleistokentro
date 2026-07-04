@@ -240,6 +240,22 @@ source misstated. The smoke detector catches "couldn't read"; "misread"
 is caught by you via the calendar, and fixed in seconds via the admin
 page's date editor, which overrides extraction permanently.
 
+
+### Severity filter: single-lane closures (below the notification bar)
+
+Lane-level restrictions ("στη δεξιά λωρίδα", "μία λωρίδα", ΛΕΑ) are
+formal decisions but negligible disruptions, and production showed the
+Diavgeia feed is full of them. They are now dropped at ingestion —
+never notified, never displayed, never returning — UNLESS the text
+also carries a major signal (κλειστ-, ολική, πλήρης, multiple lanes,
+πορεία/αγώνας), which always survives. The count appears in the source
+health tooltip as "μόνο μία λωρίδα/ΛΕΑ: N", so the filter's appetite
+stays visible. Escape hatch: the check runs AFTER admin title edits,
+so renaming an event in the admin page (ideally also setting its
+dates) rescues one that genuinely matters. Patterns live in
+sources/enrich.py (LANE_ONLY_RE / MAJOR_RE); tests:
+python tests/test_lane_filter.py.
+
 ## Dashboard (GitHub Pages)
 
 Every run also writes `docs/data.json` — a full snapshot of everything the
