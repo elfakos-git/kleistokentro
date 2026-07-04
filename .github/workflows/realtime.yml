@@ -2,7 +2,11 @@ name: Realtime fast check
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # incidents are short-lived; 30 min cadence
+    # Every 30 min, but NOT 02:00–06:00 Athens time (23:00–02:59 UTC in
+    # summer): overnight incidents are rare and the morning run catches
+    # anything that persists. Saves ~8 runs/day. Restore 24/7 coverage
+    # by replacing both lines with:  - cron: "*/30 * * * *"
+    - cron: "*/30 3-22 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -14,21 +18,29 @@ concurrency:
 
 jobs:
   realtime:
+    # Skip the ENTIRE job (zero billed seconds) until the TomTom key
+    # exists — no more paying a full setup every 30 min just to fail.
+    if: ${{ secrets.TOMTOM_API_KEY != '' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
+    env:
+      PIP_DISABLE_PIP_VERSION_CHECK: "1"
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1     # history grows ~20k commits/year; never clone it
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: "pip"
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -q -r requirements.txt
       - name: Run monitor (tomtom only)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
+          SUBSCRIBERS_JSON: ${{ secrets.SUBSCRIBERS_JSON }}
         run: python monitor.py --only tomtom
       - name: Commit state
         run: |

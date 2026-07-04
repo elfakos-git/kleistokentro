@@ -34,7 +34,9 @@ DEBUG
 import os
 from datetime import datetime, timezone
 
-from . import Event, get
+from . import Event, Tally, get
+
+last_tally = Tally()
 
 SOURCE = "TomTom (realtime)"
 API_URL = "https://api.tomtom.com/traffic/services/5/incidentDetails"
@@ -134,15 +136,25 @@ def fetch() -> list[Event]:
         # Fail loudly: a silent zero would look healthy forever.
         raise RuntimeError("tomtom: unexpected response shape "
                            "(no 'incidents' list) — API changed?")
+    global last_tally
+    last_tally = Tally()
     events = []
     for inc in data["incidents"]:
         if not isinstance(inc, dict):
             continue
-        label = _keep(inc.get("properties") or {})
-        if label and _started(inc.get("properties") or {}):
-            ev = _to_event(inc, label)
-            if ev:
-                events.append(ev)
+        props = inc.get("properties") or {}
+        label = _keep(props)
+        if not label:
+            last_tally.hit("κατηγορία εκτός πολιτικής")
+            continue
+        if not _started(props):
+            last_tally.hit("προγραμματισμένο (μελλοντικό)")
+            continue
+        ev = _to_event(inc, label)
+        if ev:
+            events.append(ev)
+        else:
+            last_tally.hit("χωρίς αναγνωριστικό")
     return events
 
 

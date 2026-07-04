@@ -128,6 +128,7 @@
   details .inner .card{border-left:5px solid var(--warn);box-shadow:none}
   .count{background:var(--paper);border:1px solid var(--line);border-radius:9px;
          font-size:.75rem;padding:1px 8px;color:var(--mut);font-variant-numeric:tabular-nums}
+  .pillh{color:var(--blue);cursor:help;font-size:.8rem}
 
   table{width:100%;border-collapse:collapse}
   th,td{padding:9px 6px;text-align:left;font-size:.92rem}
@@ -364,11 +365,21 @@ function render(){
   const failing = srcs.filter(s=>!s.ok).length;
   $("health").innerHTML = `<details${failing?" open":""}>
     <summary>Υγεία πηγών <span class="count">${srcs.length-failing}/${srcs.length} OK</span></summary>
-    <div class="inner"><table><tr><th>Πηγή</th><th>Τελευταία επιτυχία</th><th class="num">Στοιχεία</th></tr>`
-    + srcs.map(s=>`<tr>
+    <div class="inner"><table><tr><th>Πηγή</th><th>Τελευταία επιτυχία</th><th class="num">Κρατήθηκαν</th></tr>`
+    + srcs.map(s=>{
+        const drops = Object.entries(s.dropped||{});
+        const total = drops.reduce((a,[,n])=>a+n, 0);
+        const tip = drops.map(([r,n])=>`${r}: ${n}`).join("\n")
+                  + (s.date_misses?`\nημερομηνίες που δεν διαβάστηκαν: ${s.date_misses}`:"");
+        const kept = (s.fetched!=null) ? `${s.items} / ${s.fetched}` : s.items;
+        const warn = (s.fetched>=10 && s.items===0) ? " ⚠" : "";
+        return `<tr>
         <td><span class="lamp" style="background:${s.ok?"var(--ok)":(s.consecutive_failures>=6?"var(--alert)":"var(--warn)")}"></span>${esc(s.name)}</td>
         <td class="num">${ago(s.last_success)}${s.ok?"":" · αποτυχίες ×"+s.consecutive_failures}</td>
-        <td class="num">${s.items}</td></tr>`).join("") + "</table></div></details>";
+        <td class="num" title="${esc(tip)}">${kept}${warn}${total||s.date_misses?` <span class="pillh">ⓘ</span>`:""}</td></tr>`;
+      }).join("")
+    + `</table><div class="note" style="color:var(--mut);font-size:.78rem;margin-top:6px">
+       «Κρατήθηκαν x / y»: πόσα πέρασαν τα φίλτρα από όσα βρέθηκαν — πάτα/δείξε το ⓘ για τους λόγους απόρριψης.</div></div></details>`;
 
   const hist = d.recent_notifications||[];
   $("history").innerHTML = `<details>
@@ -379,13 +390,30 @@ function render(){
         <div class="t">${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>`:esc(n.title)}</div>
       </div>`).join("") : '<div class="empty">Καμία ειδοποίηση ακόμη.</div>') + "</div></details>";
 
-  $("foot").textContent = (d.runs||[]).length
-    ? `${d.runs.length} εκτελέσεις · τα δεδομένα ανανεώνονται κάθε 5 λεπτά` : "";
+  $("foot").innerHTML = ((d.runs||[]).length
+    ? `${d.runs.length} εκτελέσεις · τα δεδομένα ανανεώνονται κάθε 5 λεπτά · ` : "")
+    + '<a href="admin.html" style="color:var(--mut)">διαχείριση</a>';
 }
 
+function applyOverrides(d, ov){
+  const removed = new Set(ov.removed||[]);
+  const fix = list => (list||[])
+    .filter(e => !removed.has(e.id))
+    .map(e => { const ed = (ov.edits||{})[e.id];
+      return ed ? {...e,
+        title: ed.title || e.title,
+        area: ("area" in ed && ed.area !== null) ? ed.area : e.area,
+        days: (ed.days && ed.days.length) ? ed.days : e.days } : e; });
+  d.active_events = fix(d.active_events);
+  d.closures = fix(d.closures);
+  return d;
+}
 async function load(){
   try{
-    state.data = await (await fetch("data.json?t="+Date.now())).json();
+    let ov = {removed:[], edits:{}};
+    try{ ov = await (await fetch("overrides.json?t="+Date.now())).json(); }catch(_){}
+    state.data = applyOverrides(
+      await (await fetch("data.json?t="+Date.now())).json(), ov);
   }catch(e){
     $("vmsmsg").className = "msg";
     $("vmsmsg").textContent = "Χωρις δεδομενα ακομη";

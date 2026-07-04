@@ -6,7 +6,7 @@ import sys
 from datetime import date
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from sources.enrich import extract_days, classify_area
+from sources.enrich import extract_days, classify_area, looks_dated
 
 TODAY = date(2026, 7, 3)
 
@@ -46,6 +46,20 @@ def run():
     # 7. No dates at all
     assert extract_days("Κυκλοφοριακές ρυθμίσεις στο Ελληνικό την Πέμπτη", TODAY) == []
 
+    # 8. Greek month names — the hole named in the design review
+    assert extract_days("Διακοπή κυκλοφορίας στις 5 Ιουλίου 2026", TODAY) == ["2026-07-05"]
+    assert extract_days("ρυθμίσεις από 6 έως 9 Ιουλίου 2026", TODAY) == [
+        "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09"]
+    assert extract_days("το Σάββατο 5 και την Κυριακή 6 Σεπτεμβρίου", TODAY) == [
+        "2026-09-05", "2026-09-06"]
+    assert extract_days("την 15η Αυγούστου", TODAY) == ["2026-08-15"]  # no year
+    assert extract_days("οι 3 μάρτυρες κατέθεσαν στο δικαστήριο", TODAY) == []
+
+    # 9. The parser's smoke detector (looks dated, parsed nothing → flag)
+    assert looks_dated("κλειστοί δρόμοι στις 5 Ιουλίου")
+    assert looks_dated("την Τρίτη 23/6")
+    assert not looks_dated("Κλειστό το κέντρο λόγω πορείας")
+
     # --- geography (all real production titles) ---
     cases = [
         ("οδού Πανεπιστημίου, ρεύμα προς Ομόνοια, Δήμου Αθηναίων", "", "Κέντρο"),
@@ -69,7 +83,7 @@ def run():
     # Κέντρο must win over a suburb mentioned in passing
     assert classify_area("Διακοπή στη Συγγρού, εκτροπή προς Καλλιθέα") == "Κέντρο"
 
-    print("ALL ENRICH TESTS PASSED (dates: ranges/lists/singles/no-year; geo: 13 cases)")
+    print("ALL ENRICH TESTS PASSED (numeric+named dates, smoke detector, geo)")
 
 if __name__ == "__main__":
     run()

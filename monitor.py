@@ -38,6 +38,7 @@ import json
 import os
 import sys
 import traceback
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -57,6 +58,7 @@ BASE = Path(__file__).parent
 STATE_FILE = BASE / "state.json"
 DASHBOARD_FILE = BASE / "docs" / "data.json"
 SUBSCRIBERS_FILE = BASE / "subscribers.json"
+OVERRIDES_FILE = BASE / "docs" / "overrides.json"   # the admin's ledger
 
 MAX_SEEN = 500
 MAX_NOTIFICATIONS_PER_RUN = 8    # per subscriber, per run
@@ -122,6 +124,23 @@ def load_subscribers() -> list[dict]:
         if admin:
             subs = [{**SUB_DEFAULTS, "name": "admin", "chat_id": admin}]
     return subs
+
+
+def load_overrides() -> dict:
+    """Admin edits from docs/overrides.json (written by admin.html via
+    the GitHub API). Tolerant of absence/corruption — admin features
+    must never break monitoring."""
+    try:
+        raw = json.loads(OVERRIDES_FILE.read_text(encoding="utf-8"))
+        removed = {str(x) for x in raw.get("removed", []) if x}
+        edits = {str(k): v for k, v in (raw.get("edits") or {}).items()
+                 if isinstance(v, dict)}
+        return {"removed": removed, "edits": edits}
+    except Exception:
+        return {"removed": set(), "edits": {}}
+
+
+ISO_DAY = __import__("re").compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
 def area_ok(area: str, sub: dict) -> bool:
@@ -197,14 +216,17 @@ def save_state(state: dict) -> None:
 
 def write_dashboard(state: dict) -> None:
     DASHBOARD_FILE.parent.mkdir(exist_ok=True)
+    overrides = load_overrides()
     closures_public = [{k: v for k, v in c.items() if k != "alerted_chats"}
-                       for c in state["closures"].values()]
+                       for i, c in state["closures"].items()
+                       if i not in overrides["removed"]]
     DASHBOARD_FILE.write_text(json.dumps({
         "generated_at": now_iso(),
         "sources": [state["source_status"][n] for n in SOURCES
                     if n in state["source_status"]],
         "active_events": [e for n in SOURCES
-                          for e in state["active"].get(n, [])],
+                          for e in state["active"].get(n, [])
+                          if e.get("id") not in overrides["removed"]],
         "closures": sorted(closures_public, key=lambda c: c["days"][0]),
         "recent_notifications": list(reversed(state["notifications"])),
         "runs": state["runs"],
@@ -220,6 +242,9 @@ def main(argv=None) -> int:
     argv = sys.argv[1:] if argv is None else argv
     to_run = selected_sources(argv)
     state = load_state()
+    overrides = load_overrides()
+    for rid in overrides["removed"]:          # purge already-registered
+        state["closures"].pop(rid, None)
     subs = load_subscribers()
     onboard_new_subscribers(state, subs)
     seen = set(state["seen"])
@@ -228,10 +253,18 @@ def main(argv=None) -> int:
     sent_count = {s["chat_id"]: 0 for s in subs}   # per-user flood cap
 
     # ------------------------------------------------------------- fetch
+    # Sources hit the network CONCURRENTLY: with sequential fetches the
+    # 30s per-source timeouts were ADDITIVE (3 hanging sites = 90s+); in
+    # parallel the whole phase is capped by the slowest single source.
+    # Results are then consumed strictly in SOURCES order, so seeding,
+    # telemetry, dedup and failure handling behave exactly as before.
+    with ThreadPoolExecutor(max_workers=min(8, len(to_run))) as pool:
+        futures = {n: pool.submit(m.fetch) for n, m in to_run.items()}
+
     for name, module in to_run.items():
         first_time = name not in state["seeded"]
         try:
-            events = module.fetch()
+            events = futures[name].result()
         except Exception:
             prev = state["source_status"].get(name, {})
             count = prev.get("consecutive_failures", 0) + 1
@@ -248,19 +281,49 @@ def main(argv=None) -> int:
             }
             continue
 
-        print(f"[{name}] OK — {len(events)} event(s) parsed"
+        tally = dict(getattr(module, "last_tally", {}) or {})
+        fetched = len(events) + sum(tally.values())
+        print(f"[{name}] OK — kept {len(events)}/{fetched}"
+              + (f" (dropped: {tally})" if tally else "")
               + (" [seeding]" if first_time else ""))
-        current = []
+        if fetched >= 10 and not events:
+            # Over-filtering alarm: a filter eating EVERYTHING is a
+            # recall failure that must be a fact, not a silence.
+            print(f"[{name}] WARNING: kept 0 of {fetched} — filters may "
+                  f"be over-tight; check the drop reasons above",
+                  file=sys.stderr)
+        current, date_misses = [], 0
         for e in events:
             is_new = e.id not in seen
             if is_new:
                 seen.add(e.id)
+            if e.id in overrides["removed"]:
+                if is_new:
+                    state["seen"].append(e.id)    # never notify, never return
+                continue
+            ed = overrides["edits"].get(e.id) or {}
+            if ed.get("title"):
+                e.title = str(ed["title"])[:300]
             days = enrich.extract_days(               # TITLE only; Athens
                 e.title, date.fromisoformat(today))   # clock, not server
+            if not days and enrich.looks_dated(e.title):
+                # The parser's smoke detector: the title LOOKS dated but
+                # nothing was extracted. The event still flows (undated →
+                # immediate notify), but the miss is logged and counted.
+                date_misses += 1
+                print(f"[{name}] date-like text not parsed: "
+                      f"{e.title[:90]!r}", file=sys.stderr)
+            if ed.get("days"):
+                fixed = sorted(d for d in ed["days"]
+                               if isinstance(d, str) and ISO_DAY.match(d))
+                if fixed:
+                    days = fixed                      # admin dates win
             if not days and getattr(module, "ASSUME_TODAY", False):
                 days = [today]                    # realtime = happening now
             area = enrich.classify_area(f"{e.title} {e.details}", url=e.url)
-            entry = {"source": e.source, "title": e.title,
+            if "area" in ed and ed["area"] is not None:
+                area = str(ed["area"])                # admin area wins
+            entry = {"id": e.id, "source": e.source, "title": e.title,
                      "url": e.url, "details": e.details,
                      "area": area, "days": days,
                      "new_this_run": is_new and not first_time}
@@ -279,6 +342,7 @@ def main(argv=None) -> int:
                 if first_time:
                     prev_alerted = [s["chat_id"] for s in subs]
                 state["closures"][e.id] = {
+                    "id": e.id,
                     "source": e.source, "title": e.title, "url": e.url,
                     "details": e.details, "area": area, "days": days,
                     "alerted_chats": list(prev_alerted),
@@ -289,6 +353,8 @@ def main(argv=None) -> int:
         state["active"][name] = current
         state["source_status"][name] = {
             "name": name, "ok": True, "items": len(events),
+            "fetched": fetched, "dropped": tally,
+            "date_misses": date_misses,
             "consecutive_failures": 0, "last_success": now_iso(),
         }
         if first_time:

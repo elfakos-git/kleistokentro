@@ -48,7 +48,9 @@ def _parse_date(text: str):
 
 
 def fetch() -> list[Event]:
-    soup = BeautifulSoup(get(URL).text, "html.parser")
+    global last_tally
+    last_tally = Tally()
+    soup = BeautifulSoup(get(URL).text, SOUP_PARSER)
     cutoff = datetime.now(ATHENS_TZ) - timedelta(days=MAX_AGE_DAYS)
     events, seen_urls = [], set()
 
@@ -71,8 +73,10 @@ def fetch() -> list[Event]:
         container = a.find_parent(["article", "div", "li"]) or a
         pub = _parse_date(container.get_text(" ", strip=True))
         if pub is None or pub < cutoff:
+            last_tally.hit("χωρίς/παλιά ημερομηνία")
             continue
         if not _is_relevant(f"{title} {href}"):   # regions often hide in the URL
+            last_tally.hit("άλλη περιοχή")
             continue
 
         seen_urls.add(href)

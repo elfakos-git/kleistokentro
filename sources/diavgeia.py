@@ -36,7 +36,9 @@ DEBUG
 """
 from datetime import datetime, timedelta, timezone
 
-from . import Event, get, mentions_athens, norm_greek
+from . import Event, Tally, get, mentions_athens, norm_greek
+
+last_tally = Tally()
 
 SOURCE = "Διαύγεια (Τροχαία)"
 SEARCH_URL = "https://diavgeia.gov.gr/luminapi/opendata/search.json"
@@ -88,23 +90,28 @@ def _search(query: str, from_date: str) -> dict:
     return resp.json()
 
 
-def _to_event(dec: dict) -> Event | None:
+def _to_event(dec: dict, tally: Tally | None = None) -> Event | None:
     """Convert one API decision object to an Event, or None to skip.
     Defensive on every field: the schema was built from the official
     docs but not every corner could be live-verified at design time."""
+    tally = tally if tally is not None else Tally()
     ada = (dec.get("ada") or "").strip()
     subject = " ".join((dec.get("subject") or "").split())
     if not ada or not subject:
+        tally.hit("χωρίς ΑΔΑ/θέμα")
         return None
     status = (dec.get("status") or "PUBLISHED").upper()
     if status != "PUBLISHED":            # revoked/pending decisions
+        tally.hit("μη δημοσιευμένη")
         return None
 
     issued = _issue_dt(dec.get("issueDate"))
     cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
     if issued is not None and issued < cutoff:
-        return None                      # server-side filter backstop
+        tally.hit("εκτός χρονικού παραθύρου")
+        return None
     if not _is_relevant(subject):
+        tally.hit("εκτός θέματος/Αθήνας")
         return None
 
     details = "Επίσημη απόφαση Τροχαίας"
@@ -120,6 +127,8 @@ def _to_event(dec: dict) -> Event | None:
 
 
 def fetch() -> list[Event]:
+    global last_tally
+    last_tally = Tally()
     from_date = (datetime.now(timezone.utc)
                  - timedelta(days=MAX_AGE_DAYS)).strftime("%Y-%m-%d")
     events, seen_ada = [], set()
@@ -131,11 +140,15 @@ def fetch() -> list[Event]:
             raise RuntimeError("diavgeia: unexpected response shape "
                                "(no 'decisions' list) — API changed?")
         for dec in data["decisions"]:
-            if not isinstance(dec, dict) or dec.get("ada") in seen_ada:
+            if not isinstance(dec, dict):
                 continue
-            ev = _to_event(dec)
+            ada = (dec.get("ada") or "").strip()
+            if ada and ada in seen_ada:
+                continue                 # both nets saw it: count ONCE
+            if ada:
+                seen_ada.add(ada)        # kept or rejected — processed
+            ev = _to_event(dec, last_tally)
             if ev:
-                seen_ada.add(ev.id)
                 events.append(ev)
             if len(events) >= MAX_EVENTS:
                 return events

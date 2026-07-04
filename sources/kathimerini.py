@@ -17,14 +17,15 @@ Debug:  python -m sources.kathimerini
 """
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
-import re
 import xml.etree.ElementTree as ET
 
 from bs4 import BeautifulSoup
 
 import re
 
-from . import Event, canonical_url, get
+from . import Event, SOUP_PARSER, Tally, canonical_url, get
+
+last_tally = Tally()
 from .iefimerida import _is_relevant  # same keep-ambiguous policy
 
 SOURCE = "kathimerini"
@@ -58,16 +59,19 @@ def _from_rss() -> list[Event]:
         if pub_raw:
             try:
                 if parsedate_to_datetime(pub_raw) < cutoff:
+                    last_tally.hit("παλιό άρθρο")
                     continue
             except (TypeError, ValueError):
                 pass  # unparseable date → keep, dedup protects us anyway
         if _is_relevant(f"{title} {link}"):
             events.append(Event(id=link, source=SOURCE, title=title, url=link))
+        else:
+            last_tally.hit("άλλη περιοχή")
     return events
 
 
 def _from_html() -> list[Event]:
-    soup = BeautifulSoup(get(PAGE_URL).text, "html.parser")
+    soup = BeautifulSoup(get(PAGE_URL).text, SOUP_PARSER)
     events, seen = [], set()
     for a in soup.find_all("a", href=True):
         title = a.get_text(strip=True)
@@ -88,6 +92,8 @@ def _from_html() -> list[Event]:
 
 
 def fetch() -> list[Event]:
+    global last_tally
+    last_tally = Tally()
     try:
         return _from_rss()
     except Exception:

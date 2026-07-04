@@ -62,6 +62,25 @@ def get(url: str, params: dict | None = None,
     return resp
 
 
+# BeautifulSoup backend: lxml parses ~10x faster than html.parser and
+# both produce the same tree for these pages. Fall back silently if
+# lxml isn't installed (quick local checks before pip install).
+try:
+    import lxml  # noqa: F401
+    SOUP_PARSER = "lxml"
+except ImportError:                        # pragma: no cover
+    SOUP_PARSER = "html.parser"
+
+
+class Tally(dict):
+    """Per-fetch drop counters. Each source resets its module-level
+    `last_tally` at fetch start and hits it at every skip point; the
+    orchestrator publishes it so over-filtering is a dashboard FACT
+    instead of an invisible recall failure."""
+    def hit(self, reason: str) -> None:
+        self[reason] = self.get(reason, 0) + 1
+
+
 def stable_id(*parts: str) -> str:
     """Deterministic short ID from text parts (for sources without URLs
     per item, like the police bulletin)."""

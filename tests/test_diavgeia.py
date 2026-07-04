@@ -2,6 +2,8 @@
 Run with:  python tests/test_diavgeia.py
 """
 import sys, time
+from datetime import datetime, timedelta, timezone
+iso_yday = (datetime.now(timezone(timedelta(hours=3))) - timedelta(days=1))
 from pathlib import Path
 from unittest.mock import patch, MagicMock
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -27,7 +29,7 @@ FIXTURE = {
     {"ada": "ΨΩΣΔ46ΜΤΛΒ-ΜΝ5", "status": "PUBLISHED",   # ISO date variant
      "subject": "Διακοπή κυκλοφορίας στη Βασιλίσσης Σοφίας λόγω "
                 "επίσημης επίσκεψης",
-     "issueDate": "2026-07-01T09:30:00+03:00"},
+     "issueDate": iso_yday.strftime("%Y-%m-%dT09:30:00+03:00")},
     {"subject": "Διακοπή κυκλοφορίας στην Ομόνοια", "issueDate": now_ms},  # no ADA
     # PRODUCTION NOISE (verbatim category from the first live run):
     # procurement decisions that mention Αττικής but aren't about traffic
@@ -65,7 +67,7 @@ def run():
     for e in events:
         assert e.url == f"https://diavgeia.gov.gr/decision/view/{e.id}"
     assert "  " not in events[0].title
-    assert "01/07/2026" in events[1].details
+    assert iso_yday.strftime("%d/%m/%Y") in events[1].details
 
     # Both nets returning the same decisions must not duplicate events
     assert len({e.id for e in events}) == len(events)

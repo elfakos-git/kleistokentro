@@ -28,6 +28,23 @@ from . import norm_greek
 
 # ---------------------------------------------------------------- dates
 _D = r"(\d{1,2})[./-](\d{1,2})[./-](\d{4})"
+
+# Greek month names (genitive stems, accent-stripped — "5 Ιουλίου 2026").
+# Stems chosen to avoid non-date words: "μαρτι" matches Μαρτίου but not
+# μάρτυρες; "μαι" matches Μαΐου.
+_MONTHS = {"ιανουαρι": 1, "φεβρουαρι": 2, "μαρτι": 3, "απριλι": 4,
+           "μαι": 5, "ιουνι": 6, "ιουλι": 7, "αυγουστ": 8,
+           "σεπτεμβρι": 9, "οκτωβρι": 10, "νοεμβρι": 11, "δεκεμβρι": 12}
+_M = "(" + "|".join(_MONTHS) + r")\w*"
+_DAYNUM = r"(\d{1,2})(?:ης|ας|α|η)?"
+NAMED_RANGE_RE = re.compile(
+    r"απο\s+(?:τις\s+|την\s+)?" + _DAYNUM +
+    r"\s*(?:εως|μεχρι)\s*(?:και\s+)?(?:τις\s+|την\s+)?" + _DAYNUM +
+    r"\s+" + _M + r"(?:\s+(\d{4}))?")
+NAMED_PAIR_RE = re.compile(
+    _DAYNUM + r"\s+και\s+(?:τη[νς]?\s+)?(?:[α-ωϊϋ]{3,12}\s+)?"
+    + _DAYNUM + r"\s+" + _M + r"(?:\s+(\d{4}))?")
+NAMED_DAY_RE = re.compile(_DAYNUM + r"\s+" + _M + r"(?:\s+(\d{4}))?")
 RANGE_RE = re.compile(r"απο\s+" + _D +
                       r"\s*(?:εως|μεχρι)\s+(?:και\s+)?(?:τις\s+|την\s+)?" + _D)
 DAYLIST_RE = re.compile(r"((?:\d{1,2}\s*,\s*)+\d{1,2})\s+και\s+"
@@ -37,6 +54,13 @@ NOYEAR_RE = re.compile(r"(?<![\d/.\-])(\d{1,2})/(\d{1,2})(?![\d/.\-])")
 
 MAX_RANGE_DAYS = 120     # a "range" longer than this is a parse error
 PAST_DAYS, FUTURE_DAYS = 7, 200   # calendar window of interest
+
+
+def _month_no(stem_match: str) -> int:
+    for stem, num in _MONTHS.items():
+        if stem_match.startswith(stem):
+            return num
+    return 0
 
 
 def _valid(d: int, m: int, y: int, today: date):
@@ -88,15 +112,64 @@ def extract_days(text: str, today: date | None = None) -> list[str]:
             days.add(x)
         return blank(m)
 
+    def _year(d, m, y):
+        """Explicit year, else this year, else next (news often omits it)."""
+        if y:
+            return _valid(d, m, int(y), today)
+        return _valid(d, m, today.year, today) or _valid(d, m, today.year + 1, today)
+
+    def take_named_range(m):
+        d1, d2, mo = int(m.group(1)), int(m.group(2)), _month_no(m.group(3))
+        a, b = _year(d1, mo, m.group(4)), _year(d2, mo, m.group(4))
+        if a and b and a <= b and (b - a).days <= MAX_RANGE_DAYS:
+            cur = a
+            while cur <= b:
+                days.add(cur)
+                cur += timedelta(days=1)
+        else:
+            for x in (a, b):
+                if x:
+                    days.add(x)
+        return blank(m)
+
+    def take_named_pair(m):
+        mo = _month_no(m.group(3))
+        for dd in (m.group(1), m.group(2)):
+            x = _year(int(dd), mo, m.group(4))
+            if x:
+                days.add(x)
+        return blank(m)
+
+    def take_named_day(m):
+        x = _year(int(m.group(1)), _month_no(m.group(2)), m.group(3))
+        if x:
+            days.add(x)
+        return blank(m)
+
     t = RANGE_RE.sub(take_range, t)
     t = DAYLIST_RE.sub(take_daylist, t)
     t = FULL_RE.sub(take_full, t)
+    t = NAMED_RANGE_RE.sub(take_named_range, t)
+    t = NAMED_PAIR_RE.sub(take_named_pair, t)
+    t = NAMED_DAY_RE.sub(take_named_day, t)
     for m in NOYEAR_RE.finditer(t):          # "23/6" news style
         d_, mo = int(m.group(1)), int(m.group(2))
         x = _valid(d_, mo, today.year, today) or _valid(d_, mo, today.year + 1, today)
         if x:
             days.add(x)
     return sorted(d.isoformat() for d in days)
+
+
+DATEISH_RE = re.compile(r"\d{1,2}\s*/\s*\d{1,2}|\d{1,2}[./-]\d{1,2}[./-]\d{2,4}|"
+                        + "|".join(f"\\d{{1,2}}\\S*\\s+{s}" for s in _MONTHS))
+
+
+def looks_dated(text: str) -> bool:
+    """Does the text APPEAR to contain a date? Used as the parser's own
+    smoke detector: looks_dated(t) and not extract_days(t) means the
+    extractor met a phrasing it can't read — the exact silent failure
+    that must be logged, never swallowed."""
+    return bool(DATEISH_RE.search(norm_greek(text or "")))
 
 
 # ------------------------------------------------------------- geography

@@ -104,52 +104,27 @@ Symptoms: the ⚠️ consecutive-failure message, or the "…και N ακόμη
 Dedup, flood protection, failure alerts and Telegram delivery are all
 handled centrally — a new source is ~40 lines.
 
-## Costs
+## Costs & performance
 
-Zero. GitHub Actions free tier (~1 minute per run, ~180 minutes/month),
-Telegram bots are free, state lives in the repo.
+PUBLIC repo (required for free Pages): Actions minutes are UNLIMITED —
+the schedule costs nothing. The optimizations below still matter for
+notification latency and for the day you might go private.
 
+PRIVATE repo math (2,000 free min/month, each job billed rounded UP to
+a whole minute): before optimization ~54 jobs/day ≈ 1,650 min/month —
+dangerously near the cap. After: the realtime job SKIPS entirely (zero
+billed seconds) until TOMTOM_API_KEY exists, and its schedule pauses
+02:00–06:00 Athens (restore 24/7 in realtime.yml if you want it), so
+the worst case is ~46 jobs/day ≈ 1,400 min/month, and only ~180 until
+you add the TomTom key.
 
-### Diavgeia (added, then de-noised after production testing)
-
-`sources/diavgeia.py` watches the official transparency portal where every
-police traffic-regulation decision must legally be published — usually
-before it takes effect. It uses the official OpenData JSON API (no
-scraping) and dedups by ΑΔΑ. The first live run proved the API ignores
-fancy query syntax and returns unrelated decisions (police procurement),
-so precision is now enforced in our own code: a decision is kept ONLY if
-its subject contains the traffic stem "κυκλοφορ" AND names central
-Athens. Two simple queries are merged for recall.
-
-First-use check: `python -m sources.diavgeia` prints kept decisions;
-`python -m sources.diavgeia --all` also prints what was filtered out —
-run it once to sanity-check the keyword filter against real data.
-Offline tests: `python tests/test_diavgeia.py`.
-
-
-### Realtime layer: TomTom (replaced Waze after production testing)
-
-Waze's unofficial endpoint returned 403 to GitHub's servers on the first
-live run and disallows automated access — wrong foundation for a
-low-maintenance system. `sources/tomtom.py` uses TomTom's OFFICIAL
-Traffic Incidents API instead: free tier (~2,500 requests/day; the
-30-minute schedule uses ~48), Greek-language descriptions, proper terms
-of service.
-
-Setup (one-time, ~5 min): create a free account at
-https://developer.tomtom.com, copy the API key it gives you, and add it
-as a repository secret named TOMTOM_API_KEY. Until then this source
-fails with a clear message — if you don't want the realtime layer at
-all, just disable the "Realtime fast check" workflow instead (Actions
-tab → the workflow → ⋯ menu → Disable workflow).
-
-It keeps road closures (always) and major accidents only, runs on its
-own 30-minute workflow (`.github/workflows/realtime.yml`), and both
-workflows share one concurrency group so they never race on state.json.
-First-use check: `python -m sources.tomtom --all` (needs the key in the
-environment — see the module docstring for the Windows command).
-Offline tests: `python tests/test_tomtom.py`.
-
+In-run speed: sources are fetched CONCURRENTLY (the old sequential
+loop made the 30s per-source timeouts additive — three hanging sites
+meant a 90s run; now the fetch phase is capped by the slowest single
+source), checkouts are shallow (fetch-depth: 1 — the state history
+grows ~20k commits/year and must never be cloned), and HTML parsing
+uses lxml (~10x faster, falls back to html.parser if absent). Typical
+full run: well under a minute, and it stays that way as the repo ages.
 
 
 ## Subscribers & notification settings (multi-user)
@@ -213,6 +188,57 @@ The dashboard also distinguishes duration: events spanning ≥4 days
 (long works) are shown subdued in amber — in the calendar (bottom-left
 badge) and as ⏳ tagged cards sorted below short events — so a one-day
 marathon closure never drowns under a three-month roadworks project.
+
+
+## Admin page (manual curation)
+
+`docs/admin.html` (linked from the dashboard footer as "διαχείριση") lets
+you remove events permanently, edit the displayed title, and correct the
+area or the closure dates. Changes are written to `docs/overrides.json`:
+the dashboard applies them instantly, and the monitor applies them at
+every run — a removed event never re-appears and never notifies, and
+notifications use the edited title/area/dates.
+
+One-time setup: create a fine-grained personal access token (GitHub →
+Settings → Developer settings → Fine-grained tokens) scoped to ONLY this
+repository with Contents: Read & write, and paste it once on the admin
+page — it is stored only in that browser.
+
+HONEST SECURITY NOTE: this is a static site, so the login form is a
+curtain, not a lock (its password hash is public in the HTML, and a weak
+password can be cracked from a hash — change it by replacing AUTH_HASH
+in admin.html with sha256("user:pass")). The actual protection is the
+GitHub token: without it, GitHub rejects every write, no matter who gets
+past the login. Never commit the token anywhere.
+
+
+## Recall instrumentation (v2 — making misses visible)
+
+Every design iteration before this one was driven by visible noise;
+missed events generate silence. This version makes the silence speak:
+
+- **Filter telemetry.** Every source counts what it rejects and why
+  ("άλλη περιοχή: 4, παλιό άρθρο: 2, ..."). The dashboard's source
+  health shows "Κρατήθηκαν kept / fetched" with the reasons on the ⓘ,
+  and a run that keeps 0 of ≥10 fetched items prints an over-filtering
+  warning in the Actions log and a ⚠ on the dashboard — an eaten source
+  is now a fact, not a quiet day.
+- **Date-parser smoke detector.** Titles that LOOK dated (contain a
+  numeric date or a Greek month name) but yield no extracted days are
+  logged verbatim and counted per source (date_misses). The event still
+  flows as undated (notifying immediately — a miss degrades to "less
+  scheduled", never to silence), and the log line is the parser asking
+  for a new pattern.
+- **Greek month names.** extract_days now reads "στις 5 Ιουλίου 2026",
+  "από 6 έως 9 Ιουλίου", "το Σάββατο 5 και την Κυριακή 6 Σεπτεμβρίου",
+  and ordinal/no-year forms — the concrete hole named in the design
+  review, closed and tested.
+
+Honest scope note: a WRONGLY extracted date (right pattern, wrong read)
+remains internally undetectable — no system can know the truth its only
+source misstated. The smoke detector catches "couldn't read"; "misread"
+is caught by you via the calendar, and fixed in seconds via the admin
+page's date editor, which overrides extraction permanently.
 
 ## Dashboard (GitHub Pages)
 

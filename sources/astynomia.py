@@ -39,7 +39,9 @@ import re
 
 from bs4 import BeautifulSoup
 
-from . import Event, get, norm_greek, stable_id
+from . import Event, SOUP_PARSER, Tally, get, norm_greek, stable_id
+
+last_tally = Tally()
 
 SOURCE = "Τροχαία (astynomia.gr)"
 URL = "https://www.astynomia.gr/kykloforia-stous-dromous/deltio-kykloforias-attiki/"
@@ -161,7 +163,7 @@ def fetch() -> list[Event]:
         "Accept": ("text/html,application/xhtml+xml,application/xml;"
                    "q=0.9,image/avif,image/webp,*/*;q=0.8"),
         "Referer": "https://www.astynomia.gr/",
-    }).text, "html.parser")
+    }).text, SOUP_PARSER)
     page_text = soup.get_text(" ", strip=True)
 
     updated = _bulletin_time(page_text)
@@ -171,13 +173,17 @@ def fetch() -> list[Event]:
     if now - updated > timedelta(hours=MAX_STALENESS_HOURS):
         return []  # stale bulletin: valid situation, report nothing
 
+    global last_tally
+    last_tally = Tally()
     events, rows_seen, levels_seen = [], 0, 0
     for road, remark, level in _rows(soup):
         rows_seen += 1
         levels_seen += bool(level)
-        _, ev = _classify(road, remark, level, now)
+        kind, ev = _classify(road, remark, level, now)
         if ev:
             events.append(ev)
+        else:
+            last_tally.hit(kind.replace("skip: ", ""))
     if rows_seen >= 5 and levels_seen == 0:
         # Fresh bulletin, plenty of rows, zero detected levels: the
         # anomaly layer is blind. Not fatal (keyword layer still works)
@@ -189,7 +195,7 @@ def fetch() -> list[Event]:
 
 if __name__ == "__main__":  # manual check: python -m sources.astynomia
     soup = BeautifulSoup(get(URL, extra_headers={
-        "Referer": "https://www.astynomia.gr/"}).text, "html.parser")
+        "Referer": "https://www.astynomia.gr/"}).text, SOUP_PARSER)
     updated = _bulletin_time(soup.get_text(" ", strip=True))
     now = _athens_now()
     print(f"Bulletin: {updated}   now: {now:%Y-%m-%d %H:%M}   "

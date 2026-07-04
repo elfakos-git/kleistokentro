@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Διαχείριση · Athens Traffic Monitor</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#0F4C9A; --blue-deep:#0B3B78; --ink:#23272B; --paper:#EDEFF1;
+    --card:#FFFFFF; --line:#D6DADF; --mut:#6A7178;
+    --ok:#1E7A46; --warn:#DB9A0F; --alert:#C0392B;
+    --disp:"Barlow Semi Condensed",sans-serif; --body:"Barlow",system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0}
+  body{background:var(--paper);color:var(--ink);font-family:var(--body);
+       font-size:16px;line-height:1.45;padding:16px;max-width:760px;margin:0 auto}
+  :focus-visible{outline:3px solid var(--blue);outline-offset:2px;border-radius:6px}
+  .sign{background:var(--ink);color:#fff;border-radius:12px;border:3px solid #fff;
+        outline:2px solid #000;padding:14px 18px;display:flex;align-items:baseline;
+        gap:12px;flex-wrap:wrap}
+  .sign h1{font-family:var(--disp);font-weight:700;font-size:1.4rem;
+           letter-spacing:.02em;text-transform:uppercase}
+  .sign a{color:#9fc3f5;font-size:.9rem;text-decoration:none;margin-left:auto}
+  h2{font-family:var(--disp);font-weight:600;font-size:.85rem;text-transform:uppercase;
+     letter-spacing:.09em;color:var(--mut);margin:24px 0 10px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;
+        padding:14px;margin-bottom:10px}
+  .card.removed{opacity:.55;border-left:5px solid var(--alert)}
+  .card.edited{border-left:5px solid var(--warn)}
+  label{font-family:var(--disp);font-weight:600;font-size:.75rem;color:var(--mut);
+        text-transform:uppercase;letter-spacing:.08em;display:block;margin:10px 0 3px}
+  input,select,textarea{width:100%;border:1.5px solid var(--line);border-radius:8px;
+        padding:9px 11px;font:inherit;background:#fff}
+  textarea{min-height:52px}
+  button{font-family:var(--disp);font-weight:700;font-size:.88rem;cursor:pointer;
+         border:1.5px solid var(--line);background:var(--card);color:var(--ink);
+         border-radius:8px;padding:8px 14px;letter-spacing:.03em;min-height:38px}
+  button.primary{background:var(--blue);border-color:var(--blue-deep);color:#fff}
+  button.danger{color:var(--alert);border-color:var(--alert)}
+  button.small{padding:4px 10px;min-height:30px;font-size:.8rem}
+  .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+  .src{font-family:var(--disp);font-weight:600;font-size:.76rem;color:var(--blue);
+       text-transform:uppercase;letter-spacing:.06em}
+  .t{font-weight:600;margin:2px 0 4px}
+  .meta{color:var(--mut);font-size:.85rem}
+  .msg{border-radius:8px;padding:10px 12px;font-size:.9rem;margin:10px 0}
+  .msg.ok{background:#E4F1E9;color:var(--ok)}
+  .msg.err{background:#F7E6E3;color:var(--alert)}
+  .note{color:var(--mut);font-size:.85rem;margin:8px 0}
+  .pill{display:inline-block;background:var(--paper);border:1px solid var(--line);
+        border-radius:6px;font-size:.75rem;padding:1px 8px;margin-left:6px}
+  .savebar{position:sticky;bottom:10px;background:var(--ink);color:#fff;
+           border-radius:10px;padding:10px 14px;display:none;align-items:center;
+           gap:12px;justify-content:space-between;box-shadow:0 4px 14px rgba(0,0,0,.3)}
+  .savebar.on{display:flex}
+  .editbox{display:none;border-top:1px dashed var(--line);margin-top:10px;padding-top:4px}
+  .editbox.on{display:block}
+</style>
+</head>
+<body>
+<header class="sign">
+  <h1>Διαχείριση</h1>
+  <a href="index.html">← στο dashboard</a>
+</header>
+
+<!-- ——— Login (a curtain; the LOCK is the GitHub token below) ——— -->
+<section id="login" class="card" style="margin-top:16px">
+  <h2 style="margin-top:0">Σύνδεση</h2>
+  <label for="u">Όνομα χρήστη</label><input id="u" autocomplete="username">
+  <label for="p">Κωδικός</label><input id="p" type="password" autocomplete="current-password">
+  <div class="row"><button class="primary" id="loginbtn">Σύνδεση</button></div>
+  <div id="loginmsg"></div>
+</section>
+
+<section id="panel" style="display:none">
+  <h2>Ρύθμιση εγγραφών (μία φορά)</h2>
+  <div class="card">
+    <div class="note">Οι αλλαγές αποθηκεύονται με commit στο αποθετήριο μέσω του
+    GitHub API. Χρειάζεται ένα <b>fine-grained personal access token</b> μόνο για
+    αυτό το repo με δικαίωμα <b>Contents: Read &amp; write</b>
+    (GitHub → Settings → Developer settings → Fine-grained tokens).
+    Μένει αποθηκευμένο μόνο σε αυτόν τον browser.</div>
+    <label for="tok">GitHub token</label><input id="tok" type="password" placeholder="github_pat_…">
+    <div class="row">
+      <input id="owner" placeholder="owner (π.χ. elfakos-git)" style="flex:1;min-width:140px">
+      <input id="repo" placeholder="repo (π.χ. kleistokentro)" style="flex:1;min-width:140px">
+      <button id="savetok">Αποθήκευση</button>
+    </div>
+    <div id="tokmsg"></div>
+  </div>
+
+  <h2>Συμβάντα <span class="pill" id="counts"></span></h2>
+  <div class="note">Οι αλλαγές εφαρμόζονται αμέσως στη σελίδα και στις
+  ειδοποιήσεις από την επόμενη εκτέλεση. Ό,τι αφαιρεθεί δεν ξαναεμφανίζεται
+  ούτε ξαναειδοποιεί.</div>
+  <div id="list"></div>
+
+  <div class="savebar" id="savebar">
+    <span id="pendtxt"></span>
+    <span style="display:flex;gap:8px">
+      <button class="small" id="discard" style="color:#fff;border-color:#666;background:transparent">Αναίρεση</button>
+      <button class="small primary" id="commit">Αποθήκευση στο repo</button>
+    </span>
+  </div>
+  <div id="savemsg"></div>
+</section>
+
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => (s||"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const AREAS = ["","Κέντρο","Βόρεια","Δυτικά","Νότια","Ανατολικά"];
+// SHA-256 of "user:pass". Honest note: on a static site this gates the UI
+// only — the write authority is the GitHub token, validated by GitHub.
+const AUTH_HASH = "a43b641f01bf21850f73810a0400e6e186ca1b321c78c9551ff67dddd51d1ca7";
+const OV_PATH = "docs/overrides.json";
+let events = [], ov = {removed:[], edits:{}}, ovSha = null, dirty = false;
+
+async function sha256(text){
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
+  return [...new Uint8Array(buf)].map(b=>b.toString(16).padStart(2,"0")).join("");
+}
+$("loginbtn").onclick = async () => {
+  const h = await sha256($("u").value.trim() + ":" + $("p").value);
+  if(h === AUTH_HASH){
+    sessionStorage.setItem("adm","1");
+    $("login").style.display = "none"; $("panel").style.display = "block"; init();
+  }else{
+    $("loginmsg").innerHTML = '<div class="msg err">Λάθος στοιχεία.</div>';
+  }
+};
+$("p").addEventListener("keydown", e => { if(e.key === "Enter") $("loginbtn").click(); });
+if(sessionStorage.getItem("adm") === "1"){
+  $("login").style.display = "none"; $("panel").style.display = "block"; init();
+}
+
+function ghCfg(){
+  let [owner, repo] = ["", ""];
+  const m = location.hostname.match(/^([^.]+)\.github\.io$/);
+  if(m){ owner = m[1]; repo = location.pathname.split("/").filter(Boolean)[0] || ""; }
+  return {
+    token: localStorage.getItem("gh_token") || "",
+    owner: localStorage.getItem("gh_owner") || owner,
+    repo: localStorage.getItem("gh_repo") || repo,
+  };
+}
+$("savetok").onclick = () => {
+  if($("tok").value.trim()) localStorage.setItem("gh_token", $("tok").value.trim());
+  localStorage.setItem("gh_owner", $("owner").value.trim());
+  localStorage.setItem("gh_repo", $("repo").value.trim());
+  $("tokmsg").innerHTML = '<div class="msg ok">Αποθηκεύτηκε σε αυτόν τον browser.</div>';
+};
+
+const b64 = s => btoa(unescape(encodeURIComponent(s)));
+async function gh(path, opts={}){
+  const c = ghCfg();
+  const r = await fetch(`https://api.github.com/repos/${c.owner}/${c.repo}/contents/${path}`,
+    {...opts, headers:{ "Authorization": "Bearer " + c.token,
+                        "Accept": "application/vnd.github+json",
+                        ...(opts.headers||{}) }});
+  return r;
+}
+
+function parseDays(text){
+  const out = new Set();
+  for(let part of text.split(",").map(s=>s.trim()).filter(Boolean)){
+    const range = part.split(/\s*(?:-|–|\.\.)\s*(?=\d{1,2}\/)/);
+    const one = s => { const m = s.match(/^(\d{1,2})\/(\d{1,2})(?:\/(\d{4}))?$/) ||
+                                 s.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+      if(!m) return null;
+      if(s.includes("-") && s.length === 10)
+        return new Date(Date.UTC(+m[1], +m[2]-1, +m[3]));
+      const y = m[3] ? +m[3] : new Date().getFullYear();
+      return new Date(Date.UTC(y, +m[2]-1, +m[1])); };
+    if(range.length === 2){
+      let a = one(range[0]), b = one(range[1]);
+      if(a && b && b >= a && (b-a)/864e5 <= 120)
+        for(let d = new Date(a); d <= b; d.setUTCDate(d.getUTCDate()+1))
+          out.add(d.toISOString().slice(0,10));
+    }else{
+      const d = one(part);
+      if(d) out.add(d.toISOString().slice(0,10));
+    }
+  }
+  return [...out].sort();
+}
+
+function markDirty(){
+  dirty = true;
+  const n = ov.removed.length, e = Object.keys(ov.edits).length;
+  $("pendtxt").textContent = `Εκκρεμούν αλλαγές · ${n} αφαιρεμένα, ${e} επεξεργασμένα`;
+  $("savebar").classList.add("on");
+}
+
+function rowHtml(ev){
+  const ed = ov.edits[ev.id] || {};
+  const removed = ov.removed.includes(ev.id);
+  const title = ed.title || ev.title;
+  const area = ("area" in ed && ed.area !== null) ? ed.area : (ev.area || "");
+  const days = (ed.days && ed.days.length ? ed.days : (ev.days||[]));
+  return `<div class="card${removed?" removed":""}${Object.keys(ed).length?" edited":""}" data-id="${esc(ev.id)}">
+    <div class="src">${esc(ev.source)} <span class="pill">${esc(ev.id).slice(0,18)}</span></div>
+    <div class="t">${esc(title)}</div>
+    <div class="meta">${area?("📍 "+esc(area)+" · "):""}${days.length?("📅 "+days.map(d=>d.slice(8,10)+"/"+d.slice(5,7)).slice(0,5).join(", ")+(days.length>5?" +"+(days.length-5):"")):"χωρίς ημερομηνίες"}</div>
+    <div class="row">
+      ${removed
+        ? `<button class="small" data-act="restore">↩ Επαναφορά</button>`
+        : `<button class="small danger" data-act="remove">🗑 Αφαίρεση</button>
+           <button class="small" data-act="edit">✏️ Επεξεργασία</button>`}
+      ${Object.keys(ed).length?`<button class="small" data-act="reset">Καθαρισμός αλλαγών</button>`:""}
+    </div>
+    <div class="editbox" data-box>
+      <label>Τίτλος που εμφανίζεται</label>
+      <textarea data-f="title">${esc(title)}</textarea>
+      <label>Περιοχή</label>
+      <select data-f="area">${AREAS.map(a=>`<option value="${a}"${a===area?" selected":""}>${a||"— καμία —"}</option>`).join("")}</select>
+      <label>Ημερομηνίες (π.χ. 05/07/2026, 10/07/2026 ή 06/07/2026 - 25/09/2026)</label>
+      <input data-f="days" value="${esc(days.map(d=>d.slice(8,10)+"/"+d.slice(5,7)+"/"+d.slice(0,4)).join(", "))}">
+      <div class="row"><button class="small primary" data-act="apply">Εφαρμογή</button>
+      <button class="small" data-act="cancel">Άκυρο</button></div>
+    </div>
+  </div>`;
+}
+
+function renderList(){
+  $("counts").textContent = `${events.length} · ${ov.removed.length} αφαιρεμένα`;
+  $("list").innerHTML = events.map(rowHtml).join("") ||
+    '<div class="card">Δεν υπάρχουν συμβάντα στο data.json ακόμη.</div>';
+  $("list").querySelectorAll("[data-act]").forEach(btn => btn.onclick = () => {
+    const cardEl = btn.closest(".card"), id = cardEl.dataset.id;
+    const act = btn.dataset.act;
+    if(act === "remove"){ ov.removed.push(id); markDirty(); renderList(); }
+    if(act === "restore"){ ov.removed = ov.removed.filter(x=>x!==id); markDirty(); renderList(); }
+    if(act === "reset"){ delete ov.edits[id]; markDirty(); renderList(); }
+    if(act === "edit"){ cardEl.querySelector("[data-box]").classList.toggle("on"); }
+    if(act === "cancel"){ cardEl.querySelector("[data-box]").classList.remove("on"); }
+    if(act === "apply"){
+      const get = f => cardEl.querySelector(`[data-f="${f}"]`).value;
+      const orig = events.find(e=>e.id===id);
+      const ed = {};
+      if(get("title").trim() && get("title").trim() !== orig.title) ed.title = get("title").trim();
+      const area = get("area");
+      if(area !== (orig.area||"")) ed.area = area;
+      const days = parseDays(get("days"));
+      if(JSON.stringify(days) !== JSON.stringify(orig.days||[])) ed.days = days;
+      if(Object.keys(ed).length) ov.edits[id] = ed; else delete ov.edits[id];
+      markDirty(); renderList();
+    }
+  });
+}
+
+$("discard").onclick = () => location.reload();
+$("commit").onclick = async () => {
+  const c = ghCfg();
+  if(!c.token || !c.owner || !c.repo){
+    $("savemsg").innerHTML = '<div class="msg err">Συμπλήρωσε token / owner / repo παραπάνω πρώτα.</div>';
+    return;
+  }
+  $("commit").disabled = true;
+  try{
+    const head = await gh(OV_PATH);
+    if(head.ok) ovSha = (await head.json()).sha;
+    const body = { message: "Admin: update overrides",
+                   content: b64(JSON.stringify(
+                     {removed: ov.removed, edits: ov.edits}, null, 2)) };
+    if(ovSha) body.sha = ovSha;
+    const r = await gh(OV_PATH, {method:"PUT", body: JSON.stringify(body)});
+    if(!r.ok) throw new Error((await r.json()).message || r.status);
+    $("savemsg").innerHTML = '<div class="msg ok">Αποθηκεύτηκε ✓ Η σελίδα ενημερώνεται αμέσως· οι ειδοποιήσεις από την επόμενη εκτέλεση.</div>';
+    $("savebar").classList.remove("on"); dirty = false;
+  }catch(err){
+    $("savemsg").innerHTML = `<div class="msg err">Αποτυχία: ${esc(String(err.message||err))} — έλεγξε token και δικαιώματα (Contents: Read &amp; write).</div>`;
+  }
+  $("commit").disabled = false;
+};
+
+async function init(){
+  const c = ghCfg();
+  $("owner").value = c.owner; $("repo").value = c.repo;
+  if(c.token) $("tok").placeholder = "•••• αποθηκευμένο ••••";
+  try{
+    const d = await (await fetch("data.json?t="+Date.now())).json();
+    const seen = new Set();
+    events = [...(d.closures||[]), ...(d.active_events||[])]
+      .filter(e => e.id && !seen.has(e.id) && seen.add(e.id));
+  }catch(e){ events = []; }
+  try{
+    ov = await (await fetch("overrides.json?t="+Date.now())).json();
+    ov.removed = ov.removed || []; ov.edits = ov.edits || {};
+  }catch(e){ ov = {removed:[], edits:{}}; }
+  renderList();
+}
+window.addEventListener("beforeunload", e => { if(dirty){ e.preventDefault(); } });
+</script>
+</body>
+</html>
