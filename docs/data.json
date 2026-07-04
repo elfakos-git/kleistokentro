@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T10:01:44+00:00",
+  "generated_at": "2026-07-04T13:06:20+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -9,7 +9,7 @@
       "dropped": {},
       "date_misses": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-04T10:01:43+00:00"
+      "last_success": "2026-07-04T13:06:20+00:00"
     },
     {
       "name": "diavgeia",
@@ -17,17 +17,18 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99
+        "εκτός θέματος/Αθήνας": 98,
+        "εκτός χρονικού παραθύρου": 1
       },
       "date_misses": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-04T10:01:43+00:00"
+      "last_success": "2026-07-04T13:06:20+00:00"
     },
     {
       "name": "iefimerida",
       "ok": false,
       "items": 0,
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_success": null
     },
     {
@@ -38,13 +39,13 @@
       "dropped": {},
       "date_misses": 5,
       "consecutive_failures": 0,
-      "last_success": "2026-07-04T10:01:43+00:00"
+      "last_success": "2026-07-04T13:06:20+00:00"
     },
     {
       "name": "tomtom",
       "ok": false,
       "items": 0,
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_success": null
     }
   ],
@@ -59,7 +60,7 @@
       "days": [
         "2026-07-05"
       ],
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.kathimerini.gr/society/564312118/metro-kykloforiakes-rythmiseis-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera/",
@@ -338,6 +339,12 @@
     },
     {
       "time": "2026-07-04T10:01:44+00:00",
+      "new": 0,
+      "sources_ok": 3,
+      "sources_total": 5
+    },
+    {
+      "time": "2026-07-04T13:06:20+00:00",
       "new": 0,
       "sources_ok": 3,
       "sources_total": 5
