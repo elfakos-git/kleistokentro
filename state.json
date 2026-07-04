@@ -22,7 +22,7 @@
       "name": "tomtom",
       "ok": false,
       "items": 0,
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_success": null
     },
     "astynomia": {
@@ -203,6 +203,12 @@
     },
     {
       "time": "2026-07-04T18:49:33+00:00",
+      "new": 0,
+      "sources_ok": 0,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-04T20:02:35+00:00",
       "new": 0,
       "sources_ok": 0,
       "sources_total": 1
