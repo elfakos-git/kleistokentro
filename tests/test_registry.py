@@ -11,12 +11,17 @@ from sources import Event
 
 sent = []
 fake = types.ModuleType('notify')
-fake.send = lambda t: sent.append(t)
+fake.send = lambda t, chat_id=None: sent.append(t)
 fake.format_event = lambda e: f"{e.source}: {e.title}"
+fake.format_urgent = lambda c, today: f"URGENT {c['title']} 📍 {c.get('area','')}"
+fake.format_digest = lambda entries, start, lookahead, today: "DIGEST"
 sys.modules['notify'] = fake
 
 import importlib, monitor
 importlib.reload(monitor)
+SUBS = Path('t_subs.json')
+SUBS.write_text('[{"chat_id": "u1", "urgent_days": 10, "digest_hour": null}]')
+monitor.SUBSCRIBERS_FILE = SUBS
 STATE, DOCS = Path('t_state.json'), Path('t_docs')
 monitor.STATE_FILE = STATE
 monitor.DASHBOARD_FILE = DOCS / 'data.json'
@@ -49,7 +54,7 @@ def run():
     monitor.main([])
     d = dash()
     assert len(sent) == 1 and long_ev.title in sent[0], sent
-    assert '📍 Κέντρο' in sent[0]   # Σταδίου → geo tag rides along
+    assert sent[0].startswith('URGENT')   # dated → urgent tier now
     assert [c['title'] for c in d['closures']] == [long_ev.title]
     assert len(d['closures'][0]['days']) == 38
     titles_active = [e['title'] for e in d['active_events']]
@@ -77,7 +82,7 @@ def run():
     st = json.loads(STATE.read_text())
     assert len(st['closures']) == 300, len(st['closures'])
 
-    STATE.unlink(); shutil.rmtree(DOCS)
+    STATE.unlink(); SUBS.unlink(); shutil.rmtree(DOCS)
     print("ALL REGISTRY TESTS PASSED (event-date retention, both directions)")
 
 if __name__ == "__main__":

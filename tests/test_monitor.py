@@ -11,7 +11,7 @@ from sources import Event
 
 sent, broken = [], {"down": False}
 fake = types.ModuleType('notify')
-def _send(t):
+def _send(t, chat_id=None):
     if broken["down"]:
         raise RuntimeError("telegram down")
     sent.append(t)
@@ -26,6 +26,9 @@ def boom():
 
 import importlib, monitor
 importlib.reload(monitor)
+SUBS = Path('t_subs.json')
+SUBS.write_text('[{"chat_id": "admin", "digest_hour": null}]')
+monitor.SUBSCRIBERS_FILE = SUBS
 STATE, DOCS = Path('t_state.json'), Path('t_docs')
 monitor.STATE_FILE = STATE
 monitor.DASHBOARD_FILE = DOCS / 'data.json'
@@ -99,7 +102,7 @@ def run():
     st = monitor.load_state()
     assert set(st['seeded']) == set(monitor.SOURCES) and 'failures' not in st
 
-    STATE.unlink(); shutil.rmtree(DOCS)
+    STATE.unlink(); SUBS.unlink(); shutil.rmtree(DOCS)
     print("ALL MONITOR TESTS PASSED (8 scenarios)")
 
 if __name__ == "__main__":

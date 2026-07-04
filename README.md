@@ -151,6 +151,69 @@ environment — see the module docstring for the Windows command).
 Offline tests: `python tests/test_tomtom.py`.
 
 
+
+## Subscribers & notification settings (multi-user)
+
+The monitor gathers everything centrally; each subscriber is notified
+according to their own settings. Two tiers per user:
+
+- 🚨 **Urgent** — sent the moment an event enters that user's urgency
+  window (`urgent_days` before its first day), if it matches their
+  areas. Events announced weeks ahead still alert each user when they
+  become imminent. Exactly once per user. The message always says how
+  soon: ΣΗΜΕΡΑ / ΑΥΡΙΟ / σε Ν ημέρες / ΣΕ ΕΞΕΛΙΞΗ.
+- 🗓 **Daily digest** — one summary at the user's chosen Athens hour,
+  covering their areas over their lookahead window. Evening digests
+  (hour ≥ 18) start from TOMORROW — at night, today is stale news.
+- 🚧 Undated announcements notify matching users immediately.
+
+Configure in `subscribers.json` (copy `subscribers.example.json`):
+
+    [
+      {"name": "Alex",  "chat_id": "123456789",
+       "areas": ["Κέντρο", "Βόρεια"],
+       "urgent_days": 2, "digest_hour": 8,  "digest_lookahead_days": 7},
+      {"name": "Maria", "chat_id": "987654321",
+       "areas": ["Νότια"],
+       "urgent_days": 1, "digest_hour": 21, "digest_lookahead_days": 3}
+    ]
+
+Field notes: `areas` from {Κέντρο, Βόρεια, Δυτικά, Νότια, Ανατολικά};
+empty list = everywhere. Events without a recognized area go to
+EVERYONE (a miss is worse than noise). `digest_hour` is Athens time,
+null disables the digest. Each new person: they message the bot once,
+you read their chat id from getUpdates (see Telegram setup), add an
+entry, commit. New subscribers are onboarded silently — no backlog.
+
+**Privacy on a public repo:** chat ids in `subscribers.json` are
+publicly visible (harmless without the bot token, but they are
+identifiers). To keep them private, put the same JSON into a repo
+secret named `SUBSCRIBERS_JSON` instead and pass it in both workflow
+files under `env:` — the secret takes priority over the file.
+
+If neither exists, the system falls back to single-user mode
+(TELEGRAM_CHAT_ID with default settings) — existing deployments keep
+working unchanged. System warnings (source failures, flood guard)
+always go to the admin chat (TELEGRAM_CHAT_ID).
+
+
+### astynomia policy v2 (retuned on production data)
+
+The remarks column proved to be mostly congestion-extent text, so the
+bulletin now produces only two kinds of event: (1) remarks containing a
+genuine disruption keyword (closure, demonstration, accident, works...)
+— always kept; (2) "Πολύ Αυξημένη" OUTSIDE weekday rush windows
+(07:00–10:30, 16:30–20:30) or anytime on weekends — congestion that
+time-of-day can't explain, notified at most once per road per day.
+Rush-hour heavy traffic is suppressed as expected state. Verify level
+detection with `python -m sources.astynomia` (prints per-row decisions
+with reasons); offline tests: `python tests/test_astynomia.py`.
+
+The dashboard also distinguishes duration: events spanning ≥4 days
+(long works) are shown subdued in amber — in the calendar (bottom-left
+badge) and as ⏳ tagged cards sorted below short events — so a one-day
+marathon closure never drowns under a three-month roadworks project.
+
 ## Dashboard (GitHub Pages)
 
 Every run also writes `docs/data.json` — a full snapshot of everything the

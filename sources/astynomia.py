@@ -1,25 +1,37 @@
 """astynomia.gr — Attica traffic bulletin (live table, not an event log).
 
-Design decisions (see README):
-  * We notify on the ΕΠΙΣΗΜΑΝΣΕΙΣ (remarks) column — closures,
-    demonstrations, incidents. These are genuine disruptions that
-    persist for hours, so a 4-hour poll catches them meaningfully.
-  * Congestion level (Ομαλή / Αυξημένη / Πολύ Αυξημένη) is included as
-    CONTEXT inside a remark notification, never as a trigger on its own:
-    congestion is transient state and would be stale at this cadence.
-  * STALENESS GUARD: the page carries a "Τελευταία Ενημέρωση" timestamp
-    and has been observed to go a week without updates. If the bulletin
-    is older than MAX_STALENESS_HOURS we return nothing — old data is
-    worse than no data.
-  * Event identity = hash(road + remark text). The same remark seen on
-    consecutive runs produces the same ID, so you're notified once.
-    If the remark text is edited, that's a new event — acceptable.
+POLICY (v2 — retuned on production data)
+  The first live weeks proved the ΕΠΙΣΗΜΑΝΣΕΙΣ column is mostly
+  congestion-extent text ("ΑΠΟ ΣΚΑΡΑΜΑΓΚΑ ΕΩΣ ΔΙΥΛΙΣΤΗΡΙΑ"), i.e.
+  traffic state, not disruption events. The bulletin now feeds two
+  DISTINCT kinds of event, everything else is ignored:
 
-VERIFY BEFORE FIRST USE: the exact HTML of the status markers could not
-be confirmed at design time. Run `python -m sources.astynomia` locally;
-if roads/remarks print correctly you're done. If not, adjust the two
-marked selectors below (instructions in README, section "If a parser
-breaks").
+  1. GENUINE DISRUPTIONS — a remark containing a disruption keyword
+     (closure, demonstration, accident, works, diversion...). Always
+     kept, whatever the congestion level.
+     Identity: hash(road + remark) → notified once per remark text.
+
+  2. CONGESTION ANOMALIES — a row at "Πολύ Αυξημένη" OUTSIDE typical
+     rush windows. Rush-hour heavy traffic on the big arteries is
+     weather, not news; the SAME level at 14:00 or on a Sunday means
+     something is actually wrong. This is the "verify it's not just
+     heavy traffic" test: TIME explains ordinary congestion, so
+     congestion that time can't explain is the signal.
+       Rush windows (Athens time): weekdays 07:00–10:30 & 16:30–20:30.
+       Weekends have no expected rush → any Πολύ Αυξημένη qualifies.
+     Identity: hash(road + level + bulletin date) → at most one
+     notification per road per day, and it can fire again tomorrow.
+
+  Rows at Ομαλή/Αυξημένη without a disruption keyword: ignored.
+
+  STALENESS GUARD unchanged: bulletins older than MAX_STALENESS_HOURS
+  are treated as no data.
+
+VERIFY LOCALLY (the level markers are graphics; detection is best-
+effort across text, classes, images and inputs — SELECTOR 1 below):
+  python -m sources.astynomia          # decisions per row, with reasons
+If levels print as '?' on a fresh bulletin, open the page in Chrome,
+inspect a row, and extend _row_level (README: "If a parser breaks").
 """
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
@@ -37,16 +49,35 @@ ATHENS_TZ = ZoneInfo("Europe/Athens")
 
 LEVELS = ["Πολύ Αυξημένη", "Αυξημένη", "Ομαλή"]  # order matters (substring!)
 
-# Remarks that ONLY describe the extent of congestion ("ΑΠΟ ΑΧΑΡΝΩΝ ΕΩΣ
-# ΦΙΛΑΔΕΛΦΕΙΑ") are congestion state, not disruption events — the live
-# bulletin proved these churn as traffic ebbs, which would ping you
-# about nothing. Closures/demonstrations/incidents never match this
-# shape, so they still notify.
+# Words that make a remark a real disruption event (stems, accentless).
+DISRUPTION_RE = re.compile(
+    "|".join(["κλειστ", "διακοπ", "πορει", "συγκεντρωσ", "απεργ",
+              "εκδηλωσ", "εργασι", "τροχαι", "ατυχημ", "παρελασ",
+              "αγων", "εκτροπ", "απαγορευσ", "καθυστερησ.*λογω"]))
+
+# Pure congestion-extent remarks — state, never a standalone event.
 EXTENT_RE = re.compile(r"^απ[οό]\s+\S.*\s+[εέ]ως\s+\S.*$")
+
+# Weekday rush windows, Athens time, as (start_h, start_m, end_h, end_m).
+RUSH_WINDOWS = [(7, 0, 10, 30), (16, 30, 20, 30)]
+
 UPDATE_RE = re.compile(
     r"Τελευταία\s+Ενημέρωση[:\s]*"
     r"(\d{2})/(\d{2})/(\d{4})\s*[–—-]\s*(\d{1,2})[:.](\d{2})"
 )
+
+
+def _athens_now() -> datetime:
+    """Patchable in tests."""
+    return datetime.now(ATHENS_TZ)
+
+
+def _is_rush(now: datetime) -> bool:
+    if now.weekday() >= 5:                    # weekend: no expected rush
+        return False
+    minutes = now.hour * 60 + now.minute
+    return any(sh * 60 + sm <= minutes <= eh * 60 + em
+               for sh, sm, eh, em in RUSH_WINDOWS)
 
 
 def _bulletin_time(text: str):
@@ -59,24 +90,70 @@ def _bulletin_time(text: str):
 
 def _row_level(row) -> str:
     """Detect the congestion level of a table row.  <-- SELECTOR 1
-    Tries, in order: visible text, class names, checked inputs."""
+    Tries: visible text, class names, image src/alt/title, checked
+    inputs, inline style colors."""
     text = row.get_text(" ", strip=True)
     for level in LEVELS:
         if level in text:
             return level
-    classes = " ".join(
-        c for tag in row.find_all(True) for c in (tag.get("class") or [])
-    ).lower()
-    if "red" in classes or "poli" in classes or "high" in classes:
+    hints = []
+    for tag in row.find_all(True):
+        hints.extend(tag.get("class") or [])
+        for attr in ("src", "alt", "title", "value", "id", "style"):
+            v = tag.get(attr)
+            if v:
+                hints.append(str(v))
+    blob = " ".join(hints).lower()
+    if any(k in blob for k in ("red", "kokkino", "poli", "high", "f00",
+                               "ff0000", "level3", "level-3")):
         return "Πολύ Αυξημένη"
-    if "orange" in classes or "yellow" in classes or "medium" in classes:
+    if any(k in blob for k in ("orange", "yellow", "portokali", "medium",
+                               "level2", "level-2")):
         return "Αυξημένη"
     checked = row.find("input", checked=True)
-    if checked:
-        val = (checked.get("value") or checked.get("id") or "").lower()
-        if "poli" in val or "3" in val:
-            return "Πολύ Αυξημένη"
+    if checked and "3" in str(checked.get("value") or checked.get("id") or ""):
+        return "Πολύ Αυξημένη"
     return ""
+
+
+def _classify(road: str, remark: str, level: str, now: datetime):
+    """(kind, event|None) for one row. kind is one of
+    'disruption' / 'anomaly' / 'skip:<reason>' — the debug runner
+    prints it so tuning needs no code-reading."""
+    norm_remark = norm_greek(remark)
+    meaningful = len(remark) >= 6 and remark not in LEVELS
+    if meaningful and DISRUPTION_RE.search(norm_remark) \
+            and not EXTENT_RE.match(norm_remark):
+        details = remark
+        if level:
+            details += f"\nΚίνηση αυτή τη στιγμή: {level}"
+        return "disruption", Event(id=stable_id(road, remark),
+                                   source=SOURCE, title=road,
+                                   url=URL, details=details)
+    if level == "Πολύ Αυξημένη":
+        if _is_rush(now):
+            return "skip: rush-hour congestion (expected)", None
+        details = "Ασυνήθιστα βεβαρυμένη κίνηση εκτός ωρών αιχμής"
+        if meaningful:
+            details += f"\n{remark}"
+        return "anomaly", Event(
+            id=stable_id(road, "πολύ αυξημένη", now.date().isoformat()),
+            source=SOURCE, title=road, url=URL, details=details)
+    if level:
+        return f"skip: level '{level}'", None
+    return "skip: no level detected, no disruption keyword", None
+
+
+def _rows(soup):
+    for row in soup.find_all("tr"):                   # <-- SELECTOR 2
+        cells = row.find_all(["td", "th"])
+        if len(cells) < 2:
+            continue
+        road = cells[0].get_text(" ", strip=True)
+        remark = cells[-1].get_text(" ", strip=True)
+        if not road or road.upper().startswith(("ΟΔΙΚ", "ΑΞΟΝ", "ΔΡΟΜ")):
+            continue
+        yield road, remark, _row_level(row)
 
 
 def fetch() -> list[Event]:
@@ -89,43 +166,35 @@ def fetch() -> list[Event]:
 
     updated = _bulletin_time(page_text)
     if updated is None:
-        # Timestamp gone → page layout changed. Fail loudly so the
-        # consecutive-failure alert fires instead of silently rotting.
         raise RuntimeError("astynomia: 'Τελευταία Ενημέρωση' not found — layout changed?")
-    if datetime.now(ATHENS_TZ) - updated > timedelta(hours=MAX_STALENESS_HOURS):
+    now = _athens_now()
+    if now - updated > timedelta(hours=MAX_STALENESS_HOURS):
         return []  # stale bulletin: valid situation, report nothing
 
-    events = []
-    for row in soup.find_all("tr"):                       # <-- SELECTOR 2
-        cells = row.find_all(["td", "th"])
-        if len(cells) < 2:
-            continue
-        road = cells[0].get_text(" ", strip=True)
-        remark = cells[-1].get_text(" ", strip=True)
-        # Skip header rows and rows without a meaningful remark.
-        if not road or road.upper().startswith(("ΟΔΙΚ", "ΑΞΟΝ", "ΔΡΟΜ")):
-            continue
-        if not remark or remark in LEVELS or len(remark) < 10:
-            continue
-        if EXTENT_RE.match(norm_greek(remark)):
-            continue                        # congestion extent, not an event
-
-        level = _row_level(row)
-        details = remark if not level else f"{remark}\nΚίνηση αυτή τη στιγμή: {level}"
-        events.append(Event(
-            id=stable_id(road, remark),
-            source=SOURCE,
-            title=road,
-            url=URL,
-            details=details,
-        ))
+    events, rows_seen, levels_seen = [], 0, 0
+    for road, remark, level in _rows(soup):
+        rows_seen += 1
+        levels_seen += bool(level)
+        _, ev = _classify(road, remark, level, now)
+        if ev:
+            events.append(ev)
+    if rows_seen >= 5 and levels_seen == 0:
+        # Fresh bulletin, plenty of rows, zero detected levels: the
+        # anomaly layer is blind. Not fatal (keyword layer still works)
+        # but must be visible in the logs, not silent.
+        print("astynomia WARNING: no congestion levels detected on a "
+              "fresh bulletin — check SELECTOR 1 (_row_level)")
     return events
 
 
 if __name__ == "__main__":  # manual check: python -m sources.astynomia
-    evs = fetch()
-    if not evs:
-        print("No active remarks (or bulletin is stale). "
-              "Check the page in a browser to confirm parsing is correct.")
-    for e in evs:
-        print(f"- {e.title}\n  {e.details}\n")
+    soup = BeautifulSoup(get(URL, extra_headers={
+        "Referer": "https://www.astynomia.gr/"}).text, "html.parser")
+    updated = _bulletin_time(soup.get_text(" ", strip=True))
+    now = _athens_now()
+    print(f"Bulletin: {updated}   now: {now:%Y-%m-%d %H:%M}   "
+          f"rush-hour: {_is_rush(now)}\n")
+    for road, remark, level in _rows(soup):
+        kind, _ = _classify(road, remark, level, now)
+        print(f"[{kind:<45}] {road[:38]:<40} lvl={level or '?':<14} "
+              f"{remark[:45]}")
