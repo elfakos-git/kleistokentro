@@ -1,24 +1,17 @@
 {
-  "seen": [],
-  "seeded": [],
-  "source_status": {
-    "tomtom": {
+  "generated_at": "2026-07-04T17:50:09+00:00",
+  "sources": [
+    {
       "name": "tomtom",
       "ok": false,
       "items": 0,
       "consecutive_failures": 1,
       "last_success": null
     }
-  },
-  "active": {},
-  "closures": {},
-  "known_chats": [
-    "151797168"
   ],
-  "digests": {
-    "151797168": "2026-07-04"
-  },
-  "notifications": [
+  "active_events": [],
+  "closures": [],
+  "recent_notifications": [
     {
       "time": "2026-07-04T17:50:09+00:00",
       "source": "Ενημέρωση",
