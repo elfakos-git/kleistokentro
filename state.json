@@ -39,7 +39,7 @@
       },
       "date_misses": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-05T13:15:13+00:00"
+      "last_success": "2026-07-05T14:22:49+00:00"
     },
     "astynomia": {
       "name": "astynomia",
@@ -581,6 +581,12 @@
       "new": 0,
       "sources_ok": 4,
       "sources_total": 5
+    },
+    {
+      "time": "2026-07-05T14:22:49+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
