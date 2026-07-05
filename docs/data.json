@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T02:24:26+00:00",
+  "generated_at": "2026-07-05T06:27:31+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -46,7 +46,7 @@
       "name": "tomtom",
       "ok": false,
       "items": 0,
-      "consecutive_failures": 9,
+      "consecutive_failures": 10,
       "last_success": null
     }
   ],
@@ -155,6 +155,12 @@
   "closures": [],
   "recent_notifications": [
     {
+      "time": "2026-07-05T06:27:31+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
+    {
       "time": "2026-07-04T17:50:09+00:00",
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
@@ -215,6 +221,12 @@
       "new": 0,
       "sources_ok": 3,
       "sources_total": 5
+    },
+    {
+      "time": "2026-07-05T06:27:31+00:00",
+      "new": 0,
+      "sources_ok": 0,
+      "sources_total": 1
     }
   ]
 }
