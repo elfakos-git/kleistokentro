@@ -22,7 +22,7 @@
       "name": "tomtom",
       "ok": false,
       "items": 0,
-      "consecutive_failures": 10,
+      "consecutive_failures": 11,
       "last_success": null
     },
     "astynomia": {
@@ -33,7 +33,7 @@
       "dropped": {},
       "date_misses": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-05T02:24:26+00:00"
+      "last_success": "2026-07-05T07:18:41+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -47,13 +47,13 @@
       },
       "date_misses": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-05T02:24:26+00:00"
+      "last_success": "2026-07-05T07:18:41+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": false,
       "items": 0,
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_success": null
     },
     "kathimerini": {
@@ -64,7 +64,7 @@
       "dropped": {},
       "date_misses": 5,
       "consecutive_failures": 0,
-      "last_success": "2026-07-05T02:24:26+00:00"
+      "last_success": "2026-07-05T07:18:41+00:00"
     }
   },
   "active": {
@@ -254,6 +254,12 @@
       "new": 0,
       "sources_ok": 0,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-05T07:18:41+00:00",
+      "new": 0,
+      "sources_ok": 3,
+      "sources_total": 5
     }
   ]
 }
