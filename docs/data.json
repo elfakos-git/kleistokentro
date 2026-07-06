@@ -1,0 +1,561 @@
+{
+  "generated_at": "2026-07-06T08:18:03+00:00",
+  "sources": [
+    {
+      "name": "astynomia",
+      "ok": true,
+      "items": 1,
+      "fetched": 54,
+      "dropped": {
+        "no level detected, no disruption keyword": 53
+      },
+      "date_misses": 0,
+      "body_enriched": 0,
+      "consecutive_failures": 0,
+      "last_success": "2026-07-06T08:17:56+00:00"
+    },
+    {
+      "name": "diavgeia",
+      "ok": true,
+      "items": 0,
+      "fetched": 100,
+      "dropped": {
+        "εκτός θέματος/Αθήνας": 100
+      },
+      "date_misses": 0,
+      "body_enriched": 0,
+      "consecutive_failures": 0,
+      "last_success": "2026-07-06T08:17:56+00:00"
+    },
+    {
+      "name": "iefimerida",
+      "ok": true,
+      "items": 0,
+      "fetched": 11,
+      "dropped": {
+        "άλλη περιοχή": 1,
+        "χωρίς/παλιά ημερομηνία": 10
+      },
+      "date_misses": 0,
+      "body_enriched": 0,
+      "consecutive_failures": 0,
+      "last_success": "2026-07-06T08:17:56+00:00"
+    },
+    {
+      "name": "kathimerini",
+      "ok": true,
+      "items": 10,
+      "fetched": 10,
+      "dropped": {},
+      "date_misses": 0,
+      "body_enriched": 2,
+      "consecutive_failures": 0,
+      "last_success": "2026-07-06T08:17:59+00:00"
+    },
+    {
+      "name": "oasa",
+      "ok": true,
+      "items": 1,
+      "fetched": 11,
+      "dropped": {
+        "παλιά ανακοίνωση": 4,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6
+      },
+      "date_misses": 0,
+      "body_enriched": 0,
+      "consecutive_failures": 0,
+      "last_success": "2026-07-06T08:17:59+00:00"
+    },
+    {
+      "name": "tomtom",
+      "ok": true,
+      "items": 10,
+      "fetched": 27,
+      "dropped": {
+        "κατηγορία εκτός πολιτικής": 17
+      },
+      "date_misses": 0,
+      "body_enriched": 0,
+      "consecutive_failures": 0,
+      "last_success": "2026-07-06T08:17:59+00:00"
+    }
+  ],
+  "active_events": [
+    {
+      "id": "dfde1e3acc1aa20d",
+      "source": "Τροχαία (astynomia.gr)",
+      "title": "Ομαλή",
+      "url": "https://www.astynomia.gr/kykloforia-stous-dromous/deltio-kykloforias-attiki/",
+      "details": "Ασυνήθιστα βεβαρυμένη κίνηση εκτός ωρών αιχμής",
+      "area": "",
+      "days": [
+        "2026-07-06"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564312118/metro-kykloforiakes-rythmiseis-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera/",
+      "source": "kathimerini",
+      "title": "Μετρό: Κυκλοφοριακές ρυθμίσεις στη «μπλε» γραμμή – Ποιοι σταθμοί θα κλείνουν νωρίτερα",
+      "url": "https://www.kathimerini.gr/society/564312118/metro-kykloforiakes-rythmiseis-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2027-06-28"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564306166/elliniko-kykloforiakes-rythmiseis-gia-to-eco-rally-acropolis/",
+      "source": "kathimerini",
+      "title": "Ελληνικό: Κυκλοφοριακές ρυθμίσεις για το Εco Rally Acropolis",
+      "url": "https://www.kathimerini.gr/society/564306166/elliniko-kykloforiakes-rythmiseis-gia-to-eco-rally-acropolis/",
+      "details": "",
+      "area": "Νότια",
+      "days": [],
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
+      "source": "kathimerini",
+      "title": "Κυκλοφοριακές ρυθμίσεις στο Ελληνικό την Πέμπτη για το EKO Rally Acropolis",
+      "url": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
+      "details": "",
+      "area": "Νότια",
+      "days": [
+        "2027-06-25"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564291292/athina-kleistoi-dromoi-tin-triti-23-6-logo-agonon-dromoy/",
+      "source": "kathimerini",
+      "title": "Αθήνα: Κλειστοί δρόμοι την Τρίτη 23/6 λόγω αγώνων δρόμου",
+      "url": "https://www.kathimerini.gr/society/564291292/athina-kleistoi-dromoi-tin-triti-23-6-logo-agonon-dromoy/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2027-06-23"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564276574/thessaloniki-kykloforiakes-rythmiseis-logo-flyover/",
+      "source": "kathimerini",
+      "title": "Τα έκτακτα μέτρα θα εφαρμοστούν έως τις πέντε το πρωί της Πέμπτης καθώς επίσης και το βράδυ της Παρασκευής.",
+      "url": "https://www.kathimerini.gr/society/564276574/thessaloniki-kykloforiakes-rythmiseis-logo-flyover/",
+      "details": "",
+      "area": "",
+      "days": [],
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564270133/kykloforiakes-rythmiseis-logo-tis-diexagogis-toy-6oy-agona-run-bike-care/",
+      "source": "kathimerini",
+      "title": "Κλειστό το κέντρο της Αθήνας έως τις 12:00 λόγω της διεξαγωγής του «6ου Αγώνα Run Bike Care»",
+      "url": "https://www.kathimerini.gr/society/564270133/kykloforiakes-rythmiseis-logo-tis-diexagogis-toy-6oy-agona-run-bike-care/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [],
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564263236/kykloforiakes-rythmiseis-stis-6-ioynioy-sto-kentro-tis-athinas/",
+      "source": "kathimerini",
+      "title": "Kυκλοφοριακές ρυθμίσεις στις 6 Ιουνίου στο κέντρο της Αθήνας",
+      "url": "https://www.kathimerini.gr/society/564263236/kykloforiakes-rythmiseis-stis-6-ioynioy-sto-kentro-tis-athinas/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2027-06-06"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564255967/notia-proastia-kykloforiakes-rythmiseis-stis-30-ma-oy-logo-podilatikoy-agona/",
+      "source": "kathimerini",
+      "title": "Νότια προάστια: Κυκλοφοριακές ρυθμίσεις στις 30 Μαΐου λόγω ποδηλατικού αγώνα",
+      "url": "https://www.kathimerini.gr/society/564255967/notia-proastia-kykloforiakes-rythmiseis-stis-30-ma-oy-logo-podilatikoy-agona/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2027-05-30"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564253891/kykloforiakes-rythmiseis-sti-leoforo-syggroy-stis-2-kai-3-ioynioy/",
+      "source": "kathimerini",
+      "title": "Κυκλοφοριακές ρυθμίσεις στη λεωφόρο Συγγρού στις 2 και 3 Ιουνίου",
+      "url": "https://www.kathimerini.gr/society/564253891/kykloforiakes-rythmiseis-sti-leoforo-syggroy-stis-2-kai-3-ioynioy/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2027-06-02",
+        "2027-06-03"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564251338/kykloforiakes-rythmiseis-sti-leoforo-kifisias-stis-30-kai-31-ma-oy/",
+      "source": "kathimerini",
+      "title": "Κυκλοφοριακές ρυθμίσεις στη λεωφόρο Κηφισίας στις 30 και 31 Μαΐου",
+      "url": "https://www.kathimerini.gr/society/564251338/kykloforiakes-rythmiseis-sti-leoforo-kifisias-stis-30-kai-31-ma-oy/",
+      "details": "",
+      "area": "Βόρεια",
+      "days": [
+        "2027-05-30",
+        "2027-05-31"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-268/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 837, λόγω εργασιών στην οδό ΣΤΕΦΑΝΟΥ ΣΑΡΑΦΗ μεταξύ των οδών Μ. Αλεξάνδρου και Κρήτης του Δήμου ΑΓΙΑΣ ΒΑΡΒΑΡΑΣ",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-268/",
+      "details": "",
+      "area": "",
+      "days": [],
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51574092528022000",
+      "source": "TomTom (realtime)",
+      "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
+      "url": "https://www.google.com/maps?q=37.9774685794,23.6918153995",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Δυτικά",
+      "days": [
+        "2026-07-06"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51600061312021000",
+      "source": "TomTom (realtime)",
+      "title": "Evripidou (Dimosthenous) → Tagmatarchou Plessa (Dimosthenous)",
+      "url": "https://www.google.com/maps?q=37.9444881187,23.6941207581",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Δυτικά",
+      "days": [
+        "2026-07-06"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51600061388004000",
+      "source": "TomTom (realtime)",
+      "title": "Megistis (Diranis) → Athinas (Diranis)",
+      "url": "https://www.google.com/maps?q=37.9465708424,23.7017087274",
+      "details": "Κλειστός δρόμος — Κλειστό; Οδικά έργα",
+      "area": "Νότια",
+      "days": [
+        "2026-07-06"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51568321972030001",
+      "source": "TomTom (realtime)",
+      "title": "Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
+      "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Βόρεια",
+      "days": [
+        "2026-07-06"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51582749080021000",
+      "source": "TomTom (realtime)",
+      "title": "Athinas (Evripidou) → Praxitelous (Evripidou)",
+      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-06"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51579863732014000",
+      "source": "TomTom (realtime)",
+      "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
+      "url": "https://www.google.com/maps?q=37.990176883,23.7386937076",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-06"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594290660014001",
+      "source": "TomTom (realtime)",
+      "title": "Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
+      "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-06"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594290912011001",
+      "source": "TomTom (realtime)",
+      "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
+      "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-06"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594291004012000",
+      "source": "TomTom (realtime)",
+      "title": "Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
+      "url": "https://www.google.com/maps?q=37.9818740999,23.769882434",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-07-06"
+      ],
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594291000004000",
+      "source": "TomTom (realtime)",
+      "title": "Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
+      "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-07-06"
+      ],
+      "new_this_run": false
+    }
+  ],
+  "closures": [
+    {
+      "id": "dfde1e3acc1aa20d",
+      "source": "Τροχαία (astynomia.gr)",
+      "title": "Ομαλή",
+      "url": "https://www.astynomia.gr/kykloforia-stous-dromous/deltio-kykloforias-attiki/",
+      "details": "Ασυνήθιστα βεβαρυμένη κίνηση εκτός ωρών αιχμής",
+      "area": "",
+      "days": [
+        "2026-07-06"
+      ]
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51574092528022000",
+      "source": "TomTom (realtime)",
+      "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
+      "url": "https://www.google.com/maps?q=37.9774685794,23.6918153995",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Δυτικά",
+      "days": [
+        "2026-07-06"
+      ]
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51600061312021000",
+      "source": "TomTom (realtime)",
+      "title": "Evripidou (Dimosthenous) → Tagmatarchou Plessa (Dimosthenous)",
+      "url": "https://www.google.com/maps?q=37.9444881187,23.6941207581",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Δυτικά",
+      "days": [
+        "2026-07-06"
+      ]
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51600061388004000",
+      "source": "TomTom (realtime)",
+      "title": "Megistis (Diranis) → Athinas (Diranis)",
+      "url": "https://www.google.com/maps?q=37.9465708424,23.7017087274",
+      "details": "Κλειστός δρόμος — Κλειστό; Οδικά έργα",
+      "area": "Νότια",
+      "days": [
+        "2026-07-06"
+      ]
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51568321972030001",
+      "source": "TomTom (realtime)",
+      "title": "Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
+      "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Βόρεια",
+      "days": [
+        "2026-07-06"
+      ]
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51582749080021000",
+      "source": "TomTom (realtime)",
+      "title": "Athinas (Evripidou) → Praxitelous (Evripidou)",
+      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-06"
+      ]
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51579863732014000",
+      "source": "TomTom (realtime)",
+      "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
+      "url": "https://www.google.com/maps?q=37.990176883,23.7386937076",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-06"
+      ]
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594290660014001",
+      "source": "TomTom (realtime)",
+      "title": "Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
+      "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-06"
+      ]
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594290912011001",
+      "source": "TomTom (realtime)",
+      "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
+      "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-06"
+      ]
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594291004012000",
+      "source": "TomTom (realtime)",
+      "title": "Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
+      "url": "https://www.google.com/maps?q=37.9818740999,23.769882434",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-07-06"
+      ]
+    },
+    {
+      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594291000004000",
+      "source": "TomTom (realtime)",
+      "title": "Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
+      "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-07-06"
+      ]
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564255967/notia-proastia-kykloforiakes-rythmiseis-stis-30-ma-oy-logo-podilatikoy-agona/",
+      "source": "kathimerini",
+      "title": "Νότια προάστια: Κυκλοφοριακές ρυθμίσεις στις 30 Μαΐου λόγω ποδηλατικού αγώνα",
+      "url": "https://www.kathimerini.gr/society/564255967/notia-proastia-kykloforiakes-rythmiseis-stis-30-ma-oy-logo-podilatikoy-agona/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2027-05-30"
+      ]
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564251338/kykloforiakes-rythmiseis-sti-leoforo-kifisias-stis-30-kai-31-ma-oy/",
+      "source": "kathimerini",
+      "title": "Κυκλοφοριακές ρυθμίσεις στη λεωφόρο Κηφισίας στις 30 και 31 Μαΐου",
+      "url": "https://www.kathimerini.gr/society/564251338/kykloforiakes-rythmiseis-sti-leoforo-kifisias-stis-30-kai-31-ma-oy/",
+      "details": "",
+      "area": "Βόρεια",
+      "days": [
+        "2027-05-30",
+        "2027-05-31"
+      ]
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564253891/kykloforiakes-rythmiseis-sti-leoforo-syggroy-stis-2-kai-3-ioynioy/",
+      "source": "kathimerini",
+      "title": "Κυκλοφοριακές ρυθμίσεις στη λεωφόρο Συγγρού στις 2 και 3 Ιουνίου",
+      "url": "https://www.kathimerini.gr/society/564253891/kykloforiakes-rythmiseis-sti-leoforo-syggroy-stis-2-kai-3-ioynioy/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2027-06-02",
+        "2027-06-03"
+      ]
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564263236/kykloforiakes-rythmiseis-stis-6-ioynioy-sto-kentro-tis-athinas/",
+      "source": "kathimerini",
+      "title": "Kυκλοφοριακές ρυθμίσεις στις 6 Ιουνίου στο κέντρο της Αθήνας",
+      "url": "https://www.kathimerini.gr/society/564263236/kykloforiakes-rythmiseis-stis-6-ioynioy-sto-kentro-tis-athinas/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2027-06-06"
+      ]
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564291292/athina-kleistoi-dromoi-tin-triti-23-6-logo-agonon-dromoy/",
+      "source": "kathimerini",
+      "title": "Αθήνα: Κλειστοί δρόμοι την Τρίτη 23/6 λόγω αγώνων δρόμου",
+      "url": "https://www.kathimerini.gr/society/564291292/athina-kleistoi-dromoi-tin-triti-23-6-logo-agonon-dromoy/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2027-06-23"
+      ]
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
+      "source": "kathimerini",
+      "title": "Κυκλοφοριακές ρυθμίσεις στο Ελληνικό την Πέμπτη για το EKO Rally Acropolis",
+      "url": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
+      "details": "",
+      "area": "Νότια",
+      "days": [
+        "2027-06-25"
+      ]
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564312118/metro-kykloforiakes-rythmiseis-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera/",
+      "source": "kathimerini",
+      "title": "Μετρό: Κυκλοφοριακές ρυθμίσεις στη «μπλε» γραμμή – Ποιοι σταθμοί θα κλείνουν νωρίτερα",
+      "url": "https://www.kathimerini.gr/society/564312118/metro-kykloforiakes-rythmiseis-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2027-06-28"
+      ]
+    }
+  ],
+  "recent_notifications": [
+    {
+      "time": "2026-07-06T08:18:03+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    }
+  ],
+  "runs": [
+    {
+      "time": "2026-07-06T08:18:03+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
+    }
+  ]
+}
