@@ -3,152 +3,136 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Athens Traffic Monitor</title>
+<title>Κέντρο Αθήνας — Traffic Monitor</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  /* ——— Greek road-signage daylight + the Attiki Odos matrix board ——— */
+  /* ——— Palette: Greek road-signage daylight ———
+     sign blue #0F4C9A · asphalt ink #23272B · paper #EDEFF1
+     clear green #1E7A46 · works amber #DB9A0F · closed red #C0392B */
   :root{
     --blue:#0F4C9A; --blue-deep:#0B3B78; --ink:#23272B; --paper:#EDEFF1;
     --card:#FFFFFF; --line:#D6DADF; --mut:#6A7178;
     --ok:#1E7A46; --warn:#DB9A0F; --alert:#C0392B;
-    --vms-bg:#1A1C1F; --vms-amber:#FFB000;
     --disp:"Barlow Semi Condensed",sans-serif; --body:"Barlow",system-ui,sans-serif;
   }
   *{box-sizing:border-box;margin:0}
   body{background:var(--paper);color:var(--ink);font-family:var(--body);
-       font-size:16px;line-height:1.45;padding:16px;max-width:760px;margin:0 auto}
-  :focus-visible{outline:3px solid var(--blue);outline-offset:2px;border-radius:6px}
+       font-size:16px;line-height:1.45;padding:16px;max-width:1240px;margin:0 auto}
 
-  /* Identity: the blue direction sign */
+  /* Signature: header set as a Greek blue direction sign */
   .sign{background:var(--blue);color:#fff;border-radius:12px;
         border:3px solid #fff;outline:2px solid var(--blue-deep);
         padding:14px 18px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
   .sign h1{font-family:var(--disp);font-weight:700;font-size:1.5rem;
            letter-spacing:.02em;text-transform:uppercase}
   .sign .km{font-family:var(--disp);font-weight:600;opacity:.85;font-size:.95rem}
-  .fresh{color:var(--mut);font-size:.85rem;margin:10px 2px 18px}
 
-  /* SIGNATURE — the ΣΗΜΕΡΑ board, styled as a motorway matrix sign */
-  .vms{background:var(--vms-bg);border-radius:12px;padding:18px 16px 14px;
-       border:3px solid #2A2D31;box-shadow:inset 0 0 40px rgba(0,0,0,.55);
-       background-image:radial-gradient(rgba(255,255,255,.045) 1px, transparent 1.4px);
-       background-size:7px 7px}
-  .vms .lbl{font-family:var(--disp);font-weight:600;font-size:.72rem;color:#8b9096;
-            text-transform:uppercase;letter-spacing:.22em;margin-bottom:8px}
-  .vms .msg{font-family:var(--disp);font-weight:700;text-transform:uppercase;
-            font-size:1.45rem;line-height:1.25;letter-spacing:.07em;
-            color:var(--vms-amber);text-shadow:0 0 9px rgba(255,176,0,.5)}
-  .vms .msg.red{color:#FF5A45;text-shadow:0 0 9px rgba(255,90,69,.5)}
-  .todaylist{margin-top:14px;border-top:1px solid #2E3237;padding-top:6px}
-  .trow{display:flex;gap:10px;align-items:baseline;padding:7px 2px;
-        border-bottom:1px dashed #2E3237;color:#E8EAEC;font-size:.93rem}
-  .trow:last-child{border-bottom:0}
-  .trow .dot{width:9px;height:9px;border-radius:50%;flex:none;position:relative;top:0px}
-  .trow a{color:#E8EAEC;text-decoration:none;font-weight:500}
-  .trow a:hover{text-decoration:underline}
-  .trow .where{color:#9aa0a6;font-size:.8rem;white-space:nowrap}
+  .answer{margin:18px 0 4px;font-family:var(--disp);font-weight:700;
+          font-size:2rem;line-height:1.1;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .lamp{width:18px;height:18px;border-radius:50%;flex:none;
+        box-shadow:inset 0 -2px 3px rgba(0,0,0,.25)}
+  .sub{color:var(--mut);font-size:.9rem;margin-bottom:14px}
 
   h2{font-family:var(--disp);font-weight:600;font-size:.85rem;text-transform:uppercase;
-     letter-spacing:.09em;color:var(--mut);margin:26px 0 10px}
+     letter-spacing:.09em;color:var(--mut);margin:22px 0 10px}
+  h2:first-child{margin-top:0}
+  h2 .count{color:var(--ink);background:var(--line);border-radius:5px;
+            padding:1px 7px;margin-left:6px;font-size:.75rem}
 
-  /* Filters: one labeled panel, applied-state always visible */
-  .filters{background:var(--card);border:1px solid var(--line);border-radius:10px;
-           padding:12px 14px}
-  .filters .frow{display:flex;flex-wrap:wrap;gap:7px;align-items:center}
-  .filters .frow+.frow{margin-top:9px;padding-top:9px;border-top:1px solid var(--paper)}
-  .filters .lbl{font-family:var(--disp);font-weight:600;font-size:.7rem;color:var(--mut);
-                text-transform:uppercase;letter-spacing:.1em;min-width:62px}
-  .chip{font-family:var(--disp);font-weight:600;font-size:.84rem;cursor:pointer;
-        border:1.5px solid var(--line);background:var(--card);color:var(--ink);
-        border-radius:8px;padding:6px 12px;letter-spacing:.03em;user-select:none;
-        min-height:34px}
-  .chip.on{background:var(--blue);border-color:var(--blue-deep);color:#fff}
-  .chip.clear{border-style:dashed;color:var(--alert)}
-  .fstate{margin-top:9px;font-size:.8rem;color:var(--mut)}
+  /* ——— Filters ——— */
+  .filters{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 6px;align-items:center}
+  .filters .lbl{font-family:var(--disp);font-size:.72rem;font-weight:600;
+                text-transform:uppercase;letter-spacing:.07em;color:var(--mut);margin-right:2px}
+  .chip{font-family:var(--disp);font-weight:600;font-size:.82rem;letter-spacing:.02em;
+        background:var(--card);border:1px solid var(--line);color:var(--ink);
+        border-radius:999px;padding:4px 12px;cursor:pointer}
+  .chip[aria-pressed="true"]{background:var(--blue);border-color:var(--blue-deep);color:#fff}
+  .chip:focus-visible{outline:2px solid var(--blue-deep);outline-offset:2px}
+  .fdiv{width:1px;height:20px;background:var(--line);margin:0 6px}
 
+  /* ——— Dashboard grid: main column + system column ——— */
+  .layout{display:grid;gap:0 24px;grid-template-columns:1fr}
+  @media (min-width:960px){
+    .layout{grid-template-columns:minmax(0,1fr) 330px;align-items:start}
+    .side{grid-column:2;grid-row:1;position:sticky;top:16px}
+    .main{grid-column:1;grid-row:1}
+  }
+
+  /* ——— Event cards (main list) ——— */
   .card{background:var(--card);border:1px solid var(--line);border-radius:10px;
         padding:12px 14px;margin-bottom:10px}
   .card.new{border-left:5px solid var(--alert)}
-  .card.long:not(.new){border-left:5px solid var(--warn)}
   .card .src{font-family:var(--disp);font-weight:600;font-size:.78rem;color:var(--blue);
              text-transform:uppercase;letter-spacing:.06em}
   .card .t{font-weight:600;margin:2px 0}
   .card .d{color:var(--mut);font-size:.92rem;white-space:pre-line}
   .card a{color:var(--blue);text-decoration:none;font-size:.9rem}
+  a:focus-visible,.chip:focus-visible{outline:2px solid var(--blue-deep);outline-offset:2px}
   .badge{float:right;background:var(--alert);color:#fff;border-radius:5px;
          font-family:var(--disp);font-size:.72rem;font-weight:700;padding:2px 7px;
-         text-transform:uppercase;letter-spacing:.05em;margin-left:6px}
-  .tags{display:flex;flex-wrap:wrap;gap:5px;margin:6px 0 4px}
-  .tag{font-family:var(--disp);font-weight:600;font-size:.72rem;border-radius:5px;
-       padding:2px 8px;letter-spacing:.04em}
-  .tag.area{background:var(--blue);color:#fff}
-  .tag.long{background:var(--warn);color:#fff}
-  .tag.day{background:var(--paper);border:1px solid var(--line);color:var(--ink);
-           font-variant-numeric:tabular-nums}
+         text-transform:uppercase;letter-spacing:.05em}
+  .tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+  .tag{font-family:var(--disp);font-weight:600;font-size:.72rem;letter-spacing:.04em;
+       border-radius:5px;padding:2px 7px;background:var(--paper);
+       border:1px solid var(--line);color:var(--mut)}
+  .tag.area{color:var(--blue);border-color:var(--blue)}
+  .tag.today{background:var(--alert);border-color:var(--alert);color:#fff}
 
-  /* Calendar */
-  .cal{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px}
-  .cal .grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
-  .cal .wd{font-family:var(--disp);font-weight:600;font-size:.7rem;color:var(--mut);
-           text-align:center;text-transform:uppercase;padding:2px 0}
-  .cal .day{border:1px solid var(--line);border-radius:7px;min-height:46px;padding:3px 5px;
-            font-size:.8rem;color:var(--mut);cursor:default;position:relative;
-            font-variant-numeric:tabular-nums;background:var(--paper)}
-  .cal .day.inmonth{background:var(--card);color:var(--ink)}
-  .cal .day.today{outline:2px solid var(--blue);outline-offset:-1px}
-  .cal .day.has{cursor:pointer}
-  .cal .day .n{position:absolute;right:4px;bottom:3px;background:var(--alert);color:#fff;
-               border-radius:9px;font-family:var(--disp);font-weight:700;font-size:.7rem;
-               min-width:17px;text-align:center;padding:1px 4px}
-  .cal .day .nl{position:absolute;left:4px;bottom:3px;background:var(--warn);color:#fff;
-                border-radius:9px;font-family:var(--disp);font-weight:700;font-size:.7rem;
-                min-width:17px;text-align:center;padding:1px 4px;opacity:.85}
-  .cal .day.sel{background:var(--blue);color:#fff}
-  .cal .day.sel .n{background:#fff;color:var(--alert)}
-  .cal .monthlbl{font-family:var(--disp);font-weight:700;font-size:.9rem;margin:0 0 8px;
-                 display:flex;justify-content:space-between;align-items:center}
-  .cal button{border:1.5px solid var(--line);background:var(--card);border-radius:7px;
-              font-family:var(--disp);font-weight:700;cursor:pointer;padding:4px 12px;
-              font-size:1rem;min-height:34px}
-  .callegend{color:var(--mut);font-size:.78rem;margin-top:7px}
-  .callegend .k{display:inline-block;width:10px;height:10px;border-radius:5px;
-                vertical-align:-1px;margin:0 4px 0 10px}
-  #daylist h2 .x{float:right;cursor:pointer;color:var(--alert);font-size:1rem}
+  /* ——— Realtime strip (TomTom) — temporary-works signage: compact, amber-edged ——— */
+  .rt{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--warn);
+      border-radius:8px;padding:8px 12px;margin-bottom:6px;font-size:.92rem;
+      display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+  .rt .t{font-weight:600;min-width:0}
+  .rt .tag{flex:none}
+  .rt a{color:var(--blue);text-decoration:none;font-size:.85rem;white-space:nowrap;margin-left:auto}
+  .rt .d{color:var(--mut);font-size:.85rem;flex-basis:100%}
 
-  /* Long-running works: grouped, collapsed */
-  details{background:var(--card);border:1px solid var(--line);border-radius:10px;
-          padding:0 14px;margin-bottom:10px}
-  details summary{cursor:pointer;padding:12px 0;font-family:var(--disp);font-weight:600;
-                  font-size:.9rem;list-style:none;display:flex;align-items:center;gap:8px}
-  details summary::before{content:"▸";color:var(--mut);transition:transform .15s}
-  details[open] summary::before{transform:rotate(90deg)}
-  details .inner{padding-bottom:12px}
-  details .inner .card{border-left:5px solid var(--warn);box-shadow:none}
-  .count{background:var(--paper);border:1px solid var(--line);border-radius:9px;
-         font-size:.75rem;padding:1px 8px;color:var(--mut);font-variant-numeric:tabular-nums}
-  .pillh{color:var(--blue);cursor:help;font-size:.8rem}
+  /* ——— System panel ——— */
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:10px;
+         padding:4px 14px 10px;margin-bottom:12px}
+  .panel details{border-top:1px solid var(--line)}
+  .panel details:first-child{border-top:none}
+  .panel summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px;
+                 padding:10px 0;font-family:var(--disp);font-weight:600;font-size:.85rem;
+                 text-transform:uppercase;letter-spacing:.08em;color:var(--mut)}
+  .panel summary::after{content:"▾";margin-left:auto;transition:transform .15s}
+  .panel details:not([open]) summary::after{transform:rotate(-90deg)}
+  .srcrow{display:flex;align-items:baseline;gap:8px;padding:6px 0;font-size:.9rem;
+          border-top:1px dashed var(--line)}
+  .srcrow:first-of-type{border-top:none}
+  .srcrow .lamp{width:11px;height:11px;align-self:center}
+  .srcrow .n{font-weight:600;flex:1;min-width:0}
+  .srcrow .meta{color:var(--mut);font-size:.82rem;white-space:nowrap;
+                font-variant-numeric:tabular-nums}
+  .drops{flex-basis:100%;color:var(--mut);font-size:.78rem;padding-left:19px}
+  .noterow{padding:7px 0;border-top:1px dashed var(--line);font-size:.88rem}
+  .noterow:first-of-type{border-top:none}
+  .noterow .when{font-family:var(--disp);font-size:.75rem;font-weight:600;
+                 text-transform:uppercase;letter-spacing:.05em;color:var(--blue)}
+  .noterow a{color:var(--ink);text-decoration:none}
+  .noterow a:hover{color:var(--blue)}
 
-  table{width:100%;border-collapse:collapse}
-  th,td{padding:9px 6px;text-align:left;font-size:.92rem}
-  th{font-family:var(--disp);font-weight:600;font-size:.75rem;text-transform:uppercase;
-     letter-spacing:.07em;color:var(--mut);border-bottom:1px solid var(--line)}
-  tr+tr td{border-top:1px solid var(--line)}
-  td .lamp{width:11px;height:11px;display:inline-block;border-radius:50%;
-           vertical-align:-1px;margin-right:7px}
-  .num{font-variant-numeric:tabular-nums}
+  /* ——— Calendar ——— */
+  .day{background:var(--card);border:1px solid var(--line);border-radius:10px;
+       padding:10px 14px;margin-bottom:8px}
+  .day .dh{font-family:var(--disp);font-weight:700;font-size:.95rem;
+           text-transform:uppercase;letter-spacing:.04em;display:flex;gap:8px;align-items:baseline}
+  .day .dh .dcount{color:var(--mut);font-weight:600;font-size:.8rem}
+  .day .ci{padding:5px 0 0;font-size:.9rem;display:flex;gap:8px;align-items:baseline}
+  .day .ci a{color:var(--ink);text-decoration:none;min-width:0}
+  .day .ci a:hover{color:var(--blue)}
+  .day .ci.long{color:var(--mut)}
+  .day .ci.long a{color:var(--mut)}
 
   .empty{background:var(--card);border:1px dashed var(--line);border-radius:10px;
          padding:18px;color:var(--mut);text-align:center}
   footer{margin:28px 0 8px;color:var(--mut);font-size:.8rem;text-align:center}
-  .skel{background:linear-gradient(90deg,var(--line),#E4E7EA,var(--line));
-        background-size:200% 100%;border-radius:8px;height:18px;margin:8px 0}
+  footer a{color:var(--mut)}
   @media (prefers-reduced-motion:no-preference){
-    .card{animation:in .25s ease-out both}
+    .card,.rt,.answer{animation:in .25s ease-out both}
     @keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1}}
-    .skel{animation:sh 1.2s linear infinite}
-    @keyframes sh{to{background-position:-200% 0}}
   }
 </style>
 </head>
@@ -157,270 +141,237 @@
   <h1>Κέντρο Αθήνας</h1>
   <span class="km">traffic monitor</span>
 </header>
-<div class="fresh" id="fresh"></div>
 
-<section class="vms" id="vms" aria-live="polite">
-  <div class="lbl" id="vmslbl">Σημερα</div>
-  <div class="msg" id="vmsmsg"><span class="skel" style="display:block;width:70%"></span></div>
-  <div class="todaylist" id="today"></div>
-</section>
+<div class="answer" id="answer"><span class="lamp" style="background:var(--mut)"></span>Φόρτωση…</div>
+<div class="sub" id="checked"></div>
 
-<h2>Φίλτρα</h2>
-<div class="filters" id="filters"></div>
+<div class="filters" id="srcFilters" role="group" aria-label="Φίλτρο πηγής"></div>
+<div class="filters" id="areaFilters" role="group" aria-label="Φίλτρο περιοχής"></div>
 
-<h2>Ημερολόγιο κλεισιμάτων</h2>
-<div class="cal" id="cal"></div>
-<div id="daylist"></div>
+<div class="layout">
 
-<h2 id="listhead">Επερχόμενα &amp; ενεργά</h2>
-<div id="events"></div>
-<div id="longevents"></div>
+  <!-- System column: in the DOM before the events so that on narrow
+       screens it appears ABOVE the event list; on wide screens the grid
+       places it as a sticky right-hand panel. -->
+  <aside class="side">
+    <h2>Σύστημα</h2>
+    <div class="panel">
+      <details open>
+        <summary>Πηγές</summary>
+        <div id="health"></div>
+      </details>
+      <details>
+        <summary>Ειδοποιήσεις</summary>
+        <div id="history"></div>
+      </details>
+    </div>
+  </aside>
 
-<h2>Σύστημα</h2>
-<div id="health"></div>
-<div id="history"></div>
+  <main class="main">
+    <h2>Σήμερα · ενεργά συμβάντα<span class="count" id="cMain"></span></h2>
+    <div id="events"></div>
+
+    <h2>Σημειακά κλεισίματα δρόμων · realtime<span class="count" id="cRt"></span></h2>
+    <div id="rtlist"></div>
+
+    <h2>Ημερολόγιο κλεισιμάτων</h2>
+    <div id="calendar"></div>
+  </main>
+</div>
 
 <footer id="foot"></footer>
 
 <script>
 const $ = id => document.getElementById(id);
 const esc = s => (s||"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const AREAS = ["Κέντρο","Βόρεια","Δυτικά","Νότια","Ανατολικά"];
-const LONG_MIN_DAYS = 4;
-const isLong = e => (e.days||[]).length >= LONG_MIN_DAYS;
-const state = { src:"Όλες", area:"Όλες", day:null, data:null, calMonth:null };
+const isRT = e => (e.source||"").startsWith("TomTom");
+
+const SHORT_SRC = {          // compact chip labels
+  "Τροχαία (astynomia.gr)": "Τροχαία",
+  "Διαύγεια (Τροχαία)": "Διαύγεια",
+  "iefimerida": "iefimerida",
+  "kathimerini": "Καθημερινή",
+  "ΟΑΣΑ": "ΟΑΣΑ",
+  "TomTom (realtime)": "TomTom",
+};
+const DAYS_EL = ["Κυρ","Δευ","Τρί","Τετ","Πέμ","Παρ","Σάβ"];
+const MONTHS_EL = ["Ιαν","Φεβ","Μαρ","Απρ","Μαΐ","Ιουν","Ιουλ","Αυγ","Σεπ","Οκτ","Νοε","Δεκ"];
+const LONG_EVENT_DAYS = 4;   // events spanning >= this many days render muted in the calendar
+
+let DATA = null;
+let filt = {src: null, area: null};
 
 function ago(iso){
   if(!iso) return "ποτέ";
   const m = Math.round((Date.now()-new Date(iso))/60000);
   if(m<1) return "μόλις τώρα";
-  if(m<60) return m+" λεπτά πριν";
+  if(m<60) return m+"′ πριν";
   const h = Math.round(m/60);
-  if(h<48) return h+" ώρες πριν";
-  return Math.round(h/24)+" ημέρες πριν";
+  if(h<48) return h+" ώρ. πριν";
+  return Math.round(h/24)+" ημ. πριν";
 }
-const ddmm = iso => iso.slice(8,10)+"/"+iso.slice(5,7);
-const todayIso = () => new Date().toISOString().slice(0,10);
-
-function dayTags(days){
-  if(!days || !days.length) return "";
-  let contiguous = days.length >= 3;
-  for(let i=1;i<days.length && contiguous;i++)
-    if((new Date(days[i]) - new Date(days[i-1])) !== 86400000) contiguous = false;
-  if(contiguous)
-    return `<span class="tag day">📅 ${ddmm(days[0])} – ${ddmm(days[days.length-1])}</span>`;
-  const shown = days.slice(0,4).map(d=>`<span class="tag day">📅 ${ddmm(d)}</span>`).join("");
-  return shown + (days.length>4 ? `<span class="tag day">+${days.length-4}</span>` : "");
+function todayISO(){
+  const d = new Date();
+  return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+}
+function fmtDay(iso, withWd){
+  const [y,m,d] = iso.split("-").map(Number);
+  const wd = DAYS_EL[new Date(y, m-1, d).getDay()];
+  return (withWd? wd+" " : "") + d + " " + MONTHS_EL[m-1] + (y!==new Date().getFullYear()? " "+y : "");
 }
 
-function passes(e){
-  if(state.src !== "Όλες" && e.source !== state.src) return false;
-  if(state.area !== "Όλες" && (e.area||"") !== state.area) return false;
+function matches(e){
+  if(filt.src && e.source !== filt.src) return false;
+  if(filt.area && e.area !== filt.area) return false;
   return true;
 }
 
-function card(e){
-  return `<div class="card${e.new_this_run?" new":""}${isLong(e)?" long":""}">
-    ${e.new_this_run?'<span class="badge">νεο</span>':""}
-    <div class="src">${esc(e.source)}</div>
-    <div class="t">${esc(e.title)}</div>
-    <div class="tags">${e.area?`<span class="tag area">📍 ${esc(e.area)}</span>`:""}${isLong(e)?`<span class="tag long">⏳ Μακράς διάρκειας (${e.days.length} ημ.)</span>`:""}${dayTags(e.days)}</div>
-    ${e.details?`<div class="d">${esc(e.details)}</div>`:""}
-    <a href="${esc(e.url)}" target="_blank" rel="noopener">Άνοιγμα πηγής →</a>
-  </div>`;
+function chip(label, pressed, onClick){
+  const b = document.createElement("button");
+  b.className = "chip"; b.textContent = label;
+  b.setAttribute("aria-pressed", pressed ? "true" : "false");
+  b.addEventListener("click", onClick);
+  return b;
 }
 
-/* ——— ΣΗΜΕΡΑ board: the 5-second answer ——— */
-function renderToday(){
-  const d = state.data, tod = todayIso();
-  const pool = (d.closures && d.closures.length ? d.closures : d.active_events||[]);
-  const seen = new Set();
-  const today = pool.filter(e => (e.days||[]).includes(tod))
-    .filter(e => { const k = e.url + "|" + e.title;
-                   if(seen.has(k)) return false; seen.add(k); return true; })
-    .sort((a,b)=>isLong(a)-isLong(b));
-  const short = today.filter(e=>!isLong(e)).length;
-  const long = today.length - short;
-  const failing = (d.sources||[]).filter(s=>!s.ok).length;
-
-  const wd = ["ΚΥΡΙΑΚΗ","ΔΕΥΤΕΡΑ","ΤΡΙΤΗ","ΤΕΤΑΡΤΗ","ΠΕΜΠΤΗ","ΠΑΡΑΣΚΕΥΗ","ΣΑΒΒΑΤΟ"][new Date().getDay()];
-  $("vmslbl").textContent = `Σημερα · ${wd} ${ddmm(tod)}`;
-  const msg = $("vmsmsg");
-  if(short){
-    msg.className = "msg red";
-    msg.textContent = `${short} κλεισιμ${short===1?"ο":"ατα"} σημερα` +
-                      (long?` · ${long} εργα σε εξελιξη`:"");
-  }else if(long){
-    msg.className = "msg";
-    msg.textContent = `Μονο εργα σε εξελιξη (${long}) · χωρις εκτακτα`;
-  }else{
-    msg.className = "msg";
-    msg.textContent = "Κανενα γνωστο κλεισιμο σημερα";
-  }
-  if(failing) msg.textContent += ` · ${failing} πηγη εκτος`;
-
-  $("today").innerHTML = today.slice(0,5).map(e=>`
-    <div class="trow">
-      <span class="dot" style="background:${isLong(e)?"var(--warn)":"var(--alert)"}"></span>
-      <a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title.length>72?e.title.slice(0,72)+"…":e.title)}</a>
-      <span class="where">${esc(e.area||"")}</span>
-    </div>`).join("")
-    + (today.length>5?`<div class="trow"><span class="where">+${today.length-5} ακόμη — δες τη λίστα</span></div>`:"");
-}
-
-/* ——— Filters: one panel, applied-state visible, one-tap reset ——— */
 function renderFilters(){
-  const evs = (state.data.active_events||[]);
-  const srcNames = ["Όλες", ...new Set(evs.map(e=>e.source))];
-  const filtered = state.src!=="Όλες" || state.area!=="Όλες";
-  const row = (label, options, current, key) =>
-    `<div class="frow"><span class="lbl">${label}</span>` +
-    options.map(o=>`<button class="chip${o===current?" on":""}" data-k="${key}" data-v="${esc(o)}">${esc(o)}</button>`).join("") +
-    `</div>`;
-  $("filters").innerHTML =
-    row("Πηγη", srcNames, state.src, "src") +
-    row("Περιοχη", ["Όλες", ...AREAS], state.area, "area") +
-    (filtered
-      ? `<div class="fstate">Ενεργά φίλτρα: ${state.src!=="Όλες"?esc(state.src):""} ${state.area!=="Όλες"?esc(state.area):""}
-         <button class="chip clear" data-k="clear">✕ Καθαρισμός</button></div>`
-      : `<div class="fstate">Τα φίλτρα ισχύουν στο ημερολόγιο και στη λίστα.</div>`);
-  $("filters").querySelectorAll(".chip").forEach(c => c.onclick = () => {
-    if(c.dataset.k === "clear"){ state.src = "Όλες"; state.area = "Όλες"; }
-    else state[c.dataset.k] = c.dataset.v;
-    state.day = null; render();
-  });
+  const evs = DATA.active_events||[];
+  const srcs = [...new Set(evs.map(e=>e.source))];
+  const areas = [...new Set(evs.map(e=>e.area).filter(Boolean))];
+
+  const sf = $("srcFilters"); sf.innerHTML = "";
+  const sl = document.createElement("span"); sl.className="lbl"; sl.textContent="Πηγή";
+  sf.appendChild(sl);
+  sf.appendChild(chip("Όλες", !filt.src, ()=>{filt.src=null; render();}));
+  srcs.forEach(s => sf.appendChild(
+    chip(SHORT_SRC[s]||s, filt.src===s, ()=>{filt.src = filt.src===s? null : s; render();})));
+
+  const af = $("areaFilters"); af.innerHTML = "";
+  if(areas.length){
+    const al = document.createElement("span"); al.className="lbl"; al.textContent="Περιοχή";
+    af.appendChild(al);
+    af.appendChild(chip("Όλες", !filt.area, ()=>{filt.area=null; render();}));
+    areas.forEach(a => af.appendChild(
+      chip(a, filt.area===a, ()=>{filt.area = filt.area===a? null : a; render();})));
+  }
 }
 
-function renderCal(){
-  const src = (state.data.closures && state.data.closures.length)
-      ? state.data.closures : (state.data.active_events||[]);
-  const byDay = {};
-  src.filter(passes).forEach(e => (e.days||[]).forEach(d => (byDay[d] = byDay[d]||[]).push(e)));
-
-  const first = new Date(state.calMonth+"-01T12:00:00");
-  const mLabel = first.toLocaleDateString("el-GR",{month:"long",year:"numeric"});
-  let start = new Date(first);
-  start.setDate(1 - ((first.getDay()+6)%7));
-  let cells = "";
-  for(let i=0;i<42;i++){
-    const d = new Date(start); d.setDate(start.getDate()+i);
-    const iso = d.toISOString().slice(0,10);
-    const inM = iso.slice(0,7) === state.calMonth;
-    const here = byDay[iso]||[];
-    const nS = here.filter(e=>!isLong(e)).length;
-    const nL = here.length - nS;
-    cells += `<div class="day${inM?" inmonth":""}${iso===todayIso()?" today":""}` +
-             `${here.length?" has":""}${iso===state.day?" sel":""}" data-d="${iso}" ` +
-             `${here.length?`role="button" tabindex="0" aria-label="${iso}: ${here.length} κλεισίματα"`:""}>` +
-             `${d.getDate()}${nS?`<span class="n">${nS}</span>`:""}` +
-             `${nL?`<span class="nl">${nL}</span>`:""}</div>`;
-  }
-  const wd = ["Δε","Τρ","Τε","Πε","Πα","Σα","Κυ"].map(w=>`<div class="wd">${w}</div>`).join("");
-  $("cal").innerHTML =
-    `<div class="monthlbl"><button id="prevm" aria-label="Προηγούμενος μήνας">‹</button><span>${mLabel}</span><button id="nextm" aria-label="Επόμενος μήνας">›</button></div>` +
-    `<div class="grid">${wd}${cells}</div>` +
-    `<div class="callegend"><span class="k" style="background:var(--alert)"></span>σύντομα (πορείες, αγώνες)` +
-    `<span class="k" style="background:var(--warn)"></span>έργα μακράς διάρκειας (≥${LONG_MIN_DAYS} ημ.)</div>`;
-  const shift = k => { const [y,m] = state.calMonth.split("-").map(Number);
-    state.calMonth = new Date(y, m-1+k, 15).toISOString().slice(0,7);
-    state.day = null; render(); };
-  $("prevm").onclick = () => shift(-1);
-  $("nextm").onclick = () => shift(1);
-  const pick = c => { state.day = (state.day===c.dataset.d ? null : c.dataset.d); render();
-                      if(state.day) $("daylist").scrollIntoView({behavior:"smooth",block:"nearest"}); };
-  $("cal").querySelectorAll(".day.has").forEach(c => {
-    c.onclick = () => pick(c);
-    c.onkeydown = ev => { if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); pick(c); } };
-  });
-
-  $("daylist").innerHTML = state.day
-    ? `<h2>Κλεισίματα ${ddmm(state.day)} <span class="x" role="button" tabindex="0" id="dayx">✕ κλείσιμο</span></h2>` +
-      ((byDay[state.day]||[]).slice()
-        .sort((a,b)=>isLong(a)-isLong(b))
-        .map(card).join("") || '<div class="empty">Τίποτα.</div>')
-    : "";
-  if(state.day) $("dayx").onclick = () => { state.day = null; render(); };
+function tagsHtml(e){
+  const t = [];
+  if(e.area) t.push(`<span class="tag area">${esc(e.area)}</span>`);
+  const today = todayISO();
+  (e.days||[]).slice(0,8).forEach(d =>
+    t.push(`<span class="tag${d===today?" today":""}">${esc(fmtDay(d))}</span>`));
+  if((e.days||[]).length > 8) t.push(`<span class="tag">+${e.days.length-8}</span>`);
+  return t.length? `<div class="tags">${t.join("")}</div>` : "";
 }
 
 function render(){
-  const d = state.data, evs = d.active_events||[], srcs = d.sources||[];
-  $("fresh").textContent = "Τελευταίος έλεγχος " + ago(d.generated_at) +
-      " · ανανεώνεται αυτόματα";
-
-  renderToday();
-  renderFilters();
-  renderCal();
-
-  const shown = evs.filter(passes);
-  const short = shown.filter(e=>!isLong(e))
-                     .sort((a,b)=>(b.new_this_run|0)-(a.new_this_run|0));
-  const long = shown.filter(isLong);
-  $("events").innerHTML = short.length ? short.map(card).join("")
-    : '<div class="empty">Κανένα σύντομο συμβάν με αυτά τα φίλτρα — δοκίμασε «Καθαρισμός» ή δες τα έργα παρακάτω.</div>';
-  $("longevents").innerHTML = long.length
-    ? `<details><summary>⏳ Έργα μακράς διάρκειας <span class="count">${long.length}</span></summary>
-       <div class="inner">${long.map(card).join("")}</div></details>`
-    : "";
-
+  const d = DATA;
+  const evs = (d.active_events||[]);
+  const main = evs.filter(e => !isRT(e) && matches(e));
+  const rt   = evs.filter(e =>  isRT(e) && matches(e));
+  const mainAll = evs.filter(e => !isRT(e)).length;
+  const rtAll = evs.filter(isRT).length;
+  const srcs = d.sources||[];
   const failing = srcs.filter(s=>!s.ok).length;
-  $("health").innerHTML = `<details${failing?" open":""}>
-    <summary>Υγεία πηγών <span class="count">${srcs.length-failing}/${srcs.length} OK</span></summary>
-    <div class="inner"><table><tr><th>Πηγή</th><th>Τελευταία επιτυχία</th><th class="num">Κρατήθηκαν</th></tr>`
-    + srcs.map(s=>{
-        const drops = Object.entries(s.dropped||{});
-        const total = drops.reduce((a,[,n])=>a+n, 0);
-        const tip = drops.map(([r,n])=>`${r}: ${n}`).join("\n")
-                  + (s.date_misses?`\nημερομηνίες που δεν διαβάστηκαν: ${s.date_misses}`:"");
-        const kept = (s.fetched!=null) ? `${s.items} / ${s.fetched}` : s.items;
-        const warn = (s.fetched>=10 && s.items===0) ? " ⚠" : "";
-        return `<tr>
-        <td><span class="lamp" style="background:${s.ok?"var(--ok)":(s.consecutive_failures>=6?"var(--alert)":"var(--warn)")}"></span>${esc(s.name)}</td>
-        <td class="num">${ago(s.last_success)}${s.ok?"":" · αποτυχίες ×"+s.consecutive_failures}</td>
-        <td class="num" title="${esc(tip)}">${kept}${warn}${total||s.date_misses?` <span class="pillh">ⓘ</span>`:""}</td></tr>`;
-      }).join("")
-    + `</table><div class="note" style="color:var(--mut);font-size:.78rem;margin-top:6px">
-       «Κρατήθηκαν x / y»: πόσα πέρασαν τα φίλτρα από όσα βρέθηκαν — πάτα/δείξε το ⓘ για τους λόγους απόρριψης.</div></div></details>`;
+  const fresh = evs.filter(e=>e.new_this_run).length;
+
+  // Big answer counts MAIN events only; realtime pin-closures are the sub-line
+  const col = mainAll ? "var(--alert)" : (failing ? "var(--warn)" : "var(--ok)");
+  const txt = mainAll
+      ? mainAll + " ενεργ" + (mainAll>1?"ά συμβάντα":"ό συμβάν")
+      : "Κανένα ενεργό συμβάν";
+  $("answer").innerHTML = `<span class="lamp" style="background:${col}"></span>${txt}`;
+  $("checked").textContent = "Τελευταίος έλεγχος " + ago(d.generated_at)
+      + (rtAll ? ` · ${rtAll} σημειακά κλεισίματα` : "")
+      + (fresh ? ` · ${fresh} νέα` : "")
+      + (failing ? ` · ${failing} πηγή(-ές) σε αποτυχία` : "");
+
+  renderFilters();
+  const filtered = !!(filt.src || filt.area);
+
+  $("cMain").textContent = filtered ? main.length + " / " + mainAll : mainAll;
+  $("events").innerHTML = main.length ? main.map(e=>`
+    <div class="card${e.new_this_run?" new":""}">
+      ${e.new_this_run?'<span class="badge">νέο</span>':""}
+      <div class="src">${esc(e.source)}</div>
+      <div class="t">${esc(e.title)}</div>
+      ${e.details?`<div class="d">${esc(e.details)}</div>`:""}
+      ${tagsHtml(e)}
+      <a href="${esc(e.url)}" target="_blank" rel="noopener">Άνοιγμα πηγής →</a>
+    </div>`).join("")
+    : `<div class="empty">${filtered ? "Κανένα συμβάν με αυτά τα φίλτρα." :
+        "Καμία ενεργή ρύθμιση στις πηγές — ήσυχοι δρόμοι."}</div>`;
+
+  $("cRt").textContent = filtered ? rt.length + " / " + rtAll : rtAll;
+  $("rtlist").innerHTML = rt.length ? rt.map(e=>{
+    const det = (e.details||"").replace(/^Κλειστός δρόμος(\s*—\s*Κλειστό;?\s*)?/,"").replace(/^Κλειστό;?\s*/,"").trim();
+    return `
+    <div class="rt">
+      <span class="t">${esc(e.title)}</span>
+      ${e.area?`<span class="tag area">${esc(e.area)}</span>`:""}
+      <a href="${esc(e.url)}" target="_blank" rel="noopener">χάρτης →</a>
+      ${det?`<span class="d">${esc(det)}</span>`:""}
+    </div>`;}).join("")
+    : `<div class="empty">${filtered ? "Κανένα σημειακό κλείσιμο με αυτά τα φίλτρα." :
+        "Κανένα σημειακό κλείσιμο αυτή τη στιγμή."}</div>`;
+
+  // ——— Calendar: planned closures (realtime excluded), today onwards ———
+  const today = todayISO();
+  const byDay = new Map();
+  (d.closures||[]).filter(c => !isRT(c)).forEach(c => (c.days||[]).forEach(day => {
+    if(day < today) return;
+    if(!byDay.has(day)) byDay.set(day, []);
+    byDay.get(day).push(c);
+  }));
+  const days = [...byDay.keys()].sort();
+  $("calendar").innerHTML = days.length ? days.map(day => {
+    const items = byDay.get(day);
+    return `<div class="day">
+      <div class="dh">${day===today?"Σήμερα · ":""}${esc(fmtDay(day,true))}
+        <span class="dcount">${items.length} ${items.length>1?"ρυθμίσεις":"ρύθμιση"}</span></div>
+      ${items.map(c=>`
+        <div class="ci${(c.days||[]).length>=LONG_EVENT_DAYS?" long":""}">
+          ${c.area?`<span class="tag area">${esc(c.area)}</span>`:""}
+          <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a>
+        </div>`).join("")}
+    </div>`;
+  }).join("")
+  : '<div class="empty">Καμία προγραμματισμένη ρύθμιση με γνωστή ημερομηνία.</div>';
+
+  // ——— System panel ———
+  $("health").innerHTML = srcs.map(s=>{
+    const drops = Object.entries(s.dropped||{});
+    return `<div class="srcrow">
+      <span class="lamp" style="background:${s.ok?"var(--ok)":(s.consecutive_failures>=6?"var(--alert)":"var(--warn)")}"></span>
+      <span class="n">${esc(s.name)}</span>
+      <span class="meta">${s.items}${s.fetched!=null?" / "+s.fetched:""} · ${ago(s.last_success)}${s.ok?"":" · ×"+s.consecutive_failures}</span>
+      ${drops.length?`<span class="drops">${drops.map(([r,n])=>esc(r)+": "+n).join(" · ")}</span>`:""}
+    </div>`;
+  }).join("");
 
   const hist = d.recent_notifications||[];
-  $("history").innerHTML = `<details>
-    <summary>Πρόσφατες ειδοποιήσεις <span class="count">${hist.length}</span></summary>
-    <div class="inner">` + (hist.length ? hist.map(n=>`
-      <div class="card">
-        <div class="src">${esc(n.source)} · ${ago(n.time)}</div>
-        <div class="t">${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>`:esc(n.title)}</div>
-      </div>`).join("") : '<div class="empty">Καμία ειδοποίηση ακόμη.</div>') + "</div></details>";
+  $("history").innerHTML = hist.length ? hist.map(n=>`
+    <div class="noterow">
+      <div class="when">${esc(n.source)} · ${ago(n.time)}</div>
+      ${n.url?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>`:esc(n.title)}
+    </div>`).join("")
+    : '<div class="empty">Καμία ειδοποίηση ακόμη.</div>';
 
-  $("foot").innerHTML = ((d.runs||[]).length
-    ? `${d.runs.length} εκτελέσεις · τα δεδομένα ανανεώνονται κάθε 5 λεπτά · ` : "")
-    + '<a href="admin.html" style="color:var(--mut)">διαχείριση</a>';
+  const runs = d.runs||[];
+  $("foot").innerHTML = (runs.length ? runs.length + " εκτελέσεις · ανανέωση κάθε 5 λεπτά · " : "")
+    + '<a href="admin.html">διαχείριση</a>';
 }
 
-function applyOverrides(d, ov){
-  const removed = new Set(ov.removed||[]);
-  const fix = list => (list||[])
-    .filter(e => !removed.has(e.id))
-    .map(e => { const ed = (ov.edits||{})[e.id];
-      return ed ? {...e,
-        title: ed.title || e.title,
-        area: ("area" in ed && ed.area !== null) ? ed.area : e.area,
-        days: (ed.days && ed.days.length) ? ed.days : e.days } : e; });
-  d.active_events = fix(d.active_events);
-  d.closures = fix(d.closures);
-  return d;
-}
 async function load(){
   try{
-    let ov = {removed:[], edits:{}};
-    try{ ov = await (await fetch("overrides.json?t="+Date.now())).json(); }catch(_){}
-    state.data = applyOverrides(
-      await (await fetch("data.json?t="+Date.now())).json(), ov);
+    DATA = await (await fetch("data.json?t="+Date.now())).json();
   }catch(e){
-    $("vmsmsg").className = "msg";
-    $("vmsmsg").textContent = "Χωρις δεδομενα ακομη";
-    $("today").innerHTML = '<div class="trow"><span class="where">Έχει ολοκληρωθεί εκτέλεση από τότε που ενεργοποιήθηκε το Pages;</span></div>';
+    $("answer").innerHTML = '<span class="lamp" style="background:var(--warn)"></span>Χωρίς δεδομένα';
+    $("checked").textContent = "Το data.json δεν βρέθηκε — έχει ολοκληρωθεί εκτέλεση του monitor;";
     return;
   }
-  if(!state.calMonth) state.calMonth = new Date().toISOString().slice(0,7);
   render();
 }
 load();
