@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-07-06T12:16:35+00:00",
+  "generated_at": "2026-07-06T15:16:29+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 54,
       "dropped": {
+        "rush-hour congestion (expected)": 1,
         "no level detected, no disruption keyword": 53
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-06T08:17:56+00:00"
+      "last_success": "2026-07-06T15:16:28+00:00"
     },
     {
       "name": "diavgeia",
@@ -20,12 +21,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 99,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-06T08:17:56+00:00"
+      "last_success": "2026-07-06T15:16:28+00:00"
     },
     {
       "name": "iefimerida",
@@ -33,13 +35,12 @@
       "items": 0,
       "fetched": 11,
       "dropped": {
-        "άλλη περιοχή": 1,
-        "χωρίς/παλιά ημερομηνία": 10
+        "χωρίς/παλιά ημερομηνία": 11
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-06T08:17:56+00:00"
+      "last_success": "2026-07-06T15:16:28+00:00"
     },
     {
       "name": "kathimerini",
@@ -48,9 +49,9 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 0,
-      "body_enriched": 2,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-06T08:17:59+00:00"
+      "last_success": "2026-07-06T15:16:28+00:00"
     },
     {
       "name": "oasa",
@@ -64,7 +65,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-06T08:17:59+00:00"
+      "last_success": "2026-07-06T15:16:28+00:00"
     },
     {
       "name": "tomtom",
@@ -77,32 +78,18 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-06T12:16:28+00:00"
+      "last_success": "2026-07-06T15:16:28+00:00"
     }
   ],
   "active_events": [
-    {
-      "id": "dfde1e3acc1aa20d",
-      "source": "Τροχαία (astynomia.gr)",
-      "title": "Ομαλή",
-      "url": "https://www.astynomia.gr/kykloforia-stous-dromous/deltio-kykloforias-attiki/",
-      "details": "Ασυνήθιστα βεβαρυμένη κίνηση εκτός ωρών αιχμής",
-      "area": "",
-      "days": [
-        "2026-07-06"
-      ],
-      "new_this_run": false
-    },
     {
       "id": "https://www.kathimerini.gr/society/564312118/metro-kykloforiakes-rythmiseis-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera/",
       "source": "kathimerini",
       "title": "Μετρό: Κυκλοφοριακές ρυθμίσεις στη «μπλε» γραμμή – Ποιοι σταθμοί θα κλείνουν νωρίτερα",
       "url": "https://www.kathimerini.gr/society/564312118/metro-kykloforiakes-rythmiseis-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera/",
       "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2027-06-28"
-      ],
+      "area": "",
+      "days": [],
       "new_this_run": false
     },
     {
@@ -122,9 +109,7 @@
       "url": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
       "details": "",
       "area": "Νότια",
-      "days": [
-        "2027-06-25"
-      ],
+      "days": [],
       "new_this_run": false
     },
     {
@@ -229,7 +214,7 @@
       "days": [
         "2026-07-06"
       ],
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51600061312021000",
@@ -241,7 +226,7 @@
       "days": [
         "2026-07-06"
       ],
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51600061388004000",
@@ -253,7 +238,7 @@
       "days": [
         "2026-07-06"
       ],
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51568321972038000",
@@ -265,7 +250,7 @@
       "days": [
         "2026-07-06"
       ],
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51582749080021000",
@@ -277,7 +262,7 @@
       "days": [
         "2026-07-06"
       ],
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51579863732014000",
@@ -289,7 +274,7 @@
       "days": [
         "2026-07-06"
       ],
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594290660014001",
@@ -301,7 +286,7 @@
       "days": [
         "2026-07-06"
       ],
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594290912011001",
@@ -313,7 +298,7 @@
       "days": [
         "2026-07-06"
       ],
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594291004012000",
@@ -325,7 +310,7 @@
       "days": [
         "2026-07-06"
       ],
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594291000004000",
@@ -337,7 +322,7 @@
       "days": [
         "2026-07-06"
       ],
-      "new_this_run": true
+      "new_this_run": false
     }
   ],
   "closures": [
@@ -654,6 +639,18 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-07-06T15:16:29+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
+      "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874"
+    },
+    {
+      "time": "2026-07-06T15:16:28+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
+      "url": "https://www.google.com/maps?q=37.9818740999,23.769882434"
+    },
+    {
       "time": "2026-07-06T12:16:35+00:00",
       "source": "TomTom (realtime)",
       "title": "🚨 Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
@@ -726,6 +723,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-06T15:16:29+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
