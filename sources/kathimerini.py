@@ -37,6 +37,7 @@ ARTICLE_RE = re.compile(r"kathimerini\.gr/[a-z-]+/\d{6,}/")
 FEED_URL = "https://www.kathimerini.gr/tag/kykloforiakes-rythmiseis/feed/"
 PAGE_URL = "https://www.kathimerini.gr/tag/kykloforiakes-rythmiseis/"
 MAX_AGE_DAYS = 3
+BODY_ENRICH = True   # bodies carry the dates/streets titles omit
 
 # Real kathimerini articles have a long numeric ID in the path
 # (e.g. /society/564312118/...). Promo/nav links (subscriptions,

@@ -34,9 +34,20 @@ def run():
     # 4. Simple single date
     assert extract_days("στις 07.07.2026, κατά τις ώρες", TODAY) == ["2026-07-07"]
 
-    # 5. News style, no year → current year
-    assert extract_days("Κλειστοί δρόμοι την Τρίτη 23/6 λόγω αγώνων", TODAY) == []  # >7d past
+    # 5. News style, no year → NEAREST future occurrence (not "this year")
+    # "23/6" on 03/07 is 10 days past → rolls to next year (the bug that
+    # motivated the future-preferring resolver).
+    assert extract_days("Κλειστοί δρόμοι την Τρίτη 23/6 λόγω αγώνων", TODAY) == ["2027-06-23"]
     assert extract_days("Κλειστοί δρόμοι την Τρίτη 7/7 λόγω αγώνων", TODAY) == ["2026-07-07"]
+
+    # 5b. Year-less resolution across the Dec/Jan boundary and past-grace
+    # (the cases a fixed same-year guess got wrong):
+    assert extract_days("στις 30/12", date(2027, 1, 2)) == ["2026-12-30"]   # grace: recent past
+    assert extract_days("στις 3/1", date(2026, 12, 30)) == ["2027-01-03"]   # next year
+    assert extract_days("στις 2 Ιανουαρίου", date(2026, 12, 29)) == ["2027-01-02"]
+    assert extract_days("στις 1/7", date(2026, 7, 5)) == ["2026-07-01"]     # 4d past = kept
+    assert extract_days("στις 1/7", date(2026, 7, 6)) == ["2027-07-01"]     # 5d past = rolls
+    assert extract_days("στις 29/2", date(2027, 3, 1)) == ["2028-02-29"]    # skips non-leap
 
     # 6. THE TRAP: publication date lives in details — extraction is
     #    title-only by design; verify the date parser alone would have

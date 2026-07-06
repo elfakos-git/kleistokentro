@@ -53,7 +53,11 @@ FULL_RE = re.compile(_D)
 NOYEAR_RE = re.compile(r"(?<![\d/.\-])(\d{1,2})/(\d{1,2})(?![\d/.\-])")
 
 MAX_RANGE_DAYS = 120     # a "range" longer than this is a parse error
-PAST_DAYS, FUTURE_DAYS = 7, 200   # calendar window of interest
+# Traffic announcements are about the future or the very-recent past
+# (an ongoing multi-day closure). So the window is asymmetric: a short
+# past grace (a closure that began a few days ago is still live) and a
+# long future horizon.
+PAST_GRACE_DAYS, FUTURE_DAYS = 4, 300
 
 
 def _month_no(stem_match: str) -> int:
@@ -64,13 +68,42 @@ def _month_no(stem_match: str) -> int:
 
 
 def _valid(d: int, m: int, y: int, today: date):
+    """Validate an EXPLICIT-year date against the window of interest."""
     try:
         dt = date(y, m, d)
     except ValueError:
         return None
-    lo = today - timedelta(days=PAST_DAYS)
+    lo = today - timedelta(days=PAST_GRACE_DAYS)
     hi = today + timedelta(days=FUTURE_DAYS)
     return dt if lo <= dt <= hi else None
+
+
+def _resolve_no_year(d: int, m: int, today: date):
+    """Year-less date ("23/6", "5 Ιουλίου"): pick the year that lands it
+    NEAREST to today with a FUTURE preference — the professional framing
+    (cf. dateparser's PREFER_DATES_FROM='future'). This is what a traffic
+    announcement means: the next occurrence, not last year's. Correct
+    across the Dec/Jan boundary, unlike a fixed same-year guess.
+    A short past-grace still admits a closure that began days ago."""
+    best = None
+    for y in (today.year - 1, today.year, today.year + 1):
+        try:
+            cand = date(y, m, d)
+        except ValueError:
+            continue                       # e.g. 29/2 on a non-leap year
+        delta = (cand - today).days
+        if delta < -PAST_GRACE_DAYS:
+            continue                       # too far past to still be live
+        # NEAREST wins (a closure 2 days ago beats the same date next
+        # year); ties broken toward the future. Because the past side is
+        # capped at PAST_GRACE_DAYS (4) and the next future occurrence of
+        # a year-less date is ~months away, "nearest" correctly favours a
+        # within-grace recent past over a far future — while a date with
+        # no recent-past candidate resolves to its next future occurrence.
+        rank = (abs(delta), delta < 0)     # distance first, then future
+        if best is None or rank < best[0]:
+            best = (rank, cand)
+    return best[1] if best else None
 
 
 def extract_days(text: str, today: date | None = None) -> list[str]:
@@ -113,10 +146,11 @@ def extract_days(text: str, today: date | None = None) -> list[str]:
         return blank(m)
 
     def _year(d, m, y):
-        """Explicit year, else this year, else next (news often omits it)."""
+        """Explicit year → validate it; year omitted → resolve to the
+        nearest future occurrence (news routinely drops the year)."""
         if y:
             return _valid(d, m, int(y), today)
-        return _valid(d, m, today.year, today) or _valid(d, m, today.year + 1, today)
+        return _resolve_no_year(d, m, today)
 
     def take_named_range(m):
         d1, d2, mo = int(m.group(1)), int(m.group(2)), _month_no(m.group(3))
@@ -154,10 +188,30 @@ def extract_days(text: str, today: date | None = None) -> list[str]:
     t = NAMED_DAY_RE.sub(take_named_day, t)
     for m in NOYEAR_RE.finditer(t):          # "23/6" news style
         d_, mo = int(m.group(1)), int(m.group(2))
-        x = _valid(d_, mo, today.year, today) or _valid(d_, mo, today.year + 1, today)
+        x = _resolve_no_year(d_, mo, today)
         if x:
             days.add(x)
     return sorted(d.isoformat() for d in days)
+
+
+TRAFFIC_PARA_RE = re.compile(r"κυκλοφορ|κλειστ|διακοπ|ρυθμισ|τροποποι|λογω|οδο[υς ]|λεωφορ")
+
+
+def from_article_html(html: str, today=None):
+    """(days, area) extracted from an article BODY. Reads <p> paragraphs
+    only — publication timestamps live in headers/<time> tags, so the
+    pub-date trap that forced title-only extraction doesn't apply here —
+    and only paragraphs that talk about traffic, so unrelated sidebar
+    text can't inject dates."""
+    from bs4 import BeautifulSoup
+    from . import SOUP_PARSER
+    soup = BeautifulSoup(html or "", SOUP_PARSER)
+    paras = [p.get_text(" ", strip=True) for p in soup.find_all("p")]
+    relevant = " ".join(t for t in paras
+                        if len(t) > 30 and TRAFFIC_PARA_RE.search(norm_greek(t)))[:6000]
+    if not relevant:
+        return [], ""
+    return extract_days(relevant, today), classify_area(relevant)
 
 
 # ---------------------------------------------------------- severity

@@ -19,12 +19,16 @@ import re
 
 from bs4 import BeautifulSoup
 
-from . import Event, canonical_url, get, mentions_athens, mentions_other_region
+from . import (Event, SOUP_PARSER, Tally, canonical_url, get,
+               mentions_athens, mentions_other_region)
 
 SOURCE = "iefimerida"
 URL = "https://www.iefimerida.gr/tag/kykloforiakes-rythmiseis"
 MAX_AGE_DAYS = 3
+BODY_ENRICH = True   # bodies carry the dates/streets titles omit
 ATHENS_TZ = ZoneInfo("Europe/Athens")
+
+last_tally = Tally()
 
 DATE_RE = re.compile(r"(\d{2})/(\d{2})/(\d{4})(?:\s+(\d{2}):(\d{2}))?")
 

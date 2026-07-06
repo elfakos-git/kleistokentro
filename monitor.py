@@ -43,7 +43,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from sources import astynomia, diavgeia, enrich, iefimerida, kathimerini, tomtom
+from sources import astynomia, diavgeia, enrich, get, iefimerida, kathimerini, oasa, tomtom
 import notify
 
 SOURCES = {
@@ -51,6 +51,7 @@ SOURCES = {
     "diavgeia": diavgeia,
     "iefimerida": iefimerida,
     "kathimerini": kathimerini,  # remove this line if it keeps failing
+    "oasa": oasa,                # bus diversions = street-closure sensor
     "tomtom": tomtom,            # realtime; also runs alone every 30 min
 }
 
@@ -251,6 +252,7 @@ def main(argv=None) -> int:
     today = _athens_now().date().isoformat()
     pending_undated = []
     sent_count = {s["chat_id"]: 0 for s in subs}   # per-user flood cap
+    body_budget = 3   # article-body fetches per run: bounded, best-effort
 
     # ------------------------------------------------------------- fetch
     # Sources hit the network CONCURRENTLY: with sequential fetches the
@@ -292,7 +294,7 @@ def main(argv=None) -> int:
             print(f"[{name}] WARNING: kept 0 of {fetched} — filters may "
                   f"be over-tight; check the drop reasons above",
                   file=sys.stderr)
-        current, date_misses, lane_only = [], 0, 0
+        current, date_misses, lane_only, enriched = [], 0, 0, 0
         for e in events:
             is_new = e.id not in seen
             if is_new:
@@ -311,6 +313,24 @@ def main(argv=None) -> int:
                 continue
             days = enrich.extract_days(               # TITLE only; Athens
                 e.title, date.fromisoformat(today))   # clock, not server
+            area_hint = enrich.classify_area(f"{e.title} {e.details}", url=e.url)
+            if (is_new and body_budget > 0 and (not days or not area_hint)
+                    and getattr(module, "BODY_ENRICH", False)
+                    and e.url.startswith("http")):
+                # Titles rarely carry dates/streets; bodies almost always
+                # do. One bounded fetch per NEW event, never fatal.
+                body_budget -= 1
+                try:
+                    b_days, b_area = enrich.from_article_html(
+                        get(e.url).text, date.fromisoformat(today))
+                    if b_days or (b_area and not area_hint):
+                        enriched += 1
+                    days = days or b_days
+                    if not area_hint:
+                        area_hint = b_area
+                except Exception as exc:
+                    print(f"[{name}] body-enrich failed for {e.url}: {exc}",
+                          file=sys.stderr)
             if not days and enrich.looks_dated(e.title):
                 # The parser's smoke detector: the title LOOKS dated but
                 # nothing was extracted. The event still flows (undated →
@@ -325,7 +345,7 @@ def main(argv=None) -> int:
                     days = fixed                      # admin dates win
             if not days and getattr(module, "ASSUME_TODAY", False):
                 days = [today]                    # realtime = happening now
-            area = enrich.classify_area(f"{e.title} {e.details}", url=e.url)
+            area = area_hint
             if "area" in ed and ed["area"] is not None:
                 area = str(ed["area"])                # admin area wins
             entry = {"id": e.id, "source": e.source, "title": e.title,
@@ -361,7 +381,7 @@ def main(argv=None) -> int:
         state["source_status"][name] = {
             "name": name, "ok": True, "items": len(events) - lane_only,
             "fetched": fetched, "dropped": tally,
-            "date_misses": date_misses,
+            "date_misses": date_misses, "body_enriched": enriched,
             "consecutive_failures": 0, "last_success": now_iso(),
         }
         if first_time:

@@ -256,6 +256,55 @@ dates) rescues one that genuinely matters. Patterns live in
 sources/enrich.py (LANE_ONLY_RE / MAJOR_RE); tests:
 python tests/test_lane_filter.py.
 
+
+## Source: ΟΑΣΑ (bus diversions as a closure sensor)
+
+`sources/oasa.py` watches oasa.gr/blog — every bus-route diversion is
+published with its CAUSE ("λόγω εργασιών επί της οδού Αδριανού ... στις
+15/04/2026"), so dates and streets often sit right in the title. Buses
+divert precisely when streets close, making this an indirect but
+reliable closure sensor that also catches strike days. Operations
+noise (telematics maintenance, timetables, "άρση τροποποίησης"
+restorations) is tallied and dropped. RSS-first with HTML fallback,
+same playbook as kathimerini. Verify once: python -m sources.oasa
+
+## Scanning depth: article-body enrichment
+
+Titles rarely carry closure dates; article bodies almost always do.
+For a NEW event whose title yields no dates (or no area), the monitor
+fetches the article body ONCE (max 3 per run, never fatal) and runs
+extraction on its traffic-related paragraphs only — publication
+timestamps live in headers/<time> tags, never in <p>, so the pub-date
+trap that forces title-only extraction elsewhere doesn't apply. Result:
+news and OASA events land on the calendar and in the urgent tier
+instead of arriving undated. Count shown per source as body_enriched.
+
+## Realtime layer status & plan B
+
+Waze is unfixable by design (blocks datacenter IPs, forbids
+automation) — stop fighting it. The realtime layer is BUILT and
+WAITING: add the TOMTOM_API_KEY secret (developer.tomtom.com, free,
+~5 min) and the 30-minute workflow enables itself. If TomTom ever
+disappoints, the documented alternative is HERE Traffic (also a free
+tier, also needs a key) — same module pattern as tomtom.py.
+
+
+### Date resolution: future-preferring year inference
+
+When a date omits its year ("23/6", "5 Ιουλίου"), it now resolves to the
+NEAREST occurrence with a future preference — the professional framing
+of the problem (cf. dateparser's PREFER_DATES_FROM='future'), since a
+traffic announcement always means the next occurrence, not last year's.
+This fixes two real bugs the old fixed same-year guess had: it broke
+across the Dec/Jan boundary (a "30/12" seen on Jan 2 was read as this
+year, 11 months in the future, instead of 3 days past), and it gave no
+past grace (a closure that began yesterday vanished). A short past-grace
+window (4 days) keeps ongoing closures visible; explicit years are
+always honoured verbatim within a wide window. We deliberately did NOT
+adopt the dateparser dependency itself — it parses one clean date per
+call and would regress our tuned multi-date Greek extraction — but
+borrowed its core principle. See _resolve_no_year in sources/enrich.py.
+
 ## Dashboard (GitHub Pages)
 
 Every run also writes `docs/data.json` — a full snapshot of everything the
