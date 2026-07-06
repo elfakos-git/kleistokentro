@@ -17,19 +17,23 @@ POLICY (v2 — retuned on production data)
      something is actually wrong. This is the "verify it's not just
      heavy traffic" test: TIME explains ordinary congestion, so
      congestion that time can't explain is the signal.
-       Rush windows (Athens time): weekdays 07:00–10:30 & 16:30–20:30.
-       Weekends have no expected rush → any Πολύ Αυξημένη qualifies.
+     Rush windows (Athens time): weekdays 07:00–10:30 & 16:30–20:30.
+     Weekends have no expected rush → any Πολύ Αυξημένη qualifies.
      Identity: hash(road + level + bulletin date) → at most one
      notification per road per day, and it can fire again tomorrow.
 
   Rows at Ομαλή/Αυξημένη without a disruption keyword: ignored.
+  LEGEND ROWS: the page renders its colour key as a table row, so the
+  "road" cell holds a level word ("Ομαλή") while the row also contains
+  "Πολύ Αυξημένη" — such rows are never roads and are always skipped
+  (production bug: an anomaly event literally titled "Ομαλή").
 
   STALENESS GUARD unchanged: bulletins older than MAX_STALENESS_HOURS
   are treated as no data.
 
 VERIFY LOCALLY (the level markers are graphics; detection is best-
 effort across text, classes, images and inputs — SELECTOR 1 below):
-  python -m sources.astynomia          # decisions per row, with reasons
+    python -m sources.astynomia     # decisions per row, with reasons
 If levels print as '?' on a fresh bulletin, open the page in Chrome,
 inspect a row, and extend _row_level (README: "If a parser breaks").
 """
@@ -50,6 +54,10 @@ ASSUME_TODAY = True   # realtime source: no date in text = happening now
 ATHENS_TZ = ZoneInfo("Europe/Athens")
 
 LEVELS = ["Πολύ Αυξημένη", "Αυξημένη", "Ομαλή"]  # order matters (substring!)
+
+# Accentless level words: a "road" cell holding one of these is the
+# page's colour legend rendered as a table row, never an actual road.
+_LEVEL_WORDS = {norm_greek(l) for l in LEVELS}
 
 # Words that make a remark a real disruption event (stems, accentless).
 DISRUPTION_RE = re.compile(
@@ -75,7 +83,7 @@ def _athens_now() -> datetime:
 
 
 def _is_rush(now: datetime) -> bool:
-    if now.weekday() >= 5:                    # weekend: no expected rush
+    if now.weekday() >= 5:   # weekend: no expected rush
         return False
     minutes = now.hour * 60 + now.minute
     return any(sh * 60 + sm <= minutes <= eh * 60 + em
@@ -122,6 +130,14 @@ def _classify(road: str, remark: str, level: str, now: datetime):
     """(kind, event|None) for one row. kind is one of
     'disruption' / 'anomaly' / 'skip:<reason>' — the debug runner
     prints it so tuning needs no code-reading."""
+    if norm_greek(road).strip(" :.-") in _LEVEL_WORDS:
+        # Legend/key row: the "road" cell holds a level word ("Ομαλή")
+        # and the row text usually also contains "Πολύ Αυξημένη", which
+        # used to sail straight into the anomaly branch below and
+        # produce an event literally titled "Ομαλή". A level word is
+        # never a road.
+        return "skip: legend row (level word as road)", None
+
     norm_remark = norm_greek(remark)
     meaningful = len(remark) >= 6 and remark not in LEVELS
     if meaningful and DISRUPTION_RE.search(norm_remark) \
@@ -132,6 +148,7 @@ def _classify(road: str, remark: str, level: str, now: datetime):
         return "disruption", Event(id=stable_id(road, remark),
                                    source=SOURCE, title=road,
                                    url=URL, details=details)
+
     if level == "Πολύ Αυξημένη":
         if _is_rush(now):
             return "skip: rush-hour congestion (expected)", None
@@ -141,13 +158,14 @@ def _classify(road: str, remark: str, level: str, now: datetime):
         return "anomaly", Event(
             id=stable_id(road, "πολύ αυξημένη", now.date().isoformat()),
             source=SOURCE, title=road, url=URL, details=details)
+
     if level:
         return f"skip: level '{level}'", None
     return "skip: no level detected, no disruption keyword", None
 
 
 def _rows(soup):
-    for row in soup.find_all("tr"):                   # <-- SELECTOR 2
+    for row in soup.find_all("tr"):                       # <-- SELECTOR 2
         cells = row.find_all(["td", "th"])
         if len(cells) < 2:
             continue

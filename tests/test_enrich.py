@@ -10,6 +10,7 @@ from sources.enrich import extract_days, classify_area, looks_dated
 
 TODAY = date(2026, 7, 3)
 
+
 def run():
     # 1. Range with time-of-day noise: every day expanded, hours ignored
     t1 = ("Ακόλουθες κυκλοφοριακές ρυθμίσεις στα κάτωθι οδικά τμήματα "
@@ -34,20 +35,27 @@ def run():
     # 4. Simple single date
     assert extract_days("στις 07.07.2026, κατά τις ώρες", TODAY) == ["2026-07-07"]
 
-    # 5. News style, no year → NEAREST future occurrence (not "this year")
-    # "23/6" on 03/07 is 10 days past → rolls to next year (the bug that
-    # motivated the future-preferring resolver).
-    assert extract_days("Κλειστοί δρόμοι την Τρίτη 23/6 λόγω αγώνων", TODAY) == ["2027-06-23"]
+    # 5. News style, no year → the NEAREST occurrence, judged AFTER
+    #    ranking. A date whose nearest reading is already past (beyond
+    #    the grace window) is an event that is OVER — it yields NO days
+    #    instead of rolling a year forward. (The "ghost 2027 closures"
+    #    production bug: stale tag-page articles like "Τρίτη 23/6",
+    #    re-read on 03/07, were resurrected as NEXT June and then kept
+    #    alive by the closure registry for a year.)
+    assert extract_days("Κλειστοί δρόμοι την Τρίτη 23/6 λόγω αγώνων", TODAY) == []
     assert extract_days("Κλειστοί δρόμοι την Τρίτη 7/7 λόγω αγώνων", TODAY) == ["2026-07-07"]
 
-    # 5b. Year-less resolution across the Dec/Jan boundary and past-grace
-    # (the cases a fixed same-year guess got wrong):
+    # 5b. Year-less resolution across the Dec/Jan boundary and the
+    #     grace window (the cases a fixed same-year guess got wrong,
+    #     which nearest-occurrence resolution must keep right):
     assert extract_days("στις 30/12", date(2027, 1, 2)) == ["2026-12-30"]   # grace: recent past
-    assert extract_days("στις 3/1", date(2026, 12, 30)) == ["2027-01-03"]   # next year
+    assert extract_days("στις 3/1", date(2026, 12, 30)) == ["2027-01-03"]   # next year IS nearest
     assert extract_days("στις 2 Ιανουαρίου", date(2026, 12, 29)) == ["2027-01-02"]
-    assert extract_days("στις 1/7", date(2026, 7, 5)) == ["2026-07-01"]     # 4d past = kept
-    assert extract_days("στις 1/7", date(2026, 7, 6)) == ["2027-07-01"]     # 5d past = rolls
+    assert extract_days("στις 1/7", date(2026, 7, 5)) == ["2026-07-01"]     # 4d past = still live
+    assert extract_days("στις 1/7", date(2026, 7, 6)) == []                 # 5d past = OVER (was: 2027 ghost)
     assert extract_days("στις 29/2", date(2027, 3, 1)) == ["2028-02-29"]    # skips non-leap
+    # named-month form must expire the same way as the numeric form
+    assert extract_days("το Σάββατο 23 Ιουνίου", date(2026, 7, 3)) == []
 
     # 6. THE TRAP: publication date lives in details — extraction is
     #    title-only by design; verify the date parser alone would have
@@ -63,10 +71,13 @@ def run():
         "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09"]
     assert extract_days("το Σάββατο 5 και την Κυριακή 6 Σεπτεμβρίου", TODAY) == [
         "2026-09-05", "2026-09-06"]
-    assert extract_days("την 15η Αυγούστου", TODAY) == ["2026-08-15"]  # no year
+    assert extract_days("την 15η Αυγούστου", TODAY) == ["2026-08-15"]   # no year
     assert extract_days("οι 3 μάρτυρες κατέθεσαν στο δικαστήριο", TODAY) == []
 
-    # 9. The parser's smoke detector (looks dated, parsed nothing → flag)
+    # 9. The parser's smoke detector (looks dated, parsed nothing → flag).
+    #    NOTE: since the ghost-closure fix, an expired "23/6" also parses
+    #    to zero days ON PURPOSE — looks_dated still fires for it, which
+    #    only costs a harmless date_miss count on stale articles.
     assert looks_dated("κλειστοί δρόμοι στις 5 Ιουλίου")
     assert looks_dated("την Τρίτη 23/6")
     assert not looks_dated("Κλειστό το κέντρο λόγω πορείας")
@@ -82,7 +93,7 @@ def run():
         ("Αττική Οδός ΕΞΟΔΟΙ ΛΑΜΙΑΣ", "", "Βόρεια"),
         ("Κυκλοφοριακές ρυθμίσεις στο Ελληνικό για το Eco Rally", "", "Νότια"),
         ("Κλειστό το κέντρο της Αθήνας έως τις 12:00", "", "Κέντρο"),
-        ("Μετρό: ρυθμίσεις στη «μπλε» γραμμή", "", ""),           # untaggable
+        ("Μετρό: ρυθμίσεις στη «μπλε» γραμμή", "", ""),   # untaggable
         ("Σοβαρό τροχαίο", "https://www.google.com/maps?q=37.9792,23.7311", "Κέντρο"),
         ("Σοβαρό τροχαίο", "https://www.google.com/maps?q=38.0300,23.7400", "Βόρεια"),
         ("Κλειστός δρόμος", "https://www.google.com/maps?q=37.9500,23.6500", "Δυτικά"),
@@ -94,7 +105,8 @@ def run():
     # Κέντρο must win over a suburb mentioned in passing
     assert classify_area("Διακοπή στη Συγγρού, εκτροπή προς Καλλιθέα") == "Κέντρο"
 
-    print("ALL ENRICH TESTS PASSED (numeric+named dates, smoke detector, geo)")
+    print("ALL ENRICH TESTS PASSED (numeric+named dates, ghost-closure fix, geo)")
+
 
 if __name__ == "__main__":
     run()
