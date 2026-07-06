@@ -21,7 +21,17 @@
     "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594290660014001",
     "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594290912011001",
     "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594291004012000",
-    "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594291000004000"
+    "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594291000004000",
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51574092528022000",
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51600061312021000",
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51600061388004000",
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51568321972038000",
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51582749080021000",
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51579863732014000",
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594290660014001",
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594290912011001",
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594291004012000",
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594291000004000"
   ],
   "seeded": [
     "astynomia",
@@ -101,14 +111,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 26,
+      "fetched": 46,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 16
+        "κατηγορία εκτός πολιτικής": 36
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-06T08:20:41+00:00"
+      "last_success": "2026-07-06T12:16:28+00:00"
     }
   },
   "active": {
@@ -260,7 +270,7 @@
     ],
     "tomtom": [
       {
-        "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51574092528022000",
+        "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51574092528022000",
         "source": "TomTom (realtime)",
         "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
         "url": "https://www.google.com/maps?q=37.9774685794,23.6918153995",
@@ -269,10 +279,10 @@
         "days": [
           "2026-07-06"
         ],
-        "new_this_run": false
+        "new_this_run": true
       },
       {
-        "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51600061312021000",
+        "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51600061312021000",
         "source": "TomTom (realtime)",
         "title": "Evripidou (Dimosthenous) → Tagmatarchou Plessa (Dimosthenous)",
         "url": "https://www.google.com/maps?q=37.9444881187,23.6941207581",
@@ -281,34 +291,34 @@
         "days": [
           "2026-07-06"
         ],
-        "new_this_run": false
+        "new_this_run": true
       },
       {
-        "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51600061388004000",
+        "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51600061388004000",
         "source": "TomTom (realtime)",
-        "title": "Megistis (Diranis) → Athinas (Diranis)",
-        "url": "https://www.google.com/maps?q=37.9465708424,23.7017087274",
+        "title": "Fidiou (Diranis) → Athinas (Diranis)",
+        "url": "https://www.google.com/maps?q=37.9461456963,23.7011266881",
         "details": "Κλειστός δρόμος — Κλειστό; Οδικά έργα",
         "area": "Νότια",
         "days": [
           "2026-07-06"
         ],
-        "new_this_run": false
+        "new_this_run": true
       },
       {
-        "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51568321972030001",
+        "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51568321972038000",
         "source": "TomTom (realtime)",
-        "title": "Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
+        "title": "Sepolion (Konstantinoupoleos Ave) → Amvrakias (Konstantinoupoleos Ave)",
         "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
           "2026-07-06"
         ],
-        "new_this_run": false
+        "new_this_run": true
       },
       {
-        "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51582749080021000",
+        "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51582749080021000",
         "source": "TomTom (realtime)",
         "title": "Athinas (Evripidou) → Praxitelous (Evripidou)",
         "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
@@ -317,10 +327,10 @@
         "days": [
           "2026-07-06"
         ],
-        "new_this_run": false
+        "new_this_run": true
       },
       {
-        "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51579863732014000",
+        "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51579863732014000",
         "source": "TomTom (realtime)",
         "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
         "url": "https://www.google.com/maps?q=37.990176883,23.7386937076",
@@ -329,10 +339,10 @@
         "days": [
           "2026-07-06"
         ],
-        "new_this_run": false
+        "new_this_run": true
       },
       {
-        "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594290660014001",
+        "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594290660014001",
         "source": "TomTom (realtime)",
         "title": "Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
         "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437",
@@ -341,10 +351,10 @@
         "days": [
           "2026-07-06"
         ],
-        "new_this_run": false
+        "new_this_run": true
       },
       {
-        "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594290912011001",
+        "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594290912011001",
         "source": "TomTom (realtime)",
         "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
         "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
@@ -353,10 +363,10 @@
         "days": [
           "2026-07-06"
         ],
-        "new_this_run": false
+        "new_this_run": true
       },
       {
-        "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594291004012000",
+        "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594291004012000",
         "source": "TomTom (realtime)",
         "title": "Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
         "url": "https://www.google.com/maps?q=37.9818740999,23.769882434",
@@ -365,10 +375,10 @@
         "days": [
           "2026-07-06"
         ],
-        "new_this_run": false
+        "new_this_run": true
       },
       {
-        "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594291000004000",
+        "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594291000004000",
         "source": "TomTom (realtime)",
         "title": "Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
         "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874",
@@ -377,7 +387,7 @@
         "days": [
           "2026-07-06"
         ],
-        "new_this_run": false
+        "new_this_run": true
       }
     ]
   },
@@ -635,6 +645,142 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51574092528022000": {
+      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51574092528022000",
+      "source": "TomTom (realtime)",
+      "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
+      "url": "https://www.google.com/maps?q=37.9774685794,23.6918153995",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Δυτικά",
+      "days": [
+        "2026-07-06"
+      ],
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51600061312021000": {
+      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51600061312021000",
+      "source": "TomTom (realtime)",
+      "title": "Evripidou (Dimosthenous) → Tagmatarchou Plessa (Dimosthenous)",
+      "url": "https://www.google.com/maps?q=37.9444881187,23.6941207581",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Δυτικά",
+      "days": [
+        "2026-07-06"
+      ],
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51600061388004000": {
+      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51600061388004000",
+      "source": "TomTom (realtime)",
+      "title": "Fidiou (Diranis) → Athinas (Diranis)",
+      "url": "https://www.google.com/maps?q=37.9461456963,23.7011266881",
+      "details": "Κλειστός δρόμος — Κλειστό; Οδικά έργα",
+      "area": "Νότια",
+      "days": [
+        "2026-07-06"
+      ],
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51568321972038000": {
+      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51568321972038000",
+      "source": "TomTom (realtime)",
+      "title": "Sepolion (Konstantinoupoleos Ave) → Amvrakias (Konstantinoupoleos Ave)",
+      "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Βόρεια",
+      "days": [
+        "2026-07-06"
+      ],
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51582749080021000": {
+      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51582749080021000",
+      "source": "TomTom (realtime)",
+      "title": "Athinas (Evripidou) → Praxitelous (Evripidou)",
+      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-06"
+      ],
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51579863732014000": {
+      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51579863732014000",
+      "source": "TomTom (realtime)",
+      "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
+      "url": "https://www.google.com/maps?q=37.990176883,23.7386937076",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-06"
+      ],
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594290660014001": {
+      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594290660014001",
+      "source": "TomTom (realtime)",
+      "title": "Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
+      "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-06"
+      ],
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594290912011001": {
+      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594290912011001",
+      "source": "TomTom (realtime)",
+      "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
+      "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-06"
+      ],
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594291004012000": {
+      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594291004012000",
+      "source": "TomTom (realtime)",
+      "title": "Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
+      "url": "https://www.google.com/maps?q=37.9818740999,23.769882434",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-07-06"
+      ],
+      "alerted_chats": []
+    },
+    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594291000004000": {
+      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594291000004000",
+      "source": "TomTom (realtime)",
+      "title": "Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
+      "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-07-06"
+      ],
+      "alerted_chats": []
     }
   },
   "known_chats": [
@@ -649,6 +795,54 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-07-06T12:16:29+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
+      "url": "https://www.google.com/maps?q=37.9774685794,23.6918153995"
+    },
+    {
+      "time": "2026-07-06T12:16:30+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Evripidou (Dimosthenous) → Tagmatarchou Plessa (Dimosthenous)",
+      "url": "https://www.google.com/maps?q=37.9444881187,23.6941207581"
+    },
+    {
+      "time": "2026-07-06T12:16:31+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Fidiou (Diranis) → Athinas (Diranis)",
+      "url": "https://www.google.com/maps?q=37.9461456963,23.7011266881"
+    },
+    {
+      "time": "2026-07-06T12:16:32+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Sepolion (Konstantinoupoleos Ave) → Amvrakias (Konstantinoupoleos Ave)",
+      "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212"
+    },
+    {
+      "time": "2026-07-06T12:16:32+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Athinas (Evripidou) → Praxitelous (Evripidou)",
+      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772"
+    },
+    {
+      "time": "2026-07-06T12:16:33+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
+      "url": "https://www.google.com/maps?q=37.990176883,23.7386937076"
+    },
+    {
+      "time": "2026-07-06T12:16:34+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
+      "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437"
+    },
+    {
+      "time": "2026-07-06T12:16:35+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
+      "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095"
     }
   ],
   "runs": [
@@ -660,6 +854,12 @@
     },
     {
       "time": "2026-07-06T08:20:41+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-06T12:16:35+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
