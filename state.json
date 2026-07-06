@@ -32,7 +32,8 @@
     "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594290912011001",
     "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594291004012000",
     "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594291000004000",
-    "ΨΕΘΓ46ΜΤΛΒ-4ΞΕ"
+    "ΨΕΘΓ46ΜΤΛΒ-4ΞΕ",
+    "c4c2d6843e427da6"
   ],
   "seeded": [
     "astynomia",
@@ -46,16 +47,15 @@
     "astynomia": {
       "name": "astynomia",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 54,
       "dropped": {
-        "rush-hour congestion (expected)": 1,
         "no level detected, no disruption keyword": 53
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-06T15:16:28+00:00"
+      "last_success": "2026-07-06T21:22:44+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -69,7 +69,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-06T15:16:28+00:00"
+      "last_success": "2026-07-06T21:22:44+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -82,7 +82,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-06T15:16:28+00:00"
+      "last_success": "2026-07-06T21:22:44+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -93,7 +93,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-06T15:16:28+00:00"
+      "last_success": "2026-07-06T21:22:44+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -107,24 +107,37 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-06T15:16:28+00:00"
+      "last_success": "2026-07-06T21:22:44+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 46,
+      "items": 9,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 36
+        "κατηγορία εκτός πολιτικής": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-06T15:16:28+00:00"
+      "last_success": "2026-07-06T21:51:32+00:00"
     }
   },
   "active": {
-    "astynomia": [],
+    "astynomia": [
+      {
+        "id": "c4c2d6843e427da6",
+        "source": "Τροχαία (astynomia.gr)",
+        "title": "Ομαλή",
+        "url": "https://www.astynomia.gr/kykloforia-stous-dromous/deltio-kykloforias-attiki/",
+        "details": "Ασυνήθιστα βεβαρυμένη κίνηση εκτός ωρών αιχμής",
+        "area": "",
+        "days": [
+          "2026-07-07"
+        ],
+        "new_this_run": true
+      }
+    ],
     "diavgeia": [],
     "iefimerida": [],
     "kathimerini": [
@@ -262,7 +275,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-07-06"
+          "2026-07-07"
         ],
         "new_this_run": false
       },
@@ -274,19 +287,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-07-06"
-        ],
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51600061388004000",
-        "source": "TomTom (realtime)",
-        "title": "Fidiou (Diranis) → Athinas (Diranis)",
-        "url": "https://www.google.com/maps?q=37.9461456963,23.7011266881",
-        "details": "Κλειστός δρόμος — Κλειστό; Οδικά έργα",
-        "area": "Νότια",
-        "days": [
-          "2026-07-06"
+          "2026-07-07"
         ],
         "new_this_run": false
       },
@@ -298,7 +299,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-07-06"
+          "2026-07-07"
         ],
         "new_this_run": false
       },
@@ -310,7 +311,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-07-06"
+          "2026-07-07"
         ],
         "new_this_run": false
       },
@@ -322,7 +323,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-07-06"
+          "2026-07-07"
         ],
         "new_this_run": false
       },
@@ -334,7 +335,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-07-06"
+          "2026-07-07"
         ],
         "new_this_run": false
       },
@@ -346,7 +347,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-07-06"
+          "2026-07-07"
         ],
         "new_this_run": false
       },
@@ -358,7 +359,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-07-06"
+          "2026-07-07"
         ],
         "new_this_run": false
       },
@@ -370,27 +371,13 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-07-06"
+          "2026-07-07"
         ],
         "new_this_run": false
       }
     ]
   },
   "closures": {
-    "dfde1e3acc1aa20d": {
-      "id": "dfde1e3acc1aa20d",
-      "source": "Τροχαία (astynomia.gr)",
-      "title": "Ομαλή",
-      "url": "https://www.astynomia.gr/kykloforia-stous-dromous/deltio-kykloforias-attiki/",
-      "details": "Ασυνήθιστα βεβαρυμένη κίνηση εκτός ωρών αιχμής",
-      "area": "",
-      "days": [
-        "2026-07-06"
-      ],
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
     "https://www.kathimerini.gr/society/564312118/metro-kykloforiakes-rythmiseis-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera/": {
       "id": "https://www.kathimerini.gr/society/564312118/metro-kykloforiakes-rythmiseis-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera/",
       "source": "kathimerini",
@@ -491,146 +478,6 @@
         "151797168"
       ]
     },
-    "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51574092528022000": {
-      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51574092528022000",
-      "source": "TomTom (realtime)",
-      "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
-      "url": "https://www.google.com/maps?q=37.9774685794,23.6918153995",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Δυτικά",
-      "days": [
-        "2026-07-06"
-      ],
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51600061312021000": {
-      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51600061312021000",
-      "source": "TomTom (realtime)",
-      "title": "Evripidou (Dimosthenous) → Tagmatarchou Plessa (Dimosthenous)",
-      "url": "https://www.google.com/maps?q=37.9444881187,23.6941207581",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Δυτικά",
-      "days": [
-        "2026-07-06"
-      ],
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51600061388004000": {
-      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51600061388004000",
-      "source": "TomTom (realtime)",
-      "title": "Megistis (Diranis) → Athinas (Diranis)",
-      "url": "https://www.google.com/maps?q=37.9465708424,23.7017087274",
-      "details": "Κλειστός δρόμος — Κλειστό; Οδικά έργα",
-      "area": "Νότια",
-      "days": [
-        "2026-07-06"
-      ],
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51568321972030001": {
-      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51568321972030001",
-      "source": "TomTom (realtime)",
-      "title": "Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
-      "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Βόρεια",
-      "days": [
-        "2026-07-06"
-      ],
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51582749080021000": {
-      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51582749080021000",
-      "source": "TomTom (realtime)",
-      "title": "Athinas (Evripidou) → Praxitelous (Evripidou)",
-      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-06"
-      ],
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51579863732014000": {
-      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51579863732014000",
-      "source": "TomTom (realtime)",
-      "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
-      "url": "https://www.google.com/maps?q=37.990176883,23.7386937076",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-06"
-      ],
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594290660014001": {
-      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594290660014001",
-      "source": "TomTom (realtime)",
-      "title": "Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
-      "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-06"
-      ],
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594290912011001": {
-      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594290912011001",
-      "source": "TomTom (realtime)",
-      "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
-      "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-06"
-      ],
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594291004012000": {
-      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594291004012000",
-      "source": "TomTom (realtime)",
-      "title": "Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
-      "url": "https://www.google.com/maps?q=37.9818740999,23.769882434",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-07-06"
-      ],
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594291000004000": {
-      "id": "TTI-85ae06a1-0b38-40b6-b6c6-6add258c2ceb-TTR51594291000004000",
-      "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
-      "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-07-06"
-      ],
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
     "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51574092528022000": {
       "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51574092528022000",
       "source": "TomTom (realtime)",
@@ -639,7 +486,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-07-06"
+        "2026-07-07"
       ],
       "alerted_chats": [
         "151797168"
@@ -653,21 +500,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-07-06"
-      ],
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51600061388004000": {
-      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51600061388004000",
-      "source": "TomTom (realtime)",
-      "title": "Fidiou (Diranis) → Athinas (Diranis)",
-      "url": "https://www.google.com/maps?q=37.9461456963,23.7011266881",
-      "details": "Κλειστός δρόμος — Κλειστό; Οδικά έργα",
-      "area": "Νότια",
-      "days": [
-        "2026-07-06"
+        "2026-07-07"
       ],
       "alerted_chats": [
         "151797168"
@@ -681,7 +514,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-06"
+        "2026-07-07"
       ],
       "alerted_chats": [
         "151797168"
@@ -695,7 +528,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-06"
+        "2026-07-07"
       ],
       "alerted_chats": [
         "151797168"
@@ -709,7 +542,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-06"
+        "2026-07-07"
       ],
       "alerted_chats": [
         "151797168"
@@ -723,7 +556,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-06"
+        "2026-07-07"
       ],
       "alerted_chats": [
         "151797168"
@@ -737,7 +570,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-06"
+        "2026-07-07"
       ],
       "alerted_chats": [
         "151797168"
@@ -751,7 +584,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-06"
+        "2026-07-07"
       ],
       "alerted_chats": [
         "151797168"
@@ -765,7 +598,21 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-06"
+        "2026-07-07"
+      ],
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "c4c2d6843e427da6": {
+      "id": "c4c2d6843e427da6",
+      "source": "Τροχαία (astynomia.gr)",
+      "title": "Ομαλή",
+      "url": "https://www.astynomia.gr/kykloforia-stous-dromous/deltio-kykloforias-attiki/",
+      "details": "Ασυνήθιστα βεβαρυμένη κίνηση εκτός ωρών αιχμής",
+      "area": "",
+      "days": [
+        "2026-07-07"
       ],
       "alerted_chats": [
         "151797168"
@@ -844,6 +691,12 @@
       "source": "TomTom (realtime)",
       "title": "🚨 Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
       "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874"
+    },
+    {
+      "time": "2026-07-06T21:22:45+00:00",
+      "source": "Τροχαία (astynomia.gr)",
+      "title": "🚨 Ομαλή",
+      "url": "https://www.astynomia.gr/kykloforia-stous-dromous/deltio-kykloforias-attiki/"
     }
   ],
   "runs": [
@@ -870,6 +723,42 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-06T15:57:46+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-06T18:06:26+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
+    },
+    {
+      "time": "2026-07-06T18:06:44+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-06T20:19:13+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-06T21:22:45+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
+    },
+    {
+      "time": "2026-07-06T21:51:32+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
