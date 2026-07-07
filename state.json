@@ -43,7 +43,8 @@
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290660014001",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290912011001",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594291004012000",
-    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594291000004000"
+    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594291000004000",
+    "9ΣΕΩ46ΜΤΛΒ-ΡΟΡ"
   ],
   "seeded": [
     "astynomia",
@@ -63,20 +64,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T07:31:53+00:00"
+      "last_success": "2026-07-07T10:49:02+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 99
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T07:31:53+00:00"
+      "last_success": "2026-07-07T10:49:02+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -89,7 +90,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T07:31:53+00:00"
+      "last_success": "2026-07-07T10:49:02+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -100,38 +101,52 @@
       "date_misses": 5,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T07:31:53+00:00"
+      "last_success": "2026-07-07T10:49:02+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 2,
-      "fetched": 13,
+      "items": 1,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 11
+        "παλιά ανακοίνωση": 2,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T07:31:54+00:00"
+      "last_success": "2026-07-07T10:49:02+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 43,
+      "fetched": 49,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 34
+        "κατηγορία εκτός πολιτικής": 40
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T10:15:40+00:00"
+      "last_success": "2026-07-07T10:49:02+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [],
+    "diavgeia": [
+      {
+        "id": "9ΣΕΩ46ΜΤΛΒ-ΡΟΡ",
+        "source": "Διαύγεια (Τροχαία)",
+        "title": "25416-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Ολικός αποκλεισμός του κλάδου εξόδου προς την Λεωφ. Κύμης- Ολ. Στάδιο κόμβος (10Β) της Αττικής Οδού, στην κατεύθυνση προς Ελευσίνα, περιοχής Δήμου Ηρακλείου, την 11.07.2026, κατά τις ώρες 23.00΄ έως την 08.00΄ ώρα της επομένης, για την εκτέλεση εργασιών ",
+        "url": "https://diavgeia.gov.gr/decision/view/9ΣΕΩ46ΜΤΛΒ-ΡΟΡ",
+        "details": "Επίσημη απόφαση Τροχαίας (07/07/2026)",
+        "area": "Δυτικά",
+        "days": [
+          "2026-07-11"
+        ],
+        "new_this_run": true
+      }
+    ],
     "iefimerida": [],
     "kathimerini": [
       {
@@ -258,7 +273,7 @@
         "days": [
           "2026-07-07"
         ],
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51600061312012000",
@@ -270,7 +285,7 @@
         "days": [
           "2026-07-07"
         ],
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51568321972030001",
@@ -282,7 +297,7 @@
         "days": [
           "2026-07-07"
         ],
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749080021000",
@@ -294,7 +309,7 @@
         "days": [
           "2026-07-07"
         ],
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51579863732014000",
@@ -306,7 +321,7 @@
         "days": [
           "2026-07-07"
         ],
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290660014001",
@@ -318,7 +333,7 @@
         "days": [
           "2026-07-07"
         ],
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290912011001",
@@ -330,7 +345,7 @@
         "days": [
           "2026-07-07"
         ],
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594291004012000",
@@ -342,7 +357,7 @@
         "days": [
           "2026-07-07"
         ],
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594291000004000",
@@ -354,7 +369,7 @@
         "days": [
           "2026-07-07"
         ],
-        "new_this_run": true
+        "new_this_run": false
       }
     ]
   },
@@ -721,6 +736,20 @@
       "days": [
         "2026-07-07"
       ],
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "9ΣΕΩ46ΜΤΛΒ-ΡΟΡ": {
+      "id": "9ΣΕΩ46ΜΤΛΒ-ΡΟΡ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25416-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Ολικός αποκλεισμός του κλάδου εξόδου προς την Λεωφ. Κύμης- Ολ. Στάδιο κόμβος (10Β) της Αττικής Οδού, στην κατεύθυνση προς Ελευσίνα, περιοχής Δήμου Ηρακλείου, την 11.07.2026, κατά τις ώρες 23.00΄ έως την 08.00΄ ώρα της επομένης, για την εκτέλεση εργασιών ",
+      "url": "https://diavgeia.gov.gr/decision/view/9ΣΕΩ46ΜΤΛΒ-ΡΟΡ",
+      "details": "Επίσημη απόφαση Τροχαίας (07/07/2026)",
+      "area": "Δυτικά",
+      "days": [
+        "2026-07-11"
+      ],
       "alerted_chats": []
     }
   },
@@ -856,6 +885,12 @@
       "source": "TomTom (realtime)",
       "title": "🚨 Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
       "url": "https://www.google.com/maps?q=37.9818740999,23.769882434"
+    },
+    {
+      "time": "2026-07-07T10:49:03+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
+      "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874"
     }
   ],
   "runs": [
@@ -960,6 +995,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-07T10:49:03+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
