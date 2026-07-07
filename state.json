@@ -44,7 +44,10 @@
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290912011001",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594291004012000",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594291000004000",
-    "9ΣΕΩ46ΜΤΛΒ-ΡΟΡ"
+    "9ΣΕΩ46ΜΤΛΒ-ΡΟΡ",
+    "9ΤΝΧ46ΜΤΛΒ-435",
+    "6ΖΠΥ46ΜΤΛΒ-2ΩΧ",
+    "ΡΖΑΗ46ΜΤΛΒ-85Ν"
   ],
   "seeded": [
     "astynomia",
@@ -59,25 +62,29 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
-      "date_misses": 0,
-      "body_enriched": 0,
-      "consecutive_failures": 0,
-      "last_success": "2026-07-07T10:49:02+00:00"
-    },
-    "diavgeia": {
-      "name": "diavgeia",
-      "ok": true,
-      "items": 1,
-      "fetched": 100,
+      "fetched": 54,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T10:49:02+00:00"
+      "last_success": "2026-07-07T14:12:37+00:00"
+    },
+    "diavgeia": {
+      "name": "diavgeia",
+      "ok": true,
+      "items": 0,
+      "fetched": 100,
+      "dropped": {
+        "εκτός θέματος/Αθήνας": 97,
+        "μόνο μία λωρίδα/ΛΕΑ": 3
+      },
+      "date_misses": 0,
+      "body_enriched": 0,
+      "consecutive_failures": 0,
+      "last_success": "2026-07-07T14:12:37+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -90,7 +97,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T10:49:02+00:00"
+      "last_success": "2026-07-07T14:12:37+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -101,52 +108,38 @@
       "date_misses": 5,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T10:49:02+00:00"
+      "last_success": "2026-07-07T14:12:37+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 1,
-      "fetched": 11,
+      "items": 2,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 2,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 11
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T10:49:02+00:00"
+      "last_success": "2026-07-07T14:12:37+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 76,
+      "fetched": 39,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 67
+        "κατηγορία εκτός πολιτικής": 30
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T12:40:28+00:00"
+      "last_success": "2026-07-07T14:12:37+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [
-      {
-        "id": "9ΣΕΩ46ΜΤΛΒ-ΡΟΡ",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "25416-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Ολικός αποκλεισμός του κλάδου εξόδου προς την Λεωφ. Κύμης- Ολ. Στάδιο κόμβος (10Β) της Αττικής Οδού, στην κατεύθυνση προς Ελευσίνα, περιοχής Δήμου Ηρακλείου, την 11.07.2026, κατά τις ώρες 23.00΄ έως την 08.00΄ ώρα της επομένης, για την εκτέλεση εργασιών ",
-        "url": "https://diavgeia.gov.gr/decision/view/9ΣΕΩ46ΜΤΛΒ-ΡΟΡ",
-        "details": "Επίσημη απόφαση Τροχαίας (07/07/2026)",
-        "area": "Δυτικά",
-        "days": [
-          "2026-07-11"
-        ],
-        "new_this_run": true
-      }
-    ],
+    "diavgeia": [],
     "iefimerida": [],
     "kathimerini": [
       {
@@ -256,6 +249,16 @@
         "source": "ΟΑΣΑ",
         "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 837, λόγω εργασιών στην οδό ΣΤΕΦΑΝΟΥ ΣΑΡΑΦΗ μεταξύ των οδών Μ. Αλεξάνδρου και Κρήτης του Δήμου ΑΓΙΑΣ ΒΑΡΒΑΡΑΣ",
         "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-268/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-257/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών Α11, Β11, 719, Γ12, 701, 703, 705, 747, 892, 732 και της γραμμής του τρόλεϊ 25, λόγω της  διεξαγωγής εκδηλώσεων, στο Δήμο Ιλίου",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-257/",
         "details": "",
         "area": "",
         "days": [],
@@ -1007,6 +1010,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-07T14:12:37+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
