@@ -111,14 +111,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 16,
+      "fetched": 82,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 7
+        "κατηγορία εκτός πολιτικής": 73
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T02:24:45+00:00"
+      "last_success": "2026-07-07T06:33:07+00:00"
     }
   },
   "active": {
@@ -596,7 +596,7 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-07-06"
+    "151797168": "2026-07-07"
   },
   "notifications": [
     {
@@ -670,6 +670,12 @@
       "source": "Τροχαία (astynomia.gr)",
       "title": "🚨 Ομαλή",
       "url": "https://www.astynomia.gr/kykloforia-stous-dromous/deltio-kykloforias-attiki/"
+    },
+    {
+      "time": "2026-07-07T06:33:10+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
@@ -756,6 +762,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-07T06:33:10+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
