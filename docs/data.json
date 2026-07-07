@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T06:33:10+00:00",
+  "generated_at": "2026-07-07T07:31:54+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T02:24:45+00:00"
+      "last_success": "2026-07-07T07:31:53+00:00"
     },
     {
       "name": "diavgeia",
@@ -18,13 +18,12 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99,
-        "μόνο μία λωρίδα/ΛΕΑ": 1
+        "εκτός θέματος/Αθήνας": 100
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T02:24:45+00:00"
+      "last_success": "2026-07-07T07:31:53+00:00"
     },
     {
       "name": "iefimerida",
@@ -37,7 +36,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T02:24:45+00:00"
+      "last_success": "2026-07-07T07:31:53+00:00"
     },
     {
       "name": "kathimerini",
@@ -48,34 +47,33 @@
       "date_misses": 5,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T02:24:45+00:00"
+      "last_success": "2026-07-07T07:31:53+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 1,
-      "fetched": 11,
+      "items": 2,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 4,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 11
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T02:24:45+00:00"
+      "last_success": "2026-07-07T07:31:54+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 82,
+      "fetched": 51,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 73
+        "κατηγορία εκτός πολιτικής": 42
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T06:33:07+00:00"
+      "last_success": "2026-07-07T07:31:54+00:00"
     }
   ],
   "active_events": [
@@ -659,6 +657,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-07T07:31:54+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
