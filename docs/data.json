@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T19:28:25+00:00",
+  "generated_at": "2026-07-07T21:04:25+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -77,7 +77,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T19:28:25+00:00"
+      "last_success": "2026-07-07T21:04:25+00:00"
     }
   ],
   "active_events": [
@@ -209,7 +209,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ],
       "new_this_run": false
     },
@@ -221,7 +221,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ],
       "new_this_run": false
     },
@@ -233,7 +233,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ],
       "new_this_run": false
     },
@@ -245,7 +245,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ],
       "new_this_run": false
     },
@@ -257,7 +257,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ],
       "new_this_run": false
     },
@@ -269,7 +269,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ],
       "new_this_run": false
     },
@@ -281,7 +281,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ],
       "new_this_run": false
     },
@@ -293,7 +293,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ],
       "new_this_run": false
     },
@@ -305,122 +305,12 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ],
       "new_this_run": false
     }
   ],
   "closures": [
-    {
-      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51574092528022000",
-      "source": "TomTom (realtime)",
-      "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
-      "url": "https://www.google.com/maps?q=37.9774685794,23.6918153995",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Δυτικά",
-      "days": [
-        "2026-07-07"
-      ]
-    },
-    {
-      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51600061312021000",
-      "source": "TomTom (realtime)",
-      "title": "Evripidou (Dimosthenous) → Tagmatarchou Plessa (Dimosthenous)",
-      "url": "https://www.google.com/maps?q=37.9444881187,23.6941207581",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Δυτικά",
-      "days": [
-        "2026-07-07"
-      ]
-    },
-    {
-      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51568321972038000",
-      "source": "TomTom (realtime)",
-      "title": "Sepolion (Konstantinoupoleos Ave) → Amvrakias (Konstantinoupoleos Ave)",
-      "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Βόρεια",
-      "days": [
-        "2026-07-07"
-      ]
-    },
-    {
-      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51582749080021000",
-      "source": "TomTom (realtime)",
-      "title": "Athinas (Evripidou) → Praxitelous (Evripidou)",
-      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-07"
-      ]
-    },
-    {
-      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51579863732014000",
-      "source": "TomTom (realtime)",
-      "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
-      "url": "https://www.google.com/maps?q=37.990176883,23.7386937076",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-07"
-      ]
-    },
-    {
-      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594290660014001",
-      "source": "TomTom (realtime)",
-      "title": "Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
-      "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-07"
-      ]
-    },
-    {
-      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594290912011001",
-      "source": "TomTom (realtime)",
-      "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
-      "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-07"
-      ]
-    },
-    {
-      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594291004012000",
-      "source": "TomTom (realtime)",
-      "title": "Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
-      "url": "https://www.google.com/maps?q=37.9818740999,23.769882434",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-07-07"
-      ]
-    },
-    {
-      "id": "TTI-87927ac6-f8d8-45ee-ae24-0f482b5f63fe-TTR51594291000004000",
-      "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
-      "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-07-07"
-      ]
-    },
-    {
-      "id": "c4c2d6843e427da6",
-      "source": "Τροχαία (astynomia.gr)",
-      "title": "Ομαλή",
-      "url": "https://www.astynomia.gr/kykloforia-stous-dromous/deltio-kykloforias-attiki/",
-      "details": "Ασυνήθιστα βεβαρυμένη κίνηση εκτός ωρών αιχμής",
-      "area": "",
-      "days": [
-        "2026-07-07"
-      ]
-    },
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51574092528022000",
       "source": "TomTom (realtime)",
@@ -429,7 +319,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ]
     },
     {
@@ -440,7 +330,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ]
     },
     {
@@ -451,7 +341,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ]
     },
     {
@@ -462,7 +352,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ]
     },
     {
@@ -473,7 +363,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ]
     },
     {
@@ -484,7 +374,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ]
     },
     {
@@ -495,7 +385,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ]
     },
     {
@@ -506,7 +396,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ]
     },
     {
@@ -517,7 +407,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-07"
+        "2026-07-08"
       ]
     },
     {
@@ -886,6 +776,12 @@
     },
     {
       "time": "2026-07-07T19:28:25+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-07T21:04:25+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
