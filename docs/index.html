@@ -50,7 +50,6 @@
         border-radius:999px;padding:4px 12px;cursor:pointer}
   .chip[aria-pressed="true"]{background:var(--blue);border-color:var(--blue-deep);color:#fff}
   .chip:focus-visible{outline:2px solid var(--blue-deep);outline-offset:2px}
-  .fdiv{width:1px;height:20px;background:var(--line);margin:0 6px}
 
   /* ——— Dashboard grid: main column + system column ——— */
   .layout{display:grid;gap:0 24px;grid-template-columns:1fr}
@@ -69,7 +68,7 @@
   .card .t{font-weight:600;margin:2px 0}
   .card .d{color:var(--mut);font-size:.92rem;white-space:pre-line}
   .card a{color:var(--blue);text-decoration:none;font-size:.9rem}
-  a:focus-visible,.chip:focus-visible{outline:2px solid var(--blue-deep);outline-offset:2px}
+  a:focus-visible{outline:2px solid var(--blue-deep);outline-offset:2px}
   .badge{float:right;background:var(--alert);color:#fff;border-radius:5px;
          font-family:var(--disp);font-size:.72rem;font-weight:700;padding:2px 7px;
          text-transform:uppercase;letter-spacing:.05em}
@@ -89,32 +88,44 @@
   .rt a{color:var(--blue);text-decoration:none;font-size:.85rem;white-space:nowrap;margin-left:auto}
   .rt .d{color:var(--mut);font-size:.85rem;flex-basis:100%}
 
-  /* ——— System panel ——— */
-  .panel{background:var(--card);border:1px solid var(--line);border-radius:10px;
-         padding:4px 14px 10px;margin-bottom:12px}
-  .panel details{border-top:1px solid var(--line)}
-  .panel details:first-child{border-top:none}
-  .panel summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px;
-                 padding:10px 0;font-family:var(--disp);font-weight:600;font-size:.85rem;
-                 text-transform:uppercase;letter-spacing:.08em;color:var(--mut)}
-  .panel summary::after{content:"▾";margin-left:auto;transition:transform .15s}
-  .panel details:not([open]) summary::after{transform:rotate(-90deg)}
-  .srcrow{display:flex;align-items:baseline;gap:8px;padding:6px 0;font-size:.9rem;
-          border-top:1px dashed var(--line)}
-  .srcrow:first-of-type{border-top:none}
-  .srcrow .lamp{width:11px;height:11px;align-self:center}
-  .srcrow .n{font-weight:600;flex:1;min-width:0}
-  .srcrow .meta{color:var(--mut);font-size:.82rem;white-space:nowrap;
-                font-variant-numeric:tabular-nums}
-  .drops{flex-basis:100%;color:var(--mut);font-size:.78rem;padding-left:19px}
-  .noterow{padding:7px 0;border-top:1px dashed var(--line);font-size:.88rem}
-  .noterow:first-of-type{border-top:none}
-  .noterow .when{font-family:var(--disp);font-size:.75rem;font-weight:600;
-                 text-transform:uppercase;letter-spacing:.05em;color:var(--blue)}
-  .noterow a{color:var(--ink);text-decoration:none}
-  .noterow a:hover{color:var(--blue)}
+  /* ——— Past / expired events: collapsed, dimmed ——— */
+  .pastwrap{margin-top:22px}
+  .pastwrap summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:6px;
+                    font-family:var(--disp);font-weight:600;font-size:.85rem;
+                    text-transform:uppercase;letter-spacing:.09em;color:var(--mut);
+                    margin:0 0 10px}
+  .pastwrap summary::-webkit-details-marker{display:none}
+  .pastwrap summary::after{content:"▾";transition:transform .15s}
+  .pastwrap:not([open]) summary::after{transform:rotate(-90deg)}
+  .pastwrap .card{opacity:.7}
 
-  /* ——— Calendar ——— */
+  /* ——— Calendar: month grid + day list, side by side when wide ——— */
+  .calwrap{display:grid;gap:12px;grid-template-columns:1fr;align-items:start}
+  @media (min-width:700px){.calwrap{grid-template-columns:300px minmax(0,1fr)}}
+  .calbox{background:var(--card);border:1px solid var(--line);border-radius:10px;
+          padding:10px 12px}
+  .calnav{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+  .calnav button{border:1px solid var(--line);background:var(--paper);border-radius:6px;
+                 width:28px;height:28px;cursor:pointer;font-size:1rem;line-height:1;color:var(--ink)}
+  .calnav .mt{font-family:var(--disp);font-weight:700;text-transform:uppercase;
+              letter-spacing:.04em;font-size:.9rem}
+  .calgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:3px}
+  .calgrid .wd{font-family:var(--disp);font-size:.65rem;font-weight:600;color:var(--mut);
+               text-align:center;text-transform:uppercase;padding:2px 0}
+  .cd{position:relative;aspect-ratio:1;border:1px solid transparent;border-radius:7px;
+      display:flex;align-items:center;justify-content:center;font-size:.82rem;
+      color:var(--ink);background:none;font-family:var(--body);padding:0}
+  .cd.off{visibility:hidden}
+  .cd.pastd{color:var(--mut)}
+  .cd.today{border-color:var(--blue);font-weight:700}
+  .cd.has{background:var(--paper);border-color:var(--line);cursor:pointer;font-weight:600}
+  .cd.has::after{content:attr(data-n);position:absolute;top:-4px;right:-4px;
+                 background:var(--alert);color:#fff;border-radius:999px;font-size:.6rem;
+                 font-family:var(--disp);font-weight:700;min-width:15px;height:15px;
+                 line-height:15px;text-align:center;padding:0 2px}
+  .cd.sel{background:var(--blue);color:#fff;border-color:var(--blue-deep)}
+  .calclear{margin-bottom:8px}
+
   .day{background:var(--card);border:1px solid var(--line);border-radius:10px;
        padding:10px 14px;margin-bottom:8px}
   .day .dh{font-family:var(--disp);font-weight:700;font-size:.95rem;
@@ -125,6 +136,36 @@
   .day .ci a:hover{color:var(--blue)}
   .day .ci.long{color:var(--mut)}
   .day .ci.long a{color:var(--mut)}
+  .later{color:var(--mut);font-size:.85rem;padding:2px 4px 8px}
+
+  /* ——— System panel ——— */
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:10px;
+         padding:4px 14px 10px;margin-bottom:12px}
+  .panel details{border-top:1px solid var(--line)}
+  .panel details:first-child{border-top:none}
+  .panel summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px;
+                 padding:10px 0;font-family:var(--disp);font-weight:600;font-size:.85rem;
+                 text-transform:uppercase;letter-spacing:.08em;color:var(--mut)}
+  .panel summary::-webkit-details-marker{display:none}
+  .panel summary::after{content:"▾";margin-left:auto;transition:transform .15s}
+  .panel details:not([open]) summary::after{transform:rotate(-90deg)}
+  .srcrow{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px;padding:6px 0;
+          font-size:.9rem;border-top:1px dashed var(--line)}
+  .srcrow:first-of-type{border-top:none}
+  .srcrow .lamp{width:11px;height:11px;align-self:center;flex:none}
+  .srcrow .n{font-weight:600;flex:1;min-width:0}
+  .srcrow .meta{color:var(--mut);font-size:.82rem;white-space:nowrap;
+                font-variant-numeric:tabular-nums}
+  /* Drop reasons: revealed on hover / focus / tap — kept out of the way otherwise */
+  .drops{display:none;flex-basis:100%;color:var(--mut);font-size:.78rem;padding-left:19px}
+  .srcrow:hover .drops,.srcrow:focus-within .drops,.srcrow:focus .drops,
+  .srcrow.open .drops{display:block}
+  .noterow{padding:7px 0;border-top:1px dashed var(--line);font-size:.88rem}
+  .noterow:first-of-type{border-top:none}
+  .noterow .when{font-family:var(--disp);font-size:.75rem;font-weight:600;
+                 text-transform:uppercase;letter-spacing:.05em;color:var(--blue)}
+  .noterow a{color:var(--ink);text-decoration:none}
+  .noterow a:hover{color:var(--blue)}
 
   .empty{background:var(--card);border:1px dashed var(--line);border-radius:10px;
          padding:18px;color:var(--mut);text-align:center}
@@ -168,14 +209,29 @@
   </aside>
 
   <main class="main">
+    <h2>Ημερολόγιο κλεισιμάτων</h2>
+    <div class="calwrap">
+      <div class="calbox">
+        <div class="calnav">
+          <button onclick="calMove(-1)" aria-label="Προηγούμενος μήνας">‹</button>
+          <span class="mt" id="calTitle"></span>
+          <button onclick="calMove(1)" aria-label="Επόμενος μήνας">›</button>
+        </div>
+        <div class="calgrid" id="calGrid"></div>
+      </div>
+      <div id="calList"></div>
+    </div>
+
     <h2>Σήμερα · ενεργά συμβάντα<span class="count" id="cMain"></span></h2>
     <div id="events"></div>
 
     <h2>Σημειακά κλεισίματα δρόμων · realtime<span class="count" id="cRt"></span></h2>
     <div id="rtlist"></div>
 
-    <h2>Ημερολόγιο κλεισιμάτων</h2>
-    <div id="calendar"></div>
+    <details class="pastwrap">
+      <summary>Παρελθόντα · ληγμένα<span class="count" id="cPast"></span></summary>
+      <div id="past"></div>
+    </details>
   </main>
 </div>
 
@@ -195,11 +251,18 @@ const SHORT_SRC = {          // compact chip labels
   "TomTom (realtime)": "TomTom",
 };
 const DAYS_EL = ["Κυρ","Δευ","Τρί","Τετ","Πέμ","Παρ","Σάβ"];
+const WD_HEAD = ["Δε","Τρ","Τε","Πε","Πα","Σά","Κυ"];   // Monday-first grid
 const MONTHS_EL = ["Ιαν","Φεβ","Μαρ","Απρ","Μαΐ","Ιουν","Ιουλ","Αυγ","Σεπ","Οκτ","Νοε","Δεκ"];
+const MONTHS_FULL = ["Ιανουάριος","Φεβρουάριος","Μάρτιος","Απρίλιος","Μάιος","Ιούνιος",
+                     "Ιούλιος","Αύγουστος","Σεπτέμβριος","Οκτώβριος","Νοέμβριος","Δεκέμβριος"];
 const LONG_EVENT_DAYS = 4;   // events spanning >= this many days render muted in the calendar
+const LIST_HORIZON_DAYS = 62;
+const PAST_GRACE_DAYS = 4;   // mirrors sources/enrich.py
 
 let DATA = null;
 let filt = {src: null, area: null};
+let cal = {y: null, m: null, sel: null};   // m is 0-based; sel is an ISO day
+let REG = new Map();                        // closure registry lookup
 
 function ago(iso){
   if(!iso) return "ποτέ";
@@ -210,19 +273,81 @@ function ago(iso){
   if(h<48) return h+" ώρ. πριν";
   return Math.round(h/24)+" ημ. πριν";
 }
-function todayISO(){
-  const d = new Date();
+function isoOf(d){
   return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
 }
+function todayISO(){ return isoOf(new Date()); }
 function fmtDay(iso, withWd){
   const [y,m,d] = iso.split("-").map(Number);
   const wd = DAYS_EL[new Date(y, m-1, d).getDay()];
   return (withWd? wd+" " : "") + d + " " + MONTHS_EL[m-1] + (y!==new Date().getFullYear()? " "+y : "");
 }
 
+/* ——— Closure-registry merge ———
+   data.json carries days/area on the CLOSURES registry; active-event
+   entries may not repeat them. Merge by url+title (ids aren't
+   guaranteed on either side; astynomia shares one url across events,
+   hence the title in the key). */
+const regKey = e => (e.url||"") + "||" + (e.title||"");
+function buildReg(){
+  REG = new Map();
+  (DATA.closures||[]).forEach(c => REG.set(regKey(c), c));
+}
+function evDays(e){
+  if(e.days && e.days.length) return e.days;
+  const c = REG.get(regKey(e));
+  return (c && c.days) || [];
+}
+function evArea(e){
+  return e.area || ((REG.get(regKey(e))||{}).area || "");
+}
+
+/* ——— Past detection ———
+   1) merged registry days, when they exist: all before today → past;
+   2) otherwise a light title sniff for year-less dates, using the SAME
+      nearest-occurrence + grace rule as sources/enrich.py, so the two
+      layers can never disagree about what "expired" means. */
+const GR_MONTH_STEMS = {"ιανουαρ":1,"φεβρουαρ":2,"μαρτ":3,"απριλ":4,"μαι":5,"ιουν":6,
+                        "ιουλ":7,"αυγουστ":8,"σεπτεμβρ":9,"οκτωβρ":10,"νοεμβρ":11,"δεκεμβρ":12};
+const ACC = {"ά":"α","έ":"ε","ή":"η","ί":"ι","ό":"ο","ύ":"υ","ώ":"ω","ϊ":"ι","ΐ":"ι","ϋ":"υ","ΰ":"υ"};
+const normEl = s => (s||"").toLowerCase().replace(/[άέήίόύώϊΐϋΰ]/g, c=>ACC[c]);
+
+function nearestIsPast(d, mo, ref){
+  let best = null;
+  for(const y of [ref.getFullYear()-1, ref.getFullYear(), ref.getFullYear()+1]){
+    const c = new Date(y, mo-1, d);
+    if(c.getMonth() !== mo-1 || c.getDate() !== d) continue;   // e.g. 29/2 non-leap
+    const delta = Math.round((c - ref) / 86400000);
+    const rank = Math.abs(delta)*2 + (delta<0 ? 1 : 0);        // distance, ties → future
+    if(best === null || rank < best.rank) best = {rank, delta};
+  }
+  return best ? best.delta < -PAST_GRACE_DAYS : false;
+}
+function titleSniffPast(title){
+  const t = normEl(title);
+  const found = [];
+  let m;
+  const numRe = /(?:^|[^\d/.\-])(\d{1,2})\/(\d{1,2})(?![\d/.\-])/g;
+  while((m = numRe.exec(t))) found.push([+m[1], +m[2]]);
+  const namRe = new RegExp("(\\d{1,2})(?:ης|ας|α|η)?\\s+("
+                           + Object.keys(GR_MONTH_STEMS).join("|") + ")", "g");
+  while((m = namRe.exec(t))) found.push([+m[1], GR_MONTH_STEMS[m[2]]]);
+  if(!found.length) return false;
+  const ref = new Date(); ref.setHours(0,0,0,0);
+  return found.every(([d,mo]) => mo>=1 && mo<=12 && nearestIsPast(d, mo, ref));
+}
+function isPastEvent(e){
+  const days = evDays(e);
+  if(days.length){
+    const today = todayISO();
+    return days.every(d => d < today);
+  }
+  return titleSniffPast(e.title);
+}
+
 function matches(e){
   if(filt.src && e.source !== filt.src) return false;
-  if(filt.area && e.area !== filt.area) return false;
+  if(filt.area && evArea(e) !== filt.area) return false;
   return true;
 }
 
@@ -237,7 +362,7 @@ function chip(label, pressed, onClick){
 function renderFilters(){
   const evs = DATA.active_events||[];
   const srcs = [...new Set(evs.map(e=>e.source))];
-  const areas = [...new Set(evs.map(e=>e.area).filter(Boolean))];
+  const areas = [...new Set(evs.map(evArea).filter(Boolean))];
 
   const sf = $("srcFilters"); sf.innerHTML = "";
   const sl = document.createElement("span"); sl.className="lbl"; sl.textContent="Πηγή";
@@ -258,75 +383,88 @@ function renderFilters(){
 
 function tagsHtml(e){
   const t = [];
-  if(e.area) t.push(`<span class="tag area">${esc(e.area)}</span>`);
+  const area = evArea(e);
+  if(area) t.push(`<span class="tag area">${esc(area)}</span>`);
   const today = todayISO();
-  (e.days||[]).slice(0,8).forEach(d =>
+  const days = evDays(e);
+  days.slice(0,8).forEach(d =>
     t.push(`<span class="tag${d===today?" today":""}">${esc(fmtDay(d))}</span>`));
-  if((e.days||[]).length > 8) t.push(`<span class="tag">+${e.days.length-8}</span>`);
+  if(days.length > 8) t.push(`<span class="tag">+${days.length-8}</span>`);
   return t.length? `<div class="tags">${t.join("")}</div>` : "";
 }
 
-function render(){
-  const d = DATA;
-  const evs = (d.active_events||[]);
-  const main = evs.filter(e => !isRT(e) && matches(e));
-  const rt   = evs.filter(e =>  isRT(e) && matches(e));
-  const mainAll = evs.filter(e => !isRT(e)).length;
-  const rtAll = evs.filter(isRT).length;
-  const srcs = d.sources||[];
-  const failing = srcs.filter(s=>!s.ok).length;
-  const fresh = evs.filter(e=>e.new_this_run).length;
-
-  // Big answer counts MAIN events only; realtime pin-closures are the sub-line
-  const col = mainAll ? "var(--alert)" : (failing ? "var(--warn)" : "var(--ok)");
-  const txt = mainAll
-      ? mainAll + " ενεργ" + (mainAll>1?"ά συμβάντα":"ό συμβάν")
-      : "Κανένα ενεργό συμβάν";
-  $("answer").innerHTML = `<span class="lamp" style="background:${col}"></span>${txt}`;
-  $("checked").textContent = "Τελευταίος έλεγχος " + ago(d.generated_at)
-      + (rtAll ? ` · ${rtAll} σημειακά κλεισίματα` : "")
-      + (fresh ? ` · ${fresh} νέα` : "")
-      + (failing ? ` · ${failing} πηγή(-ές) σε αποτυχία` : "");
-
-  renderFilters();
-  const filtered = !!(filt.src || filt.area);
-
-  $("cMain").textContent = filtered ? main.length + " / " + mainAll : mainAll;
-  $("events").innerHTML = main.length ? main.map(e=>`
+function cardHtml(e){
+  return `
     <div class="card${e.new_this_run?" new":""}">
       ${e.new_this_run?'<span class="badge">νέο</span>':""}
       <div class="src">${esc(e.source)}</div>
-      <div class="t">${esc(e.title)}</div>
+      <div class="t"${e.plain?` title="${esc(e.title)}"`:""}>${esc(e.plain||e.title)}</div>
       ${e.details?`<div class="d">${esc(e.details)}</div>`:""}
       ${tagsHtml(e)}
       <a href="${esc(e.url)}" target="_blank" rel="noopener">Άνοιγμα πηγής →</a>
-    </div>`).join("")
-    : `<div class="empty">${filtered ? "Κανένα συμβάν με αυτά τα φίλτρα." :
-        "Καμία ενεργή ρύθμιση στις πηγές — ήσυχοι δρόμοι."}</div>`;
+    </div>`;
+}
 
-  $("cRt").textContent = filtered ? rt.length + " / " + rtAll : rtAll;
-  $("rtlist").innerHTML = rt.length ? rt.map(e=>{
-    const det = (e.details||"").replace(/^Κλειστός δρόμος(\s*—\s*Κλειστό;?\s*)?/,"").replace(/^Κλειστό;?\s*/,"").trim();
-    return `
-    <div class="rt">
-      <span class="t">${esc(e.title)}</span>
-      ${e.area?`<span class="tag area">${esc(e.area)}</span>`:""}
-      <a href="${esc(e.url)}" target="_blank" rel="noopener">χάρτης →</a>
-      ${det?`<span class="d">${esc(det)}</span>`:""}
-    </div>`;}).join("")
-    : `<div class="empty">${filtered ? "Κανένα σημειακό κλείσιμο με αυτά τα φίλτρα." :
-        "Κανένα σημειακό κλείσιμο αυτή τη στιγμή."}</div>`;
+/* ——— Calendar (grid + day list) ——— */
+window.calMove = k => {
+  let m = cal.m + k, y = cal.y;
+  if(m < 0){ m = 11; y--; }
+  if(m > 11){ m = 0; y++; }
+  cal.m = m; cal.y = y;
+  render();
+};
+window.selDay = d => {
+  cal.sel = (cal.sel === d) ? null : d;
+  render();
+};
 
-  // ——— Calendar: planned closures (realtime excluded), today onwards ———
-  const today = todayISO();
+function buildDayMap(){
   const byDay = new Map();
-  (d.closures||[]).filter(c => !isRT(c)).forEach(c => (c.days||[]).forEach(day => {
-    if(day < today) return;
-    if(!byDay.has(day)) byDay.set(day, []);
-    byDay.get(day).push(c);
-  }));
-  const days = [...byDay.keys()].sort();
-  $("calendar").innerHTML = days.length ? days.map(day => {
+  (DATA.closures||[]).filter(c => !isRT(c) && matches(c)).forEach(c =>
+    (c.days||[]).forEach(day => {
+      if(!byDay.has(day)) byDay.set(day, []);
+      byDay.get(day).push(c);
+    }));
+  return byDay;
+}
+
+function renderCalendar(){
+  const byDay = buildDayMap();
+  const today = todayISO();
+
+  // month grid
+  $("calTitle").textContent = MONTHS_FULL[cal.m] + " " + cal.y;
+  const first = new Date(cal.y, cal.m, 1);
+  const lead = (first.getDay() + 6) % 7;                 // Monday-first
+  const nDays = new Date(cal.y, cal.m + 1, 0).getDate();
+  let cells = WD_HEAD.map(w => `<span class="wd">${w}</span>`);
+  for(let i = 0; i < lead; i++) cells.push('<span class="cd off"></span>');
+  for(let d = 1; d <= nDays; d++){
+    const iso = isoOf(new Date(cal.y, cal.m, d));
+    const items = byDay.get(iso);
+    const cls = ["cd", iso < today ? "pastd" : "", iso === today ? "today" : "",
+                 items ? "has" : "", iso === cal.sel ? "sel" : ""].filter(Boolean).join(" ");
+    cells.push(items
+      ? `<button class="${cls}" data-n="${items.length}" onclick="selDay('${iso}')"
+           aria-label="${esc(fmtDay(iso,true))}: ${items.length}">${d}</button>`
+      : `<span class="${cls}">${d}</span>`);
+  }
+  $("calGrid").innerHTML = cells.join("");
+
+  // day list: selected day, or all upcoming within the horizon
+  let daysToShow, later = 0;
+  if(cal.sel){
+    daysToShow = byDay.has(cal.sel) ? [cal.sel] : [];
+  }else{
+    const h = new Date(); h.setDate(h.getDate() + LIST_HORIZON_DAYS);
+    const horizon = isoOf(h);
+    const upcoming = [...byDay.keys()].filter(d => d >= today).sort();
+    daysToShow = upcoming.filter(d => d <= horizon);
+    later = upcoming.length - daysToShow.length;
+  }
+  const clear = cal.sel
+    ? `<div class="calclear"><button class="chip" onclick="selDay('${cal.sel}')" aria-pressed="true">✕ ${esc(fmtDay(cal.sel,true))} — όλες οι ημέρες</button></div>` : "";
+  $("calList").innerHTML = clear + (daysToShow.length ? daysToShow.map(day => {
     const items = byDay.get(day);
     return `<div class="day">
       <div class="dh">${day===today?"Σήμερα · ":""}${esc(fmtDay(day,true))}
@@ -334,20 +472,75 @@ function render(){
       ${items.map(c=>`
         <div class="ci${(c.days||[]).length>=LONG_EVENT_DAYS?" long":""}">
           ${c.area?`<span class="tag area">${esc(c.area)}</span>`:""}
-          <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a>
+          <a href="${esc(c.url)}" target="_blank" rel="noopener"${c.plain?` title="${esc(c.title)}"`:""}>${esc(c.plain||c.title)}</a>
         </div>`).join("")}
     </div>`;
-  }).join("")
-  : '<div class="empty">Καμία προγραμματισμένη ρύθμιση με γνωστή ημερομηνία.</div>';
+  }).join("") : '<div class="empty">Καμία προγραμματισμένη ρύθμιση με γνωστή ημερομηνία.</div>')
+  + (later > 0 ? `<div class="later">…και ${later} ακόμη ημέρες μετά τον ορίζοντα των ${LIST_HORIZON_DAYS} ημερών.</div>` : "");
+}
+
+function render(){
+  const d = DATA;
+  const evs = (d.active_events||[]);
+  const nonRT = evs.filter(e => !isRT(e));
+  const activeAll = nonRT.filter(e => !isPastEvent(e));
+  const pastAll = nonRT.filter(isPastEvent);
+  const rtAll = evs.filter(isRT);
+  const main = activeAll.filter(matches);
+  const past = pastAll.filter(matches);
+  const rt = rtAll.filter(matches);
+  const srcs = d.sources||[];
+  const failing = srcs.filter(s=>!s.ok).length;
+  const fresh = evs.filter(e=>e.new_this_run).length;
+
+  // Big answer counts truly-ACTIVE main events only
+  const col = activeAll.length ? "var(--alert)" : (failing ? "var(--warn)" : "var(--ok)");
+  const txt = activeAll.length
+      ? activeAll.length + " ενεργ" + (activeAll.length>1?"ά συμβάντα":"ό συμβάν")
+      : "Κανένα ενεργό συμβάν";
+  $("answer").innerHTML = `<span class="lamp" style="background:${col}"></span>${txt}`;
+  $("checked").textContent = "Τελευταίος έλεγχος " + ago(d.generated_at)
+      + (rtAll.length ? ` · ${rtAll.length} σημειακά κλεισίματα` : "")
+      + (pastAll.length ? ` · ${pastAll.length} ληγμένα` : "")
+      + (fresh ? ` · ${fresh} νέα` : "")
+      + (failing ? ` · ${failing} πηγή(-ές) σε αποτυχία` : "");
+
+  renderFilters();
+  renderCalendar();
+  const filtered = !!(filt.src || filt.area);
+
+  $("cMain").textContent = filtered ? main.length + " / " + activeAll.length : activeAll.length;
+  $("events").innerHTML = main.length ? main.map(cardHtml).join("")
+    : `<div class="empty">${filtered ? "Κανένα συμβάν με αυτά τα φίλτρα." :
+        "Καμία ενεργή ρύθμιση στις πηγές — ήσυχοι δρόμοι."}</div>`;
+
+  $("cRt").textContent = filtered ? rt.length + " / " + rtAll.length : rtAll.length;
+  $("rtlist").innerHTML = rt.length ? rt.map(e=>{
+    const det = (e.details||"").replace(/^Κλειστός δρόμος(\s*—\s*Κλειστό;?\s*)?/,"").replace(/^Κλειστό;?\s*/,"").trim();
+    return `
+    <div class="rt">
+      <span class="t">${esc(e.title)}</span>
+      ${evArea(e)?`<span class="tag area">${esc(evArea(e))}</span>`:""}
+      <a href="${esc(e.url)}" target="_blank" rel="noopener">χάρτης →</a>
+      ${det?`<span class="d">${esc(det)}</span>`:""}
+    </div>`;}).join("")
+    : `<div class="empty">${filtered ? "Κανένα σημειακό κλείσιμο με αυτά τα φίλτρα." :
+        "Κανένα σημειακό κλείσιμο αυτή τη στιγμή."}</div>`;
+
+  $("cPast").textContent = filtered ? past.length + " / " + pastAll.length : pastAll.length;
+  $("past").innerHTML = past.length ? past.map(cardHtml).join("")
+    : '<div class="empty">Κανένα ληγμένο συμβάν.</div>';
 
   // ——— System panel ———
   $("health").innerHTML = srcs.map(s=>{
     const drops = Object.entries(s.dropped||{});
-    return `<div class="srcrow">
+    const dropTxt = drops.map(([r,n])=>r+": "+n).join(" · ");
+    return `<div class="srcrow" tabindex="0" ${dropTxt?`title="${esc(dropTxt)}"`:""}
+                 onclick="this.classList.toggle('open')">
       <span class="lamp" style="background:${s.ok?"var(--ok)":(s.consecutive_failures>=6?"var(--alert)":"var(--warn)")}"></span>
       <span class="n">${esc(s.name)}</span>
       <span class="meta">${s.items}${s.fetched!=null?" / "+s.fetched:""} · ${ago(s.last_success)}${s.ok?"":" · ×"+s.consecutive_failures}</span>
-      ${drops.length?`<span class="drops">${drops.map(([r,n])=>esc(r)+": "+n).join(" · ")}</span>`:""}
+      ${dropTxt?`<span class="drops">${esc(dropTxt)}</span>`:""}
     </div>`;
   }).join("");
 
@@ -361,7 +554,7 @@ function render(){
 
   const runs = d.runs||[];
   $("foot").innerHTML = (runs.length ? runs.length + " εκτελέσεις · ανανέωση κάθε 5 λεπτά · " : "")
-    + '<a href="admin.html">διαχείριση</a>';
+    + '<a href="closures.ics">📅 ημερολόγιο (ICS)</a> · <a href="admin.html">διαχείριση</a>';
 }
 
 async function load(){
@@ -371,6 +564,11 @@ async function load(){
     $("answer").innerHTML = '<span class="lamp" style="background:var(--warn)"></span>Χωρίς δεδομένα';
     $("checked").textContent = "Το data.json δεν βρέθηκε — έχει ολοκληρωθεί εκτέλεση του monitor;";
     return;
+  }
+  buildReg();
+  if(cal.y === null){
+    const now = new Date();
+    cal.y = now.getFullYear(); cal.m = now.getMonth();
   }
   render();
 }

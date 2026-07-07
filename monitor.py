@@ -8,16 +8,16 @@ Flow of every run:
 
 NOTIFICATION MODEL (two tiers, per subscriber)
   🚨 URGENT — sent to a subscriber the moment an event first sits within
-     THEIR urgency window (urgent_days before its first day), if it is in
-     THEIR areas. An event announced a month early still alerts each user
-     when it becomes imminent for them. Exactly-once per user via the
-     closure registry's alerted_chats list.
+  THEIR urgency window (urgent_days before its first day), if it is in
+  THEIR areas. An event announced a month early still alerts each user
+  when it becomes imminent for them. Exactly-once per user via the
+  closure registry's alerted_chats list.
   🗓 DIGEST — one summary per day per subscriber at THEIR chosen Athens
-     hour, covering closures in their areas over their lookahead window.
-     Evening digests (hour >= 18) start from TOMORROW: at night, today's
-     closures are stale news.
+  hour, covering closures in their areas over their lookahead window.
+  Evening digests (hour >= 18) start from TOMORROW: at night, today's
+  closures are stale news.
   🚧 Undated announcements can't be scheduled, so they notify matching
-     subscribers immediately.
+  subscribers immediately.
 
 SUBSCRIBERS
   Read from, in priority order: the SUBSCRIBERS_JSON env secret (keeps
@@ -43,7 +43,9 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from sources import astynomia, diavgeia, enrich, get, iefimerida, kathimerini, oasa, tomtom
+from sources import (astynomia, diavgeia, enrich, get, humanize,
+                     iefimerida, kathimerini, oasa, tomtom)
+import ics_feed
 import notify
 
 SOURCES = {
@@ -62,7 +64,7 @@ SUBSCRIBERS_FILE = BASE / "subscribers.json"
 OVERRIDES_FILE = BASE / "docs" / "overrides.json"   # the admin's ledger
 
 MAX_SEEN = 500
-MAX_NOTIFICATIONS_PER_RUN = 8    # per subscriber, per run
+MAX_NOTIFICATIONS_PER_RUN = 8   # per subscriber, per run
 FAILURE_ALERT_AFTER = 6
 MAX_HISTORY = 30
 MAX_RUNS = 60
@@ -167,9 +169,9 @@ def load_state() -> dict:
     state.setdefault("seeded", [])
     state.setdefault("source_status", {})
     state.setdefault("active", {})
-    state.setdefault("closures", {})       # id -> dated event + alerted_chats
-    state.setdefault("known_chats", [])    # subscribers already onboarded
-    state.setdefault("digests", {})        # chat_id -> last digest date
+    state.setdefault("closures", {})     # id -> dated event + alerted_chats
+    state.setdefault("known_chats", [])  # subscribers already onboarded
+    state.setdefault("digests", {})      # chat_id -> last digest date
     state.setdefault("notifications", [])
     state.setdefault("runs", [])
     if state.pop("initialized", False) and not state["seeded"]:
@@ -232,6 +234,15 @@ def write_dashboard(state: dict) -> None:
         "recent_notifications": list(reversed(state["notifications"])),
         "runs": state["runs"],
     }, ensure_ascii=False, indent=2), encoding="utf-8")
+    try:
+        # Subscribable calendar feed from the same override-filtered
+        # registry the dashboard shows. A feed bug must never break
+        # monitoring — hence the blanket except.
+        ics_feed.write_ics(DASHBOARD_FILE.parent / "closures.ics",
+                           sorted(closures_public, key=lambda c: c["days"][0]))
+    except Exception:
+        print("closures.ics generation failed:", file=sys.stderr)
+        traceback.print_exc()
 
 
 def _record(state, source, title, url):
@@ -244,7 +255,7 @@ def main(argv=None) -> int:
     to_run = selected_sources(argv)
     state = load_state()
     overrides = load_overrides()
-    for rid in overrides["removed"]:          # purge already-registered
+    for rid in overrides["removed"]:      # purge already-registered
         state["closures"].pop(rid, None)
     subs = load_subscribers()
     onboard_new_subscribers(state, subs)
@@ -262,130 +273,146 @@ def main(argv=None) -> int:
     # telemetry, dedup and failure handling behave exactly as before.
     with ThreadPoolExecutor(max_workers=min(8, len(to_run))) as pool:
         futures = {n: pool.submit(m.fetch) for n, m in to_run.items()}
-
-    for name, module in to_run.items():
-        first_time = name not in state["seeded"]
-        try:
-            events = futures[name].result()
-        except Exception:
-            prev = state["source_status"].get(name, {})
-            count = prev.get("consecutive_failures", 0) + 1
-            print(f"[{name}] FAILED (consecutive: {count})", file=sys.stderr)
-            traceback.print_exc()
-            if count == FAILURE_ALERT_AFTER:
-                safe_send(f"⚠️ Η πηγή <b>{name}</b> αποτυγχάνει εδώ και "
-                          f"{count} συνεχόμενες εκτελέσεις. "
-                          f"Δες τα logs στο GitHub Actions.")
-            state["source_status"][name] = {
-                "name": name, "ok": False, "items": 0,
-                "consecutive_failures": count,
-                "last_success": prev.get("last_success"),
-            }
-            continue
-
-        tally = dict(getattr(module, "last_tally", {}) or {})
-        fetched = len(events) + sum(tally.values())
-        print(f"[{name}] OK — kept {len(events)}/{fetched}"
-              + (f" (dropped: {tally})" if tally else "")
-              + (" [seeding]" if first_time else ""))
-        if fetched >= 10 and not events:
-            # Over-filtering alarm: a filter eating EVERYTHING is a
-            # recall failure that must be a fact, not a silence.
-            print(f"[{name}] WARNING: kept 0 of {fetched} — filters may "
-                  f"be over-tight; check the drop reasons above",
-                  file=sys.stderr)
-        current, date_misses, lane_only, enriched = [], 0, 0, 0
-        for e in events:
-            is_new = e.id not in seen
-            if is_new:
-                seen.add(e.id)
-            if e.id in overrides["removed"]:
-                if is_new:
-                    state["seen"].append(e.id)    # never notify, never return
-                continue
-            ed = overrides["edits"].get(e.id) or {}
-            if ed.get("title"):
-                e.title = str(ed["title"])[:300]
-            if enrich.is_lane_only(f"{e.title} {e.details}"):
-                lane_only += 1                    # below the notification
-                if is_new:                        # bar: seen, silent, gone
-                    state["seen"].append(e.id)
-                continue
-            days = enrich.extract_days(               # TITLE only; Athens
-                e.title, date.fromisoformat(today))   # clock, not server
-            area_hint = enrich.classify_area(f"{e.title} {e.details}", url=e.url)
-            if (is_new and body_budget > 0 and (not days or not area_hint)
-                    and getattr(module, "BODY_ENRICH", False)
-                    and e.url.startswith("http")):
-                # Titles rarely carry dates/streets; bodies almost always
-                # do. One bounded fetch per NEW event, never fatal.
-                body_budget -= 1
-                try:
-                    b_days, b_area = enrich.from_article_html(
-                        get(e.url).text, date.fromisoformat(today))
-                    if b_days or (b_area and not area_hint):
-                        enriched += 1
-                    days = days or b_days
-                    if not area_hint:
-                        area_hint = b_area
-                except Exception as exc:
-                    print(f"[{name}] body-enrich failed for {e.url}: {exc}",
-                          file=sys.stderr)
-            if not days and enrich.looks_dated(e.title):
-                # The parser's smoke detector: the title LOOKS dated but
-                # nothing was extracted. The event still flows (undated →
-                # immediate notify), but the miss is logged and counted.
-                date_misses += 1
-                print(f"[{name}] date-like text not parsed: "
-                      f"{e.title[:90]!r}", file=sys.stderr)
-            if ed.get("days"):
-                fixed = sorted(d for d in ed["days"]
-                               if isinstance(d, str) and ISO_DAY.match(d))
-                if fixed:
-                    days = fixed                      # admin dates win
-            if not days and getattr(module, "ASSUME_TODAY", False):
-                days = [today]                    # realtime = happening now
-            area = area_hint
-            if "area" in ed and ed["area"] is not None:
-                area = str(ed["area"])                # admin area wins
-            entry = {"id": e.id, "source": e.source, "title": e.title,
-                     "url": e.url, "details": e.details,
-                     "area": area, "days": days,
-                     "new_this_run": is_new and not first_time}
-            if is_new:
-                if days:
-                    # Dated: delivery moves to the per-user alerted flag;
-                    # mark seen now. First sight of a source = everyone
-                    # already "alerted" (silent seeding).
-                    state["seen"].append(e.id)
-                elif first_time:
-                    state["seen"].append(e.id)    # seed undated silently
-                else:
-                    pending_undated.append((e, area))
-            if days:
-                prev_alerted = state["closures"].get(e.id, {}).get("alerted_chats", [])
-                if first_time:
-                    prev_alerted = [s["chat_id"] for s in subs]
-                state["closures"][e.id] = {
-                    "id": e.id,
-                    "source": e.source, "title": e.title, "url": e.url,
-                    "details": e.details, "area": area, "days": days,
-                    "alerted_chats": list(prev_alerted),
+        for name, module in to_run.items():
+            first_time = name not in state["seeded"]
+            try:
+                events = futures[name].result()
+            except Exception:
+                prev = state["source_status"].get(name, {})
+                count = prev.get("consecutive_failures", 0) + 1
+                print(f"[{name}] FAILED (consecutive: {count})", file=sys.stderr)
+                traceback.print_exc()
+                if count == FAILURE_ALERT_AFTER:
+                    safe_send(f"⚠️ Η πηγή <b>{name}</b> αποτυγχάνει εδώ και "
+                              f"{count} συνεχόμενες εκτελέσεις. "
+                              f"Δες τα logs στο GitHub Actions.")
+                state["source_status"][name] = {
+                    "name": name, "ok": False, "items": 0,
+                    "consecutive_failures": count,
+                    "last_success": prev.get("last_success"),
                 }
-            if days and max(days) < today:
-                continue                          # over → not "active"
-            current.append(entry)
-        state["active"][name] = current
-        if lane_only:
-            tally["μόνο μία λωρίδα/ΛΕΑ"] = lane_only
-        state["source_status"][name] = {
-            "name": name, "ok": True, "items": len(events) - lane_only,
-            "fetched": fetched, "dropped": tally,
-            "date_misses": date_misses, "body_enriched": enriched,
-            "consecutive_failures": 0, "last_success": now_iso(),
-        }
-        if first_time:
-            state["seeded"].append(name)
+                continue
+
+            tally = dict(getattr(module, "last_tally", {}) or {})
+            fetched = len(events) + sum(tally.values())
+            print(f"[{name}] OK — kept {len(events)}/{fetched}"
+                  + (f" (dropped: {tally})" if tally else "")
+                  + (" [seeding]" if first_time else ""))
+            if fetched >= 10 and not events:
+                # Over-filtering alarm: a filter eating EVERYTHING is a
+                # recall failure that must be a fact, not a silence.
+                print(f"[{name}] WARNING: kept 0 of {fetched} — filters may "
+                      f"be over-tight; check the drop reasons above",
+                      file=sys.stderr)
+
+            current, date_misses, lane_only, enriched = [], 0, 0, 0
+            for e in events:
+                is_new = e.id not in seen
+                if is_new:
+                    seen.add(e.id)
+                if e.id in overrides["removed"]:
+                    if is_new:
+                        state["seen"].append(e.id)   # never notify, never return
+                    continue
+                ed = overrides["edits"].get(e.id) or {}
+                if ed.get("title"):
+                    e.title = str(ed["title"])[:300]
+
+                if enrich.is_lane_only(f"{e.title} {e.details}"):
+                    lane_only += 1                # below the notification
+                    if is_new:                    # bar: seen, silent, gone
+                        state["seen"].append(e.id)
+                    continue
+
+                days = enrich.extract_days(              # TITLE only; Athens
+                    e.title, date.fromisoformat(today))  # clock, not server
+                area_hint = enrich.classify_area(f"{e.title} {e.details}", url=e.url)
+
+                if (is_new and body_budget > 0 and (not days or not area_hint)
+                        and getattr(module, "BODY_ENRICH", False)
+                        and e.url.startswith("http")):
+                    # Titles rarely carry dates/streets; bodies almost always
+                    # do. One bounded fetch per NEW event, never fatal.
+                    body_budget -= 1
+                    try:
+                        b_days, b_area = enrich.from_article_html(
+                            get(e.url).text, date.fromisoformat(today))
+                        if b_days or (b_area and not area_hint):
+                            enriched += 1
+                        days = days or b_days
+                        if not area_hint:
+                            area_hint = b_area
+                    except Exception as exc:
+                        print(f"[{name}] body-enrich failed for {e.url}: {exc}",
+                              file=sys.stderr)
+
+                if not days and enrich.looks_dated(e.title):
+                    # The parser's smoke detector: the title LOOKS dated but
+                    # nothing was extracted. The event still flows (undated →
+                    # immediate notify), but the miss is logged and counted.
+                    date_misses += 1
+                    print(f"[{name}] date-like text not parsed: "
+                          f"{e.title[:90]!r}", file=sys.stderr)
+                if ed.get("days"):
+                    fixed = sorted(d for d in ed["days"]
+                                   if isinstance(d, str) and ISO_DAY.match(d))
+                    if fixed:
+                        days = fixed                 # admin dates win
+                if not days and getattr(module, "ASSUME_TODAY", False):
+                    days = [today]                   # realtime = happening now
+
+                area = area_hint
+                if "area" in ed and ed["area"] is not None:
+                    area = str(ed["area"])           # admin area wins
+
+                # Plain-language line for dashboard + calendar feed. Purely
+                # additive: "" when the original reads better, and the
+                # original title is kept everywhere regardless.
+                plain = humanize.summarize(e.title, days=days,
+                                           today=date.fromisoformat(today))
+
+                entry = {"id": e.id, "source": e.source, "title": e.title,
+                         "url": e.url, "details": e.details,
+                         "area": area, "days": days, "plain": plain,
+                         "new_this_run": is_new and not first_time}
+
+                if is_new:
+                    if days:
+                        # Dated: delivery moves to the per-user alerted flag;
+                        # mark seen now. First sight of a source = everyone
+                        # already "alerted" (silent seeding).
+                        state["seen"].append(e.id)
+                    elif first_time:
+                        state["seen"].append(e.id)   # seed undated silently
+                    else:
+                        pending_undated.append((e, area))
+
+                if days:
+                    prev_alerted = state["closures"].get(e.id, {}).get("alerted_chats", [])
+                    if first_time:
+                        prev_alerted = [s["chat_id"] for s in subs]
+                    state["closures"][e.id] = {
+                        "id": e.id,
+                        "source": e.source, "title": e.title, "url": e.url,
+                        "details": e.details, "area": area, "days": days,
+                        "plain": plain,
+                        "alerted_chats": list(prev_alerted),
+                    }
+                if days and max(days) < today:
+                    continue                          # over → not "active"
+                current.append(entry)
+
+            state["active"][name] = current
+            if lane_only:
+                tally["μόνο μία λωρίδα/ΛΕΑ"] = lane_only
+            state["source_status"][name] = {
+                "name": name, "ok": True, "items": len(events) - lane_only,
+                "fetched": fetched, "dropped": tally,
+                "date_misses": date_misses, "body_enriched": enriched,
+                "consecutive_failures": 0, "last_success": now_iso(),
+            }
+            if first_time:
+                state["seeded"].append(name)
 
     # ------------------------------------- undated: immediate, per areas
     flood_skipped = 0
@@ -397,7 +424,7 @@ def main(argv=None) -> int:
         results = []
         for s in targets:
             if sent_count[s["chat_id"]] >= MAX_NOTIFICATIONS_PER_RUN:
-                results.append(True)              # deliberate flood skip
+                results.append(True)                  # deliberate flood skip
                 flood_skipped += 1
                 continue
             text = notify.format_event(e)
@@ -407,12 +434,12 @@ def main(argv=None) -> int:
             results.append(ok)
             if ok:
                 sent_count[s["chat_id"]] += 1
-        if all(results):                          # everyone got it (or capped)
+        if all(results):                              # everyone got it (or capped)
             state["seen"].append(e.id)
             _record(state, e.source, e.title, e.url)
             print(f"Notified ({len(targets)} chats): [{e.source}] {e.title}")
         else:
-            seen.discard(e.id)                    # retry whole event next run
+            seen.discard(e.id)                        # retry whole event next run
             print(f"Will retry next run: [{e.source}] {e.title}",
                   file=sys.stderr)
     if flood_skipped:
@@ -433,7 +460,7 @@ def main(argv=None) -> int:
                     or sent_count[chat] >= MAX_NOTIFICATIONS_PER_RUN):
                 continue
             if safe_send(notify.format_urgent(c, today), chat):
-                c["alerted_chats"].append(chat)   # exactly-once, per user
+                c["alerted_chats"].append(chat)       # exactly-once, per user
                 sent_count[chat] += 1
                 _record(state, c["source"], f"🚨 {c['title']}", c["url"])
                 print(f"Urgent → {s.get('name', chat)}: {c['title'][:60]}")
@@ -445,9 +472,9 @@ def main(argv=None) -> int:
         if hour is None or now_ath.hour < int(hour):
             continue
         if state["digests"].get(chat) == today:
-            continue                              # already digested today
+            continue                                  # already digested today
         start = today
-        if int(hour) >= 18:                       # evening digest → tomorrow
+        if int(hour) >= 18:                           # evening digest → tomorrow
             start = date.fromordinal(
                 date.fromisoformat(today).toordinal() + 1).isoformat()
         entries = [c for c in state["closures"].values()
