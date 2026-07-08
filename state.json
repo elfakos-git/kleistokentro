@@ -76,7 +76,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-08T13:46:28+00:00"
+      "last_success": "2026-07-08T17:22:07+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -89,7 +89,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-08T13:46:28+00:00"
+      "last_success": "2026-07-08T17:22:07+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -102,7 +102,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-08T13:46:28+00:00"
+      "last_success": "2026-07-08T17:22:07+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -113,34 +113,33 @@
       "date_misses": 5,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-08T13:46:28+00:00"
+      "last_success": "2026-07-08T17:22:07+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 3,
-      "fetched": 11,
+      "items": 4,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-08T13:46:28+00:00"
+      "last_success": "2026-07-08T17:22:07+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 48,
+      "fetched": 27,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 39
+        "κατηγορία εκτός πολιτικής": 18
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-08T16:23:40+00:00"
+      "last_success": "2026-07-08T17:22:07+00:00"
     }
   },
   "active": {
@@ -306,6 +305,18 @@
         "days": [
           "2026-07-10"
         ],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-268/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 837, λόγω εργασιών στην οδό ΣΤΕΦΑΝΟΥ ΣΑΡΑΦΗ μεταξύ των οδών Μ. Αλεξάνδρου και Κρήτης του Δήμου ΑΓΙΑΣ ΒΑΡΒΑΡΑΣ",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-268/",
+        "details": "",
+        "area": "",
+        "days": [],
         "hours": [],
         "plain": "",
         "new_this_run": false
@@ -582,7 +593,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T16:23:40+00:00",
+      "last_seen": "2026-07-08T17:22:07+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -601,7 +612,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T16:23:40+00:00",
+      "last_seen": "2026-07-08T17:22:07+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -620,7 +631,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T16:23:40+00:00",
+      "last_seen": "2026-07-08T17:22:07+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -639,7 +650,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T16:23:40+00:00",
+      "last_seen": "2026-07-08T17:22:07+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -658,7 +669,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T16:23:40+00:00",
+      "last_seen": "2026-07-08T17:22:07+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -677,7 +688,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T16:23:40+00:00",
+      "last_seen": "2026-07-08T17:22:07+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -696,7 +707,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T16:23:40+00:00",
+      "last_seen": "2026-07-08T17:22:07+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -715,7 +726,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T16:23:40+00:00",
+      "last_seen": "2026-07-08T17:22:07+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -734,7 +745,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T16:23:40+00:00",
+      "last_seen": "2026-07-08T17:22:07+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -792,7 +803,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:31+00:00",
-      "last_seen": "2026-07-08T13:46:28+00:00",
+      "last_seen": "2026-07-08T17:22:07+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -811,7 +822,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T13:46:28+00:00",
+      "last_seen": "2026-07-08T17:22:07+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1247,6 +1258,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-08T17:22:07+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
