@@ -3,6 +3,12 @@
 Needs two environment variables (set as GitHub Actions secrets):
   TELEGRAM_BOT_TOKEN — from @BotFather
   TELEGRAM_CHAT_ID   — your personal chat id (see README, "Telegram setup")
+
+PLAIN-LANGUAGE TITLES: every formatter prefers the event's `plain`
+line (sources/humanize.py) when one exists and falls back to the
+canonical title otherwise. The plain line already carries the dates
+and hours in readable Greek, so when it is used the urgent format
+drops its own 📅 span line rather than repeat the information.
 """
 import html
 import os
@@ -31,7 +37,8 @@ def send(text: str, chat_id: str | None = None) -> None:
 
 
 def format_event(event) -> str:
-    lines = [f"🚧 <b>{html.escape(event.title)}</b>"]
+    title = getattr(event, "plain", "") or event.title
+    lines = [f"🚧 <b>{html.escape(title)}</b>"]
     if event.details:
         lines.append(html.escape(event.details))
     lines.append(f'<a href="{html.escape(event.url)}">{html.escape(event.source)}</a>')
@@ -68,15 +75,21 @@ def imminence_label(days: list[str], today: str) -> str:
 
 def format_urgent(entry: dict, today: str) -> str:
     """🚨 alert for an event entering the urgency window. entry is a
-    closure-registry dict: title, url, source, area, days."""
+    closure-registry dict: title, url, source, area, days (+ optional
+    plain). The plain line embeds dates/hours, so 📅 is only added for
+    events without one."""
     when = imminence_label(entry["days"], today)
-    lines = [f"🚨 <b>{html.escape(when)}</b> — {html.escape(entry['title'])}"]
-    span = (_dm(entry["days"][0]) if len(entry["days"]) == 1
-            else f"{_dm(entry['days'][0])} – {_dm(entry['days'][-1])}")
-    meta = f"📅 {span}"
+    title = entry.get("plain") or entry["title"]
+    lines = [f"🚨 <b>{html.escape(when)}</b> — {html.escape(title)}"]
+    meta = ""
+    if not entry.get("plain"):
+        span = (_dm(entry["days"][0]) if len(entry["days"]) == 1
+                else f"{_dm(entry['days'][0])} – {_dm(entry['days'][-1])}")
+        meta = f"📅 {span}"
     if entry.get("area"):
-        meta += f"   📍 {entry['area']}"
-    lines.append(meta)
+        meta += (" " if meta else "") + f"📍 {entry['area']}"
+    if meta:
+        lines.append(meta)
     lines.append(f'<a href="{html.escape(entry["url"])}">{html.escape(entry["source"])}</a>')
     return "\n\n".join(lines)
 
@@ -104,8 +117,9 @@ def format_digest(entries: list[dict], start: str, lookahead: int,
             if shown >= MAX_LINES:
                 break
             area = f" ({c['area']})" if c.get("area") else ""
+            line = c.get("plain") or c["title"]
             out.append(f"• <a href=\"{html.escape(c['url'])}\">"
-                       f"{html.escape(c['title'][:90])}</a>{html.escape(area)}")
+                       f"{html.escape(line[:90])}</a>{html.escape(area)}")
             shown += 1
         if shown >= MAX_LINES:
             out.append("…και ακόμη περισσότερα — δες το dashboard.")

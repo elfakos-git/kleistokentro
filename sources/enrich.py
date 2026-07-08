@@ -258,6 +258,28 @@ DATEISH_RE = re.compile(r"\d{1,2}\s*/\s*\d{1,2}|\d{1,2}[./-]\d{1,2}[./-]\d{2,4}|
                         + "|".join(f"\\d{{1,2}}\\S*\\s+{s}" for s in _MONTHS))
 
 
+# "κατά τις ώρες 19.00΄ έως 07.00΄ της επομένης" → a machine-usable
+# window. Runs on norm_greek text; the prime marks (΄) and trailing
+# words after the minutes are consumed by \S*/lookahead-free matching.
+HOURS_RE = re.compile(r"ωρες\s*(\d{1,2})[.:](\d{2})\S*\s*"
+                      r"(?:εως|μεχρι|[-–])\s*(?:τις\s*)?(\d{1,2})[.:](\d{2})")
+
+
+def extract_hours(text: str) -> list[str]:
+    """The daily time window a regulation applies, as ["HH:MM","HH:MM"],
+    or [] when absent/unparseable. start > end means the window crosses
+    midnight (overnight works: 19:00–07:00 the next morning) — a shape
+    Open511 models with recurring daily schedules, and exactly what the
+    'της επομένης' phrasing in decisions describes."""
+    m = HOURS_RE.search(norm_greek(text or ""))
+    if not m:
+        return []
+    h1, m1, h2, m2 = (int(g) for g in m.groups())
+    if not (h1 < 24 and h2 < 24 and m1 < 60 and m2 < 60):
+        return []
+    return [f"{h1:02d}:{m1:02d}", f"{h2:02d}:{m2:02d}"]
+
+
 def looks_dated(text: str) -> bool:
     """Does the text APPEAR to contain a date? Used as the parser's own
     smoke detector: looks_dated(t) and not extract_days(t) means the

@@ -6,7 +6,7 @@ import sys
 from datetime import date
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from sources.enrich import extract_days, classify_area, looks_dated
+from sources.enrich import extract_days, classify_area, looks_dated, extract_hours
 
 TODAY = date(2026, 7, 3)
 
@@ -81,6 +81,15 @@ def run():
     assert looks_dated("κλειστοί δρόμοι στις 5 Ιουλίου")
     assert looks_dated("την Τρίτη 23/6")
     assert not looks_dated("Κλειστό το κέντρο λόγω πορείας")
+
+    # 10. Daily time windows ("κατά τις ώρες ...") — start > end means
+    #     the window crosses midnight, verbatim production phrasings
+    assert extract_hours("κατά τις ώρες 07.00΄ έως 12.00΄, λόγω εργασιών") == ["07:00", "12:00"]
+    assert extract_hours("κατά τις ώρες 19.00΄ έως 07.00΄της επομένης") == ["19:00", "07:00"]
+    assert extract_hours("κατά τις ώρες 21:00 μέχρι τις 05:30") == ["21:00", "05:30"]
+    assert extract_hours("τις πρωινές ώρες αιχμής") == []
+    assert extract_hours("κατά τις ώρες 99.00΄ έως 12.00΄") == []   # invalid hour
+    assert extract_hours("") == []
 
     # --- geography (all real production titles) ---
     cases = [

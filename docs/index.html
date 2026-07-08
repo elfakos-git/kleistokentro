@@ -78,6 +78,8 @@
        border:1px solid var(--line);color:var(--mut)}
   .tag.area{color:var(--blue);border-color:var(--blue)}
   .tag.today{background:var(--alert);border-color:var(--alert);color:#fff}
+  .tag.now{background:var(--alert);border-color:var(--alert);color:#fff;font-weight:700}
+  .tag.ext{background:var(--warn);border-color:var(--warn);color:#fff}
 
   /* ——— Realtime strip (TomTom) — temporary-works signage: compact, amber-edged ——— */
   .rt{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--warn);
@@ -301,6 +303,30 @@ function evDays(e){
 function evArea(e){
   return e.area || ((REG.get(regKey(e))||{}).area || "");
 }
+function evHours(e){
+  const h = (e.hours && e.hours.length === 2) ? e.hours
+          : ((REG.get(regKey(e))||{}).hours || []);
+  return h.length === 2 ? h : null;
+}
+function evReg(e){ return REG.get(regKey(e)) || null; }
+
+/* Is the daily window in effect right now? Overnight windows
+   (start > end, e.g. 19:00–07:00) belong to the LISTED day's evening
+   and spill past midnight into the next morning. */
+function hoursState(days, hours, now){
+  if(!hours || !days || !days.length) return null;
+  const today = isoOf(now);
+  const y = new Date(now); y.setDate(y.getDate()-1);
+  const mins = t => +t.slice(0,2)*60 + +t.slice(3,5);
+  const nowM = now.getHours()*60 + now.getMinutes();
+  const a = mins(hours[0]), b = mins(hours[1]);
+  const onToday = days.includes(today), onYesterday = days.includes(isoOf(y));
+  if(a < b ? (onToday && nowM >= a && nowM < b)
+           : ((onToday && nowM >= a) || (onYesterday && nowM < b)))
+    return "now";
+  if(onToday && nowM < a) return "later";
+  return null;
+}
 
 /* ——— Past detection ———
    1) merged registry days, when they exist: all before today → past;
@@ -337,6 +363,8 @@ function titleSniffPast(title){
   return found.every(([d,mo]) => mo>=1 && mo<=12 && nearestIsPast(d, mo, ref));
 }
 function isPastEvent(e){
+  const reg = evReg(e);
+  if(reg && reg.status) return reg.status === "ended";
   const days = evDays(e);
   if(days.length){
     const today = todayISO();
@@ -383,8 +411,15 @@ function renderFilters(){
 
 function tagsHtml(e){
   const t = [];
+  const hours = evHours(e), reg = evReg(e);
+  const hs = hoursState(evDays(e), hours, new Date());
+  if(hs === "now") t.push('<span class="tag now">ΤΩΡΑ</span>');
+  else if(hs === "later" && hours)
+    t.push(`<span class="tag">σήμερα από ${esc(hours[0])}</span>`);
+  if(reg && reg.extended) t.push('<span class="tag ext">ΠΑΡΑΤΑΣΗ</span>');
   const area = evArea(e);
   if(area) t.push(`<span class="tag area">${esc(area)}</span>`);
+  if(hours) t.push(`<span class="tag">🕐 ${esc(hours[0])}–${esc(hours[1])}</span>`);
   const today = todayISO();
   const days = evDays(e);
   days.slice(0,8).forEach(d =>
@@ -472,6 +507,7 @@ function renderCalendar(){
       ${items.map(c=>`
         <div class="ci${(c.days||[]).length>=LONG_EVENT_DAYS?" long":""}">
           ${c.area?`<span class="tag area">${esc(c.area)}</span>`:""}
+          ${(c.hours&&c.hours.length===2)?`<span class="tag">🕐 ${esc(c.hours[0])}–${esc(c.hours[1])}</span>`:""}
           <a href="${esc(c.url)}" target="_blank" rel="noopener"${c.plain?` title="${esc(c.title)}"`:""}>${esc(c.plain||c.title)}</a>
         </div>`).join("")}
     </div>`;

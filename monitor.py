@@ -39,7 +39,7 @@ import os
 import sys
 import traceback
 from concurrent.futures import ThreadPoolExecutor
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -69,6 +69,7 @@ FAILURE_ALERT_AFTER = 6
 MAX_HISTORY = 30
 MAX_RUNS = 60
 MAX_CLOSURES = 300
+RETAIN_ENDED_DAYS = 7   # ended closures stay visible this long
 
 SUB_DEFAULTS = {"areas": [], "urgent_days": 2,
                 "digest_hour": 8, "digest_lookahead_days": 7}
@@ -182,6 +183,10 @@ def load_state() -> dict:
             c["alerted_chats"] = list({*c.get("alerted_chats", []),
                                        *state["known_chats"]})
         c.setdefault("alerted_chats", [])
+        c.setdefault("hours", [])            # pre-lifecycle records
+        c.setdefault("first_seen", None)
+        c.setdefault("last_seen", None)
+        c.setdefault("extended", False)
     return state
 
 
@@ -204,10 +209,17 @@ def save_state(state: dict) -> None:
         state[key] = {n: v for n, v in state[key].items() if n in SOURCES}
     state["seeded"] = [n for n in state["seeded"] if n in SOURCES]
     today = _athens_now().date().isoformat()
+    keep_after = (_athens_now().date()
+                  - timedelta(days=RETAIN_ENDED_DAYS)).isoformat()
+    # Ended closures are RETAINED for RETAIN_ENDED_DAYS with a computed
+    # "ended" status (see write_dashboard) instead of vanishing: the
+    # dashboard's past section and the git history both get real data.
     live = {i: c for i, c in state["closures"].items()
-            if c.get("days") and max(c["days"]) >= today}
+            if c.get("days") and max(c["days"]) >= keep_after}
     if len(live) > MAX_CLOSURES:
-        keep = sorted(live, key=lambda i: live[i]["days"][0])[:MAX_CLOSURES]
+        # Evict ended entries first, then the furthest-future ones last.
+        keep = sorted(live, key=lambda i: (max(live[i]["days"]) < today,
+                                           live[i]["days"][0]))[:MAX_CLOSURES]
         live = {i: live[i] for i in keep}
     state["closures"] = live
     state["seen"] = state["seen"][-MAX_SEEN:]
@@ -220,9 +232,18 @@ def save_state(state: dict) -> None:
 def write_dashboard(state: dict) -> None:
     DASHBOARD_FILE.parent.mkdir(exist_ok=True)
     overrides = load_overrides()
-    closures_public = [{k: v for k, v in c.items() if k != "alerted_chats"}
-                       for i, c in state["closures"].items()
-                       if i not in overrides["removed"]]
+    today = _athens_now().date().isoformat()
+    closures_public = []
+    for i, c in state["closures"].items():
+        if i in overrides["removed"]:
+            continue
+        pub = {k: v for k, v in c.items() if k != "alerted_chats"}
+        d = pub.get("days") or []
+        # Derived, never stored: planned (not yet begun), active (in
+        # effect today), ended (over, retained for the past section).
+        pub["status"] = ("ended" if d and max(d) < today
+                         else "active" if today in d else "planned")
+        closures_public.append(pub)
     DASHBOARD_FILE.write_text(json.dumps({
         "generated_at": now_iso(),
         "sources": [state["source_status"][n] for n in SOURCES
@@ -370,10 +391,16 @@ def main(argv=None) -> int:
                 # original title is kept everywhere regardless.
                 plain = humanize.summarize(e.title, days=days,
                                            today=date.fromisoformat(today))
+                e.plain = plain      # notify formatters prefer it when set
+                # Daily time window ("κατά τις ώρες 19.00΄ έως 07.00΄"):
+                # start > end crosses midnight. Lets the dashboard say
+                # "κλειστό ΤΩΡΑ" instead of just "σήμερα".
+                hours = enrich.extract_hours(e.title)
 
                 entry = {"id": e.id, "source": e.source, "title": e.title,
                          "url": e.url, "details": e.details,
-                         "area": area, "days": days, "plain": plain,
+                         "area": area, "days": days, "hours": hours,
+                         "plain": plain,
                          "new_this_run": is_new and not first_time}
 
                 if is_new:
@@ -388,14 +415,28 @@ def main(argv=None) -> int:
                         pending_undated.append((e, area))
 
                 if days:
-                    prev_alerted = state["closures"].get(e.id, {}).get("alerted_chats", [])
+                    prev = state["closures"].get(e.id, {})
+                    prev_alerted = prev.get("alerted_chats", [])
                     if first_time:
                         prev_alerted = [s["chat_id"] for s in subs]
+                    extended = bool(prev.get("extended"))
+                    if prev.get("days") and max(days) > max(prev["days"]):
+                        # GENUINE EXTENSION: the closure now runs later
+                        # than anything subscribers were told about.
+                        # Mark it (dashboard badge) and re-arm the
+                        # urgent tier — each user's own window logic
+                        # decides again, exactly-once as always, and
+                        # the flood cap remains the backstop.
+                        extended = True
+                        prev_alerted = []
                     state["closures"][e.id] = {
                         "id": e.id,
                         "source": e.source, "title": e.title, "url": e.url,
                         "details": e.details, "area": area, "days": days,
-                        "plain": plain,
+                        "hours": hours, "plain": plain,
+                        "first_seen": prev.get("first_seen") or now_iso(),
+                        "last_seen": now_iso(),
+                        "extended": extended,
                         "alerted_chats": list(prev_alerted),
                     }
                 if days and max(days) < today:
