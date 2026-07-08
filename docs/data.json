@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T21:55:11+00:00",
+  "generated_at": "2026-07-08T22:51:30+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -67,14 +67,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 20,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 11
+        "κατηγορία εκτός πολιτικής": 8
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-08T21:55:05+00:00"
+      "last_success": "2026-07-08T22:51:29+00:00"
     }
   ],
   "active_events": [
@@ -396,7 +396,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T21:55:05+00:00",
+      "last_seen": "2026-07-08T22:51:29+00:00",
       "extended": true,
       "status": "active"
     },
@@ -413,7 +413,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T21:55:05+00:00",
+      "last_seen": "2026-07-08T22:51:29+00:00",
       "extended": true,
       "status": "active"
     },
@@ -430,7 +430,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T21:55:05+00:00",
+      "last_seen": "2026-07-08T22:51:29+00:00",
       "extended": true,
       "status": "active"
     },
@@ -447,7 +447,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T21:55:05+00:00",
+      "last_seen": "2026-07-08T22:51:29+00:00",
       "extended": true,
       "status": "active"
     },
@@ -464,7 +464,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T21:55:05+00:00",
+      "last_seen": "2026-07-08T22:51:29+00:00",
       "extended": true,
       "status": "active"
     },
@@ -481,7 +481,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T21:55:05+00:00",
+      "last_seen": "2026-07-08T22:51:29+00:00",
       "extended": true,
       "status": "active"
     },
@@ -498,7 +498,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T21:55:05+00:00",
+      "last_seen": "2026-07-08T22:51:29+00:00",
       "extended": true,
       "status": "active"
     },
@@ -515,7 +515,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T21:55:05+00:00",
+      "last_seen": "2026-07-08T22:51:29+00:00",
       "extended": true,
       "status": "active"
     },
@@ -532,7 +532,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T21:55:05+00:00",
+      "last_seen": "2026-07-08T22:51:29+00:00",
       "extended": true,
       "status": "active"
     },
@@ -724,6 +724,18 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-07-08T22:51:30+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25416-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Ολικός αποκλεισμός του κλάδου εξόδου προς την Λεωφ. Κύμης- Ολ. Στάδιο κόμβος (10Β) της Αττικής Οδού, στην κατεύθυνση προς Ελευσίνα, περιοχής Δήμου Ηρακλείου, την 11.07.2026, κατά τις ώρες 23.00΄ έως την 08.00΄ ώρα της επομένης, για την εκτέλεση εργασιών ",
+      "url": "https://diavgeia.gov.gr/decision/view/9ΣΕΩ46ΜΤΛΒ-ΡΟΡ"
+    },
+    {
+      "time": "2026-07-08T22:51:30+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
+      "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874"
+    },
+    {
       "time": "2026-07-08T21:55:11+00:00",
       "source": "TomTom (realtime)",
       "title": "🚨 Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
@@ -890,18 +902,6 @@
       "source": "TomTom (realtime)",
       "title": "🚨 Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
       "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437"
-    },
-    {
-      "time": "2026-07-06T12:16:33+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
-      "url": "https://www.google.com/maps?q=37.990176883,23.7386937076"
-    },
-    {
-      "time": "2026-07-06T12:16:32+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Athinas (Evripidou) → Praxitelous (Evripidou)",
-      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772"
     }
   ],
   "runs": [
@@ -1177,6 +1177,12 @@
     },
     {
       "time": "2026-07-08T21:55:11+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-08T22:51:30+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
