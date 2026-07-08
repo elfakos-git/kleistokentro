@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T06:22:37+00:00",
+  "generated_at": "2026-07-08T07:27:34+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-08T06:22:35+00:00"
+      "last_success": "2026-07-08T07:27:28+00:00"
     },
     {
       "name": "diavgeia",
@@ -27,7 +27,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-08T06:22:36+00:00"
+      "last_success": "2026-07-08T07:27:28+00:00"
     },
     {
       "name": "iefimerida",
@@ -40,7 +40,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-08T06:22:36+00:00"
+      "last_success": "2026-07-08T07:27:28+00:00"
     },
     {
       "name": "kathimerini",
@@ -51,33 +51,33 @@
       "date_misses": 5,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-08T06:22:36+00:00"
+      "last_success": "2026-07-08T07:27:28+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 1,
+      "items": 4,
       "fetched": 13,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 12
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 3,
       "consecutive_failures": 0,
-      "last_success": "2026-07-08T06:22:37+00:00"
+      "last_success": "2026-07-08T07:27:33+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 89,
+      "fetched": 58,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 80
+        "κατηγορία εκτός πολιτικής": 49
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-08T06:22:37+00:00"
+      "last_success": "2026-07-08T07:27:33+00:00"
     }
   ],
   "active_events": [
@@ -89,6 +89,7 @@
       "details": "",
       "area": "",
       "days": [],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -100,6 +101,7 @@
       "details": "",
       "area": "Νότια",
       "days": [],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -111,6 +113,7 @@
       "details": "",
       "area": "Νότια",
       "days": [],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -122,6 +125,7 @@
       "details": "",
       "area": "",
       "days": [],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -133,6 +137,7 @@
       "details": "",
       "area": "",
       "days": [],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -144,6 +149,7 @@
       "details": "",
       "area": "Κέντρο",
       "days": [],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -155,6 +161,7 @@
       "details": "",
       "area": "Κέντρο",
       "days": [],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -166,6 +173,7 @@
       "details": "",
       "area": "",
       "days": [],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -177,6 +185,7 @@
       "details": "",
       "area": "Κέντρο",
       "days": [],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -188,8 +197,55 @@
       "details": "",
       "area": "Βόρεια",
       "days": [],
+      "hours": [],
       "plain": "",
       "new_this_run": false
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος του Δήμου Περιστερίου",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-07-09",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": true
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%b9%cf%8e%ce%bd-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%cf%86%ce%bf%cf%81%ce%ac-%ce%ba%ce%b1%ce%bd%ce%bf%ce%bd/",
+      "source": "ΟΑΣΑ",
+      "title": "** Ολοκλήρωση εργασιών – Επαναφορά κανονικής διαδρομής στις 10.07.2026 / Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 723, λόγω εργασιών στον Δήμο Φυλής",
+      "url": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%b9%cf%8e%ce%bd-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%cf%86%ce%bf%cf%81%ce%ac-%ce%ba%ce%b1%ce%bd%ce%bf%ce%bd/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-07-10"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": true
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-101/",
+      "source": "ΟΑΣΑ",
+      "title": "** Ολοκλήρωση εργασιών – Επαναφορά κανονικής διαδρομής της Λ.Γ. 723 στις 10.07.2026 / Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 723, λόγω εργασιών στον Δήμο Φυλής",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-101/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-07-10"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": true
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-268/",
@@ -199,6 +255,7 @@
       "details": "",
       "area": "",
       "days": [],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -212,6 +269,7 @@
       "days": [
         "2026-07-08"
       ],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -225,6 +283,7 @@
       "days": [
         "2026-07-08"
       ],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -238,6 +297,7 @@
       "days": [
         "2026-07-08"
       ],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -251,6 +311,7 @@
       "days": [
         "2026-07-08"
       ],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -264,6 +325,7 @@
       "days": [
         "2026-07-08"
       ],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -277,6 +339,7 @@
       "days": [
         "2026-07-08"
       ],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -290,6 +353,7 @@
       "days": [
         "2026-07-08"
       ],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -303,6 +367,7 @@
       "days": [
         "2026-07-08"
       ],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     },
@@ -316,6 +381,7 @@
       "days": [
         "2026-07-08"
       ],
+      "hours": [],
       "plain": "",
       "new_this_run": false
     }
@@ -331,7 +397,12 @@
       "days": [
         "2026-07-08"
       ],
-      "plain": ""
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-08T07:27:33+00:00",
+      "last_seen": "2026-07-08T07:27:33+00:00",
+      "extended": false,
+      "status": "active"
     },
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51600061312012000",
@@ -343,7 +414,12 @@
       "days": [
         "2026-07-08"
       ],
-      "plain": ""
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-08T07:27:33+00:00",
+      "last_seen": "2026-07-08T07:27:33+00:00",
+      "extended": false,
+      "status": "active"
     },
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51568321972030001",
@@ -355,7 +431,12 @@
       "days": [
         "2026-07-08"
       ],
-      "plain": ""
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-08T07:27:33+00:00",
+      "last_seen": "2026-07-08T07:27:33+00:00",
+      "extended": false,
+      "status": "active"
     },
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749080021000",
@@ -367,7 +448,12 @@
       "days": [
         "2026-07-08"
       ],
-      "plain": ""
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-08T07:27:33+00:00",
+      "last_seen": "2026-07-08T07:27:33+00:00",
+      "extended": false,
+      "status": "active"
     },
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51579863732014000",
@@ -379,7 +465,12 @@
       "days": [
         "2026-07-08"
       ],
-      "plain": ""
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-08T07:27:33+00:00",
+      "last_seen": "2026-07-08T07:27:33+00:00",
+      "extended": false,
+      "status": "active"
     },
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290660014001",
@@ -391,7 +482,12 @@
       "days": [
         "2026-07-08"
       ],
-      "plain": ""
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-08T07:27:33+00:00",
+      "last_seen": "2026-07-08T07:27:33+00:00",
+      "extended": false,
+      "status": "active"
     },
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290912011001",
@@ -403,7 +499,12 @@
       "days": [
         "2026-07-08"
       ],
-      "plain": ""
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-08T07:27:33+00:00",
+      "last_seen": "2026-07-08T07:27:33+00:00",
+      "extended": false,
+      "status": "active"
     },
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594291004012000",
@@ -415,7 +516,12 @@
       "days": [
         "2026-07-08"
       ],
-      "plain": ""
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-08T07:27:33+00:00",
+      "last_seen": "2026-07-08T07:27:33+00:00",
+      "extended": false,
+      "status": "active"
     },
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594291000004000",
@@ -427,7 +533,67 @@
       "days": [
         "2026-07-08"
       ],
-      "plain": ""
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-08T07:27:33+00:00",
+      "last_seen": "2026-07-08T07:27:33+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος του Δήμου Περιστερίου",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-07-09",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-08T07:27:30+00:00",
+      "last_seen": "2026-07-08T07:27:30+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%b9%cf%8e%ce%bd-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%cf%86%ce%bf%cf%81%ce%ac-%ce%ba%ce%b1%ce%bd%ce%bf%ce%bd/",
+      "source": "ΟΑΣΑ",
+      "title": "** Ολοκλήρωση εργασιών – Επαναφορά κανονικής διαδρομής στις 10.07.2026 / Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 723, λόγω εργασιών στον Δήμο Φυλής",
+      "url": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%b9%cf%8e%ce%bd-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%cf%86%ce%bf%cf%81%ce%ac-%ce%ba%ce%b1%ce%bd%ce%bf%ce%bd/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-07-10"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-08T07:27:31+00:00",
+      "last_seen": "2026-07-08T07:27:31+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-101/",
+      "source": "ΟΑΣΑ",
+      "title": "** Ολοκλήρωση εργασιών – Επαναφορά κανονικής διαδρομής της Λ.Γ. 723 στις 10.07.2026 / Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 723, λόγω εργασιών στον Δήμο Φυλής",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-101/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-07-10"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-08T07:27:33+00:00",
+      "last_seen": "2026-07-08T07:27:33+00:00",
+      "extended": false,
+      "status": "planned"
     },
     {
       "id": "9ΣΕΩ46ΜΤΛΒ-ΡΟΡ",
@@ -438,7 +604,12 @@
       "area": "Δυτικά",
       "days": [
         "2026-07-11"
-      ]
+      ],
+      "hours": [],
+      "first_seen": null,
+      "last_seen": null,
+      "extended": false,
+      "status": "planned"
     },
     {
       "id": "https://www.kathimerini.gr/society/564255967/notia-proastia-kykloforiakes-rythmiseis-stis-30-ma-oy-logo-podilatikoy-agona/",
@@ -449,7 +620,12 @@
       "area": "",
       "days": [
         "2027-05-30"
-      ]
+      ],
+      "hours": [],
+      "first_seen": null,
+      "last_seen": null,
+      "extended": false,
+      "status": "planned"
     },
     {
       "id": "https://www.kathimerini.gr/society/564251338/kykloforiakes-rythmiseis-sti-leoforo-kifisias-stis-30-kai-31-ma-oy/",
@@ -461,7 +637,12 @@
       "days": [
         "2027-05-30",
         "2027-05-31"
-      ]
+      ],
+      "hours": [],
+      "first_seen": null,
+      "last_seen": null,
+      "extended": false,
+      "status": "planned"
     },
     {
       "id": "https://www.kathimerini.gr/society/564253891/kykloforiakes-rythmiseis-sti-leoforo-syggroy-stis-2-kai-3-ioynioy/",
@@ -473,7 +654,12 @@
       "days": [
         "2027-06-02",
         "2027-06-03"
-      ]
+      ],
+      "hours": [],
+      "first_seen": null,
+      "last_seen": null,
+      "extended": false,
+      "status": "planned"
     },
     {
       "id": "https://www.kathimerini.gr/society/564263236/kykloforiakes-rythmiseis-stis-6-ioynioy-sto-kentro-tis-athinas/",
@@ -484,7 +670,12 @@
       "area": "Κέντρο",
       "days": [
         "2027-06-06"
-      ]
+      ],
+      "hours": [],
+      "first_seen": null,
+      "last_seen": null,
+      "extended": false,
+      "status": "planned"
     },
     {
       "id": "https://www.kathimerini.gr/society/564291292/athina-kleistoi-dromoi-tin-triti-23-6-logo-agonon-dromoy/",
@@ -495,7 +686,12 @@
       "area": "",
       "days": [
         "2027-06-23"
-      ]
+      ],
+      "hours": [],
+      "first_seen": null,
+      "last_seen": null,
+      "extended": false,
+      "status": "planned"
     },
     {
       "id": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
@@ -506,7 +702,12 @@
       "area": "Νότια",
       "days": [
         "2027-06-25"
-      ]
+      ],
+      "hours": [],
+      "first_seen": null,
+      "last_seen": null,
+      "extended": false,
+      "status": "planned"
     },
     {
       "id": "https://www.kathimerini.gr/society/564312118/metro-kykloforiakes-rythmiseis-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera/",
@@ -517,10 +718,33 @@
       "area": "Κέντρο",
       "days": [
         "2027-06-28"
-      ]
+      ],
+      "hours": [],
+      "first_seen": null,
+      "last_seen": null,
+      "extended": false,
+      "status": "planned"
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-07-08T07:27:34+00:00",
+      "source": "ΟΑΣΑ",
+      "title": "🚨 ** Ολοκλήρωση εργασιών – Επαναφορά κανονικής διαδρομής της Λ.Γ. 723 στις 10.07.2026 / Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 723, λόγω εργασιών στον Δήμο Φυλής",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-101/"
+    },
+    {
+      "time": "2026-07-08T07:27:34+00:00",
+      "source": "ΟΑΣΑ",
+      "title": "🚨 ** Ολοκλήρωση εργασιών – Επαναφορά κανονικής διαδρομής στις 10.07.2026 / Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 723, λόγω εργασιών στον Δήμο Φυλής",
+      "url": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%b9%cf%8e%ce%bd-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%cf%86%ce%bf%cf%81%ce%ac-%ce%ba%ce%b1%ce%bd%ce%bf%ce%bd/"
+    },
+    {
+      "time": "2026-07-08T07:27:33+00:00",
+      "source": "ΟΑΣΑ",
+      "title": "🚨 Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος του Δήμου Περιστερίου",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/"
+    },
     {
       "time": "2026-07-08T05:39:21+00:00",
       "source": "Ενημέρωση",
@@ -849,6 +1073,12 @@
     },
     {
       "time": "2026-07-08T06:22:37+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
+    },
+    {
+      "time": "2026-07-08T07:27:34+00:00",
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
