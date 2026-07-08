@@ -70,7 +70,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T21:49:54+00:00"
+      "last_success": "2026-07-08T01:58:27+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -84,7 +84,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T21:49:54+00:00"
+      "last_success": "2026-07-08T01:58:27+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -97,7 +97,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T21:49:54+00:00"
+      "last_success": "2026-07-08T01:58:27+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -108,7 +108,7 @@
       "date_misses": 5,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T21:49:54+00:00"
+      "last_success": "2026-07-08T01:58:27+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -121,20 +121,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T21:49:54+00:00"
+      "last_success": "2026-07-08T01:58:27+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 19,
+      "fetched": 18,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 10
+        "κατηγορία εκτός πολιτικής": 9
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-07T22:34:14+00:00"
+      "last_success": "2026-07-08T01:58:27+00:00"
     }
   },
   "active": {
@@ -960,6 +960,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-08T01:58:27+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
