@@ -132,15 +132,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 64,
+      "items": 9,
+      "fetched": 82,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 54
+        "κατηγορία εκτός πολιτικής": 73
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-08T13:46:28+00:00"
+      "last_success": "2026-07-08T14:45:10+00:00"
     }
   },
   "active": {
@@ -347,20 +347,6 @@
         "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
-        "days": [
-          "2026-07-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749012015000",
-        "source": "TomTom (realtime)",
-        "title": "Eolou (Ag. Irinis) → Athinas (Ag. Irinis)",
-        "url": "https://www.google.com/maps?q=37.9770313229,23.7272809082",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
         "days": [
           "2026-07-08"
         ],
@@ -596,7 +582,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T13:46:28+00:00",
+      "last_seen": "2026-07-08T14:45:10+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -615,7 +601,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T13:46:28+00:00",
+      "last_seen": "2026-07-08T14:45:10+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -634,7 +620,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T13:46:28+00:00",
+      "last_seen": "2026-07-08T14:45:10+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -653,7 +639,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T13:46:28+00:00",
+      "last_seen": "2026-07-08T14:45:10+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -672,7 +658,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T13:46:28+00:00",
+      "last_seen": "2026-07-08T14:45:10+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -691,7 +677,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T13:46:28+00:00",
+      "last_seen": "2026-07-08T14:45:10+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -710,7 +696,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T13:46:28+00:00",
+      "last_seen": "2026-07-08T14:45:10+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -729,7 +715,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T13:46:28+00:00",
+      "last_seen": "2026-07-08T14:45:10+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -748,7 +734,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-08T13:46:28+00:00",
+      "last_seen": "2026-07-08T14:45:10+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1249,6 +1235,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-08T14:45:10+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
