@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T17:44:26+00:00",
+  "generated_at": "2026-07-09T17:49:25+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T14:37:53+00:00"
+      "last_success": "2026-07-09T17:49:25+00:00"
     },
     {
       "name": "diavgeia",
@@ -26,7 +26,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T14:37:53+00:00"
+      "last_success": "2026-07-09T17:49:25+00:00"
     },
     {
       "name": "iefimerida",
@@ -39,7 +39,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T14:37:53+00:00"
+      "last_success": "2026-07-09T17:49:25+00:00"
     },
     {
       "name": "kathimerini",
@@ -50,34 +50,31 @@
       "date_misses": 5,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T14:37:53+00:00"
+      "last_success": "2026-07-09T17:49:25+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 4,
-      "fetched": 11,
-      "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6
-      },
+      "items": 0,
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T14:37:53+00:00"
+      "last_success": "2026-07-09T17:49:25+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 35,
+      "fetched": 36,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 26
+        "κατηγορία εκτός πολιτικής": 27
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T17:44:26+00:00"
+      "last_success": "2026-07-09T17:49:25+00:00"
     }
   ],
   "active_events": [
@@ -197,58 +194,6 @@
       "details": "",
       "area": "Βόρεια",
       "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 305, 316, και 323, λόγω εκδηλώσεων στον Δήμο Σπάτων – Αρτέμιδος",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
-      "details": "",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος του Δήμου Περιστερίου",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%b9%cf%8e%ce%bd-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%cf%86%ce%bf%cf%81%ce%ac-%ce%ba%ce%b1%ce%bd%ce%bf%ce%bd/",
-      "source": "ΟΑΣΑ",
-      "title": "** Ολοκλήρωση εργασιών – Επαναφορά κανονικής διαδρομής στις 10.07.2026 / Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 723, λόγω εργασιών στον Δήμο Φυλής",
-      "url": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%b9%cf%8e%ce%bd-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%cf%86%ce%bf%cf%81%ce%ac-%ce%ba%ce%b1%ce%bd%ce%bf%ce%bd/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-07-10"
-      ],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-101/",
-      "source": "ΟΑΣΑ",
-      "title": "** Ολοκλήρωση εργασιών – Επαναφορά κανονικής διαδρομής της Λ.Γ. 723 στις 10.07.2026 / Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 723, λόγω εργασιών στον Δήμο Φυλής",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-101/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-07-10"
-      ],
       "hours": [],
       "plain": "",
       "new_this_run": false
@@ -411,7 +356,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T17:44:26+00:00",
+      "last_seen": "2026-07-09T17:49:25+00:00",
       "extended": true,
       "status": "active"
     },
@@ -428,7 +373,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T17:44:26+00:00",
+      "last_seen": "2026-07-09T17:49:25+00:00",
       "extended": true,
       "status": "active"
     },
@@ -445,7 +390,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T17:44:26+00:00",
+      "last_seen": "2026-07-09T17:49:25+00:00",
       "extended": true,
       "status": "active"
     },
@@ -462,7 +407,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T17:44:26+00:00",
+      "last_seen": "2026-07-09T17:49:25+00:00",
       "extended": true,
       "status": "active"
     },
@@ -479,7 +424,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T17:44:26+00:00",
+      "last_seen": "2026-07-09T17:49:25+00:00",
       "extended": true,
       "status": "active"
     },
@@ -496,7 +441,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T17:44:26+00:00",
+      "last_seen": "2026-07-09T17:49:25+00:00",
       "extended": true,
       "status": "active"
     },
@@ -513,7 +458,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T17:44:26+00:00",
+      "last_seen": "2026-07-09T17:49:25+00:00",
       "extended": true,
       "status": "active"
     },
@@ -530,7 +475,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T17:44:26+00:00",
+      "last_seen": "2026-07-09T17:49:25+00:00",
       "extended": true,
       "status": "active"
     },
@@ -547,7 +492,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T17:44:26+00:00",
+      "last_seen": "2026-07-09T17:49:25+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1243,6 +1188,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-09T17:49:25+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
