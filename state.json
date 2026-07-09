@@ -77,7 +77,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T10:53:06+00:00"
+      "last_success": "2026-07-09T14:37:53+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -90,7 +90,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T10:53:06+00:00"
+      "last_success": "2026-07-09T14:37:53+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -103,7 +103,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T10:53:06+00:00"
+      "last_success": "2026-07-09T14:37:53+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -114,7 +114,7 @@
       "date_misses": 5,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T10:53:06+00:00"
+      "last_success": "2026-07-09T14:37:53+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -128,20 +128,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T10:53:06+00:00"
+      "last_success": "2026-07-09T14:37:53+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 52,
+      "fetched": 94,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 43
+        "κατηγορία εκτός πολιτικής": 85
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T10:53:06+00:00"
+      "last_success": "2026-07-09T14:37:53+00:00"
     }
   },
   "active": {
@@ -370,8 +370,8 @@
       {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749080021000",
         "source": "TomTom (realtime)",
-        "title": "Poliklitou (Evripidou) → Praxitelous (Evripidou)",
-        "url": "https://www.google.com/maps?q=37.9798061195,23.7275813156",
+        "title": "Athinas (Evripidou) → Praxitelous (Evripidou)",
+        "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -595,7 +595,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T10:53:06+00:00",
+      "last_seen": "2026-07-09T14:37:53+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -614,7 +614,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T10:53:06+00:00",
+      "last_seen": "2026-07-09T14:37:53+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -633,7 +633,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T10:53:06+00:00",
+      "last_seen": "2026-07-09T14:37:53+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -642,8 +642,8 @@
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749080021000": {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749080021000",
       "source": "TomTom (realtime)",
-      "title": "Poliklitou (Evripidou) → Praxitelous (Evripidou)",
-      "url": "https://www.google.com/maps?q=37.9798061195,23.7275813156",
+      "title": "Athinas (Evripidou) → Praxitelous (Evripidou)",
+      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -652,7 +652,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T10:53:06+00:00",
+      "last_seen": "2026-07-09T14:37:53+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -671,7 +671,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T10:53:06+00:00",
+      "last_seen": "2026-07-09T14:37:53+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -690,7 +690,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T10:53:06+00:00",
+      "last_seen": "2026-07-09T14:37:53+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -709,7 +709,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T10:53:06+00:00",
+      "last_seen": "2026-07-09T14:37:53+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -728,7 +728,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T10:53:06+00:00",
+      "last_seen": "2026-07-09T14:37:53+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -747,7 +747,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T10:53:06+00:00",
+      "last_seen": "2026-07-09T14:37:53+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -807,7 +807,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:31+00:00",
-      "last_seen": "2026-07-09T10:53:06+00:00",
+      "last_seen": "2026-07-09T14:37:53+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -826,7 +826,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T10:53:06+00:00",
+      "last_seen": "2026-07-09T14:37:53+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1343,6 +1343,12 @@
     },
     {
       "time": "2026-07-09T10:53:06+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
+    },
+    {
+      "time": "2026-07-09T14:37:53+00:00",
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
