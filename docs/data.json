@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T17:14:16+00:00",
+  "generated_at": "2026-07-10T17:42:22+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T14:05:08+00:00"
+      "last_success": "2026-07-10T17:42:22+00:00"
     },
     {
       "name": "diavgeia",
@@ -27,7 +27,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T14:05:08+00:00"
+      "last_success": "2026-07-10T17:42:22+00:00"
     },
     {
       "name": "iefimerida",
@@ -40,7 +40,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T14:05:08+00:00"
+      "last_success": "2026-07-10T17:42:22+00:00"
     },
     {
       "name": "kathimerini",
@@ -51,7 +51,7 @@
       "date_misses": 4,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T14:05:08+00:00"
+      "last_success": "2026-07-10T17:42:22+00:00"
     },
     {
       "name": "oasa",
@@ -65,20 +65,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T14:05:08+00:00"
+      "last_success": "2026-07-10T17:42:22+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 25,
+      "fetched": 24,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 16
+        "κατηγορία εκτός πολιτικής": 15
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T17:14:16+00:00"
+      "last_success": "2026-07-10T17:42:22+00:00"
     }
   ],
   "active_events": [
@@ -95,7 +95,7 @@
       ],
       "hours": [],
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Ν.Ε.Ο.Αθηνών–Λαμίας) · 15/7, 18/12",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "ΡΡ1546ΜΤΛΒ-ΞΤΣ",
@@ -112,7 +112,7 @@
         "06:00"
       ],
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Ν.Ε.Ο.Αθηνών–Λαμίας) · 14/7, 22:00–06:00",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.kathimerini.gr/society/564335986/xanthi-stis-floges-ntalika-stin-egnatia-odo-kykloforiakes-rythmiseis/",
@@ -477,7 +477,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T17:14:16+00:00",
+      "last_seen": "2026-07-10T17:42:22+00:00",
       "extended": true,
       "status": "active"
     },
@@ -494,7 +494,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T17:14:16+00:00",
+      "last_seen": "2026-07-10T17:42:22+00:00",
       "extended": true,
       "status": "active"
     },
@@ -511,7 +511,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T17:14:16+00:00",
+      "last_seen": "2026-07-10T17:42:22+00:00",
       "extended": true,
       "status": "active"
     },
@@ -528,7 +528,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T17:14:16+00:00",
+      "last_seen": "2026-07-10T17:42:22+00:00",
       "extended": true,
       "status": "active"
     },
@@ -545,7 +545,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T17:14:16+00:00",
+      "last_seen": "2026-07-10T17:42:22+00:00",
       "extended": true,
       "status": "active"
     },
@@ -562,7 +562,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T17:14:16+00:00",
+      "last_seen": "2026-07-10T17:42:22+00:00",
       "extended": true,
       "status": "active"
     },
@@ -579,7 +579,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T17:14:16+00:00",
+      "last_seen": "2026-07-10T17:42:22+00:00",
       "extended": true,
       "status": "active"
     },
@@ -596,7 +596,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T17:14:16+00:00",
+      "last_seen": "2026-07-10T17:42:22+00:00",
       "extended": true,
       "status": "active"
     },
@@ -613,7 +613,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T17:14:16+00:00",
+      "last_seen": "2026-07-10T17:42:22+00:00",
       "extended": true,
       "status": "active"
     },
@@ -630,7 +630,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:31+00:00",
-      "last_seen": "2026-07-10T14:05:08+00:00",
+      "last_seen": "2026-07-10T17:42:22+00:00",
       "extended": false,
       "status": "active"
     },
@@ -647,7 +647,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T14:05:08+00:00",
+      "last_seen": "2026-07-10T17:42:22+00:00",
       "extended": false,
       "status": "active"
     },
@@ -700,7 +700,7 @@
       ],
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Ν.Ε.Ο.Αθηνών–Λαμίας) · 14/7, 22:00–06:00",
       "first_seen": "2026-07-10T14:05:08+00:00",
-      "last_seen": "2026-07-10T14:05:08+00:00",
+      "last_seen": "2026-07-10T17:42:22+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -718,7 +718,7 @@
       "hours": [],
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Ν.Ε.Ο.Αθηνών–Λαμίας) · 15/7, 18/12",
       "first_seen": "2026-07-10T14:05:08+00:00",
-      "last_seen": "2026-07-10T14:05:08+00:00",
+      "last_seen": "2026-07-10T17:42:22+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1020,12 +1020,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-06T21:51:32+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-06T22:49:52+00:00",
       "new": 0,
@@ -1379,6 +1373,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-10T17:42:22+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
