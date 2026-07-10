@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T18:53:41+00:00",
+  "generated_at": "2026-07-10T20:10:13+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -70,15 +70,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 20,
+      "items": 8,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 11
+        "κατηγορία εκτός πολιτικής": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T18:53:41+00:00"
+      "last_success": "2026-07-10T20:10:13+00:00"
     }
   ],
   "active_events": [
@@ -383,20 +383,6 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290912011001",
-      "source": "TomTom (realtime)",
-      "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
-      "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-10"
-      ],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594291004012000",
       "source": "TomTom (realtime)",
       "title": "Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
@@ -477,7 +463,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T18:53:41+00:00",
+      "last_seen": "2026-07-10T20:10:13+00:00",
       "extended": true,
       "status": "active"
     },
@@ -494,7 +480,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T18:53:41+00:00",
+      "last_seen": "2026-07-10T20:10:13+00:00",
       "extended": true,
       "status": "active"
     },
@@ -511,7 +497,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T18:53:41+00:00",
+      "last_seen": "2026-07-10T20:10:13+00:00",
       "extended": true,
       "status": "active"
     },
@@ -528,7 +514,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T18:53:41+00:00",
+      "last_seen": "2026-07-10T20:10:13+00:00",
       "extended": true,
       "status": "active"
     },
@@ -545,7 +531,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T18:53:41+00:00",
+      "last_seen": "2026-07-10T20:10:13+00:00",
       "extended": true,
       "status": "active"
     },
@@ -562,7 +548,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T18:53:41+00:00",
+      "last_seen": "2026-07-10T20:10:13+00:00",
       "extended": true,
       "status": "active"
     },
@@ -596,7 +582,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T18:53:41+00:00",
+      "last_seen": "2026-07-10T20:10:13+00:00",
       "extended": true,
       "status": "active"
     },
@@ -613,7 +599,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T18:53:41+00:00",
+      "last_seen": "2026-07-10T20:10:13+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1021,12 +1007,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-06T22:50:33+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-06T22:53:57+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1376,6 +1356,12 @@
     },
     {
       "time": "2026-07-10T18:53:41+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-10T20:10:13+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
