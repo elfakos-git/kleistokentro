@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T23:41:03+00:00",
+  "generated_at": "2026-07-10T02:10:58+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T21:15:42+00:00"
+      "last_success": "2026-07-10T02:10:58+00:00"
     },
     {
       "name": "diavgeia",
@@ -26,7 +26,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T21:15:42+00:00"
+      "last_success": "2026-07-10T02:10:58+00:00"
     },
     {
       "name": "iefimerida",
@@ -39,7 +39,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T21:15:42+00:00"
+      "last_success": "2026-07-10T02:10:58+00:00"
     },
     {
       "name": "kathimerini",
@@ -50,21 +50,20 @@
       "date_misses": 5,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T21:15:42+00:00"
+      "last_success": "2026-07-10T02:10:58+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
       "items": 4,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T21:15:42+00:00"
+      "last_success": "2026-07-10T02:10:58+00:00"
     },
     {
       "name": "tomtom",
@@ -77,7 +76,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-09T23:41:03+00:00"
+      "last_success": "2026-07-10T02:10:58+00:00"
     }
   ],
   "active_events": [
@@ -432,7 +431,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T23:41:03+00:00",
+      "last_seen": "2026-07-10T02:10:58+00:00",
       "extended": true,
       "status": "active"
     },
@@ -449,7 +448,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T23:41:03+00:00",
+      "last_seen": "2026-07-10T02:10:58+00:00",
       "extended": true,
       "status": "active"
     },
@@ -466,7 +465,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T23:41:03+00:00",
+      "last_seen": "2026-07-10T02:10:58+00:00",
       "extended": true,
       "status": "active"
     },
@@ -483,7 +482,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T23:41:03+00:00",
+      "last_seen": "2026-07-10T02:10:58+00:00",
       "extended": true,
       "status": "active"
     },
@@ -500,7 +499,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T23:41:03+00:00",
+      "last_seen": "2026-07-10T02:10:58+00:00",
       "extended": true,
       "status": "active"
     },
@@ -517,7 +516,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T23:41:03+00:00",
+      "last_seen": "2026-07-10T02:10:58+00:00",
       "extended": true,
       "status": "active"
     },
@@ -534,7 +533,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T23:41:03+00:00",
+      "last_seen": "2026-07-10T02:10:58+00:00",
       "extended": true,
       "status": "active"
     },
@@ -551,7 +550,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T23:41:03+00:00",
+      "last_seen": "2026-07-10T02:10:58+00:00",
       "extended": true,
       "status": "active"
     },
@@ -568,7 +567,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T23:41:03+00:00",
+      "last_seen": "2026-07-10T02:10:58+00:00",
       "extended": true,
       "status": "active"
     },
@@ -585,7 +584,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:31+00:00",
-      "last_seen": "2026-07-09T21:15:42+00:00",
+      "last_seen": "2026-07-10T02:10:58+00:00",
       "extended": false,
       "status": "active"
     },
@@ -602,7 +601,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-09T21:15:42+00:00",
+      "last_seen": "2026-07-10T02:10:58+00:00",
       "extended": false,
       "status": "active"
     },
@@ -920,12 +919,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-06T08:18:03+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-06T08:20:41+00:00",
       "new": 0,
@@ -1279,6 +1272,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-10T02:10:58+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
