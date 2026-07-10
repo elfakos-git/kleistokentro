@@ -55,7 +55,13 @@
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-101/",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749012015000",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/"
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
+    "ΡΑΕΓ46ΜΤΛΒ-5Ω8",
+    "ΨΔ6Θ46ΜΤΛΒ-8ΤΟ",
+    "9Θ9646ΜΤΛΒ-2Ε9",
+    "Ψ94446ΜΤΛΒ-ΒΘΝ",
+    "9ΣΤΦ46ΜΤΛΒ-090",
+    "https://www.kathimerini.gr/society/564335986/xanthi-stis-floges-ntalika-stin-egnatia-odo-kykloforiakes-rythmiseis/"
   ],
   "seeded": [
     "astynomia",
@@ -75,7 +81,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T07:29:08+00:00"
+      "last_success": "2026-07-10T10:46:16+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -83,12 +89,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 95,
+        "μόνο μία λωρίδα/ΛΕΑ": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T07:29:08+00:00"
+      "last_success": "2026-07-10T10:46:16+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -101,7 +108,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T07:29:08+00:00"
+      "last_success": "2026-07-10T10:46:16+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -109,36 +116,34 @@
       "items": 10,
       "fetched": 10,
       "dropped": {},
-      "date_misses": 5,
+      "date_misses": 4,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T07:29:08+00:00"
+      "last_success": "2026-07-10T10:46:17+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 5,
-      "fetched": 13,
-      "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8
-      },
+      "items": 0,
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T07:29:10+00:00"
+      "last_success": "2026-07-10T10:46:17+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 49,
+      "fetched": 56,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 40
+        "κατηγορία εκτός πολιτικής": 47
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T10:00:16+00:00"
+      "last_success": "2026-07-10T10:46:17+00:00"
     }
   },
   "active": {
@@ -146,6 +151,18 @@
     "diavgeia": [],
     "iefimerida": [],
     "kathimerini": [
+      {
+        "id": "https://www.kathimerini.gr/society/564335986/xanthi-stis-floges-ntalika-stin-egnatia-odo-kykloforiakes-rythmiseis/",
+        "source": "kathimerini",
+        "title": "Ξάνθη: Στις φλόγες νταλίκα στην Εγνατία Οδό – Κυκλοφοριακές ρυθμίσεις",
+        "url": "https://www.kathimerini.gr/society/564335986/xanthi-stis-floges-ntalika-stin-egnatia-odo-kykloforiakes-rythmiseis/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": true
+      },
       {
         "id": "https://www.kathimerini.gr/society/564312118/metro-kykloforiakes-rythmiseis-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera/",
         "source": "kathimerini",
@@ -253,88 +270,9 @@
         "hours": [],
         "plain": "",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564251338/kykloforiakes-rythmiseis-sti-leoforo-kifisias-stis-30-kai-31-ma-oy/",
-        "source": "kathimerini",
-        "title": "Κυκλοφοριακές ρυθμίσεις στη λεωφόρο Κηφισίας στις 30 και 31 Μαΐου",
-        "url": "https://www.kathimerini.gr/society/564251338/kykloforiakes-rythmiseis-sti-leoforo-kifisias-stis-30-kai-31-ma-oy/",
-        "details": "",
-        "area": "Βόρεια",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
       }
     ],
-    "oasa": [
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 203, 204, 209 και 211 λόγω εργασιών στην οδό Χρεμωνίδου 20-22 στον Δήμο Αθηναίων",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
-        "details": "",
-        "area": "Κέντρο",
-        "days": [
-          "2026-07-12"
-        ],
-        "hours": [],
-        "plain": "",
-        "new_this_run": true
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 305, 316, και 323, λόγω εκδηλώσεων στον Δήμο Σπάτων – Αρτέμιδος",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος του Δήμου Περιστερίου",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
-        "details": "",
-        "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%b9%cf%8e%ce%bd-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%cf%86%ce%bf%cf%81%ce%ac-%ce%ba%ce%b1%ce%bd%ce%bf%ce%bd/",
-        "source": "ΟΑΣΑ",
-        "title": "** Ολοκλήρωση εργασιών – Επαναφορά κανονικής διαδρομής στις 10.07.2026 / Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 723, λόγω εργασιών στον Δήμο Φυλής",
-        "url": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%b9%cf%8e%ce%bd-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%cf%86%ce%bf%cf%81%ce%ac-%ce%ba%ce%b1%ce%bd%ce%bf%ce%bd/",
-        "details": "",
-        "area": "",
-        "days": [
-          "2026-07-10"
-        ],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-101/",
-        "source": "ΟΑΣΑ",
-        "title": "** Ολοκλήρωση εργασιών – Επαναφορά κανονικής διαδρομής της Λ.Γ. 723 στις 10.07.2026 / Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 723, λόγω εργασιών στον Δήμο Φυλής",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-101/",
-        "details": "",
-        "area": "",
-        "days": [
-          "2026-07-10"
-        ],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      }
-    ],
+    "oasa": [],
     "tomtom": [
       {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51574092528022000",
@@ -606,7 +544,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T10:00:16+00:00",
+      "last_seen": "2026-07-10T10:46:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -625,7 +563,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T10:00:16+00:00",
+      "last_seen": "2026-07-10T10:46:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -644,7 +582,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T10:00:16+00:00",
+      "last_seen": "2026-07-10T10:46:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -663,7 +601,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T10:00:16+00:00",
+      "last_seen": "2026-07-10T10:46:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -682,7 +620,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T10:00:16+00:00",
+      "last_seen": "2026-07-10T10:46:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -701,7 +639,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T10:00:16+00:00",
+      "last_seen": "2026-07-10T10:46:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -720,7 +658,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T10:00:16+00:00",
+      "last_seen": "2026-07-10T10:46:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -739,7 +677,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T10:00:16+00:00",
+      "last_seen": "2026-07-10T10:46:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -758,7 +696,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T10:00:16+00:00",
+      "last_seen": "2026-07-10T10:46:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -889,12 +827,6 @@
     "151797168": "2026-07-10"
   },
   "notifications": [
-    {
-      "time": "2026-07-07T10:15:47+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
-      "url": "https://www.google.com/maps?q=37.9818740999,23.769882434"
-    },
     {
       "time": "2026-07-07T10:49:03+00:00",
       "source": "TomTom (realtime)",
@@ -1068,15 +1000,15 @@
       "source": "ΟΑΣΑ",
       "title": "🚨 Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 203, 204, 209 και 211 λόγω εργασιών στην οδό Χρεμωνίδου 20-22 στον Δήμο Αθηναίων",
       "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/"
+    },
+    {
+      "time": "2026-07-10T10:46:17+00:00",
+      "source": "kathimerini",
+      "title": "Ξάνθη: Στις φλόγες νταλίκα στην Εγνατία Οδό – Κυκλοφοριακές ρυθμίσεις",
+      "url": "https://www.kathimerini.gr/society/564335986/xanthi-stis-floges-ntalika-stin-egnatia-odo-kykloforiakes-rythmiseis/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-06T15:57:46+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-06T18:06:26+00:00",
       "new": 0,
@@ -1430,6 +1362,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-10T10:46:17+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
