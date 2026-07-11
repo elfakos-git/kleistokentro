@@ -70,7 +70,8 @@
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51585634504014000",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51608717876013000",
     "62Ι846ΜΤΛΒ-ΡΦ8",
-    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51579863700013000"
+    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51579863700013000",
+    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749116013000"
   ],
   "seeded": [
     "astynomia",
@@ -146,15 +147,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 21,
+      "items": 11,
+      "fetched": 19,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 11
+        "κατηγορία εκτός πολιτικής": 8
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T13:01:05+00:00"
+      "last_success": "2026-07-11T14:15:16+00:00"
     }
   },
   "active": {
@@ -423,6 +424,20 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749116013000",
+        "source": "TomTom (realtime)",
+        "title": "Tsoha An. (Kiriakou Pan.) → Dorileou (Kiriakou Pan.)",
+        "url": "https://www.google.com/maps?q=37.9865048936,23.7550015384",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-07-11"
+        ],
+        "hours": [],
+        "plain": "",
+        "new_this_run": true
+      },
+      {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290768011000",
         "source": "TomTom (realtime)",
         "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
@@ -439,8 +454,8 @@
       {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51608717876013000",
         "source": "TomTom (realtime)",
-        "title": "Paleologou Kon. (Tataoulon) → Karaoli - Dimitriou (Tataoulon)",
-        "url": "https://www.google.com/maps?q=37.9535915442,23.757023924",
+        "title": "Komninon (Tataoulon) → Karaoli - Dimitriou (Tataoulon)",
+        "url": "https://www.google.com/maps?q=37.9535257825,23.7577709192",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Νότια",
         "days": [
@@ -622,7 +637,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -641,7 +656,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -660,7 +675,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -679,7 +694,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -698,7 +713,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -717,7 +732,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -755,7 +770,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -774,7 +789,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -948,7 +963,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-10T21:01:03+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1014,8 +1029,8 @@
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51608717876013000": {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51608717876013000",
       "source": "TomTom (realtime)",
-      "title": "Paleologou Kon. (Tataoulon) → Karaoli - Dimitriou (Tataoulon)",
-      "url": "https://www.google.com/maps?q=37.9535915442,23.757023924",
+      "title": "Komninon (Tataoulon) → Karaoli - Dimitriou (Tataoulon)",
+      "url": "https://www.google.com/maps?q=37.9535257825,23.7577709192",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Νότια",
       "days": [
@@ -1024,7 +1039,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-11T09:02:26+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1048,6 +1063,25 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749116013000": {
+      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749116013000",
+      "source": "TomTom (realtime)",
+      "title": "Tsoha An. (Kiriakou Pan.) → Dorileou (Kiriakou Pan.)",
+      "url": "https://www.google.com/maps?q=37.9865048936,23.7550015384",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-07-11"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-11T14:15:16+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1057,12 +1091,6 @@
     "151797168": "2026-07-11"
   },
   "notifications": [
-    {
-      "time": "2026-07-09T06:30:42+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-07-09T07:31:48+00:00",
       "source": "ΟΑΣΑ",
@@ -1236,15 +1264,15 @@
       "source": "TomTom (realtime)",
       "title": "🚨 Πειραιώς / Σοφοκλέους → Αχιλλέως",
       "url": "https://www.google.com/maps?q=37.9818526283,23.7230027848"
+    },
+    {
+      "time": "2026-07-11T14:15:17+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Tsoha An. (Kiriakou Pan.) → Dorileou (Kiriakou Pan.)",
+      "url": "https://www.google.com/maps?q=37.9865048936,23.7550015384"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-07T21:17:11+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-07T21:49:22+00:00",
       "new": 0,
@@ -1598,6 +1626,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-11T14:15:17+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }

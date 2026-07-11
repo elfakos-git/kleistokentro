@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T13:01:05+00:00",
+  "generated_at": "2026-07-11T14:15:17+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -66,15 +66,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 21,
+      "items": 11,
+      "fetched": 19,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 11
+        "κατηγορία εκτός πολιτικής": 8
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T13:01:05+00:00"
+      "last_success": "2026-07-11T14:15:16+00:00"
     }
   ],
   "active_events": [
@@ -334,6 +334,20 @@
       "new_this_run": false
     },
     {
+      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749116013000",
+      "source": "TomTom (realtime)",
+      "title": "Tsoha An. (Kiriakou Pan.) → Dorileou (Kiriakou Pan.)",
+      "url": "https://www.google.com/maps?q=37.9865048936,23.7550015384",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-07-11"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": true
+    },
+    {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290768011000",
       "source": "TomTom (realtime)",
       "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
@@ -350,8 +364,8 @@
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51608717876013000",
       "source": "TomTom (realtime)",
-      "title": "Paleologou Kon. (Tataoulon) → Karaoli - Dimitriou (Tataoulon)",
-      "url": "https://www.google.com/maps?q=37.9535915442,23.757023924",
+      "title": "Komninon (Tataoulon) → Karaoli - Dimitriou (Tataoulon)",
+      "url": "https://www.google.com/maps?q=37.9535257825,23.7577709192",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Νότια",
       "days": [
@@ -493,7 +507,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "status": "active"
     },
@@ -510,7 +524,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "status": "active"
     },
@@ -527,7 +541,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "status": "active"
     },
@@ -544,7 +558,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "status": "active"
     },
@@ -561,7 +575,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "status": "active"
     },
@@ -578,7 +592,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "status": "active"
     },
@@ -595,7 +609,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "status": "active"
     },
@@ -612,7 +626,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": true,
       "status": "active"
     },
@@ -645,7 +659,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-10T21:01:03+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": false,
       "status": "active"
     },
@@ -703,8 +717,8 @@
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51608717876013000",
       "source": "TomTom (realtime)",
-      "title": "Paleologou Kon. (Tataoulon) → Karaoli - Dimitriou (Tataoulon)",
-      "url": "https://www.google.com/maps?q=37.9535915442,23.757023924",
+      "title": "Komninon (Tataoulon) → Karaoli - Dimitriou (Tataoulon)",
+      "url": "https://www.google.com/maps?q=37.9535257825,23.7577709192",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Νότια",
       "days": [
@@ -713,7 +727,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-11T09:02:26+00:00",
-      "last_seen": "2026-07-11T13:01:05+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": false,
       "status": "active"
     },
@@ -731,6 +745,23 @@
       "plain": "",
       "first_seen": "2026-07-11T11:40:31+00:00",
       "last_seen": "2026-07-11T11:40:31+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
+      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749116013000",
+      "source": "TomTom (realtime)",
+      "title": "Tsoha An. (Kiriakou Pan.) → Dorileou (Kiriakou Pan.)",
+      "url": "https://www.google.com/maps?q=37.9865048936,23.7550015384",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-07-11"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-11T14:15:16+00:00",
+      "last_seen": "2026-07-11T14:15:16+00:00",
       "extended": false,
       "status": "active"
     },
@@ -906,6 +937,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-07-11T14:15:17+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Tsoha An. (Kiriakou Pan.) → Dorileou (Kiriakou Pan.)",
+      "url": "https://www.google.com/maps?q=37.9865048936,23.7550015384"
+    },
+    {
       "time": "2026-07-11T11:40:32+00:00",
       "source": "TomTom (realtime)",
       "title": "🚨 Πειραιώς / Σοφοκλέους → Αχιλλέως",
@@ -1078,21 +1115,9 @@
       "source": "ΟΑΣΑ",
       "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 305, 316, και 323, λόγω εκδηλώσεων στον Δήμο Σπάτων – Αρτέμιδος",
       "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/"
-    },
-    {
-      "time": "2026-07-09T06:30:42+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-07T21:17:11+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-07T21:49:22+00:00",
       "new": 0,
@@ -1446,6 +1471,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-11T14:15:17+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
