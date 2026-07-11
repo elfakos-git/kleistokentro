@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T07:24:11+00:00",
+  "generated_at": "2026-07-11T09:02:27+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -68,14 +68,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 18,
+      "fetched": 25,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 7
+        "κατηγορία εκτός πολιτικής": 14
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T07:24:09+00:00"
+      "last_success": "2026-07-11T09:02:26+00:00"
     }
   ],
   "active_events": [
@@ -324,20 +324,6 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51585634536013001",
-      "source": "TomTom (realtime)",
-      "title": "Ακαδημίας / Αμερικής → Σόλωνος",
-      "url": "https://www.google.com/maps?q=37.9789169645,23.7364580863",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-11"
-      ],
-      "hours": [],
-      "plain": "",
-      "new_this_run": true
-    },
-    {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51579863732014000",
       "source": "TomTom (realtime)",
       "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
@@ -363,7 +349,7 @@
       ],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290660014001",
@@ -392,6 +378,20 @@
       "hours": [],
       "plain": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51608717876013000",
+      "source": "TomTom (realtime)",
+      "title": "Paleologou Kon. (Tataoulon) → Karaoli - Dimitriou (Tataoulon)",
+      "url": "https://www.google.com/maps?q=37.9535915442,23.757023924",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Νότια",
+      "days": [
+        "2026-07-11"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594291004012000",
@@ -525,7 +525,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T07:24:09+00:00",
+      "last_seen": "2026-07-11T09:02:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -542,7 +542,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T07:24:09+00:00",
+      "last_seen": "2026-07-11T09:02:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -559,7 +559,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T07:24:09+00:00",
+      "last_seen": "2026-07-11T09:02:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -576,7 +576,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T07:24:09+00:00",
+      "last_seen": "2026-07-11T09:02:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -593,7 +593,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T07:24:09+00:00",
+      "last_seen": "2026-07-11T09:02:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -610,7 +610,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T07:24:09+00:00",
+      "last_seen": "2026-07-11T09:02:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -627,7 +627,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T07:24:09+00:00",
+      "last_seen": "2026-07-11T09:02:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -644,7 +644,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T07:24:09+00:00",
+      "last_seen": "2026-07-11T09:02:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -677,7 +677,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-10T21:01:03+00:00",
-      "last_seen": "2026-07-11T07:24:09+00:00",
+      "last_seen": "2026-07-11T09:02:26+00:00",
       "extended": false,
       "status": "active"
     },
@@ -728,7 +728,24 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-11T07:24:09+00:00",
-      "last_seen": "2026-07-11T07:24:09+00:00",
+      "last_seen": "2026-07-11T09:02:26+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
+      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51608717876013000",
+      "source": "TomTom (realtime)",
+      "title": "Paleologou Kon. (Tataoulon) → Karaoli - Dimitriou (Tataoulon)",
+      "url": "https://www.google.com/maps?q=37.9535915442,23.757023924",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Νότια",
+      "days": [
+        "2026-07-11"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-11T09:02:26+00:00",
+      "last_seen": "2026-07-11T09:02:26+00:00",
       "extended": false,
       "status": "active"
     },
@@ -904,6 +921,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-07-11T09:02:27+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Paleologou Kon. (Tataoulon) → Karaoli - Dimitriou (Tataoulon)",
+      "url": "https://www.google.com/maps?q=37.9535915442,23.757023924"
+    },
+    {
       "time": "2026-07-11T07:24:11+00:00",
       "source": "TomTom (realtime)",
       "title": "🚨 Λεωφόρος Βασιλίσσης Σοφίας / Ριζάρη → Πατριάρχου Ιωακείμ",
@@ -1076,21 +1099,9 @@
       "source": "TomTom (realtime)",
       "title": "🚨 Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
       "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874"
-    },
-    {
-      "time": "2026-07-08T21:55:11+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
-      "url": "https://www.google.com/maps?q=37.9818740999,23.769882434"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-07T14:12:37+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-07T15:37:33+00:00",
       "new": 0,
@@ -1441,6 +1452,12 @@
     },
     {
       "time": "2026-07-11T07:24:11+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-11T09:02:27+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
