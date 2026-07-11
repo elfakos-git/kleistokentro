@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T22:45:40+00:00",
+  "generated_at": "2026-07-11T01:56:32+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T21:01:03+00:00"
+      "last_success": "2026-07-11T01:56:31+00:00"
     },
     {
       "name": "diavgeia",
@@ -21,13 +21,14 @@
       "items": 2,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 93,
+        "εκτός θέματος/Αθήνας": 91,
+        "εκτός χρονικού παραθύρου": 2,
         "μόνο μία λωρίδα/ΛΕΑ": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T21:01:03+00:00"
+      "last_success": "2026-07-11T01:56:31+00:00"
     },
     {
       "name": "iefimerida",
@@ -40,7 +41,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T21:01:03+00:00"
+      "last_success": "2026-07-11T01:56:31+00:00"
     },
     {
       "name": "kathimerini",
@@ -51,33 +52,31 @@
       "date_misses": 4,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T21:01:03+00:00"
+      "last_success": "2026-07-11T01:56:31+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 5,
-      "fetched": 13,
-      "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8
-      },
+      "items": 0,
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T21:01:03+00:00"
+      "last_success": "2026-07-11T01:56:31+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 16,
+      "items": 10,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 7
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-10T22:45:40+00:00"
+      "last_success": "2026-07-11T01:56:31+00:00"
     }
   ],
   "active_events": [
@@ -234,42 +233,6 @@
       "new_this_run": false
     },
     {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 203, 204, 209 και 211 λόγω εργασιών στην οδό Χρεμωνίδου 20-22 στον Δήμο Αθηναίων",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
-      "details": "",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 305, 316, και 323, λόγω εκδηλώσεων στον Δήμο Σπάτων – Αρτέμιδος",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
-      "details": "",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος του Δήμου Περιστερίου",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51574092528022000",
       "source": "TomTom (realtime)",
       "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
@@ -366,6 +329,20 @@
       "hours": [],
       "plain": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51588520084004000",
+      "source": "TomTom (realtime)",
+      "title": "Laodikias (Papadiamantopoulou) → Mihalakopoulou (Papadiamantopoulou)",
+      "url": "https://www.google.com/maps?q=37.9792884051,23.7567020589",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-11"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594291004012000",
@@ -499,7 +476,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T22:45:40+00:00",
+      "last_seen": "2026-07-11T01:56:31+00:00",
       "extended": true,
       "status": "active"
     },
@@ -516,7 +493,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T22:45:40+00:00",
+      "last_seen": "2026-07-11T01:56:31+00:00",
       "extended": true,
       "status": "active"
     },
@@ -533,7 +510,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T22:45:40+00:00",
+      "last_seen": "2026-07-11T01:56:31+00:00",
       "extended": true,
       "status": "active"
     },
@@ -550,7 +527,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T22:45:40+00:00",
+      "last_seen": "2026-07-11T01:56:31+00:00",
       "extended": true,
       "status": "active"
     },
@@ -567,7 +544,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T22:45:40+00:00",
+      "last_seen": "2026-07-11T01:56:31+00:00",
       "extended": true,
       "status": "active"
     },
@@ -584,7 +561,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T22:45:40+00:00",
+      "last_seen": "2026-07-11T01:56:31+00:00",
       "extended": true,
       "status": "active"
     },
@@ -601,7 +578,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T22:45:40+00:00",
+      "last_seen": "2026-07-11T01:56:31+00:00",
       "extended": true,
       "status": "active"
     },
@@ -618,7 +595,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-10T22:45:40+00:00",
+      "last_seen": "2026-07-11T01:56:31+00:00",
       "extended": true,
       "status": "active"
     },
@@ -651,7 +628,24 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-10T21:01:03+00:00",
-      "last_seen": "2026-07-10T22:45:40+00:00",
+      "last_seen": "2026-07-11T01:56:31+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
+      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51588520084004000",
+      "source": "TomTom (realtime)",
+      "title": "Laodikias (Papadiamantopoulou) → Mihalakopoulou (Papadiamantopoulou)",
+      "url": "https://www.google.com/maps?q=37.9792884051,23.7567020589",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-11"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-11T01:56:31+00:00",
+      "last_seen": "2026-07-11T01:56:31+00:00",
       "extended": false,
       "status": "active"
     },
@@ -688,7 +682,7 @@
       ],
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Ν.Ε.Ο.Αθηνών–Λαμίας) · 14/7, 22:00–06:00",
       "first_seen": "2026-07-10T14:05:08+00:00",
-      "last_seen": "2026-07-10T21:01:03+00:00",
+      "last_seen": "2026-07-11T01:56:31+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -706,7 +700,7 @@
       "hours": [],
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Ν.Ε.Ο.Αθηνών–Λαμίας) · 15/7, 18/12",
       "first_seen": "2026-07-10T14:05:08+00:00",
-      "last_seen": "2026-07-10T21:01:03+00:00",
+      "last_seen": "2026-07-11T01:56:31+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -826,6 +820,12 @@
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-07-11T01:56:32+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Laodikias (Papadiamantopoulou) → Mihalakopoulou (Papadiamantopoulou)",
+      "url": "https://www.google.com/maps?q=37.9792884051,23.7567020589"
+    },
     {
       "time": "2026-07-10T21:31:30+00:00",
       "source": "TomTom (realtime)",
@@ -999,21 +999,9 @@
       "source": "TomTom (realtime)",
       "title": "🚨 Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
       "url": "https://www.google.com/maps?q=37.990176883,23.7386937076"
-    },
-    {
-      "time": "2026-07-08T21:55:08+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Athinas (Evripidou) → Praxitelous (Evripidou)",
-      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-07T07:31:54+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-07T10:15:47+00:00",
       "new": 0,
@@ -1367,6 +1355,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-11T01:56:32+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
