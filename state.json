@@ -65,7 +65,9 @@
     "93ΚΗ46ΜΤΛΒ-19Γ",
     "ΡΡ1546ΜΤΛΒ-ΞΤΣ",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290768011000",
-    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51588520084004000"
+    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51588520084004000",
+    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51585634536013001",
+    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51585634504014000"
   ],
   "seeded": [
     "astynomia",
@@ -142,15 +144,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 16,
+      "items": 11,
+      "fetched": 18,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T06:07:53+00:00"
+      "last_success": "2026-07-11T07:24:09+00:00"
     }
   },
   "active": {
@@ -408,6 +410,20 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51585634536013001",
+        "source": "TomTom (realtime)",
+        "title": "Ακαδημίας / Αμερικής → Σόλωνος",
+        "url": "https://www.google.com/maps?q=37.9789169645,23.7364580863",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-07-11"
+        ],
+        "hours": [],
+        "plain": "",
+        "new_this_run": true
+      },
+      {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51579863732014000",
         "source": "TomTom (realtime)",
         "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
@@ -420,6 +436,20 @@
         "hours": [],
         "plain": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51585634504014000",
+        "source": "TomTom (realtime)",
+        "title": "Λεωφόρος Βασιλίσσης Σοφίας / Ριζάρη → Πατριάρχου Ιωακείμ",
+        "url": "https://www.google.com/maps?q=37.977217775,23.7453201049",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-07-11"
+        ],
+        "hours": [],
+        "plain": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290660014001",
@@ -621,7 +651,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T06:07:53+00:00",
+      "last_seen": "2026-07-11T07:24:09+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -640,7 +670,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T06:07:53+00:00",
+      "last_seen": "2026-07-11T07:24:09+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -659,7 +689,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T06:07:53+00:00",
+      "last_seen": "2026-07-11T07:24:09+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -678,7 +708,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T06:07:53+00:00",
+      "last_seen": "2026-07-11T07:24:09+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -697,7 +727,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T06:07:53+00:00",
+      "last_seen": "2026-07-11T07:24:09+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -716,7 +746,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T06:07:53+00:00",
+      "last_seen": "2026-07-11T07:24:09+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -754,7 +784,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T06:07:53+00:00",
+      "last_seen": "2026-07-11T07:24:09+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -773,7 +803,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T06:07:53+00:00",
+      "last_seen": "2026-07-11T07:24:09+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -947,7 +977,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-10T21:01:03+00:00",
-      "last_seen": "2026-07-11T06:07:53+00:00",
+      "last_seen": "2026-07-11T07:24:09+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -971,6 +1001,44 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51585634536013001": {
+      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51585634536013001",
+      "source": "TomTom (realtime)",
+      "title": "Ακαδημίας / Αμερικής → Σόλωνος",
+      "url": "https://www.google.com/maps?q=37.9789169645,23.7364580863",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-11"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-11T07:24:09+00:00",
+      "last_seen": "2026-07-11T07:24:09+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51585634504014000": {
+      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51585634504014000",
+      "source": "TomTom (realtime)",
+      "title": "Λεωφόρος Βασιλίσσης Σοφίας / Ριζάρη → Πατριάρχου Ιωακείμ",
+      "url": "https://www.google.com/maps?q=37.977217775,23.7453201049",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-11"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-11T07:24:09+00:00",
+      "last_seen": "2026-07-11T07:24:09+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -980,18 +1048,6 @@
     "151797168": "2026-07-11"
   },
   "notifications": [
-    {
-      "time": "2026-07-08T21:55:10+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
-      "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437"
-    },
-    {
-      "time": "2026-07-08T21:55:11+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
-      "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095"
-    },
     {
       "time": "2026-07-08T21:55:11+00:00",
       "source": "TomTom (realtime)",
@@ -1159,15 +1215,21 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-07-11T07:24:10+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Ακαδημίας / Αμερικής → Σόλωνος",
+      "url": "https://www.google.com/maps?q=37.9789169645,23.7364580863"
+    },
+    {
+      "time": "2026-07-11T07:24:11+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Λεωφόρος Βασιλίσσης Σοφίας / Ριζάρη → Πατριάρχου Ιωακείμ",
+      "url": "https://www.google.com/maps?q=37.977217775,23.7453201049"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-07T12:40:28+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-07T14:12:37+00:00",
       "new": 0,
@@ -1521,6 +1583,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-11T07:24:11+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
