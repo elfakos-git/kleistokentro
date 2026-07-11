@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T14:15:17+00:00",
+  "generated_at": "2026-07-11T15:27:07+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -66,15 +66,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 19,
+      "items": 12,
+      "fetched": 18,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 8
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T14:15:16+00:00"
+      "last_success": "2026-07-11T15:27:05+00:00"
     }
   ],
   "active_events": [
@@ -334,6 +334,20 @@
       "new_this_run": false
     },
     {
+      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749080006000",
+      "source": "TomTom (realtime)",
+      "title": "Κόνιαρη → Π. Κυριάκου",
+      "url": "https://www.google.com/maps?q=37.9869716233,23.7525218361",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-07-11"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": true
+    },
+    {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749116013000",
       "source": "TomTom (realtime)",
       "title": "Tsoha An. (Kiriakou Pan.) → Dorileou (Kiriakou Pan.)",
@@ -345,7 +359,7 @@
       ],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290768011000",
@@ -362,18 +376,18 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51608717876013000",
+      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749260013000",
       "source": "TomTom (realtime)",
-      "title": "Komninon (Tataoulon) → Karaoli - Dimitriou (Tataoulon)",
-      "url": "https://www.google.com/maps?q=37.9535257825,23.7577709192",
+      "title": "Λεωφόρος Αλεξάνδρας → Αν. Τσόχα",
+      "url": "https://www.google.com/maps?q=37.9876046269,23.7553327912",
       "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Νότια",
+      "area": "Κέντρο",
       "days": [
         "2026-07-11"
       ],
       "hours": [],
       "plain": "",
-      "new_this_run": false
+      "new_this_run": true
     },
     {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594291004012000",
@@ -507,7 +521,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T14:15:16+00:00",
+      "last_seen": "2026-07-11T15:27:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -524,7 +538,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T14:15:16+00:00",
+      "last_seen": "2026-07-11T15:27:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -541,7 +555,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T14:15:16+00:00",
+      "last_seen": "2026-07-11T15:27:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -558,7 +572,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T14:15:16+00:00",
+      "last_seen": "2026-07-11T15:27:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -575,7 +589,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T14:15:16+00:00",
+      "last_seen": "2026-07-11T15:27:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -592,7 +606,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T14:15:16+00:00",
+      "last_seen": "2026-07-11T15:27:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -609,7 +623,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T14:15:16+00:00",
+      "last_seen": "2026-07-11T15:27:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -626,7 +640,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T14:15:16+00:00",
+      "last_seen": "2026-07-11T15:27:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -659,7 +673,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-10T21:01:03+00:00",
-      "last_seen": "2026-07-11T14:15:16+00:00",
+      "last_seen": "2026-07-11T15:27:05+00:00",
       "extended": false,
       "status": "active"
     },
@@ -761,7 +775,41 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-11T14:15:16+00:00",
-      "last_seen": "2026-07-11T14:15:16+00:00",
+      "last_seen": "2026-07-11T15:27:05+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
+      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749080006000",
+      "source": "TomTom (realtime)",
+      "title": "Κόνιαρη → Π. Κυριάκου",
+      "url": "https://www.google.com/maps?q=37.9869716233,23.7525218361",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-07-11"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-11T15:27:05+00:00",
+      "last_seen": "2026-07-11T15:27:05+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
+      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749260013000",
+      "source": "TomTom (realtime)",
+      "title": "Λεωφόρος Αλεξάνδρας → Αν. Τσόχα",
+      "url": "https://www.google.com/maps?q=37.9876046269,23.7553327912",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-11"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-11T15:27:05+00:00",
+      "last_seen": "2026-07-11T15:27:05+00:00",
       "extended": false,
       "status": "active"
     },
@@ -937,6 +985,18 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-07-11T15:27:07+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Λεωφόρος Αλεξάνδρας → Αν. Τσόχα",
+      "url": "https://www.google.com/maps?q=37.9876046269,23.7553327912"
+    },
+    {
+      "time": "2026-07-11T15:27:06+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Κόνιαρη → Π. Κυριάκου",
+      "url": "https://www.google.com/maps?q=37.9869716233,23.7525218361"
+    },
+    {
       "time": "2026-07-11T14:15:17+00:00",
       "source": "TomTom (realtime)",
       "title": "🚨 Tsoha An. (Kiriakou Pan.) → Dorileou (Kiriakou Pan.)",
@@ -1103,27 +1163,9 @@
       "source": "TomTom (realtime)",
       "title": "🚨 Evripidou (Dimosthenous) → Tagmatarchou Plessa (Dimosthenous)",
       "url": "https://www.google.com/maps?q=37.9444881187,23.6941207581"
-    },
-    {
-      "time": "2026-07-09T21:15:43+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
-      "url": "https://www.google.com/maps?q=37.9774685794,23.6918153995"
-    },
-    {
-      "time": "2026-07-09T07:31:48+00:00",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 305, 316, και 323, λόγω εκδηλώσεων στον Δήμο Σπάτων – Αρτέμιδος",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-07T21:49:22+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-07T21:49:54+00:00",
       "new": 0,
@@ -1474,6 +1516,12 @@
     },
     {
       "time": "2026-07-11T14:15:17+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-11T15:27:07+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
