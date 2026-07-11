@@ -93,7 +93,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T16:45:40+00:00"
+      "last_success": "2026-07-11T20:40:18+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -106,7 +106,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T16:45:40+00:00"
+      "last_success": "2026-07-11T20:40:18+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -119,7 +119,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T16:45:40+00:00"
+      "last_success": "2026-07-11T20:40:18+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -130,31 +130,34 @@
       "date_misses": 4,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T16:45:40+00:00"
+      "last_success": "2026-07-11T20:40:18+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "items": 2,
+      "fetched": 11,
+      "dropped": {
+        "παλιά ανακοίνωση": 4,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T16:45:41+00:00"
+      "last_success": "2026-07-11T20:40:18+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 25,
+      "fetched": 23,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 14
+        "κατηγορία εκτός πολιτικής": 12
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T20:35:12+00:00"
+      "last_success": "2026-07-11T20:40:18+00:00"
     }
   },
   "active": {
@@ -296,7 +299,32 @@
         "new_this_run": false
       }
     ],
-    "oasa": [],
+    "oasa": [
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 203, 204, 209 και 211 λόγω εργασιών στην οδό Χρεμωνίδου 20-22 στον Δήμο Αθηναίων",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 305, 316, και 323, λόγω εκδηλώσεων στον Δήμο Σπάτων – Αρτέμιδος",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      }
+    ],
     "tomtom": [
       {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51574092528022000",
@@ -383,12 +411,12 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290768011000",
+        "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749116013000",
         "source": "TomTom (realtime)",
-        "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
-        "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
+        "title": "Tsoha An. (Kiriakou Pan.) → Kotieou (Kiriakou Pan.)",
+        "url": "https://www.google.com/maps?q=37.9865048936,23.7550015384",
         "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
+        "area": "Ανατολικά",
         "days": [
           "2026-07-11"
         ],
@@ -397,10 +425,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749260013000",
+        "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290768011000",
         "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Αλεξάνδρας → Αν. Τσόχα",
-        "url": "https://www.google.com/maps?q=37.9876046269,23.7553327912",
+        "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
+        "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -596,7 +624,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T20:35:12+00:00",
+      "last_seen": "2026-07-11T20:40:18+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -615,7 +643,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T20:35:12+00:00",
+      "last_seen": "2026-07-11T20:40:18+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -634,7 +662,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T20:35:12+00:00",
+      "last_seen": "2026-07-11T20:40:18+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -653,7 +681,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T20:35:12+00:00",
+      "last_seen": "2026-07-11T20:40:18+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -672,7 +700,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T20:35:12+00:00",
+      "last_seen": "2026-07-11T20:40:18+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -691,7 +719,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T20:35:12+00:00",
+      "last_seen": "2026-07-11T20:40:18+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -729,7 +757,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T20:35:12+00:00",
+      "last_seen": "2026-07-11T20:40:18+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -748,7 +776,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T20:35:12+00:00",
+      "last_seen": "2026-07-11T20:40:18+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -922,7 +950,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-10T21:01:03+00:00",
-      "last_seen": "2026-07-11T20:35:12+00:00",
+      "last_seen": "2026-07-11T20:40:18+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1036,7 +1064,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-11T14:15:16+00:00",
-      "last_seen": "2026-07-11T19:37:18+00:00",
+      "last_seen": "2026-07-11T20:40:18+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1055,7 +1083,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-11T15:27:05+00:00",
-      "last_seen": "2026-07-11T20:35:12+00:00",
+      "last_seen": "2026-07-11T20:40:18+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1270,12 +1298,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-08T08:02:27+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-08T10:09:51+00:00",
       "new": 0,
@@ -1629,6 +1651,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-11T20:40:18+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
