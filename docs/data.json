@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T12:43:28+00:00",
+  "generated_at": "2026-07-11T13:01:05+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,20 +10,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T09:20:00+00:00"
+      "last_success": "2026-07-11T13:01:05+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
-      "items": 3,
+      "items": 2,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97
+        "εκτός θέματος/Αθήνας": 98
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T09:20:00+00:00"
+      "last_success": "2026-07-11T13:01:05+00:00"
     },
     {
       "name": "iefimerida",
@@ -36,7 +36,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T09:20:00+00:00"
+      "last_success": "2026-07-11T13:01:05+00:00"
     },
     {
       "name": "kathimerini",
@@ -47,33 +47,34 @@
       "date_misses": 4,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T09:20:00+00:00"
+      "last_success": "2026-07-11T13:01:05+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 5,
-      "fetched": 13,
+      "items": 2,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8
+        "παλιά ανακοίνωση": 4,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T09:20:00+00:00"
+      "last_success": "2026-07-11T13:01:05+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 22,
+      "fetched": 21,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 12
+        "κατηγορία εκτός πολιτικής": 11
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-11T12:43:28+00:00"
+      "last_success": "2026-07-11T13:01:05+00:00"
     }
   ],
   "active_events": [
@@ -87,7 +88,7 @@
       "days": [],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "93ΚΗ46ΜΤΛΒ-19Γ",
@@ -102,23 +103,6 @@
       ],
       "hours": [],
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Ν.Ε.Ο.Αθηνών–Λαμίας) · 15/7, 18/12",
-      "new_this_run": false
-    },
-    {
-      "id": "ΡΡ1546ΜΤΛΒ-ΞΤΣ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25422 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Πλήρης αποκλεισμός του κλάδου εξόδου του Ανισόπεδου Κόμβου Μεταμόρφωσης της Αττικής Οδού, στις 13 και 14.07.2026 κατά τις ώρες 22.00΄ έως 06.00΄ της επομένης, ρεύμα κυκλοφορίας προς Ν.Ε.Ο.Αθηνών–Λαμίας, περιοχής Δήμου Μεταμόρφωσης, για την εκτέλεση εργασι",
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΡ1546ΜΤΛΒ-ΞΤΣ",
-      "details": "Επίσημη απόφαση Τροχαίας (10/07/2026)",
-      "area": "Βόρεια",
-      "days": [
-        "2026-07-14"
-      ],
-      "hours": [
-        "22:00",
-        "06:00"
-      ],
-      "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Ν.Ε.Ο.Αθηνών–Λαμίας) · 14/7, 22:00–06:00",
       "new_this_run": false
     },
     {
@@ -260,18 +244,6 @@
       "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
       "details": "",
       "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος του Δήμου Περιστερίου",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
-      "details": "",
-      "area": "Δυτικά",
       "days": [],
       "hours": [],
       "plain": "",
@@ -521,7 +493,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T12:43:28+00:00",
+      "last_seen": "2026-07-11T13:01:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -538,7 +510,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T12:43:28+00:00",
+      "last_seen": "2026-07-11T13:01:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -555,7 +527,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T12:43:28+00:00",
+      "last_seen": "2026-07-11T13:01:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -572,7 +544,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T12:43:28+00:00",
+      "last_seen": "2026-07-11T13:01:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -589,7 +561,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T12:43:28+00:00",
+      "last_seen": "2026-07-11T13:01:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -606,7 +578,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T12:43:28+00:00",
+      "last_seen": "2026-07-11T13:01:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -623,7 +595,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T12:43:28+00:00",
+      "last_seen": "2026-07-11T13:01:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -640,7 +612,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-11T12:43:28+00:00",
+      "last_seen": "2026-07-11T13:01:05+00:00",
       "extended": true,
       "status": "active"
     },
@@ -673,7 +645,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-10T21:01:03+00:00",
-      "last_seen": "2026-07-11T12:43:28+00:00",
+      "last_seen": "2026-07-11T13:01:05+00:00",
       "extended": false,
       "status": "active"
     },
@@ -741,7 +713,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-11T09:02:26+00:00",
-      "last_seen": "2026-07-11T12:43:28+00:00",
+      "last_seen": "2026-07-11T13:01:05+00:00",
       "extended": false,
       "status": "active"
     },
@@ -813,7 +785,7 @@
       "hours": [],
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Ν.Ε.Ο.Αθηνών–Λαμίας) · 15/7, 18/12",
       "first_seen": "2026-07-10T14:05:08+00:00",
-      "last_seen": "2026-07-11T09:20:00+00:00",
+      "last_seen": "2026-07-11T13:01:05+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1115,12 +1087,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-07T21:04:25+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-07T21:17:11+00:00",
       "new": 0,
@@ -1474,6 +1440,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-11T13:01:05+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
