@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T05:45:11+00:00",
+  "generated_at": "2026-07-12T06:27:07+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-12T01:59:43+00:00"
+      "last_success": "2026-07-12T06:27:05+00:00"
     },
     {
       "name": "diavgeia",
@@ -24,7 +24,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-12T01:59:43+00:00"
+      "last_success": "2026-07-12T06:27:05+00:00"
     },
     {
       "name": "iefimerida",
@@ -37,7 +37,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-12T01:59:43+00:00"
+      "last_success": "2026-07-12T06:27:05+00:00"
     },
     {
       "name": "kathimerini",
@@ -48,31 +48,34 @@
       "date_misses": 4,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-12T01:59:43+00:00"
+      "last_success": "2026-07-12T06:27:05+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "items": 2,
+      "fetched": 11,
+      "dropped": {
+        "παλιά ανακοίνωση": 6,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 3
+      },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-07-12T01:59:43+00:00"
+      "last_success": "2026-07-12T06:27:06+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 14,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-12T05:45:07+00:00"
+      "last_success": "2026-07-12T06:27:06+00:00"
     }
   ],
   "active_events": [
@@ -203,6 +206,33 @@
       "url": "https://www.kathimerini.gr/society/564253891/kykloforiakes-rythmiseis-sti-leoforo-syggroy-stis-2-kai-3-ioynioy/",
       "details": "",
       "area": "Κέντρο",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 537, 721 και 734, λόγω εργασιών  στον Δήμο Αχαρνών",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-07-13",
+        "2027-01-10"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": true
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 203, 204, 209 και 211 λόγω εργασιών στην οδό Χρεμωνίδου 20-22 στον Δήμο Αθηναίων",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
+      "details": "",
+      "area": "",
       "days": [],
       "hours": [],
       "plain": "",
@@ -556,7 +586,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T05:45:07+00:00",
+      "last_seen": "2026-07-12T06:27:06+00:00",
       "extended": true,
       "status": "active"
     },
@@ -573,7 +603,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T05:45:07+00:00",
+      "last_seen": "2026-07-12T06:27:06+00:00",
       "extended": true,
       "status": "active"
     },
@@ -590,7 +620,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T05:45:07+00:00",
+      "last_seen": "2026-07-12T06:27:06+00:00",
       "extended": true,
       "status": "active"
     },
@@ -607,7 +637,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T05:45:07+00:00",
+      "last_seen": "2026-07-12T06:27:06+00:00",
       "extended": true,
       "status": "active"
     },
@@ -624,7 +654,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T05:45:07+00:00",
+      "last_seen": "2026-07-12T06:27:06+00:00",
       "extended": true,
       "status": "active"
     },
@@ -641,7 +671,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T05:45:07+00:00",
+      "last_seen": "2026-07-12T06:27:06+00:00",
       "extended": true,
       "status": "active"
     },
@@ -658,7 +688,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T05:45:07+00:00",
+      "last_seen": "2026-07-12T06:27:06+00:00",
       "extended": true,
       "status": "active"
     },
@@ -675,7 +705,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T05:45:07+00:00",
+      "last_seen": "2026-07-12T06:27:06+00:00",
       "extended": true,
       "status": "active"
     },
@@ -709,7 +739,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-10T21:01:03+00:00",
-      "last_seen": "2026-07-12T05:45:07+00:00",
+      "last_seen": "2026-07-12T06:27:06+00:00",
       "extended": true,
       "status": "active"
     },
@@ -746,6 +776,24 @@
       "last_seen": "2026-07-11T22:33:17+00:00",
       "extended": true,
       "status": "active"
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 537, 721 και 734, λόγω εργασιών  στον Δήμο Αχαρνών",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-07-13",
+        "2027-01-10"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-12T06:27:06+00:00",
+      "last_seen": "2026-07-12T06:27:06+00:00",
+      "extended": false,
+      "status": "planned"
     },
     {
       "id": "ΡΡ1546ΜΤΛΒ-ΞΤΣ",
@@ -901,6 +949,12 @@
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-07-12T06:27:07+00:00",
+      "source": "ΟΑΣΑ",
+      "title": "🚨 Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 537, 721 και 734, λόγω εργασιών  στον Δήμο Αχαρνών",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/"
+    },
     {
       "time": "2026-07-12T05:45:11+00:00",
       "source": "Ενημέρωση",
@@ -1074,21 +1128,9 @@
       "source": "TomTom (realtime)",
       "title": "🚨 Athinas (Evripidou) → Praxitelous (Evripidou)",
       "url": "https://www.google.com/maps?q=37.9799120272,23.726969772"
-    },
-    {
-      "time": "2026-07-10T21:01:06+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
-      "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-08T14:45:10+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-08T16:23:40+00:00",
       "new": 0,
@@ -1442,6 +1484,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-12T06:27:07+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
