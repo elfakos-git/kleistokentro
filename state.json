@@ -152,14 +152,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 17,
+      "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 8
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-12T21:35:56+00:00"
+      "last_success": "2026-07-12T22:34:29+00:00"
     }
   },
   "active": {
@@ -598,7 +598,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T21:35:56+00:00",
+      "last_seen": "2026-07-12T22:34:29+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -617,7 +617,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T21:35:56+00:00",
+      "last_seen": "2026-07-12T22:34:29+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -636,7 +636,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T21:35:56+00:00",
+      "last_seen": "2026-07-12T22:34:29+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -655,7 +655,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T21:35:56+00:00",
+      "last_seen": "2026-07-12T22:34:29+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -674,7 +674,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T21:35:56+00:00",
+      "last_seen": "2026-07-12T22:34:29+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -693,7 +693,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T21:35:56+00:00",
+      "last_seen": "2026-07-12T22:34:29+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -731,7 +731,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T21:35:56+00:00",
+      "last_seen": "2026-07-12T22:34:29+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -750,7 +750,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-12T21:35:56+00:00",
+      "last_seen": "2026-07-12T22:34:29+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -889,7 +889,9 @@
       "first_seen": "2026-07-10T14:05:08+00:00",
       "last_seen": "2026-07-11T13:01:05+00:00",
       "extended": false,
-      "alerted_chats": []
+      "alerted_chats": [
+        "151797168"
+      ]
     },
     "ΡΡ1546ΜΤΛΒ-ΞΤΣ": {
       "id": "ΡΡ1546ΜΤΛΒ-ΞΤΣ",
@@ -926,9 +928,11 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-10T21:01:03+00:00",
-      "last_seen": "2026-07-12T21:35:56+00:00",
+      "last_seen": "2026-07-12T22:34:29+00:00",
       "extended": true,
-      "alerted_chats": []
+      "alerted_chats": [
+        "151797168"
+      ]
     },
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51588520084004000": {
       "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51588520084004000",
@@ -1111,18 +1115,6 @@
   },
   "notifications": [
     {
-      "time": "2026-07-11T07:24:10+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Ακαδημίας / Αμερικής → Σόλωνος",
-      "url": "https://www.google.com/maps?q=37.9789169645,23.7364580863"
-    },
-    {
-      "time": "2026-07-11T07:24:11+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Λεωφόρος Βασιλίσσης Σοφίας / Ριζάρη → Πατριάρχου Ιωακείμ",
-      "url": "https://www.google.com/maps?q=37.977217775,23.7453201049"
-    },
-    {
       "time": "2026-07-11T09:02:27+00:00",
       "source": "TomTom (realtime)",
       "title": "🚨 Paleologou Kon. (Tataoulon) → Karaoli - Dimitriou (Tataoulon)",
@@ -1289,15 +1281,21 @@
       "source": "TomTom (realtime)",
       "title": "🚨 Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
       "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874"
+    },
+    {
+      "time": "2026-07-12T22:34:30+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25422-Α΄ - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες κυκλοφοριακές ρυθμίσεις επί του κλάδου εξόδου του Ανισόπεδου Κόμβου Μεταμόρφωσης της Αττικής Οδού, κατά το χρονικό διάστημα από 15.07.2026 έως 18.12.2026, ρεύμα κυκλοφορίας προς Ν.Ε.Ο.Αθηνών–Λαμίας, περιοχής Δήμου Μεταμόρφωσης, για την εκτέλε",
+      "url": "https://diavgeia.gov.gr/decision/view/93ΚΗ46ΜΤΛΒ-19Γ"
+    },
+    {
+      "time": "2026-07-12T22:34:30+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
+      "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-09T20:59:19+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-09T21:15:49+00:00",
       "new": 0,
@@ -1648,6 +1646,12 @@
     },
     {
       "time": "2026-07-12T21:36:04+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-12T22:34:30+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
