@@ -111,7 +111,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-13T10:52:39+00:00"
+      "last_success": "2026-07-13T14:13:39+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -119,13 +119,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 98,
-        "μόνο μία λωρίδα/ΛΕΑ": 2
+        "εκτός θέματος/Αθήνας": 99,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-13T10:52:39+00:00"
+      "last_success": "2026-07-13T14:13:39+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -136,9 +136,9 @@
         "χωρίς/παλιά ημερομηνία": 10
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-13T10:52:39+00:00"
+      "last_success": "2026-07-13T14:13:39+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -147,9 +147,9 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 3,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-13T10:52:41+00:00"
+      "last_success": "2026-07-13T14:13:39+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -162,20 +162,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-13T10:52:41+00:00"
+      "last_success": "2026-07-13T14:13:39+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 35,
+      "fetched": 28,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 26
+        "κατηγορία εκτός πολιτικής": 19
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-13T13:52:59+00:00"
+      "last_success": "2026-07-13T14:13:39+00:00"
     }
   },
   "active": {
@@ -189,13 +189,10 @@
         "url": "https://www.iefimerida.gr/ellada/attiki-odos-kykloforiakes-rythmiseis-athinon-lamias",
         "details": "",
         "area": "Βόρεια",
-        "days": [
-          "2026-07-13",
-          "2026-07-14"
-        ],
+        "days": [],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "kathimerini": [
@@ -206,13 +203,10 @@
         "url": "https://www.kathimerini.gr/society/564340552/attiki-odos-nychterines-rythmiseis-ston-komvo-metamorfosis-pote-tha-kleisoyn-oi-exodoi-pros-lamia/",
         "details": "",
         "area": "Βόρεια",
-        "days": [
-          "2026-07-13",
-          "2026-07-14"
-        ],
+        "days": [],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.kathimerini.gr/society/564335986/xanthi-stis-floges-ntalika-stin-egnatia-odo-kykloforiakes-rythmiseis/",
@@ -856,7 +850,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:31+00:00",
-      "last_seen": "2026-07-13T10:52:41+00:00",
+      "last_seen": "2026-07-13T14:13:39+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -875,7 +869,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-13T10:52:41+00:00",
+      "last_seen": "2026-07-13T14:13:39+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1227,7 +1221,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T13:52:59+00:00",
+      "last_seen": "2026-07-13T14:13:39+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1246,7 +1240,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T13:52:59+00:00",
+      "last_seen": "2026-07-13T14:13:39+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1265,7 +1259,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T13:52:59+00:00",
+      "last_seen": "2026-07-13T14:13:39+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1284,7 +1278,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T13:52:59+00:00",
+      "last_seen": "2026-07-13T14:13:39+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1303,7 +1297,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T13:52:59+00:00",
+      "last_seen": "2026-07-13T14:13:39+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1322,7 +1316,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T13:52:59+00:00",
+      "last_seen": "2026-07-13T14:13:39+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1341,7 +1335,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T13:52:59+00:00",
+      "last_seen": "2026-07-13T14:13:39+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1360,7 +1354,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T13:52:59+00:00",
+      "last_seen": "2026-07-13T14:13:39+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1379,7 +1373,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T13:52:59+00:00",
+      "last_seen": "2026-07-13T14:13:39+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1575,12 +1569,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-10T10:46:17+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-10T12:25:22+00:00",
       "new": 0,
@@ -1934,6 +1922,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-13T14:13:39+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
