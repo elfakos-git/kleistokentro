@@ -168,14 +168,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 40,
+      "fetched": 35,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 31
+        "κατηγορία εκτός πολιτικής": 26
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-13T11:46:29+00:00"
+      "last_success": "2026-07-13T13:52:59+00:00"
     }
   },
   "active": {
@@ -386,7 +386,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51600061312012000",
@@ -400,7 +400,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51568321972030001",
@@ -414,7 +414,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749080021000",
@@ -428,7 +428,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863732014000",
@@ -442,7 +442,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594290660014001",
@@ -456,7 +456,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594290768011000",
@@ -470,7 +470,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594291004012000",
@@ -484,7 +484,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594291000004000",
@@ -498,7 +498,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ]
   },
@@ -1227,7 +1227,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-13T13:52:59+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1246,7 +1246,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-13T13:52:59+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1265,7 +1265,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-13T13:52:59+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1284,7 +1284,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-13T13:52:59+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1303,7 +1303,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-13T13:52:59+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1322,7 +1322,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-13T13:52:59+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1341,7 +1341,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-13T13:52:59+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1360,7 +1360,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-13T13:52:59+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1379,9 +1379,11 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-13T13:52:59+00:00",
       "extended": false,
-      "alerted_chats": []
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1391,12 +1393,6 @@
     "151797168": "2026-07-13"
   },
   "notifications": [
-    {
-      "time": "2026-07-11T21:36:02+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
-      "url": "https://www.google.com/maps?q=37.9818740999,23.769882434"
-    },
     {
       "time": "2026-07-11T21:36:02+00:00",
       "source": "TomTom (realtime)",
@@ -1570,15 +1566,15 @@
       "source": "TomTom (realtime)",
       "title": "🚨 Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
       "url": "https://www.google.com/maps?q=37.9818740999,23.769882434"
+    },
+    {
+      "time": "2026-07-13T13:53:00+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
+      "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-10T10:00:16+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-10T10:46:17+00:00",
       "new": 1,
@@ -1929,6 +1925,12 @@
     },
     {
       "time": "2026-07-13T11:46:35+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-13T13:53:00+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
