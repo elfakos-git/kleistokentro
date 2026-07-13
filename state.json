@@ -74,7 +74,8 @@
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749116013000",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749080006000",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749260013000",
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/"
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
+    "98ΒΗ46ΜΤΛΒ-ΔΤ7"
   ],
   "seeded": [
     "astynomia",
@@ -89,12 +90,15 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "fetched": 53,
+      "dropped": {
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 52
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-13T02:01:31+00:00"
+      "last_success": "2026-07-13T06:47:00+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -102,13 +106,13 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 96,
-        "εκτός χρονικού παραθύρου": 3
+        "εκτός θέματος/Αθήνας": 98,
+        "εκτός χρονικού παραθύρου": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-13T02:01:31+00:00"
+      "last_success": "2026-07-13T06:47:01+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -121,7 +125,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-13T02:01:31+00:00"
+      "last_success": "2026-07-13T06:47:01+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -132,49 +136,52 @@
       "date_misses": 4,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-13T02:01:31+00:00"
+      "last_success": "2026-07-13T06:47:01+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 6,
-      "fetched": 13,
-      "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7
-      },
+      "items": 0,
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-13T02:01:31+00:00"
+      "last_success": "2026-07-13T06:47:01+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 61,
+      "fetched": 52,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 52
+        "κατηγορία εκτός πολιτικής": 43
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-13T05:55:31+00:00"
+      "last_success": "2026-07-13T06:47:01+00:00"
     }
   },
   "active": {
     "astynomia": [],
     "diavgeia": [
       {
-        "id": "62Ι846ΜΤΛΒ-ΡΦ8",
+        "id": "98ΒΗ46ΜΤΛΒ-ΔΤ7",
         "source": "Διαύγεια (Τροχαία)",
-        "title": "«Προσωρινές κυκλοφοριακές ρυθμίσεις για την κατασκευή της Οδικής Σύνδεσης του Σ.Σ. Παλαιοφαρσάλου, στο πλαίσιο κατασκευής του έργου: [Αποκατάσταση της διπλής σιδηροδρομικής γραμμής Αθηνών - Θεσσαλονίκης, από την έξοδο του Σ.Σ. Δομοκού (Χ.Θ. 288+600) έως την είσοδο του Σ.Σ. Κραννώνα (Χ.Θ. 328+840) με",
-        "url": "https://diavgeia.gov.gr/decision/view/62Ι846ΜΤΛΒ-ΡΦ8",
-        "details": "Επίσημη απόφαση Τροχαίας (11/07/2026)",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
+        "title": "25436-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και πλήρη διακοπή της κυκλοφορίας των οχημάτων της οδού Αναστασίου Ζίννη, στο ύψος του ο.α. 39, περιοχής Δήμου Αθηναίων, την 14.07.2026, κατά τις ώρες 01:00΄ έως 04:00΄, για την εκτέλεση εργασιών με χρήση ανυψωτικού μηχανήματος.",
+        "url": "https://diavgeia.gov.gr/decision/view/98ΒΗ46ΜΤΛΒ-ΔΤ7",
+        "details": "Επίσημη απόφαση Τροχαίας (13/07/2026)",
+        "area": "Κέντρο",
+        "days": [
+          "2026-07-14"
+        ],
+        "hours": [
+          "01:00",
+          "04:00"
+        ],
+        "plain": "Διακοπή κυκλοφορίας στην οδό Αναστασίου Ζίννη (ύψος αρ. 39, Δήμου Αθηναίων) · 14/7, 01:00–04:00",
+        "new_this_run": true
       }
     ],
     "iefimerida": [],
@@ -300,56 +307,7 @@
         "new_this_run": false
       }
     ],
-    "oasa": [
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 537, 721 και 734, λόγω εργασιών  στον Δήμο Αχαρνών",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 203, 204, 209 και 211 λόγω εργασιών στην οδό Χρεμωνίδου 20-22 στον Δήμο Αθηναίων",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 305, 316, και 323, λόγω εκδηλώσεων στον Δήμο Σπάτων – Αρτέμιδος",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος του Δήμου Περιστερίου",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
-        "details": "",
-        "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      }
-    ],
+    "oasa": [],
     "tomtom": [
       {
         "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51574092528022000",
@@ -621,7 +579,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-13T05:55:31+00:00",
+      "last_seen": "2026-07-13T06:47:01+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -640,7 +598,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-13T05:55:31+00:00",
+      "last_seen": "2026-07-13T06:47:01+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -659,7 +617,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-13T05:55:31+00:00",
+      "last_seen": "2026-07-13T06:47:01+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -678,7 +636,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-13T05:55:31+00:00",
+      "last_seen": "2026-07-13T06:47:01+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -697,7 +655,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-13T05:55:31+00:00",
+      "last_seen": "2026-07-13T06:47:01+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -716,7 +674,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-13T05:55:31+00:00",
+      "last_seen": "2026-07-13T06:47:01+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -754,7 +712,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-13T05:55:31+00:00",
+      "last_seen": "2026-07-13T06:47:01+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -773,7 +731,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-08T07:27:33+00:00",
-      "last_seen": "2026-07-13T05:55:31+00:00",
+      "last_seen": "2026-07-13T06:47:01+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -951,7 +909,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-10T21:01:03+00:00",
-      "last_seen": "2026-07-13T05:55:31+00:00",
+      "last_seen": "2026-07-13T06:47:01+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1128,6 +1086,28 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "98ΒΗ46ΜΤΛΒ-ΔΤ7": {
+      "id": "98ΒΗ46ΜΤΛΒ-ΔΤ7",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25436-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και πλήρη διακοπή της κυκλοφορίας των οχημάτων της οδού Αναστασίου Ζίννη, στο ύψος του ο.α. 39, περιοχής Δήμου Αθηναίων, την 14.07.2026, κατά τις ώρες 01:00΄ έως 04:00΄, για την εκτέλεση εργασιών με χρήση ανυψωτικού μηχανήματος.",
+      "url": "https://diavgeia.gov.gr/decision/view/98ΒΗ46ΜΤΛΒ-ΔΤ7",
+      "details": "Επίσημη απόφαση Τροχαίας (13/07/2026)",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-14"
+      ],
+      "hours": [
+        "01:00",
+        "04:00"
+      ],
+      "plain": "Διακοπή κυκλοφορίας στην οδό Αναστασίου Ζίννη (ύψος αρ. 39, Δήμου Αθηναίων) · 14/7, 01:00–04:00",
+      "first_seen": "2026-07-13T06:47:01+00:00",
+      "last_seen": "2026-07-13T06:47:01+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1137,12 +1117,6 @@
     "151797168": "2026-07-13"
   },
   "notifications": [
-    {
-      "time": "2026-07-11T09:20:00+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "«Προσωρινές κυκλοφοριακές ρυθμίσεις για την κατασκευή της Οδικής Σύνδεσης του Σ.Σ. Παλαιοφαρσάλου, στο πλαίσιο κατασκευής του έργου: [Αποκατάσταση της διπλής σιδηροδρομικής γραμμής Αθηνών - Θεσσαλονίκης, από την έξοδο του Σ.Σ. Δομοκού (Χ.Θ. 288+600) έως την είσοδο του Σ.Σ. Κραννώνα (Χ.Θ. 328+840) με",
-      "url": "https://diavgeia.gov.gr/decision/view/62Ι846ΜΤΛΒ-ΡΦ8"
-    },
     {
       "time": "2026-07-11T11:40:32+00:00",
       "source": "TomTom (realtime)",
@@ -1316,15 +1290,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-07-13T06:47:02+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25436-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και πλήρη διακοπή της κυκλοφορίας των οχημάτων της οδού Αναστασίου Ζίννη, στο ύψος του ο.α. 39, περιοχής Δήμου Αθηναίων, την 14.07.2026, κατά τις ώρες 01:00΄ έως 04:00΄, για την εκτέλεση εργασιών με χρήση ανυψωτικού μηχανήματος.",
+      "url": "https://diavgeia.gov.gr/decision/view/98ΒΗ46ΜΤΛΒ-ΔΤ7"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-09T23:41:03+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-10T02:10:58+00:00",
       "new": 0,
@@ -1678,6 +1652,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-13T06:47:02+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
