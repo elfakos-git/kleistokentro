@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T21:41:05+00:00",
+  "generated_at": "2026-07-13T22:41:13+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -67,14 +67,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 15,
+      "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-13T21:40:59+00:00"
+      "last_success": "2026-07-13T22:41:12+00:00"
     }
   ],
   "active_events": [
@@ -904,7 +904,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T21:40:59+00:00",
+      "last_seen": "2026-07-13T22:41:12+00:00",
       "extended": true,
       "status": "active"
     },
@@ -921,7 +921,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T21:40:59+00:00",
+      "last_seen": "2026-07-13T22:41:12+00:00",
       "extended": true,
       "status": "active"
     },
@@ -938,7 +938,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T21:40:59+00:00",
+      "last_seen": "2026-07-13T22:41:12+00:00",
       "extended": true,
       "status": "active"
     },
@@ -955,7 +955,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T21:40:59+00:00",
+      "last_seen": "2026-07-13T22:41:12+00:00",
       "extended": true,
       "status": "active"
     },
@@ -972,7 +972,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T21:40:59+00:00",
+      "last_seen": "2026-07-13T22:41:12+00:00",
       "extended": true,
       "status": "active"
     },
@@ -989,7 +989,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T21:40:59+00:00",
+      "last_seen": "2026-07-13T22:41:12+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1006,7 +1006,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T21:40:59+00:00",
+      "last_seen": "2026-07-13T22:41:12+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1023,7 +1023,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T21:40:59+00:00",
+      "last_seen": "2026-07-13T22:41:12+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1040,7 +1040,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-13T21:40:59+00:00",
+      "last_seen": "2026-07-13T22:41:12+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1178,6 +1178,12 @@
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-07-13T22:41:13+00:00",
+      "source": "TomTom (realtime)",
+      "title": "🚨 Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
+      "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874"
+    },
     {
       "time": "2026-07-13T21:41:05+00:00",
       "source": "TomTom (realtime)",
@@ -1351,21 +1357,9 @@
       "source": "TomTom (realtime)",
       "title": "🚨 Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
       "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212"
-    },
-    {
-      "time": "2026-07-12T21:35:58+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Evripidou (Dimosthenous) → Tagmatarchou Plessa (Dimosthenous)",
-      "url": "https://www.google.com/maps?q=37.9444881187,23.6941207581"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-10T21:01:12+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-10T21:31:30+00:00",
       "new": 0,
@@ -1716,6 +1710,12 @@
     },
     {
       "time": "2026-07-13T21:41:05+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-13T22:41:13+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
