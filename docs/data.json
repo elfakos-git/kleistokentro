@@ -1,16 +1,19 @@
 {
-  "generated_at": "2026-07-14T05:18:04+00:00",
+  "generated_at": "2026-07-14T06:05:18+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "fetched": 53,
+      "dropped": {
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 52
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-14T01:48:23+00:00"
+      "last_success": "2026-07-14T06:05:05+00:00"
     },
     {
       "name": "diavgeia",
@@ -18,13 +21,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99,
-        "μόνο μία λωρίδα/ΛΕΑ": 1
+        "εκτός θέματος/Αθήνας": 97,
+        "μόνο μία λωρίδα/ΛΕΑ": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-14T01:48:23+00:00"
+      "last_success": "2026-07-14T06:05:05+00:00"
     },
     {
       "name": "iefimerida",
@@ -37,7 +40,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-14T01:48:23+00:00"
+      "last_success": "2026-07-14T06:05:05+00:00"
     },
     {
       "name": "kathimerini",
@@ -48,31 +51,33 @@
       "date_misses": 3,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-14T01:48:23+00:00"
+      "last_success": "2026-07-14T06:05:05+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "items": 5,
+      "fetched": 13,
+      "dropped": {
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8
+      },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-07-14T01:48:23+00:00"
+      "last_success": "2026-07-14T06:05:17+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 40,
+      "fetched": 91,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 31
+        "κατηγορία εκτός πολιτικής": 82
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-14T05:18:03+00:00"
+      "last_success": "2026-07-14T06:05:17+00:00"
     }
   ],
   "active_events": [
@@ -203,6 +208,69 @@
       "url": "https://www.kathimerini.gr/society/564255967/notia-proastia-kykloforiakes-rythmiseis-stis-30-ma-oy-logo-podilatikoy-agona/",
       "details": "",
       "area": "",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-256/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 891 και 892 λόγω των εκδηλώσεων για τους εορτασμούς του Ι.Ν. Αγ. Μαρίνας στον Δήμο Αγίας Βαρβάρας",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-256/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-07-16",
+        "2026-07-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": true
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 537, 721 και 734, λόγω εργασιών  στον Δήμο Αχαρνών",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
+      "details": "",
+      "area": "",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 203, 204, 209 και 211 λόγω εργασιών στην οδό Χρεμωνίδου 20-22 στον Δήμο Αθηναίων",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
+      "details": "",
+      "area": "",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 305, 316, και 323, λόγω εκδηλώσεων στον Δήμο Σπάτων – Αρτέμιδος",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
+      "details": "",
+      "area": "",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος του Δήμου Περιστερίου",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-60/",
+      "details": "",
+      "area": "Δυτικά",
       "days": [],
       "hours": [],
       "plain": "",
@@ -854,7 +922,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-14T05:18:03+00:00",
+      "last_seen": "2026-07-14T06:05:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -871,7 +939,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-14T05:18:03+00:00",
+      "last_seen": "2026-07-14T06:05:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -888,7 +956,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-14T05:18:03+00:00",
+      "last_seen": "2026-07-14T06:05:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -905,7 +973,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-14T05:18:03+00:00",
+      "last_seen": "2026-07-14T06:05:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -922,7 +990,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-14T05:18:03+00:00",
+      "last_seen": "2026-07-14T06:05:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -939,7 +1007,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-14T05:18:03+00:00",
+      "last_seen": "2026-07-14T06:05:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -956,7 +1024,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-14T05:18:03+00:00",
+      "last_seen": "2026-07-14T06:05:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -973,7 +1041,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-14T05:18:03+00:00",
+      "last_seen": "2026-07-14T06:05:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -990,7 +1058,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-14T05:18:03+00:00",
+      "last_seen": "2026-07-14T06:05:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1009,6 +1077,24 @@
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Ν.Ε.Ο.Αθηνών–Λαμίας) · 15/7, 18/12",
       "first_seen": "2026-07-10T14:05:08+00:00",
       "last_seen": "2026-07-11T13:01:05+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-256/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 891 και 892 λόγω των εκδηλώσεων για τους εορτασμούς του Ι.Ν. Αγ. Μαρίνας στον Δήμο Αγίας Βαρβάρας",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-256/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-07-16",
+        "2026-07-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-14T06:05:17+00:00",
+      "last_seen": "2026-07-14T06:05:17+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1128,6 +1214,12 @@
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-07-14T06:05:18+00:00",
+      "source": "ΟΑΣΑ",
+      "title": "🚨 Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 891 και 892 λόγω των εκδηλώσεων για τους εορτασμούς του Ι.Ν. Αγ. Μαρίνας στον Δήμο Αγίας Βαρβάρας",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-256/"
+    },
     {
       "time": "2026-07-14T05:18:04+00:00",
       "source": "Ενημέρωση",
@@ -1301,21 +1393,9 @@
       "source": "TomTom (realtime)",
       "title": "🚨 Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
       "url": "https://www.google.com/maps?q=37.990176883,23.7386937076"
-    },
-    {
-      "time": "2026-07-12T21:36:00+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Athinas (Evripidou) → Praxitelous (Evripidou)",
-      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-11T01:56:32+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-11T05:29:45+00:00",
       "new": 0,
@@ -1669,6 +1749,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-14T06:05:18+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
