@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Κέντρο Αθήνας — Traffic Monitor</title>
+<title>KleistoKentro — τι κλείνει στο κέντρο της Αθήνας</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
@@ -22,11 +22,11 @@
        font-size:16px;line-height:1.45;padding:16px;max-width:1240px;margin:0 auto}
 
   /* Signature: header set as a Greek blue direction sign */
-  .sign{background:var(--blue);color:#fff;border-radius:12px;
+  .sign{background:linear-gradient(135deg,var(--blue),var(--blue-deep));color:#fff;border-radius:14px;
         border:3px solid #fff;outline:2px solid var(--blue-deep);
         padding:14px 18px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
-  .sign h1{font-family:var(--disp);font-weight:700;font-size:1.5rem;
-           letter-spacing:.02em;text-transform:uppercase}
+  .sign h1{font-family:var(--disp);font-weight:700;font-size:1.6rem;letter-spacing:.02em}
+  .sign h1 .kk{opacity:.78;font-weight:600}
   .sign .km{font-family:var(--disp);font-weight:600;opacity:.85;font-size:.95rem}
 
   .answer{margin:18px 0 4px;font-family:var(--disp);font-weight:700;
@@ -36,7 +36,11 @@
   .sub{color:var(--mut);font-size:.9rem;margin-bottom:14px}
 
   h2{font-family:var(--disp);font-weight:600;font-size:.85rem;text-transform:uppercase;
-     letter-spacing:.09em;color:var(--mut);margin:22px 0 10px}
+     letter-spacing:.09em;color:var(--mut);margin:24px 0 10px;
+     display:flex;align-items:center;gap:8px}
+  h2::before{content:"";width:16px;height:3px;background:var(--blue);
+             border-radius:2px;flex:none}
+  .hint{color:var(--mut);font-size:.82rem;margin:-4px 0 10px}
   h2:first-child{margin-top:0}
   h2 .count{color:var(--ink);background:var(--line);border-radius:5px;
             padding:1px 7px;margin-left:6px;font-size:.75rem}
@@ -49,6 +53,7 @@
         background:var(--card);border:1px solid var(--line);color:var(--ink);
         border-radius:999px;padding:4px 12px;cursor:pointer}
   .chip[aria-pressed="true"]{background:var(--blue);border-color:var(--blue-deep);color:#fff}
+  .chip:hover{border-color:var(--blue)}
   .chip:focus-visible{outline:2px solid var(--blue-deep);outline-offset:2px}
 
   /* ——— Dashboard grid: main column + system column ——— */
@@ -60,8 +65,10 @@
   }
 
   /* ——— Event cards (main list) ——— */
-  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;
-        padding:12px 14px;margin-bottom:10px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;
+        padding:13px 15px;margin-bottom:10px;
+        box-shadow:0 1px 2px rgba(15,40,80,.05);transition:box-shadow .15s,transform .15s}
+  .card:hover{box-shadow:0 4px 12px rgba(15,40,80,.09);transform:translateY(-1px)}
   .card.new{border-left:5px solid var(--alert)}
   .card .src{font-family:var(--disp);font-weight:600;font-size:.78rem;color:var(--blue);
              text-transform:uppercase;letter-spacing:.06em}
@@ -91,6 +98,13 @@
   .rt .d{color:var(--mut);font-size:.85rem;flex-basis:100%}
 
   /* ——— Past / expired events: collapsed, dimmed ——— */
+  .ghost{background:none;border:1px dashed var(--line);border-radius:8px;color:var(--mut);
+         font-family:var(--disp);font-weight:600;font-size:.82rem;letter-spacing:.05em;
+         text-transform:uppercase;padding:8px 14px;cursor:pointer;margin-top:24px}
+  .ghost:hover{border-color:var(--blue);color:var(--blue)}
+  #past{margin-top:12px}
+  #past .card{opacity:.65;box-shadow:none}
+  #past .card:hover{opacity:1;transform:none}
   .pastwrap{margin-top:22px}
   .pastwrap summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:6px;
                     font-family:var(--disp);font-weight:600;font-size:.85rem;
@@ -119,7 +133,7 @@
       color:var(--ink);background:none;font-family:var(--body);padding:0}
   .cd.off{visibility:hidden}
   .cd.pastd{color:var(--mut)}
-  .cd.today{border-color:var(--blue);font-weight:700}
+  .cd.today{border-color:var(--blue);font-weight:700;background:#E4EDF9}
   .cd.has{background:var(--paper);border-color:var(--line);cursor:pointer;font-weight:600}
   .cd.has::after{content:attr(data-n);position:absolute;top:-4px;right:-4px;
                  background:var(--alert);color:#fff;border-radius:999px;font-size:.6rem;
@@ -181,11 +195,11 @@
 </head>
 <body>
 <header class="sign">
-  <h1>Κέντρο Αθήνας</h1>
-  <span class="km">traffic monitor</span>
+  <h1>Kleisto<span class="kk">Kentro</span></h1>
+  <span class="km">κέντρο Αθήνας · live</span>
 </header>
 
-<div class="answer" id="answer"><span class="lamp" style="background:var(--mut)"></span>Φόρτωση…</div>
+<div class="answer" id="answer"><span class="lamp" style="background:var(--mut)"></span>Μια στιγμή…</div>
 <div class="sub" id="checked"></div>
 
 <div class="filters" id="srcFilters" role="group" aria-label="Φίλτρο πηγής"></div>
@@ -200,7 +214,7 @@
     <h2>Σύστημα</h2>
     <div class="panel">
       <details open>
-        <summary>Πηγές</summary>
+        <summary>Πηγές δεδομένων</summary>
         <div id="health"></div>
       </details>
       <details>
@@ -211,7 +225,7 @@
   </aside>
 
   <main class="main">
-    <h2>Ημερολόγιο κλεισιμάτων</h2>
+    <h2>Τι έρχεται</h2>
     <div class="calwrap">
       <div class="calbox">
         <div class="calnav">
@@ -224,16 +238,15 @@
       <div id="calList"></div>
     </div>
 
-    <h2>Σήμερα · ενεργά συμβάντα<span class="count" id="cMain"></span></h2>
+    <h2>Σε ισχύ<span class="count" id="cMain"></span></h2>
     <div id="events"></div>
 
-    <h2>Σημειακά κλεισίματα δρόμων · realtime<span class="count" id="cRt"></span></h2>
+    <h2>Ζωντανά περιστατικά<span class="count" id="cRt"></span></h2>
+    <div class="hint">Μεμονωμένα σημεία από δεδομένα κυκλοφορίας — δεν στέλνουν ειδοποιήσεις.</div>
     <div id="rtlist"></div>
 
-    <details class="pastwrap">
-      <summary>Παρελθόντα · ληγμένα<span class="count" id="cPast"></span></summary>
-      <div id="past"></div>
-    </details>
+    <button class="ghost" id="pastToggle" onclick="togglePast()" hidden></button>
+    <div id="past" hidden></div>
   </main>
 </div>
 
@@ -264,6 +277,8 @@ const PAST_GRACE_DAYS = 4;   // mirrors sources/enrich.py
 let DATA = null;
 let filt = {src: null, area: null};
 let cal = {y: null, m: null, sel: null};   // m is 0-based; sel is an ISO day
+let showPast = false;                       // dated-past events: opt-in only
+window.togglePast = () => { showPast = !showPast; render(); };
 let REG = new Map();                        // closure registry lookup
 
 function ago(iso){
@@ -436,7 +451,7 @@ function cardHtml(e){
       <div class="t"${e.plain?` title="${esc(e.title)}"`:""}>${esc(e.plain||e.title)}</div>
       ${e.details?`<div class="d">${esc(e.details)}</div>`:""}
       ${tagsHtml(e)}
-      <a href="${esc(e.url)}" target="_blank" rel="noopener">Άνοιγμα πηγής →</a>
+      <a href="${esc(e.url)}" target="_blank" rel="noopener">Πηγή →</a>
     </div>`;
 }
 
@@ -498,7 +513,7 @@ function renderCalendar(){
     later = upcoming.length - daysToShow.length;
   }
   const clear = cal.sel
-    ? `<div class="calclear"><button class="chip" onclick="selDay('${cal.sel}')" aria-pressed="true">✕ ${esc(fmtDay(cal.sel,true))} — όλες οι ημέρες</button></div>` : "";
+    ? `<div class="calclear"><button class="chip" onclick="selDay('${cal.sel}')" aria-pressed="true">✕ ${esc(fmtDay(cal.sel,true))} — όλα</button></div>` : "";
   $("calList").innerHTML = clear + (daysToShow.length ? daysToShow.map(day => {
     const items = byDay.get(day);
     return `<div class="day">
@@ -511,8 +526,8 @@ function renderCalendar(){
           <a href="${esc(c.url)}" target="_blank" rel="noopener"${c.plain?` title="${esc(c.title)}"`:""}>${esc(c.plain||c.title)}</a>
         </div>`).join("")}
     </div>`;
-  }).join("") : '<div class="empty">Καμία προγραμματισμένη ρύθμιση με γνωστή ημερομηνία.</div>')
-  + (later > 0 ? `<div class="later">…και ${later} ακόμη ημέρες μετά τον ορίζοντα των ${LIST_HORIZON_DAYS} ημερών.</div>` : "");
+  }).join("") : '<div class="empty">Τίποτα προγραμματισμένο ακόμη.</div>')
+  + (later > 0 ? `<div class="later">+${later} ημέρες πιο μακριά — δες το 📅 ημερολόγιο για όλες.</div>` : "");
 }
 
 function render(){
@@ -532,14 +547,13 @@ function render(){
   // Big answer counts truly-ACTIVE main events only
   const col = activeAll.length ? "var(--alert)" : (failing ? "var(--warn)" : "var(--ok)");
   const txt = activeAll.length
-      ? activeAll.length + " ενεργ" + (activeAll.length>1?"ά συμβάντα":"ό συμβάν")
-      : "Κανένα ενεργό συμβάν";
+      ? activeAll.length + (activeAll.length>1?" ενεργές ρυθμίσεις":" ενεργή ρύθμιση")
+      : "Όλα ανοιχτά";
   $("answer").innerHTML = `<span class="lamp" style="background:${col}"></span>${txt}`;
-  $("checked").textContent = "Τελευταίος έλεγχος " + ago(d.generated_at)
-      + (rtAll.length ? ` · ${rtAll.length} σημειακά κλεισίματα` : "")
-      + (pastAll.length ? ` · ${pastAll.length} ληγμένα` : "")
+  $("checked").textContent = "Ενημερώθηκε " + ago(d.generated_at)
+      + (rtAll.length ? ` · ${rtAll.length} ζωντανά περιστατικά` : "")
       + (fresh ? ` · ${fresh} νέα` : "")
-      + (failing ? ` · ${failing} πηγή(-ές) σε αποτυχία` : "");
+      + (failing ? ` · ${failing} πηγές εκτός` : "");
 
   renderFilters();
   renderCalendar();
@@ -547,8 +561,8 @@ function render(){
 
   $("cMain").textContent = filtered ? main.length + " / " + activeAll.length : activeAll.length;
   $("events").innerHTML = main.length ? main.map(cardHtml).join("")
-    : `<div class="empty">${filtered ? "Κανένα συμβάν με αυτά τα φίλτρα." :
-        "Καμία ενεργή ρύθμιση στις πηγές — ήσυχοι δρόμοι."}</div>`;
+    : `<div class="empty">${filtered ? "Τίποτα με αυτά τα φίλτρα." :
+        "Ήσυχοι δρόμοι — καμία γνωστή ρύθμιση σε ισχύ αυτή τη στιγμή."}</div>`;
 
   $("cRt").textContent = filtered ? rt.length + " / " + rtAll.length : rtAll.length;
   $("rtlist").innerHTML = rt.length ? rt.map(e=>{
@@ -560,12 +574,19 @@ function render(){
       <a href="${esc(e.url)}" target="_blank" rel="noopener">χάρτης →</a>
       ${det?`<span class="d">${esc(det)}</span>`:""}
     </div>`;}).join("")
-    : `<div class="empty">${filtered ? "Κανένα σημειακό κλείσιμο με αυτά τα φίλτρα." :
-        "Κανένα σημειακό κλείσιμο αυτή τη στιγμή."}</div>`;
+    : `<div class="empty">${filtered ? "Τίποτα με αυτά τα φίλτρα." :
+        "Κανένα ζωντανό περιστατικό αυτή τη στιγμή."}</div>`;
 
-  $("cPast").textContent = filtered ? past.length + " / " + pastAll.length : pastAll.length;
-  $("past").innerHTML = past.length ? past.map(cardHtml).join("")
-    : '<div class="empty">Κανένα ληγμένο συμβάν.</div>';
+  // Past events with known dates: out of the way unless asked for.
+  const pt = $("pastToggle");
+  pt.hidden = pastAll.length === 0;
+  pt.textContent = showPast
+      ? "▾ Απόκρυψη παλαιότερων"
+      : `▸ Παλαιότερες ρυθμίσεις (${filtered ? past.length + "/" + pastAll.length : pastAll.length})`;
+  $("past").hidden = !showPast || pastAll.length === 0;
+  $("past").innerHTML = !$("past").hidden && past.length
+      ? past.map(cardHtml).join("")
+      : (showPast ? '<div class="empty">Τίποτα με αυτά τα φίλτρα.</div>' : "");
 
   // ——— System panel ———
   $("health").innerHTML = srcs.map(s=>{
@@ -589,8 +610,9 @@ function render(){
     : '<div class="empty">Καμία ειδοποίηση ακόμη.</div>';
 
   const runs = d.runs||[];
-  $("foot").innerHTML = (runs.length ? runs.length + " εκτελέσεις · ανανέωση κάθε 5 λεπτά · " : "")
-    + '<a href="closures.ics">📅 ημερολόγιο (ICS)</a> · <a href="admin.html">διαχείριση</a>';
+  $("foot").innerHTML = '<b>KleistoKentro</b> · ανοιχτά δεδομένα για τους δρόμους του κέντρου'
+    + (runs.length ? ` · ${runs.length} έλεγχοι` : "")
+    + ' · <a href="closures.ics">📅 Ημερολόγιο</a> · <a href="admin.html">Διαχείριση</a>';
 }
 
 async function load(){
@@ -598,7 +620,7 @@ async function load(){
     DATA = await (await fetch("data.json?t="+Date.now())).json();
   }catch(e){
     $("answer").innerHTML = '<span class="lamp" style="background:var(--warn)"></span>Χωρίς δεδομένα';
-    $("checked").textContent = "Το data.json δεν βρέθηκε — έχει ολοκληρωθεί εκτέλεση του monitor;";
+    $("checked").textContent = "Δεν βρέθηκαν δεδομένα ακόμη — δοκίμασε ξανά σε λίγο.";
     return;
   }
   buildReg();

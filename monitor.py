@@ -57,6 +57,14 @@ SOURCES = {
     "tomtom": tomtom,            # realtime; also runs alone every 30 min
 }
 
+# DASHBOARD-ONLY SOURCES: shown on the site (secondary realtime strip)
+# but NEVER allowed to message anyone. TomTom incidents are single-road,
+# short-lived, and arrive with fresh ids every 30 minutes — as Telegram
+# pings they are pure noise. Enforced at all three tiers (immediate,
+# urgent, digest), not just the path such events happen to take today.
+SILENT_SOURCES = {"tomtom"}
+SILENT_LABELS = {SOURCES[n].SOURCE for n in SILENT_SOURCES}
+
 BASE = Path(__file__).parent
 STATE_FILE = BASE / "state.json"
 DASHBOARD_FILE = BASE / "docs" / "data.json"
@@ -409,8 +417,10 @@ def main(argv=None) -> int:
                         # mark seen now. First sight of a source = everyone
                         # already "alerted" (silent seeding).
                         state["seen"].append(e.id)
-                    elif first_time:
-                        state["seen"].append(e.id)   # seed undated silently
+                    elif first_time or name in SILENT_SOURCES:
+                        # Seeding, or a dashboard-only source (tomtom):
+                        # seen and silent by design.
+                        state["seen"].append(e.id)
                     else:
                         pending_undated.append((e, area))
 
@@ -429,6 +439,10 @@ def main(argv=None) -> int:
                         # the flood cap remains the backstop.
                         extended = True
                         prev_alerted = []
+                    if name in SILENT_SOURCES:
+                        # Dashboard-only: whatever happens above, every
+                        # subscriber counts as already alerted, forever.
+                        prev_alerted = [s["chat_id"] for s in subs]
                     state["closures"][e.id] = {
                         "id": e.id,
                         "source": e.source, "title": e.title, "url": e.url,
@@ -489,6 +503,8 @@ def main(argv=None) -> int:
 
     # ------------------- dated: urgent when entering each USER's window
     for cid, c in state["closures"].items():
+        if c["source"] in SILENT_LABELS:
+            continue                     # dashboard-only, never urgent
         upcoming = [d for d in c["days"] if d >= today]
         if not upcoming:
             continue
@@ -519,7 +535,8 @@ def main(argv=None) -> int:
             start = date.fromordinal(
                 date.fromisoformat(today).toordinal() + 1).isoformat()
         entries = [c for c in state["closures"].values()
-                   if area_ok(c["area"], s)]
+                   if area_ok(c["area"], s)
+                   and c["source"] not in SILENT_LABELS]
         text = notify.format_digest(entries, start,
                                     int(s["digest_lookahead_days"]), today)
         if safe_send(text, chat):
