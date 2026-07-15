@@ -124,7 +124,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-15T13:19:28+00:00"
+      "last_success": "2026-07-15T17:08:42+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -137,7 +137,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-15T13:19:29+00:00"
+      "last_success": "2026-07-15T17:08:44+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -150,7 +150,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-15T13:19:29+00:00"
+      "last_success": "2026-07-15T17:08:44+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -161,7 +161,7 @@
       "date_misses": 3,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-15T13:19:29+00:00"
+      "last_success": "2026-07-15T17:08:44+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -175,7 +175,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-15T13:19:29+00:00"
+      "last_success": "2026-07-15T17:08:44+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -188,7 +188,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-15T16:11:19+00:00"
+      "last_success": "2026-07-15T17:08:44+00:00"
     }
   },
   "active": {
@@ -204,7 +204,7 @@
         "days": [],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "9ΦΦ446ΜΤΛΒ-24Χ",
@@ -218,7 +218,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "92ΓΓ46ΜΤΛΒ-Γ4Β",
@@ -230,7 +230,7 @@
         "days": [],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "iefimerida": [
@@ -1237,7 +1237,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T16:11:19+00:00",
+      "last_seen": "2026-07-15T17:08:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1256,7 +1256,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T16:11:19+00:00",
+      "last_seen": "2026-07-15T17:08:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1275,7 +1275,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T16:11:19+00:00",
+      "last_seen": "2026-07-15T17:08:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1294,7 +1294,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T16:11:19+00:00",
+      "last_seen": "2026-07-15T17:08:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1313,7 +1313,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T16:11:19+00:00",
+      "last_seen": "2026-07-15T17:08:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1332,7 +1332,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T16:11:19+00:00",
+      "last_seen": "2026-07-15T17:08:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1351,7 +1351,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T16:11:19+00:00",
+      "last_seen": "2026-07-15T17:08:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1370,7 +1370,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T16:11:19+00:00",
+      "last_seen": "2026-07-15T17:08:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1389,7 +1389,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T16:11:19+00:00",
+      "last_seen": "2026-07-15T17:08:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1450,7 +1450,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-15T13:19:29+00:00",
-      "last_seen": "2026-07-15T13:19:29+00:00",
+      "last_seen": "2026-07-15T17:08:44+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1646,12 +1646,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-12T12:10:16+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-12T13:02:07+00:00",
       "new": 0,
@@ -2005,6 +1999,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-15T17:08:44+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
