@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T17:42:27+00:00",
+  "generated_at": "2026-07-15T18:49:26+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -69,15 +69,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 66,
+      "items": 9,
+      "fetched": 26,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 55
+        "κατηγορία εκτός πολιτικής": 17
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-15T17:42:27+00:00"
+      "last_success": "2026-07-15T18:49:26+00:00"
     }
   ],
   "active_events": [
@@ -306,20 +306,6 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749044023000",
-      "source": "TomTom (realtime)",
-      "title": "Sofokleous (Athinas) → Platia Omonias (Athinas)",
-      "url": "https://www.google.com/maps?q=37.9810921973,23.7272621327",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-15"
-      ],
-      "hours": [],
-      "plain": "",
-      "new_this_run": true
-    },
-    {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749080021000",
       "source": "TomTom (realtime)",
       "title": "Athinas (Evripidou) → Praxitelous (Evripidou)",
@@ -332,20 +318,6 @@
       "hours": [],
       "plain": "",
       "new_this_run": false
-    },
-    {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749096002000",
-      "source": "TomTom (realtime)",
-      "title": "Platia Omonias (Stadiou) → Benaki Emm. (Stadiou)",
-      "url": "https://www.google.com/maps?q=37.9837073597,23.728381955",
-      "details": "Κλειστός δρόμος — Κλειστό; Οδικά έργα",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-15"
-      ],
-      "hours": [],
-      "plain": "",
-      "new_this_run": true
     },
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863732014000",
@@ -955,7 +927,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T17:42:27+00:00",
+      "last_seen": "2026-07-15T18:49:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -972,7 +944,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T17:42:27+00:00",
+      "last_seen": "2026-07-15T18:49:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -989,7 +961,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T17:42:27+00:00",
+      "last_seen": "2026-07-15T18:49:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1006,7 +978,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T17:42:27+00:00",
+      "last_seen": "2026-07-15T18:49:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1023,7 +995,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T17:42:27+00:00",
+      "last_seen": "2026-07-15T18:49:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1040,7 +1012,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T17:42:27+00:00",
+      "last_seen": "2026-07-15T18:49:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1057,7 +1029,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T17:42:27+00:00",
+      "last_seen": "2026-07-15T18:49:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1074,7 +1046,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T17:42:27+00:00",
+      "last_seen": "2026-07-15T18:49:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1091,7 +1063,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-15T17:42:27+00:00",
+      "last_seen": "2026-07-15T18:49:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1483,12 +1455,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-12T14:00:10+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-12T14:56:37+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1838,6 +1804,12 @@
     },
     {
       "time": "2026-07-15T17:42:27+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-15T18:49:26+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
