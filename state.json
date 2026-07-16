@@ -186,14 +186,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 28,
+      "fetched": 23,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 17
+        "κατηγορία εκτός πολιτικής": 12
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T17:43:32+00:00"
+      "last_success": "2026-07-16T18:50:48+00:00"
     }
   },
   "active": {
@@ -450,7 +450,7 @@
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488784006000",
         "source": "TomTom (realtime)",
-        "title": "Geranion (Ag. Marinas) → Spartis (Ag. Marinas)",
+        "title": "Geranion (Ag. Marinas) → Dimokratias Ave (Ag. Marinas)",
         "url": "https://www.google.com/maps?q=37.9450245204,23.7567905718",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Νότια",
@@ -1211,7 +1211,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:43:32+00:00",
+      "last_seen": "2026-07-16T18:50:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1230,7 +1230,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:43:32+00:00",
+      "last_seen": "2026-07-16T18:50:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1249,7 +1249,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:43:32+00:00",
+      "last_seen": "2026-07-16T18:50:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1268,7 +1268,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:43:32+00:00",
+      "last_seen": "2026-07-16T18:50:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1287,7 +1287,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:43:32+00:00",
+      "last_seen": "2026-07-16T18:50:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1306,7 +1306,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:43:32+00:00",
+      "last_seen": "2026-07-16T18:50:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1325,7 +1325,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:43:32+00:00",
+      "last_seen": "2026-07-16T18:50:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1344,7 +1344,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:43:32+00:00",
+      "last_seen": "2026-07-16T18:50:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1363,7 +1363,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:43:32+00:00",
+      "last_seen": "2026-07-16T18:50:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1481,7 +1481,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-16T17:43:32+00:00",
+      "last_seen": "2026-07-16T18:50:48+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1547,7 +1547,7 @@
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488784006000": {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488784006000",
       "source": "TomTom (realtime)",
-      "title": "Geranion (Ag. Marinas) → Spartis (Ag. Marinas)",
+      "title": "Geranion (Ag. Marinas) → Dimokratias Ave (Ag. Marinas)",
       "url": "https://www.google.com/maps?q=37.9450245204,23.7567905718",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Νότια",
@@ -1557,7 +1557,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-16T17:43:32+00:00",
+      "last_seen": "2026-07-16T18:50:48+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1753,12 +1753,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-13T14:13:39+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-13T16:16:49+00:00",
       "new": 0,
@@ -2109,6 +2103,12 @@
     },
     {
       "time": "2026-07-16T17:43:32+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-16T18:50:48+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
