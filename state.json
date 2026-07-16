@@ -185,15 +185,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 12,
-      "fetched": 33,
+      "items": 11,
+      "fetched": 28,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 21
+        "κατηγορία εκτός πολιτικής": 17
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T17:06:55+00:00"
+      "last_success": "2026-07-16T17:43:32+00:00"
     }
   },
   "active": {
@@ -392,20 +392,6 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116013000",
-        "source": "TomTom (realtime)",
-        "title": "Evripidou (Athinas) → Kalamida (Athinas)",
-        "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-07-16"
-        ],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749080021000",
         "source": "TomTom (realtime)",
         "title": "Athinas (Evripidou) → Praxitelous (Evripidou)",
@@ -473,7 +459,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488712006000",
@@ -1225,7 +1211,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:06:55+00:00",
+      "last_seen": "2026-07-16T17:43:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1244,7 +1230,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:06:55+00:00",
+      "last_seen": "2026-07-16T17:43:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1263,7 +1249,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:06:55+00:00",
+      "last_seen": "2026-07-16T17:43:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1282,7 +1268,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:06:55+00:00",
+      "last_seen": "2026-07-16T17:43:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1301,7 +1287,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:06:55+00:00",
+      "last_seen": "2026-07-16T17:43:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1320,7 +1306,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:06:55+00:00",
+      "last_seen": "2026-07-16T17:43:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1339,7 +1325,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:06:55+00:00",
+      "last_seen": "2026-07-16T17:43:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1358,7 +1344,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:06:55+00:00",
+      "last_seen": "2026-07-16T17:43:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1377,7 +1363,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T17:06:55+00:00",
+      "last_seen": "2026-07-16T17:43:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1495,7 +1481,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-16T17:06:55+00:00",
+      "last_seen": "2026-07-16T17:43:32+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1571,7 +1557,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-16T17:06:55+00:00",
+      "last_seen": "2026-07-16T17:43:32+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1767,12 +1753,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-13T13:53:00+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-13T14:13:39+00:00",
       "new": 0,
@@ -2126,6 +2106,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-16T17:43:32+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
