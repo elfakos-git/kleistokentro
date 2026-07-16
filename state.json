@@ -103,7 +103,8 @@
     "9Γ2Γ46ΜΤΛΒ-3Ρ2",
     "92ΓΓ46ΜΤΛΒ-Γ4Β",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749044023000",
-    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749096002000"
+    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749096002000",
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-6/"
   ],
   "seeded": [
     "astynomia",
@@ -118,15 +119,15 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 53,
+      "fetched": 54,
       "dropped": {
         "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 52
+        "no level detected, no disruption keyword": 53
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T01:54:48+00:00"
+      "last_success": "2026-07-16T06:11:45+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -139,7 +140,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T01:54:50+00:00"
+      "last_success": "2026-07-16T06:11:46+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -152,7 +153,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T01:54:50+00:00"
+      "last_success": "2026-07-16T06:11:46+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -163,34 +164,33 @@
       "date_misses": 3,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T01:54:50+00:00"
+      "last_success": "2026-07-16T06:11:46+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 1,
-      "fetched": 11,
+      "items": 4,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 5,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T01:54:50+00:00"
+      "last_success": "2026-07-16T06:11:48+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 57,
+      "fetched": 73,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 48
+        "κατηγορία εκτός πολιτικής": 64
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T05:28:55+00:00"
+      "last_success": "2026-07-16T06:11:48+00:00"
     }
   },
   "active": {
@@ -373,10 +373,46 @@
     ],
     "oasa": [
       {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-6/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της Λ. Γραμμής  826  λόγω εργασιών στην οδό ΠΑΤΡΩΝ,  του Δήμου ΠΕΙΡΑΙΑ.",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-6/",
+        "details": "",
+        "area": "Νότια",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": true
+      },
+      {
         "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-256/",
         "source": "ΟΑΣΑ",
         "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 891 και 892 λόγω των εκδηλώσεων για τους εορτασμούς του Ι.Ν. Αγ. Μαρίνας στον Δήμο Αγίας Βαρβάρας",
         "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-256/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 537, 721 και 734, λόγω εργασιών  στον Δήμο Αχαρνών",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 203, 204, 209 και 211 λόγω εργασιών στην οδό Χρεμωνίδου 20-22 στον Δήμο Αθηναίων",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
         "details": "",
         "area": "",
         "days": [],
@@ -1220,7 +1256,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T05:28:55+00:00",
+      "last_seen": "2026-07-16T06:11:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1239,7 +1275,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T05:28:55+00:00",
+      "last_seen": "2026-07-16T06:11:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1258,7 +1294,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T05:28:55+00:00",
+      "last_seen": "2026-07-16T06:11:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1277,7 +1313,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T05:28:55+00:00",
+      "last_seen": "2026-07-16T06:11:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1296,7 +1332,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T05:28:55+00:00",
+      "last_seen": "2026-07-16T06:11:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1315,7 +1351,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T05:28:55+00:00",
+      "last_seen": "2026-07-16T06:11:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1334,7 +1370,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T05:28:55+00:00",
+      "last_seen": "2026-07-16T06:11:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1353,7 +1389,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T05:28:55+00:00",
+      "last_seen": "2026-07-16T06:11:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1372,7 +1408,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T05:28:55+00:00",
+      "last_seen": "2026-07-16T06:11:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1433,7 +1469,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-15T13:19:29+00:00",
-      "last_seen": "2026-07-16T01:54:50+00:00",
+      "last_seen": "2026-07-16T06:11:46+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1485,12 +1521,6 @@
     "151797168": "2026-07-16"
   },
   "notifications": [
-    {
-      "time": "2026-07-13T11:46:35+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
-      "url": "https://www.google.com/maps?q=37.9818740999,23.769882434"
-    },
     {
       "time": "2026-07-13T13:53:00+00:00",
       "source": "TomTom (realtime)",
@@ -1664,15 +1694,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-07-16T06:11:49+00:00",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της Λ. Γραμμής  826  λόγω εργασιών στην οδό ΠΑΤΡΩΝ,  του Δήμου ΠΕΙΡΑΙΑ.",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-6/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-12T20:36:51+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-12T20:38:33+00:00",
       "new": 0,
@@ -2026,6 +2056,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-16T06:11:49+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
