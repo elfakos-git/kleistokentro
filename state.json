@@ -107,7 +107,8 @@
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-6/",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488712006000",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51568322008011000",
-    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51568322008003000"
+    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51568322008003000",
+    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116013000"
   ],
   "seeded": [
     "astynomia",
@@ -186,15 +187,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 65,
+      "items": 11,
+      "fetched": 60,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 55
+        "κατηγορία εκτός πολιτικής": 49
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T14:52:49+00:00"
+      "last_success": "2026-07-16T16:07:16+00:00"
     }
   },
   "active": {
@@ -391,6 +392,20 @@
         "hours": [],
         "plain": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116013000",
+        "source": "TomTom (realtime)",
+        "title": "Evripidou (Athinas) → Kalamida (Athinas)",
+        "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-07-16"
+        ],
+        "hours": [],
+        "plain": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749080021000",
@@ -1198,7 +1213,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T14:52:49+00:00",
+      "last_seen": "2026-07-16T16:07:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1217,7 +1232,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T14:52:49+00:00",
+      "last_seen": "2026-07-16T16:07:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1236,7 +1251,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T14:52:49+00:00",
+      "last_seen": "2026-07-16T16:07:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1255,7 +1270,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T14:52:49+00:00",
+      "last_seen": "2026-07-16T16:07:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1274,7 +1289,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T14:52:49+00:00",
+      "last_seen": "2026-07-16T16:07:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1293,7 +1308,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T14:52:49+00:00",
+      "last_seen": "2026-07-16T16:07:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1312,7 +1327,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T14:52:49+00:00",
+      "last_seen": "2026-07-16T16:07:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1331,7 +1346,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T14:52:49+00:00",
+      "last_seen": "2026-07-16T16:07:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1350,7 +1365,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T14:52:49+00:00",
+      "last_seen": "2026-07-16T16:07:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1468,7 +1483,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-16T14:52:49+00:00",
+      "last_seen": "2026-07-16T16:07:16+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1507,6 +1522,25 @@
       "plain": "",
       "first_seen": "2026-07-16T11:23:45+00:00",
       "last_seen": "2026-07-16T11:23:45+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116013000": {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116013000",
+      "source": "TomTom (realtime)",
+      "title": "Evripidou (Athinas) → Kalamida (Athinas)",
+      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-16"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-16T16:07:16+00:00",
+      "last_seen": "2026-07-16T16:07:16+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1702,12 +1736,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-13T10:52:42+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-13T11:46:35+00:00",
       "new": 0,
@@ -2058,6 +2086,12 @@
     },
     {
       "time": "2026-07-16T14:52:49+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-16T16:07:16+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
