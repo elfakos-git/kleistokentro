@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T09:51:12+00:00",
+  "generated_at": "2026-07-16T10:00:43+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,33 +13,33 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T06:11:45+00:00"
+      "last_success": "2026-07-16T10:00:40+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
-      "items": 3,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97
+        "εκτός θέματος/Αθήνας": 100
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T06:11:46+00:00"
+      "last_success": "2026-07-16T10:00:40+00:00"
     },
     {
       "name": "iefimerida",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 10
+        "χωρίς/παλιά ημερομηνία": 11
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T06:11:46+00:00"
+      "last_success": "2026-07-16T10:00:40+00:00"
     },
     {
       "name": "kathimerini",
@@ -50,86 +50,36 @@
       "date_misses": 3,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T06:11:46+00:00"
+      "last_success": "2026-07-16T10:00:43+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 4,
+      "items": 3,
       "fetched": 13,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T06:11:48+00:00"
+      "last_success": "2026-07-16T10:00:43+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 44,
+      "items": 10,
+      "fetched": 52,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 35
+        "κατηγορία εκτός πολιτικής": 42
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T09:51:12+00:00"
+      "last_success": "2026-07-16T10:00:43+00:00"
     }
   ],
   "active_events": [
-    {
-      "id": "9Γ2Γ46ΜΤΛΒ-3Ρ2",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "«Προσωρινές κυκλοφοριακές ρυθμίσεις κατά τη διέλευση υπερμεγεθών οχημάτων, της εταιρείας «Χρήστος Κριεκούκης – Οδικές Μεταφορές», για τη μεταφορά μεταλλικών τμημάτων από τη Μάνδρα Αττικής, με προορισμό στην υπό ανακατασκευή πεζογέφυρα της Αγ. Παρασκευής στη Κοιλάδα των Τεμπών».",
-      "url": "https://diavgeia.gov.gr/decision/view/9Γ2Γ46ΜΤΛΒ-3Ρ2",
-      "details": "Επίσημη απόφαση Τροχαίας (15/07/2026)",
-      "area": "Δυτικά",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "9ΦΦ446ΜΤΛΒ-24Χ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "«Προσωρινές κυκλοφοριακές ρυθμίσεις, διακοπή κυκλοφορίας όλων των οχημάτων στη Δημοτική οδό Καναλίων από το Σούπερ Μάρκετ \"Μασούτης\" στην περιοχή Αλεπού έως τον Ραδιοφωνικό Σταθμό στην περιοχή Καλλιθέα, την Πέμπτη 16/07/2026 και από ώρα 08:00 έως 14:00 , προκειμένου να πραγματοποιηθούν εργασίες στο ",
-      "url": "https://diavgeia.gov.gr/decision/view/9ΦΦ446ΜΤΛΒ-24Χ",
-      "details": "Επίσημη απόφαση Τροχαίας (15/07/2026)",
-      "area": "Νότια",
-      "days": [
-        "2026-07-16"
-      ],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "92ΓΓ46ΜΤΛΒ-Γ4Β",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "Κυκλοφοριακές ρυθμίσεις στην οδό Αθηνών, στην Πάτρα Ν. Αχαϊας",
-      "url": "https://diavgeia.gov.gr/decision/view/92ΓΓ46ΜΤΛΒ-Γ4Β",
-      "details": "Επίσημη απόφαση Τροχαίας (15/07/2026)",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.iefimerida.gr/ellada/attiki-odos-kykloforiakes-rythmiseis-athinon-lamias",
-      "source": "iefimerida",
-      "title": "Αττική Οδός: Κυκλοφοριακές ρυθμίσεις στην Αθηνών-Λαμίας σήμερα και αύριο -Ποιες έξοδοι κλείνουν",
-      "url": "https://www.iefimerida.gr/ellada/attiki-odos-kykloforiakes-rythmiseis-athinon-lamias",
-      "details": "",
-      "area": "Βόρεια",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
     {
       "id": "https://www.kathimerini.gr/society/564340552/attiki-odos-nychterines-rythmiseis-ston-komvo-metamorfosis-pote-tha-kleisoyn-oi-exodoi-pros-lamia/",
       "source": "kathimerini",
@@ -260,7 +210,7 @@
       "days": [],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-256/",
@@ -279,18 +229,6 @@
       "source": "ΟΑΣΑ",
       "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 537, 721 και 734, λόγω εργασιών  στον Δήμο Αχαρνών",
       "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
-      "details": "",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 203, 204, 209 και 211 λόγω εργασιών στην οδό Χρεμωνίδου 20-22 στον Δήμο Αθηναίων",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
       "details": "",
       "area": "",
       "days": [],
@@ -395,6 +333,20 @@
       "hours": [],
       "plain": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488712006000",
+      "source": "TomTom (realtime)",
+      "title": "Dimokratias Ave (Ag. Marinas) → Patriarchou Grigoriou E Ave (Ag. Marinas)",
+      "url": "https://www.google.com/maps?q=37.9456763274,23.7558531397",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Νότια",
+      "days": [
+        "2026-07-16"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594291004012000",
@@ -979,7 +931,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T09:51:12+00:00",
+      "last_seen": "2026-07-16T10:00:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -996,7 +948,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T09:51:12+00:00",
+      "last_seen": "2026-07-16T10:00:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1013,7 +965,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T09:51:12+00:00",
+      "last_seen": "2026-07-16T10:00:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1030,7 +982,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T09:51:12+00:00",
+      "last_seen": "2026-07-16T10:00:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1047,7 +999,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T09:51:12+00:00",
+      "last_seen": "2026-07-16T10:00:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1064,7 +1016,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T09:51:12+00:00",
+      "last_seen": "2026-07-16T10:00:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1081,7 +1033,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T09:51:12+00:00",
+      "last_seen": "2026-07-16T10:00:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1098,7 +1050,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T09:51:12+00:00",
+      "last_seen": "2026-07-16T10:00:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1115,7 +1067,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T09:51:12+00:00",
+      "last_seen": "2026-07-16T10:00:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1151,6 +1103,23 @@
       "plain": "",
       "first_seen": "2026-07-15T13:19:29+00:00",
       "last_seen": "2026-07-16T06:11:46+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488712006000",
+      "source": "TomTom (realtime)",
+      "title": "Dimokratias Ave (Ag. Marinas) → Patriarchou Grigoriou E Ave (Ag. Marinas)",
+      "url": "https://www.google.com/maps?q=37.9456763274,23.7558531397",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Νότια",
+      "days": [
+        "2026-07-16"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-16T10:00:43+00:00",
+      "last_seen": "2026-07-16T10:00:43+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1472,12 +1441,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-12T22:34:30+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-13T02:01:31+00:00",
       "new": 0,
@@ -1831,6 +1794,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-16T10:00:43+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
