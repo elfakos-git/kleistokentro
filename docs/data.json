@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T11:23:45+00:00",
+  "generated_at": "2026-07-16T12:56:46+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -68,15 +68,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 12,
-      "fetched": 48,
+      "items": 10,
+      "fetched": 64,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 36
+        "κατηγορία εκτός πολιτικής": 54
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T11:23:45+00:00"
+      "last_success": "2026-07-16T12:56:46+00:00"
     }
   ],
   "active_events": [
@@ -277,34 +277,6 @@
       "hours": [],
       "plain": "",
       "new_this_run": false
-    },
-    {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51568322008011000",
-      "source": "TomTom (realtime)",
-      "title": "Ionias Ave (Ag. Meletiou) → Aristomenous (Ag. Meletiou)",
-      "url": "https://www.google.com/maps?q=38.001377743,23.7233541542",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Βόρεια",
-      "days": [
-        "2026-07-16"
-      ],
-      "hours": [],
-      "plain": "",
-      "new_this_run": true
-    },
-    {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51568322008003000",
-      "source": "TomTom (realtime)",
-      "title": "Voda Mihail (Ag. Meletiou) → Aharnon (Ag. Meletiou)",
-      "url": "https://www.google.com/maps?q=38.0010183692,23.7262844676",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Βόρεια",
-      "days": [
-        "2026-07-16"
-      ],
-      "hours": [],
-      "plain": "",
-      "new_this_run": true
     },
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749080021000",
@@ -959,7 +931,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T11:23:45+00:00",
+      "last_seen": "2026-07-16T12:56:46+00:00",
       "extended": true,
       "status": "active"
     },
@@ -976,7 +948,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T11:23:45+00:00",
+      "last_seen": "2026-07-16T12:56:46+00:00",
       "extended": true,
       "status": "active"
     },
@@ -993,7 +965,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T11:23:45+00:00",
+      "last_seen": "2026-07-16T12:56:46+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1010,7 +982,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T11:23:45+00:00",
+      "last_seen": "2026-07-16T12:56:46+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1027,7 +999,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T11:23:45+00:00",
+      "last_seen": "2026-07-16T12:56:46+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1044,7 +1016,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T11:23:45+00:00",
+      "last_seen": "2026-07-16T12:56:46+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1061,7 +1033,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T11:23:45+00:00",
+      "last_seen": "2026-07-16T12:56:46+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1078,7 +1050,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T11:23:45+00:00",
+      "last_seen": "2026-07-16T12:56:46+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1095,7 +1067,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T11:23:45+00:00",
+      "last_seen": "2026-07-16T12:56:46+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1147,7 +1119,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-16T11:23:45+00:00",
+      "last_seen": "2026-07-16T12:56:46+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1504,12 +1476,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-13T05:55:34+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-13T06:47:02+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1859,6 +1825,12 @@
     },
     {
       "time": "2026-07-16T11:23:45+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-16T12:56:46+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
