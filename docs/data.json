@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T20:39:45+00:00",
+  "generated_at": "2026-07-17T20:44:17+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T17:03:53+00:00"
+      "last_success": "2026-07-17T20:44:16+00:00"
     },
     {
       "name": "diavgeia",
@@ -25,7 +25,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T17:03:54+00:00"
+      "last_success": "2026-07-17T20:44:17+00:00"
     },
     {
       "name": "iefimerida",
@@ -36,9 +36,9 @@
         "χωρίς/παλιά ημερομηνία": 10
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T17:03:54+00:00"
+      "last_success": "2026-07-17T20:44:17+00:00"
     },
     {
       "name": "kathimerini",
@@ -49,20 +49,21 @@
       "date_misses": 3,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T17:03:54+00:00"
+      "last_success": "2026-07-17T20:44:17+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 3,
-      "fetched": 13,
+      "items": 2,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10
+        "παλιά ανακοίνωση": 1,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8
       },
-      "date_misses": 0,
-      "body_enriched": 1,
+      "date_misses": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T17:03:56+00:00"
+      "last_success": "2026-07-17T20:44:17+00:00"
     },
     {
       "name": "tomtom",
@@ -75,7 +76,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T20:39:45+00:00"
+      "last_success": "2026-07-17T20:44:17+00:00"
     }
   ],
   "active_events": [
@@ -114,13 +115,11 @@
       "title": "Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 του Μετρό από την Κυριακή -Ποιοι σταθμοί κλείνουν νωρίτερα",
       "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-3-toy-metro-apo-kyriaki-19-ioylioy",
       "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-19"
-      ],
+      "area": "",
+      "days": [],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.kathimerini.gr/society/564340552/attiki-odos-nychterines-rythmiseis-ston-komvo-metamorfosis-pote-tha-kleisoyn-oi-exodoi-pros-lamia/",
@@ -248,13 +247,11 @@
       "title": "Κυκλοφοριακές ρυθμίσεις στη γραμμή 3 του Μετρό από την Κυριακή 19 Ιουνίου",
       "url": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
       "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-19"
-      ],
+      "area": "",
+      "days": [],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
@@ -263,18 +260,6 @@
       "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
       "details": "",
       "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-6/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της Λ. Γραμμής  826  λόγω εργασιών στην οδό ΠΑΤΡΩΝ,  του Δήμου ΠΕΙΡΑΙΑ.",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-6/",
-      "details": "",
-      "area": "Νότια",
       "days": [],
       "hours": [],
       "plain": "",
@@ -1069,7 +1054,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T20:39:45+00:00",
+      "last_seen": "2026-07-17T20:44:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1086,7 +1071,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T20:39:45+00:00",
+      "last_seen": "2026-07-17T20:44:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1103,7 +1088,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T20:39:45+00:00",
+      "last_seen": "2026-07-17T20:44:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1120,7 +1105,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T20:39:45+00:00",
+      "last_seen": "2026-07-17T20:44:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1137,7 +1122,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T20:39:45+00:00",
+      "last_seen": "2026-07-17T20:44:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1154,7 +1139,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T20:39:45+00:00",
+      "last_seen": "2026-07-17T20:44:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1171,7 +1156,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T20:39:45+00:00",
+      "last_seen": "2026-07-17T20:44:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1188,7 +1173,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T20:39:45+00:00",
+      "last_seen": "2026-07-17T20:44:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1205,7 +1190,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T20:39:45+00:00",
+      "last_seen": "2026-07-17T20:44:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1259,7 +1244,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-17T20:39:45+00:00",
+      "last_seen": "2026-07-17T20:44:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1276,7 +1261,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T16:07:16+00:00",
-      "last_seen": "2026-07-17T20:39:45+00:00",
+      "last_seen": "2026-07-17T20:44:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1293,7 +1278,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-17T20:39:45+00:00",
+      "last_seen": "2026-07-17T20:44:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1361,7 +1346,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-17T15:50:55+00:00",
-      "last_seen": "2026-07-17T20:39:45+00:00",
+      "last_seen": "2026-07-17T20:44:17+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1433,7 +1418,7 @@
       ],
       "plain": "Διακοπή κυκλοφορίας στην οδό Κασομούλη (ύψος αρ. 97, προς Αμ.Φραντζή, Δήμου Αθηναίων) · 19/7, 07:00–10:00",
       "first_seen": "2026-07-17T09:50:13+00:00",
-      "last_seen": "2026-07-17T17:03:54+00:00",
+      "last_seen": "2026-07-17T20:44:17+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1769,12 +1754,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-14T19:13:30+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-14T20:34:06+00:00",
       "new": 0,
@@ -2128,6 +2107,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-17T20:44:17+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
