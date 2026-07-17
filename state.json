@@ -189,14 +189,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 54,
+      "fetched": 39,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 43
+        "κατηγορία εκτός πολιτικής": 28
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T06:09:57+00:00"
+      "last_success": "2026-07-17T07:47:17+00:00"
     }
   },
   "active": {
@@ -1217,7 +1217,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T06:09:57+00:00",
+      "last_seen": "2026-07-17T07:47:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1236,7 +1236,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T06:09:57+00:00",
+      "last_seen": "2026-07-17T07:47:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1255,7 +1255,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T06:09:57+00:00",
+      "last_seen": "2026-07-17T07:47:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1274,7 +1274,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T06:09:57+00:00",
+      "last_seen": "2026-07-17T07:47:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1293,7 +1293,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T06:09:57+00:00",
+      "last_seen": "2026-07-17T07:47:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1312,7 +1312,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T06:09:57+00:00",
+      "last_seen": "2026-07-17T07:47:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1331,7 +1331,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T06:09:57+00:00",
+      "last_seen": "2026-07-17T07:47:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1350,7 +1350,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T06:09:57+00:00",
+      "last_seen": "2026-07-17T07:47:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1369,7 +1369,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T06:09:57+00:00",
+      "last_seen": "2026-07-17T07:47:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1487,7 +1487,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-17T06:09:57+00:00",
+      "last_seen": "2026-07-17T07:47:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1563,7 +1563,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-17T06:09:57+00:00",
+      "last_seen": "2026-07-17T07:47:17+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1798,12 +1798,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-14T01:48:23+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-14T05:18:04+00:00",
       "new": 0,
@@ -2157,6 +2151,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-17T07:47:17+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
