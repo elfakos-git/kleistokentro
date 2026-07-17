@@ -110,7 +110,8 @@
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51568322008003000",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116013000",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488784006000",
-    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582748928014000"
+    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582748928014000",
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/"
   ],
   "seeded": [
     "astynomia",
@@ -130,7 +131,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T01:58:40+00:00"
+      "last_success": "2026-07-17T06:09:57+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -144,7 +145,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T01:58:40+00:00"
+      "last_success": "2026-07-17T06:09:57+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -157,7 +158,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T01:58:40+00:00"
+      "last_success": "2026-07-17T06:09:57+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -168,7 +169,7 @@
       "date_misses": 3,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T01:58:40+00:00"
+      "last_success": "2026-07-17T06:09:57+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -180,22 +181,22 @@
         "λειτουργικό/χωρίς οδικό αντίκτυπο": 8
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T01:58:40+00:00"
+      "last_success": "2026-07-17T06:09:57+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 39,
+      "fetched": 54,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 28
+        "κατηγορία εκτός πολιτικής": 43
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T05:30:26+00:00"
+      "last_success": "2026-07-17T06:09:57+00:00"
     }
   },
   "active": {
@@ -326,24 +327,27 @@
     ],
     "oasa": [
       {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 830 και 837 λόγω των εκδηλώσεων για τους εορτασμούς του Ι.Ν. Προφήτη Ηλία στον Δήμο Αγίας Βαρβάρας",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
+        "details": "",
+        "area": "Νότια",
+        "days": [
+          "2026-07-19",
+          "2026-07-20"
+        ],
+        "hours": [],
+        "plain": "",
+        "new_this_run": true
+      },
+      {
         "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-6/",
         "source": "ΟΑΣΑ",
         "title": "Μερική προσωρινή τροποποίηση της Λ. Γραμμής  826  λόγω εργασιών στην οδό ΠΑΤΡΩΝ,  του Δήμου ΠΕΙΡΑΙΑ.",
         "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-6/",
         "details": "",
         "area": "Νότια",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-256/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 891 και 892 λόγω των εκδηλώσεων για τους εορτασμούς του Ι.Ν. Αγ. Μαρίνας στον Δήμο Αγίας Βαρβάρας",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-256/",
-        "details": "",
-        "area": "",
         "days": [],
         "hours": [],
         "plain": "",
@@ -1213,7 +1217,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T05:30:26+00:00",
+      "last_seen": "2026-07-17T06:09:57+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1232,7 +1236,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T05:30:26+00:00",
+      "last_seen": "2026-07-17T06:09:57+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1251,7 +1255,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T05:30:26+00:00",
+      "last_seen": "2026-07-17T06:09:57+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1270,7 +1274,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T05:30:26+00:00",
+      "last_seen": "2026-07-17T06:09:57+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1289,7 +1293,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T05:30:26+00:00",
+      "last_seen": "2026-07-17T06:09:57+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1308,7 +1312,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T05:30:26+00:00",
+      "last_seen": "2026-07-17T06:09:57+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1327,7 +1331,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T05:30:26+00:00",
+      "last_seen": "2026-07-17T06:09:57+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1346,7 +1350,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T05:30:26+00:00",
+      "last_seen": "2026-07-17T06:09:57+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1365,7 +1369,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T05:30:26+00:00",
+      "last_seen": "2026-07-17T06:09:57+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1483,7 +1487,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-17T05:30:26+00:00",
+      "last_seen": "2026-07-17T06:09:57+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1559,7 +1563,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-17T05:30:26+00:00",
+      "last_seen": "2026-07-17T06:09:57+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1583,6 +1587,26 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/": {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 830 και 837 λόγω των εκδηλώσεων για τους εορτασμούς του Ι.Ν. Προφήτη Ηλία στον Δήμο Αγίας Βαρβάρας",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
+      "details": "",
+      "area": "Νότια",
+      "days": [
+        "2026-07-19",
+        "2026-07-20"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-17T06:09:57+00:00",
+      "last_seen": "2026-07-17T06:09:57+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1592,12 +1616,6 @@
     "151797168": "2026-07-17"
   },
   "notifications": [
-    {
-      "time": "2026-07-13T21:41:00+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
-      "url": "https://www.google.com/maps?q=37.9774685794,23.6918153995"
-    },
     {
       "time": "2026-07-13T21:41:00+00:00",
       "source": "TomTom (realtime)",
@@ -1771,15 +1789,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-07-17T06:09:58+00:00",
+      "source": "ΟΑΣΑ",
+      "title": "🚨 Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 830 και 837 λόγω των εκδηλώσεων για τους εορτασμούς του Ι.Ν. Προφήτη Ηλία στον Δήμο Αγίας Βαρβάρας",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-13T22:41:13+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-14T01:48:23+00:00",
       "new": 0,
@@ -2133,6 +2151,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-17T06:09:58+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
