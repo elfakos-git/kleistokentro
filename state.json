@@ -123,7 +123,8 @@
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51591405424014000",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749044015000",
     "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-3-toy-metro-apo-kyriaki-19-ioylioy",
-    "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/"
+    "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
+    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863664010000"
   ],
   "seeded": [
     "astynomia",
@@ -201,15 +202,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 13,
+      "items": 12,
       "fetched": 20,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 7
+        "κατηγορία εκτός πολιτικής": 8
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T21:38:02+00:00"
+      "last_success": "2026-07-17T22:35:44+00:00"
     }
   },
   "active": {
@@ -451,10 +452,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116013000",
+        "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863664010000",
         "source": "TomTom (realtime)",
-        "title": "Ag. Konstantinou (Sokratous) → Pireos (Tsaldari) (Sokratous)",
-        "url": "https://www.google.com/maps?q=37.9843484513,23.7268396848",
+        "title": "Epikourou (Pireos (Tsaldari)) → Kolokinthous (Pireos (Tsaldari))",
+        "url": "https://www.google.com/maps?q=37.9816367222,23.7225065762",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -462,21 +463,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116023000",
-        "source": "TomTom (realtime)",
-        "title": "Likourgou (Athinas) → Sofokleous (Athinas)",
-        "url": "https://www.google.com/maps?q=37.9827055436,23.727663123",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-07-18"
-        ],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
+        "new_this_run": true
       },
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749080021000",
@@ -1241,7 +1228,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T21:38:02+00:00",
+      "last_seen": "2026-07-17T22:35:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1260,7 +1247,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T21:38:02+00:00",
+      "last_seen": "2026-07-17T22:35:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1279,7 +1266,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T21:38:02+00:00",
+      "last_seen": "2026-07-17T22:35:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1298,7 +1285,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T21:38:02+00:00",
+      "last_seen": "2026-07-17T22:35:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1317,7 +1304,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T21:38:02+00:00",
+      "last_seen": "2026-07-17T22:35:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1336,7 +1323,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T21:38:02+00:00",
+      "last_seen": "2026-07-17T22:35:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1355,7 +1342,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T21:38:02+00:00",
+      "last_seen": "2026-07-17T22:35:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1374,7 +1361,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T21:38:02+00:00",
+      "last_seen": "2026-07-17T22:35:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1393,7 +1380,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T21:38:02+00:00",
+      "last_seen": "2026-07-17T22:35:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1511,7 +1498,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-17T21:38:02+00:00",
+      "last_seen": "2026-07-17T22:35:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1587,7 +1574,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-17T21:38:02+00:00",
+      "last_seen": "2026-07-17T22:35:44+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1786,6 +1773,25 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863664010000": {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863664010000",
+      "source": "TomTom (realtime)",
+      "title": "Epikourou (Pireos (Tsaldari)) → Kolokinthous (Pireos (Tsaldari))",
+      "url": "https://www.google.com/maps?q=37.9816367222,23.7225065762",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-18"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-17T22:35:44+00:00",
+      "last_seen": "2026-07-17T22:35:44+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1977,12 +1983,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-14T20:52:28+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-14T21:43:18+00:00",
       "new": 0,
@@ -2333,6 +2333,12 @@
     },
     {
       "time": "2026-07-17T21:38:02+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-17T22:35:44+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
