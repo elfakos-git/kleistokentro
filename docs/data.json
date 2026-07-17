@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T15:50:55+00:00",
+  "generated_at": "2026-07-17T16:55:19+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -68,15 +68,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 17,
-      "fetched": 44,
+      "items": 16,
+      "fetched": 30,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 27
+        "κατηγορία εκτός πολιτικής": 14
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T15:50:55+00:00"
+      "last_success": "2026-07-17T16:55:19+00:00"
     }
   ],
   "active_events": [
@@ -324,10 +324,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116023000",
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749044015000",
       "source": "TomTom (realtime)",
-      "title": "Likourgou (Athinas) → Evripidou (Athinas)",
-      "url": "https://www.google.com/maps?q=37.9827055436,23.727663123",
+      "title": "Kratinou (Athinas) → Efpolidos (Athinas)",
+      "url": "https://www.google.com/maps?q=37.9815320722,23.7273721033",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -338,10 +338,10 @@
       "new_this_run": true
     },
     {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749044023000",
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116023000",
       "source": "TomTom (realtime)",
-      "title": "Kalamida (Athinas) → Platia Omonias (Athinas)",
-      "url": "https://www.google.com/maps?q=37.9790926425,23.7267605597",
+      "title": "Likourgou (Athinas) → Evripidou (Athinas)",
+      "url": "https://www.google.com/maps?q=37.9827055436,23.727663123",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -377,7 +377,7 @@
       ],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863732014000",
@@ -442,20 +442,6 @@
       "url": "https://www.google.com/maps?q=37.9460062278,23.7554776305",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Νότια",
-      "days": [
-        "2026-07-17"
-      ],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51591405588007000",
-      "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Γεωργίου Παπανδρέου / Χ. και Α. Μουρκούση → Παπαδιαμαντοπούλου",
-      "url": "https://www.google.com/maps?q=37.9808669074,23.766238653",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Ανατολικά",
       "days": [
         "2026-07-17"
       ],
@@ -1098,7 +1084,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1115,7 +1101,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1132,7 +1118,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1149,7 +1135,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1166,7 +1152,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1183,7 +1169,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1200,7 +1186,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1217,7 +1203,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1234,7 +1220,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1288,7 +1274,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1305,7 +1291,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T16:07:16+00:00",
-      "last_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1322,7 +1308,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1373,7 +1359,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-17T14:22:11+00:00",
-      "last_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1390,7 +1376,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-17T15:50:55+00:00",
-      "last_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1407,7 +1393,24 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-17T15:50:55+00:00",
-      "last_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749044015000",
+      "source": "TomTom (realtime)",
+      "title": "Kratinou (Athinas) → Efpolidos (Athinas)",
+      "url": "https://www.google.com/maps?q=37.9815320722,23.7273721033",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-17T16:55:19+00:00",
+      "last_seen": "2026-07-17T16:55:19+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1747,12 +1750,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-14T13:15:20+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-14T14:19:48+00:00",
       "new": 0,
@@ -2103,6 +2100,12 @@
     },
     {
       "time": "2026-07-17T15:50:55+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-17T16:55:19+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
