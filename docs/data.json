@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T14:22:11+00:00",
+  "generated_at": "2026-07-17T15:50:55+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -68,15 +68,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 13,
-      "fetched": 58,
+      "items": 17,
+      "fetched": 44,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 45
+        "κατηγορία εκτός πολιτικής": 27
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T14:22:11+00:00"
+      "last_success": "2026-07-17T15:50:55+00:00"
     }
   ],
   "active_events": [
@@ -293,7 +293,7 @@
       ],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51568321972030001",
@@ -302,6 +302,48 @@
       "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
+      "days": [
+        "2026-07-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116013000",
+      "source": "TomTom (realtime)",
+      "title": "Ag. Konstantinou (Sokratous) → Pireos (Tsaldari) (Sokratous)",
+      "url": "https://www.google.com/maps?q=37.9843484513,23.7268396848",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116023000",
+      "source": "TomTom (realtime)",
+      "title": "Likourgou (Athinas) → Evripidou (Athinas)",
+      "url": "https://www.google.com/maps?q=37.9827055436,23.727663123",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": true
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749044023000",
+      "source": "TomTom (realtime)",
+      "title": "Kalamida (Athinas) → Platia Omonias (Athinas)",
+      "url": "https://www.google.com/maps?q=37.9790926425,23.7267605597",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
       "days": [
         "2026-07-17"
       ],
@@ -322,6 +364,20 @@
       "hours": [],
       "plain": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51591405424014000",
+      "source": "TomTom (realtime)",
+      "title": "Filellinon (Mitropoleos) → Nikis (Mitropoleos)",
+      "url": "https://www.google.com/maps?q=37.9751028178,23.7338643902",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863732014000",
@@ -944,23 +1000,6 @@
       "status": "planned"
     },
     {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749044023000",
-      "source": "TomTom (realtime)",
-      "title": "Sofokleous (Athinas) → Platia Omonias (Athinas)",
-      "url": "https://www.google.com/maps?q=37.9810921973,23.7272621327",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-15"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-15T17:42:27+00:00",
-      "last_seen": "2026-07-15T17:42:27+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749096002000",
       "source": "TomTom (realtime)",
       "title": "Platia Omonias (Stadiou) → Benaki Emm. (Stadiou)",
@@ -1047,23 +1086,6 @@
       "status": "ended"
     },
     {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116013000",
-      "source": "TomTom (realtime)",
-      "title": "Evripidou (Athinas) → Kalamida (Athinas)",
-      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-16"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-16T16:07:16+00:00",
-      "last_seen": "2026-07-16T17:06:55+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51574092528022000",
       "source": "TomTom (realtime)",
       "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
@@ -1076,7 +1098,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T14:22:11+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1093,7 +1115,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T14:22:11+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1110,7 +1132,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T14:22:11+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1127,7 +1149,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T14:22:11+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1144,7 +1166,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T14:22:11+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1161,7 +1183,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T14:22:11+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1178,7 +1200,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T14:22:11+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1195,7 +1217,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T14:22:11+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1212,7 +1234,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T14:22:11+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1237,6 +1259,23 @@
       "status": "active"
     },
     {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749044023000",
+      "source": "TomTom (realtime)",
+      "title": "Kalamida (Athinas) → Platia Omonias (Athinas)",
+      "url": "https://www.google.com/maps?q=37.9790926425,23.7267605597",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-15T17:42:27+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
+      "extended": true,
+      "status": "active"
+    },
+    {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488712006000",
       "source": "TomTom (realtime)",
       "title": "Dimokratias Ave (Ag. Marinas) → Olimpou (Ag. Marinas)",
@@ -1249,7 +1288,24 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-17T14:22:11+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
+      "extended": true,
+      "status": "active"
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116013000",
+      "source": "TomTom (realtime)",
+      "title": "Ag. Konstantinou (Sokratous) → Pireos (Tsaldari) (Sokratous)",
+      "url": "https://www.google.com/maps?q=37.9843484513,23.7268396848",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-16T16:07:16+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1266,7 +1322,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-17T14:22:11+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1300,7 +1356,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-17T09:41:58+00:00",
-      "last_seen": "2026-07-17T14:22:11+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1317,7 +1373,41 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-17T14:22:11+00:00",
-      "last_seen": "2026-07-17T14:22:11+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116023000",
+      "source": "TomTom (realtime)",
+      "title": "Likourgou (Athinas) → Evripidou (Athinas)",
+      "url": "https://www.google.com/maps?q=37.9827055436,23.727663123",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51591405424014000",
+      "source": "TomTom (realtime)",
+      "title": "Filellinon (Mitropoleos) → Nikis (Mitropoleos)",
+      "url": "https://www.google.com/maps?q=37.9751028178,23.7338643902",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-17T15:50:55+00:00",
+      "last_seen": "2026-07-17T15:50:55+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1657,12 +1747,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-14T12:10:50+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-14T13:15:20+00:00",
       "new": 0,
@@ -2013,6 +2097,12 @@
     },
     {
       "time": "2026-07-17T14:22:11+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-17T15:50:55+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
