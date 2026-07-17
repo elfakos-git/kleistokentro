@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T09:41:58+00:00",
+  "generated_at": "2026-07-17T09:50:18+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,21 +10,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T06:09:57+00:00"
+      "last_success": "2026-07-17T09:50:13+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
-      "items": 0,
+      "items": 2,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99,
-        "εκτός χρονικού παραθύρου": 1
+        "εκτός θέματος/Αθήνας": 97,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T06:09:57+00:00"
+      "last_success": "2026-07-17T09:50:13+00:00"
     },
     {
       "name": "iefimerida",
@@ -37,7 +37,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T06:09:57+00:00"
+      "last_success": "2026-07-17T09:50:13+00:00"
     },
     {
       "name": "kathimerini",
@@ -48,7 +48,7 @@
       "date_misses": 3,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T06:09:57+00:00"
+      "last_success": "2026-07-17T09:50:13+00:00"
     },
     {
       "name": "oasa",
@@ -60,9 +60,9 @@
         "λειτουργικό/χωρίς οδικό αντίκτυπο": 8
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T06:09:57+00:00"
+      "last_success": "2026-07-17T09:50:17+00:00"
     },
     {
       "name": "tomtom",
@@ -75,10 +75,39 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T09:41:58+00:00"
+      "last_success": "2026-07-17T09:50:17+00:00"
     }
   ],
   "active_events": [
+    {
+      "id": "ΨΧ0Υ46ΜΤΛΒ-0ΙΑ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25450 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες προσωρινές κυκλοφοριακές ρυθμίσεις επί της Ν.Ε.Ο. Αθηνών – Κορίνθου, από την χ/θ 23,200 έως την χ/θ 59,800 , εναλλάξ και στα δύο ρεύματα κυκλοφορίας, περιοχής Δήμων Μάνδρας-Ειδυλλίας και Μεγαρέων, λόγω εκτέλεσης εργασιών διαγράμμισης του οδοστρώ",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΧ0Υ46ΜΤΛΒ-0ΙΑ",
+      "details": "Επίσημη απόφαση Τροχαίας (17/07/2026)",
+      "area": "Δυτικά",
+      "days": [],
+      "hours": [],
+      "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμων Μάνδρας-Ειδυλλίας και Μεγαρέων · λόγω εργασιών διαγράμμισης του οδοστρώ",
+      "new_this_run": true
+    },
+    {
+      "id": "ΨΟΣΠ46ΜΤΛΒ-Ε8Ω",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25452 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στο δεξιό τμήμα του οδοστρώματος της οδού Κασομούλη, στο ύψος του ο.α.97, ρεύμα κυκλοφορίας προς Αμ.Φραντζή, περιοχής Δήμου Αθηναίων, την 19-07-2026, κατά τις ώρες 07.00΄ έως 10.00΄, για την εκτέλεση εργασιών",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΟΣΠ46ΜΤΛΒ-Ε8Ω",
+      "details": "Επίσημη απόφαση Τροχαίας (17/07/2026)",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [
+        "07:00",
+        "10:00"
+      ],
+      "plain": "Διακοπή κυκλοφορίας στην οδό Κασομούλη (ύψος αρ. 97, προς Αμ.Φραντζή, Δήμου Αθηναίων) · 19/7, 07:00–10:00",
+      "new_this_run": true
+    },
     {
       "id": "https://www.kathimerini.gr/society/564340552/attiki-odos-nychterines-rythmiseis-ston-komvo-metamorfosis-pote-tha-kleisoyn-oi-exodoi-pros-lamia/",
       "source": "kathimerini",
@@ -205,14 +234,11 @@
       "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 830 και 837 λόγω των εκδηλώσεων για τους εορτασμούς του Ι.Ν. Προφήτη Ηλία στον Δήμο Αγίας Βαρβάρας",
       "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
       "details": "",
-      "area": "Νότια",
-      "days": [
-        "2026-07-19",
-        "2026-07-20"
-      ],
+      "area": "",
+      "days": [],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-6/",
@@ -364,7 +390,7 @@
       ],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594291004012000",
@@ -1035,7 +1061,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T09:41:58+00:00",
+      "last_seen": "2026-07-17T09:50:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1052,7 +1078,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T09:41:58+00:00",
+      "last_seen": "2026-07-17T09:50:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1069,7 +1095,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T09:41:58+00:00",
+      "last_seen": "2026-07-17T09:50:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1086,7 +1112,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T09:41:58+00:00",
+      "last_seen": "2026-07-17T09:50:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1103,7 +1129,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T09:41:58+00:00",
+      "last_seen": "2026-07-17T09:50:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1120,7 +1146,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T09:41:58+00:00",
+      "last_seen": "2026-07-17T09:50:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1137,7 +1163,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T09:41:58+00:00",
+      "last_seen": "2026-07-17T09:50:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1154,7 +1180,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T09:41:58+00:00",
+      "last_seen": "2026-07-17T09:50:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1171,7 +1197,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T09:41:58+00:00",
+      "last_seen": "2026-07-17T09:50:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1208,7 +1234,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-17T09:41:58+00:00",
+      "last_seen": "2026-07-17T09:50:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1225,7 +1251,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-17T09:41:58+00:00",
+      "last_seen": "2026-07-17T09:50:17+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1259,7 +1285,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-17T09:41:58+00:00",
-      "last_seen": "2026-07-17T09:41:58+00:00",
+      "last_seen": "2026-07-17T09:50:17+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1278,6 +1304,26 @@
       "plain": "",
       "first_seen": "2026-07-17T06:09:57+00:00",
       "last_seen": "2026-07-17T06:09:57+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "ΨΟΣΠ46ΜΤΛΒ-Ε8Ω",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25452 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στο δεξιό τμήμα του οδοστρώματος της οδού Κασομούλη, στο ύψος του ο.α.97, ρεύμα κυκλοφορίας προς Αμ.Φραντζή, περιοχής Δήμου Αθηναίων, την 19-07-2026, κατά τις ώρες 07.00΄ έως 10.00΄, για την εκτέλεση εργασιών",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΟΣΠ46ΜΤΛΒ-Ε8Ω",
+      "details": "Επίσημη απόφαση Τροχαίας (17/07/2026)",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [
+        "07:00",
+        "10:00"
+      ],
+      "plain": "Διακοπή κυκλοφορίας στην οδό Κασομούλη (ύψος αρ. 97, προς Αμ.Φραντζή, Δήμου Αθηναίων) · 19/7, 07:00–10:00",
+      "first_seen": "2026-07-17T09:50:13+00:00",
+      "last_seen": "2026-07-17T09:50:13+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1397,6 +1443,18 @@
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-07-17T09:50:18+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25452 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στο δεξιό τμήμα του οδοστρώματος της οδού Κασομούλη, στο ύψος του ο.α.97, ρεύμα κυκλοφορίας προς Αμ.Φραντζή, περιοχής Δήμου Αθηναίων, την 19-07-2026, κατά τις ώρες 07.00΄ έως 10.00΄, για την εκτέλεση εργασιών",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΟΣΠ46ΜΤΛΒ-Ε8Ω"
+    },
+    {
+      "time": "2026-07-17T09:50:17+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25450 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες προσωρινές κυκλοφοριακές ρυθμίσεις επί της Ν.Ε.Ο. Αθηνών – Κορίνθου, από την χ/θ 23,200 έως την χ/θ 59,800 , εναλλάξ και στα δύο ρεύματα κυκλοφορίας, περιοχής Δήμων Μάνδρας-Ειδυλλίας και Μεγαρέων, λόγω εκτέλεσης εργασιών διαγράμμισης του οδοστρώ",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΧ0Υ46ΜΤΛΒ-0ΙΑ"
+    },
     {
       "time": "2026-07-17T06:09:58+00:00",
       "source": "ΟΑΣΑ",
@@ -1564,27 +1622,9 @@
       "source": "TomTom (realtime)",
       "title": "🚨 Athinas (Evripidou) → Praxitelous (Evripidou)",
       "url": "https://www.google.com/maps?q=37.9799120272,23.726969772"
-    },
-    {
-      "time": "2026-07-13T21:41:01+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
-      "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212"
-    },
-    {
-      "time": "2026-07-13T21:41:00+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Evripidou (Dimosthenous) → Tagmatarchou Plessa (Dimosthenous)",
-      "url": "https://www.google.com/maps?q=37.9444881187,23.6941207581"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-14T06:05:18+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-14T07:23:00+00:00",
       "new": 0,
@@ -1938,6 +1978,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-17T09:50:18+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
