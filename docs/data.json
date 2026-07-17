@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T17:03:57+00:00",
+  "generated_at": "2026-07-17T17:54:03+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -67,15 +67,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 15,
+      "items": 13,
       "fetched": 28,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 13
+        "κατηγορία εκτός πολιτικής": 15
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T17:03:56+00:00"
+      "last_success": "2026-07-17T17:54:03+00:00"
     }
   ],
   "active_events": [
@@ -309,20 +309,6 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863628013000",
-      "source": "TomTom (realtime)",
-      "title": "Psaromiligkou (Ag. Asomaton) → Dipilou (Ag. Asomaton)",
-      "url": "https://www.google.com/maps?q=37.9794788816,23.7198511892",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-17"
-      ],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51568321972030001",
       "source": "TomTom (realtime)",
       "title": "Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
@@ -341,20 +327,6 @@
       "source": "TomTom (realtime)",
       "title": "Ag. Konstantinou (Sokratous) → Pireos (Tsaldari) (Sokratous)",
       "url": "https://www.google.com/maps?q=37.9843484513,23.7268396848",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-17"
-      ],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749044015000",
-      "source": "TomTom (realtime)",
-      "title": "Kratinou (Athinas) → Efpolidos (Athinas)",
-      "url": "https://www.google.com/maps?q=37.9815320722,23.7273721033",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -1097,7 +1069,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T17:03:56+00:00",
+      "last_seen": "2026-07-17T17:54:03+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1114,7 +1086,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T17:03:56+00:00",
+      "last_seen": "2026-07-17T17:54:03+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1131,7 +1103,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T17:03:56+00:00",
+      "last_seen": "2026-07-17T17:54:03+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1148,7 +1120,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T17:03:56+00:00",
+      "last_seen": "2026-07-17T17:54:03+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1165,7 +1137,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T17:03:56+00:00",
+      "last_seen": "2026-07-17T17:54:03+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1182,7 +1154,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T17:03:56+00:00",
+      "last_seen": "2026-07-17T17:54:03+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1199,7 +1171,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T17:03:56+00:00",
+      "last_seen": "2026-07-17T17:54:03+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1216,7 +1188,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T17:03:56+00:00",
+      "last_seen": "2026-07-17T17:54:03+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1233,7 +1205,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T17:03:56+00:00",
+      "last_seen": "2026-07-17T17:54:03+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1287,7 +1259,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-17T17:03:56+00:00",
+      "last_seen": "2026-07-17T17:54:03+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1304,7 +1276,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T16:07:16+00:00",
-      "last_seen": "2026-07-17T17:03:56+00:00",
+      "last_seen": "2026-07-17T17:54:03+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1321,7 +1293,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-17T17:03:56+00:00",
+      "last_seen": "2026-07-17T17:54:03+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1389,7 +1361,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-17T15:50:55+00:00",
-      "last_seen": "2026-07-17T17:03:56+00:00",
+      "last_seen": "2026-07-17T17:54:03+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1798,12 +1770,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-14T15:52:59+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-14T16:58:27+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2156,6 +2122,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-17T17:54:03+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
