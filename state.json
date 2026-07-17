@@ -130,7 +130,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T20:49:39+00:00"
+      "last_success": "2026-07-17T01:58:40+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -138,12 +138,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 99,
+        "εκτός χρονικού παραθύρου": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T20:49:40+00:00"
+      "last_success": "2026-07-17T01:58:40+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -156,7 +157,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T20:49:40+00:00"
+      "last_success": "2026-07-17T01:58:40+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -167,33 +168,34 @@
       "date_misses": 3,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T20:49:40+00:00"
+      "last_success": "2026-07-17T01:58:40+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 3,
-      "fetched": 13,
+      "items": 2,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10
+        "παλιά ανακοίνωση": 1,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T20:49:40+00:00"
+      "last_success": "2026-07-17T01:58:40+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 12,
-      "fetched": 20,
+      "items": 11,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 8
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-16T22:43:57+00:00"
+      "last_success": "2026-07-17T01:58:40+00:00"
     }
   },
   "active": {
@@ -346,18 +348,6 @@
         "hours": [],
         "plain": "",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 537, 721 και 734, λόγω εργασιών  στον Δήμο Αχαρνών",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
       }
     ],
     "tomtom": [
@@ -416,20 +406,6 @@
         "hours": [],
         "plain": "",
         "new_this_run": false
-      },
-      {
-        "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582748928014000",
-        "source": "TomTom (realtime)",
-        "title": "Voulis (Kolokotroni) → Stadiou (Kolokotroni)",
-        "url": "https://www.google.com/maps?q=37.977312983,23.732859903",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-07-17"
-        ],
-        "hours": [],
-        "plain": "",
-        "new_this_run": true
       },
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863732014000",
@@ -1237,7 +1213,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T22:43:57+00:00",
+      "last_seen": "2026-07-17T01:58:40+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1256,7 +1232,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T22:43:57+00:00",
+      "last_seen": "2026-07-17T01:58:40+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1275,7 +1251,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T22:43:57+00:00",
+      "last_seen": "2026-07-17T01:58:40+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1294,7 +1270,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T22:43:57+00:00",
+      "last_seen": "2026-07-17T01:58:40+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1313,7 +1289,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T22:43:57+00:00",
+      "last_seen": "2026-07-17T01:58:40+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1332,7 +1308,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T22:43:57+00:00",
+      "last_seen": "2026-07-17T01:58:40+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1351,7 +1327,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T22:43:57+00:00",
+      "last_seen": "2026-07-17T01:58:40+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1370,7 +1346,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T22:43:57+00:00",
+      "last_seen": "2026-07-17T01:58:40+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1389,7 +1365,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-16T22:43:57+00:00",
+      "last_seen": "2026-07-17T01:58:40+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1507,7 +1483,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-16T22:43:57+00:00",
+      "last_seen": "2026-07-17T01:58:40+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1583,7 +1559,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-16T22:43:57+00:00",
+      "last_seen": "2026-07-17T01:58:40+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1798,12 +1774,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-13T20:52:18+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-13T21:41:05+00:00",
       "new": 0,
@@ -2157,6 +2127,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-17T01:58:40+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
