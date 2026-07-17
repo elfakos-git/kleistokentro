@@ -208,7 +208,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-17T19:54:31+00:00"
+      "last_success": "2026-07-17T20:39:45+00:00"
     }
   },
   "active": {
@@ -1313,7 +1313,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T19:54:31+00:00",
+      "last_seen": "2026-07-17T20:39:45+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1332,7 +1332,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T19:54:31+00:00",
+      "last_seen": "2026-07-17T20:39:45+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1351,7 +1351,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T19:54:31+00:00",
+      "last_seen": "2026-07-17T20:39:45+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1370,7 +1370,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T19:54:31+00:00",
+      "last_seen": "2026-07-17T20:39:45+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1389,7 +1389,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T19:54:31+00:00",
+      "last_seen": "2026-07-17T20:39:45+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1408,7 +1408,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T19:54:31+00:00",
+      "last_seen": "2026-07-17T20:39:45+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1427,7 +1427,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T19:54:31+00:00",
+      "last_seen": "2026-07-17T20:39:45+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1446,7 +1446,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T19:54:31+00:00",
+      "last_seen": "2026-07-17T20:39:45+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1465,7 +1465,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-17T19:54:31+00:00",
+      "last_seen": "2026-07-17T20:39:45+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1583,7 +1583,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-17T19:54:31+00:00",
+      "last_seen": "2026-07-17T20:39:45+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1640,7 +1640,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T16:07:16+00:00",
-      "last_seen": "2026-07-17T19:54:31+00:00",
+      "last_seen": "2026-07-17T20:39:45+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1659,7 +1659,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-17T19:54:31+00:00",
+      "last_seen": "2026-07-17T20:39:45+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1777,7 +1777,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-17T15:50:55+00:00",
-      "last_seen": "2026-07-17T19:54:31+00:00",
+      "last_seen": "2026-07-17T20:39:45+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2049,12 +2049,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-14T17:58:46+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-14T19:13:30+00:00",
       "new": 0,
@@ -2405,6 +2399,12 @@
     },
     {
       "time": "2026-07-17T19:54:31+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-17T20:39:45+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
