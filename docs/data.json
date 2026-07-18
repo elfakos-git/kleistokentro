@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T09:05:34+00:00",
+  "generated_at": "2026-07-18T09:16:55+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,22 +10,22 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T05:58:34+00:00"
+      "last_success": "2026-07-18T09:16:55+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
-      "items": 2,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 94,
+        "εκτός θέματος/Αθήνας": 98,
         "εκτός χρονικού παραθύρου": 1,
-        "μόνο μία λωρίδα/ΛΕΑ": 3
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T05:58:34+00:00"
+      "last_success": "2026-07-18T09:16:55+00:00"
     },
     {
       "name": "iefimerida",
@@ -36,9 +36,9 @@
         "χωρίς/παλιά ημερομηνία": 9
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T05:58:35+00:00"
+      "last_success": "2026-07-18T09:16:55+00:00"
     },
     {
       "name": "kathimerini",
@@ -49,7 +49,7 @@
       "date_misses": 3,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T05:58:35+00:00"
+      "last_success": "2026-07-18T09:16:55+00:00"
     },
     {
       "name": "oasa",
@@ -62,65 +62,34 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T05:58:35+00:00"
+      "last_success": "2026-07-18T09:16:55+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 21,
+      "fetched": 20,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 11
+        "κατηγορία εκτός πολιτικής": 10
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T09:05:34+00:00"
+      "last_success": "2026-07-18T09:16:55+00:00"
     }
   ],
   "active_events": [
-    {
-      "id": "ΨΧ0Υ46ΜΤΛΒ-0ΙΑ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25450 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες προσωρινές κυκλοφοριακές ρυθμίσεις επί της Ν.Ε.Ο. Αθηνών – Κορίνθου, από την χ/θ 23,200 έως την χ/θ 59,800 , εναλλάξ και στα δύο ρεύματα κυκλοφορίας, περιοχής Δήμων Μάνδρας-Ειδυλλίας και Μεγαρέων, λόγω εκτέλεσης εργασιών διαγράμμισης του οδοστρώ",
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΧ0Υ46ΜΤΛΒ-0ΙΑ",
-      "details": "Επίσημη απόφαση Τροχαίας (17/07/2026)",
-      "area": "Δυτικά",
-      "days": [],
-      "hours": [],
-      "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμων Μάνδρας-Ειδυλλίας και Μεγαρέων · λόγω εργασιών διαγράμμισης του οδοστρώ",
-      "new_this_run": false
-    },
-    {
-      "id": "ΨΟΣΠ46ΜΤΛΒ-Ε8Ω",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25452 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στο δεξιό τμήμα του οδοστρώματος της οδού Κασομούλη, στο ύψος του ο.α.97, ρεύμα κυκλοφορίας προς Αμ.Φραντζή, περιοχής Δήμου Αθηναίων, την 19-07-2026, κατά τις ώρες 07.00΄ έως 10.00΄, για την εκτέλεση εργασιών",
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΟΣΠ46ΜΤΛΒ-Ε8Ω",
-      "details": "Επίσημη απόφαση Τροχαίας (17/07/2026)",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-19"
-      ],
-      "hours": [
-        "07:00",
-        "10:00"
-      ],
-      "plain": "Διακοπή κυκλοφορίας στην οδό Κασομούλη (ύψος αρ. 97, προς Αμ.Φραντζή, Δήμου Αθηναίων) · 19/7, 07:00–10:00",
-      "new_this_run": false
-    },
     {
       "id": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki",
       "source": "iefimerida",
       "title": "Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από την Κυριακή - Ποιοι σταθμοί κλείνουν νωρίτερα",
       "url": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki",
       "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-19"
-      ],
+      "area": "",
+      "days": [],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-3-toy-metro-apo-kyriaki-19-ioylioy",
@@ -1096,7 +1065,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T09:05:34+00:00",
+      "last_seen": "2026-07-18T09:16:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1113,7 +1082,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T09:05:34+00:00",
+      "last_seen": "2026-07-18T09:16:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1130,7 +1099,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T09:05:34+00:00",
+      "last_seen": "2026-07-18T09:16:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1147,7 +1116,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T09:05:34+00:00",
+      "last_seen": "2026-07-18T09:16:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1164,7 +1133,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T09:05:34+00:00",
+      "last_seen": "2026-07-18T09:16:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1181,7 +1150,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T09:05:34+00:00",
+      "last_seen": "2026-07-18T09:16:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1198,7 +1167,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T09:05:34+00:00",
+      "last_seen": "2026-07-18T09:16:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1215,7 +1184,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T09:05:34+00:00",
+      "last_seen": "2026-07-18T09:16:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1232,7 +1201,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T09:05:34+00:00",
+      "last_seen": "2026-07-18T09:16:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1283,7 +1252,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-18T09:05:34+00:00",
+      "last_seen": "2026-07-18T09:16:55+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1726,12 +1695,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-15T07:26:03+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-15T09:25:47+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2084,6 +2047,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-18T09:16:55+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
