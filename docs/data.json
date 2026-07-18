@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T20:38:59+00:00",
+  "generated_at": "2026-07-18T21:37:18+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -68,14 +68,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 17,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 8
+        "κατηγορία εκτός πολιτικής": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T20:38:59+00:00"
+      "last_success": "2026-07-18T21:37:18+00:00"
     }
   ],
   "active_events": [
@@ -255,7 +255,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-07-18"
+        "2026-07-19"
       ],
       "hours": [],
       "plain": "",
@@ -269,7 +269,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-07-18"
+        "2026-07-19"
       ],
       "hours": [],
       "plain": "",
@@ -283,7 +283,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-18"
+        "2026-07-19"
       ],
       "hours": [],
       "plain": "",
@@ -297,7 +297,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-18"
+        "2026-07-19"
       ],
       "hours": [],
       "plain": "",
@@ -311,7 +311,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-18"
+        "2026-07-19"
       ],
       "hours": [],
       "plain": "",
@@ -325,7 +325,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-18"
+        "2026-07-19"
       ],
       "hours": [],
       "plain": "",
@@ -339,7 +339,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-18"
+        "2026-07-19"
       ],
       "hours": [],
       "plain": "",
@@ -353,7 +353,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-18"
+        "2026-07-19"
       ],
       "hours": [],
       "plain": "",
@@ -367,7 +367,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-18"
+        "2026-07-19"
       ],
       "hours": [],
       "plain": "",
@@ -393,124 +393,6 @@
       "plain": "",
       "first_seen": "2026-07-08T07:27:30+00:00",
       "last_seen": "2026-07-08T07:27:30+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "9ΣΕΩ46ΜΤΛΒ-ΡΟΡ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25416-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Ολικός αποκλεισμός του κλάδου εξόδου προς την Λεωφ. Κύμης- Ολ. Στάδιο κόμβος (10Β) της Αττικής Οδού, στην κατεύθυνση προς Ελευσίνα, περιοχής Δήμου Ηρακλείου, την 11.07.2026, κατά τις ώρες 23.00΄ έως την 08.00΄ ώρα της επομένης, για την εκτέλεση εργασιών ",
-      "url": "https://diavgeia.gov.gr/decision/view/9ΣΕΩ46ΜΤΛΒ-ΡΟΡ",
-      "details": "Επίσημη απόφαση Τροχαίας (07/07/2026)",
-      "area": "Δυτικά",
-      "days": [
-        "2026-07-11"
-      ],
-      "hours": [],
-      "first_seen": null,
-      "last_seen": null,
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51588520084004000",
-      "source": "TomTom (realtime)",
-      "title": "Laodikias (Papadiamantopoulou) → Mihalakopoulou (Papadiamantopoulou)",
-      "url": "https://www.google.com/maps?q=37.9792884051,23.7567020589",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-11"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-11T01:56:31+00:00",
-      "last_seen": "2026-07-11T01:56:31+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51585634536013001",
-      "source": "TomTom (realtime)",
-      "title": "Ακαδημίας / Αμερικής → Σόλωνος",
-      "url": "https://www.google.com/maps?q=37.9789169645,23.7364580863",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-11"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-11T07:24:09+00:00",
-      "last_seen": "2026-07-11T07:24:09+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51585634504014000",
-      "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Βασιλίσσης Σοφίας / Ριζάρη → Πατριάρχου Ιωακείμ",
-      "url": "https://www.google.com/maps?q=37.977217775,23.7453201049",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-11"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-11T07:24:09+00:00",
-      "last_seen": "2026-07-11T09:20:00+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51608717876013000",
-      "source": "TomTom (realtime)",
-      "title": "Komninon (Tataoulon) → Karaoli - Dimitriou (Tataoulon)",
-      "url": "https://www.google.com/maps?q=37.9535257825,23.7577709192",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Νότια",
-      "days": [
-        "2026-07-11"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-11T09:02:26+00:00",
-      "last_seen": "2026-07-11T14:15:16+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51579863700013000",
-      "source": "TomTom (realtime)",
-      "title": "Πειραιώς / Σοφοκλέους → Αχιλλέως",
-      "url": "https://www.google.com/maps?q=37.9818526283,23.7230027848",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Νότια",
-      "days": [
-        "2026-07-11"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-11T11:40:31+00:00",
-      "last_seen": "2026-07-11T11:40:31+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749260013000",
-      "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Αλεξάνδρας → Αν. Τσόχα",
-      "url": "https://www.google.com/maps?q=37.9876046269,23.7553327912",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-11"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-11T15:27:05+00:00",
-      "last_seen": "2026-07-11T20:35:12+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -1039,159 +921,6 @@
       "status": "ended"
     },
     {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51574092528022000",
-      "source": "TomTom (realtime)",
-      "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
-      "url": "https://www.google.com/maps?q=37.9774685794,23.6918153995",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Δυτικά",
-      "days": [
-        "2026-07-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T20:38:59+00:00",
-      "extended": true,
-      "status": "active"
-    },
-    {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51600061312012000",
-      "source": "TomTom (realtime)",
-      "title": "Evripidou (Dimosthenous) → Tagmatarchou Plessa (Dimosthenous)",
-      "url": "https://www.google.com/maps?q=37.9444881187,23.6941207581",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Δυτικά",
-      "days": [
-        "2026-07-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T20:38:59+00:00",
-      "extended": true,
-      "status": "active"
-    },
-    {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51568321972030001",
-      "source": "TomTom (realtime)",
-      "title": "Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
-      "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Βόρεια",
-      "days": [
-        "2026-07-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T20:38:59+00:00",
-      "extended": true,
-      "status": "active"
-    },
-    {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749080021000",
-      "source": "TomTom (realtime)",
-      "title": "Athinas (Evripidou) → Praxitelous (Evripidou)",
-      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T20:38:59+00:00",
-      "extended": true,
-      "status": "active"
-    },
-    {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863732014000",
-      "source": "TomTom (realtime)",
-      "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
-      "url": "https://www.google.com/maps?q=37.990176883,23.7386937076",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T20:38:59+00:00",
-      "extended": true,
-      "status": "active"
-    },
-    {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594290660014001",
-      "source": "TomTom (realtime)",
-      "title": "Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
-      "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T20:38:59+00:00",
-      "extended": true,
-      "status": "active"
-    },
-    {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594290768011000",
-      "source": "TomTom (realtime)",
-      "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
-      "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T20:38:59+00:00",
-      "extended": true,
-      "status": "active"
-    },
-    {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594291004012000",
-      "source": "TomTom (realtime)",
-      "title": "Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
-      "url": "https://www.google.com/maps?q=37.9818740999,23.769882434",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-07-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T20:38:59+00:00",
-      "extended": true,
-      "status": "active"
-    },
-    {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594291000004000",
-      "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
-      "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-07-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T20:38:59+00:00",
-      "extended": true,
-      "status": "active"
-    },
-    {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488712006000",
       "source": "TomTom (realtime)",
       "title": "Dimokratias Ave (Ag. Marinas) → Geranion (Ag. Marinas)",
@@ -1206,7 +935,7 @@
       "first_seen": "2026-07-16T10:00:43+00:00",
       "last_seen": "2026-07-18T05:58:35+00:00",
       "extended": true,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116013000",
@@ -1223,7 +952,7 @@
       "first_seen": "2026-07-16T16:07:16+00:00",
       "last_seen": "2026-07-17T21:38:02+00:00",
       "extended": true,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488784006000",
@@ -1240,7 +969,7 @@
       "first_seen": "2026-07-16T17:06:55+00:00",
       "last_seen": "2026-07-18T17:26:50+00:00",
       "extended": true,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749116023000",
@@ -1257,7 +986,7 @@
       "first_seen": "2026-07-17T15:50:55+00:00",
       "last_seen": "2026-07-17T21:38:02+00:00",
       "extended": true,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863664010000",
@@ -1274,7 +1003,7 @@
       "first_seen": "2026-07-17T22:35:44+00:00",
       "last_seen": "2026-07-17T22:35:44+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749012015000",
@@ -1291,7 +1020,7 @@
       "first_seen": "2026-07-18T01:47:58+00:00",
       "last_seen": "2026-07-18T05:13:24+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488740022000",
@@ -1308,6 +1037,159 @@
       "first_seen": "2026-07-18T14:12:19+00:00",
       "last_seen": "2026-07-18T15:26:04+00:00",
       "extended": false,
+      "status": "ended"
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51574092528022000",
+      "source": "TomTom (realtime)",
+      "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
+      "url": "https://www.google.com/maps?q=37.9774685794,23.6918153995",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Δυτικά",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-18T21:37:18+00:00",
+      "extended": true,
+      "status": "active"
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51600061312012000",
+      "source": "TomTom (realtime)",
+      "title": "Evripidou (Dimosthenous) → Tagmatarchou Plessa (Dimosthenous)",
+      "url": "https://www.google.com/maps?q=37.9444881187,23.6941207581",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Δυτικά",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-18T21:37:18+00:00",
+      "extended": true,
+      "status": "active"
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51568321972030001",
+      "source": "TomTom (realtime)",
+      "title": "Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
+      "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Βόρεια",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-18T21:37:18+00:00",
+      "extended": true,
+      "status": "active"
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749080021000",
+      "source": "TomTom (realtime)",
+      "title": "Athinas (Evripidou) → Praxitelous (Evripidou)",
+      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-18T21:37:18+00:00",
+      "extended": true,
+      "status": "active"
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863732014000",
+      "source": "TomTom (realtime)",
+      "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
+      "url": "https://www.google.com/maps?q=37.990176883,23.7386937076",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-18T21:37:18+00:00",
+      "extended": true,
+      "status": "active"
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594290660014001",
+      "source": "TomTom (realtime)",
+      "title": "Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
+      "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-18T21:37:18+00:00",
+      "extended": true,
+      "status": "active"
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594290768011000",
+      "source": "TomTom (realtime)",
+      "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
+      "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-18T21:37:18+00:00",
+      "extended": true,
+      "status": "active"
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594291004012000",
+      "source": "TomTom (realtime)",
+      "title": "Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
+      "url": "https://www.google.com/maps?q=37.9818740999,23.769882434",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-18T21:37:18+00:00",
+      "extended": true,
+      "status": "active"
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594291000004000",
+      "source": "TomTom (realtime)",
+      "title": "Λεωφόρος Γεωργίου Παπανδρέου / Λοχαγού Σπηλιωτοπούλου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
+      "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-13T11:46:29+00:00",
+      "last_seen": "2026-07-18T21:37:18+00:00",
+      "extended": true,
       "status": "active"
     },
     {
@@ -1326,7 +1208,7 @@
       "first_seen": "2026-07-17T06:09:57+00:00",
       "last_seen": "2026-07-17T06:09:57+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "ΨΟΣΠ46ΜΤΛΒ-Ε8Ω",
@@ -1346,7 +1228,7 @@
       "first_seen": "2026-07-17T09:50:13+00:00",
       "last_seen": "2026-07-18T05:58:34+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-3-toy-metro-apo-kyriaki-19-ioylioy",
@@ -1363,7 +1245,7 @@
       "first_seen": "2026-07-17T17:03:54+00:00",
       "last_seen": "2026-07-17T17:03:54+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
@@ -1380,7 +1262,7 @@
       "first_seen": "2026-07-17T17:03:56+00:00",
       "last_seen": "2026-07-17T17:03:56+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki",
@@ -1397,7 +1279,7 @@
       "first_seen": "2026-07-18T05:58:35+00:00",
       "last_seen": "2026-07-18T05:58:35+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.kathimerini.gr/society/564255967/notia-proastia-kykloforiakes-rythmiseis-stis-30-ma-oy-logo-podilatikoy-agona/",
@@ -1697,12 +1579,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-15T21:48:03+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-15T22:44:15+00:00",
       "new": 0,
@@ -2056,6 +1932,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-18T21:37:18+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
