@@ -203,15 +203,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 22,
+      "items": 9,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 12
+        "κατηγορία εκτός πολιτικής": 8
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T17:26:50+00:00"
+      "last_success": "2026-07-18T18:13:50+00:00"
     }
   },
   "active": {
@@ -458,20 +458,6 @@
         "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
-        "days": [
-          "2026-07-18"
-        ],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488784006000",
-        "source": "TomTom (realtime)",
-        "title": "Patriarchou Grigoriou E Ave (Ag. Marinas) → Dimokratias Ave (Ag. Marinas)",
-        "url": "https://www.google.com/maps?q=37.94511706,23.756664508",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Νότια",
         "days": [
           "2026-07-18"
         ],
@@ -1158,7 +1144,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T17:26:50+00:00",
+      "last_seen": "2026-07-18T18:13:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1177,7 +1163,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T17:26:50+00:00",
+      "last_seen": "2026-07-18T18:13:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1196,7 +1182,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T17:26:50+00:00",
+      "last_seen": "2026-07-18T18:13:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1215,7 +1201,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T17:26:50+00:00",
+      "last_seen": "2026-07-18T18:13:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1234,7 +1220,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T17:26:50+00:00",
+      "last_seen": "2026-07-18T18:13:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1253,7 +1239,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T17:26:50+00:00",
+      "last_seen": "2026-07-18T18:13:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1272,7 +1258,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T17:26:50+00:00",
+      "last_seen": "2026-07-18T18:13:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1291,7 +1277,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T17:26:50+00:00",
+      "last_seen": "2026-07-18T18:13:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1310,7 +1296,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T17:26:50+00:00",
+      "last_seen": "2026-07-18T18:13:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1971,12 +1957,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-15T18:49:26+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-15T19:58:43+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2326,6 +2306,12 @@
     },
     {
       "time": "2026-07-18T17:26:50+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-18T18:13:50+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
