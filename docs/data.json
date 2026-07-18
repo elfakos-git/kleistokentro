@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T16:47:41+00:00",
+  "generated_at": "2026-07-18T17:26:50+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -66,14 +66,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 17,
+      "fetched": 22,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 7
+        "κατηγορία εκτός πολιτικής": 12
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T16:47:41+00:00"
+      "last_success": "2026-07-18T17:26:50+00:00"
     }
   ],
   "active_events": [
@@ -322,8 +322,8 @@
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488784006000",
       "source": "TomTom (realtime)",
-      "title": "Geranion (Ag. Marinas) → Dimokratias Ave (Ag. Marinas)",
-      "url": "https://www.google.com/maps?q=37.9450245204,23.7567905718",
+      "title": "Patriarchou Grigoriou E Ave (Ag. Marinas) → Dimokratias Ave (Ag. Marinas)",
+      "url": "https://www.google.com/maps?q=37.94511706,23.756664508",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Νότια",
       "days": [
@@ -1039,7 +1039,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T16:47:41+00:00",
+      "last_seen": "2026-07-18T17:26:50+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1056,7 +1056,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T16:47:41+00:00",
+      "last_seen": "2026-07-18T17:26:50+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1073,7 +1073,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T16:47:41+00:00",
+      "last_seen": "2026-07-18T17:26:50+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1090,7 +1090,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T16:47:41+00:00",
+      "last_seen": "2026-07-18T17:26:50+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1107,7 +1107,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T16:47:41+00:00",
+      "last_seen": "2026-07-18T17:26:50+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1124,7 +1124,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T16:47:41+00:00",
+      "last_seen": "2026-07-18T17:26:50+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1141,7 +1141,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T16:47:41+00:00",
+      "last_seen": "2026-07-18T17:26:50+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1158,7 +1158,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T16:47:41+00:00",
+      "last_seen": "2026-07-18T17:26:50+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1175,7 +1175,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T16:47:41+00:00",
+      "last_seen": "2026-07-18T17:26:50+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1216,8 +1216,8 @@
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488784006000",
       "source": "TomTom (realtime)",
-      "title": "Geranion (Ag. Marinas) → Dimokratias Ave (Ag. Marinas)",
-      "url": "https://www.google.com/maps?q=37.9450245204,23.7567905718",
+      "title": "Patriarchou Grigoriou E Ave (Ag. Marinas) → Dimokratias Ave (Ag. Marinas)",
+      "url": "https://www.google.com/maps?q=37.94511706,23.756664508",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Νότια",
       "days": [
@@ -1226,7 +1226,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-18T16:47:41+00:00",
+      "last_seen": "2026-07-18T17:26:50+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1686,12 +1686,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-15T17:42:27+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-15T18:49:26+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2044,6 +2038,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-18T17:26:50+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
