@@ -125,7 +125,8 @@
     "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-3-toy-metro-apo-kyriaki-19-ioylioy",
     "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863664010000",
-    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749012015000"
+    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749012015000",
+    "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki"
   ],
   "seeded": [
     "astynomia",
@@ -145,7 +146,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T01:47:58+00:00"
+      "last_success": "2026-07-18T05:58:34+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -160,20 +161,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T01:47:58+00:00"
+      "last_success": "2026-07-18T05:58:34+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 1,
+      "items": 2,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 10
+        "χωρίς/παλιά ημερομηνία": 9
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T01:47:58+00:00"
+      "last_success": "2026-07-18T05:58:35+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -184,31 +185,33 @@
       "date_misses": 3,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T01:47:58+00:00"
+      "last_success": "2026-07-18T05:58:35+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 0,
-      "fetched": 0,
-      "dropped": {},
-      "date_misses": 0,
+      "items": 2,
+      "fetched": 13,
+      "dropped": {
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 11
+      },
+      "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T01:47:58+00:00"
+      "last_success": "2026-07-18T05:58:35+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 12,
-      "fetched": 18,
+      "items": 11,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T05:13:24+00:00"
+      "last_success": "2026-07-18T05:58:35+00:00"
     }
   },
   "active": {
@@ -245,6 +248,20 @@
       }
     ],
     "iefimerida": [
+      {
+        "id": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki",
+        "source": "iefimerida",
+        "title": "Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από την Κυριακή - Ποιοι σταθμοί κλείνουν νωρίτερα",
+        "url": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki",
+        "details": "",
+        "area": "Κέντρο",
+        "days": [
+          "2026-07-19"
+        ],
+        "hours": [],
+        "plain": "",
+        "new_this_run": true
+      },
       {
         "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-3-toy-metro-apo-kyriaki-19-ioylioy",
         "source": "iefimerida",
@@ -380,7 +397,32 @@
         "new_this_run": false
       }
     ],
-    "oasa": [],
+    "oasa": [
+      {
+        "id": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
+        "source": "ΟΑΣΑ",
+        "title": "Κυκλοφοριακές ρυθμίσεις στη γραμμή 3 του Μετρό από την Κυριακή 19 Ιουνίου",
+        "url": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 830 και 837 λόγω των εκδηλώσεων για τους εορτασμούς του Ι.Ν. Προφήτη Ηλία στον Δήμο Αγίας Βαρβάρας",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      }
+    ],
     "tomtom": [
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51574092528022000",
@@ -429,20 +471,6 @@
         "source": "TomTom (realtime)",
         "title": "Athinas (Evripidou) → Praxitelous (Evripidou)",
         "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-07-18"
-        ],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749012015000",
-        "source": "TomTom (realtime)",
-        "title": "Σταδίου / Εδουάρδου Λω → Δραγατσανίου / Πλατεία Αγίων Θεοδώρων",
-        "url": "https://www.google.com/maps?q=37.9782289818,23.7312224143",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -511,7 +539,7 @@
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488712006000",
         "source": "TomTom (realtime)",
-        "title": "Dimokratias Ave (Ag. Marinas) → Kassandras (Ag. Marinas)",
+        "title": "Dimokratias Ave (Ag. Marinas) → Geranion (Ag. Marinas)",
         "url": "https://www.google.com/maps?q=37.9460062278,23.7554776305",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Νότια",
@@ -1201,7 +1229,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T05:13:24+00:00",
+      "last_seen": "2026-07-18T05:58:35+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1220,7 +1248,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T05:13:24+00:00",
+      "last_seen": "2026-07-18T05:58:35+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1239,7 +1267,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T05:13:24+00:00",
+      "last_seen": "2026-07-18T05:58:35+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1258,7 +1286,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T05:13:24+00:00",
+      "last_seen": "2026-07-18T05:58:35+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1277,7 +1305,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T05:13:24+00:00",
+      "last_seen": "2026-07-18T05:58:35+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1296,7 +1324,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T05:13:24+00:00",
+      "last_seen": "2026-07-18T05:58:35+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1315,7 +1343,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T05:13:24+00:00",
+      "last_seen": "2026-07-18T05:58:35+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1334,7 +1362,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T05:13:24+00:00",
+      "last_seen": "2026-07-18T05:58:35+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1353,7 +1381,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T05:13:24+00:00",
+      "last_seen": "2026-07-18T05:58:35+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1461,7 +1489,7 @@
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488712006000": {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488712006000",
       "source": "TomTom (realtime)",
-      "title": "Dimokratias Ave (Ag. Marinas) → Kassandras (Ag. Marinas)",
+      "title": "Dimokratias Ave (Ag. Marinas) → Geranion (Ag. Marinas)",
       "url": "https://www.google.com/maps?q=37.9460062278,23.7554776305",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Νότια",
@@ -1471,7 +1499,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-18T05:13:24+00:00",
+      "last_seen": "2026-07-18T05:58:35+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1547,7 +1575,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-18T05:13:24+00:00",
+      "last_seen": "2026-07-18T05:58:35+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1627,7 +1655,7 @@
       ],
       "plain": "Διακοπή κυκλοφορίας στην οδό Κασομούλη (ύψος αρ. 97, προς Αμ.Φραντζή, Δήμου Αθηναίων) · 19/7, 07:00–10:00",
       "first_seen": "2026-07-17T09:50:13+00:00",
-      "last_seen": "2026-07-18T01:47:58+00:00",
+      "last_seen": "2026-07-18T05:58:34+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1784,6 +1812,25 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki": {
+      "id": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki",
+      "source": "iefimerida",
+      "title": "Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από την Κυριακή - Ποιοι σταθμοί κλείνουν νωρίτερα",
+      "url": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-18T05:58:35+00:00",
+      "last_seen": "2026-07-18T05:58:35+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1793,12 +1840,6 @@
     "151797168": "2026-07-18"
   },
   "notifications": [
-    {
-      "time": "2026-07-13T21:41:05+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
-      "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095"
-    },
     {
       "time": "2026-07-13T21:41:05+00:00",
       "source": "TomTom (realtime)",
@@ -1972,15 +2013,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-07-18T05:58:35+00:00",
+      "source": "iefimerida",
+      "title": "🚨 Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από την Κυριακή - Ποιοι σταθμοί κλείνουν νωρίτερα",
+      "url": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-15T01:44:46+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-15T05:18:55+00:00",
       "new": 0,
@@ -2334,6 +2375,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-18T05:58:35+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
