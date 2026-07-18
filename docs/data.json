@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T15:26:04+00:00",
+  "generated_at": "2026-07-18T16:24:20+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -67,15 +67,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
+      "items": 10,
       "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T15:26:04+00:00"
+      "last_success": "2026-07-18T16:24:20+00:00"
     }
   ],
   "active_events": [
@@ -338,20 +338,6 @@
       "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
-      "days": [
-        "2026-07-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488740022000",
-      "source": "TomTom (realtime)",
-      "title": "Ag. Marinas (Patriarchou Grigoriou E Ave) → Artakis (Patriarchou Grigoriou E Ave)",
-      "url": "https://www.google.com/maps?q=37.9450795154,23.7566189104",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Νότια",
       "days": [
         "2026-07-18"
       ],
@@ -1079,7 +1065,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T15:26:04+00:00",
+      "last_seen": "2026-07-18T16:24:20+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1096,7 +1082,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T15:26:04+00:00",
+      "last_seen": "2026-07-18T16:24:20+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1113,7 +1099,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T15:26:04+00:00",
+      "last_seen": "2026-07-18T16:24:20+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1130,7 +1116,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T15:26:04+00:00",
+      "last_seen": "2026-07-18T16:24:20+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1147,7 +1133,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T15:26:04+00:00",
+      "last_seen": "2026-07-18T16:24:20+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1164,7 +1150,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T15:26:04+00:00",
+      "last_seen": "2026-07-18T16:24:20+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1181,7 +1167,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T15:26:04+00:00",
+      "last_seen": "2026-07-18T16:24:20+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1198,7 +1184,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T15:26:04+00:00",
+      "last_seen": "2026-07-18T16:24:20+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1215,7 +1201,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T15:26:04+00:00",
+      "last_seen": "2026-07-18T16:24:20+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1266,7 +1252,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-18T15:26:04+00:00",
+      "last_seen": "2026-07-18T16:24:20+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1726,12 +1712,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-15T16:11:19+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-15T17:08:44+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2081,6 +2061,12 @@
     },
     {
       "time": "2026-07-18T15:26:04+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-18T16:24:20+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
