@@ -201,14 +201,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 17,
+      "fetched": 18,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T01:47:58+00:00"
+      "last_success": "2026-07-18T05:13:24+00:00"
     }
   },
   "active": {
@@ -442,7 +442,7 @@
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749012015000",
         "source": "TomTom (realtime)",
         "title": "Σταδίου / Εδουάρδου Λω → Δραγατσανίου / Πλατεία Αγίων Θεοδώρων",
-        "url": "https://www.google.com/maps?q=37.9782330121,23.7319479519",
+        "url": "https://www.google.com/maps?q=37.9782289818,23.7312224143",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -450,7 +450,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863732014000",
@@ -511,7 +511,7 @@
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488712006000",
         "source": "TomTom (realtime)",
-        "title": "Dimokratias Ave (Ag. Marinas) → Olimpou (Ag. Marinas)",
+        "title": "Dimokratias Ave (Ag. Marinas) → Kassandras (Ag. Marinas)",
         "url": "https://www.google.com/maps?q=37.9460062278,23.7554776305",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Νότια",
@@ -1201,7 +1201,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T01:47:58+00:00",
+      "last_seen": "2026-07-18T05:13:24+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1220,7 +1220,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T01:47:58+00:00",
+      "last_seen": "2026-07-18T05:13:24+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1239,7 +1239,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T01:47:58+00:00",
+      "last_seen": "2026-07-18T05:13:24+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1258,7 +1258,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T01:47:58+00:00",
+      "last_seen": "2026-07-18T05:13:24+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1277,7 +1277,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T01:47:58+00:00",
+      "last_seen": "2026-07-18T05:13:24+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1296,7 +1296,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T01:47:58+00:00",
+      "last_seen": "2026-07-18T05:13:24+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1315,7 +1315,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T01:47:58+00:00",
+      "last_seen": "2026-07-18T05:13:24+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1334,7 +1334,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T01:47:58+00:00",
+      "last_seen": "2026-07-18T05:13:24+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1353,7 +1353,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T01:47:58+00:00",
+      "last_seen": "2026-07-18T05:13:24+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1461,7 +1461,7 @@
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488712006000": {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488712006000",
       "source": "TomTom (realtime)",
-      "title": "Dimokratias Ave (Ag. Marinas) → Olimpou (Ag. Marinas)",
+      "title": "Dimokratias Ave (Ag. Marinas) → Kassandras (Ag. Marinas)",
       "url": "https://www.google.com/maps?q=37.9460062278,23.7554776305",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Νότια",
@@ -1471,7 +1471,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T10:00:43+00:00",
-      "last_seen": "2026-07-18T01:47:58+00:00",
+      "last_seen": "2026-07-18T05:13:24+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1547,7 +1547,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-16T17:06:55+00:00",
-      "last_seen": "2026-07-18T01:47:58+00:00",
+      "last_seen": "2026-07-18T05:13:24+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1770,7 +1770,7 @@
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749012015000",
       "source": "TomTom (realtime)",
       "title": "Σταδίου / Εδουάρδου Λω → Δραγατσανίου / Πλατεία Αγίων Θεοδώρων",
-      "url": "https://www.google.com/maps?q=37.9782330121,23.7319479519",
+      "url": "https://www.google.com/maps?q=37.9782289818,23.7312224143",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -1779,7 +1779,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-18T01:47:58+00:00",
-      "last_seen": "2026-07-18T01:47:58+00:00",
+      "last_seen": "2026-07-18T05:13:24+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1790,15 +1790,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-07-17"
+    "151797168": "2026-07-18"
   },
   "notifications": [
-    {
-      "time": "2026-07-13T21:41:04+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
-      "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437"
-    },
     {
       "time": "2026-07-13T21:41:05+00:00",
       "source": "TomTom (realtime)",
@@ -1972,15 +1966,15 @@
       "source": "ΟΑΣΑ",
       "title": "🚨 Κυκλοφοριακές ρυθμίσεις στη γραμμή 3 του Μετρό από την Κυριακή 19 Ιουνίου",
       "url": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/"
+    },
+    {
+      "time": "2026-07-18T05:13:25+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-14T22:42:48+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-15T01:44:46+00:00",
       "new": 0,
@@ -2334,6 +2328,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-18T05:13:25+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
