@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T16:40:22+00:00",
+  "generated_at": "2026-07-19T16:49:00+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-19T12:59:41+00:00"
+      "last_success": "2026-07-19T16:49:00+00:00"
     },
     {
       "name": "diavgeia",
@@ -25,7 +25,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-19T12:59:41+00:00"
+      "last_success": "2026-07-19T16:49:00+00:00"
     },
     {
       "name": "iefimerida",
@@ -38,7 +38,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-19T12:59:41+00:00"
+      "last_success": "2026-07-19T16:49:00+00:00"
     },
     {
       "name": "kathimerini",
@@ -47,9 +47,9 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 2,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-19T12:59:42+00:00"
+      "last_success": "2026-07-19T16:49:00+00:00"
     },
     {
       "name": "oasa",
@@ -62,7 +62,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-19T12:59:42+00:00"
+      "last_success": "2026-07-19T16:49:00+00:00"
     },
     {
       "name": "tomtom",
@@ -75,7 +75,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-19T16:40:22+00:00"
+      "last_success": "2026-07-19T16:49:00+00:00"
     }
   ],
   "active_events": [
@@ -138,13 +138,11 @@
       "title": "Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από σήμερα – Ποιοι σταθμοί κλείνουν νωρίτερα",
       "url": "https://www.kathimerini.gr/society/564353860/metro-kykloforiakes-rythmiseis-sti-grammi-3-apo-simera-poioi-stathmoi-kleinoyn-noritera/",
       "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-19"
-      ],
+      "area": "",
+      "days": [],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.kathimerini.gr/society/564340552/attiki-odos-nychterines-rythmiseis-ston-komvo-metamorfosis-pote-tha-kleisoyn-oi-exodoi-pros-lamia/",
@@ -1119,7 +1117,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T16:40:22+00:00",
+      "last_seen": "2026-07-19T16:49:00+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1153,7 +1151,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T16:40:22+00:00",
+      "last_seen": "2026-07-19T16:49:00+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1170,7 +1168,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T16:40:22+00:00",
+      "last_seen": "2026-07-19T16:49:00+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1187,7 +1185,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T16:40:22+00:00",
+      "last_seen": "2026-07-19T16:49:00+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1204,7 +1202,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T16:40:22+00:00",
+      "last_seen": "2026-07-19T16:49:00+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1221,7 +1219,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T16:40:22+00:00",
+      "last_seen": "2026-07-19T16:49:00+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1238,7 +1236,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T16:40:22+00:00",
+      "last_seen": "2026-07-19T16:49:00+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1255,7 +1253,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T16:40:22+00:00",
+      "last_seen": "2026-07-19T16:49:00+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1378,7 +1376,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-19T05:39:37+00:00",
-      "last_seen": "2026-07-19T16:40:22+00:00",
+      "last_seen": "2026-07-19T16:49:00+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1501,7 +1499,7 @@
       ],
       "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 20/7, 00:01–04:30 · λόγω εργασιών εκφόρτωσης δομικών υλικών",
       "first_seen": "2026-07-19T09:46:17+00:00",
-      "last_seen": "2026-07-19T12:59:41+00:00",
+      "last_seen": "2026-07-19T16:49:00+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1803,12 +1801,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-16T18:50:48+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-16T19:52:39+00:00",
       "new": 0,
@@ -2162,6 +2154,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-19T16:49:00+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
