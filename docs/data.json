@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T18:43:17+00:00",
+  "generated_at": "2026-07-19T19:59:26+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -67,15 +67,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 17,
+      "items": 11,
+      "fetched": 18,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-19T18:43:17+00:00"
+      "last_success": "2026-07-19T19:59:26+00:00"
     }
   ],
   "active_events": [
@@ -353,6 +353,20 @@
       "hours": [],
       "plain": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51562551236023000",
+      "source": "TomTom (realtime)",
+      "title": "Genisarli (Konstantinoupoleos Ave) → Alkinoou (Konstantinoupoleos Ave)",
+      "url": "https://www.google.com/maps?q=38.0067958112,23.7204050654",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Βόρεια",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749080021000",
@@ -1131,7 +1145,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T18:43:17+00:00",
+      "last_seen": "2026-07-19T19:59:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1148,7 +1162,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T18:43:17+00:00",
+      "last_seen": "2026-07-19T19:59:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1165,7 +1179,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T18:43:17+00:00",
+      "last_seen": "2026-07-19T19:59:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1182,7 +1196,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T18:43:17+00:00",
+      "last_seen": "2026-07-19T19:59:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1199,7 +1213,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T18:43:17+00:00",
+      "last_seen": "2026-07-19T19:59:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1216,7 +1230,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T18:43:17+00:00",
+      "last_seen": "2026-07-19T19:59:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1233,7 +1247,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T18:43:17+00:00",
+      "last_seen": "2026-07-19T19:59:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1250,7 +1264,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T18:43:17+00:00",
+      "last_seen": "2026-07-19T19:59:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1267,7 +1281,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T18:43:17+00:00",
+      "last_seen": "2026-07-19T19:59:26+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1390,7 +1404,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-19T05:39:37+00:00",
-      "last_seen": "2026-07-19T18:43:17+00:00",
+      "last_seen": "2026-07-19T19:59:26+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1425,6 +1439,23 @@
       "plain": "",
       "first_seen": "2026-07-19T12:59:42+00:00",
       "last_seen": "2026-07-19T12:59:42+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51562551236023000",
+      "source": "TomTom (realtime)",
+      "title": "Genisarli (Konstantinoupoleos Ave) → Alkinoou (Konstantinoupoleos Ave)",
+      "url": "https://www.google.com/maps?q=38.0067958112,23.7204050654",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Βόρεια",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-19T19:59:26+00:00",
+      "last_seen": "2026-07-19T19:59:26+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1816,12 +1847,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-16T20:49:40+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-07-16T21:51:43+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2171,6 +2196,12 @@
     },
     {
       "time": "2026-07-19T18:43:17+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-19T19:59:26+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
