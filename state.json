@@ -128,7 +128,8 @@
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749012015000",
     "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki",
     "ΨΠΔΨ46ΜΤΛΒ-ΗΝΦ",
-    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488740022000"
+    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488740022000",
+    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51585634396014000"
   ],
   "seeded": [
     "astynomia",
@@ -148,7 +149,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T20:38:59+00:00"
+      "last_success": "2026-07-19T01:57:32+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -156,14 +157,14 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 98,
-        "εκτός χρονικού παραθύρου": 1,
+        "εκτός θέματος/Αθήνας": 97,
+        "εκτός χρονικού παραθύρου": 2,
         "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T20:38:59+00:00"
+      "last_success": "2026-07-19T01:57:32+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -176,7 +177,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T20:38:59+00:00"
+      "last_success": "2026-07-19T01:57:32+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -187,7 +188,7 @@
       "date_misses": 3,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T20:38:59+00:00"
+      "last_success": "2026-07-19T01:57:32+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -200,20 +201,20 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T20:38:59+00:00"
+      "last_success": "2026-07-19T01:57:32+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 15,
+      "items": 10,
+      "fetched": 16,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-18T22:34:41+00:00"
+      "last_success": "2026-07-19T01:57:32+00:00"
     }
   },
   "active": {
@@ -463,6 +464,20 @@
         "hours": [],
         "plain": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51585634396014000",
+        "source": "TomTom (realtime)",
+        "title": "Λουκιανού → Πλουτάρχου",
+        "url": "https://www.google.com/maps?q=37.9768664096,23.7438904875",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-07-19"
+        ],
+        "hours": [],
+        "plain": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594290660014001",
@@ -1039,7 +1054,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T22:34:41+00:00",
+      "last_seen": "2026-07-19T01:57:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1058,7 +1073,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T22:34:41+00:00",
+      "last_seen": "2026-07-19T01:57:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1077,7 +1092,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T22:34:41+00:00",
+      "last_seen": "2026-07-19T01:57:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1096,7 +1111,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T22:34:41+00:00",
+      "last_seen": "2026-07-19T01:57:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1115,7 +1130,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T22:34:41+00:00",
+      "last_seen": "2026-07-19T01:57:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1134,7 +1149,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T22:34:41+00:00",
+      "last_seen": "2026-07-19T01:57:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1153,7 +1168,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T22:34:41+00:00",
+      "last_seen": "2026-07-19T01:57:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1172,7 +1187,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T22:34:41+00:00",
+      "last_seen": "2026-07-19T01:57:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1191,7 +1206,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-18T22:34:41+00:00",
+      "last_seen": "2026-07-19T01:57:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1660,6 +1675,25 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51585634396014000": {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51585634396014000",
+      "source": "TomTom (realtime)",
+      "title": "Λουκιανού → Πλουτάρχου",
+      "url": "https://www.google.com/maps?q=37.9768664096,23.7438904875",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-19T01:57:32+00:00",
+      "last_seen": "2026-07-19T01:57:32+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1851,12 +1885,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-16T01:54:50+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-16T05:28:55+00:00",
       "new": 0,
@@ -2210,6 +2238,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-19T01:57:32+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
