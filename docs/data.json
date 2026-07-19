@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T12:09:45+00:00",
+  "generated_at": "2026-07-19T12:59:42+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-19T09:46:17+00:00"
+      "last_success": "2026-07-19T12:59:41+00:00"
     },
     {
       "name": "diavgeia",
@@ -25,7 +25,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-19T09:46:17+00:00"
+      "last_success": "2026-07-19T12:59:41+00:00"
     },
     {
       "name": "iefimerida",
@@ -36,9 +36,9 @@
         "χωρίς/παλιά ημερομηνία": 8
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-19T09:46:18+00:00"
+      "last_success": "2026-07-19T12:59:41+00:00"
     },
     {
       "name": "kathimerini",
@@ -46,37 +46,36 @@
       "items": 10,
       "fetched": 10,
       "dropped": {},
-      "date_misses": 3,
-      "body_enriched": 0,
+      "date_misses": 2,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-07-19T09:46:18+00:00"
+      "last_success": "2026-07-19T12:59:42+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
       "items": 5,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8
       },
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-19T09:46:18+00:00"
+      "last_success": "2026-07-19T12:59:42+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 15,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 8
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-19T12:09:45+00:00"
+      "last_success": "2026-07-19T12:59:42+00:00"
     }
   ],
   "active_events": [
@@ -95,7 +94,7 @@
         "04:30"
       ],
       "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 20/7, 00:01–04:30 · λόγω εργασιών εκφόρτωσης δομικών υλικών",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-stathmoi-kleinoyn-noritera",
@@ -103,13 +102,11 @@
       "title": "Μετρό: Από σήμερα οι κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 -Ποιοι πέντε σταθμοί κλείνουν νωρίτερα",
       "url": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-stathmoi-kleinoyn-noritera",
       "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-19"
-      ],
+      "area": "",
+      "days": [],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki",
@@ -134,6 +131,20 @@
       "hours": [],
       "plain": "",
       "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564353860/metro-kykloforiakes-rythmiseis-sti-grammi-3-apo-simera-poioi-stathmoi-kleinoyn-noritera/",
+      "source": "kathimerini",
+      "title": "Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από σήμερα – Ποιοι σταθμοί κλείνουν νωρίτερα",
+      "url": "https://www.kathimerini.gr/society/564353860/metro-kykloforiakes-rythmiseis-sti-grammi-3-apo-simera-poioi-stathmoi-kleinoyn-noritera/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": true
     },
     {
       "id": "https://www.kathimerini.gr/society/564340552/attiki-odos-nychterines-rythmiseis-ston-komvo-metamorfosis-pote-tha-kleisoyn-oi-exodoi-pros-lamia/",
@@ -238,18 +249,6 @@
       "url": "https://www.kathimerini.gr/society/564263236/kykloforiakes-rythmiseis-stis-6-ioynioy-sto-kentro-tis-athinas/",
       "details": "",
       "area": "Κέντρο",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.kathimerini.gr/society/564255967/notia-proastia-kykloforiakes-rythmiseis-stis-30-ma-oy-logo-podilatikoy-agona/",
-      "source": "kathimerini",
-      "title": "Νότια προάστια: Κυκλοφοριακές ρυθμίσεις στις 30 Μαΐου λόγω ποδηλατικού αγώνα",
-      "url": "https://www.kathimerini.gr/society/564255967/notia-proastia-kykloforiakes-rythmiseis-stis-30-ma-oy-logo-podilatikoy-agona/",
-      "details": "",
-      "area": "",
       "days": [],
       "hours": [],
       "plain": "",
@@ -1120,7 +1119,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T12:09:45+00:00",
+      "last_seen": "2026-07-19T12:59:42+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1154,7 +1153,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T12:09:45+00:00",
+      "last_seen": "2026-07-19T12:59:42+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1171,7 +1170,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T12:09:45+00:00",
+      "last_seen": "2026-07-19T12:59:42+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1188,7 +1187,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T12:09:45+00:00",
+      "last_seen": "2026-07-19T12:59:42+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1205,7 +1204,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T12:09:45+00:00",
+      "last_seen": "2026-07-19T12:59:42+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1222,7 +1221,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T12:09:45+00:00",
+      "last_seen": "2026-07-19T12:59:42+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1239,7 +1238,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T12:09:45+00:00",
+      "last_seen": "2026-07-19T12:59:42+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1256,7 +1255,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T12:09:45+00:00",
+      "last_seen": "2026-07-19T12:59:42+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1379,7 +1378,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-19T05:39:37+00:00",
-      "last_seen": "2026-07-19T12:09:45+00:00",
+      "last_seen": "2026-07-19T12:59:42+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1397,6 +1396,23 @@
       "plain": "",
       "first_seen": "2026-07-19T09:46:18+00:00",
       "last_seen": "2026-07-19T09:46:18+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564353860/metro-kykloforiakes-rythmiseis-sti-grammi-3-apo-simera-poioi-stathmoi-kleinoyn-noritera/",
+      "source": "kathimerini",
+      "title": "Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από σήμερα – Ποιοι σταθμοί κλείνουν νωρίτερα",
+      "url": "https://www.kathimerini.gr/society/564353860/metro-kykloforiakes-rythmiseis-sti-grammi-3-apo-simera-poioi-stathmoi-kleinoyn-noritera/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-19T12:59:42+00:00",
+      "last_seen": "2026-07-19T12:59:42+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1485,7 +1501,7 @@
       ],
       "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 20/7, 00:01–04:30 · λόγω εργασιών εκφόρτωσης δομικών υλικών",
       "first_seen": "2026-07-19T09:46:17+00:00",
-      "last_seen": "2026-07-19T09:46:17+00:00",
+      "last_seen": "2026-07-19T12:59:41+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1605,6 +1621,12 @@
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-07-19T12:59:42+00:00",
+      "source": "kathimerini",
+      "title": "🚨 Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από σήμερα – Ποιοι σταθμοί κλείνουν νωρίτερα",
+      "url": "https://www.kathimerini.gr/society/564353860/metro-kykloforiakes-rythmiseis-sti-grammi-3-apo-simera-poioi-stathmoi-kleinoyn-noritera/"
+    },
     {
       "time": "2026-07-19T09:46:19+00:00",
       "source": "iefimerida",
@@ -1778,21 +1800,9 @@
       "source": "TomTom (realtime)",
       "title": "🚨 Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
       "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212"
-    },
-    {
-      "time": "2026-07-14T21:43:13+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Evripidou (Dimosthenous) → Tagmatarchou Plessa (Dimosthenous)",
-      "url": "https://www.google.com/maps?q=37.9444881187,23.6941207581"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-16T13:26:11+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-16T14:52:49+00:00",
       "new": 0,
@@ -2146,6 +2156,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-19T12:59:42+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
