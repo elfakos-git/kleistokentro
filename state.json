@@ -210,15 +210,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 18,
+      "items": 10,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 7
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-19T07:53:03+00:00"
+      "last_success": "2026-07-19T09:41:26+00:00"
     }
   },
   "active": {
@@ -520,20 +520,6 @@
         "source": "TomTom (realtime)",
         "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
         "url": "https://www.google.com/maps?q=37.990176883,23.7386937076",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-07-19"
-        ],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51585634396014000",
-        "source": "TomTom (realtime)",
-        "title": "Λουκιανού → Πλουτάρχου",
-        "url": "https://www.google.com/maps?q=37.9768664096,23.7438904875",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -1132,7 +1118,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T07:53:03+00:00",
+      "last_seen": "2026-07-19T09:41:26+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1151,7 +1137,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T07:53:03+00:00",
+      "last_seen": "2026-07-19T09:41:26+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1170,7 +1156,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T07:53:03+00:00",
+      "last_seen": "2026-07-19T09:41:26+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1189,7 +1175,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T07:53:03+00:00",
+      "last_seen": "2026-07-19T09:41:26+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1208,7 +1194,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T07:53:03+00:00",
+      "last_seen": "2026-07-19T09:41:26+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1227,7 +1213,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T07:53:03+00:00",
+      "last_seen": "2026-07-19T09:41:26+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1246,7 +1232,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T07:53:03+00:00",
+      "last_seen": "2026-07-19T09:41:26+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1265,7 +1251,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T07:53:03+00:00",
+      "last_seen": "2026-07-19T09:41:26+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1284,7 +1270,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T07:53:03+00:00",
+      "last_seen": "2026-07-19T09:41:26+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1786,7 +1772,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-19T05:39:37+00:00",
-      "last_seen": "2026-07-19T07:53:03+00:00",
+      "last_seen": "2026-07-19T09:41:26+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2057,12 +2043,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-16T09:51:12+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-16T10:00:43+00:00",
       "new": 0,
@@ -2413,6 +2393,12 @@
     },
     {
       "time": "2026-07-19T07:53:03+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-19T09:41:26+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
