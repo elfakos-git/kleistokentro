@@ -129,7 +129,8 @@
     "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki",
     "ΨΠΔΨ46ΜΤΛΒ-ΗΝΦ",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51614488740022000",
-    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51585634396014000"
+    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51585634396014000",
+    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51600061604014000"
   ],
   "seeded": [
     "astynomia",
@@ -206,15 +207,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 16,
+      "items": 11,
+      "fetched": 17,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-19T01:57:32+00:00"
+      "last_success": "2026-07-19T05:39:37+00:00"
     }
   },
   "active": {
@@ -470,6 +471,20 @@
         "source": "TomTom (realtime)",
         "title": "Λουκιανού → Πλουτάρχου",
         "url": "https://www.google.com/maps?q=37.9768664096,23.7438904875",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-07-19"
+        ],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51600061604014000",
+        "source": "TomTom (realtime)",
+        "title": "Ebedokleous (Imittou) → Platia Profiti Ilia (Imittou)",
+        "url": "https://www.google.com/maps?q=37.9642787804,23.7445851797",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -1054,7 +1069,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T01:57:32+00:00",
+      "last_seen": "2026-07-19T05:39:37+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1073,7 +1088,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T01:57:32+00:00",
+      "last_seen": "2026-07-19T05:39:37+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1092,7 +1107,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T01:57:32+00:00",
+      "last_seen": "2026-07-19T05:39:37+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1111,7 +1126,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T01:57:32+00:00",
+      "last_seen": "2026-07-19T05:39:37+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1130,7 +1145,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T01:57:32+00:00",
+      "last_seen": "2026-07-19T05:39:37+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1149,7 +1164,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T01:57:32+00:00",
+      "last_seen": "2026-07-19T05:39:37+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1168,7 +1183,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T01:57:32+00:00",
+      "last_seen": "2026-07-19T05:39:37+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1187,7 +1202,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T01:57:32+00:00",
+      "last_seen": "2026-07-19T05:39:37+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1206,7 +1221,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-19T01:57:32+00:00",
+      "last_seen": "2026-07-19T05:39:37+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1689,7 +1704,26 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-19T01:57:32+00:00",
-      "last_seen": "2026-07-19T01:57:32+00:00",
+      "last_seen": "2026-07-19T05:39:37+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51600061604014000": {
+      "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51600061604014000",
+      "source": "TomTom (realtime)",
+      "title": "Ebedokleous (Imittou) → Platia Profiti Ilia (Imittou)",
+      "url": "https://www.google.com/maps?q=37.9642787804,23.7445851797",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-19"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-19T05:39:37+00:00",
+      "last_seen": "2026-07-19T05:39:37+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1700,15 +1734,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-07-18"
+    "151797168": "2026-07-19"
   },
   "notifications": [
-    {
-      "time": "2026-07-13T21:41:05+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
-      "url": "https://www.google.com/maps?q=37.9818740999,23.769882434"
-    },
     {
       "time": "2026-07-13T22:41:13+00:00",
       "source": "TomTom (realtime)",
@@ -1882,15 +1910,15 @@
       "source": "iefimerida",
       "title": "🚨 Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από την Κυριακή - Ποιοι σταθμοί κλείνουν νωρίτερα",
       "url": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki"
+    },
+    {
+      "time": "2026-07-19T05:39:37+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-16T05:28:55+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-16T06:11:49+00:00",
       "new": 1,
@@ -2244,6 +2272,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-19T05:39:37+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
