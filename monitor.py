@@ -36,6 +36,7 @@ DELIVERY GUARANTEE (unchanged in spirit)
 """
 import json
 import os
+import re
 import sys
 import traceback
 from concurrent.futures import ThreadPoolExecutor
@@ -44,7 +45,8 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from sources import (astynomia, diavgeia, enrich, get, humanize,
-                     iefimerida, kathimerini, oasa, tomtom)
+                     iefimerida, kathimerini, mentions_other_region,
+                     oasa, tomtom)
 import ics_feed
 import notify
 
@@ -63,6 +65,17 @@ SOURCES = {
 # pings they are pure noise. Enforced at all three tiers (immediate,
 # urgent, digest), not just the path such events happen to take today.
 SILENT_SOURCES = {"tomtom"}
+
+# TomTom incident ids embed a traffic-model uuid that ROTATES every few
+# days: the same live incident re-appears under a fresh id — exactly
+# what caused the 13-14/07 re-alert storm. Only the TTR… tail is
+# stable, so dedup keys on that. Old-format ids in `seen` age out; with
+# tomtom silent, the one-time re-seen batch tells no one.
+TOMTOM_ID_RE = re.compile(r"^TTI-[0-9a-fA-F-]{30,40}-(TTR\S+)$")
+
+GHOST_HORIZON_DAYS = 45   # a registry record whose EVERY day sits this
+                          # far out while its title now parses to no
+                          # days at all is a pre-fix ghost — evict it
 SILENT_LABELS = {SOURCES[n].SOURCE for n in SILENT_SOURCES}
 
 BASE = Path(__file__).parent
@@ -195,6 +208,23 @@ def load_state() -> dict:
         c.setdefault("first_seen", None)
         c.setdefault("last_seen", None)
         c.setdefault("extended", False)
+    # Silent (dashboard-only) sources have no business in the closures
+    # registry — purge the TomTom blips accumulated before this rule.
+    state["closures"] = {i: c for i, c in state["closures"].items()
+                         if c.get("source") not in SILENT_LABELS}
+    for c in state["closures"].values():
+        d = c.get("days") or []
+        # Pre-fix long ranges were stored as their two endpoints (the
+        # 15.07-18.12 production case). If the title now expands to the
+        # same span, adopt the expansion — parser upgrades apply
+        # retroactively, but ONLY for this unmistakable signature, so
+        # weekday-relative titles can never drift day by day.
+        if len(d) == 2 and (date.fromisoformat(d[1])
+                            - date.fromisoformat(d[0])).days > 120:
+            fresh = enrich.extract_days(c.get("title", ""))
+            if len(fresh) > 2 and fresh and fresh[-1] == d[1]:
+                c["days"] = fresh
+        c["days"] = enrich.sane_days(c.get("days")) or c.get("days") or []
     return state
 
 
@@ -290,6 +320,8 @@ def main(argv=None) -> int:
     onboard_new_subscribers(state, subs)
     seen = set(state["seen"])
     today = _athens_now().date().isoformat()
+    ghost_horizon = (_athens_now().date()
+                     + timedelta(days=GHOST_HORIZON_DAYS)).isoformat()
     pending_undated = []
     sent_count = {s["chat_id"]: 0 for s in subs}   # per-user flood cap
     body_budget = 3   # article-body fetches per run: bounded, best-effort
@@ -322,7 +354,21 @@ def main(argv=None) -> int:
                 }
                 continue
 
+            if name == "tomtom":
+                for e in events:                 # stable-id normalization
+                    e.id = TOMTOM_ID_RE.sub(r"TTI-\1", e.id)
             tally = dict(getattr(module, "last_tally", {}) or {})
+            if name == "diavgeia":
+                # PRECISION VETO (belt; belongs in diavgeia._is_relevant
+                # on that file's next edit): a nationwide decision naming
+                # another region is out of scope even when an Athens stem
+                # matches — production notified "οδό Αθηνών, στην Πάτρα"
+                # (a street NAMED Athinon, in Patras) and a Τέμπη permit.
+                vetoed = sum(mentions_other_region(e.title) for e in events)
+                if vetoed:
+                    events = [e for e in events
+                              if not mentions_other_region(e.title)]
+                    tally["άλλη περιοχή (κεντρικό veto)"] = vetoed
             fetched = len(events) + sum(tally.values())
             print(f"[{name}] OK — kept {len(events)}/{fetched}"
                   + (f" (dropped: {tally})" if tally else "")
@@ -397,6 +443,20 @@ def main(argv=None) -> int:
                 # Plain-language line for dashboard + calendar feed. Purely
                 # additive: "" when the original reads better, and the
                 # original title is kept everywhere regardless.
+                days = enrich.sane_days(days)   # isolated far-future
+                                                # day = extraction noise
+                if not days:
+                    # GHOST EVICTION: the event is still being fetched,
+                    # its title now parses to nothing, yet a registry
+                    # record claims days far in the future — that is a
+                    # pre-fix ghost (the 2027 closures), not a schedule.
+                    ghost = state["closures"].get(e.id)
+                    if ghost and ghost.get("days") and \
+                            min(ghost["days"]) > ghost_horizon:
+                        print(f"[{name}] evicting ghost record: "
+                              f"{ghost['days']} — {e.title[:60]}")
+                        del state["closures"][e.id]
+
                 plain = humanize.summarize(e.title, days=days,
                                            today=date.fromisoformat(today))
                 e.plain = plain      # notify formatters prefer it when set
@@ -424,7 +484,7 @@ def main(argv=None) -> int:
                     else:
                         pending_undated.append((e, area))
 
-                if days:
+                if days and name not in SILENT_SOURCES:
                     prev = state["closures"].get(e.id, {})
                     prev_alerted = prev.get("alerted_chats", [])
                     if first_time:

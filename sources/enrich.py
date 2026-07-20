@@ -58,7 +58,9 @@ DAYLIST_RE = re.compile(r"((?:\d{1,2}\s*,\s*)+\d{1,2})\s+και\s+"
 FULL_RE = re.compile(_D)
 NOYEAR_RE = re.compile(r"(?<![\d/.\-])(\d{1,2})/(\d{1,2})(?![\d/.\-])")
 
-MAX_RANGE_DAYS = 120   # a "range" longer than this is a parse error
+MAX_RANGE_DAYS = 200   # ranges up to ~6.5 months expand day-by-day
+                       # (production: a 15.07-18.12 regulation was real);
+                       # anything longer degrades to its endpoints
 
 # Traffic announcements are about the future or the very-recent past
 # (an ongoing multi-day closure). So the window is asymmetric: a short
@@ -124,6 +126,12 @@ def extract_days(text: str, today: date | None = None) -> list[str]:
     """All in-effect days found in text, as sorted ISO strings."""
     today = today or date.today()
     t = norm_greek(text or "")
+    t0 = t          # pristine copy: consumed spans get blanked in t,
+                    # but the weekday fallback's tail veto must see the
+                    # ORIGINAL neighbours ("το Σαββατο 23 Ιουνιου" —
+                    # the 23 is blanked once parsed-and-expired, yet it
+                    # still means the weekday refers to a dated, dead
+                    # event, not to next Saturday)
     days: set[date] = set()
     blank = lambda m: " " * len(m.group(0))   # consume matched spans
 
@@ -209,8 +217,64 @@ def extract_days(text: str, today: date | None = None) -> list[str]:
         if x:
             days.add(x)
 
+    out = sorted(d.isoformat() for d in days)
+    if not out:
+        out = _weekday_days(t0, today)  # weekday-only titles, fallback
+    return out
+
+
+# ---- weekday-only dates ("από την Κυριακή", "την Πέμπτη") -----------
+# Production kathimerini/iefimerida titles date events by weekday name
+# alone. Deterministically resolvable: the occurrence NEAREST to today
+# (ties toward the future), same grace policy as numeric dates. Applied
+# ONLY when no other date was found, so "την Τρίτη 23/6" can never
+# yield two days. The trailing guards stop "την τρίτη λωρίδα" (a lane)
+# and "την Τρίτη 23/6" (already parsed) from re-matching.
+_WD_STEMS = {"κυριακ": 6, "δευτερ": 0, "τριτ": 1, "τεταρτ": 2,
+             "πεμπτ": 3, "παρασκευ": 4, "σαββατ": 5}
+# Fixed word forms — NOT stem+\w*: a trailing \w* lets the regex engine
+# backtrack around negative lookaheads, so "τριτη λωριδα" and "Τριτη
+# 23/6" would sneak through. With whole words matched, the tail is
+# inspected in code where nothing can backtrack.
+WEEKDAY_RE = re.compile(
+    r"(?<![α-ω])(?:απο |εως |μεχρι )?τ(?:ην|η|ο) (?:ερχομεν\w+ |επομεν\w+ )?"
+    r"(κυριακη|δευτερας?|τριτης?|τεταρτης?|πεμπτης?|παρασκευης?|σαββατου?)"
+    r"(?![α-ω])")
+_WD_TAIL_VETO = re.compile(r"\s*(?:λωριδ|\d)")   # a lane, or a numbered date
+
+
+def _weekday_days(norm_text: str, today: date) -> list[str]:
+    days = set()
+    for m in WEEKDAY_RE.finditer(norm_text):
+        if _WD_TAIL_VETO.match(norm_text, m.end()):
+            continue          # "την τριτη λωριδα" / "την Τριτη 23/6"
+        stem = next(s for s in _WD_STEMS if m.group(1).startswith(s))
+        target = _WD_STEMS[stem]
+        ahead = (target - today.weekday()) % 7          # 0..6 forward
+        back = ahead - 7                                 # -7..-1 backward
+        delta = ahead if ahead <= -back else back        # nearest, ties → future
+        if delta >= -PAST_GRACE_DAYS:
+            days.add(today + timedelta(days=delta))
     return sorted(d.isoformat() for d in days)
 
+
+def sane_days(days: list[str], max_gap_days: int = 120) -> list[str]:
+    """Drop the far side of an implausible gap in a day list. A lone
+    day months after the rest is extraction noise (production: article-
+    body numbers conjured 2027-01-10 next to 2026-07-13), never a real
+    schedule — genuine long regulations are contiguous ranges, which
+    expand gap-free and pass through untouched."""
+    days = sorted(set(days or []))
+    kept = days[:1]
+    for prev, cur in zip(days, days[1:]):
+        if (date.fromisoformat(cur) - date.fromisoformat(prev)).days > max_gap_days:
+            break
+        kept.append(cur)
+    return kept
+
+
+BODY_HORIZON_DAYS = 60   # article bodies discuss the imminent; a body-
+                         # extracted day far in the future is noise
 
 TRAFFIC_PARA_RE = re.compile(r"κυκλοφορ|κλειστ|διακοπ|ρυθμισ|τροποποι|λογω|οδο[υς ]|λεωφορ")
 
@@ -229,7 +293,10 @@ def from_article_html(html: str, today=None):
                         if len(t) > 30 and TRAFFIC_PARA_RE.search(norm_greek(t)))[:6000]
     if not relevant:
         return [], ""
-    return extract_days(relevant, today), classify_area(relevant)
+    today = today or date.today()
+    horizon = (today + timedelta(days=BODY_HORIZON_DAYS)).isoformat()
+    days = [d for d in extract_days(relevant, today) if d <= horizon]
+    return sane_days(days), classify_area(relevant)
 
 
 # ---------------------------------------------------------- severity

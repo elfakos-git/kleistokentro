@@ -62,8 +62,10 @@ def run():
     #    caught it, proving the title-only rule is what protects us
     assert extract_days("Επίσημη απόφαση Τροχαίας (03/07/2026)", TODAY) == ["2026-07-03"]
 
-    # 7. No dates at all
-    assert extract_days("Κυκλοφοριακές ρυθμίσεις στο Ελληνικό την Πέμπτη", TODAY) == []
+    # 7. Weekday-only dates now RESOLVE (nearest occurrence, grace as
+    #    numeric): TODAY is Fri 03/07 → "την Πέμπτη" = Thu 02/07.
+    assert extract_days("Κυκλοφοριακές ρυθμίσεις στο Ελληνικό την Πέμπτη", TODAY) == ["2026-07-02"]
+    assert extract_days("ρυθμίσεις χωρίς καμία ημερομηνία", TODAY) == []
 
     # 8. Greek month names — the hole named in the design review
     assert extract_days("Διακοπή κυκλοφορίας στις 5 Ιουλίου 2026", TODAY) == ["2026-07-05"]
@@ -81,6 +83,24 @@ def run():
     assert looks_dated("κλειστοί δρόμοι στις 5 Ιουλίου")
     assert looks_dated("την Τρίτη 23/6")
     assert not looks_dated("Κλειστό το κέντρο λόγω πορείας")
+
+    # 9b. Weekday-only production titles (the live kathimerini/oasa
+    #     misses of 17/07) + the guards that keep the fallback honest
+    fri = date(2026, 7, 17)
+    assert extract_days("Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 του Μετρό "
+                        "από την Κυριακή", fri) == ["2026-07-19"]
+    assert extract_days("διακοπή στην τρίτη λωρίδα της Αττικής Οδού", fri) == []
+    assert extract_days("την Δευτέρα 20 Ιουλίου", fri) == ["2026-07-20"]  # number wins, once
+
+    # 9c. Long ranges up to 200 days expand fully (production 15.07-18.12)
+    dd = extract_days("από 15.07.2026 έως 18.12.2026", fri)
+    assert dd[-1] == "2026-12-18" and len(dd) > 150, len(dd)
+
+    # 9d. sane_days: an isolated far-future day is noise (the OASA
+    #     2027-01-10 ghost); contiguous ranges pass untouched
+    from sources.enrich import sane_days
+    assert sane_days(["2026-07-13", "2027-01-10"]) == ["2026-07-13"]
+    assert sane_days(dd) == dd
 
     # 10. Daily time windows ("κατά τις ώρες ...") — start > end means
     #     the window crosses midnight, verbatim production phrasings
