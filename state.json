@@ -179,7 +179,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T17:27:33+00:00"
+      "last_success": "2026-07-20T21:03:31+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -192,7 +192,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T17:27:33+00:00"
+      "last_success": "2026-07-20T21:03:32+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -205,7 +205,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T17:27:33+00:00"
+      "last_success": "2026-07-20T21:03:32+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -216,33 +216,34 @@
       "date_misses": 2,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T17:27:33+00:00"
+      "last_success": "2026-07-20T21:03:32+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 6,
-      "fetched": 13,
+      "items": 4,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7
+        "παλιά ανακοίνωση": 4,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 3
       },
-      "date_misses": 1,
+      "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T17:27:33+00:00"
+      "last_success": "2026-07-20T21:03:32+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 19,
+      "fetched": 20,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 7
+        "κατηγορία εκτός πολιτικής": 8
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T20:45:52+00:00"
+      "last_success": "2026-07-20T21:03:32+00:00"
     }
   },
   "active": {
@@ -446,30 +447,6 @@
         "hours": [],
         "plain": "",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
-        "source": "ΟΑΣΑ",
-        "title": "Κυκλοφοριακές ρυθμίσεις στη γραμμή 3 του Μετρό από την Κυριακή 19 Ιουνίου",
-        "url": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 830 και 837 λόγω των εκδηλώσεων για τους εορτασμούς του Ι.Ν. Προφήτη Ηλία στον Δήμο Αγίας Βαρβάρας",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
       }
     ],
     "tomtom": [
@@ -481,7 +458,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-07-20"
+          "2026-07-21"
         ],
         "hours": [],
         "plain": "",
@@ -495,7 +472,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-07-20"
+          "2026-07-21"
         ],
         "hours": [],
         "plain": "",
@@ -509,7 +486,7 @@
         "details": "Κλειστός δρόμος — Κλειστό; Οδικά έργα",
         "area": "Νότια",
         "days": [
-          "2026-07-20"
+          "2026-07-21"
         ],
         "hours": [],
         "plain": "",
@@ -523,7 +500,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-07-20"
+          "2026-07-21"
         ],
         "hours": [],
         "plain": "",
@@ -537,7 +514,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-07-20"
+          "2026-07-21"
         ],
         "hours": [],
         "plain": "",
@@ -551,7 +528,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-07-20"
+          "2026-07-21"
         ],
         "hours": [],
         "plain": "",
@@ -565,7 +542,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-07-20"
+          "2026-07-21"
         ],
         "hours": [],
         "plain": "",
@@ -579,7 +556,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-07-20"
+          "2026-07-21"
         ],
         "hours": [],
         "plain": "",
@@ -593,7 +570,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-07-20"
+          "2026-07-21"
         ],
         "hours": [],
         "plain": "",
@@ -607,7 +584,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-07-20"
+          "2026-07-21"
         ],
         "hours": [],
         "plain": "",
@@ -621,7 +598,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-07-20"
+          "2026-07-21"
         ],
         "hours": [],
         "plain": "",
@@ -635,7 +612,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-07-20"
+          "2026-07-21"
         ],
         "hours": [],
         "plain": "",
@@ -657,7 +634,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-20T17:27:33+00:00",
+      "last_seen": "2026-07-20T21:03:32+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -938,25 +915,6 @@
         "151797168"
       ]
     },
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/": {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 537, 721 και 734, λόγω εργασιών  στον Δήμο Αχαρνών",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-109/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-07-13"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-12T06:27:06+00:00",
-      "last_seen": "2026-07-12T06:27:06+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
     "98ΒΗ46ΜΤΛΒ-ΔΤ7": {
       "id": "98ΒΗ46ΜΤΛΒ-ΔΤ7",
       "source": "Διαύγεια (Τροχαία)",
@@ -1173,7 +1131,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-18T05:58:35+00:00",
-      "last_seen": "2026-07-20T17:27:33+00:00",
+      "last_seen": "2026-07-20T21:03:32+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1627,12 +1585,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-17T19:54:31+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-17T20:39:45+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1985,6 +1937,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-20T21:03:32+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
