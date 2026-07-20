@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T11:31:27+00:00",
+  "generated_at": "2026-07-20T13:40:14+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -71,14 +71,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 28,
+      "fetched": 37,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 17
+        "κατηγορία εκτός πολιτικής": 26
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T11:31:27+00:00"
+      "last_success": "2026-07-20T13:40:14+00:00"
     }
   ],
   "active_events": [
@@ -418,8 +418,8 @@
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51562551236023000",
       "source": "TomTom (realtime)",
-      "title": "Damvergi (Konstantinoupoleos Ave) → Rodou (Konstantinoupoleos Ave)",
-      "url": "https://www.google.com/maps?q=38.0067435042,23.7212043637",
+      "title": "Genisarli (Konstantinoupoleos Ave) → Rodou (Konstantinoupoleos Ave)",
+      "url": "https://www.google.com/maps?q=38.0067958112,23.7204050654",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
@@ -1295,7 +1295,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T11:31:27+00:00",
+      "last_seen": "2026-07-20T13:40:14+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1312,7 +1312,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T11:31:27+00:00",
+      "last_seen": "2026-07-20T13:40:14+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1329,7 +1329,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T11:31:27+00:00",
+      "last_seen": "2026-07-20T13:40:14+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1346,7 +1346,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T11:31:27+00:00",
+      "last_seen": "2026-07-20T13:40:14+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1363,7 +1363,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T11:31:27+00:00",
+      "last_seen": "2026-07-20T13:40:14+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1380,7 +1380,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T11:31:27+00:00",
+      "last_seen": "2026-07-20T13:40:14+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1397,7 +1397,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T11:31:27+00:00",
+      "last_seen": "2026-07-20T13:40:14+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1414,7 +1414,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T11:31:27+00:00",
+      "last_seen": "2026-07-20T13:40:14+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1431,7 +1431,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T11:31:27+00:00",
+      "last_seen": "2026-07-20T13:40:14+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1448,7 +1448,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-19T05:39:37+00:00",
-      "last_seen": "2026-07-20T11:31:27+00:00",
+      "last_seen": "2026-07-20T13:40:14+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1544,8 +1544,8 @@
     {
       "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51562551236023000",
       "source": "TomTom (realtime)",
-      "title": "Damvergi (Konstantinoupoleos Ave) → Rodou (Konstantinoupoleos Ave)",
-      "url": "https://www.google.com/maps?q=38.0067435042,23.7212043637",
+      "title": "Genisarli (Konstantinoupoleos Ave) → Rodou (Konstantinoupoleos Ave)",
+      "url": "https://www.google.com/maps?q=38.0067958112,23.7204050654",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
@@ -1554,7 +1554,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-19T19:59:26+00:00",
-      "last_seen": "2026-07-20T11:31:27+00:00",
+      "last_seen": "2026-07-20T13:40:14+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1958,12 +1958,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-17T13:11:05+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-07-17T14:22:11+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2313,6 +2307,12 @@
     },
     {
       "time": "2026-07-20T11:31:27+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-20T13:40:14+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
