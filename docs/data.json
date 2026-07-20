@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T06:39:48+00:00",
+  "generated_at": "2026-07-20T08:41:43+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -72,14 +72,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 60,
+      "fetched": 31,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 49
+        "κατηγορία εκτός πολιτικής": 20
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T06:39:48+00:00"
+      "last_success": "2026-07-20T08:41:43+00:00"
     }
   ],
   "active_events": [
@@ -1298,7 +1298,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T06:39:48+00:00",
+      "last_seen": "2026-07-20T08:41:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1315,7 +1315,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T06:39:48+00:00",
+      "last_seen": "2026-07-20T08:41:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1332,7 +1332,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T06:39:48+00:00",
+      "last_seen": "2026-07-20T08:41:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1349,7 +1349,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T06:39:48+00:00",
+      "last_seen": "2026-07-20T08:41:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1366,7 +1366,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T06:39:48+00:00",
+      "last_seen": "2026-07-20T08:41:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1383,7 +1383,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T06:39:48+00:00",
+      "last_seen": "2026-07-20T08:41:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1400,7 +1400,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T06:39:48+00:00",
+      "last_seen": "2026-07-20T08:41:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1417,7 +1417,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T06:39:48+00:00",
+      "last_seen": "2026-07-20T08:41:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1434,7 +1434,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T06:39:48+00:00",
+      "last_seen": "2026-07-20T08:41:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1451,7 +1451,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-19T05:39:37+00:00",
-      "last_seen": "2026-07-20T06:39:48+00:00",
+      "last_seen": "2026-07-20T08:41:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1557,7 +1557,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-19T19:59:26+00:00",
-      "last_seen": "2026-07-20T06:39:48+00:00",
+      "last_seen": "2026-07-20T08:41:43+00:00",
       "extended": true,
       "status": "active"
     },
@@ -1941,12 +1941,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-17T09:50:18+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-07-17T11:11:24+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2299,6 +2293,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-20T08:41:43+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
