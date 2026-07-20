@@ -137,7 +137,10 @@
     "96Σ446ΜΤΛΒ-2ΤΛ",
     "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-stathmoi-kleinoyn-noritera",
     "https://www.kathimerini.gr/society/564353860/metro-kykloforiakes-rythmiseis-sti-grammi-3-apo-simera-poioi-stathmoi-kleinoyn-noritera/",
-    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51562551236023000"
+    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51562551236023000",
+    "9ΦΘΦ46ΜΤΛΒ-ΙΣΠ",
+    "9Ν5Δ46ΜΤΛΒ-ΦΓΧ",
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89/"
   ],
   "seeded": [
     "astynomia",
@@ -152,27 +155,30 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "fetched": 54,
+      "dropped": {
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T02:13:49+00:00"
+      "last_success": "2026-07-20T06:39:47+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 1,
+      "items": 3,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 95,
+        "εκτός θέματος/Αθήνας": 93,
         "εκτός χρονικού παραθύρου": 3,
         "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T02:13:49+00:00"
+      "last_success": "2026-07-20T06:39:47+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -185,7 +191,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T02:13:49+00:00"
+      "last_success": "2026-07-20T06:39:47+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -196,36 +202,97 @@
       "date_misses": 2,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T02:13:49+00:00"
+      "last_success": "2026-07-20T06:39:47+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 0,
-      "fetched": 0,
-      "dropped": {},
-      "date_misses": 0,
-      "body_enriched": 0,
+      "items": 5,
+      "fetched": 11,
+      "dropped": {
+        "παλιά ανακοίνωση": 2,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4
+      },
+      "date_misses": 1,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T02:13:49+00:00"
+      "last_success": "2026-07-20T06:39:48+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 56,
+      "fetched": 60,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 45
+        "κατηγορία εκτός πολιτικής": 49
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T05:56:50+00:00"
+      "last_success": "2026-07-20T06:39:48+00:00"
     }
   },
   "active": {
     "astynomia": [],
     "diavgeia": [
+      {
+        "id": "9ΦΘΦ46ΜΤΛΒ-ΙΣΠ",
+        "source": "Διαύγεια (Τροχαία)",
+        "title": "25449 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων, στα κάτωθι οδικά τμήματα της Λεωφ. Αθηνών, περιοχής Δήμου Χαϊδαρίου, για το χρονικό διάστημα από 21/07/2026 έως 17/08/2026, κατά τις ώρες 22.00΄ έως 06.00΄ της επομένης, με εξαίρεση τις Παρασκευές, τις Κυρια",
+        "url": "https://diavgeia.gov.gr/decision/view/9ΦΘΦ46ΜΤΛΒ-ΙΣΠ",
+        "details": "Επίσημη απόφαση Τροχαίας (20/07/2026)",
+        "area": "Δυτικά",
+        "days": [
+          "2026-07-21",
+          "2026-07-22",
+          "2026-07-23",
+          "2026-07-24",
+          "2026-07-25",
+          "2026-07-26",
+          "2026-07-27",
+          "2026-07-28",
+          "2026-07-29",
+          "2026-07-30",
+          "2026-07-31",
+          "2026-08-01",
+          "2026-08-02",
+          "2026-08-03",
+          "2026-08-04",
+          "2026-08-05",
+          "2026-08-06",
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10",
+          "2026-08-11",
+          "2026-08-12",
+          "2026-08-13",
+          "2026-08-14",
+          "2026-08-15",
+          "2026-08-16",
+          "2026-08-17"
+        ],
+        "hours": [
+          "22:00",
+          "06:00"
+        ],
+        "plain": "Διακοπή κυκλοφορίας στη Λ. Αθηνών (Δήμου Χαϊδαρίου) · 21/7 – 17/8, 22:00–06:00",
+        "new_this_run": true
+      },
+      {
+        "id": "9Ν5Δ46ΜΤΛΒ-ΦΓΧ",
+        "source": "Διαύγεια (Τροχαία)",
+        "title": "25464-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στην δεξιά λωρίδα κυκλοφορίας της Λ. Μεσογείων, από το ύψος της συμβολής της με την οδό 28ης Οκτωβρίου έως το ύψος της συμβολής της με τον Α/Κ της Περιφερειακής Υμηττού, συνολικού μήκους 2,652μ",
+        "url": "https://diavgeia.gov.gr/decision/view/9Ν5Δ46ΜΤΛΒ-ΦΓΧ",
+        "details": "Επίσημη απόφαση Τροχαίας (20/07/2026)",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-10-28"
+        ],
+        "hours": [],
+        "plain": "Διακοπή κυκλοφορίας στη Λ. Μεσογείων (δεξιά λωρίδα) · 28/10",
+        "new_this_run": true
+      },
       {
         "id": "96Σ446ΜΤΛΒ-2ΤΛ",
         "source": "Διαύγεια (Τροχαία)",
@@ -404,7 +471,70 @@
         "new_this_run": false
       }
     ],
-    "oasa": [],
+    "oasa": [
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή μερική τροποποίηση των λεωφορειακών γραμμών 524 και 526, λόγω εργασιών επί της οδού Μουσών του Δήμου Κηφισιάς",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89/",
+        "details": "",
+        "area": "Βόρεια",
+        "days": [
+          "2026-07-21"
+        ],
+        "hours": [],
+        "plain": "",
+        "new_this_run": true
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-59/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος του Δήμου Περιστερίου",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-59/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-263/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 910, 911 και 911Α, λόγω εργασιών επί της οδού Δημοσθένους και μεταξύ των οδών Ταγμ. Πλέσσα και Αχιλλέως, στον Δήμο Καλλιθέας",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-263/",
+        "details": "",
+        "area": "Νότια",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-92/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 750, 806,809,810,830,831,842,400 λόγω εργασιών ειδικής ασφαλτόστρωσης περιμετρικά της  πλατείας Ελευθερίας, στον Δήμο Κορυδαλλού",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-92/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
+        "source": "ΟΑΣΑ",
+        "title": "Κυκλοφοριακές ρυθμίσεις στη γραμμή 3 του Μετρό από την Κυριακή 19 Ιουνίου",
+        "url": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      }
+    ],
     "tomtom": [
       {
         "id": "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51574092528022000",
@@ -1022,7 +1152,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T05:56:50+00:00",
+      "last_seen": "2026-07-20T06:39:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1041,7 +1171,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T05:56:50+00:00",
+      "last_seen": "2026-07-20T06:39:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1060,7 +1190,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T05:56:50+00:00",
+      "last_seen": "2026-07-20T06:39:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1079,7 +1209,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T05:56:50+00:00",
+      "last_seen": "2026-07-20T06:39:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1098,7 +1228,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T05:56:50+00:00",
+      "last_seen": "2026-07-20T06:39:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1117,7 +1247,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T05:56:50+00:00",
+      "last_seen": "2026-07-20T06:39:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1136,7 +1266,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T05:56:50+00:00",
+      "last_seen": "2026-07-20T06:39:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1155,7 +1285,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T05:56:50+00:00",
+      "last_seen": "2026-07-20T06:39:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1174,7 +1304,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T05:56:50+00:00",
+      "last_seen": "2026-07-20T06:39:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1676,7 +1806,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-19T05:39:37+00:00",
-      "last_seen": "2026-07-20T05:56:50+00:00",
+      "last_seen": "2026-07-20T06:39:48+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1773,7 +1903,7 @@
       ],
       "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 20/7, 00:01–04:30 · λόγω εργασιών εκφόρτωσης δομικών υλικών",
       "first_seen": "2026-07-19T09:46:17+00:00",
-      "last_seen": "2026-07-20T02:13:49+00:00",
+      "last_seen": "2026-07-20T06:39:47+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1830,8 +1960,93 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-19T19:59:26+00:00",
-      "last_seen": "2026-07-20T05:56:50+00:00",
+      "last_seen": "2026-07-20T06:39:48+00:00",
       "extended": true,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "9ΦΘΦ46ΜΤΛΒ-ΙΣΠ": {
+      "id": "9ΦΘΦ46ΜΤΛΒ-ΙΣΠ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25449 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων, στα κάτωθι οδικά τμήματα της Λεωφ. Αθηνών, περιοχής Δήμου Χαϊδαρίου, για το χρονικό διάστημα από 21/07/2026 έως 17/08/2026, κατά τις ώρες 22.00΄ έως 06.00΄ της επομένης, με εξαίρεση τις Παρασκευές, τις Κυρια",
+      "url": "https://diavgeia.gov.gr/decision/view/9ΦΘΦ46ΜΤΛΒ-ΙΣΠ",
+      "details": "Επίσημη απόφαση Τροχαίας (20/07/2026)",
+      "area": "Δυτικά",
+      "days": [
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-01",
+        "2026-08-02",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-08",
+        "2026-08-09",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-15",
+        "2026-08-16",
+        "2026-08-17"
+      ],
+      "hours": [
+        "22:00",
+        "06:00"
+      ],
+      "plain": "Διακοπή κυκλοφορίας στη Λ. Αθηνών (Δήμου Χαϊδαρίου) · 21/7 – 17/8, 22:00–06:00",
+      "first_seen": "2026-07-20T06:39:47+00:00",
+      "last_seen": "2026-07-20T06:39:47+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "9Ν5Δ46ΜΤΛΒ-ΦΓΧ": {
+      "id": "9Ν5Δ46ΜΤΛΒ-ΦΓΧ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25464-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στην δεξιά λωρίδα κυκλοφορίας της Λ. Μεσογείων, από το ύψος της συμβολής της με την οδό 28ης Οκτωβρίου έως το ύψος της συμβολής της με τον Α/Κ της Περιφερειακής Υμηττού, συνολικού μήκους 2,652μ",
+      "url": "https://diavgeia.gov.gr/decision/view/9Ν5Δ46ΜΤΛΒ-ΦΓΧ",
+      "details": "Επίσημη απόφαση Τροχαίας (20/07/2026)",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-10-28"
+      ],
+      "hours": [],
+      "plain": "Διακοπή κυκλοφορίας στη Λ. Μεσογείων (δεξιά λωρίδα) · 28/10",
+      "first_seen": "2026-07-20T06:39:47+00:00",
+      "last_seen": "2026-07-20T06:39:47+00:00",
+      "extended": false,
+      "alerted_chats": []
+    },
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89/": {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση των λεωφορειακών γραμμών 524 και 526, λόγω εργασιών επί της οδού Μουσών του Δήμου Κηφισιάς",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89/",
+      "details": "",
+      "area": "Βόρεια",
+      "days": [
+        "2026-07-21"
+      ],
+      "hours": [],
+      "plain": "",
+      "first_seen": "2026-07-20T06:39:48+00:00",
+      "last_seen": "2026-07-20T06:39:48+00:00",
+      "extended": false,
       "alerted_chats": [
         "151797168"
       ]
@@ -1844,18 +2059,6 @@
     "151797168": "2026-07-20"
   },
   "notifications": [
-    {
-      "time": "2026-07-14T21:43:15+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Athinas (Evripidou) → Praxitelous (Evripidou)",
-      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772"
-    },
-    {
-      "time": "2026-07-14T21:43:16+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
-      "url": "https://www.google.com/maps?q=37.990176883,23.7386937076"
-    },
     {
       "time": "2026-07-14T21:43:17+00:00",
       "source": "TomTom (realtime)",
@@ -2023,15 +2226,21 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-07-20T06:39:48+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25449 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων, στα κάτωθι οδικά τμήματα της Λεωφ. Αθηνών, περιοχής Δήμου Χαϊδαρίου, για το χρονικό διάστημα από 21/07/2026 έως 17/08/2026, κατά τις ώρες 22.00΄ έως 06.00΄ της επομένης, με εξαίρεση τις Παρασκευές, τις Κυρια",
+      "url": "https://diavgeia.gov.gr/decision/view/9ΦΘΦ46ΜΤΛΒ-ΙΣΠ"
+    },
+    {
+      "time": "2026-07-20T06:39:48+00:00",
+      "source": "ΟΑΣΑ",
+      "title": "🚨 Προσωρινή μερική τροποποίηση των λεωφορειακών γραμμών 524 και 526, λόγω εργασιών επί της οδού Μουσών του Δήμου Κηφισιάς",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-17T09:41:58+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-17T09:50:18+00:00",
       "new": 1,
@@ -2385,6 +2594,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-20T06:39:48+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
