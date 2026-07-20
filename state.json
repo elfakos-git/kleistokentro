@@ -179,7 +179,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T13:51:37+00:00"
+      "last_success": "2026-07-20T17:27:33+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -192,20 +192,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T13:51:37+00:00"
+      "last_success": "2026-07-20T17:27:33+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 4,
+      "items": 3,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 7
+        "χωρίς/παλιά ημερομηνία": 8
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T13:51:37+00:00"
+      "last_success": "2026-07-20T17:27:33+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -216,31 +216,33 @@
       "date_misses": 2,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T13:51:37+00:00"
+      "last_success": "2026-07-20T17:27:33+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 0,
-      "fetched": 0,
-      "dropped": {},
-      "date_misses": 0,
+      "items": 6,
+      "fetched": 13,
+      "dropped": {
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7
+      },
+      "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T13:51:37+00:00"
+      "last_success": "2026-07-20T17:27:33+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 29,
+      "fetched": 28,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 17
+        "κατηγορία εκτός πολιτικής": 16
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T17:12:44+00:00"
+      "last_success": "2026-07-20T17:27:33+00:00"
     }
   },
   "active": {
@@ -254,42 +256,16 @@
         "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ergasion-athinon-thessalonikis",
         "details": "",
         "area": "",
-        "days": [
-          "2026-08-08"
-        ],
+        "days": [],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-stathmoi-kleinoyn-noritera",
         "source": "iefimerida",
         "title": "Μετρό: Από σήμερα οι κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 -Ποιοι πέντε σταθμοί κλείνουν νωρίτερα",
         "url": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-stathmoi-kleinoyn-noritera",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki",
-        "source": "iefimerida",
-        "title": "Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από την Κυριακή - Ποιοι σταθμοί κλείνουν νωρίτερα",
-        "url": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-3-toy-metro-apo-kyriaki-19-ioylioy",
-        "source": "iefimerida",
-        "title": "Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 του Μετρό από την Κυριακή -Ποιοι σταθμοί κλείνουν νωρίτερα",
-        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-3-toy-metro-apo-kyriaki-19-ioylioy",
         "details": "",
         "area": "",
         "days": [],
@@ -366,7 +342,9 @@
         "url": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
         "details": "",
         "area": "Νότια",
-        "days": [],
+        "days": [
+          "2026-07-23"
+        ],
         "hours": [],
         "plain": "",
         "new_this_run": false
@@ -420,7 +398,80 @@
         "new_this_run": false
       }
     ],
-    "oasa": [],
+    "oasa": [
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή μερική τροποποίηση των λεωφορειακών γραμμών 524 και 526, λόγω εργασιών επί της οδού Μουσών του Δήμου Κηφισιάς",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89/",
+        "details": "",
+        "area": "Βόρεια",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-59/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος του Δήμου Περιστερίου",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-59/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-263/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 910, 911 και 911Α, λόγω εργασιών επί της οδού Δημοσθένους και μεταξύ των οδών Ταγμ. Πλέσσα και Αχιλλέως, στον Δήμο Καλλιθέας",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-263/",
+        "details": "",
+        "area": "Νότια",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-92/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 750, 806,809,810,830,831,842,400 λόγω εργασιών ειδικής ασφαλτόστρωσης περιμετρικά της  πλατείας Ελευθερίας, στον Δήμο Κορυδαλλού",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-92/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
+        "source": "ΟΑΣΑ",
+        "title": "Κυκλοφοριακές ρυθμίσεις στη γραμμή 3 του Μετρό από την Κυριακή 19 Ιουνίου",
+        "url": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 830 και 837 λόγω των εκδηλώσεων για τους εορτασμούς του Ι.Ν. Προφήτη Ηλία στον Δήμο Αγίας Βαρβάρας",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      }
+    ],
     "tomtom": [
       {
         "id": "TTI-TTR51574092528022000",
@@ -593,24 +644,6 @@
     ]
   },
   "closures": {
-    "https://www.kathimerini.gr/society/564312118/metro-kykloforiakes-rythmiseis-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera/": {
-      "id": "https://www.kathimerini.gr/society/564312118/metro-kykloforiakes-rythmiseis-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera/",
-      "source": "kathimerini",
-      "title": "Μετρό: Κυκλοφοριακές ρυθμίσεις στη «μπλε» γραμμή – Ποιοι σταθμοί θα κλείνουν νωρίτερα",
-      "url": "https://www.kathimerini.gr/society/564312118/metro-kykloforiakes-rythmiseis-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera/",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2027-06-28"
-      ],
-      "alerted_chats": [
-        "151797168"
-      ],
-      "hours": [],
-      "first_seen": null,
-      "last_seen": null,
-      "extended": false
-    },
     "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/": {
       "id": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
       "source": "kathimerini",
@@ -619,51 +652,16 @@
       "details": "",
       "area": "Νότια",
       "days": [
-        "2027-06-25"
-      ],
-      "alerted_chats": [
-        "151797168"
+        "2026-07-23"
       ],
       "hours": [],
-      "first_seen": null,
-      "last_seen": null,
-      "extended": false
-    },
-    "https://www.kathimerini.gr/society/564291292/athina-kleistoi-dromoi-tin-triti-23-6-logo-agonon-dromoy/": {
-      "id": "https://www.kathimerini.gr/society/564291292/athina-kleistoi-dromoi-tin-triti-23-6-logo-agonon-dromoy/",
-      "source": "kathimerini",
-      "title": "Αθήνα: Κλειστοί δρόμοι την Τρίτη 23/6 λόγω αγώνων δρόμου",
-      "url": "https://www.kathimerini.gr/society/564291292/athina-kleistoi-dromoi-tin-triti-23-6-logo-agonon-dromoy/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2027-06-23"
-      ],
+      "plain": "",
+      "first_seen": "2026-07-20T17:27:33+00:00",
+      "last_seen": "2026-07-20T17:27:33+00:00",
+      "extended": false,
       "alerted_chats": [
         "151797168"
-      ],
-      "hours": [],
-      "first_seen": null,
-      "last_seen": null,
-      "extended": false
-    },
-    "https://www.kathimerini.gr/society/564263236/kykloforiakes-rythmiseis-stis-6-ioynioy-sto-kentro-tis-athinas/": {
-      "id": "https://www.kathimerini.gr/society/564263236/kykloforiakes-rythmiseis-stis-6-ioynioy-sto-kentro-tis-athinas/",
-      "source": "kathimerini",
-      "title": "Kυκλοφοριακές ρυθμίσεις στις 6 Ιουνίου στο κέντρο της Αθήνας",
-      "url": "https://www.kathimerini.gr/society/564263236/kykloforiakes-rythmiseis-stis-6-ioynioy-sto-kentro-tis-athinas/",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2027-06-06"
-      ],
-      "alerted_chats": [
-        "151797168"
-      ],
-      "hours": [],
-      "first_seen": null,
-      "last_seen": null,
-      "extended": false
+      ]
     },
     "https://www.kathimerini.gr/society/564255967/notia-proastia-kykloforiakes-rythmiseis-stis-30-ma-oy-logo-podilatikoy-agona/": {
       "id": "https://www.kathimerini.gr/society/564255967/notia-proastia-kykloforiakes-rythmiseis-stis-30-ma-oy-logo-podilatikoy-agona/",
@@ -1168,14 +1166,14 @@
       "title": "Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από την Κυριακή - Ποιοι σταθμοί κλείνουν νωρίτερα",
       "url": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki",
       "details": "",
-      "area": "Κέντρο",
+      "area": "",
       "days": [
         "2026-07-19"
       ],
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-18T05:58:35+00:00",
-      "last_seen": "2026-07-18T05:58:35+00:00",
+      "last_seen": "2026-07-20T17:27:33+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1629,12 +1627,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-17T17:03:57+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-07-17T17:54:03+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1987,6 +1979,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-20T17:27:33+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
