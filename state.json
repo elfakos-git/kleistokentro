@@ -213,14 +213,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 17,
+      "fetched": 56,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 45
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T02:13:49+00:00"
+      "last_success": "2026-07-20T05:56:50+00:00"
     }
   },
   "active": {
@@ -1022,7 +1022,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T02:13:49+00:00",
+      "last_seen": "2026-07-20T05:56:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1041,7 +1041,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T02:13:49+00:00",
+      "last_seen": "2026-07-20T05:56:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1060,7 +1060,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T02:13:49+00:00",
+      "last_seen": "2026-07-20T05:56:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1079,7 +1079,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T02:13:49+00:00",
+      "last_seen": "2026-07-20T05:56:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1098,7 +1098,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T02:13:49+00:00",
+      "last_seen": "2026-07-20T05:56:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1117,7 +1117,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T02:13:49+00:00",
+      "last_seen": "2026-07-20T05:56:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1136,7 +1136,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T02:13:49+00:00",
+      "last_seen": "2026-07-20T05:56:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1155,7 +1155,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T02:13:49+00:00",
+      "last_seen": "2026-07-20T05:56:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1174,7 +1174,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-13T11:46:29+00:00",
-      "last_seen": "2026-07-20T02:13:49+00:00",
+      "last_seen": "2026-07-20T05:56:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1676,7 +1676,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-19T05:39:37+00:00",
-      "last_seen": "2026-07-20T02:13:49+00:00",
+      "last_seen": "2026-07-20T05:56:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1830,7 +1830,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-19T19:59:26+00:00",
-      "last_seen": "2026-07-20T02:13:49+00:00",
+      "last_seen": "2026-07-20T05:56:50+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1841,15 +1841,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-07-19"
+    "151797168": "2026-07-20"
   },
   "notifications": [
-    {
-      "time": "2026-07-14T21:43:14+00:00",
-      "source": "TomTom (realtime)",
-      "title": "🚨 Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
-      "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212"
-    },
     {
       "time": "2026-07-14T21:43:15+00:00",
       "source": "TomTom (realtime)",
@@ -2023,15 +2017,15 @@
       "source": "kathimerini",
       "title": "🚨 Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από σήμερα – Ποιοι σταθμοί κλείνουν νωρίτερα",
       "url": "https://www.kathimerini.gr/society/564353860/metro-kykloforiakes-rythmiseis-sti-grammi-3-apo-simera-poioi-stathmoi-kleinoyn-noritera/"
+    },
+    {
+      "time": "2026-07-20T05:56:51+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-17T07:47:17+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-17T09:41:58+00:00",
       "new": 0,
@@ -2385,6 +2379,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-20T05:56:51+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
