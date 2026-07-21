@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T12:16:21+00:00",
+  "generated_at": "2026-07-21T13:21:32+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T10:18:11+00:00"
+      "last_success": "2026-07-21T13:21:32+00:00"
     },
     {
       "name": "diavgeia",
@@ -26,7 +26,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T10:18:11+00:00"
+      "last_success": "2026-07-21T13:21:32+00:00"
     },
     {
       "name": "iefimerida",
@@ -39,7 +39,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T10:18:11+00:00"
+      "last_success": "2026-07-21T13:21:32+00:00"
     },
     {
       "name": "kathimerini",
@@ -50,7 +50,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T10:18:13+00:00"
+      "last_success": "2026-07-21T13:21:32+00:00"
     },
     {
       "name": "oasa",
@@ -62,22 +62,22 @@
         "λειτουργικό/χωρίς οδικό αντίκτυπο": 2
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T10:18:14+00:00"
+      "last_success": "2026-07-21T13:21:32+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 44,
+      "fetched": 43,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 33
+        "κατηγορία εκτός πολιτικής": 32
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T12:16:21+00:00"
+      "last_success": "2026-07-21T13:21:32+00:00"
     }
   ],
   "active_events": [
@@ -115,7 +115,7 @@
       "days": [],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.kathimerini.gr/society/564353860/metro-kykloforiakes-rythmiseis-sti-grammi-3-apo-simera-poioi-stathmoi-kleinoyn-noritera/",
@@ -234,14 +234,10 @@
       "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-61/",
       "details": "",
       "area": "Δυτικά",
-      "days": [
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24"
-      ],
+      "days": [],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89/",
@@ -1079,7 +1075,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-21T10:18:13+00:00",
+      "last_seen": "2026-07-21T13:21:32+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1371,12 +1367,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-18T09:16:55+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-18T10:44:18+00:00",
       "new": 0,
@@ -1730,6 +1720,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-21T13:21:32+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
