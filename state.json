@@ -179,7 +179,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T21:03:31+00:00"
+      "last_success": "2026-07-21T01:56:34+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -192,7 +192,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T21:03:32+00:00"
+      "last_success": "2026-07-21T01:56:34+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -205,7 +205,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T21:03:32+00:00"
+      "last_success": "2026-07-21T01:56:34+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -216,21 +216,20 @@
       "date_misses": 2,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T21:03:32+00:00"
+      "last_success": "2026-07-21T01:56:34+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 4,
-      "fetched": 11,
+      "items": 6,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 4,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 3
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7
       },
-      "date_misses": 0,
+      "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T21:03:32+00:00"
+      "last_success": "2026-07-21T01:56:35+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -243,7 +242,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-20T22:43:15+00:00"
+      "last_success": "2026-07-21T01:56:35+00:00"
     }
   },
   "active": {
@@ -447,6 +446,30 @@
         "hours": [],
         "plain": "",
         "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
+        "source": "ΟΑΣΑ",
+        "title": "Κυκλοφοριακές ρυθμίσεις στη γραμμή 3 του Μετρό από την Κυριακή 19 Ιουνίου",
+        "url": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 830 και 837 λόγω των εκδηλώσεων για τους εορτασμούς του Ι.Ν. Προφήτη Ηλία στον Δήμο Αγίας Βαρβάρας",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": false
       }
     ],
     "tomtom": [
@@ -551,7 +574,7 @@
       {
         "id": "TTI-TTR51600061604022000",
         "source": "TomTom (realtime)",
-        "title": "Ebedokleous (Imittou) → Platia Profiti Ilia (Imittou)",
+        "title": "Ebedokleous (Imittou) → Pirrou (Imittou)",
         "url": "https://www.google.com/maps?q=37.9642787804,23.7445851797",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
@@ -634,7 +657,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-20T21:03:32+00:00",
+      "last_seen": "2026-07-21T01:56:34+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1131,7 +1154,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-18T05:58:35+00:00",
-      "last_seen": "2026-07-20T21:03:32+00:00",
+      "last_seen": "2026-07-21T01:56:34+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1585,12 +1608,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-17T21:38:02+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-17T22:35:44+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1943,6 +1960,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-21T01:56:35+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
