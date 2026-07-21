@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-21T05:38:21+00:00",
+  "generated_at": "2026-07-21T06:23:12+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 53,
+      "fetched": 54,
       "dropped": {
         "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 52
+        "no level detected, no disruption keyword": 53
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T01:56:34+00:00"
+      "last_success": "2026-07-21T06:23:12+00:00"
     },
     {
       "name": "diavgeia",
@@ -26,20 +26,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T01:56:34+00:00"
+      "last_success": "2026-07-21T06:23:12+00:00"
     },
     {
       "name": "iefimerida",
       "ok": true,
-      "items": 3,
+      "items": 2,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 8
+        "χωρίς/παλιά ημερομηνία": 9
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T01:56:34+00:00"
+      "last_success": "2026-07-21T06:23:12+00:00"
     },
     {
       "name": "kathimerini",
@@ -50,33 +50,31 @@
       "date_misses": 2,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T01:56:34+00:00"
+      "last_success": "2026-07-21T06:23:12+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 6,
-      "fetched": 13,
-      "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7
-      },
-      "date_misses": 1,
+      "items": 0,
+      "fetched": 0,
+      "dropped": {},
+      "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T01:56:35+00:00"
+      "last_success": "2026-07-21T06:23:12+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 56,
+      "fetched": 84,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 44
+        "κατηγορία εκτός πολιτικής": 72
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T05:38:20+00:00"
+      "last_success": "2026-07-21T06:23:12+00:00"
     }
   ],
   "active_events": [
@@ -227,78 +225,6 @@
       "new_this_run": false
     },
     {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση των λεωφορειακών γραμμών 524 και 526, λόγω εργασιών επί της οδού Μουσών του Δήμου Κηφισιάς",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89/",
-      "details": "",
-      "area": "Βόρεια",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-59/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος του Δήμου Περιστερίου",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-59/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-263/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 910, 911 και 911Α, λόγω εργασιών επί της οδού Δημοσθένους και μεταξύ των οδών Ταγμ. Πλέσσα και Αχιλλέως, στον Δήμο Καλλιθέας",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-263/",
-      "details": "",
-      "area": "Νότια",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-92/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 750, 806,809,810,830,831,842,400 λόγω εργασιών ειδικής ασφαλτόστρωσης περιμετρικά της  πλατείας Ελευθερίας, στον Δήμο Κορυδαλλού",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-92/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
-      "source": "ΟΑΣΑ",
-      "title": "Κυκλοφοριακές ρυθμίσεις στη γραμμή 3 του Μετρό από την Κυριακή 19 Ιουνίου",
-      "url": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
-      "details": "",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 830 και 837 λόγω των εκδηλώσεων για τους εορτασμούς του Ι.Ν. Προφήτη Ηλία στον Δήμο Αγίας Βαρβάρας",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
-      "details": "",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
       "id": "TTI-TTR51574092528022000",
       "source": "TomTom (realtime)",
       "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
@@ -399,8 +325,8 @@
     {
       "id": "TTI-TTR51600061604022000",
       "source": "TomTom (realtime)",
-      "title": "Ebedokleous (Imittou) → Pirrou (Imittou)",
-      "url": "https://www.google.com/maps?q=37.9642787804,23.7445851797",
+      "title": "Platia Profiti Ilia (Imittou) → Pirrou (Imittou)",
+      "url": "https://www.google.com/maps?q=37.9652779404,23.7463165456",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -1081,7 +1007,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-21T01:56:34+00:00",
+      "last_seen": "2026-07-21T06:23:12+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1373,12 +1299,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-18T01:47:58+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-18T05:13:25+00:00",
       "new": 0,
@@ -1732,6 +1652,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-21T06:23:12+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
