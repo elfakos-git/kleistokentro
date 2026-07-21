@@ -238,15 +238,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 43,
+      "items": 10,
+      "fetched": 47,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 32
+        "κατηγορία εκτός πολιτικής": 37
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T13:21:32+00:00"
+      "last_success": "2026-07-21T14:30:03+00:00"
     }
   },
   "active": {
@@ -570,20 +570,6 @@
         "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
-        "days": [
-          "2026-07-21"
-        ],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51591405588007000",
-        "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Γεωργίου Παπανδρέου / Χ. και Α. Μουρκούση → Παπαδιαμαντοπούλου",
-        "url": "https://www.google.com/maps?q=37.9808669074,23.766238653",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
         "days": [
           "2026-07-21"
         ],
@@ -1607,12 +1593,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-18T10:44:18+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-18T11:41:08+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1965,6 +1945,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-21T14:30:03+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
