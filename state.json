@@ -182,7 +182,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T17:08:22+00:00"
+      "last_success": "2026-07-21T20:59:11+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -195,7 +195,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T17:08:23+00:00"
+      "last_success": "2026-07-21T20:59:11+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -208,7 +208,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T17:08:23+00:00"
+      "last_success": "2026-07-21T20:59:11+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -219,33 +219,34 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T17:08:23+00:00"
+      "last_success": "2026-07-21T20:59:11+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 6,
-      "fetched": 13,
+      "items": 5,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7
+        "παλιά ανακοίνωση": 4,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 2
       },
-      "date_misses": 1,
+      "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T17:08:23+00:00"
+      "last_success": "2026-07-21T20:59:11+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 16,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-21T20:17:40+00:00"
+      "last_success": "2026-07-21T20:59:11+00:00"
     }
   },
   "active": {
@@ -461,18 +462,6 @@
         "hours": [],
         "plain": "",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
-        "source": "ΟΑΣΑ",
-        "title": "Κυκλοφοριακές ρυθμίσεις στη γραμμή 3 του Μετρό από την Κυριακή 19 Ιουνίου",
-        "url": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
       }
     ],
     "tomtom": [
@@ -632,7 +621,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-21T17:08:23+00:00",
+      "last_seen": "2026-07-21T20:59:11+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1604,12 +1593,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-18T16:24:20+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-18T16:47:41+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1962,6 +1945,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-21T20:59:11+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
