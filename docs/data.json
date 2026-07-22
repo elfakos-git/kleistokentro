@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T10:18:30+00:00",
+  "generated_at": "2026-07-22T10:36:07+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -77,7 +77,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-22T10:18:29+00:00"
+      "last_success": "2026-07-22T10:36:07+00:00"
     }
   ],
   "active_events": [
@@ -1275,12 +1275,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-18T22:34:41+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-19T01:57:32+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1633,6 +1627,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-22T10:36:07+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
