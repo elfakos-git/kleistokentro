@@ -1,16 +1,19 @@
 {
-  "generated_at": "2026-07-22T08:01:53+00:00",
+  "generated_at": "2026-07-22T10:18:30+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "fetched": 54,
+      "dropped": {
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-22T06:22:49+00:00"
+      "last_success": "2026-07-22T10:18:25+00:00"
     },
     {
       "name": "diavgeia",
@@ -23,20 +26,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-22T06:22:49+00:00"
+      "last_success": "2026-07-22T10:18:25+00:00"
     },
     {
       "name": "iefimerida",
       "ok": true,
-      "items": 2,
+      "items": 1,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 9
+        "χωρίς/παλιά ημερομηνία": 10
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-22T06:22:49+00:00"
+      "last_success": "2026-07-22T10:18:25+00:00"
     },
     {
       "name": "kathimerini",
@@ -47,34 +50,34 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-22T06:22:49+00:00"
+      "last_success": "2026-07-22T10:18:25+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 2,
+      "items": 3,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 4,
+        "παλιά ανακοίνωση": 3,
         "λειτουργικό/χωρίς οδικό αντίκτυπο": 5
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-07-22T06:22:49+00:00"
+      "last_success": "2026-07-22T10:18:29+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 42,
+      "items": 11,
+      "fetched": 47,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 32
+        "κατηγορία εκτός πολιτικής": 36
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-22T08:01:53+00:00"
+      "last_success": "2026-07-22T10:18:29+00:00"
     }
   ],
   "active_events": [
@@ -83,18 +86,6 @@
       "source": "iefimerida",
       "title": "Κυκλοφοριακές ρυθμίσεις λόγω εργασιών στην Αθηνών-Θεσσαλονίκης από σήμερα - Έως πότε θα διαρκέσουν",
       "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ergasion-athinon-thessalonikis",
-      "details": "",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-stathmoi-kleinoyn-noritera",
-      "source": "iefimerida",
-      "title": "Μετρό: Από σήμερα οι κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 -Ποιοι πέντε σταθμοί κλείνουν νωρίτερα",
-      "url": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-stathmoi-kleinoyn-noritera",
       "details": "",
       "area": "",
       "days": [],
@@ -225,6 +216,20 @@
       "new_this_run": false
     },
     {
+      "id": "https://www.oasa.gr/blog/%ce%ad%ce%ba%cf%84%ce%b1%ce%ba%cf%84%ce%b5%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5/",
+      "source": "ΟΑΣΑ",
+      "title": "Έκτακτες κυκλοφοριακές ρυθμίσεις σε Γραμμή 1 (ΗΣΑΠ) και Γραμμή 7 Τραμ, με εντολή της ΕΛ.ΑΣ , 22/07/2026",
+      "url": "https://www.oasa.gr/blog/%ce%ad%ce%ba%cf%84%ce%b1%ce%ba%cf%84%ce%b5%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5/",
+      "details": "",
+      "area": "Νότια",
+      "days": [
+        "2026-07-22"
+      ],
+      "hours": [],
+      "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. ΑΣ · 22/7",
+      "new_this_run": true
+    },
+    {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-61/",
       "source": "ΟΑΣΑ",
       "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73  του Δήμου Περιστερίου",
@@ -353,6 +358,20 @@
       "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
+      "days": [
+        "2026-07-22"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51591405588007000",
+      "source": "TomTom (realtime)",
+      "title": "Λεωφόρος Γεωργίου Παπανδρέου / Χ. και Α. Μουρκούση → Παπαδιαμαντοπούλου",
+      "url": "https://www.google.com/maps?q=37.9808669074,23.766238653",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
       "days": [
         "2026-07-22"
       ],
@@ -934,6 +953,23 @@
       "status": "active"
     },
     {
+      "id": "https://www.oasa.gr/blog/%ce%ad%ce%ba%cf%84%ce%b1%ce%ba%cf%84%ce%b5%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5/",
+      "source": "ΟΑΣΑ",
+      "title": "Έκτακτες κυκλοφοριακές ρυθμίσεις σε Γραμμή 1 (ΗΣΑΠ) και Γραμμή 7 Τραμ, με εντολή της ΕΛ.ΑΣ , 22/07/2026",
+      "url": "https://www.oasa.gr/blog/%ce%ad%ce%ba%cf%84%ce%b1%ce%ba%cf%84%ce%b5%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5/",
+      "details": "",
+      "area": "Νότια",
+      "days": [
+        "2026-07-22"
+      ],
+      "hours": [],
+      "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. ΑΣ · 22/7",
+      "first_seen": "2026-07-22T10:18:29+00:00",
+      "last_seen": "2026-07-22T10:18:29+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
       "id": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
       "source": "kathimerini",
       "title": "Κυκλοφοριακές ρυθμίσεις στο Ελληνικό την Πέμπτη για το EKO Rally Acropolis",
@@ -946,7 +982,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-22T06:22:49+00:00",
+      "last_seen": "2026-07-22T10:18:25+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1056,6 +1092,12 @@
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-07-22T10:18:30+00:00",
+      "source": "ΟΑΣΑ",
+      "title": "🚨 Έκτακτες κυκλοφοριακές ρυθμίσεις σε Γραμμή 1 (ΗΣΑΠ) και Γραμμή 7 Τραμ, με εντολή της ΕΛ.ΑΣ , 22/07/2026",
+      "url": "https://www.oasa.gr/blog/%ce%ad%ce%ba%cf%84%ce%b1%ce%ba%cf%84%ce%b5%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5/"
+    },
     {
       "time": "2026-07-22T05:37:31+00:00",
       "source": "Ενημέρωση",
@@ -1229,21 +1271,9 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "25453-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και πλήρη διακοπή της κυκλοφορίας των οχημάτων στην Αττική Οδό, στο ύψος των Σταθμών Εξυπηρέτησης Αυτοκινητιστών (Σ.Ε.Α.) Μεσογείων και στα δύο ρεύματα κυκλοφορίας, καθώς και την πλήρη διακοπή της κυκλοφορίας των οχημάτων στη συνδετήρια γέφυρα ",
       "url": "https://diavgeia.gov.gr/decision/view/9Ξ7346ΜΤΛΒ-7ΗΞ"
-    },
-    {
-      "time": "2026-07-15T05:18:55+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-18T21:37:18+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-18T22:34:41+00:00",
       "new": 0,
@@ -1597,6 +1627,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-22T10:18:30+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
