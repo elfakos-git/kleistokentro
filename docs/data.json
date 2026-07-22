@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T05:37:31+00:00",
+  "generated_at": "2026-07-22T06:22:49+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-22T01:55:26+00:00"
+      "last_success": "2026-07-22T06:22:49+00:00"
     },
     {
       "name": "diavgeia",
@@ -23,7 +23,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-22T01:55:26+00:00"
+      "last_success": "2026-07-22T06:22:49+00:00"
     },
     {
       "name": "iefimerida",
@@ -36,7 +36,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-22T01:55:26+00:00"
+      "last_success": "2026-07-22T06:22:49+00:00"
     },
     {
       "name": "kathimerini",
@@ -47,33 +47,34 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-22T01:55:26+00:00"
+      "last_success": "2026-07-22T06:22:49+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 6,
-      "fetched": 13,
+      "items": 2,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7
+        "παλιά ανακοίνωση": 4,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5
       },
-      "date_misses": 1,
+      "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-22T01:55:26+00:00"
+      "last_success": "2026-07-22T06:22:49+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 55,
+      "fetched": 67,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 45
+        "κατηγορία εκτός πολιτικής": 57
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-22T05:37:30+00:00"
+      "last_success": "2026-07-22T06:22:49+00:00"
     }
   ],
   "active_events": [
@@ -242,54 +243,6 @@
       "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89/",
       "details": "",
       "area": "Βόρεια",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-59/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος του Δήμου Περιστερίου",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-59/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-263/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 910, 911 και 911Α, λόγω εργασιών επί της οδού Δημοσθένους και μεταξύ των οδών Ταγμ. Πλέσσα και Αχιλλέως, στον Δήμο Καλλιθέας",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-263/",
-      "details": "",
-      "area": "Νότια",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-92/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 750, 806,809,810,830,831,842,400 λόγω εργασιών ειδικής ασφαλτόστρωσης περιμετρικά της  πλατείας Ελευθερίας, στον Δήμο Κορυδαλλού",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-92/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
-      "source": "ΟΑΣΑ",
-      "title": "Κυκλοφοριακές ρυθμίσεις στη γραμμή 3 του Μετρό από την Κυριακή 19 Ιουνίου",
-      "url": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
-      "details": "",
-      "area": "",
       "days": [],
       "hours": [],
       "plain": "",
@@ -993,7 +946,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-22T01:55:26+00:00",
+      "last_seen": "2026-07-22T06:22:49+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1285,12 +1238,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-18T20:34:24+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-18T20:38:59+00:00",
       "new": 0,
@@ -1644,6 +1591,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-22T06:22:49+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
