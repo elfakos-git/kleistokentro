@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T20:57:17+00:00",
+  "generated_at": "2026-07-22T21:33:09+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -74,7 +74,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-22T20:57:17+00:00"
+      "last_success": "2026-07-22T21:33:09+00:00"
     }
   ],
   "active_events": [
@@ -294,7 +294,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-07-22"
+        "2026-07-23"
       ],
       "hours": [],
       "plain": "",
@@ -308,7 +308,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-07-22"
+        "2026-07-23"
       ],
       "hours": [],
       "plain": "",
@@ -322,7 +322,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-22"
+        "2026-07-23"
       ],
       "hours": [],
       "plain": "",
@@ -336,7 +336,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-22"
+        "2026-07-23"
       ],
       "hours": [],
       "plain": "",
@@ -350,7 +350,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-22"
+        "2026-07-23"
       ],
       "hours": [],
       "plain": "",
@@ -364,7 +364,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-22"
+        "2026-07-23"
       ],
       "hours": [],
       "plain": "",
@@ -378,7 +378,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-22"
+        "2026-07-23"
       ],
       "hours": [],
       "plain": "",
@@ -392,7 +392,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-22"
+        "2026-07-23"
       ],
       "hours": [],
       "plain": "",
@@ -406,7 +406,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-22"
+        "2026-07-23"
       ],
       "hours": [],
       "plain": "",
@@ -420,7 +420,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-22"
+        "2026-07-23"
       ],
       "hours": [],
       "plain": "",
@@ -816,7 +816,7 @@
       "first_seen": "2026-07-19T06:24:46+00:00",
       "last_seen": "2026-07-19T06:24:46+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-263/",
@@ -986,7 +986,7 @@
       "first_seen": "2026-07-22T10:18:29+00:00",
       "last_seen": "2026-07-22T20:57:17+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
@@ -1003,7 +1003,7 @@
       "first_seen": "2026-07-20T17:27:33+00:00",
       "last_seen": "2026-07-22T20:57:17+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "62ΕΞ46ΜΤΛΒ-ΝΞΓ",
@@ -1293,12 +1293,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-19T13:58:09+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-19T14:50:02+00:00",
       "new": 0,
@@ -1652,6 +1646,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-22T21:33:09+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
