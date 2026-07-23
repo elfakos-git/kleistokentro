@@ -190,7 +190,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-23T10:13:33+00:00"
+      "last_success": "2026-07-23T13:29:29+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -198,27 +198,26 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 95,
-        "άλλη περιοχή (κεντρικό veto)": 1,
-        "μόνο μία λωρίδα/ΛΕΑ": 4
+        "εκτός θέματος/Αθήνας": 99,
+        "άλλη περιοχή (κεντρικό veto)": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-23T10:13:34+00:00"
+      "last_success": "2026-07-23T13:29:29+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 10
+        "χωρίς/παλιά ημερομηνία": 11
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-23T10:13:34+00:00"
+      "last_success": "2026-07-23T13:29:29+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -229,7 +228,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-23T10:13:34+00:00"
+      "last_success": "2026-07-23T13:29:29+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -243,39 +242,26 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-23T10:13:34+00:00"
+      "last_success": "2026-07-23T13:29:29+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 60,
+      "items": 10,
+      "fetched": 59,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 49
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-23T12:16:26+00:00"
+      "last_success": "2026-07-23T13:29:29+00:00"
     }
   },
   "active": {
     "astynomia": [],
     "diavgeia": [],
-    "iefimerida": [
-      {
-        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ergasion-athinon-thessalonikis",
-        "source": "iefimerida",
-        "title": "Κυκλοφοριακές ρυθμίσεις λόγω εργασιών στην Αθηνών-Θεσσαλονίκης από σήμερα - Έως πότε θα διαρκέσουν",
-        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ergasion-athinon-thessalonikis",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      }
-    ],
+    "iefimerida": [],
     "kathimerini": [
       {
         "id": "https://www.kathimerini.gr/society/564356959/trochaio-atychima-ston-kerameiko-diakopi-tis-kykloforias-stin-peiraios/",
@@ -528,20 +514,6 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51597176260014000",
-        "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Υμηττού / Ευφρονίου",
-        "url": "https://www.google.com/maps?q=37.9692221106,23.7599435085",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-07-23"
-        ],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
         "id": "TTI-TTR51594291004012000",
         "source": "TomTom (realtime)",
         "title": "Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
@@ -585,7 +557,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-23T10:13:34+00:00",
+      "last_seen": "2026-07-23T13:29:29+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1295,7 +1267,7 @@
       "hours": [],
       "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. ΑΣ · 22/7",
       "first_seen": "2026-07-22T10:18:29+00:00",
-      "last_seen": "2026-07-23T10:13:34+00:00",
+      "last_seen": "2026-07-23T13:29:29+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1491,12 +1463,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-19T20:43:34+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-19T21:38:29+00:00",
       "new": 0,
@@ -1850,6 +1816,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-23T13:29:29+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
