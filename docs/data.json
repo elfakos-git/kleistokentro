@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T10:13:34+00:00",
+  "generated_at": "2026-07-23T10:37:01+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -71,15 +71,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 52,
+      "items": 11,
+      "fetched": 46,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 42
+        "κατηγορία εκτός πολιτικής": 35
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-23T10:13:34+00:00"
+      "last_success": "2026-07-23T10:37:01+00:00"
     }
   ],
   "active_events": [
@@ -340,6 +340,20 @@
       "hours": [],
       "plain": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51597176260014000",
+      "source": "TomTom (realtime)",
+      "title": "Λεωφόρος Εθνικής Αντιστάσεως → Υμηττού / Ευφρονίου",
+      "url": "https://www.google.com/maps?q=37.9692221106,23.7599435085",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-07-23"
+      ],
+      "hours": [],
+      "plain": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51594291004012000",
@@ -1237,12 +1251,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-19T19:59:26+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-19T20:39:10+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1595,6 +1603,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-23T10:37:01+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
