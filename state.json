@@ -188,7 +188,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-23T20:53:43+00:00"
+      "last_success": "2026-07-24T01:58:40+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -201,7 +201,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-23T20:53:43+00:00"
+      "last_success": "2026-07-24T01:58:40+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -214,7 +214,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-23T20:53:43+00:00"
+      "last_success": "2026-07-24T01:58:40+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -225,7 +225,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-23T20:53:43+00:00"
+      "last_success": "2026-07-24T01:58:40+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -238,20 +238,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-23T20:53:43+00:00"
+      "last_success": "2026-07-24T01:58:40+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 17,
+      "items": 10,
+      "fetched": 16,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-23T22:43:14+00:00"
+      "last_success": "2026-07-24T01:58:40+00:00"
     }
   },
   "active": {
@@ -327,20 +327,6 @@
         "details": "",
         "area": "Νότια",
         "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
-        "source": "kathimerini",
-        "title": "Κυκλοφοριακές ρυθμίσεις στο Ελληνικό την Πέμπτη για το EKO Rally Acropolis",
-        "url": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
-        "details": "",
-        "area": "Νότια",
-        "days": [
-          "2026-07-23"
-        ],
         "hours": [],
         "plain": "",
         "new_this_run": false
@@ -516,20 +502,6 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51582748928014000",
-        "source": "TomTom (realtime)",
-        "title": "Gazi Anthimou (Kolokotroni) → Stadiou (Kolokotroni)",
-        "url": "https://www.google.com/maps?q=37.9774377244,23.7321880096",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-07-24"
-        ],
-        "hours": [],
-        "plain": "",
-        "new_this_run": true
-      },
-      {
         "id": "TTI-TTR51579863732014000",
         "source": "TomTom (realtime)",
         "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
@@ -615,7 +587,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-23T20:53:43+00:00",
+      "last_seen": "2026-07-24T01:58:40+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1306,7 +1278,7 @@
       "hours": [],
       "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. ΑΣ · 22/7",
       "first_seen": "2026-07-22T10:18:29+00:00",
-      "last_seen": "2026-07-23T20:53:43+00:00",
+      "last_seen": "2026-07-24T01:58:40+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1502,12 +1474,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-20T13:51:37+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-20T15:41:56+00:00",
       "new": 0,
@@ -1861,6 +1827,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-24T01:58:40+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
