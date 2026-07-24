@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-24T08:01:28+00:00",
+  "generated_at": "2026-07-24T10:09:51+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
+      "fetched": 53,
       "dropped": {
         "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
+        "no level detected, no disruption keyword": 52
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-24T06:19:59+00:00"
+      "last_success": "2026-07-24T10:09:51+00:00"
     },
     {
       "name": "diavgeia",
@@ -21,13 +21,13 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97,
-        "μόνο μία λωρίδα/ΛΕΑ": 2
+        "εκτός θέματος/Αθήνας": 98,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-24T06:19:59+00:00"
+      "last_success": "2026-07-24T10:09:51+00:00"
     },
     {
       "name": "iefimerida",
@@ -40,7 +40,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-24T06:19:59+00:00"
+      "last_success": "2026-07-24T10:09:51+00:00"
     },
     {
       "name": "kathimerini",
@@ -51,51 +51,52 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-24T06:19:59+00:00"
+      "last_success": "2026-07-24T10:09:51+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 4,
-      "fetched": 13,
+      "items": 3,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9
+        "παλιά ανακοίνωση": 1,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7
       },
       "date_misses": 0,
-      "body_enriched": 2,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-24T06:20:01+00:00"
+      "last_success": "2026-07-24T10:09:51+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 42,
+      "fetched": 43,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 33
+        "κατηγορία εκτός πολιτικής": 34
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-24T08:01:28+00:00"
+      "last_success": "2026-07-24T10:09:51+00:00"
     }
   ],
   "active_events": [
     {
-      "id": "9ΤΩΖ46ΜΤΛΒ-ΠΣ7",
+      "id": "ΨΗΔ946ΜΤΛΒ-ΒΓ5",
       "source": "Διαύγεια (Τροχαία)",
-      "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων της στην οδό Μπουμπουλίνας, στο τμήμα της μεταξύ των οδών Στουρνάρη και Τοσίτσα, περιοχής Δήμου Αθηναίων, την 26-07-2026, κατά τις ώρες 07.00΄ έως 15.00΄, για την εκτέλεση οικοδομικών εργασιών»",
-      "url": "https://diavgeia.gov.gr/decision/view/9ΤΩΖ46ΜΤΛΒ-ΠΣ7",
+      "title": "25486- « Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Πλήρης διακοπή της κυκλοφορίας των οχημάτων επί της οδού Ρηγίλλης, στο ύψος του ο.α. 16, στο τμήμα της μεταξύ των οδών Βασ. Γεωργίου Β΄ και Λυκείου, περιοχής Δήμου Αθηναίων, στις 25 και 26.07.2026 κατά τις ώρες 11.00΄ έως 14.00΄, λόγω εκτέλεσης εργασιών",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΗΔ946ΜΤΛΒ-ΒΓ5",
       "details": "Επίσημη απόφαση Τροχαίας (24/07/2026)",
       "area": "Κέντρο",
       "days": [
         "2026-07-26"
       ],
       "hours": [
-        "07:00",
-        "15:00"
+        "11:00",
+        "14:00"
       ],
-      "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Αθηναίων · 26/7, 07:00–15:00",
+      "plain": "Διακοπή κυκλοφορίας στην οδό Ρηγίλλης (ύψος αρ. 16, Δήμου Αθηναίων) · 26/7, 11:00–14:00 · λόγω εργασιών",
       "new_this_run": true
     },
     {
@@ -213,14 +214,10 @@
       "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-114/",
       "details": "",
       "area": "Βόρεια",
-      "days": [
-        "2026-07-25",
-        "2026-08-25",
-        "2026-09-03"
-      ],
+      "days": [],
       "hours": [],
       "plain": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-4/",
@@ -229,21 +226,6 @@
       "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-4/",
       "details": "",
       "area": "Βόρεια",
-      "days": [
-        "2026-07-25",
-        "2026-07-26"
-      ],
-      "hours": [],
-      "plain": "",
-      "new_this_run": true
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-61/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73  του Δήμου Περιστερίου",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-61/",
-      "details": "",
-      "area": "Δυτικά",
       "days": [],
       "hours": [],
       "plain": "",
@@ -916,7 +898,7 @@
       "hours": [],
       "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. ΑΣ · 22/7",
       "first_seen": "2026-07-22T10:18:29+00:00",
-      "last_seen": "2026-07-24T06:20:01+00:00",
+      "last_seen": "2026-07-24T10:09:51+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -933,7 +915,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-24T06:19:59+00:00",
+      "last_seen": "2026-07-24T10:09:51+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -991,6 +973,26 @@
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Αθηναίων · 26/7, 07:00–15:00",
       "first_seen": "2026-07-24T06:19:59+00:00",
       "last_seen": "2026-07-24T06:19:59+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "ΨΗΔ946ΜΤΛΒ-ΒΓ5",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25486- « Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Πλήρης διακοπή της κυκλοφορίας των οχημάτων επί της οδού Ρηγίλλης, στο ύψος του ο.α. 16, στο τμήμα της μεταξύ των οδών Βασ. Γεωργίου Β΄ και Λυκείου, περιοχής Δήμου Αθηναίων, στις 25 και 26.07.2026 κατά τις ώρες 11.00΄ έως 14.00΄, λόγω εκτέλεσης εργασιών",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΗΔ946ΜΤΛΒ-ΒΓ5",
+      "details": "Επίσημη απόφαση Τροχαίας (24/07/2026)",
+      "area": "Κέντρο",
+      "days": [
+        "2026-07-26"
+      ],
+      "hours": [
+        "11:00",
+        "14:00"
+      ],
+      "plain": "Διακοπή κυκλοφορίας στην οδό Ρηγίλλης (ύψος αρ. 16, Δήμου Αθηναίων) · 26/7, 11:00–14:00 · λόγω εργασιών",
+      "first_seen": "2026-07-24T10:09:51+00:00",
+      "last_seen": "2026-07-24T10:09:51+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1100,6 +1102,12 @@
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-07-24T10:09:51+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25486- « Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Πλήρης διακοπή της κυκλοφορίας των οχημάτων επί της οδού Ρηγίλλης, στο ύψος του ο.α. 16, στο τμήμα της μεταξύ των οδών Βασ. Γεωργίου Β΄ και Λυκείου, περιοχής Δήμου Αθηναίων, στις 25 και 26.07.2026 κατά τις ώρες 11.00΄ έως 14.00΄, λόγω εκτέλεσης εργασιών",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΗΔ946ΜΤΛΒ-ΒΓ5"
+    },
     {
       "time": "2026-07-24T06:20:02+00:00",
       "source": "ΟΑΣΑ",
@@ -1273,21 +1281,9 @@
       "source": "ΟΑΣΑ",
       "title": "Μερική προσωρινή τροποποίηση της Λ. Γραμμής  826  λόγω εργασιών στην οδό ΠΑΤΡΩΝ,  του Δήμου ΠΕΙΡΑΙΑ.",
       "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-6/"
-    },
-    {
-      "time": "2026-07-16T05:28:55+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-20T19:10:59+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-20T20:45:52+00:00",
       "new": 0,
@@ -1641,6 +1637,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-24T10:09:51+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
