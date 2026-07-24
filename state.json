@@ -251,15 +251,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 24,
+      "items": 9,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 14
+        "κατηγορία εκτός πολιτικής": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-24T17:22:34+00:00"
+      "last_success": "2026-07-24T18:52:30+00:00"
     }
   },
   "active": {
@@ -455,20 +455,6 @@
         "source": "TomTom (realtime)",
         "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
         "url": "https://www.google.com/maps?q=37.9774685794,23.6918153995",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Δυτικά",
-        "days": [
-          "2026-07-24"
-        ],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582748780018000",
-        "source": "TomTom (realtime)",
-        "title": "Alkifronos (Pireos Ave) → Agathodemonos (Pireos Ave)",
-        "url": "https://www.google.com/maps?q=37.9692059875,23.7003139788",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
@@ -1599,12 +1585,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-21T08:01:33+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-21T10:18:15+00:00",
       "new": 1,
       "sources_ok": 6,
@@ -1957,6 +1937,12 @@
       "new": 1,
       "sources_ok": 5,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-24T18:52:30+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
