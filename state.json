@@ -178,7 +178,8 @@
     "ΨΗΔ946ΜΤΛΒ-ΒΓ5",
     "ΨΣΠΙ46ΜΤΛΒ-ΣΕΔ",
     "6ΤΩΣ46ΜΤΛΒ-ΗΘ5",
-    "TTI-TTR51582748780018000"
+    "TTI-TTR51582748780018000",
+    "https://www.oasa.gr/blog/%ce%b4%ce%b9%ce%b1%ce%ba%cf%8c%cf%80%ce%b7%ce%ba%ce%b5-%ce%b7-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%af%ce%b1-%cf%84%ce%bf%cf%85-%cf%84%cf%81%ce%b1%ce%bc-%cf%83%cf%84%ce%b7%ce%bd-%cf%80/"
   ],
   "seeded": [
     "astynomia",
@@ -201,20 +202,13 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-24T13:21:57+00:00"
+      "last_success": "2026-07-24T17:22:29+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
-      "ok": true,
-      "items": 2,
-      "fetched": 100,
-      "dropped": {
-        "εκτός θέματος/Αθήνας": 96,
-        "μόνο μία λωρίδα/ΛΕΑ": 2
-      },
-      "date_misses": 0,
-      "body_enriched": 0,
-      "consecutive_failures": 0,
+      "ok": false,
+      "items": 0,
+      "consecutive_failures": 1,
       "last_success": "2026-07-24T13:21:58+00:00"
     },
     "iefimerida": {
@@ -228,7 +222,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-24T13:21:58+00:00"
+      "last_success": "2026-07-24T17:22:29+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -239,34 +233,33 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-24T13:21:58+00:00"
+      "last_success": "2026-07-24T17:22:29+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 3,
-      "fetched": 11,
+      "items": 4,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-24T13:21:58+00:00"
+      "last_success": "2026-07-24T17:22:34+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 28,
+      "fetched": 24,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 18
+        "κατηγορία εκτός πολιτικής": 14
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-24T17:17:32+00:00"
+      "last_success": "2026-07-24T17:22:34+00:00"
     }
   },
   "active": {
@@ -420,6 +413,18 @@
     ],
     "oasa": [
       {
+        "id": "https://www.oasa.gr/blog/%ce%b4%ce%b9%ce%b1%ce%ba%cf%8c%cf%80%ce%b7%ce%ba%ce%b5-%ce%b7-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%af%ce%b1-%cf%84%ce%bf%cf%85-%cf%84%cf%81%ce%b1%ce%bc-%cf%83%cf%84%ce%b7%ce%bd-%cf%80/",
+        "source": "ΟΑΣΑ",
+        "title": "Διακόπηκε η κυκλοφορία του Τραμ στην περιοχή του Πειραιά, λόγω πτώσης σκαλωσιάς πολυκατοικίας στο εναέριο δίκτυο ηλεκτροδότησης της Γραμμής – η κυκλοφορία στη Γραμμή 7 του Τραμ διεξάγεται στο τμήμα Ασκληπιείο Βούλας – ΣΕΦ",
+        "url": "https://www.oasa.gr/blog/%ce%b4%ce%b9%ce%b1%ce%ba%cf%8c%cf%80%ce%b7%ce%ba%ce%b5-%ce%b7-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%af%ce%b1-%cf%84%ce%bf%cf%85-%cf%84%cf%81%ce%b1%ce%bc-%cf%83%cf%84%ce%b7%ce%bd-%cf%80/",
+        "details": "",
+        "area": "Νότια",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "new_this_run": true
+      },
+      {
         "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-114/",
         "source": "ΟΑΣΑ",
         "title": "Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 500 (ΠΕΙΡΑΙΑΣ-ΚΗΦΙΣΙΑ (ΠΛ.ΠΛΑΤΑΝΟΥ)ΝΥΧΤΕΡΙΝΗ),  στο Δήμο Νέου Ηρακλείου, λόγω εργασιών στην οδό Δωδεκανήσου 16",
@@ -471,7 +476,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51568321972030001",
@@ -601,7 +606,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-24T13:21:58+00:00",
+      "last_seen": "2026-07-24T17:22:29+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1292,7 +1297,7 @@
       "hours": [],
       "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. ΑΣ · 22/7",
       "first_seen": "2026-07-22T10:18:29+00:00",
-      "last_seen": "2026-07-24T13:21:58+00:00",
+      "last_seen": "2026-07-24T17:22:34+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1411,12 +1416,6 @@
     "151797168": "2026-07-24"
   },
   "notifications": [
-    {
-      "time": "2026-07-16T06:11:49+00:00",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της Λ. Γραμμής  826  λόγω εργασιών στην οδό ΠΑΤΡΩΝ,  του Δήμου ΠΕΙΡΑΙΑ.",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-6/"
-    },
     {
       "time": "2026-07-17T05:30:27+00:00",
       "source": "Ενημέρωση",
@@ -1590,15 +1589,15 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "🚨 25486- « Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Πλήρης διακοπή της κυκλοφορίας των οχημάτων επί της οδού Ρηγίλλης, στο ύψος του ο.α. 16, στο τμήμα της μεταξύ των οδών Βασ. Γεωργίου Β΄ και Λυκείου, περιοχής Δήμου Αθηναίων, στις 25 και 26.07.2026 κατά τις ώρες 11.00΄ έως 14.00΄, λόγω εκτέλεσης εργασιών",
       "url": "https://diavgeia.gov.gr/decision/view/ΨΗΔ946ΜΤΛΒ-ΒΓ5"
+    },
+    {
+      "time": "2026-07-24T17:22:35+00:00",
+      "source": "ΟΑΣΑ",
+      "title": "Διακόπηκε η κυκλοφορία του Τραμ στην περιοχή του Πειραιά, λόγω πτώσης σκαλωσιάς πολυκατοικίας στο εναέριο δίκτυο ηλεκτροδότησης της Γραμμής – η κυκλοφορία στη Γραμμή 7 του Τραμ διεξάγεται στο τμήμα Ασκληπιείο Βούλας – ΣΕΦ",
+      "url": "https://www.oasa.gr/blog/%ce%b4%ce%b9%ce%b1%ce%ba%cf%8c%cf%80%ce%b7%ce%ba%ce%b5-%ce%b7-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%af%ce%b1-%cf%84%ce%bf%cf%85-%cf%84%cf%81%ce%b1%ce%bc-%cf%83%cf%84%ce%b7%ce%bd-%cf%80/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-21T06:23:12+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-21T08:01:33+00:00",
       "new": 0,
@@ -1952,6 +1951,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-24T17:22:35+00:00",
+      "new": 1,
+      "sources_ok": 5,
+      "sources_total": 6
     }
   ]
 }
