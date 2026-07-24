@@ -177,7 +177,8 @@
     "ΨΧΙ346ΜΤΛΒ-2ΔΛ",
     "ΨΗΔ946ΜΤΛΒ-ΒΓ5",
     "ΨΣΠΙ46ΜΤΛΒ-ΣΕΔ",
-    "6ΤΩΣ46ΜΤΛΒ-ΗΘ5"
+    "6ΤΩΣ46ΜΤΛΒ-ΗΘ5",
+    "TTI-TTR51582748780018000"
   ],
   "seeded": [
     "astynomia",
@@ -257,15 +258,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 44,
+      "items": 10,
+      "fetched": 28,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 35
+        "κατηγορία εκτός πολιτικής": 18
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-24T15:50:34+00:00"
+      "last_success": "2026-07-24T17:17:32+00:00"
     }
   },
   "active": {
@@ -457,6 +458,20 @@
         "hours": [],
         "plain": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51582748780018000",
+        "source": "TomTom (realtime)",
+        "title": "Alkifronos (Pireos Ave) → Agathodemonos (Pireos Ave)",
+        "url": "https://www.google.com/maps?q=37.9692059875,23.7003139788",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Δυτικά",
+        "days": [
+          "2026-07-24"
+        ],
+        "hours": [],
+        "plain": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51568321972030001",
@@ -1579,12 +1594,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-21T05:38:21+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-21T06:23:12+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1934,6 +1943,12 @@
     },
     {
       "time": "2026-07-24T15:50:34+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-24T17:17:32+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
