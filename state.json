@@ -202,7 +202,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-25T16:48:35+00:00"
+      "last_success": "2026-07-25T20:41:28+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -216,7 +216,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-25T16:48:35+00:00"
+      "last_success": "2026-07-25T20:41:28+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -229,7 +229,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-25T16:48:35+00:00"
+      "last_success": "2026-07-25T20:41:28+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -240,33 +240,31 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-25T16:48:35+00:00"
+      "last_success": "2026-07-25T20:41:28+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 6,
-      "fetched": 13,
-      "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7
-      },
+      "items": 0,
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-25T16:48:36+00:00"
+      "last_success": "2026-07-25T20:41:28+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 20,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 11
+        "κατηγορία εκτός πολιτικής": 8
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-25T20:02:15+00:00"
+      "last_success": "2026-07-25T20:41:28+00:00"
     }
   },
   "active": {
@@ -383,82 +381,7 @@
         "new_this_run": false
       }
     ],
-    "oasa": [
-      {
-        "id": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%ce%bc/",
-        "source": "ΟΑΣΑ",
-        "title": "Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 Μετρό από την Κυριακή 26 Ιουλίου, λόγω εργασιών αντικατάστασης σιδηροτροχιών",
-        "url": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%ce%bc/",
-        "details": "",
-        "area": "",
-        "days": [
-          "2026-07-26"
-        ],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-93/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή τροποποίηση της διαδρομής της λεωφ. γραμμής 509 (ΖΗΡΙΝΕΙΟ – ΑΓ. ΣΤΕΦΑΝΟΣ –ΚΡΥΟΝΕΡΙ),  στο Δήμο Διονύσου (Δ.Κ. Κρυονερίου), λόγω των εορταστικών εκδηλώσεων για τον πολιούχο Άγιο Παντελεήμονα",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-93/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-273/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της λεωφ. γραμμής 859 λόγω εκδηλώσεων  στον Ι.Ν. Αγ. Παντελεήμονος στη Δραπετσώνα του Δήμου Κερατσινίου -Δραπετσώνας",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-273/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%b4%ce%b9%ce%b1%ce%ba%cf%8c%cf%80%ce%b7%ce%ba%ce%b5-%ce%b7-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%af%ce%b1-%cf%84%ce%bf%cf%85-%cf%84%cf%81%ce%b1%ce%bc-%cf%83%cf%84%ce%b7%ce%bd-%cf%80/",
-        "source": "ΟΑΣΑ",
-        "title": "Διακόπηκε η κυκλοφορία του Τραμ στην περιοχή του Πειραιά, λόγω πτώσης σκαλωσιάς πολυκατοικίας στο εναέριο δίκτυο ηλεκτροδότησης της Γραμμής – η κυκλοφορία στη Γραμμή 7 του Τραμ διεξάγεται στο τμήμα Ασκληπιείο Βούλας – ΣΕΦ",
-        "url": "https://www.oasa.gr/blog/%ce%b4%ce%b9%ce%b1%ce%ba%cf%8c%cf%80%ce%b7%ce%ba%ce%b5-%ce%b7-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%af%ce%b1-%cf%84%ce%bf%cf%85-%cf%84%cf%81%ce%b1%ce%bc-%cf%83%cf%84%ce%b7%ce%bd-%cf%80/",
-        "details": "",
-        "area": "Νότια",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-114/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 500 (ΠΕΙΡΑΙΑΣ-ΚΗΦΙΣΙΑ (ΠΛ.ΠΛΑΤΑΝΟΥ)ΝΥΧΤΕΡΙΝΗ),  στο Δήμο Νέου Ηρακλείου, λόγω εργασιών στην οδό Δωδεκανήσου 16",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-114/",
-        "details": "",
-        "area": "Βόρεια",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-4/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή μερική τροποποίηση της λεωφορειακής γραμμής 501, λόγω εκδηλώσεων στην οδό Αγίας Παρασκευής του Δήμου Κηφισιάς",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-4/",
-        "details": "",
-        "area": "Βόρεια",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "new_this_run": false
-      }
-    ],
+    "oasa": [],
     "tomtom": [
       {
         "id": "TTI-TTR51574092528022000",
@@ -602,7 +525,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-25T16:48:35+00:00",
+      "last_seen": "2026-07-25T20:41:28+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1589,12 +1512,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-22T14:30:31+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-22T16:10:40+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1947,6 +1864,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-25T20:41:28+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
