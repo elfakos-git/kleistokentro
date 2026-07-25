@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T20:41:28+00:00",
+  "generated_at": "2026-07-25T21:12:44+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -65,14 +65,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 17,
+      "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 8
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-25T20:41:28+00:00"
+      "last_success": "2026-07-25T21:12:43+00:00"
     }
   ],
   "active_events": [
@@ -192,7 +192,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-07-25"
+        "2026-07-26"
       ],
       "hours": [],
       "plain": "",
@@ -206,7 +206,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-25"
+        "2026-07-26"
       ],
       "hours": [],
       "plain": "",
@@ -220,7 +220,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-25"
+        "2026-07-26"
       ],
       "hours": [],
       "plain": "",
@@ -234,7 +234,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-25"
+        "2026-07-26"
       ],
       "hours": [],
       "plain": "",
@@ -248,7 +248,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-25"
+        "2026-07-26"
       ],
       "hours": [],
       "plain": "",
@@ -262,7 +262,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-25"
+        "2026-07-26"
       ],
       "hours": [],
       "plain": "",
@@ -276,7 +276,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-25"
+        "2026-07-26"
       ],
       "hours": [],
       "plain": "",
@@ -290,7 +290,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-25"
+        "2026-07-26"
       ],
       "hours": [],
       "plain": "",
@@ -304,7 +304,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-25"
+        "2026-07-26"
       ],
       "hours": [],
       "plain": "",
@@ -830,7 +830,7 @@
       "first_seen": "2026-07-24T06:20:00+00:00",
       "last_seen": "2026-07-24T06:20:00+00:00",
       "extended": false,
-      "status": "active"
+      "status": "planned"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-4/",
@@ -868,7 +868,7 @@
       "first_seen": "2026-07-24T06:19:59+00:00",
       "last_seen": "2026-07-24T06:19:59+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "ΨΗΔ946ΜΤΛΒ-ΒΓ5",
@@ -888,7 +888,7 @@
       "first_seen": "2026-07-24T10:09:51+00:00",
       "last_seen": "2026-07-25T06:10:28+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-93/",
@@ -906,7 +906,7 @@
       "first_seen": "2026-07-25T06:10:30+00:00",
       "last_seen": "2026-07-25T06:10:30+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-273/",
@@ -924,7 +924,7 @@
       "first_seen": "2026-07-25T06:10:32+00:00",
       "last_seen": "2026-07-25T06:10:32+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%ce%bc/",
@@ -941,7 +941,7 @@
       "first_seen": "2026-07-25T13:06:29+00:00",
       "last_seen": "2026-07-25T16:48:36+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "62ΕΞ46ΜΤΛΒ-ΝΞΓ",
@@ -1069,6 +1069,12 @@
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-07-25T21:12:44+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25459 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στα κάτωθι οδικά τμήματα της οδού Αττικής (παράδρομος της Αττικής Οδού), περιοχής Δήμου Βριλησσίων, στις 27 και 28-07-2026 κατά τις ώρες 09.00΄ έως 19.00΄, λόγω εκτέλεσης εργασιών εγκατάστασης δικτύου οπτικών",
+      "url": "https://diavgeia.gov.gr/decision/view/62ΕΞ46ΜΤΛΒ-ΝΞΓ"
+    },
     {
       "time": "2026-07-25T13:06:29+00:00",
       "source": "ΟΑΣΑ",
@@ -1242,21 +1248,9 @@
       "source": "ΟΑΣΑ",
       "title": "🚨 Κυκλοφοριακές ρυθμίσεις στη γραμμή 3 του Μετρό από την Κυριακή 19 Ιουνίου",
       "url": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/"
-    },
-    {
-      "time": "2026-07-17T17:03:56+00:00",
-      "source": "iefimerida",
-      "title": "🚨 Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 του Μετρό από την Κυριακή -Ποιοι σταθμοί κλείνουν νωρίτερα",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-3-toy-metro-apo-kyriaki-19-ioylioy"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-22T16:10:40+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-22T17:08:48+00:00",
       "new": 0,
@@ -1610,6 +1604,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-25T21:12:44+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
