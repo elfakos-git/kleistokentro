@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T13:03:18+00:00",
+  "generated_at": "2026-07-26T14:20:29+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -68,14 +68,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 13,
-      "fetched": 17,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T13:03:18+00:00"
+      "last_success": "2026-07-26T14:20:29+00:00"
     }
   ],
   "active_events": [
@@ -294,7 +294,7 @@
     {
       "id": "TTI-TTR51574092908003000",
       "source": "TomTom (realtime)",
-      "title": "Filadelfias (Liosion) → Peoniou (Liosion)",
+      "title": "Filadelfias (Liosion) → Alanon (Liosion)",
       "url": "https://www.google.com/maps?q=37.9921710494,23.7233326965",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
@@ -308,7 +308,7 @@
     {
       "id": "TTI-TTR51574092836011000",
       "source": "TomTom (realtime)",
-      "title": "Exikiou (Liosion) → Filadelfias (Liosion)",
+      "title": "Exikiou (Liosion) → Metaxa Neof. (Liosion)",
       "url": "https://www.google.com/maps?q=37.9927544656,23.7231529885",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
@@ -1390,12 +1390,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-23T10:13:34+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-07-23T10:37:01+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1748,6 +1742,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-26T14:20:29+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
