@@ -208,7 +208,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T22:46:52+00:00"
+      "last_success": "2026-07-26T22:56:46+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -221,7 +221,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T22:46:52+00:00"
+      "last_success": "2026-07-26T22:56:46+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -235,45 +235,47 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T22:46:52+00:00"
+      "last_success": "2026-07-26T22:56:46+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
       "ok": true,
-      "items": 10,
+      "items": 9,
       "fetched": 10,
-      "dropped": {},
+      "dropped": {
+        "άλλη πόλη (τίτλος)": 1
+      },
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T22:46:52+00:00"
+      "last_success": "2026-07-26T22:56:46+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
       "items": 5,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8,
+        "λεωφορεία (χωρίς ειδοποίηση)": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T22:46:52+00:00"
+      "last_success": "2026-07-26T22:56:46+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 16,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T22:46:52+00:00"
+      "last_success": "2026-07-26T22:56:46+00:00"
     }
   },
   "active": {
@@ -291,6 +293,7 @@
         "days": [],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -303,6 +306,7 @@
         "days": [],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -315,18 +319,7 @@
         "days": [],
         "hours": [],
         "plain": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564335986/xanthi-stis-floges-ntalika-stin-egnatia-odo-kykloforiakes-rythmiseis/",
-        "source": "kathimerini",
-        "title": "Ξάνθη: Στις φλόγες νταλίκα στην Εγνατία Οδό – Κυκλοφοριακές ρυθμίσεις",
-        "url": "https://www.kathimerini.gr/society/564335986/xanthi-stis-floges-ntalika-stin-egnatia-odo-kykloforiakes-rythmiseis/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -339,6 +332,7 @@
         "days": [],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -351,6 +345,7 @@
         "days": [],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -365,6 +360,7 @@
         ],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -377,6 +373,7 @@
         "days": [],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -389,6 +386,7 @@
         "days": [],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -401,6 +399,7 @@
         "days": [],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       }
     ],
@@ -415,6 +414,7 @@
         "days": [],
         "hours": [],
         "plain": "",
+        "category": "bus",
         "new_this_run": false
       },
       {
@@ -427,6 +427,7 @@
         "days": [],
         "hours": [],
         "plain": "",
+        "category": "bus",
         "new_this_run": false
       },
       {
@@ -439,6 +440,7 @@
         "days": [],
         "hours": [],
         "plain": "",
+        "category": "bus",
         "new_this_run": false
       },
       {
@@ -451,6 +453,7 @@
         "days": [],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       }
     ],
@@ -467,6 +470,7 @@
         ],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -481,6 +485,7 @@
         ],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -495,6 +500,7 @@
         ],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -509,6 +515,7 @@
         ],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -523,6 +530,7 @@
         ],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -537,6 +545,7 @@
         ],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -551,6 +560,7 @@
         ],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -565,6 +575,7 @@
         ],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -579,6 +590,7 @@
         ],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -593,6 +605,7 @@
         ],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -607,6 +620,7 @@
         ],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       },
       {
@@ -621,6 +635,7 @@
         ],
         "hours": [],
         "plain": "",
+        "category": "",
         "new_this_run": false
       }
     ]
@@ -638,8 +653,9 @@
       ],
       "hours": [],
       "plain": "",
+      "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-26T22:46:52+00:00",
+      "last_seen": "2026-07-26T22:56:46+00:00",
       "extended": true,
       "alerted_chats": []
     },
@@ -815,7 +831,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": ""
     },
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/": {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-255/",
@@ -835,7 +852,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": "bus"
     },
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-59/": {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-59/",
@@ -856,7 +874,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": "bus"
     },
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-263/": {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-263/",
@@ -875,7 +894,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": "bus"
     },
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-92/": {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-92/",
@@ -910,7 +930,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": "bus"
     },
     "96Σ446ΜΤΛΒ-2ΤΛ": {
       "id": "96Σ446ΜΤΛΒ-2ΤΛ",
@@ -932,7 +953,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": ""
     },
     "9ΦΘΦ46ΜΤΛΒ-ΙΣΠ": {
       "id": "9ΦΘΦ46ΜΤΛΒ-ΙΣΠ",
@@ -981,7 +1003,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": ""
     },
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89/": {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89/",
@@ -1000,7 +1023,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": "bus"
     },
     "62ΕΞ46ΜΤΛΒ-ΝΞΓ": {
       "id": "62ΕΞ46ΜΤΛΒ-ΝΞΓ",
@@ -1022,7 +1046,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": ""
     },
     "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ergasion-athinon-thessalonikis": {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ergasion-athinon-thessalonikis",
@@ -1039,7 +1064,8 @@
       "first_seen": "2026-07-20T13:51:37+00:00",
       "last_seen": "2026-07-20T13:51:37+00:00",
       "extended": false,
-      "alerted_chats": []
+      "alerted_chats": [],
+      "category": ""
     },
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-61/": {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-61/",
@@ -1060,7 +1086,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": "bus"
     },
     "https://www.oasa.gr/blog/%ce%ad%ce%ba%cf%84%ce%b1%ce%ba%cf%84%ce%b5%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5/": {
       "id": "https://www.oasa.gr/blog/%ce%ad%ce%ba%cf%84%ce%b1%ce%ba%cf%84%ce%b5%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5/",
@@ -1079,7 +1106,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": ""
     },
     "9ΤΩΖ46ΜΤΛΒ-ΠΣ7": {
       "id": "9ΤΩΖ46ΜΤΛΒ-ΠΣ7",
@@ -1101,7 +1129,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": ""
     },
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-114/": {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-114/",
@@ -1122,7 +1151,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": "bus"
     },
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-4/": {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-4/",
@@ -1142,7 +1172,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": "bus"
     },
     "ΨΗΔ946ΜΤΛΒ-ΒΓ5": {
       "id": "ΨΗΔ946ΜΤΛΒ-ΒΓ5",
@@ -1164,7 +1195,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": ""
     },
     "6ΤΩΣ46ΜΤΛΒ-ΗΘ5": {
       "id": "6ΤΩΣ46ΜΤΛΒ-ΗΘ5",
@@ -1184,7 +1216,8 @@
       "first_seen": "2026-07-24T13:21:58+00:00",
       "last_seen": "2026-07-25T09:38:47+00:00",
       "extended": false,
-      "alerted_chats": []
+      "alerted_chats": [],
+      "category": ""
     },
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-93/": {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-93/",
@@ -1204,7 +1237,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": "bus"
     },
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-273/": {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-273/",
@@ -1224,7 +1258,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": "bus"
     },
     "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%ce%bc/": {
       "id": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%ce%bc/",
@@ -1238,8 +1273,9 @@
       ],
       "hours": [],
       "plain": "",
+      "category": "",
       "first_seen": "2026-07-25T13:06:29+00:00",
-      "last_seen": "2026-07-26T22:46:52+00:00",
+      "last_seen": "2026-07-26T22:56:46+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1262,7 +1298,8 @@
       "extended": false,
       "alerted_chats": [
         "151797168"
-      ]
+      ],
+      "category": "bus"
     }
   },
   "known_chats": [
@@ -1454,12 +1491,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-23T22:43:14+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-24T01:58:40+00:00",
       "new": 0,
@@ -1810,6 +1841,12 @@
     },
     {
       "time": "2026-07-26T22:46:52+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
+    },
+    {
+      "time": "2026-07-26T22:56:46+00:00",
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
