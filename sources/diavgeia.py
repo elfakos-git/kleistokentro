@@ -21,10 +21,12 @@ HOW IT WORKS
 RELEVANCE POLICY — DELIBERATELY STRICTER THAN THE NEWS MODULES
   This API covers every police directorate in Greece, so unlike the news
   sources (which keep ambiguous titles), a decision is kept ONLY if its
-  subject names central Athens / a known central road. Rationale: for a
-  nationwide firehose, a missed obscure decision is cheaper than daily
-  false alarms from other cities — and big Athens events are still
-  caught by the news sources as a second net.
+  subject names central Athens / a known central road — AND does not
+  name another region. The second half was learned in production: a
+  street literally NAMED "οδός Αθηνών" in Patras, and a Τέμπη transport
+  permit citing "Μάνδρα Αττικής", both matched an Athens stem and were
+  notified. An Athens word inside another region's decision is not an
+  Athens decision.
 
   Event identity = the ΑΔΑ (Diavgeia's own unique decision number):
   the perfect dedup key, assigned by the state, never reused.
@@ -36,7 +38,8 @@ DEBUG
 """
 from datetime import datetime, timedelta, timezone
 
-from . import Event, Tally, get, mentions_athens, norm_greek
+from . import (Event, Tally, get, mentions_athens, mentions_other_region,
+               norm_greek)
 
 last_tally = Tally()
 
@@ -112,6 +115,12 @@ def _to_event(dec: dict, tally: Tally | None = None) -> Event | None:
         return None
     if not _is_relevant(subject):
         tally.hit("εκτός θέματος/Αθήνας")
+        return None
+    if mentions_other_region(subject):
+        # An Athens stem inside another region's decision is not an
+        # Athens decision (production: "οδό Αθηνών, στην Πάτρα" — a
+        # street NAMED Athinon — and a Τέμπη permit citing Attica).
+        tally.hit("άλλη περιοχή")
         return None
 
     details = "Επίσημη απόφαση Τροχαίας"

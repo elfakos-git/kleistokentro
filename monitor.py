@@ -73,9 +73,11 @@ SILENT_SOURCES = {"tomtom"}
 # tomtom silent, the one-time re-seen batch tells no one.
 TOMTOM_ID_RE = re.compile(r"^TTI-[0-9a-fA-F-]{30,40}-(TTR\S+)$")
 
-GHOST_HORIZON_DAYS = 45   # a registry record whose EVERY day sits this
+GHOST_HORIZON_DAYS = 90   # a registry record whose EVERY day sits this
                           # far out while its title now parses to no
-                          # days at all is a pre-fix ghost — evict it
+                          # days at all is a ghost — evict it. Kept
+                          # ABOVE enrich.BODY_HORIZON_DAYS so genuinely
+                          # body-derived days can never look ghostly.
 SILENT_LABELS = {SOURCES[n].SOURCE for n in SILENT_SOURCES}
 
 BASE = Path(__file__).parent
@@ -249,6 +251,24 @@ def save_state(state: dict) -> None:
     today = _athens_now().date().isoformat()
     keep_after = (_athens_now().date()
                   - timedelta(days=RETAIN_ENDED_DAYS)).isoformat()
+    # GHOST SWEEP. In-loop eviction only sees events a source still
+    # returns; an article that rotated OFF its tag page leaves its
+    # record untouchable forever (production: the 2027 ghosts survived
+    # the parser fix for exactly this reason, still visible on the site
+    # a run later). So sweep EVERY record at prune time: stored title no
+    # longer parses to any days under the current parser AND only
+    # far-future days claimed = ghost. Admin-edited records are exempt.
+    horizon = (_athens_now().date()
+               + timedelta(days=GHOST_HORIZON_DAYS)).isoformat()
+    protected = set(load_overrides()["edits"])
+    for cid in list(state["closures"]):
+        c = state["closures"][cid]
+        d = c.get("days") or []
+        if not d or cid in protected or min(d) <= horizon:
+            continue
+        if not enrich.extract_days(c.get("title", "")):
+            print(f"[sweep] evicting ghost ({d[0]}…): {c.get('title','')[:60]}")
+            del state["closures"][cid]
     # Ended closures are RETAINED for RETAIN_ENDED_DAYS with a computed
     # "ended" status (see write_dashboard) instead of vanishing: the
     # dashboard's past section and the git history both get real data.
@@ -359,8 +379,8 @@ def main(argv=None) -> int:
                     e.id = TOMTOM_ID_RE.sub(r"TTI-\1", e.id)
             tally = dict(getattr(module, "last_tally", {}) or {})
             if name == "diavgeia":
-                # PRECISION VETO (belt; belongs in diavgeia._is_relevant
-                # on that file's next edit): a nationwide decision naming
+                # PRECISION VETO — second net behind diavgeia.py's own
+                # region check: a nationwide decision naming
                 # another region is out of scope even when an Athens stem
                 # matches — production notified "οδό Αθηνών, στην Πάτρα"
                 # (a street NAMED Athinon, in Patras) and a Τέμπη permit.
@@ -531,7 +551,21 @@ def main(argv=None) -> int:
 
     # ------------------------------------- undated: immediate, per areas
     flood_skipped = 0
+    recent_cut = (datetime.now(timezone.utc)
+                  - timedelta(hours=48)).isoformat(timespec="seconds")
+    recent_titles = [n["title"] for n in state["notifications"]
+                     if n.get("time", "") >= recent_cut]
+    delivered_titles = []
     for e, area in pending_undated:
+        # NEAR-DUPLICATE SUPPRESSION (immediate tier): the same story
+        # under a second URL — later in this very batch, or within the
+        # last 48h of notifications (production: iefimerida published
+        # the Metro piece twice under different URLs).
+        if any(enrich.similar_titles(t, e.title)
+               for t in delivered_titles + recent_titles):
+            state["seen"].append(e.id)
+            print(f"Notification suppressed (dup): {e.title[:60]}")
+            continue
         targets = [s for s in subs if area_ok(area, s)]
         if not targets:
             state["seen"].append(e.id)
@@ -547,6 +581,8 @@ def main(argv=None) -> int:
                 text += f"\n\n📍 {area}"
             ok = safe_send(text, s["chat_id"])
             results.append(ok)
+            if ok and e.title not in delivered_titles:
+                delivered_titles.append(e.title)
             if ok:
                 sent_count[s["chat_id"]] += 1
         if all(results):                              # everyone got it (or capped)
@@ -575,6 +611,22 @@ def main(argv=None) -> int:
             if (chat in c["alerted_chats"] or not area_ok(c["area"], s)
                     or delta > int(s["urgent_days"])
                     or sent_count[chat] >= MAX_NOTIFICATIONS_PER_RUN):
+                continue
+            # NEAR-DUPLICATE SUPPRESSION: the same story arrives from
+            # several sources (production: three 🚨 for the Metro Line 3
+            # works). If this subscriber was already alerted about a
+            # closure telling the same story on overlapping days, mark
+            # them alerted here too and stay quiet — the event stays
+            # fully visible on the dashboard.
+            dup = next((o for oid, o in state["closures"].items()
+                        if oid != cid and chat in o.get("alerted_chats", [])
+                        and set(o.get("days", [])) & set(c["days"])
+                        and enrich.similar_titles(o.get("title", ""),
+                                                  c["title"])), None)
+            if dup:
+                c["alerted_chats"].append(chat)
+                print(f"Urgent suppressed (dup of {dup['title'][:40]!r}): "
+                      f"{c['title'][:60]}")
                 continue
             if safe_send(notify.format_urgent(c, today), chat):
                 c["alerted_chats"].append(chat)       # exactly-once, per user

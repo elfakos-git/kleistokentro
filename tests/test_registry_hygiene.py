@@ -99,6 +99,14 @@ def run():
                         "title": kat.title, "url": ghost_url,
                         "details": "", "area": "", "days": [D(300)],
                         "alerted_chats": []},
+            # (3b) a ghost whose article ROTATED OFF the tag page: the
+            # source never returns it again, so only the prune-time
+            # sweep can reach it. Title parses to nothing; far future.
+            "http://k/rotated": {"id": "http://k/rotated",
+                        "source": "kathimerini",
+                        "title": "Παλιό ροταρισμένο άρθρο χωρίς ημερομηνία",
+                        "url": "http://k/rotated", "details": "", "area": "",
+                        "days": [D(305)], "alerted_chats": []},
             # (4) an endpoint-only long range with a re-expandable title
             "ΕΝΔ46ΜΤΛΒ-3": {"id": "ΕΝΔ46ΜΤΛΒ-3",
                             "source": "Διαύγεια (Τροχαία)",
@@ -128,6 +136,8 @@ def run():
 
     # (3) ghost evicted: still fetched, dateless title, far-future record
     assert ghost_url not in s["closures"], "ghost record must be evicted"
+    assert "http://k/rotated" not in s["closures"], \
+        "rotated-off ghost must be swept at prune time"
 
     # (4) endpoint-only long range re-expanded from its title
     exp = s["closures"]["ΕΝΔ46ΜΤΛΒ-3"]["days"]

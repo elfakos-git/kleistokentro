@@ -276,6 +276,62 @@ def sane_days(days: list[str], max_gap_days: int = 120) -> list[str]:
 BODY_HORIZON_DAYS = 60   # article bodies discuss the imminent; a body-
                          # extracted day far in the future is noise
 
+
+# ---- near-duplicate stories (multi-source suppression) ---------------
+# The same closure reaches us from several sources (production: THREE
+# 🚨 alerts for the Metro Line 3 works — iefimerida, ΟΑΣΑ, kathimerini).
+# Titles are compared by DISTINCTIVE 5-char prefix stems: generic
+# traffic vocabulary and date words are stopped, road/line names and
+# line numbers survive.
+SIG_STOP = {"κυκλο", "ρυθμι", "προσω", "μερικ", "τροπο", "λειτο",
+            "δρομο", "κλεισ", "εργασ", "λεωφο", "δικτυ", "διακο",
+            "δημου", "δημος", "δημων", "αθηνα", "κεντρ", "λογω",
+            "οδικα", "τμημα", "περιο", "διαρκ", "ημερα", "σημερ",
+            # weekday + month words are date-talk, not identity
+            "κυρια", "δευτε", "τριτη", "τεταρ", "πεμπτ", "παρασ",
+            "σαββα", "ιανου", "φεβρο", "μαρτι", "απριλ", "μαιου",
+            "ιουνι", "ιουλι", "αυγου", "σεπτε", "οκτωβ", "νοεμβ",
+            "δεκεμ"}
+_SIG_WORD = re.compile(r"[α-ωa-z0-9]+")
+# Dates are NOT identity: two different closures on the same day would
+# otherwise share the date's digits, poisoning both the digit guard and
+# the overlap score (Γραμμή 2 vs Γραμμή 3, both dated 21/07/2026).
+_SIG_DATENOISE = re.compile(
+    r"\d{1,2}\s*[./-]\s*\d{1,2}(?:\s*[./-]\s*\d{2,4})?"
+    r"|\d{1,2}(?=\s+(?:ιαν|φεβ|μαρ|απρ|μαι|ιουν|ιουλ|αυγ|σεπ|οκτ|νοε|δεκ))"
+    r"|\b\d{4}\b")
+
+
+def title_signature(title: str) -> set[str]:
+    """Distinctive tokens of a title: 5-char stems of non-generic words
+    plus standalone numbers (bus/metro line numbers are strong
+    signals). Date expressions are stripped first — they say WHEN,
+    not WHAT."""
+    t = _SIG_DATENOISE.sub(" ", norm_greek(title))
+    sig = set()
+    for w in _SIG_WORD.findall(t):
+        if w.isdigit():
+            sig.add(w)
+        elif len(w) >= 5 and w[:5] not in SIG_STOP:
+            sig.add(w[:5])
+    return sig
+
+
+def similar_titles(a: str, b: str) -> bool:
+    """Same real-world story? Deliberately CONSERVATIVE: a rare
+    duplicate ping is cheaper than one suppressed genuine alert.
+    ≥2 shared distinctive tokens covering ≥60% of the smaller
+    signature — and if both carry numbers, the numbers must intersect
+    (Γραμμή 2 and Γραμμή 3 are different closures)."""
+    A, B = title_signature(a), title_signature(b)
+    if len(A) < 2 or len(B) < 2:
+        return False
+    da, db = {t for t in A if t.isdigit()}, {t for t in B if t.isdigit()}
+    if da and db and not (da & db):
+        return False
+    inter = len(A & B)
+    return inter >= 2 and inter / min(len(A), len(B)) >= 0.6
+
 TRAFFIC_PARA_RE = re.compile(r"κυκλοφορ|κλειστ|διακοπ|ρυθμισ|τροποποι|λογω|οδο[υς ]|λεωφορ")
 
 
