@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T20:48:37+00:00",
+  "generated_at": "2026-07-26T21:15:32+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -67,14 +67,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 18,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T20:48:37+00:00"
+      "last_success": "2026-07-26T21:15:32+00:00"
     }
   ],
   "active_events": [
@@ -256,7 +256,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-07-26"
+        "2026-07-27"
       ],
       "hours": [],
       "plain": "",
@@ -270,7 +270,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-26"
+        "2026-07-27"
       ],
       "hours": [],
       "plain": "",
@@ -284,7 +284,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-26"
+        "2026-07-27"
       ],
       "hours": [],
       "plain": "",
@@ -298,7 +298,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-26"
+        "2026-07-27"
       ],
       "hours": [],
       "plain": "",
@@ -312,7 +312,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-26"
+        "2026-07-27"
       ],
       "hours": [],
       "plain": "",
@@ -326,7 +326,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-26"
+        "2026-07-27"
       ],
       "hours": [],
       "plain": "",
@@ -340,7 +340,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-26"
+        "2026-07-27"
       ],
       "hours": [],
       "plain": "",
@@ -354,7 +354,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-26"
+        "2026-07-27"
       ],
       "hours": [],
       "plain": "",
@@ -368,7 +368,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-26"
+        "2026-07-27"
       ],
       "hours": [],
       "plain": "",
@@ -382,7 +382,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-26"
+        "2026-07-27"
       ],
       "hours": [],
       "plain": "",
@@ -396,7 +396,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-26"
+        "2026-07-27"
       ],
       "hours": [],
       "plain": "",
@@ -410,7 +410,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-26"
+        "2026-07-27"
       ],
       "hours": [],
       "plain": "",
@@ -605,111 +605,6 @@
       "plain": "",
       "first_seen": "2026-07-17T06:09:57+00:00",
       "last_seen": "2026-07-17T06:09:57+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "ΨΟΣΠ46ΜΤΛΒ-Ε8Ω",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25452 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στο δεξιό τμήμα του οδοστρώματος της οδού Κασομούλη, στο ύψος του ο.α.97, ρεύμα κυκλοφορίας προς Αμ.Φραντζή, περιοχής Δήμου Αθηναίων, την 19-07-2026, κατά τις ώρες 07.00΄ έως 10.00΄, για την εκτέλεση εργασιών",
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΟΣΠ46ΜΤΛΒ-Ε8Ω",
-      "details": "Επίσημη απόφαση Τροχαίας (17/07/2026)",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-19"
-      ],
-      "hours": [
-        "07:00",
-        "10:00"
-      ],
-      "plain": "Διακοπή κυκλοφορίας στην οδό Κασομούλη (ύψος αρ. 97, προς Αμ.Φραντζή, Δήμου Αθηναίων) · 19/7, 07:00–10:00",
-      "first_seen": "2026-07-17T09:50:13+00:00",
-      "last_seen": "2026-07-18T05:58:34+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-3-toy-metro-apo-kyriaki-19-ioylioy",
-      "source": "iefimerida",
-      "title": "Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 του Μετρό από την Κυριακή -Ποιοι σταθμοί κλείνουν νωρίτερα",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-3-toy-metro-apo-kyriaki-19-ioylioy",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-19"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-17T17:03:54+00:00",
-      "last_seen": "2026-07-17T17:03:54+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
-      "source": "ΟΑΣΑ",
-      "title": "Κυκλοφοριακές ρυθμίσεις στη γραμμή 3 του Μετρό από την Κυριακή 19 Ιουνίου",
-      "url": "https://www.oasa.gr/blog/%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%ae-3-%cf%84-2/",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-19"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-17T17:03:56+00:00",
-      "last_seen": "2026-07-17T17:03:56+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki",
-      "source": "iefimerida",
-      "title": "Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από την Κυριακή - Ποιοι σταθμοί κλείνουν νωρίτερα",
-      "url": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-grammi-3-kyriaki",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-07-19"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-18T05:58:35+00:00",
-      "last_seen": "2026-07-21T01:56:34+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-stathmoi-kleinoyn-noritera",
-      "source": "iefimerida",
-      "title": "Μετρό: Από σήμερα οι κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 -Ποιοι πέντε σταθμοί κλείνουν νωρίτερα",
-      "url": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-stathmoi-kleinoyn-noritera",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-19"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-19T09:46:18+00:00",
-      "last_seen": "2026-07-19T09:46:18+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "https://www.kathimerini.gr/society/564353860/metro-kykloforiakes-rythmiseis-sti-grammi-3-apo-simera-poioi-stathmoi-kleinoyn-noritera/",
-      "source": "kathimerini",
-      "title": "Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από σήμερα – Ποιοι σταθμοί κλείνουν νωρίτερα",
-      "url": "https://www.kathimerini.gr/society/564353860/metro-kykloforiakes-rythmiseis-sti-grammi-3-apo-simera-poioi-stathmoi-kleinoyn-noritera/",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-07-19"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-19T12:59:42+00:00",
-      "last_seen": "2026-07-19T12:59:42+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -954,7 +849,7 @@
       "first_seen": "2026-07-24T06:20:01+00:00",
       "last_seen": "2026-07-24T06:20:01+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "9ΤΩΖ46ΜΤΛΒ-ΠΣ7",
@@ -974,7 +869,7 @@
       "first_seen": "2026-07-24T06:19:59+00:00",
       "last_seen": "2026-07-24T06:19:59+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "ΨΗΔ946ΜΤΛΒ-ΒΓ5",
@@ -994,7 +889,7 @@
       "first_seen": "2026-07-24T10:09:51+00:00",
       "last_seen": "2026-07-25T06:10:28+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-93/",
@@ -1047,7 +942,7 @@
       "first_seen": "2026-07-25T13:06:29+00:00",
       "last_seen": "2026-07-26T20:48:37+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-284/",
@@ -1064,7 +959,7 @@
       "first_seen": "2026-07-26T06:31:35+00:00",
       "last_seen": "2026-07-26T06:31:35+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "62ΕΞ46ΜΤΛΒ-ΝΞΓ",
@@ -1374,12 +1269,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-23T18:54:46+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-23T20:04:34+00:00",
       "new": 0,
@@ -1733,6 +1622,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-26T21:15:32+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
