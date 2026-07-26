@@ -207,7 +207,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T09:52:24+00:00"
+      "last_success": "2026-07-26T13:03:18+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -220,7 +220,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T09:52:24+00:00"
+      "last_success": "2026-07-26T13:03:18+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -234,7 +234,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T09:52:24+00:00"
+      "last_success": "2026-07-26T13:03:18+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -245,7 +245,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T09:52:24+00:00"
+      "last_success": "2026-07-26T13:03:18+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -259,20 +259,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T09:52:24+00:00"
+      "last_success": "2026-07-26T13:03:18+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 13,
-      "fetched": 16,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T12:49:22+00:00"
+      "last_success": "2026-07-26T13:03:18+00:00"
     }
   },
   "active": {
@@ -508,7 +508,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51574092836011000",
@@ -522,7 +522,7 @@
         ],
         "hours": [],
         "plain": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51568322080012000",
@@ -652,7 +652,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-26T09:52:24+00:00",
+      "last_seen": "2026-07-26T13:03:18+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1444,7 +1444,7 @@
       "hours": [],
       "plain": "",
       "first_seen": "2026-07-25T13:06:29+00:00",
-      "last_seen": "2026-07-26T09:52:24+00:00",
+      "last_seen": "2026-07-26T13:03:18+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1659,12 +1659,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-23T08:04:50+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-23T10:13:34+00:00",
       "new": 0,
@@ -2018,6 +2012,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-26T13:03:18+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
