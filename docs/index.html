@@ -204,6 +204,10 @@
 
 <div class="filters" id="srcFilters" role="group" aria-label="Φίλτρο πηγής"></div>
 <div class="filters" id="areaFilters" role="group" aria-label="Φίλτρο περιοχής"></div>
+<div class="filters" id="classFilters" role="group" aria-label="Κατηγορίες">
+  <span class="lbl">Επίσης</span>
+  <button class="chip" id="busToggle" onclick="toggleBus()" aria-pressed="false"></button>
+</div>
 
 <div class="layout">
 
@@ -278,7 +282,24 @@ let DATA = null;
 let filt = {src: null, area: null};
 let cal = {y: null, m: null, sel: null};   // m is 0-based; sel is an ISO day
 let showPast = false;                       // dated-past events: opt-in only
+let showBus = false;                        // bus diversions: opt-in only
 window.togglePast = () => { showPast = !showPast; render(); };
+window.toggleBus = () => { showBus = !showBus; render(); };
+
+/* Bus-route diversions are a per-EVENT class, not a source: ΟΑΣΑ
+   publishes bus diversions AND rail (Μετρό/ΗΣΑΠ/Τραμ) closures on one
+   feed, and rail closures are never hidden. Prefer the stored category;
+   fall back to the same keyword rule as sources/enrich.py so the toggle
+   works on data written before the field existed. */
+const BUS_RE = /λεωφορειακ|λεωφ\.?\s*γραμμ/;
+const RAIL_RE = /μετρο|τραμ|ησαπ|σιδηροτροχ|προαστιακ|συρμο/;
+function isBus(e){
+  const reg = evReg(e);
+  const cat = e.category ?? (reg && reg.category);
+  if(cat !== undefined && cat !== null) return cat === "bus";
+  const t = normEl((e.title||"") + " " + (e.details||""));
+  return BUS_RE.test(t) && !RAIL_RE.test(t);
+}
 let REG = new Map();                        // closure registry lookup
 
 function ago(iso){
@@ -388,6 +409,8 @@ function isPastEvent(e){
   return titleSniffPast(e.title);
 }
 
+function busVisible(e){ return showBus || !isBus(e); }
+
 function matches(e){
   if(filt.src && e.source !== filt.src) return false;
   if(filt.area && evArea(e) !== filt.area) return false;
@@ -432,6 +455,7 @@ function tagsHtml(e){
   else if(hs === "later" && hours)
     t.push(`<span class="tag">σήμερα από ${esc(hours[0])}</span>`);
   if(reg && reg.extended) t.push('<span class="tag ext">ΠΑΡΑΤΑΣΗ</span>');
+  if(isBus(e)) t.push('<span class="tag">🚌 λεωφορεία</span>');
   const area = evArea(e);
   if(area) t.push(`<span class="tag area">${esc(area)}</span>`);
   if(hours) t.push(`<span class="tag">🕐 ${esc(hours[0])}–${esc(hours[1])}</span>`);
@@ -470,7 +494,7 @@ window.selDay = d => {
 
 function buildDayMap(){
   const byDay = new Map();
-  (DATA.closures||[]).filter(c => !isRT(c) && matches(c)).forEach(c =>
+  (DATA.closures||[]).filter(c => !isRT(c) && busVisible(c) && matches(c)).forEach(c =>
     (c.days||[]).forEach(day => {
       if(!byDay.has(day)) byDay.set(day, []);
       byDay.get(day).push(c);
@@ -533,10 +557,10 @@ function renderCalendar(){
 function render(){
   const d = DATA;
   const evs = (d.active_events||[]);
-  const nonRT = evs.filter(e => !isRT(e));
+  const nonRT = evs.filter(e => !isRT(e) && busVisible(e));
   const activeAll = nonRT.filter(e => !isPastEvent(e));
   const pastAll = nonRT.filter(isPastEvent);
-  const rtAll = evs.filter(isRT);
+  const rtAll = evs.filter(e => isRT(e) && busVisible(e));
   const main = activeAll.filter(matches);
   const past = pastAll.filter(matches);
   const rt = rtAll.filter(matches);
@@ -556,6 +580,14 @@ function render(){
       + (failing ? ` · ${failing} πηγές εκτός` : "");
 
   renderFilters();
+  const busCount = evs.filter(isBus).length;
+  const bt = $("busToggle");
+  bt.hidden = busCount === 0;
+  bt.setAttribute("aria-pressed", showBus ? "true" : "false");
+  bt.textContent = `🚌 Λεωφορεία (${busCount})`;
+  bt.title = showBus
+    ? "Οι αλλαγές λεωφορειακών γραμμών εμφανίζονται"
+    : "Οι αλλαγές λεωφορειακών γραμμών είναι κρυμμένες — δεν στέλνουν ποτέ ειδοποιήσεις";
   renderCalendar();
   const filtered = !!(filt.src || filt.area);
 

@@ -80,6 +80,15 @@ GHOST_HORIZON_DAYS = 90   # a registry record whose EVERY day sits this
                           # body-derived days can never look ghostly.
 SILENT_LABELS = {SOURCES[n].SOURCE for n in SILENT_SOURCES}
 
+# DASHBOARD-ONLY CATEGORIES. Unlike SILENT_SOURCES (whole feeds), these
+# are per-EVENT classes that stay in the registry, the calendar and the
+# ICS feed — fully visible, behind a website toggle — but never message
+# anyone. "bus": a rerouted bus line matters to the people who ride it,
+# not to everyone; rail closures (Μετρό/ΗΣΑΠ/Τραμ) are NOT in this class
+# and still alert, which is why the test is per-event: ΟΑΣΑ publishes
+# both on one feed.
+SILENT_CATEGORIES = {"bus"}
+
 BASE = Path(__file__).parent
 STATE_FILE = BASE / "state.json"
 DASHBOARD_FILE = BASE / "docs" / "data.json"
@@ -210,6 +219,9 @@ def load_state() -> dict:
         c.setdefault("first_seen", None)
         c.setdefault("last_seen", None)
         c.setdefault("extended", False)
+        if "category" not in c:          # pre-category records
+            c["category"] = enrich.category(f"{c.get('title','')} "
+                                            f"{c.get('details','')}")
     # Silent (dashboard-only) sources have no business in the closures
     # registry — purge the TomTom blips accumulated before this rule.
     state["closures"] = {i: c for i, c in state["closures"].items()
@@ -407,6 +419,7 @@ def main(argv=None) -> int:
                       file=sys.stderr)
 
             current, date_misses, lane_only, enriched = [], 0, 0, 0
+            off_region, bus_only = 0, 0
             for e in events:
                 is_new = e.id not in seen
                 if is_new:
@@ -418,6 +431,15 @@ def main(argv=None) -> int:
                 ed = overrides["edits"].get(e.id) or {}
                 if ed.get("title"):
                     e.title = str(ed["title"])[:300]
+
+                if enrich.other_city_headline(e.title):
+                    # Datelined to another city — unambiguous, unlike the
+                    # ambiguous titles the news modules deliberately keep
+                    # (production shipped "Ξάνθη: …Εγνατία Οδό").
+                    off_region += 1
+                    if is_new:
+                        state["seen"].append(e.id)
+                    continue
 
                 if enrich.is_lane_only(f"{e.title} {e.details}"):
                     lane_only += 1                # below the notification
@@ -490,11 +512,16 @@ def main(argv=None) -> int:
                 # start > end crosses midnight. Lets the dashboard say
                 # "κλειστό ΤΩΡΑ" instead of just "σήμερα".
                 hours = enrich.extract_hours(e.title)
+                # Per-event class (see SILENT_CATEGORIES): "bus" events
+                # are shown everywhere but notify no one.
+                cat = enrich.category(f"{e.title} {e.details}")
+                if cat in SILENT_CATEGORIES:
+                    bus_only += 1
 
                 entry = {"id": e.id, "source": e.source, "title": e.title,
                          "url": e.url, "details": e.details,
                          "area": area, "days": days, "hours": hours,
-                         "plain": plain,
+                         "plain": plain, "category": cat,
                          "new_this_run": is_new and not first_time}
 
                 if is_new:
@@ -503,7 +530,8 @@ def main(argv=None) -> int:
                         # mark seen now. First sight of a source = everyone
                         # already "alerted" (silent seeding).
                         state["seen"].append(e.id)
-                    elif first_time or name in SILENT_SOURCES:
+                    elif (first_time or name in SILENT_SOURCES
+                          or cat in SILENT_CATEGORIES):
                         # Seeding, or a dashboard-only source (tomtom):
                         # seen and silent by design.
                         state["seen"].append(e.id)
@@ -535,7 +563,7 @@ def main(argv=None) -> int:
                         # the flood cap remains the backstop.
                         extended = True
                         prev_alerted = []
-                    if name in SILENT_SOURCES:
+                    if name in SILENT_SOURCES or cat in SILENT_CATEGORIES:
                         # Dashboard-only: whatever happens above, every
                         # subscriber counts as already alerted, forever.
                         prev_alerted = [s["chat_id"] for s in subs]
@@ -543,7 +571,7 @@ def main(argv=None) -> int:
                         "id": e.id,
                         "source": e.source, "title": e.title, "url": e.url,
                         "details": e.details, "area": area, "days": days,
-                        "hours": hours, "plain": plain,
+                        "hours": hours, "plain": plain, "category": cat,
                         "first_seen": prev.get("first_seen") or now_iso(),
                         "last_seen": now_iso(),
                         "extended": extended,
@@ -556,8 +584,15 @@ def main(argv=None) -> int:
             state["active"][name] = current
             if lane_only:
                 tally["μόνο μία λωρίδα/ΛΕΑ"] = lane_only
+            if off_region:
+                tally["άλλη πόλη (τίτλος)"] = off_region
+            if bus_only:
+                tally["λεωφορεία (χωρίς ειδοποίηση)"] = bus_only
             state["source_status"][name] = {
-                "name": name, "ok": True, "items": len(events) - lane_only,
+                "name": name, "ok": True,
+                # bus events ARE kept (shown, just silent); lane-only
+                # and off-region ones are dropped, so exclude them
+                "items": len(events) - lane_only - off_region,
                 "fetched": fetched, "dropped": tally,
                 "date_misses": date_misses, "body_enriched": enriched,
                 "consecutive_failures": 0, "last_success": now_iso(),
@@ -615,7 +650,8 @@ def main(argv=None) -> int:
 
     # ------------------- dated: urgent when entering each USER's window
     for cid, c in state["closures"].items():
-        if c["source"] in SILENT_LABELS:
+        if (c["source"] in SILENT_LABELS
+                or c.get("category") in SILENT_CATEGORIES):
             continue                     # dashboard-only, never urgent
         upcoming = [d for d in c["days"] if d >= today]
         if not upcoming:
@@ -664,7 +700,8 @@ def main(argv=None) -> int:
                 date.fromisoformat(today).toordinal() + 1).isoformat()
         entries = [c for c in state["closures"].values()
                    if area_ok(c["area"], s)
-                   and c["source"] not in SILENT_LABELS]
+                   and c["source"] not in SILENT_LABELS
+                   and c.get("category") not in SILENT_CATEGORIES]
         text = notify.format_digest(entries, start,
                                     int(s["digest_lookahead_days"]), today)
         if safe_send(text, chat):

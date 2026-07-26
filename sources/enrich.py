@@ -396,6 +396,59 @@ def is_lane_only(text: str) -> bool:
     return bool(LANE_ONLY_RE.search(t)) and not MAJOR_RE.search(t)
 
 
+# ---- categories: bus-route diversions vs everything else -------------
+# ΟΑΣΑ publishes BOTH bus diversions and rail (Μετρό/ΗΣΑΠ/Τραμ) closures
+# on one feed, so the distinction has to be per-EVENT, never per-source:
+# a rerouted bus affects the people who take that line, while a Metro
+# line shutting early affects the whole city. Product rule: bus
+# diversions are dashboard-only (opt-in), rail closures still alert.
+BUS_RE = re.compile(r"λεωφορειακ|λεωφ\.?\s*γραμμ|σχολικ\w*\s+λεωφορει")
+RAIL_RE = re.compile(r"μετρο|τραμ|ησαπ|σιδηροτροχ|προαστιακ|"
+                     r"ηλεκτρικο[υς]?\s+σιδηροδρομ|συρμο")
+
+
+def is_bus_route_change(text: str) -> bool:
+    """True for a bus-route diversion with no rail component. A notice
+    covering both (bus replacement for a closed Metro line) counts as
+    rail — the rail closure is the newsworthy part."""
+    t = norm_greek(text or "")
+    return bool(BUS_RE.search(t)) and not RAIL_RE.search(t)
+
+
+def category(text: str) -> str:
+    """Event category, stored on every record. "" means uncategorised
+    (the normal road-closure case); "bus" is the opt-in class."""
+    return "bus" if is_bus_route_change(text) else ""
+
+
+# ---- headlines explicitly datelined to another city ------------------
+# The news modules deliberately KEEP ambiguous titles (a false positive
+# beats a missed Syngrou closure), but a headline whose dateline prefix
+# names another city is not ambiguous at all — production shipped
+# "Ξάνθη: Στις φλόγες νταλίκα στην Εγνατία Οδό". Only the prefix counts,
+# so "Αθηνών-Θεσσαλονίκης" (a motorway with an Athens end) is untouched.
+NON_ATTICA_CITIES = [
+    "θεσσαλονικ", "πατρα", "ξανθ", "ηρακλει", "λαρισ", "βολο", "ιωαννιν",
+    "καβαλ", "κομοτην", "αλεξανδρουπολ", "σερρ", "δραμα", "κατερin",
+    "κατεριν", "κοζαν", "φλωριν", "γρεβεν", "βεροι", "γιαννιτσ", "εδεσσ",
+    "τρικαλ", "καρδιτσ", "λαμια", "λιβαδει", "χαλκιδ", "θηβ", "λευκαδ",
+    "πρεβεζ", "αρτα", "αγριν", "ναυπακτ", "κορινθ", "ναυπλι", "τριπολ",
+    "καλαματ", "σπαρτ", "πυργο", "ζακυνθ", "κεφαλλην", "κερκυρ", "ροδο",
+    "κω", "χανι", "ρεθυμν", "αγιο νικολαο", "μυτιλην", "χιο", "σαμο",
+    "συρο", "ναξο", "παρο", "σαντορ", "καστορ", "ορεστιαδ", "ελευθερουπολ",
+]
+_DATELINE_RE = re.compile(r"^\s*([^:\u2013\u2014-]{3,28})\s*[:\u2013\u2014-]")
+
+
+def other_city_headline(title: str) -> bool:
+    """True when a headline's leading dateline names a non-Attica city."""
+    m = _DATELINE_RE.match(norm_greek(title or ""))
+    if not m:
+        return False
+    prefix = m.group(1)
+    return any(c in prefix for c in NON_ATTICA_CITIES)
+
+
 DATEISH_RE = re.compile(r"\d{1,2}\s*/\s*\d{1,2}|\d{1,2}[./-]\d{1,2}[./-]\d{2,4}|"
                         + "|".join(f"\\d{{1,2}}\\S*\\s+{s}" for s in _MONTHS))
 
