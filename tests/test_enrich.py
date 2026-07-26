@@ -102,6 +102,21 @@ def run():
     assert sane_days(["2026-07-13", "2027-01-10"]) == ["2026-07-13"]
     assert sane_days(dd) == dd
 
+    # 9e. Greek streets/squares are NAMED after dates — an address is
+    #     not a schedule (production: a Λ. Μεσογείων decision citing
+    #     "την οδό 28ης Οκτωβρίου" was filed as a 28-October closure)
+    oct28 = ("Προσωρινή διακοπή στη δεξιά λωρίδα της Λ. Μεσογείων, από το "
+             "ύψος της συμβολής της με την οδό 28ης Οκτωβρίου έως τον Α/Κ "
+             "της Περιφερειακής Υμηττού")
+    assert extract_days(oct28, fri) == [], extract_days(oct28, fri)
+    assert extract_days("εργασίες στην πλατεία 25ης Μαρτίου", fri) == []
+    assert extract_days("κλειστή η λεωφόρος 28ης Οκτωβρίου", fri) == []
+    # ...while genuine named dates, even next to a street, survive
+    assert extract_days("στην οδό Πανεπιστημίου, στις 5 Αυγούστου 2026",
+                        fri) == ["2026-08-05"]
+    assert extract_days("το Σάββατο 1 και την Κυριακή 2 Αυγούστου 2026",
+                        fri) == ["2026-08-01", "2026-08-02"]
+
     # 10. Daily time windows ("κατά τις ώρες ...") — start > end means
     #     the window crosses midnight, verbatim production phrasings
     assert extract_hours("κατά τις ώρες 07.00΄ έως 12.00΄, λόγω εργασιών") == ["07:00", "12:00"]

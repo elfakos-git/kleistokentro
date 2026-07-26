@@ -227,6 +227,12 @@ def load_state() -> dict:
             if len(fresh) > 2 and fresh and fresh[-1] == d[1]:
                 c["days"] = fresh
         c["days"] = enrich.sane_days(c.get("days")) or c.get("days") or []
+        if c["days"] != d and c.get("title"):
+            # The plain line embeds the dates, so a migrated day list
+            # leaves it stale (production: a re-expanded 156-day range
+            # still read "15/7, 18/12"). Regenerate it here — the only
+            # place that touches days outside the fetch loop.
+            c["plain"] = humanize.summarize(c["title"], days=c["days"])
     return state
 
 
@@ -510,7 +516,17 @@ def main(argv=None) -> int:
                     if first_time:
                         prev_alerted = [s["chat_id"] for s in subs]
                     extended = bool(prev.get("extended"))
-                    if prev.get("days") and max(days) > max(prev["days"]):
+                    # An extension re-arms alerts, so it must be REAL. The
+                    # title is the evidence: a re-issued decision or an
+                    # updated article changes its text. An IDENTICAL title
+                    # whose dates moved is our own parser drifting —
+                    # production: "…την Πέμπτη για το EKO Rally" is
+                    # weekday-only, so the nearest Thursday advanced every
+                    # week, faking an extension and re-alerting forever.
+                    # Days still update (the dashboard should show the
+                    # current reading); only the re-arm is withheld.
+                    if (prev.get("days") and max(days) > max(prev["days"])
+                            and prev.get("title") not in (None, e.title)):
                         # GENUINE EXTENSION: the closure now runs later
                         # than anything subscribers were told about.
                         # Mark it (dashboard badge) and re-arm the

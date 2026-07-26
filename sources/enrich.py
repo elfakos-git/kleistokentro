@@ -69,6 +69,19 @@ MAX_RANGE_DAYS = 200   # ranges up to ~6.5 months expand day-by-day
 PAST_GRACE_DAYS, FUTURE_DAYS = 4, 300
 
 
+# Greek streets and squares are NAMED after dates — "οδός 28ης Οκτωβρίου",
+# "πλατεία 25ης Μαρτίου". Production: a Λ. Μεσογείων decision referencing
+# "την οδό 28ης Οκτωβρίου" was filed as a closure on 28 October. A
+# day+month preceded by a street/square word is an ADDRESS, not a date.
+_STREET_CTX_RE = re.compile(
+    r"(?:οδο[υς]?|οδον|λεωφορο[υς]?|λεωφ\.?|πλατεια[νς]?|πλ\.?|"
+    r"σταση|περιοχη)\s+(?:της\s+|του\s+|την\s+|το\s+)?$")
+
+
+def _in_street_context(text: str, start: int) -> bool:
+    return bool(_STREET_CTX_RE.search(text[max(0, start - 30):start]))
+
+
 def _month_no(stem_match: str) -> int:
     for stem, num in _MONTHS.items():
         if stem_match.startswith(stem):
@@ -177,6 +190,8 @@ def extract_days(text: str, today: date | None = None) -> list[str]:
         return _resolve_no_year(d, m, today)
 
     def take_named_range(m):
+        if _in_street_context(t, m.start()):
+            return blank(m)
         d1, d2, mo = int(m.group(1)), int(m.group(2)), _month_no(m.group(3))
         a, b = _year(d1, mo, m.group(4)), _year(d2, mo, m.group(4))
         if a and b and a <= b and (b - a).days <= MAX_RANGE_DAYS:
@@ -191,6 +206,8 @@ def extract_days(text: str, today: date | None = None) -> list[str]:
         return blank(m)
 
     def take_named_pair(m):
+        if _in_street_context(t, m.start()):
+            return blank(m)
         mo = _month_no(m.group(3))
         for dd in (m.group(1), m.group(2)):
             x = _year(int(dd), mo, m.group(4))
@@ -199,6 +216,8 @@ def extract_days(text: str, today: date | None = None) -> list[str]:
         return blank(m)
 
     def take_named_day(m):
+        if _in_street_context(t, m.start()):
+            return blank(m)      # "οδό 28ης Οκτωβρίου" is an address
         x = _year(int(m.group(1)), _month_no(m.group(2)), m.group(3))
         if x:
             days.add(x)
