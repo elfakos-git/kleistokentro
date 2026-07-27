@@ -208,7 +208,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T22:56:46+00:00"
+      "last_success": "2026-07-27T02:09:57+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -216,12 +216,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 95,
+        "εκτός χρονικού παραθύρου": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T22:56:46+00:00"
+      "last_success": "2026-07-27T02:09:57+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -235,7 +236,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T22:56:46+00:00"
+      "last_success": "2026-07-27T02:09:57+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -248,7 +249,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T22:56:46+00:00"
+      "last_success": "2026-07-27T02:09:57+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -262,7 +263,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T22:56:46+00:00"
+      "last_success": "2026-07-27T02:09:57+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -275,7 +276,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-26T23:25:34+00:00"
+      "last_success": "2026-07-27T02:09:57+00:00"
     }
   },
   "active": {
@@ -655,7 +656,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-26T22:56:46+00:00",
+      "last_seen": "2026-07-27T02:09:57+00:00",
       "extended": true,
       "alerted_chats": []
     },
@@ -1275,7 +1276,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-25T13:06:29+00:00",
-      "last_seen": "2026-07-26T22:56:46+00:00",
+      "last_seen": "2026-07-27T02:09:57+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1491,12 +1492,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-24T05:38:11+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-24T06:20:02+00:00",
       "new": 0,
@@ -1850,6 +1845,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-27T02:09:57+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
