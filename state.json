@@ -278,15 +278,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 14,
+      "items": 9,
+      "fetched": 43,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 34
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-28T01:50:27+00:00"
+      "last_success": "2026-07-28T05:35:01+00:00"
     }
   },
   "active": {
@@ -478,36 +478,6 @@
         "source": "TomTom (realtime)",
         "title": "Genisarli (Konstantinoupoleos Ave) → Rodou (Konstantinoupoleos Ave)",
         "url": "https://www.google.com/maps?q=38.0067958112,23.7204050654",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Βόρεια",
-        "days": [
-          "2026-07-28"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51568322080028000",
-        "source": "TomTom (realtime)",
-        "title": "Alkiviadou (Agorakritou) → Admitou (Agorakritou)",
-        "url": "https://www.google.com/maps?q=37.9963298361,23.7263877326",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Βόρεια",
-        "days": [
-          "2026-07-28"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51568321936012000",
-        "source": "TomTom (realtime)",
-        "title": "Αχαρνών → Λιοσίων / Πλατεία Αττικής",
-        "url": "https://www.google.com/maps?q=37.996207835,23.7273667389",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
@@ -1214,15 +1184,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-07-27"
+    "151797168": "2026-07-28"
   },
   "notifications": [
-    {
-      "time": "2026-07-19T06:24:49+00:00",
-      "source": "ΟΑΣΑ",
-      "title": "🚨 Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος του Δήμου Περιστερίου",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-59/"
-    },
     {
       "time": "2026-07-19T06:24:50+00:00",
       "source": "ΟΑΣΑ",
@@ -1396,15 +1360,15 @@
       "source": "kathimerini",
       "title": "🚨 Κυκλοφοριακές ρυθμίσεις στο Ελληνικό την Πέμπτη για το EKO Rally Acropolis",
       "url": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/"
+    },
+    {
+      "time": "2026-07-28T05:35:01+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-25T01:57:49+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-25T05:32:04+00:00",
       "new": 0,
@@ -1758,6 +1722,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-28T05:35:01+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
