@@ -196,7 +196,8 @@
     "TTI-TTR51568322080028000",
     "TTI-TTR51594290912011001",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-112/",
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-113/"
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-113/",
+    "9ΥΤΠ46ΜΤΛΒ-ΠΩ1"
   ],
   "seeded": [
     "astynomia",
@@ -216,21 +217,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-28T06:20:08+00:00"
+      "last_success": "2026-07-28T10:27:13+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99,
-        "εκτός χρονικού παραθύρου": 1
+        "εκτός θέματος/Αθήνας": 98,
+        "άλλη περιοχή": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-28T06:20:09+00:00"
+      "last_success": "2026-07-28T10:27:13+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -244,7 +245,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-28T06:20:09+00:00"
+      "last_success": "2026-07-28T10:27:13+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -257,40 +258,56 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-28T06:20:09+00:00"
+      "last_success": "2026-07-28T10:27:13+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 3,
-      "fetched": 11,
-      "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
-        "λεωφορεία (χωρίς ειδοποίηση)": 3
-      },
+      "items": 0,
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
-      "body_enriched": 2,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-28T06:20:13+00:00"
+      "last_success": "2026-07-28T10:27:13+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 43,
+      "fetched": 37,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 34
+        "κατηγορία εκτός πολιτικής": 28
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-28T08:08:13+00:00"
+      "last_success": "2026-07-28T10:27:13+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [],
+    "diavgeia": [
+      {
+        "id": "9ΥΤΠ46ΜΤΛΒ-ΠΩ1",
+        "source": "Διαύγεια (Τροχαία)",
+        "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στην δεξιά II. λωρίδα της Λεωφ. Βουλιαγμένης, στο ύψος των ο.α. 27, 29, 67, ρεύμα κυκλοφορίας προς Πειραιά, περιοχής Δήμου Γλυφάδας, την 29.07.2026 & 30.07.2026, και κατά τις ώρες 07.00΄ έως 15.00΄, λόγω εκτέλεσης εργασιών κλαδέματος υψηλών δέντρων μ",
+        "url": "https://diavgeia.gov.gr/decision/view/9ΥΤΠ46ΜΤΛΒ-ΠΩ1",
+        "details": "Επίσημη απόφαση Τροχαίας (28/07/2026)",
+        "area": "Νότια",
+        "days": [
+          "2026-07-29",
+          "2026-07-30"
+        ],
+        "hours": [
+          "07:00",
+          "15:00"
+        ],
+        "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. Βουλιαγμένης (προς Πειραιά, Δήμου Γλυφάδας) · 29/7 – 30/7, 07:00–15:00",
+        "category": "",
+        "new_this_run": true
+      }
+    ],
     "iefimerida": [],
     "kathimerini": [
       {
@@ -413,51 +430,7 @@
         "new_this_run": false
       }
     ],
-    "oasa": [
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-112/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 740, λόγω εργασιών  στην οδό Ιβίσκου, του δήμου Αχαρνών",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-112/",
-        "details": "",
-        "area": "Βόρεια",
-        "days": [
-          "2026-07-29"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": true
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-113/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 619 (ΜΕΤΑΜΟΡΦΩΣΗ- Ν. ΦΙΛΑΔΕΛΦΕΙΑ – ΣΤ. ΑΝΩ ΠΑΤΗΣΙΑ (ΚΥΚΛΙΚΗ)),  στο Δήμο Νέας Φιλαδέλφειας – Νέας Χαλκηδόνας, λόγω εργασιών στην οδό Λάρνακος 32",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-113/",
-        "details": "",
-        "area": "Βόρεια",
-        "days": [
-          "2026-07-29"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": true
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-284/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της   λεωφορειακής   γραμμής  838, λόγω εργασιών στην οδό  ΑΓΙΩΝ ΑΝΑΡΓΥΡΩΝ  στον Δήμο ΠΕΙΡΑΙΑ",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-284/",
-        "details": "",
-        "area": "Νότια",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      }
-    ],
+    "oasa": [],
     "tomtom": [
       {
         "id": "TTI-TTR51574092528022000",
@@ -611,7 +584,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-28T06:20:09+00:00",
+      "last_seen": "2026-07-28T10:27:13+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1234,6 +1207,30 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "9ΥΤΠ46ΜΤΛΒ-ΠΩ1": {
+      "id": "9ΥΤΠ46ΜΤΛΒ-ΠΩ1",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στην δεξιά II. λωρίδα της Λεωφ. Βουλιαγμένης, στο ύψος των ο.α. 27, 29, 67, ρεύμα κυκλοφορίας προς Πειραιά, περιοχής Δήμου Γλυφάδας, την 29.07.2026 & 30.07.2026, και κατά τις ώρες 07.00΄ έως 15.00΄, λόγω εκτέλεσης εργασιών κλαδέματος υψηλών δέντρων μ",
+      "url": "https://diavgeia.gov.gr/decision/view/9ΥΤΠ46ΜΤΛΒ-ΠΩ1",
+      "details": "Επίσημη απόφαση Τροχαίας (28/07/2026)",
+      "area": "Νότια",
+      "days": [
+        "2026-07-29",
+        "2026-07-30"
+      ],
+      "hours": [
+        "07:00",
+        "15:00"
+      ],
+      "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. Βουλιαγμένης (προς Πειραιά, Δήμου Γλυφάδας) · 29/7 – 30/7, 07:00–15:00",
+      "category": "",
+      "first_seen": "2026-07-28T10:27:13+00:00",
+      "last_seen": "2026-07-28T10:27:13+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1243,12 +1240,6 @@
     "151797168": "2026-07-28"
   },
   "notifications": [
-    {
-      "time": "2026-07-19T06:24:50+00:00",
-      "source": "ΟΑΣΑ",
-      "title": "🚨 Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 910, 911 και 911Α, λόγω εργασιών επί της οδού Δημοσθένους και μεταξύ των οδών Ταγμ. Πλέσσα και Αχιλλέως, στον Δήμο Καλλιθέας",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-263/"
-    },
     {
       "time": "2026-07-19T06:24:50+00:00",
       "source": "ΟΑΣΑ",
@@ -1422,15 +1413,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-07-28T10:27:13+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 « Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στην δεξιά II. λωρίδα της Λεωφ. Βουλιαγμένης, στο ύψος των ο.α. 27, 29, 67, ρεύμα κυκλοφορίας προς Πειραιά, περιοχής Δήμου Γλυφάδας, την 29.07.2026 & 30.07.2026, και κατά τις ώρες 07.00΄ έως 15.00΄, λόγω εκτέλεσης εργασιών κλαδέματος υψηλών δέντρων μ",
+      "url": "https://diavgeia.gov.gr/decision/view/9ΥΤΠ46ΜΤΛΒ-ΠΩ1"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-25T07:46:52+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-25T09:23:00+00:00",
       "new": 0,
@@ -1784,6 +1775,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-28T10:27:13+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
