@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T01:46:12+00:00",
+  "generated_at": "2026-07-30T05:28:25+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -69,14 +69,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 12,
+      "fetched": 36,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 27
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-30T01:46:12+00:00"
+      "last_success": "2026-07-30T05:28:24+00:00"
     }
   ],
   "active_events": [
@@ -988,6 +988,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-07-30T05:28:25+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
+    {
       "time": "2026-07-29T10:32:03+00:00",
       "source": "Διαύγεια (Τροχαία)",
       "title": "ΑΠΟΦΑΣΗ ΠΡΟΣΩΡΙΝΩΝ ΚΥΚΛΟΦΟΡΙΑΚΩΝ ΡΥΘΜΙΣΕΩΝ ΤΟΥ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟΥ Α.Θ.Ε. ΑΠΟ ΤΗ Χ/Θ 231+000 ΈΩΣ ΤΗ Χ/Θ 229+250 ΣΤΗΝ ΚΑΤΕΥΘΥΝΣΗ ΠΡΟΣ ΑΘΗΝΑ ΓΙΑ THN ΕΚΤΕΛΕΣΗ ΕΡΓΑΣΙΩΝ ΑΠΟΚΑΤΑΣΤΑΣΗΣ ΤΟΠΙΚΗΣ ΚΑΘΙΖΗΣΗΣ ΤΟΥ ΟΔΟΣΤΡΩΜΑΤΟΣ ΠΕΡΙ ΤΗ Χ/Θ 230+000.",
@@ -1160,21 +1166,9 @@
       "source": "kathimerini",
       "title": "🚨 Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από σήμερα – Ποιοι σταθμοί κλείνουν νωρίτερα",
       "url": "https://www.kathimerini.gr/society/564353860/metro-kykloforiakes-rythmiseis-sti-grammi-3-apo-simera-poioi-stathmoi-kleinoyn-noritera/"
-    },
-    {
-      "time": "2026-07-19T09:46:19+00:00",
-      "source": "iefimerida",
-      "title": "🚨 Μετρό: Από σήμερα οι κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 -Ποιοι πέντε σταθμοί κλείνουν νωρίτερα",
-      "url": "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-stathmoi-kleinoyn-noritera"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-26T18:48:27+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-26T20:01:46+00:00",
       "new": 0,
@@ -1528,6 +1522,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-30T05:28:25+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
