@@ -215,15 +215,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 53,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 52
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-29T20:44:32+00:00"
+      "last_success": "2026-07-30T01:46:12+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -236,7 +233,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-29T20:44:32+00:00"
+      "last_success": "2026-07-30T01:46:12+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -249,7 +246,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-29T20:44:32+00:00"
+      "last_success": "2026-07-30T01:46:12+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -262,22 +259,21 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-29T20:44:32+00:00"
+      "last_success": "2026-07-30T01:46:12+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 3,
-      "fetched": 11,
+      "items": 4,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
-        "λεωφορεία (χωρίς ειδοποίηση)": 3
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
+        "λεωφορεία (χωρίς ειδοποίηση)": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-29T20:44:32+00:00"
+      "last_success": "2026-07-30T01:46:12+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -290,7 +286,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-29T23:27:53+00:00"
+      "last_success": "2026-07-30T01:46:12+00:00"
     }
   },
   "active": {
@@ -471,6 +467,19 @@
         "plain": "",
         "category": "bus",
         "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-284/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της   λεωφορειακής   γραμμής  838, λόγω εργασιών στην οδό  ΑΓΙΩΝ ΑΝΑΡΓΥΡΩΝ  στον Δήμο ΠΕΙΡΑΙΑ",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-284/",
+        "details": "",
+        "area": "Νότια",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": false
       }
     ],
     "tomtom": [
@@ -626,7 +635,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-29T20:44:32+00:00",
+      "last_seen": "2026-07-30T01:46:12+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1423,12 +1432,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-26T17:49:31+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-07-26T18:48:27+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1781,6 +1784,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-30T01:46:12+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
