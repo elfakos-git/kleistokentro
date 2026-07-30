@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T20:58:55+00:00",
+  "generated_at": "2026-07-30T21:54:46+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -73,14 +73,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 13,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-30T20:58:55+00:00"
+      "last_success": "2026-07-30T21:54:45+00:00"
     }
   ],
   "active_events": [
@@ -263,7 +263,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-07-30"
+        "2026-07-31"
       ],
       "hours": [],
       "plain": "",
@@ -278,7 +278,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-30"
+        "2026-07-31"
       ],
       "hours": [],
       "plain": "",
@@ -293,7 +293,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-30"
+        "2026-07-31"
       ],
       "hours": [],
       "plain": "",
@@ -308,7 +308,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-30"
+        "2026-07-31"
       ],
       "hours": [],
       "plain": "",
@@ -323,7 +323,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-30"
+        "2026-07-31"
       ],
       "hours": [],
       "plain": "",
@@ -338,7 +338,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-30"
+        "2026-07-31"
       ],
       "hours": [],
       "plain": "",
@@ -353,7 +353,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-30"
+        "2026-07-31"
       ],
       "hours": [],
       "plain": "",
@@ -368,7 +368,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-30"
+        "2026-07-31"
       ],
       "hours": [],
       "plain": "",
@@ -383,7 +383,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-30"
+        "2026-07-31"
       ],
       "hours": [],
       "plain": "",
@@ -899,7 +899,7 @@
       "first_seen": "2026-07-28T10:27:13+00:00",
       "last_seen": "2026-07-28T10:27:13+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
@@ -917,7 +917,7 @@
       "first_seen": "2026-07-20T17:27:33+00:00",
       "last_seen": "2026-07-30T20:58:55+00:00",
       "extended": true,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-5/",
@@ -935,7 +935,7 @@
       "first_seen": "2026-07-29T06:25:31+00:00",
       "last_seen": "2026-07-29T06:25:31+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf-22/",
@@ -953,7 +953,7 @@
       "first_seen": "2026-07-30T13:41:34+00:00",
       "last_seen": "2026-07-30T13:41:34+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.kathimerini.gr/society/564374677/thessaloniki-kleisto-kommati-tis-perifereiakis-to-savvato/",
@@ -1015,6 +1015,12 @@
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-07-30T21:54:46+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25484 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Πλήρη διακοπή της κυκλοφορίας των οχημάτων επί της οδού Ρηγίλλης, στο τμήμα της μεταξύ των οδών Βασ. Γεωργίου Β΄και Λυκείου, περιοχής Δήμου Αθηναίων, στις 02.08.2026 κατά τις ώρες 06.00΄ έως 10.00΄, λόγω εκτέλεσης εργασιών μετακόμισης.",
+      "url": "https://diavgeia.gov.gr/decision/view/6ΤΩΣ46ΜΤΛΒ-ΗΘ5"
+    },
     {
       "time": "2026-07-30T10:16:11+00:00",
       "source": "kathimerini",
@@ -1188,21 +1194,9 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "🚨 25449 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων, στα κάτωθι οδικά τμήματα της Λεωφ. Αθηνών, περιοχής Δήμου Χαϊδαρίου, για το χρονικό διάστημα από 21/07/2026 έως 17/08/2026, κατά τις ώρες 22.00΄ έως 06.00΄ της επομένης, με εξαίρεση τις Παρασκευές, τις Κυρια",
       "url": "https://diavgeia.gov.gr/decision/view/9ΦΘΦ46ΜΤΛΒ-ΙΣΠ"
-    },
-    {
-      "time": "2026-07-20T05:56:51+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-27T13:23:34+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-27T14:14:40+00:00",
       "new": 0,
@@ -1556,6 +1550,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-30T21:54:46+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
