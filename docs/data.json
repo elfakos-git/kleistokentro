@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T21:33:32+00:00",
+  "generated_at": "2026-07-31T22:46:17+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -70,15 +70,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
+      "items": 10,
       "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-31T21:33:32+00:00"
+      "last_success": "2026-07-31T22:46:17+00:00"
     }
   ],
   "active_events": [
@@ -316,6 +316,21 @@
       "url": "https://www.google.com/maps?q=37.990176883,23.7386937076",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
+      "days": [
+        "2026-08-01"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51600061716012000",
+      "source": "TomTom (realtime)",
+      "title": "Tsaldari (Chrisostomou Smirnis Ave) → Korai (Chrisostomou Smirnis Ave)",
+      "url": "https://www.google.com/maps?q=37.9618071227,23.7525781625",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
       "days": [
         "2026-08-01"
       ],
@@ -1215,12 +1230,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-28T13:45:55+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-07-28T14:57:41+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1570,6 +1579,12 @@
     },
     {
       "time": "2026-07-31T21:33:32+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-07-31T22:46:17+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
