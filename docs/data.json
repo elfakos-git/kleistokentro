@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T20:56:33+00:00",
+  "generated_at": "2026-07-31T21:33:32+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -71,14 +71,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 14,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-31T20:56:33+00:00"
+      "last_success": "2026-07-31T21:33:32+00:00"
     }
   ],
   "active_events": [
@@ -257,7 +257,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-07-31"
+        "2026-08-01"
       ],
       "hours": [],
       "plain": "",
@@ -272,7 +272,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-31"
+        "2026-08-01"
       ],
       "hours": [],
       "plain": "",
@@ -287,7 +287,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-07-31"
+        "2026-08-01"
       ],
       "hours": [],
       "plain": "",
@@ -302,7 +302,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-31"
+        "2026-08-01"
       ],
       "hours": [],
       "plain": "",
@@ -317,7 +317,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-31"
+        "2026-08-01"
       ],
       "hours": [],
       "plain": "",
@@ -332,7 +332,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-31"
+        "2026-08-01"
       ],
       "hours": [],
       "plain": "",
@@ -347,7 +347,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-07-31"
+        "2026-08-01"
       ],
       "hours": [],
       "plain": "",
@@ -362,7 +362,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-31"
+        "2026-08-01"
       ],
       "hours": [],
       "plain": "",
@@ -377,7 +377,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-07-31"
+        "2026-08-01"
       ],
       "hours": [],
       "plain": "",
@@ -640,26 +640,6 @@
       "extended": false,
       "category": "",
       "status": "active"
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-61/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73  του Δήμου Περιστερίου",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-61/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [
-        "2026-07-22",
-        "2026-07-23",
-        "2026-07-24"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-21T10:18:14+00:00",
-      "last_seen": "2026-07-21T10:18:14+00:00",
-      "extended": false,
-      "category": "bus",
-      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-114/",
@@ -947,7 +927,7 @@
       "first_seen": "2026-07-30T13:41:34+00:00",
       "last_seen": "2026-07-30T13:41:34+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.kathimerini.gr/society/564374677/thessaloniki-kleisto-kommati-tis-perifereiakis-to-savvato/",
@@ -966,7 +946,7 @@
       "first_seen": "2026-07-30T10:16:10+00:00",
       "last_seen": "2026-07-30T10:16:10+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "ΡΦΒΞ46ΜΤΛΒ-0ΒΟ",
@@ -988,7 +968,7 @@
       "first_seen": "2026-07-31T13:46:00+00:00",
       "last_seen": "2026-07-31T20:56:33+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "6ΤΩΣ46ΜΤΛΒ-ΗΘ5",
@@ -1234,12 +1214,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-28T12:27:48+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-28T13:45:55+00:00",
       "new": 0,
@@ -1593,6 +1567,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-07-31T21:33:32+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
