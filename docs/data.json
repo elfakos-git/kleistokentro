@@ -1,19 +1,16 @@
 {
-  "generated_at": "2026-07-31T20:13:00+00:00",
+  "generated_at": "2026-07-31T20:56:33+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-31T17:21:44+00:00"
+      "last_success": "2026-07-31T20:56:33+00:00"
     },
     {
       "name": "diavgeia",
@@ -27,7 +24,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-31T17:21:45+00:00"
+      "last_success": "2026-07-31T20:56:33+00:00"
     },
     {
       "name": "iefimerida",
@@ -40,7 +37,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-31T17:21:45+00:00"
+      "last_success": "2026-07-31T20:56:33+00:00"
     },
     {
       "name": "kathimerini",
@@ -53,7 +50,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-31T17:21:45+00:00"
+      "last_success": "2026-07-31T20:56:33+00:00"
     },
     {
       "name": "oasa",
@@ -68,20 +65,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-31T17:21:45+00:00"
+      "last_success": "2026-07-31T20:56:33+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 13,
+      "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-31T20:13:00+00:00"
+      "last_success": "2026-07-31T20:56:33+00:00"
     }
   ],
   "active_events": [
@@ -912,7 +909,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-31T17:21:45+00:00",
+      "last_seen": "2026-07-31T20:56:33+00:00",
       "extended": true,
       "status": "ended"
     },
@@ -989,7 +986,7 @@
       "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. Μεσογείων (Δήμου Αγ. Παρασκευής) · 1/8 – 2/8, 07:00–15:00 · λόγω εργασιών ΚΑΤΑΣΚΕΥΗ ΕΞΩΤΕΡΙΚΩΝ ΔΙΑΚΛΑΔΩΣΕΩΝ ΣΥΝΔΕΣΗΣ ΑΚΙΝΗΤΩΝ",
       "category": "",
       "first_seen": "2026-07-31T13:46:00+00:00",
-      "last_seen": "2026-07-31T17:21:45+00:00",
+      "last_seen": "2026-07-31T20:56:33+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1031,7 +1028,7 @@
       "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 2/8, 08:00–16:00",
       "category": "",
       "first_seen": "2026-07-31T10:30:40+00:00",
-      "last_seen": "2026-07-31T17:21:45+00:00",
+      "last_seen": "2026-07-31T20:56:33+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1237,12 +1234,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-28T10:55:11+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-28T12:27:48+00:00",
       "new": 0,
@@ -1596,6 +1587,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-07-31T20:56:33+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
