@@ -228,7 +228,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-31T20:56:33+00:00"
+      "last_success": "2026-08-01T02:05:03+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -236,13 +236,14 @@
       "items": 2,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 96,
+        "εκτός θέματος/Αθήνας": 94,
+        "εκτός χρονικού παραθύρου": 2,
         "μόνο μία λωρίδα/ΛΕΑ": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-31T20:56:33+00:00"
+      "last_success": "2026-08-01T02:05:04+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -255,7 +256,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-31T20:56:33+00:00"
+      "last_success": "2026-08-01T02:05:04+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -268,7 +269,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-31T20:56:33+00:00"
+      "last_success": "2026-08-01T02:05:04+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -283,20 +284,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-31T20:56:33+00:00"
+      "last_success": "2026-08-01T02:05:04+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 15,
+      "fetched": 13,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-07-31T22:46:17+00:00"
+      "last_success": "2026-08-01T02:05:04+00:00"
     }
   },
   "active": {
@@ -554,10 +555,10 @@
       {
         "id": "TTI-TTR51600061716012000",
         "source": "TomTom (realtime)",
-        "title": "Tsaldari (Chrisostomou Smirnis Ave) → Korai (Chrisostomou Smirnis Ave)",
-        "url": "https://www.google.com/maps?q=37.9618071227,23.7525781625",
+        "title": "Erithreas (Chrisostomou Smirnis Ave) → Platia Smirnis (Chrisostomou Smirnis Ave)",
+        "url": "https://www.google.com/maps?q=37.9606725721,23.7534659737",
         "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
+        "area": "Νότια",
         "days": [
           "2026-08-01"
         ],
@@ -643,7 +644,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-07-31T20:56:33+00:00",
+      "last_seen": "2026-08-01T02:05:04+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1287,7 +1288,7 @@
       "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 2/8, 08:00–16:00",
       "category": "",
       "first_seen": "2026-07-31T10:30:40+00:00",
-      "last_seen": "2026-07-31T20:56:33+00:00",
+      "last_seen": "2026-08-01T02:05:04+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1311,7 +1312,7 @@
       "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. Μεσογείων (Δήμου Αγ. Παρασκευής) · 1/8 – 2/8, 07:00–15:00 · λόγω εργασιών ΚΑΤΑΣΚΕΥΗ ΕΞΩΤΕΡΙΚΩΝ ΔΙΑΚΛΑΔΩΣΕΩΝ ΣΥΝΔΕΣΗΣ ΑΚΙΝΗΤΩΝ",
       "category": "",
       "first_seen": "2026-07-31T13:46:00+00:00",
-      "last_seen": "2026-07-31T20:56:33+00:00",
+      "last_seen": "2026-08-01T02:05:04+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1507,12 +1508,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-28T14:57:41+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-28T16:29:16+00:00",
       "new": 0,
@@ -1866,6 +1861,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-01T02:05:04+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
