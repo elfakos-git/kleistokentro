@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T05:43:35+00:00",
+  "generated_at": "2026-08-01T06:22:04+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-01T02:05:03+00:00"
+      "last_success": "2026-08-01T06:22:02+00:00"
     },
     {
       "name": "diavgeia",
@@ -25,20 +25,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-01T02:05:04+00:00"
+      "last_success": "2026-08-01T06:22:02+00:00"
     },
     {
       "name": "iefimerida",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 11
+        "χωρίς/παλιά ημερομηνία": 10
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-01T02:05:04+00:00"
+      "last_success": "2026-08-01T06:22:02+00:00"
     },
     {
       "name": "kathimerini",
@@ -51,35 +51,35 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-01T02:05:04+00:00"
+      "last_success": "2026-08-01T06:22:03+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 2,
+      "items": 1,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 2,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
-        "λεωφορεία (χωρίς ειδοποίηση)": 2
+        "παλιά ανακοίνωση": 1,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
+        "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-08-01T02:05:04+00:00"
+      "last_success": "2026-08-01T06:22:04+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 13,
+      "items": 12,
       "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-01T05:43:35+00:00"
+      "last_success": "2026-08-01T06:22:04+00:00"
     }
   ],
   "active_events": [
@@ -119,6 +119,32 @@
       "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 2/8, 08:00–16:00",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sto-porto-germeno-logo-tis-fotias",
+      "source": "iefimerida",
+      "title": "Κυκλοφοριακές ρυθμίσεις στο Πόρτο Γερμενό λόγω της φωτιάς",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sto-porto-germeno-logo-tis-fotias",
+      "details": "",
+      "area": "",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564379834/diakopi-kykloforias-stin-athinon-lamias-meta-apo-anatropi-fortigon/",
+      "source": "kathimerini",
+      "title": "Διακοπή κυκλοφορίας στην Αθηνών-Λαμίας μετά από ανατροπή φορτηγών",
+      "url": "https://www.kathimerini.gr/society/564379834/diakopi-kykloforias-stin-athinon-lamias-meta-apo-anatropi-fortigon/",
+      "details": "",
+      "area": "Βόρεια",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "https://www.kathimerini.gr/society/564374677/thessaloniki-kleisto-kommati-tis-perifereiakis-to-savvato/",
@@ -212,43 +238,19 @@
       "new_this_run": false
     },
     {
-      "id": "https://www.kathimerini.gr/society/564276574/thessaloniki-kykloforiakes-rythmiseis-logo-flyover/",
-      "source": "kathimerini",
-      "title": "Τα έκτακτα μέτρα θα εφαρμοστούν έως τις πέντε το πρωί της Πέμπτης καθώς επίσης και το βράδυ της Παρασκευής.",
-      "url": "https://www.kathimerini.gr/society/564276574/thessaloniki-kykloforiakes-rythmiseis-logo-flyover/",
-      "details": "",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf-22/",
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-62/",
       "source": "ΟΑΣΑ",
-      "title": "**Παράταση μερικής προσωρινής τροποποίησης της λεωφορειακής γραμμής 837,  λόγω εργασιών στην οδό οδό ΣΤΕΦΑΝΟΥ ΣΑΡΑΦΗ μεταξύ των οδών Μ. Αλεξάνδρου και Κρήτης του Δήμου ΑΓΙΑΣ ΒΑΡΒΑΡΑΣ",
-      "url": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf-22/",
+      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής Α11, λόγω εργασιών επί της οδού Κεφαλληνίας στον Δήμο Πετρούπολης",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-62/",
       "details": "",
-      "area": "",
-      "days": [],
+      "area": "Δυτικά",
+      "days": [
+        "2026-08-02"
+      ],
       "hours": [],
       "plain": "",
       "category": "bus",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-5/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση της λεωφορειακής γραμμής 530, λόγω εργασιών επί της οδού Αγίου Τρύφωνος, του Δήμου Κηφισιάς",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-5/",
-      "details": "",
-      "area": "Βόρεια",
-      "days": [],
-      "hours": [],
-      "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Αγίου Τρύφωνος · λόγω εργασιών επί της οδού Αγίου Τρύφωνος",
-      "category": "bus",
-      "new_this_run": false
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51574092528022000",
@@ -323,7 +325,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-TTR51579863732014000",
@@ -341,21 +343,6 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51585634396013001",
-      "source": "TomTom (realtime)",
-      "title": "Irodotou (Patriarchou Ioakim) → Ploutarchou (Patriarchou Ioakim)",
-      "url": "https://www.google.com/maps?q=37.9778936763,23.743510955",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-08-01"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
-    },
-    {
       "id": "TTI-TTR51585634468013001",
       "source": "TomTom (realtime)",
       "title": "Ploutarchou (Patriarchou Ioakim) → Irodotou (Patriarchou Ioakim)",
@@ -368,13 +355,13 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
-      "id": "TTI-TTR51585634504014000",
+      "id": "TTI-TTR51585634396013001",
       "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Βασιλίσσης Σοφίας / Ριζάρη → Πατριάρχου Ιωακείμ",
-      "url": "https://www.google.com/maps?q=37.9777367594,23.7451310092",
+      "title": "Irodotou (Patriarchou Ioakim) → Marasli (Patriarchou Ioakim)",
+      "url": "https://www.google.com/maps?q=37.9778936763,23.743510955",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -383,7 +370,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-TTR51594290660014001",
@@ -950,7 +937,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-01T02:05:04+00:00",
+      "last_seen": "2026-08-01T06:22:03+00:00",
       "extended": true,
       "status": "ended"
     },
@@ -1027,7 +1014,7 @@
       "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. Μεσογείων (Δήμου Αγ. Παρασκευής) · 1/8 – 2/8, 07:00–15:00 · λόγω εργασιών ΚΑΤΑΣΚΕΥΗ ΕΞΩΤΕΡΙΚΩΝ ΔΙΑΚΛΑΔΩΣΕΩΝ ΣΥΝΔΕΣΗΣ ΑΚΙΝΗΤΩΝ",
       "category": "",
       "first_seen": "2026-07-31T13:46:00+00:00",
-      "last_seen": "2026-08-01T02:05:04+00:00",
+      "last_seen": "2026-08-01T06:22:02+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1069,7 +1056,25 @@
       "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 2/8, 08:00–16:00",
       "category": "",
       "first_seen": "2026-07-31T10:30:40+00:00",
-      "last_seen": "2026-08-01T02:05:04+00:00",
+      "last_seen": "2026-08-01T06:22:02+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-62/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής Α11, λόγω εργασιών επί της οδού Κεφαλληνίας στον Δήμο Πετρούπολης",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-62/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-08-02"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-08-01T06:22:04+00:00",
+      "last_seen": "2026-08-01T06:22:04+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1093,6 +1098,18 @@
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-08-01T06:22:04+00:00",
+      "source": "kathimerini",
+      "title": "Διακοπή κυκλοφορίας στην Αθηνών-Λαμίας μετά από ανατροπή φορτηγών",
+      "url": "https://www.kathimerini.gr/society/564379834/diakopi-kykloforias-stin-athinon-lamias-meta-apo-anatropi-fortigon/"
+    },
+    {
+      "time": "2026-08-01T06:22:04+00:00",
+      "source": "iefimerida",
+      "title": "Κυκλοφοριακές ρυθμίσεις στο Πόρτο Γερμενό λόγω της φωτιάς",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sto-porto-germeno-logo-tis-fotias"
+    },
     {
       "time": "2026-08-01T05:43:35+00:00",
       "source": "Ενημέρωση",
@@ -1260,27 +1277,9 @@
       "source": "ΟΑΣΑ",
       "title": "🚨 Έκτακτες κυκλοφοριακές ρυθμίσεις σε Γραμμή 1 (ΗΣΑΠ) και Γραμμή 7 Τραμ, με εντολή της ΕΛ.ΑΣ , 22/07/2026",
       "url": "https://www.oasa.gr/blog/%ce%ad%ce%ba%cf%84%ce%b1%ce%ba%cf%84%ce%b5%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5/"
-    },
-    {
-      "time": "2026-07-22T05:37:31+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
-    {
-      "time": "2026-07-21T10:18:15+00:00",
-      "source": "ΟΑΣΑ",
-      "title": "🚨 Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73  του Δήμου Περιστερίου",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-61/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-28T17:20:45+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-07-28T17:52:18+00:00",
       "new": 0,
@@ -1634,6 +1633,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-01T06:22:04+00:00",
+      "new": 2,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
