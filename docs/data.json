@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T06:27:19+00:00",
+  "generated_at": "2026-08-02T07:57:17+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -70,15 +70,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
+      "items": 10,
       "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-02T06:27:19+00:00"
+      "last_success": "2026-08-02T07:57:17+00:00"
     }
   ],
   "active_events": [
@@ -290,21 +290,6 @@
       "source": "TomTom (realtime)",
       "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
       "url": "https://www.google.com/maps?q=37.990176883,23.7386937076",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-08-02"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51585634396014000",
-      "source": "TomTom (realtime)",
-      "title": "Λουκιανού → Πλουτάρχου",
-      "url": "https://www.google.com/maps?q=37.9768664096,23.7438904875",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -1239,12 +1224,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-29T20:44:32+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-07-29T21:25:32+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1597,6 +1576,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-08-02T07:57:17+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
