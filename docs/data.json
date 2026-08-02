@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T20:02:36+00:00",
+  "generated_at": "2026-08-02T20:44:04+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-02T16:51:35+00:00"
+      "last_success": "2026-08-02T20:44:03+00:00"
     },
     {
       "name": "diavgeia",
@@ -26,7 +26,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-02T16:51:35+00:00"
+      "last_success": "2026-08-02T20:44:03+00:00"
     },
     {
       "name": "iefimerida",
@@ -39,7 +39,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-02T16:51:35+00:00"
+      "last_success": "2026-08-02T20:44:03+00:00"
     },
     {
       "name": "kathimerini",
@@ -52,7 +52,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-02T16:51:35+00:00"
+      "last_success": "2026-08-02T20:44:03+00:00"
     },
     {
       "name": "oasa",
@@ -66,20 +66,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-02T16:51:35+00:00"
+      "last_success": "2026-08-02T20:44:04+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 13,
+      "fetched": 12,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-02T20:02:36+00:00"
+      "last_success": "2026-08-02T20:44:04+00:00"
     }
   ],
   "active_events": [
@@ -884,7 +884,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-02T16:51:35+00:00",
+      "last_seen": "2026-08-02T20:44:03+00:00",
       "extended": true,
       "status": "ended"
     },
@@ -1042,7 +1042,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Αμαλίας (Δήμου Αθηναίων) · 3/8, 00:30–05:00 · λόγω εργασιών μεταφορ",
       "category": "",
       "first_seen": "2026-08-02T13:03:50+00:00",
-      "last_seen": "2026-08-02T16:51:35+00:00",
+      "last_seen": "2026-08-02T20:44:03+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1248,12 +1248,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-30T14:37:58+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-30T16:18:39+00:00",
       "new": 0,
@@ -1607,6 +1601,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-02T20:44:04+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
