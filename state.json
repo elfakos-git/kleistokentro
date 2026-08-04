@@ -237,15 +237,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 53,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 52
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-03T20:57:07+00:00"
+      "last_success": "2026-08-04T01:49:11+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -253,13 +250,12 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 98,
-        "εκτός χρονικού παραθύρου": 2
+        "εκτός θέματος/Αθήνας": 100
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-03T20:57:07+00:00"
+      "last_success": "2026-08-04T01:49:11+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -273,7 +269,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-03T20:57:07+00:00"
+      "last_success": "2026-08-04T01:49:11+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -286,7 +282,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-03T20:57:07+00:00"
+      "last_success": "2026-08-04T01:49:11+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -301,7 +297,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-03T20:57:07+00:00"
+      "last_success": "2026-08-04T01:49:11+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -314,7 +310,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-03T22:45:55+00:00"
+      "last_success": "2026-08-04T01:49:11+00:00"
     }
   },
   "active": {
@@ -636,10 +632,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832596023000",
+        "id": "TTI-TTR51605832620023000",
         "source": "TomTom (realtime)",
-        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -651,10 +647,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832620023000",
+        "id": "TTI-TTR51605832596023000",
         "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -682,7 +678,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-03T20:57:07+00:00",
+      "last_seen": "2026-08-04T01:49:11+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1461,12 +1457,6 @@
   ],
   "runs": [
     {
-      "time": "2026-07-31T17:21:45+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-07-31T18:48:42+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1819,6 +1809,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-04T01:49:11+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
