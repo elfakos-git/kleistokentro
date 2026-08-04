@@ -223,7 +223,12 @@
     "TTI-TTR51605832596023000",
     "TTI-TTR51605832620023000",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-63/",
-    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-94/"
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-94/",
+    "ΨΑΓΒ46ΜΤΛΒ-ΔΗΝ",
+    "6Τ6246ΜΤΛΒ-9ΕΣ",
+    "TTI-TTR51582749008014000",
+    "TTI-TTR51588519952022000",
+    "TTI-TTR51605832416005000"
   ],
   "seeded": [
     "astynomia",
@@ -238,25 +243,30 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
-      "date_misses": 0,
-      "body_enriched": 0,
-      "consecutive_failures": 0,
-      "last_success": "2026-08-04T06:21:31+00:00"
-    },
-    "diavgeia": {
-      "name": "diavgeia",
-      "ok": true,
-      "items": 0,
-      "fetched": 100,
+      "fetched": 54,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-04T06:21:31+00:00"
+      "last_success": "2026-08-04T10:29:26+00:00"
+    },
+    "diavgeia": {
+      "name": "diavgeia",
+      "ok": true,
+      "items": 1,
+      "fetched": 100,
+      "dropped": {
+        "εκτός θέματος/Αθήνας": 97,
+        "εκτός χρονικού παραθύρου": 1,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
+      },
+      "date_misses": 0,
+      "body_enriched": 0,
+      "consecutive_failures": 0,
+      "last_success": "2026-08-04T10:29:26+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -270,7 +280,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-04T06:21:31+00:00"
+      "last_success": "2026-08-04T10:29:26+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -283,40 +293,55 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-04T06:21:31+00:00"
+      "last_success": "2026-08-04T10:29:26+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 2,
-      "fetched": 11,
+      "items": 3,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 7,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 2,
-        "λεωφορεία (χωρίς ειδοποίηση)": 2
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10,
+        "λεωφορεία (χωρίς ειδοποίηση)": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-04T06:21:31+00:00"
+      "last_success": "2026-08-04T10:29:26+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 12,
-      "fetched": 26,
+      "items": 15,
+      "fetched": 39,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 14
+        "κατηγορία εκτός πολιτικής": 24
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-04T08:11:51+00:00"
+      "last_success": "2026-08-04T10:29:26+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [],
+    "diavgeia": [
+      {
+        "id": "6Τ6246ΜΤΛΒ-9ΕΣ",
+        "source": "Διαύγεια (Τροχαία)",
+        "title": "25502 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες προσωρινές κυκλοφοριακές ρυθμίσεις στα κάτωθι οδικά τμήματα του Αυτοκινητοδρόμου Α.Θ.Ε., από τη χ/θ 17,600 έως τη χ/θ 15,170 , ρεύμα κυκλοφορίας προς Αθήνα, περιοχής Δήμου Μεταμόρφωσης, κατά το χρονικό διάστημα από 18.08.2026 και ώρα 23.00΄ έως ",
+        "url": "https://diavgeia.gov.gr/decision/view/6Τ6246ΜΤΛΒ-9ΕΣ",
+        "details": "Επίσημη απόφαση Τροχαίας (04/08/2026)",
+        "area": "Βόρεια",
+        "days": [
+          "2026-08-18"
+        ],
+        "hours": [],
+        "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Αθήνα) · 18/8",
+        "category": "",
+        "new_this_run": true
+      }
+    ],
     "iefimerida": [],
     "kathimerini": [
       {
@@ -453,13 +478,26 @@
         "hours": [],
         "plain": "",
         "category": "bus",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-63/",
         "source": "ΟΑΣΑ",
         "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73  του Δήμου Περιστερίου",
         "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-63/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-62/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής Α11, λόγω εργασιών επί της οδού Κεφαλληνίας στον Δήμο Πετρούπολης",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-62/",
         "details": "",
         "area": "Δυτικά",
         "days": [],
@@ -531,6 +569,21 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51582749008014000",
+        "source": "TomTom (realtime)",
+        "title": "Eolou (Ermou) → Athinas (Ermou)",
+        "url": "https://www.google.com/maps?q=37.9765083032,23.7275772923",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-08-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
         "id": "TTI-TTR51582749080021000",
         "source": "TomTom (realtime)",
         "title": "Athinas (Evripidou) → Praxitelous (Evripidou)",
@@ -546,6 +599,21 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51588519952022000",
+        "source": "TomTom (realtime)",
+        "title": "Filellinon (Mitropoleos) → Eolou (Mitropoleos)",
+        "url": "https://www.google.com/maps?q=37.9751001749,23.7338603669",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-08-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
         "id": "TTI-TTR51579863732014000",
         "source": "TomTom (realtime)",
         "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
@@ -559,6 +627,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51605832416005000",
+        "source": "TomTom (realtime)",
+        "title": "Ilioupoleos (Chiou) → Ipirou (Chiou)",
+        "url": "https://www.google.com/maps?q=37.9536250528,23.7388626867",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Νότια",
+        "days": [
+          "2026-08-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51594290660014001",
@@ -621,10 +704,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832620023000",
+        "id": "TTI-TTR51605832596023000",
         "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -636,10 +719,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832596023000",
+        "id": "TTI-TTR51605832620023000",
         "source": "TomTom (realtime)",
-        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -667,7 +750,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-04T06:21:31+00:00",
+      "last_seen": "2026-08-04T10:29:26+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1269,11 +1352,29 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-08-04T06:21:31+00:00",
-      "last_seen": "2026-08-04T06:21:31+00:00",
+      "last_seen": "2026-08-04T10:29:26+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "6Τ6246ΜΤΛΒ-9ΕΣ": {
+      "id": "6Τ6246ΜΤΛΒ-9ΕΣ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25502 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες προσωρινές κυκλοφοριακές ρυθμίσεις στα κάτωθι οδικά τμήματα του Αυτοκινητοδρόμου Α.Θ.Ε., από τη χ/θ 17,600 έως τη χ/θ 15,170 , ρεύμα κυκλοφορίας προς Αθήνα, περιοχής Δήμου Μεταμόρφωσης, κατά το χρονικό διάστημα από 18.08.2026 και ώρα 23.00΄ έως ",
+      "url": "https://diavgeia.gov.gr/decision/view/6Τ6246ΜΤΛΒ-9ΕΣ",
+      "details": "Επίσημη απόφαση Τροχαίας (04/08/2026)",
+      "area": "Βόρεια",
+      "days": [
+        "2026-08-18"
+      ],
+      "hours": [],
+      "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Αθήνα) · 18/8",
+      "category": "",
+      "first_seen": "2026-08-04T10:29:26+00:00",
+      "last_seen": "2026-08-04T10:29:26+00:00",
+      "extended": false,
+      "alerted_chats": []
     }
   },
   "known_chats": [
@@ -1465,12 +1566,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-07-31T21:33:32+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-07-31T22:46:17+00:00",
       "new": 0,
@@ -1824,6 +1919,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-04T10:29:26+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
