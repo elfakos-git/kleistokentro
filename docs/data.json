@@ -1,34 +1,33 @@
 {
-  "generated_at": "2026-08-04T13:01:30+00:00",
+  "generated_at": "2026-08-04T13:52:11+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
+      "fetched": 53,
       "dropped": {
         "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
+        "no level detected, no disruption keyword": 52
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-04T10:29:26+00:00"
+      "last_success": "2026-08-04T13:52:11+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97,
-        "εκτός χρονικού παραθύρου": 1,
-        "μόνο μία λωρίδα/ΛΕΑ": 1
+        "εκτός θέματος/Αθήνας": 98,
+        "εκτός χρονικού παραθύρου": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-04T10:29:26+00:00"
+      "last_success": "2026-08-04T13:52:11+00:00"
     },
     {
       "name": "iefimerida",
@@ -42,7 +41,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-04T10:29:26+00:00"
+      "last_success": "2026-08-04T13:52:11+00:00"
     },
     {
       "name": "kathimerini",
@@ -55,7 +54,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-04T10:29:26+00:00"
+      "last_success": "2026-08-04T13:52:11+00:00"
     },
     {
       "name": "oasa",
@@ -69,38 +68,23 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-04T10:29:26+00:00"
+      "last_success": "2026-08-04T13:52:11+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 30,
+      "fetched": 23,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 18
+        "κατηγορία εκτός πολιτικής": 11
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-04T13:01:30+00:00"
+      "last_success": "2026-08-04T13:52:11+00:00"
     }
   ],
   "active_events": [
-    {
-      "id": "6Τ6246ΜΤΛΒ-9ΕΣ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25502 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες προσωρινές κυκλοφοριακές ρυθμίσεις στα κάτωθι οδικά τμήματα του Αυτοκινητοδρόμου Α.Θ.Ε., από τη χ/θ 17,600 έως τη χ/θ 15,170 , ρεύμα κυκλοφορίας προς Αθήνα, περιοχής Δήμου Μεταμόρφωσης, κατά το χρονικό διάστημα από 18.08.2026 και ώρα 23.00΄ έως ",
-      "url": "https://diavgeia.gov.gr/decision/view/6Τ6246ΜΤΛΒ-9ΕΣ",
-      "details": "Επίσημη απόφαση Τροχαίας (04/08/2026)",
-      "area": "Βόρεια",
-      "days": [
-        "2026-08-18"
-      ],
-      "hours": [],
-      "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Αθήνα) · 18/8",
-      "category": "",
-      "new_this_run": true
-    },
     {
       "id": "https://www.kathimerini.gr/society/564379834/diakopi-kykloforias-stin-athinon-lamias-meta-apo-anatropi-fortigon/",
       "source": "kathimerini",
@@ -987,7 +971,7 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-08-04T06:21:31+00:00",
-      "last_seen": "2026-08-04T10:29:26+00:00",
+      "last_seen": "2026-08-04T13:52:11+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1005,7 +989,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-04T10:29:26+00:00",
+      "last_seen": "2026-08-04T13:52:11+00:00",
       "extended": true,
       "status": "planned"
     },
@@ -1229,12 +1213,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-01T05:43:35+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-01T06:22:04+00:00",
       "new": 2,
@@ -1588,6 +1566,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-04T13:52:11+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
