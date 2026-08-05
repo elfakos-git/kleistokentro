@@ -254,7 +254,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-05T13:48:32+00:00"
+      "last_success": "2026-08-05T17:23:16+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -268,7 +268,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-05T13:48:32+00:00"
+      "last_success": "2026-08-05T17:23:16+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -282,7 +282,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-05T13:48:32+00:00"
+      "last_success": "2026-08-05T17:23:16+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -295,35 +295,34 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-05T13:48:32+00:00"
+      "last_success": "2026-08-05T17:23:16+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
       "items": 3,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 3,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10,
         "λεωφορεία (χωρίς ειδοποίηση)": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-05T13:48:32+00:00"
+      "last_success": "2026-08-05T17:23:17+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 19,
+      "fetched": 21,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 7
+        "κατηγορία εκτός πολιτικής": 9
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-05T16:56:35+00:00"
+      "last_success": "2026-08-05T17:23:17+00:00"
     }
   },
   "active": {
@@ -692,7 +691,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-05T13:48:32+00:00",
+      "last_seen": "2026-08-05T17:23:16+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1271,7 +1270,7 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-08-04T06:21:31+00:00",
-      "last_seen": "2026-08-05T13:48:32+00:00",
+      "last_seen": "2026-08-05T17:23:17+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1505,12 +1504,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-02T02:01:37+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-08-02T05:44:15+00:00",
       "new": 0,
@@ -1864,6 +1857,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-05T17:23:17+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
