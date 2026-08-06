@@ -231,7 +231,8 @@
     "TTI-TTR51605832416005000",
     "Ψ0Δ646ΜΤΛΒ-ΝΔΣ",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-64/",
-    "TTI-TTR51597175988014000"
+    "TTI-TTR51597175988014000",
+    "TTI-TTR51597176024006000"
   ],
   "seeded": [
     "astynomia",
@@ -315,15 +316,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 18,
+      "items": 11,
+      "fetched": 26,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 8
+        "κατηγορία εκτός πολιτικής": 15
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-06T06:23:45+00:00"
+      "last_success": "2026-08-06T08:09:09+00:00"
     }
   },
   "active": {
@@ -494,6 +495,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51597176024006000",
+        "source": "TomTom (realtime)",
+        "title": "Κράτητος / Λεωφόρος Συγγρού → Ευρυδάμαντος",
+        "url": "https://www.google.com/maps?q=37.9562066949,23.7163160377",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-08-06"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51568321972046000",
@@ -1423,12 +1439,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-02T15:33:09+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-02T16:41:46+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1781,6 +1791,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-08-06T08:09:09+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
