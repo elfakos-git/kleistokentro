@@ -317,14 +317,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 13,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-06T01:51:28+00:00"
+      "last_success": "2026-08-06T05:36:27+00:00"
     }
   },
   "active": {
@@ -602,10 +602,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832596023000",
+        "id": "TTI-TTR51605832620023000",
         "source": "TomTom (realtime)",
-        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -617,10 +617,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832620023000",
+        "id": "TTI-TTR51605832596023000",
         "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -1238,15 +1238,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-08-05"
+    "151797168": "2026-08-06"
   },
   "notifications": [
-    {
-      "time": "2026-07-24T17:22:35+00:00",
-      "source": "ΟΑΣΑ",
-      "title": "Διακόπηκε η κυκλοφορία του Τραμ στην περιοχή του Πειραιά, λόγω πτώσης σκαλωσιάς πολυκατοικίας στο εναέριο δίκτυο ηλεκτροδότησης της Γραμμής – η κυκλοφορία στη Γραμμή 7 του Τραμ διεξάγεται στο τμήμα Ασκληπιείο Βούλας – ΣΕΦ",
-      "url": "https://www.oasa.gr/blog/%ce%b4%ce%b9%ce%b1%ce%ba%cf%8c%cf%80%ce%b7%ce%ba%ce%b5-%ce%b7-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%af%ce%b1-%cf%84%ce%bf%cf%85-%cf%84%cf%81%ce%b1%ce%bc-%cf%83%cf%84%ce%b7%ce%bd-%cf%80/"
-    },
     {
       "time": "2026-07-25T05:32:04+00:00",
       "source": "Ενημέρωση",
@@ -1420,15 +1414,15 @@
       "source": "iefimerida",
       "title": "🚨 Κυκλοφοριακές ρυθμίσεις λόγω εργασιών στην Αθηνών-Θεσσαλονίκης από σήμερα - Έως πότε θα διαρκέσουν",
       "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ergasion-athinon-thessalonikis"
+    },
+    {
+      "time": "2026-08-06T05:36:28+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-02T13:03:50+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-08-02T14:19:54+00:00",
       "new": 0,
@@ -1782,6 +1776,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-08-06T05:36:28+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
