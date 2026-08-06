@@ -237,7 +237,8 @@
     "ΡΦΘΡ46ΜΤΛΒ-ΙΙ9",
     "9ΝΛΓ46ΜΤΛΒ-ΙΝΕ",
     "6Χ2Υ46ΜΤΛΒ-ΨΣ7",
-    "ΡΓΕΧ46ΜΤΛΒ-6ΧΤ"
+    "ΡΓΕΧ46ΜΤΛΒ-6ΧΤ",
+    "TTI-TTR51571207384014000"
   ],
   "seeded": [
     "astynomia",
@@ -260,7 +261,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-06T10:31:36+00:00"
+      "last_success": "2026-08-06T13:45:46+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -268,13 +269,14 @@
       "items": 2,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 95,
+        "εκτός θέματος/Αθήνας": 94,
+        "άλλη περιοχή": 1,
         "μόνο μία λωρίδα/ΛΕΑ": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-06T10:31:36+00:00"
+      "last_success": "2026-08-06T13:45:46+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -282,13 +284,12 @@
       "items": 0,
       "fetched": 11,
       "dropped": {
-        "άλλη περιοχή": 1,
-        "χωρίς/παλιά ημερομηνία": 10
+        "χωρίς/παλιά ημερομηνία": 11
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-06T10:31:36+00:00"
+      "last_success": "2026-08-06T13:45:46+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -301,35 +302,31 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-06T10:31:36+00:00"
+      "last_success": "2026-08-06T13:45:46+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 2,
-      "fetched": 11,
-      "dropped": {
-        "παλιά ανακοίνωση": 5,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
-        "λεωφορεία (χωρίς ειδοποίηση)": 2
-      },
+      "items": 0,
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-06T10:31:36+00:00"
+      "last_success": "2026-08-06T13:45:46+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 33,
+      "items": 12,
+      "fetched": 22,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 22
+        "κατηγορία εκτός πολιτικής": 10
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-06T12:53:15+00:00"
+      "last_success": "2026-08-06T13:45:46+00:00"
     }
   },
   "active": {
@@ -354,7 +351,7 @@
         "hours": [],
         "plain": "Διακοπή κυκλοφορίας στην οδό Αγ. Μελετίου (Δήμου Αθηναίων) · 7/8 – 13/8",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "ΡΦΘΡ46ΜΤΛΒ-ΙΙ9",
@@ -372,7 +369,7 @@
         ],
         "plain": "Διακοπή κυκλοφορίας στην οδό Ερμού (ύψος αρ. 92, προς Πλ. Αγ. Ασωμάτων, Δήμου Αθηναίων) · 7/8, 05:00–07:30 · λόγω ηλεκτρ",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "iefimerida": [],
@@ -497,21 +494,7 @@
         "new_this_run": false
       }
     ],
-    "oasa": [
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-64/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73, του Δήμου Περιστερίου",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-64/",
-        "details": "",
-        "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Λακεδαίμονος 73",
-        "category": "bus",
-        "new_this_run": false
-      }
-    ],
+    "oasa": [],
     "tomtom": [
       {
         "id": "TTI-TTR51574092528022000",
@@ -572,6 +555,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51571207384014000",
+        "source": "TomTom (realtime)",
+        "title": "Λευκάδος → Ευελπίδων",
+        "url": "https://www.google.com/maps?q=37.9962936387,23.7387795383",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Βόρεια",
+        "days": [
+          "2026-08-06"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51579863732014000",
@@ -649,10 +647,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832620023000",
+        "id": "TTI-TTR51605832596023000",
         "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -664,10 +662,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832596023000",
+        "id": "TTI-TTR51605832620023000",
         "source": "TomTom (realtime)",
-        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -695,7 +693,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-06T10:31:36+00:00",
+      "last_seen": "2026-08-06T13:45:46+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1300,7 +1298,7 @@
       "plain": "Διακοπή κυκλοφορίας στην οδό Αγ. Μελετίου (Δήμου Αθηναίων) · 7/8 – 13/8",
       "category": "",
       "first_seen": "2026-08-06T10:31:36+00:00",
-      "last_seen": "2026-08-06T10:31:36+00:00",
+      "last_seen": "2026-08-06T13:45:46+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1323,7 +1321,7 @@
       "plain": "Διακοπή κυκλοφορίας στην οδό Ερμού (ύψος αρ. 92, προς Πλ. Αγ. Ασωμάτων, Δήμου Αθηναίων) · 7/8, 05:00–07:30 · λόγω ηλεκτρ",
       "category": "",
       "first_seen": "2026-08-06T10:31:36+00:00",
-      "last_seen": "2026-08-06T10:31:36+00:00",
+      "last_seen": "2026-08-06T13:45:46+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1519,12 +1517,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-02T18:46:16+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-02T20:02:36+00:00",
       "new": 0,
@@ -1878,6 +1870,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-06T13:45:46+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
