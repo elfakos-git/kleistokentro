@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T08:04:36+00:00",
+  "generated_at": "2026-08-08T08:30:27+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-08T04:48:01+00:00"
+      "last_success": "2026-08-08T08:30:27+00:00"
     },
     {
       "name": "diavgeia",
@@ -25,7 +25,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-08T04:48:01+00:00"
+      "last_success": "2026-08-08T08:30:27+00:00"
     },
     {
       "name": "iefimerida",
@@ -38,7 +38,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-08T04:48:01+00:00"
+      "last_success": "2026-08-08T08:30:27+00:00"
     },
     {
       "name": "kathimerini",
@@ -51,7 +51,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-08T04:48:01+00:00"
+      "last_success": "2026-08-08T08:30:27+00:00"
     },
     {
       "name": "oasa",
@@ -59,26 +59,26 @@
       "items": 0,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 8,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 3
+        "παλιά ανακοίνωση": 9,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-08T04:48:01+00:00"
+      "last_success": "2026-08-08T08:30:27+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 14,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-08T08:04:36+00:00"
+      "last_success": "2026-08-08T08:30:27+00:00"
     }
   ],
   "active_events": [
@@ -328,10 +328,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51605832596023000",
+      "id": "TTI-TTR51605832620023000",
       "source": "TomTom (realtime)",
-      "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-      "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+      "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+      "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
@@ -343,10 +343,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51605832620023000",
+      "id": "TTI-TTR51605832596023000",
       "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-      "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+      "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+      "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
@@ -806,7 +806,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-08T04:48:01+00:00",
+      "last_seen": "2026-08-08T08:30:27+00:00",
       "extended": true,
       "status": "ended"
     },
@@ -908,7 +908,7 @@
       "plain": "Διακοπή κυκλοφορίας στην οδό Γρηγορίου Αυξεντίου (προς οδό Υφασίου, Δήμου Αθηναίων) · 8/8, 08:00–15:30",
       "category": "",
       "first_seen": "2026-08-07T12:44:02+00:00",
-      "last_seen": "2026-08-08T04:48:01+00:00",
+      "last_seen": "2026-08-08T08:30:27+00:00",
       "extended": false,
       "status": "active"
     },
@@ -929,7 +929,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Ιωνίας (προς Αχαρνών, Δήμου Αθηναίων) · 9/8, 07:30–10:30 · λόγω εργασιών μετακόμ",
       "category": "",
       "first_seen": "2026-08-07T12:44:02+00:00",
-      "last_seen": "2026-08-08T04:48:01+00:00",
+      "last_seen": "2026-08-08T08:30:27+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1135,12 +1135,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-04T21:03:53+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-08-04T22:00:17+00:00",
       "new": 0,
@@ -1494,6 +1488,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-08T08:30:27+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
