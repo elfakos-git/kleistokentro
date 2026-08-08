@@ -330,7 +330,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-08T17:53:24+00:00"
+      "last_success": "2026-08-08T18:16:53+00:00"
     }
   },
   "active": {
@@ -1441,12 +1441,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-05T22:45:15+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-06T01:51:28+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1796,6 +1790,12 @@
     },
     {
       "time": "2026-08-08T17:53:24+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-08-08T18:16:53+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
