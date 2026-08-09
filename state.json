@@ -265,7 +265,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-09T01:06:35+00:00"
+      "last_success": "2026-08-09T04:56:49+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -280,7 +280,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-09T01:06:35+00:00"
+      "last_success": "2026-08-09T04:56:49+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -293,7 +293,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-09T01:06:35+00:00"
+      "last_success": "2026-08-09T04:56:49+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -306,7 +306,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-09T01:06:35+00:00"
+      "last_success": "2026-08-09T04:56:49+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -314,13 +314,13 @@
       "items": 0,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 10,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 1
+        "παλιά ανακοίνωση": 9,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-09T01:06:35+00:00"
+      "last_success": "2026-08-09T04:56:49+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -333,7 +333,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-09T04:06:21+00:00"
+      "last_success": "2026-08-09T04:56:49+00:00"
     }
   },
   "active": {
@@ -573,10 +573,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832620023000",
+        "id": "TTI-TTR51605832596023000",
         "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -588,10 +588,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832596023000",
+        "id": "TTI-TTR51605832620023000",
         "source": "TomTom (realtime)",
-        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -619,7 +619,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-09T01:06:35+00:00",
+      "last_seen": "2026-08-09T04:56:49+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1206,7 +1206,7 @@
       "plain": "Διακοπή κυκλοφορίας στην οδό Γρηγορίου Αυξεντίου (προς οδό Υφασίου, Δήμου Αθηναίων) · 8/8, 08:00–15:30",
       "category": "",
       "first_seen": "2026-08-07T12:44:02+00:00",
-      "last_seen": "2026-08-09T01:06:35+00:00",
+      "last_seen": "2026-08-09T04:56:49+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1229,7 +1229,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Ιωνίας (προς Αχαρνών, Δήμου Αθηναίων) · 9/8, 07:30–10:30 · λόγω εργασιών μετακόμ",
       "category": "",
       "first_seen": "2026-08-07T12:44:02+00:00",
-      "last_seen": "2026-08-09T01:06:35+00:00",
+      "last_seen": "2026-08-09T04:56:49+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1425,12 +1425,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-07T04:44:36+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-07T05:28:31+00:00",
       "new": 0,
@@ -1784,6 +1778,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-09T04:56:49+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
