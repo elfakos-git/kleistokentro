@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T12:20:18+00:00",
+  "generated_at": "2026-08-09T12:33:37+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-09T08:32:51+00:00"
+      "last_success": "2026-08-09T12:33:37+00:00"
     },
     {
       "name": "diavgeia",
@@ -18,13 +18,13 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 95,
-        "μόνο μία λωρίδα/ΛΕΑ": 4
+        "εκτός θέματος/Αθήνας": 98,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-09T08:32:51+00:00"
+      "last_success": "2026-08-09T12:33:37+00:00"
     },
     {
       "name": "iefimerida",
@@ -37,7 +37,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-09T08:32:51+00:00"
+      "last_success": "2026-08-09T12:33:37+00:00"
     },
     {
       "name": "kathimerini",
@@ -50,7 +50,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-09T08:32:51+00:00"
+      "last_success": "2026-08-09T12:33:37+00:00"
     },
     {
       "name": "oasa",
@@ -64,20 +64,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-09T08:32:51+00:00"
+      "last_success": "2026-08-09T12:33:37+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 13,
+      "fetched": 12,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-09T12:20:18+00:00"
+      "last_success": "2026-08-09T12:33:37+00:00"
     }
   ],
   "active_events": [
@@ -92,7 +92,7 @@
       "hours": [],
       "plain": "Διακοπή κυκλοφορίας στη Λ. Σχιστού",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.kathimerini.gr/society/564379834/diakopi-kykloforias-stin-athinon-lamias-meta-apo-anatropi-fortigon/",
@@ -304,10 +304,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51605832620023000",
+      "id": "TTI-TTR51605832596023000",
       "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-      "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+      "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+      "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
@@ -319,10 +319,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51605832596023000",
+      "id": "TTI-TTR51605832620023000",
       "source": "TomTom (realtime)",
-      "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-      "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+      "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+      "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
@@ -782,7 +782,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-09T08:32:51+00:00",
+      "last_seen": "2026-08-09T12:33:37+00:00",
       "extended": true,
       "status": "ended"
     },
@@ -1111,12 +1111,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-07T15:14:04+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-07T16:12:56+00:00",
       "new": 0,
@@ -1470,6 +1464,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-09T12:33:37+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
