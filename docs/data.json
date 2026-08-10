@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T10:05:53+00:00",
+  "generated_at": "2026-08-10T11:28:53+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -75,14 +75,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 18,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 8
+        "κατηγορία εκτός πολιτικής": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-10T10:05:52+00:00"
+      "last_success": "2026-08-10T11:28:53+00:00"
     }
   ],
   "active_events": [
@@ -264,8 +264,8 @@
     {
       "id": "TTI-TTR51585634644011001",
       "source": "TomTom (realtime)",
-      "title": "Voukourestiou (Solonos) → Omirou (Solonos)",
-      "url": "https://www.google.com/maps?q=37.9785897226,23.7382430964",
+      "title": "Dimokritou (Solonos) → Asklipiou (Solonos)",
+      "url": "https://www.google.com/maps?q=37.9789638737,23.7379467124",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -1077,12 +1077,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-08T14:54:34+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-08T15:15:30+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1432,6 +1426,12 @@
     },
     {
       "time": "2026-08-10T10:05:52+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-08-10T11:28:53+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
