@@ -252,7 +252,8 @@
     "TTI-TTR51585634644011001",
     "TTI-TTR51585634644019000",
     "TTI-TTR51579863592015000",
-    "TTI-TTR51605832668023000"
+    "TTI-TTR51605832668023000",
+    "TTI-TTR51562551240023000"
   ],
   "seeded": [
     "astynomia",
@@ -334,15 +335,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 15,
+      "items": 11,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-10T17:40:39+00:00"
+      "last_success": "2026-08-10T18:37:55+00:00"
     }
   },
   "active": {
@@ -556,6 +557,21 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51562551240023000",
+        "source": "TomTom (realtime)",
+        "title": "Damvergi (Konstantinoupoleos Ave) → Alkinoou (Konstantinoupoleos Ave)",
+        "url": "https://www.google.com/maps?q=38.0067435042,23.7212043637",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Βόρεια",
+        "days": [
+          "2026-08-10"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
         "id": "TTI-TTR51579863732014000",
         "source": "TomTom (realtime)",
         "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
@@ -646,10 +662,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832668023000",
+        "id": "TTI-TTR51605832596023000",
         "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -661,10 +677,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832596023000",
+        "id": "TTI-TTR51605832668023000",
         "source": "TomTom (realtime)",
-        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -1408,12 +1424,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-08T19:04:43+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-08T19:49:00+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1763,6 +1773,12 @@
     },
     {
       "time": "2026-08-10T17:40:39+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-08-10T18:37:55+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
