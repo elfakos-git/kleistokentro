@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T20:35:59+00:00",
+  "generated_at": "2026-08-11T21:21:22+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -71,14 +71,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 13,
+      "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-11T20:35:59+00:00"
+      "last_success": "2026-08-11T21:21:22+00:00"
     }
   ],
   "active_events": [
@@ -235,7 +235,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-08-11"
+        "2026-08-12"
       ],
       "hours": [],
       "plain": "",
@@ -250,7 +250,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-08-11"
+        "2026-08-12"
       ],
       "hours": [],
       "plain": "",
@@ -265,7 +265,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-08-11"
+        "2026-08-12"
       ],
       "hours": [],
       "plain": "",
@@ -280,7 +280,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-08-11"
+        "2026-08-12"
       ],
       "hours": [],
       "plain": "",
@@ -295,7 +295,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-08-11"
+        "2026-08-12"
       ],
       "hours": [],
       "plain": "",
@@ -310,7 +310,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-08-11"
+        "2026-08-12"
       ],
       "hours": [],
       "plain": "",
@@ -325,7 +325,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-08-11"
+        "2026-08-12"
       ],
       "hours": [],
       "plain": "",
@@ -340,7 +340,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-08-11"
+        "2026-08-12"
       ],
       "hours": [],
       "plain": "",
@@ -355,7 +355,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-08-11"
+        "2026-08-12"
       ],
       "hours": [],
       "plain": "",
@@ -370,7 +370,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-08-11"
+        "2026-08-12"
       ],
       "hours": [],
       "plain": "",
@@ -655,24 +655,6 @@
       "status": "planned"
     },
     {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-63/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73  του Δήμου Περιστερίου",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-63/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [
-        "2026-08-04"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-08-03T06:53:20+00:00",
-      "last_seen": "2026-08-03T06:53:20+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-94/",
       "source": "ΟΑΣΑ",
       "title": "Προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής  653 (ΨΥΧΙΚΟ – ΠΑΝΟΡΜΟΥ Β),  λόγω εργασιών στην οδό Αλέξανδρου Παπαναστασίου 71, την Τετάρτη 05-08-2026,  στο Δήμο Φιλοθέης – Ψυχικού",
@@ -829,7 +811,7 @@
       "first_seen": "2026-08-10T05:18:56+00:00",
       "last_seen": "2026-08-10T05:18:56+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-66/",
@@ -847,7 +829,7 @@
       "first_seen": "2026-08-11T04:59:51+00:00",
       "last_seen": "2026-08-11T04:59:51+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "9ΛΡΒ46ΜΤΛΒ-ΘΩ2",
@@ -865,7 +847,7 @@
       "first_seen": "2026-08-11T08:45:30+00:00",
       "last_seen": "2026-08-11T12:45:08+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
@@ -1087,12 +1069,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-09T16:17:43+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-09T16:25:01+00:00",
       "new": 0,
@@ -1446,6 +1422,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-08-11T21:21:22+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
