@@ -256,7 +256,8 @@
     "TTI-TTR51562551240023000",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-66/",
     "9ΛΡΒ46ΜΤΛΒ-ΘΩ2",
-    "9Φ2646ΜΤΛΒ-ΠΕ2"
+    "9Φ2646ΜΤΛΒ-ΠΕ2",
+    "TTI-TTR51585634644011002"
   ],
   "seeded": [
     "astynomia",
@@ -336,15 +337,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 18,
+      "items": 12,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 7
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-11T11:34:10+00:00"
+      "last_success": "2026-08-11T12:33:21+00:00"
     }
   },
   "active": {
@@ -547,6 +548,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51585634644011002",
+        "source": "TomTom (realtime)",
+        "title": "Sina (Solonos) → Asklipiou (Solonos)",
+        "url": "https://www.google.com/maps?q=37.9808266723,23.7364232176",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-08-11"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51585634644011001",
@@ -1418,12 +1434,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-09T10:01:09+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-09T10:58:03+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1773,6 +1783,12 @@
     },
     {
       "time": "2026-08-11T11:34:10+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-08-11T12:33:21+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
