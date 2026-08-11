@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T08:53:35+00:00",
+  "generated_at": "2026-08-11T09:45:35+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -71,14 +71,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 20,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 9
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-11T08:53:35+00:00"
+      "last_success": "2026-08-11T09:45:35+00:00"
     }
   ],
   "active_events": [
@@ -277,7 +277,7 @@
     {
       "id": "TTI-TTR51585634644011001",
       "source": "TomTom (realtime)",
-      "title": "Dimokritou (Solonos) → Likavittou (Solonos)",
+      "title": "Dimokritou (Solonos) → Omirou (Solonos)",
       "url": "https://www.google.com/maps?q=37.9789638737,23.7379467124",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
@@ -365,10 +365,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51605832596023000",
+      "id": "TTI-TTR51605832668023000",
       "source": "TomTom (realtime)",
-      "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-      "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+      "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+      "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
@@ -380,10 +380,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51605832668023000",
+      "id": "TTI-TTR51605832596023000",
       "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-      "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+      "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+      "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
@@ -1105,12 +1105,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-09T08:06:19+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-09T08:32:52+00:00",
       "new": 1,
       "sources_ok": 6,
@@ -1460,6 +1454,12 @@
     },
     {
       "time": "2026-08-11T08:53:35+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-08-11T09:45:35+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
