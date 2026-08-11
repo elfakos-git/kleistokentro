@@ -280,21 +280,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-11T12:45:08+00:00"
+      "last_success": "2026-08-11T16:50:30+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 2,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 96,
+        "εκτός θέματος/Αθήνας": 98,
         "εκτός χρονικού παραθύρου": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-11T12:45:08+00:00"
+      "last_success": "2026-08-11T16:50:30+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -307,7 +307,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-11T12:45:08+00:00"
+      "last_success": "2026-08-11T16:50:30+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -320,21 +320,22 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-11T12:45:08+00:00"
+      "last_success": "2026-08-11T16:50:30+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 3,
-      "fetched": 13,
+      "items": 2,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10,
-        "λεωφορεία (χωρίς ειδοποίηση)": 3
+        "παλιά ανακοίνωση": 6,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 3,
+        "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-11T12:45:13+00:00"
+      "last_success": "2026-08-11T16:50:30+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -347,41 +348,12 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-11T16:15:00+00:00"
+      "last_success": "2026-08-11T16:50:30+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [
-      {
-        "id": "9Φ2646ΜΤΛΒ-ΠΕ2",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "25538 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων επί της Λεωφ. Σχιστού, από το ύψος της Λεωφ. Αθηνών έως το ύψος του Βιομηχανικού Πάρκου Σχιστού (ΒΙ.ΠΑ.Σ.) και επί της γέφυρας Σχιστού, διαδοχικά ανά λωρίδα εναλλάξ και στα δύο ρεύματα κυκλοφορίας, περιοχής Δ",
-        "url": "https://diavgeia.gov.gr/decision/view/9Φ2646ΜΤΛΒ-ΠΕ2",
-        "details": "Επίσημη απόφαση Τροχαίας (11/08/2026)",
-        "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "Διακοπή κυκλοφορίας στη Λ. Σχιστού",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "9ΛΡΒ46ΜΤΛΒ-ΘΩ2",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "25537 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες κυκλοφοριακές ρυθμίσεις στα κάτωθι οδικά τμήματα περιοχής Δήμου Αθηναίων, κατά το χρονικό διάστημα από 12.08.2026 έως 26.05.2027, καθ’ όλη την διάρκεια του 24ωρου, λόγω εκτέλεσης εργασιών στα πλαίσια του έργου «Κατασκευή Τετραπλού Σιδηροδρομικού",
-        "url": "https://diavgeia.gov.gr/decision/view/9ΛΡΒ46ΜΤΛΒ-ΘΩ2",
-        "details": "Επίσημη απόφαση Τροχαίας (11/08/2026)",
-        "area": "Κέντρο",
-        "days": [
-          "2026-08-12"
-        ],
-        "hours": [],
-        "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Αθηναίων · 12/8 · λόγω εργασιών στα πλαίσια του έργου «Κατασκευή Τετραπλού…",
-        "category": "",
-        "new_this_run": false
-      }
-    ],
+    "diavgeia": [],
     "iefimerida": [],
     "kathimerini": [
       {
@@ -528,19 +500,6 @@
         "days": [],
         "hours": [],
         "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-64/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73, του Δήμου Περιστερίου",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-64/",
-        "details": "",
-        "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Λακεδαίμονος 73",
         "category": "bus",
         "new_this_run": false
       }
@@ -713,7 +672,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-11T12:45:08+00:00",
+      "last_seen": "2026-08-11T16:50:30+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1446,12 +1405,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-09T12:33:37+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-08-09T13:27:00+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1804,6 +1757,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-11T16:50:30+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
