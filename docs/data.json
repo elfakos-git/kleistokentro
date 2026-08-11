@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T09:45:35+00:00",
+  "generated_at": "2026-08-11T10:38:30+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -78,7 +78,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-11T09:45:35+00:00"
+      "last_success": "2026-08-11T10:38:30+00:00"
     }
   ],
   "active_events": [
@@ -277,8 +277,8 @@
     {
       "id": "TTI-TTR51585634644011001",
       "source": "TomTom (realtime)",
-      "title": "Dimokritou (Solonos) → Omirou (Solonos)",
-      "url": "https://www.google.com/maps?q=37.9789638737,23.7379467124",
+      "title": "Voukourestiou (Solonos) → Omirou (Solonos)",
+      "url": "https://www.google.com/maps?q=37.9785897226,23.7382430964",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -1105,12 +1105,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-09T08:32:52+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-08-09T09:07:33+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1460,6 +1454,12 @@
     },
     {
       "time": "2026-08-11T09:45:35+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-08-11T10:38:30+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
