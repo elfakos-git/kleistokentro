@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T21:12:13+00:00",
+  "generated_at": "2026-08-12T22:07:04+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -72,14 +72,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 14,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-12T21:12:13+00:00"
+      "last_success": "2026-08-12T22:07:04+00:00"
     }
   ],
   "active_events": [
@@ -377,10 +377,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51605832668023000",
+      "id": "TTI-TTR51605832596023000",
       "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-      "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+      "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+      "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
@@ -392,10 +392,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51605832596023000",
+      "id": "TTI-TTR51605832668023000",
       "source": "TomTom (realtime)",
-      "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-      "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+      "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+      "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
@@ -1047,12 +1047,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-10T13:50:32+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-10T14:47:31+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1402,6 +1396,12 @@
     },
     {
       "time": "2026-08-12T21:12:13+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-08-12T22:07:04+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
