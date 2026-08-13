@@ -275,15 +275,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-12T20:35:06+00:00"
+      "last_success": "2026-08-13T01:16:40+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -291,12 +288,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 99,
+        "εκτός χρονικού παραθύρου": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-12T20:35:06+00:00"
+      "last_success": "2026-08-13T01:16:40+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -309,7 +307,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-12T20:35:06+00:00"
+      "last_success": "2026-08-13T01:16:40+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -322,7 +320,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-12T20:35:06+00:00"
+      "last_success": "2026-08-13T01:16:40+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -336,20 +334,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-12T20:35:08+00:00"
+      "last_success": "2026-08-13T01:16:41+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 14,
+      "items": 10,
+      "fetched": 13,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-12T23:07:00+00:00"
+      "last_success": "2026-08-13T01:16:41+00:00"
     }
   },
   "active": {
@@ -580,21 +578,6 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51582749224006000",
-        "source": "TomTom (realtime)",
-        "title": "Παναγιώτη Μπενάκη / Βλαχοπούλου → Αργυρουπόλεως",
-        "url": "https://www.google.com/maps?q=37.9876408286,23.7488928073",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-08-13"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
         "id": "TTI-TTR51594290660014001",
         "source": "TomTom (realtime)",
         "title": "Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
@@ -701,7 +684,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-12T20:35:06+00:00",
+      "last_seen": "2026-08-13T01:16:40+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1358,12 +1341,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-10T15:45:54+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-10T16:38:53+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1716,6 +1693,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-13T01:16:41+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
