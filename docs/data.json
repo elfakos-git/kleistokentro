@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T04:42:26+00:00",
+  "generated_at": "2026-08-13T05:28:16+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-13T01:16:40+00:00"
+      "last_success": "2026-08-13T05:28:14+00:00"
     },
     {
       "name": "diavgeia",
@@ -24,7 +24,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-13T01:16:40+00:00"
+      "last_success": "2026-08-13T05:28:14+00:00"
     },
     {
       "name": "iefimerida",
@@ -37,7 +37,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-13T01:16:40+00:00"
+      "last_success": "2026-08-13T05:28:14+00:00"
     },
     {
       "name": "kathimerini",
@@ -50,21 +50,22 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-13T01:16:40+00:00"
+      "last_success": "2026-08-13T05:28:14+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 3,
-      "fetched": 13,
+      "items": 2,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10,
-        "λεωφορεία (χωρίς ειδοποίηση)": 3
+        "παλιά ανακοίνωση": 5,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
+        "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-08-13T01:16:41+00:00"
+      "last_success": "2026-08-13T05:28:16+00:00"
     },
     {
       "name": "tomtom",
@@ -77,7 +78,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-13T04:42:26+00:00"
+      "last_success": "2026-08-13T05:28:16+00:00"
     }
   ],
   "active_events": [
@@ -201,6 +202,21 @@
       "new_this_run": false
     },
     {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-303/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 237, λόγω εκδηλώσεων περιφοράς εικόνας στη λεωφόρο Ειρήνης του Δήμου Ηλιούπολης",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-303/",
+      "details": "",
+      "area": "Νότια",
+      "days": [
+        "2026-08-14"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "new_this_run": true
+    },
+    {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-66/",
       "source": "ΟΑΣΑ",
       "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 891 στην οδό Γιαννιτσών, λόγω αγώνα ποδοσφαίρου στον Δήμο Περιστερίου",
@@ -210,32 +226,6 @@
       "days": [],
       "hours": [],
       "plain": "",
-      "category": "bus",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-116/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 724 και 727, λόγω εργασιών  στην συμβολή της λεωφόρου Καραμανλή με την οδό Αγίας Τριάδος, του δήμου Αχαρνών",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-116/",
-      "details": "",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-64/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73, του Δήμου Περιστερίου",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-64/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [],
-      "hours": [],
-      "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Λακεδαίμονος 73",
       "category": "bus",
       "new_this_run": false
     },
@@ -360,10 +350,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51605832596023000",
+      "id": "TTI-TTR51605832668023000",
       "source": "TomTom (realtime)",
-      "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-      "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+      "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+      "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
@@ -375,10 +365,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51605832668023000",
+      "id": "TTI-TTR51605832596023000",
       "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-      "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+      "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+      "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
@@ -823,9 +813,27 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-13T01:16:40+00:00",
+      "last_seen": "2026-08-13T05:28:14+00:00",
       "extended": true,
       "status": "active"
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-303/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 237, λόγω εκδηλώσεων περιφοράς εικόνας στη λεωφόρο Ειρήνης του Δήμου Ηλιούπολης",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-303/",
+      "details": "",
+      "area": "Νότια",
+      "days": [
+        "2026-08-14"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-08-13T05:28:16+00:00",
+      "last_seen": "2026-08-13T05:28:16+00:00",
+      "extended": false,
+      "status": "planned"
     },
     {
       "id": "6Τ6246ΜΤΛΒ-9ΕΣ",
@@ -847,6 +855,12 @@
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-08-13T05:28:16+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
     {
       "time": "2026-08-12T05:25:37+00:00",
       "source": "Ενημέρωση",
@@ -1020,21 +1034,9 @@
       "source": "kathimerini",
       "title": "🚨 Κλειστή για έξι ώρες θα είναι η Ανατολική Εσωτερική Περιφερειακή Οδός στο ύψος του Ανισόπεδου Κόμβου Κ11.",
       "url": "https://www.kathimerini.gr/society/564374677/thessaloniki-kleisto-kommati-tis-perifereiakis-to-savvato/"
-    },
-    {
-      "time": "2026-07-30T05:28:25+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-10T16:44:46+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-08-10T17:40:39+00:00",
       "new": 0,
@@ -1388,6 +1390,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-13T05:28:16+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
