@@ -287,7 +287,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-14T01:15:43+00:00"
+      "last_success": "2026-08-14T05:26:18+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -301,7 +301,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-14T01:15:43+00:00"
+      "last_success": "2026-08-14T05:26:18+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -314,7 +314,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-14T01:15:43+00:00"
+      "last_success": "2026-08-14T05:26:18+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -327,7 +327,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-14T01:15:43+00:00"
+      "last_success": "2026-08-14T05:26:18+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -341,20 +341,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-14T01:15:43+00:00"
+      "last_success": "2026-08-14T05:26:18+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 15,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-14T04:39:25+00:00"
+      "last_success": "2026-08-14T05:26:18+00:00"
     }
   },
   "active": {
@@ -705,7 +705,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-14T01:15:43+00:00",
+      "last_seen": "2026-08-14T05:26:18+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1196,15 +1196,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-08-13"
+    "151797168": "2026-08-14"
   },
   "notifications": [
-    {
-      "time": "2026-07-30T21:54:46+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "🚨 25484 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Πλήρη διακοπή της κυκλοφορίας των οχημάτων επί της οδού Ρηγίλλης, στο τμήμα της μεταξύ των οδών Βασ. Γεωργίου Β΄και Λυκείου, περιοχής Δήμου Αθηναίων, στις 02.08.2026 κατά τις ώρες 06.00΄ έως 10.00΄, λόγω εκτέλεσης εργασιών μετακόμισης.",
-      "url": "https://diavgeia.gov.gr/decision/view/6ΤΩΣ46ΜΤΛΒ-ΗΘ5"
-    },
     {
       "time": "2026-07-31T05:53:28+00:00",
       "source": "Ενημέρωση",
@@ -1378,15 +1372,15 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "Έκδοση Αστυνομικής Απόφασης για την εφαρμογή Προσωρινών Κυκλοφοριακών Ρυθμίσεων του άρθρου 55 του Κ.Ο.Κ., για την εκτέλεση ασφαλτικών εργασιών από την Χ.Θ. 162+500 έως την Χ.Θ. 159+400 του Αυτοκινητοδρόμου Α.Θ.Ε., στην κατεύθυνση προς Αθήνα.",
       "url": "https://diavgeia.gov.gr/decision/view/ΨΞ8Θ46ΜΤΛΒ-6ΦΟ"
+    },
+    {
+      "time": "2026-08-14T05:26:18+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-11T15:26:10+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-11T16:15:00+00:00",
       "new": 0,
@@ -1740,6 +1734,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-14T05:26:18+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
