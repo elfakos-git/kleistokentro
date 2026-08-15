@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T08:50:16+00:00",
+  "generated_at": "2026-08-15T09:13:35+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -70,15 +70,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 13,
-      "fetched": 16,
+      "items": 14,
+      "fetched": 17,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-15T08:50:16+00:00"
+      "last_success": "2026-08-15T09:13:35+00:00"
     }
   ],
   "active_events": [
@@ -303,6 +303,21 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51594290876006000",
+      "source": "TomTom (realtime)",
+      "title": "Φορμίωνος → Υμηττού / Ζηνοδότου",
+      "url": "https://www.google.com/maps?q=37.9703888407,23.7516809636",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-08-15"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51594290660014001",
@@ -1014,12 +1029,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-13T05:28:16+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-08-13T06:08:16+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1369,6 +1378,12 @@
     },
     {
       "time": "2026-08-15T08:50:16+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-08-15T09:13:35+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
