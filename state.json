@@ -289,7 +289,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-14T20:23:32+00:00"
+      "last_success": "2026-08-15T00:47:09+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -297,12 +297,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 99,
+        "εκτός χρονικού παραθύρου": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-14T20:23:32+00:00"
+      "last_success": "2026-08-15T00:47:09+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -315,7 +316,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-14T20:23:32+00:00"
+      "last_success": "2026-08-15T00:47:09+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -328,7 +329,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-14T20:23:32+00:00"
+      "last_success": "2026-08-15T00:47:09+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -343,7 +344,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-14T20:23:32+00:00"
+      "last_success": "2026-08-15T00:47:09+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -356,7 +357,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-14T22:44:55+00:00"
+      "last_success": "2026-08-15T00:47:09+00:00"
     }
   },
   "active": {
@@ -712,7 +713,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-14T20:23:32+00:00",
+      "last_seen": "2026-08-15T00:47:09+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1346,12 +1347,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-12T15:25:23+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-12T16:14:37+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1704,6 +1699,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-15T00:47:09+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
