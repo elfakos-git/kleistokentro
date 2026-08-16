@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T08:12:55+00:00",
+  "generated_at": "2026-08-16T08:18:55+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-16T04:28:09+00:00"
+      "last_success": "2026-08-16T08:18:55+00:00"
     },
     {
       "name": "diavgeia",
@@ -18,12 +18,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός χρονικού παραθύρου": 1,
+        "εκτός θέματος/Αθήνας": 99
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-16T04:28:09+00:00"
+      "last_success": "2026-08-16T08:18:55+00:00"
     },
     {
       "name": "iefimerida",
@@ -36,7 +37,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-16T04:28:09+00:00"
+      "last_success": "2026-08-16T08:18:55+00:00"
     },
     {
       "name": "kathimerini",
@@ -49,22 +50,21 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-16T04:28:09+00:00"
+      "last_success": "2026-08-16T08:18:55+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 9,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 1,
-        "λεωφορεία (χωρίς ειδοποίηση)": 1
+        "παλιά ανακοίνωση": 10,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-16T04:28:09+00:00"
+      "last_success": "2026-08-16T08:18:55+00:00"
     },
     {
       "name": "tomtom",
@@ -77,7 +77,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-16T08:12:55+00:00"
+      "last_success": "2026-08-16T08:18:55+00:00"
     }
   ],
   "active_events": [
@@ -183,19 +183,6 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-303/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 237, λόγω εκδηλώσεων περιφοράς εικόνας στη λεωφόρο Ειρήνης του Δήμου Ηλιούπολης",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-303/",
-      "details": "",
-      "area": "Νότια",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
       "new_this_run": false
     },
     {
@@ -749,7 +736,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-16T04:28:09+00:00",
+      "last_seen": "2026-08-16T08:18:55+00:00",
       "extended": true,
       "status": "ended"
     },
@@ -973,12 +960,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-14T20:23:32+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-08-14T20:51:18+00:00",
       "new": 0,
@@ -1332,6 +1313,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-16T08:18:55+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
