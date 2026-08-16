@@ -271,7 +271,8 @@
     "TTI-TTR51565436624014000",
     "TTI-TTR51594290692005000",
     "TTI-TTR51594290876006000",
-    "TTI-TTR51582749164015000"
+    "TTI-TTR51582749164015000",
+    "TTI-TTR51594290732013000"
   ],
   "seeded": [
     "astynomia",
@@ -358,7 +359,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-16T06:16:42+00:00"
+      "last_success": "2026-08-16T07:05:56+00:00"
     }
   },
   "active": {
@@ -548,6 +549,21 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51594290732013000",
+        "source": "TomTom (realtime)",
+        "title": "Botsari Tousa (Vikou) → Zinni Anast. (Vikou)",
+        "url": "https://www.google.com/maps?q=37.9649479944,23.7238637739",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-08-16"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
         "id": "TTI-TTR51582749164015000",
         "source": "TomTom (realtime)",
         "title": "Λεωχάρους / Μιλτιάδου → Ευριπίδου",
@@ -584,21 +600,6 @@
         "url": "https://www.google.com/maps?q=37.9876408286,23.7488928073",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
-        "days": [
-          "2026-08-16"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51594290876006000",
-        "source": "TomTom (realtime)",
-        "title": "Φορμίωνος → Υμηττού / Ζηνοδότου",
-        "url": "https://www.google.com/maps?q=37.9703888407,23.7516809636",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
         "days": [
           "2026-08-16"
         ],
@@ -668,10 +669,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832596023000",
+        "id": "TTI-TTR51605832668023000",
         "source": "TomTom (realtime)",
-        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -683,10 +684,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832668023000",
+        "id": "TTI-TTR51605832596023000",
         "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -1307,12 +1308,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-14T18:11:16+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-14T19:24:26+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1662,6 +1657,12 @@
     },
     {
       "time": "2026-08-16T06:16:42+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-08-16T07:05:56+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
