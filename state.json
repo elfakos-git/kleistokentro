@@ -351,15 +351,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 14,
+      "items": 13,
       "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-16T07:05:56+00:00"
+      "last_success": "2026-08-16T07:50:23+00:00"
     }
   },
   "active": {
@@ -547,21 +547,6 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51594290732013000",
-        "source": "TomTom (realtime)",
-        "title": "Botsari Tousa (Vikou) → Zinni Anast. (Vikou)",
-        "url": "https://www.google.com/maps?q=37.9649479944,23.7238637739",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-08-16"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
       },
       {
         "id": "TTI-TTR51582749164015000",
@@ -1308,12 +1293,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-14T19:24:26+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-14T20:00:18+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1663,6 +1642,12 @@
     },
     {
       "time": "2026-08-16T07:05:56+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-08-16T07:50:23+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
