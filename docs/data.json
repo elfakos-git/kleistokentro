@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T08:06:37+00:00",
+  "generated_at": "2026-08-17T08:33:57+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,21 +10,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-17T04:33:31+00:00"
+      "last_success": "2026-08-17T08:33:57+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 49,
-        "εκτός χρονικού παραθύρου": 51
+        "εκτός θέματος/Αθήνας": 81,
+        "εκτός χρονικού παραθύρου": 18
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-17T04:33:31+00:00"
+      "last_success": "2026-08-17T08:33:57+00:00"
     },
     {
       "name": "iefimerida",
@@ -37,7 +37,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-17T04:33:31+00:00"
+      "last_success": "2026-08-17T08:33:57+00:00"
     },
     {
       "name": "kathimerini",
@@ -50,37 +50,55 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-17T04:33:31+00:00"
+      "last_success": "2026-08-17T08:33:57+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 1,
-      "fetched": 11,
+      "items": 4,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 10,
-        "λεωφορεία (χωρίς ειδοποίηση)": 1
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
+        "λεωφορεία (χωρίς ειδοποίηση)": 4
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-17T04:33:33+00:00"
+      "last_success": "2026-08-17T08:33:57+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 17,
+      "fetched": 18,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-17T08:06:37+00:00"
+      "last_success": "2026-08-17T08:33:57+00:00"
     }
   ],
   "active_events": [
+    {
+      "id": "Ψ7ΥΙ46ΜΤΛΒ-ΛΝΘ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στον λεωφορειόδρομο της Λεωφ. Βασ. Αμαλίας, στο τμήμα μεταξύ των οδών Όθωνος και Ξενοφώντος, περιοχής Δήμου Αθηναίων, στις 01.09.2026 κατά τις ώρες 00.30΄ έως 05.00΄, λόγω εκτέλεσης εργασιών μεταφοράς παραγόμενων υλικών ».",
+      "url": "https://diavgeia.gov.gr/decision/view/Ψ7ΥΙ46ΜΤΛΒ-ΛΝΘ",
+      "details": "Επίσημη απόφαση Τροχαίας (17/08/2026)",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-01"
+      ],
+      "hours": [
+        "00:30",
+        "05:00"
+      ],
+      "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. Βασ. Αμαλίας (Δήμου Αθηναίων) · 1/9, 00:30–05:00",
+      "category": "",
+      "new_this_run": true
+    },
     {
       "id": "https://www.kathimerini.gr/society/564379834/diakopi-kykloforias-stin-athinon-lamias-meta-apo-anatropi-fortigon/",
       "source": "kathimerini",
@@ -207,13 +225,50 @@
       "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-67/",
       "details": "",
       "area": "Δυτικά",
-      "days": [
-        "2026-08-18"
-      ],
+      "days": [],
       "hours": [],
       "plain": "",
       "category": "bus",
-      "new_this_run": true
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-303/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 237, λόγω εκδηλώσεων περιφοράς εικόνας στη λεωφόρο Ειρήνης του Δήμου Ηλιούπολης",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-303/",
+      "details": "",
+      "area": "Νότια",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-66/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 891 στην οδό Γιαννιτσών, λόγω αγώνα ποδοσφαίρου στον Δήμο Περιστερίου",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-66/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-116/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 724 και 727, λόγω εργασιών  στην συμβολή της λεωφόρου Καραμανλή με την οδό Αγίας Τριάδος, του δήμου Αχαρνών",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-116/",
+      "details": "",
+      "area": "",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "new_this_run": false
     },
     {
       "id": "TTI-TTR51574092528022000",
@@ -784,8 +839,29 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-17T04:33:31+00:00",
+      "last_seen": "2026-08-17T08:33:57+00:00",
       "extended": true,
+      "status": "planned"
+    },
+    {
+      "id": "Ψ7ΥΙ46ΜΤΛΒ-ΛΝΘ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στον λεωφορειόδρομο της Λεωφ. Βασ. Αμαλίας, στο τμήμα μεταξύ των οδών Όθωνος και Ξενοφώντος, περιοχής Δήμου Αθηναίων, στις 01.09.2026 κατά τις ώρες 00.30΄ έως 05.00΄, λόγω εκτέλεσης εργασιών μεταφοράς παραγόμενων υλικών ».",
+      "url": "https://diavgeia.gov.gr/decision/view/Ψ7ΥΙ46ΜΤΛΒ-ΛΝΘ",
+      "details": "Επίσημη απόφαση Τροχαίας (17/08/2026)",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-01"
+      ],
+      "hours": [
+        "00:30",
+        "05:00"
+      ],
+      "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. Βασ. Αμαλίας (Δήμου Αθηναίων) · 1/9, 00:30–05:00",
+      "category": "",
+      "first_seen": "2026-08-17T08:33:57+00:00",
+      "last_seen": "2026-08-17T08:33:57+00:00",
+      "extended": false,
       "status": "planned"
     }
   ],
@@ -972,12 +1048,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-15T19:40:43+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-15T20:07:40+00:00",
       "new": 0,
@@ -1331,6 +1401,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-17T08:33:57+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
