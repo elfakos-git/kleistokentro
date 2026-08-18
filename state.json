@@ -278,7 +278,8 @@
     "Ψ7ΥΙ46ΜΤΛΒ-ΛΝΘ",
     "ΡΗΣ646ΜΤΛΒ-3ΣΤ",
     "TTI-TTR51562551240031001",
-    "TTI-TTR51579863592007000"
+    "TTI-TTR51579863592007000",
+    "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80-20/"
   ],
   "seeded": [
     "astynomia",
@@ -298,7 +299,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-18T04:27:33+00:00"
+      "last_success": "2026-08-18T08:26:25+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -306,13 +307,12 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99,
-        "μόνο μία λωρίδα/ΛΕΑ": 1
+        "εκτός θέματος/Αθήνας": 100
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-18T04:27:33+00:00"
+      "last_success": "2026-08-18T08:26:25+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -325,7 +325,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-18T04:27:33+00:00"
+      "last_success": "2026-08-18T08:26:25+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -338,31 +338,34 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-18T04:27:33+00:00"
+      "last_success": "2026-08-18T08:26:25+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "items": 2,
+      "fetched": 11,
+      "dropped": {
+        "παλιά ανακοίνωση": 9,
+        "λεωφορεία (χωρίς ειδοποίηση)": 2
+      },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-08-18T04:27:33+00:00"
+      "last_success": "2026-08-18T08:26:27+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 15,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-18T07:58:48+00:00"
+      "last_success": "2026-08-18T08:26:27+00:00"
     }
   },
   "active": {
@@ -490,7 +493,37 @@
         "new_this_run": false
       }
     ],
-    "oasa": [],
+    "oasa": [
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80-20/",
+        "source": "ΟΑΣΑ",
+        "title": "Παράταση της μερικής προσωρινής τροποποίησης των λεωφορειακών γραμμών 040, Α1, Β1, 130, 217, 229, Χ96, Ε90 και της γραμμής τρόλεϊ 1, λόγω εργασιών για την εκτέλεση κατασκευής του τεχνικού έργου ΤΕ06, στην παλαιά Λεωφ. Ποσειδώνος, στους Δήμους Μοσχάτου-Ταύρου, Καλλιθέας",
+        "url": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80-20/",
+        "details": "",
+        "area": "Νότια",
+        "days": [
+          "2026-08-19",
+          "2026-08-21"
+        ],
+        "hours": [],
+        "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. Ποσειδώνος · 19/8, 21/8 · λόγω εργασιών για την εκτέλεση κατασκευής του τεχνικού έργου ΤΕ06",
+        "category": "bus",
+        "new_this_run": true
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-67/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 891 στην οδό Γιαννιτσών, λόγω αγώνα ποδοσφαίρου στον Δήμο Περιστερίου",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-67/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": false
+      }
+    ],
     "tomtom": [
       {
         "id": "TTI-TTR51574092528022000",
@@ -565,7 +598,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51594290660014001",
@@ -674,7 +707,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-18T04:27:33+00:00",
+      "last_seen": "2026-08-18T08:26:25+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1093,6 +1126,27 @@
       "last_seen": "2026-08-17T08:33:57+00:00",
       "extended": false,
       "alerted_chats": []
+    },
+    "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80-20/": {
+      "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80-20/",
+      "source": "ΟΑΣΑ",
+      "title": "Παράταση της μερικής προσωρινής τροποποίησης των λεωφορειακών γραμμών 040, Α1, Β1, 130, 217, 229, Χ96, Ε90 και της γραμμής τρόλεϊ 1, λόγω εργασιών για την εκτέλεση κατασκευής του τεχνικού έργου ΤΕ06, στην παλαιά Λεωφ. Ποσειδώνος, στους Δήμους Μοσχάτου-Ταύρου, Καλλιθέας",
+      "url": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80-20/",
+      "details": "",
+      "area": "Νότια",
+      "days": [
+        "2026-08-19",
+        "2026-08-21"
+      ],
+      "hours": [],
+      "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. Ποσειδώνος · 19/8, 21/8 · λόγω εργασιών για την εκτέλεση κατασκευής του τεχνικού έργου ΤΕ06",
+      "category": "bus",
+      "first_seen": "2026-08-18T08:26:27+00:00",
+      "last_seen": "2026-08-18T08:26:27+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1284,12 +1338,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-16T17:39:51+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-16T18:09:18+00:00",
       "new": 0,
@@ -1643,6 +1691,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-18T08:26:27+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
