@@ -305,7 +305,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-21T12:30:24+00:00"
+      "last_success": "2026-08-21T16:22:51+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -319,7 +319,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-21T12:30:24+00:00"
+      "last_success": "2026-08-21T16:22:51+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -332,7 +332,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-21T12:30:24+00:00"
+      "last_success": "2026-08-21T16:22:51+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -345,7 +345,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-21T12:30:24+00:00"
+      "last_success": "2026-08-21T16:22:51+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -359,20 +359,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-21T12:30:24+00:00"
+      "last_success": "2026-08-21T16:22:51+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 13,
-      "fetched": 16,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-21T15:57:46+00:00"
+      "last_success": "2026-08-21T16:22:51+00:00"
     }
   },
   "active": {
@@ -778,7 +778,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-21T12:30:24+00:00",
+      "last_seen": "2026-08-21T16:22:51+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1345,12 +1345,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-20T03:34:36+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-20T04:23:16+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1703,6 +1697,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-21T16:22:51+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
