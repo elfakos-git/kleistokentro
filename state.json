@@ -279,7 +279,8 @@
     "ΡΗΣ646ΜΤΛΒ-3ΣΤ",
     "TTI-TTR51562551240031001",
     "TTI-TTR51579863592007000",
-    "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80-20/"
+    "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80-20/",
+    "TTI-TTR51617374128014000"
   ],
   "seeded": [
     "astynomia",
@@ -358,15 +359,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 14,
+      "items": 12,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-21T06:21:07+00:00"
+      "last_success": "2026-08-21T07:13:30+00:00"
     }
   },
   "active": {
@@ -653,6 +654,21 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51617374128014000",
+        "source": "TomTom (realtime)",
+        "title": "Λεωφόρος Ελευθερίου Βενιζέλου / Καρέα → Ελλήνων Αξιωματικών / Λεωφόρος Ελευθερίου Βενιζέλου",
+        "url": "https://www.google.com/maps?q=37.944242688,23.7653950983",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Νότια",
+        "days": [
+          "2026-08-21"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
         "id": "TTI-TTR51594291004012000",
         "source": "TomTom (realtime)",
         "title": "Evdilou (Aginoros) → Papandreou G. Ave (Aginoros)",
@@ -683,10 +699,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832596023000",
+        "id": "TTI-TTR51605832668023000",
         "source": "TomTom (realtime)",
-        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -698,10 +714,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832668023000",
+        "id": "TTI-TTR51605832596023000",
         "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -1275,12 +1291,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-19T16:21:49+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-08-19T16:52:12+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1630,6 +1640,12 @@
     },
     {
       "time": "2026-08-21T06:21:07+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-08-21T07:13:30+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
