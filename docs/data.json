@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T09:47:10+00:00",
+  "generated_at": "2026-08-22T10:09:25+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -70,15 +70,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 13,
-      "fetched": 17,
+      "items": 14,
+      "fetched": 20,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-22T09:47:10+00:00"
+      "last_success": "2026-08-22T10:09:25+00:00"
     }
   ],
   "active_events": [
@@ -301,6 +301,21 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51600061676014000",
+      "source": "TomTom (realtime)",
+      "title": "Φρύνης → Πύρρου",
+      "url": "https://www.google.com/maps?q=37.9641004237,23.7502218419",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-08-22"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51594290660014001",
@@ -948,12 +963,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-20T20:13:48+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-20T20:19:38+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1303,6 +1312,12 @@
     },
     {
       "time": "2026-08-22T09:47:10+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-08-22T10:09:25+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
