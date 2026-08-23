@@ -289,7 +289,8 @@
     "ΡΟ6146ΜΤΛΒ-ΗΦΨ",
     "https://www.kathimerini.gr/society/564415858/deth-froyrio-i-thessaloniki-epi-podos-pano-apo-3-500-astynomikoi/",
     "TTI-TTR51600061676014000",
-    "9ΠΖΧ46ΜΤΛΒ-87Μ"
+    "9ΠΖΧ46ΜΤΛΒ-87Μ",
+    "TTI-TTR51600061388004000"
   ],
   "seeded": [
     "astynomia",
@@ -309,7 +310,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-22T20:13:49+00:00"
+      "last_success": "2026-08-23T00:51:54+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -317,14 +318,13 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97,
-        "εκτός χρονικού παραθύρου": 1,
+        "εκτός θέματος/Αθήνας": 98,
         "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-22T20:13:49+00:00"
+      "last_success": "2026-08-23T00:51:54+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -337,7 +337,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-22T20:13:49+00:00"
+      "last_success": "2026-08-23T00:51:54+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -350,7 +350,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-22T20:13:49+00:00"
+      "last_success": "2026-08-23T00:51:54+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -364,20 +364,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-22T20:13:49+00:00"
+      "last_success": "2026-08-23T00:51:54+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 13,
-      "fetched": 18,
+      "items": 14,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-22T22:43:33+00:00"
+      "last_success": "2026-08-23T00:51:54+00:00"
     }
   },
   "active": {
@@ -601,6 +601,21 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51600061388004000",
+        "source": "TomTom (realtime)",
+        "title": "Fidiou (Diranis) → Athinas (Diranis)",
+        "url": "https://www.google.com/maps?q=37.9459002712,23.7008195752",
+        "details": "Κλειστός δρόμος — Κλειστό; Οδικά έργα",
+        "area": "Νότια",
+        "days": [
+          "2026-08-23"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
         "id": "TTI-TTR51568321972046000",
         "source": "TomTom (realtime)",
         "title": "Sepolion (Konstantinoupoleos Ave) → Rodou (Konstantinoupoleos Ave)",
@@ -751,10 +766,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832668023000",
+        "id": "TTI-TTR51605832596023000",
         "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -766,10 +781,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832596023000",
+        "id": "TTI-TTR51605832668023000",
         "source": "TomTom (realtime)",
-        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -797,7 +812,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-22T20:13:49+00:00",
+      "last_seen": "2026-08-23T00:51:54+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1344,12 +1359,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-21T15:28:17+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-21T15:57:46+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1702,6 +1711,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-23T00:51:54+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
