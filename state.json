@@ -379,7 +379,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-24T04:36:54+00:00"
+      "last_success": "2026-08-24T05:26:33+00:00"
     }
   },
   "active": {
@@ -718,10 +718,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832596023000",
+        "id": "TTI-TTR51605832668023000",
         "source": "TomTom (realtime)",
-        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -733,10 +733,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832668023000",
+        "id": "TTI-TTR51605832596023000",
         "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -1125,15 +1125,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-08-23"
+    "151797168": "2026-08-24"
   },
   "notifications": [
-    {
-      "time": "2026-08-05T21:39:06+00:00",
-      "source": "iefimerida",
-      "title": "🚨 Κυκλοφοριακές ρυθμίσεις λόγω εργασιών στην Αθηνών-Θεσσαλονίκης από σήμερα - Έως πότε θα διαρκέσουν",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ergasion-athinon-thessalonikis"
-    },
     {
       "time": "2026-08-06T05:36:28+00:00",
       "source": "Ενημέρωση",
@@ -1307,15 +1301,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-08-24T05:26:34+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-22T17:09:31+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-22T17:41:30+00:00",
       "new": 0,
@@ -1669,6 +1663,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-08-24T05:26:34+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
