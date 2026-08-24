@@ -310,22 +310,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-24T04:36:54+00:00"
+      "last_success": "2026-08-24T08:38:38+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 94,
-        "εκτός χρονικού παραθύρου": 4,
-        "μόνο μία λωρίδα/ΛΕΑ": 1
+        "εκτός θέματος/Αθήνας": 97,
+        "εκτός χρονικού παραθύρου": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-24T04:36:54+00:00"
+      "last_success": "2026-08-24T08:38:38+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -338,7 +337,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-24T04:36:54+00:00"
+      "last_success": "2026-08-24T08:38:38+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -351,22 +350,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-24T04:36:54+00:00"
+      "last_success": "2026-08-24T08:38:38+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 7,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 3,
-        "λεωφορεία (χωρίς ειδοποίηση)": 1
+        "παλιά ανακοίνωση": 8,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-24T04:36:54+00:00"
+      "last_success": "2026-08-24T08:38:38+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -379,26 +377,12 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-24T08:32:22+00:00"
+      "last_success": "2026-08-24T08:38:38+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [
-      {
-        "id": "ΡΟ6146ΜΤΛΒ-ΗΦΨ",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "ΑΡΣΗΣ ΠΡΟΣΩΡΙΝΩΝ ΚΥΚΛΟΦΟΡΙΑΚΩΝ ΡΥΘΜΙΣΕΩΝ ΣΤΟΝ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟ Α.Θ.Ε. Χ/Θ 124+300 ΈΩΣ Χ/Θ 123, 100 ΣΤΟ ΡΕΥΜΑ ΚΥΚΛΟΦΟΡΙΑΣ ΠΡΟΣ ΑΘΗΝΑ",
-        "url": "https://diavgeia.gov.gr/decision/view/ΡΟ6146ΜΤΛΒ-ΗΦΨ",
-        "details": "Επίσημη απόφαση Τροχαίας (22/08/2026)",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      }
-    ],
+    "diavgeia": [],
     "iefimerida": [],
     "kathimerini": [
       {
@@ -521,21 +505,7 @@
         "new_this_run": false
       }
     ],
-    "oasa": [
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-302/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της λεωφ. γραμμής 418 λόγω εορτασμού του Ιερού Ναού Παναγίας Φανερωμένης στο Δήμο Παπάγου-Χολαργού",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-302/",
-        "details": "",
-        "area": "Ανατολικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      }
-    ],
+    "oasa": [],
     "tomtom": [
       {
         "id": "TTI-TTR51574092528022000",
@@ -718,10 +688,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832668023000",
+        "id": "TTI-TTR51605832596023000",
         "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -733,10 +703,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832596023000",
+        "id": "TTI-TTR51605832668023000",
         "source": "TomTom (realtime)",
-        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -764,7 +734,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-24T04:36:54+00:00",
+      "last_seen": "2026-08-24T08:38:38+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1311,12 +1281,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-22T19:41:52+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-22T20:07:41+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1669,6 +1633,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-24T08:38:38+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
