@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T19:05:22+00:00",
+  "generated_at": "2026-08-25T19:50:29+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -69,15 +69,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 15,
+      "items": 9,
+      "fetched": 12,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-25T19:05:22+00:00"
+      "last_success": "2026-08-25T19:50:29+00:00"
     }
   ],
   "active_events": [
@@ -290,7 +290,7 @@
     {
       "id": "TTI-TTR51568321972046000",
       "source": "TomTom (realtime)",
-      "title": "Sepolion (Konstantinoupoleos Ave) → Rodou (Konstantinoupoleos Ave)",
+      "title": "Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
       "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
@@ -337,21 +337,6 @@
       "source": "TomTom (realtime)",
       "title": "Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
       "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-08-25"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51594290912011001",
-      "source": "TomTom (realtime)",
-      "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
-      "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -988,12 +973,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-24T03:41:27+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-24T04:32:12+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1343,6 +1322,12 @@
     },
     {
       "time": "2026-08-25T19:05:22+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-08-25T19:50:29+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
