@@ -314,7 +314,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-25T12:32:20+00:00"
+      "last_success": "2026-08-25T16:27:01+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -327,7 +327,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-25T12:32:20+00:00"
+      "last_success": "2026-08-25T16:27:01+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -340,7 +340,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-25T12:32:20+00:00"
+      "last_success": "2026-08-25T16:27:01+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -353,7 +353,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-25T12:32:20+00:00"
+      "last_success": "2026-08-25T16:27:01+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -368,20 +368,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-25T12:32:20+00:00"
+      "last_success": "2026-08-25T16:27:01+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 16,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-25T16:04:35+00:00"
+      "last_success": "2026-08-25T16:27:01+00:00"
     }
   },
   "active": {
@@ -431,7 +431,7 @@
         "hours": [],
         "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Θεσμοφορίου (Δήμου Πειραιά) · 26/8 – 26/9",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "Ρ84Μ46ΜΤΛΒ-7Β3",
@@ -444,7 +444,7 @@
         "hours": [],
         "plain": "Διακοπή κυκλοφορίας — Δήμου Ελευσίνας",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "iefimerida": [],
@@ -752,7 +752,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-25T12:32:20+00:00",
+      "last_seen": "2026-08-25T16:27:01+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1129,7 +1129,7 @@
       "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Θεσμοφορίου (Δήμου Πειραιά) · 26/8 – 26/9",
       "category": "",
       "first_seen": "2026-08-25T12:32:20+00:00",
-      "last_seen": "2026-08-25T12:32:20+00:00",
+      "last_seen": "2026-08-25T16:27:01+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1325,12 +1325,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-23T21:08:38+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-23T21:41:06+00:00",
       "new": 0,
@@ -1684,6 +1678,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-25T16:27:01+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
