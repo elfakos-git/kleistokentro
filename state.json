@@ -314,7 +314,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-25T16:27:01+00:00"
+      "last_success": "2026-08-25T20:19:35+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -327,7 +327,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-25T16:27:01+00:00"
+      "last_success": "2026-08-25T20:19:35+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -340,7 +340,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-25T16:27:01+00:00"
+      "last_success": "2026-08-25T20:19:35+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -353,7 +353,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-25T16:27:01+00:00"
+      "last_success": "2026-08-25T20:19:35+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -368,7 +368,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-25T16:27:01+00:00"
+      "last_success": "2026-08-25T20:19:35+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -381,7 +381,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-25T20:13:05+00:00"
+      "last_success": "2026-08-25T20:19:35+00:00"
     }
   },
   "active": {
@@ -737,7 +737,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-25T16:27:01+00:00",
+      "last_seen": "2026-08-25T20:19:35+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1114,7 +1114,7 @@
       "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Θεσμοφορίου (Δήμου Πειραιά) · 26/8 – 26/9",
       "category": "",
       "first_seen": "2026-08-25T12:32:20+00:00",
-      "last_seen": "2026-08-25T16:27:01+00:00",
+      "last_seen": "2026-08-25T20:19:35+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1310,12 +1310,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-24T04:36:54+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-08-24T05:26:34+00:00",
       "new": 0,
@@ -1669,6 +1663,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-25T20:19:35+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
