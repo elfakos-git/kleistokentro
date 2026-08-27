@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T18:40:55+00:00",
+  "generated_at": "2026-08-27T22:59:40+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -71,14 +71,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 13,
+      "fetched": 12,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-27T18:40:55+00:00"
+      "last_success": "2026-08-27T22:59:40+00:00"
     }
   ],
   "active_events": [
@@ -264,7 +264,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-08-27"
+        "2026-08-28"
       ],
       "hours": [],
       "plain": "",
@@ -279,7 +279,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-08-27"
+        "2026-08-28"
       ],
       "hours": [],
       "plain": "",
@@ -294,7 +294,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-08-27"
+        "2026-08-28"
       ],
       "hours": [],
       "plain": "",
@@ -309,7 +309,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-08-27"
+        "2026-08-28"
       ],
       "hours": [],
       "plain": "",
@@ -324,7 +324,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-08-27"
+        "2026-08-28"
       ],
       "hours": [],
       "plain": "",
@@ -339,7 +339,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-08-27"
+        "2026-08-28"
       ],
       "hours": [],
       "plain": "",
@@ -354,22 +354,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-08-27"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51605832668023000",
-      "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-      "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-08-27"
+        "2026-08-28"
       ],
       "hours": [],
       "plain": "",
@@ -384,7 +369,22 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-08-27"
+        "2026-08-28"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51605832668023000",
+      "source": "TomTom (realtime)",
+      "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+      "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-08-28"
       ],
       "hours": [],
       "plain": "",
@@ -713,7 +713,7 @@
       "first_seen": "2026-07-20T17:27:33+00:00",
       "last_seen": "2026-08-27T18:40:51+00:00",
       "extended": true,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-294/",
@@ -731,7 +731,7 @@
       "first_seen": "2026-08-26T08:33:48+00:00",
       "last_seen": "2026-08-26T08:33:48+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-275/",
@@ -750,7 +750,7 @@
       "first_seen": "2026-08-27T18:40:55+00:00",
       "last_seen": "2026-08-27T18:40:55+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "Ψ7ΥΙ46ΜΤΛΒ-ΛΝΘ",
@@ -957,12 +957,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-25T04:59:57+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-25T05:30:37+00:00",
       "new": 0,
@@ -1316,6 +1310,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-08-27T22:59:40+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
