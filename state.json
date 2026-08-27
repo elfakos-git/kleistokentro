@@ -316,7 +316,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-26T22:37:13+00:00"
+      "last_success": "2026-08-27T06:25:32+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -324,12 +324,13 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99
+        "εκτός θέματος/Αθήνας": 98,
+        "άλλη περιοχή": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-26T22:37:13+00:00"
+      "last_success": "2026-08-27T06:25:32+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -342,7 +343,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-26T22:37:13+00:00"
+      "last_success": "2026-08-27T06:25:32+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -355,7 +356,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-26T22:37:13+00:00"
+      "last_success": "2026-08-27T06:25:32+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -363,27 +364,27 @@
       "items": 2,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 6,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 3,
+        "παλιά ανακοίνωση": 5,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
         "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-26T22:37:13+00:00"
+      "last_success": "2026-08-27T06:25:32+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 13,
+      "items": 9,
+      "fetched": 20,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 11
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-27T00:53:24+00:00"
+      "last_success": "2026-08-27T06:25:32+00:00"
     }
   },
   "active": {
@@ -585,21 +586,6 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51562551240031001",
-        "source": "TomTom (realtime)",
-        "title": "Damvergi (Konstantinoupoleos Ave) → Alkinoou (Konstantinoupoleos Ave)",
-        "url": "https://www.google.com/maps?q=38.0067435042,23.7212043637",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Βόρεια",
-        "days": [
-          "2026-08-27"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
         "id": "TTI-TTR51579863732014000",
         "source": "TomTom (realtime)",
         "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
@@ -675,10 +661,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832596023000",
+        "id": "TTI-TTR51605832668023000",
         "source": "TomTom (realtime)",
-        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -690,10 +676,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832668023000",
+        "id": "TTI-TTR51605832596023000",
         "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -721,7 +707,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-26T22:37:13+00:00",
+      "last_seen": "2026-08-27T06:25:32+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1089,15 +1075,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-08-26"
+    "151797168": "2026-08-27"
   },
   "notifications": [
-    {
-      "time": "2026-08-07T12:44:03+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "🚨 25531 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Πλήρη διακοπή της κυκλοφορίας των οχημάτων επί της Λεωφ. Ιωνίας, στο τμήμα της μεταξύ των οδών Λάσκαρη και Μηλιαράκη, ρεύμα κυκλοφορίας προς Αχαρνών, περιοχής Δήμου Αθηναίων, την 09-08-2026, κατά τις ώρες 07.30΄ έως 10.30΄, λόγω εκτέλεσης εργασιών μετακόμ",
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΑΔΒ46ΜΤΛΒ-ΛΡ6"
-    },
     {
       "time": "2026-08-08T05:12:12+00:00",
       "source": "Ενημέρωση",
@@ -1271,15 +1251,15 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "«Προσωρινές κυκλοφοριακές ρυθμίσεις στο οδικό δίκτυο αρμοδιότητάς μας, προκειμένου να εκτελεσθούν εργασίες, στο πλαίσιο του Έργου «Έξυπνες Γέφυρες», επί της Οδικής Γέφυρας της Ε.Ο. Αντιρρίου-Ιτέας, (Γέφυρα ποταμού Μόρνου, στα όρια του Ν. Αιτ/νίας με το Ν. Φωκίδος) και στη Λεωφόρο Αθηνών, κάτωθεν της",
       "url": "https://diavgeia.gov.gr/decision/view/9ΝΔΛ46ΜΤΛΒ-Χ1Θ"
+    },
+    {
+      "time": "2026-08-27T06:25:33+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-25T03:36:31+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-25T04:25:27+00:00",
       "new": 0,
@@ -1633,6 +1613,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-27T06:25:33+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
