@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T13:09:34+00:00",
+  "generated_at": "2026-08-27T18:40:55+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,21 +10,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-27T06:25:32+00:00"
+      "last_success": "2026-08-27T18:40:51+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 98,
-        "άλλη περιοχή": 1
+        "εκτός θέματος/Αθήνας": 99,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-27T06:25:32+00:00"
+      "last_success": "2026-08-27T18:40:51+00:00"
     },
     {
       "name": "iefimerida",
@@ -37,7 +37,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-27T06:25:32+00:00"
+      "last_success": "2026-08-27T18:40:51+00:00"
     },
     {
       "name": "kathimerini",
@@ -50,51 +50,38 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-27T06:25:32+00:00"
+      "last_success": "2026-08-27T18:40:51+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 2,
+      "items": 4,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 5,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
-        "λεωφορεία (χωρίς ειδοποίηση)": 2
+        "παλιά ανακοίνωση": 2,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
+        "λεωφορεία (χωρίς ειδοποίηση)": 4
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-08-27T06:25:32+00:00"
+      "last_success": "2026-08-27T18:40:55+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 18,
+      "fetched": 13,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 9
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-27T13:09:34+00:00"
+      "last_success": "2026-08-27T18:40:55+00:00"
     }
   ],
   "active_events": [
-    {
-      "id": "9ΝΔΛ46ΜΤΛΒ-Χ1Θ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "«Προσωρινές κυκλοφοριακές ρυθμίσεις στο οδικό δίκτυο αρμοδιότητάς μας, προκειμένου να εκτελεσθούν εργασίες, στο πλαίσιο του Έργου «Έξυπνες Γέφυρες», επί της Οδικής Γέφυρας της Ε.Ο. Αντιρρίου-Ιτέας, (Γέφυρα ποταμού Μόρνου, στα όρια του Ν. Αιτ/νίας με το Ν. Φωκίδος) και στη Λεωφόρο Αθηνών, κάτωθεν της",
-      "url": "https://diavgeia.gov.gr/decision/view/9ΝΔΛ46ΜΤΛΒ-Χ1Θ",
-      "details": "Επίσημη απόφαση Τροχαίας (26/08/2026)",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
     {
       "id": "https://www.kathimerini.gr/society/564415858/deth-froyrio-i-thessaloniki-epi-podos-pano-apo-3-500-astynomikoi/",
       "source": "kathimerini",
@@ -213,6 +200,35 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-6/",
+      "source": "ΟΑΣΑ",
+      "title": "Παράταση τροποποίησης της διαδρομής της λεωφορειακής γραμμής 730, λόγω εργασιών επί της οδού Ηρακλέους του Δήμου Περιστερίου",
+      "url": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-6/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "new_this_run": true
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-275/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 910 και 911, λόγω εργασιών επί της οδού Δημοσθένους και στη συμβολή των οδών Ταγμ. Πλέσσα, Αχιλλέως και Αθηνάς, στον Δήμο Καλλιθέας",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-275/",
+      "details": "",
+      "area": "Νότια",
+      "days": [
+        "2026-08-28",
+        "2026-08-31"
+      ],
+      "hours": [],
+      "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Δημοσθένους και · 28/8, 31/8 · λόγω εργασιών επί της οδού Δημοσθένους και στη συμβολή των οδών…",
+      "category": "bus",
+      "new_this_run": true
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-294/",
@@ -695,7 +711,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-27T06:25:32+00:00",
+      "last_seen": "2026-08-27T18:40:51+00:00",
       "extended": true,
       "status": "active"
     },
@@ -716,6 +732,25 @@
       "last_seen": "2026-08-26T08:33:48+00:00",
       "extended": false,
       "status": "active"
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-275/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 910 και 911, λόγω εργασιών επί της οδού Δημοσθένους και στη συμβολή των οδών Ταγμ. Πλέσσα, Αχιλλέως και Αθηνάς, στον Δήμο Καλλιθέας",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-275/",
+      "details": "",
+      "area": "Νότια",
+      "days": [
+        "2026-08-28",
+        "2026-08-31"
+      ],
+      "hours": [],
+      "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Δημοσθένους και · 28/8, 31/8 · λόγω εργασιών επί της οδού Δημοσθένους και στη συμβολή των οδών…",
+      "category": "bus",
+      "first_seen": "2026-08-27T18:40:55+00:00",
+      "last_seen": "2026-08-27T18:40:55+00:00",
+      "extended": false,
+      "status": "planned"
     },
     {
       "id": "Ψ7ΥΙ46ΜΤΛΒ-ΛΝΘ",
@@ -922,12 +957,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-25T04:31:12+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-08-25T04:59:57+00:00",
       "new": 0,
@@ -1281,6 +1310,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-27T18:40:55+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
