@@ -1,31 +1,32 @@
 {
-  "generated_at": "2026-08-28T14:41:57+00:00",
+  "generated_at": "2026-08-28T15:52:33+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
-      "date_misses": 0,
-      "body_enriched": 0,
-      "consecutive_failures": 0,
-      "last_success": "2026-08-28T03:56:35+00:00"
-    },
-    {
-      "name": "diavgeia",
-      "ok": true,
-      "items": 0,
-      "fetched": 100,
+      "fetched": 54,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 98,
-        "εκτός χρονικού παραθύρου": 1,
-        "μόνο μία λωρίδα/ΛΕΑ": 1
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-28T03:56:35+00:00"
+      "last_success": "2026-08-28T15:52:31+00:00"
+    },
+    {
+      "name": "diavgeia",
+      "ok": true,
+      "items": 1,
+      "fetched": 100,
+      "dropped": {
+        "εκτός θέματος/Αθήνας": 99
+      },
+      "date_misses": 0,
+      "body_enriched": 0,
+      "consecutive_failures": 0,
+      "last_success": "2026-08-28T15:52:31+00:00"
     },
     {
       "name": "iefimerida",
@@ -38,7 +39,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-28T03:56:35+00:00"
+      "last_success": "2026-08-28T15:52:31+00:00"
     },
     {
       "name": "kathimerini",
@@ -51,38 +52,56 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-28T03:56:35+00:00"
+      "last_success": "2026-08-28T15:52:31+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 4,
+      "items": 3,
       "fetched": 11,
       "dropped": {
         "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
-        "λεωφορεία (χωρίς ειδοποίηση)": 4
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
+        "λεωφορεία (χωρίς ειδοποίηση)": 3
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-08-28T03:56:35+00:00"
+      "last_success": "2026-08-28T15:52:33+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 20,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 11
+        "κατηγορία εκτός πολιτικής": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-28T14:41:57+00:00"
+      "last_success": "2026-08-28T15:52:33+00:00"
     }
   ],
   "active_events": [
+    {
+      "id": "ΨΝ0Τ46ΜΤΛΒ-ΤΦΣ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στο αριστερό τμήμα του οδοστρώματος της οδού Δραγατσανίου, περιοχής Δήμου Αθηναίων, στο ύψος του ο.α. 6, στις 30-08-2026, κατά τις ώρες 07.30΄ έως 10.30΄, για την εκτέλεση μεταφοράς υλικών »",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΝ0Τ46ΜΤΛΒ-ΤΦΣ",
+      "details": "Επίσημη απόφαση Τροχαίας (28/08/2026)",
+      "area": "Κέντρο",
+      "days": [
+        "2026-08-30"
+      ],
+      "hours": [
+        "07:30",
+        "10:30"
+      ],
+      "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Δραγατσανίου (ύψος αρ. 6, Δήμου Αθηναίων) · 30/8, 07:30–10:30",
+      "category": "",
+      "new_this_run": true
+    },
     {
       "id": "https://www.kathimerini.gr/society/564415858/deth-froyrio-i-thessaloniki-epi-podos-pano-apo-3-500-astynomikoi/",
       "source": "kathimerini",
@@ -188,6 +207,21 @@
       "new_this_run": false
     },
     {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-68/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 891 στην οδό Γιαννιτσών, λόγω αγώνα ποδοσφαίρου στον Δήμο Περιστερίου",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-68/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-08-30"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "new_this_run": true
+    },
+    {
       "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-6/",
       "source": "ΟΑΣΑ",
       "title": "Παράταση τροποποίησης της διαδρομής της λεωφορειακής γραμμής 730, λόγω εργασιών επί της οδού Ηρακλέους του Δήμου Περιστερίου",
@@ -210,32 +244,6 @@
       "days": [],
       "hours": [],
       "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Δημοσθένους και · λόγω εργασιών επί της οδού Δημοσθένους και στη συμβολή των οδών…",
-      "category": "bus",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-294/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της  λεωφορειακής γραμμής 826 λόγω των εκδηλώσεων για τους εορτασμούς του Ι.Ν. ΚΟΙΜΗΣΕΩΣ ΘΕΟΤΟΚΟΥ ΠΕΙΡΑΙΩΣ,  στο Δήμο Πειραιά",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-294/",
-      "details": "",
-      "area": "Νότια",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-110/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 728 και 752, λόγω εορταστικών εκδηλώσεων, στον Δήμο Αχαρνών",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-110/",
-      "details": "",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
       "category": "bus",
       "new_this_run": false
     },
@@ -694,7 +702,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-28T03:56:35+00:00",
+      "last_seen": "2026-08-28T15:52:31+00:00",
       "extended": true,
       "status": "ended"
     },
@@ -736,6 +744,45 @@
       "status": "active"
     },
     {
+      "id": "ΨΝ0Τ46ΜΤΛΒ-ΤΦΣ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στο αριστερό τμήμα του οδοστρώματος της οδού Δραγατσανίου, περιοχής Δήμου Αθηναίων, στο ύψος του ο.α. 6, στις 30-08-2026, κατά τις ώρες 07.30΄ έως 10.30΄, για την εκτέλεση μεταφοράς υλικών »",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΝ0Τ46ΜΤΛΒ-ΤΦΣ",
+      "details": "Επίσημη απόφαση Τροχαίας (28/08/2026)",
+      "area": "Κέντρο",
+      "days": [
+        "2026-08-30"
+      ],
+      "hours": [
+        "07:30",
+        "10:30"
+      ],
+      "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Δραγατσανίου (ύψος αρ. 6, Δήμου Αθηναίων) · 30/8, 07:30–10:30",
+      "category": "",
+      "first_seen": "2026-08-28T15:52:31+00:00",
+      "last_seen": "2026-08-28T15:52:31+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-68/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 891 στην οδό Γιαννιτσών, λόγω αγώνα ποδοσφαίρου στον Δήμο Περιστερίου",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-68/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-08-30"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-08-28T15:52:33+00:00",
+      "last_seen": "2026-08-28T15:52:33+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
       "id": "Ψ7ΥΙ46ΜΤΛΒ-ΛΝΘ",
       "source": "Διαύγεια (Τροχαία)",
       "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στον λεωφορειόδρομο της Λεωφ. Βασ. Αμαλίας, στο τμήμα μεταξύ των οδών Όθωνος και Ξενοφώντος, περιοχής Δήμου Αθηναίων, στις 01.09.2026 κατά τις ώρες 00.30΄ έως 05.00΄, λόγω εκτέλεσης εργασιών μεταφοράς παραγόμενων υλικών ».",
@@ -758,6 +805,12 @@
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-08-28T15:52:33+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 « Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στο αριστερό τμήμα του οδοστρώματος της οδού Δραγατσανίου, περιοχής Δήμου Αθηναίων, στο ύψος του ο.α. 6, στις 30-08-2026, κατά τις ώρες 07.30΄ έως 10.30΄, για την εκτέλεση μεταφοράς υλικών »",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΝ0Τ46ΜΤΛΒ-ΤΦΣ"
+    },
     {
       "time": "2026-08-28T14:41:57+00:00",
       "source": "Ενημέρωση",
@@ -931,21 +984,9 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "25524 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων επί της Λεωφ. Σχιστού, από το ύψος της Λεωφ. Αθηνών έως το ύψος του Βιομηχανικού Πάρκου Σχιστού (ΒΙ.ΠΑ.Σ.) και επί της γέφυρας Σχιστού, διαδοχικά ανά λωρίδα εναλλάξ και στα δύο ρεύματα κυκλοφορίας, περιοχής Δ",
       "url": "https://diavgeia.gov.gr/decision/view/9ΚΦ946ΜΤΛΒ-3Ο7"
-    },
-    {
-      "time": "2026-08-09T05:27:15+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-25T07:14:37+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-25T08:03:43+00:00",
       "new": 0,
@@ -1299,6 +1340,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-28T15:52:33+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
