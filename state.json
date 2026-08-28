@@ -384,14 +384,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 16,
+      "fetched": 12,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 7
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-28T15:52:33+00:00"
+      "last_success": "2026-08-28T23:43:39+00:00"
     }
   },
   "active": {
@@ -575,7 +575,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-08-28"
+          "2026-08-29"
         ],
         "hours": [],
         "plain": "",
@@ -590,7 +590,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-08-28"
+          "2026-08-29"
         ],
         "hours": [],
         "plain": "",
@@ -605,7 +605,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-08-28"
+          "2026-08-29"
         ],
         "hours": [],
         "plain": "",
@@ -620,7 +620,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-08-28"
+          "2026-08-29"
         ],
         "hours": [],
         "plain": "",
@@ -635,7 +635,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-08-28"
+          "2026-08-29"
         ],
         "hours": [],
         "plain": "",
@@ -650,7 +650,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-08-28"
+          "2026-08-29"
         ],
         "hours": [],
         "plain": "",
@@ -665,22 +665,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-08-28"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51605832668023000",
-        "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-08-28"
+          "2026-08-29"
         ],
         "hours": [],
         "plain": "",
@@ -695,7 +680,22 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-08-28"
+          "2026-08-29"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51605832668023000",
+        "source": "TomTom (realtime)",
+        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-08-29"
         ],
         "hours": [],
         "plain": "",
@@ -942,27 +942,6 @@
       "last_seen": "2026-08-17T08:33:57+00:00",
       "extended": false,
       "alerted_chats": []
-    },
-    "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80-20/": {
-      "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80-20/",
-      "source": "ΟΑΣΑ",
-      "title": "Παράταση της μερικής προσωρινής τροποποίησης των λεωφορειακών γραμμών 040, Α1, Β1, 130, 217, 229, Χ96, Ε90 και της γραμμής τρόλεϊ 1, λόγω εργασιών για την εκτέλεση κατασκευής του τεχνικού έργου ΤΕ06, στην παλαιά Λεωφ. Ποσειδώνος, στους Δήμους Μοσχάτου-Ταύρου, Καλλιθέας",
-      "url": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80-20/",
-      "details": "",
-      "area": "Νότια",
-      "days": [
-        "2026-08-19",
-        "2026-08-21"
-      ],
-      "hours": [],
-      "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. Ποσειδώνος · 19/8, 21/8 · λόγω εργασιών για την εκτέλεση κατασκευής του τεχνικού έργου ΤΕ06",
-      "category": "bus",
-      "first_seen": "2026-08-18T08:26:27+00:00",
-      "last_seen": "2026-08-18T08:26:27+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
     },
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-302/": {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-302/",
@@ -1337,12 +1316,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-25T08:03:43+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-25T08:32:51+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1695,6 +1668,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-08-28T23:43:39+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
