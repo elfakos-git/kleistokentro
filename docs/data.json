@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T03:56:35+00:00",
+  "generated_at": "2026-08-28T14:41:57+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -72,14 +72,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 12,
+      "fetched": 20,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 11
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-28T03:56:35+00:00"
+      "last_success": "2026-08-28T14:41:57+00:00"
     }
   ],
   "active_events": [
@@ -759,6 +759,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-08-28T14:41:57+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
+    {
       "time": "2026-08-27T06:25:33+00:00",
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
@@ -931,21 +937,9 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
-    },
-    {
-      "time": "2026-08-08T05:12:12+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-25T06:21:12+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-25T07:14:37+00:00",
       "new": 0,
@@ -1299,6 +1293,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-08-28T14:41:57+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
