@@ -301,7 +301,9 @@
     "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-6/",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-275/",
     "ΨΝ0Τ46ΜΤΛΒ-ΤΦΣ",
-    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-68/"
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-68/",
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-117/",
+    "https://www.iefimerida.gr/ellada/pyrkagia-egkataleleimmeno-ktirio-kentro-athinas"
   ],
   "seeded": [
     "astynomia",
@@ -321,34 +323,34 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-29T00:17:49+00:00"
+      "last_success": "2026-08-29T10:37:34+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 96,
-        "εκτός χρονικού παραθύρου": 3
+        "εκτός θέματος/Αθήνας": 99,
+        "εκτός χρονικού παραθύρου": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-29T00:17:49+00:00"
+      "last_success": "2026-08-29T10:37:34+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 11
+        "χωρίς/παλιά ημερομηνία": 10
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-29T00:17:49+00:00"
+      "last_success": "2026-08-29T10:37:34+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -361,7 +363,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-29T00:17:49+00:00"
+      "last_success": "2026-08-29T10:37:34+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -374,47 +376,42 @@
         "λεωφορεία (χωρίς ειδοποίηση)": 3
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-08-29T00:17:49+00:00"
+      "last_success": "2026-08-29T10:37:36+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 15,
+      "fetched": 21,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 12
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-29T09:25:11+00:00"
+      "last_success": "2026-08-29T10:37:36+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [
+    "diavgeia": [],
+    "iefimerida": [
       {
-        "id": "ΨΝ0Τ46ΜΤΛΒ-ΤΦΣ",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στο αριστερό τμήμα του οδοστρώματος της οδού Δραγατσανίου, περιοχής Δήμου Αθηναίων, στο ύψος του ο.α. 6, στις 30-08-2026, κατά τις ώρες 07.30΄ έως 10.30΄, για την εκτέλεση μεταφοράς υλικών »",
-        "url": "https://diavgeia.gov.gr/decision/view/ΨΝ0Τ46ΜΤΛΒ-ΤΦΣ",
-        "details": "Επίσημη απόφαση Τροχαίας (28/08/2026)",
+        "id": "https://www.iefimerida.gr/ellada/pyrkagia-egkataleleimmeno-ktirio-kentro-athinas",
+        "source": "iefimerida",
+        "title": "Υπό έλεγχο η πυρκαγιά σε εγκαταλελειμμένο κτήριο στο κέντρο της Αθήνας",
+        "url": "https://www.iefimerida.gr/ellada/pyrkagia-egkataleleimmeno-ktirio-kentro-athinas",
+        "details": "",
         "area": "Κέντρο",
-        "days": [
-          "2026-08-30"
-        ],
-        "hours": [
-          "07:30",
-          "10:30"
-        ],
-        "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Δραγατσανίου (ύψος αρ. 6, Δήμου Αθηναίων) · 30/8, 07:30–10:30",
+        "days": [],
+        "hours": [],
+        "plain": "",
         "category": "",
-        "new_this_run": false
+        "new_this_run": true
       }
     ],
-    "iefimerida": [],
     "kathimerini": [
       {
         "id": "https://www.kathimerini.gr/society/564415858/deth-froyrio-i-thessaloniki-epi-podos-pano-apo-3-500-astynomikoi/",
@@ -523,6 +520,24 @@
     ],
     "oasa": [
       {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-117/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 500 ( ΠΕΙΡΑΙΑΣ-ΚΗΦΙΣΙΑ “ΠΛ.ΠΛΑΤΑΝΟΥ” ΝΥΧΤΕΡΙΝΗ ), στον Δήμο Νέου Ηρακλείου, λόγω εργασιών στην οδό Δωδεκανήσου 16",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-117/",
+        "details": "",
+        "area": "Βόρεια",
+        "days": [
+          "2026-08-31",
+          "2026-09-03",
+          "2026-09-15",
+          "2026-10-28"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": true
+      },
+      {
         "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-68/",
         "source": "ΟΑΣΑ",
         "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 891 στην οδό Γιαννιτσών, λόγω αγώνα ποδοσφαίρου στον Δήμο Περιστερίου",
@@ -545,19 +560,6 @@
         "days": [],
         "hours": [],
         "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-275/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 910 και 911, λόγω εργασιών επί της οδού Δημοσθένους και στη συμβολή των οδών Ταγμ. Πλέσσα, Αχιλλέως και Αθηνάς, στον Δήμο Καλλιθέας",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-275/",
-        "details": "",
-        "area": "Νότια",
-        "days": [],
-        "hours": [],
-        "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Δημοσθένους και · λόγω εργασιών επί της οδού Δημοσθένους και στη συμβολή των οδών…",
         "category": "bus",
         "new_this_run": false
       }
@@ -669,10 +671,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832668023000",
+        "id": "TTI-TTR51605832596023000",
         "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
-        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
+        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
+        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -684,10 +686,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51605832596023000",
+        "id": "TTI-TTR51605832668023000",
         "source": "TomTom (realtime)",
-        "title": "Ηρώων Πολυτεχνείου → Λεωφόρος Εθνικής Αντιστάσεως",
-        "url": "https://www.google.com/maps?q=37.9670481779,23.7745266789",
+        "title": "Λεωφόρος Εθνικής Αντιστάσεως → Καισαριανή",
+        "url": "https://www.google.com/maps?q=37.9655890517,23.7748109931",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -715,7 +717,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-29T00:17:49+00:00",
+      "last_seen": "2026-08-29T10:37:34+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1120,6 +1122,29 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-117/": {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-117/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 500 ( ΠΕΙΡΑΙΑΣ-ΚΗΦΙΣΙΑ “ΠΛ.ΠΛΑΤΑΝΟΥ” ΝΥΧΤΕΡΙΝΗ ), στον Δήμο Νέου Ηρακλείου, λόγω εργασιών στην οδό Δωδεκανήσου 16",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-117/",
+      "details": "",
+      "area": "Βόρεια",
+      "days": [
+        "2026-08-31",
+        "2026-09-03",
+        "2026-09-15",
+        "2026-10-28"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-08-29T10:37:36+00:00",
+      "last_seen": "2026-08-29T10:37:36+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1129,12 +1154,6 @@
     "151797168": "2026-08-29"
   },
   "notifications": [
-    {
-      "time": "2026-08-10T05:18:57+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-08-11T05:32:36+00:00",
       "source": "Ενημέρωση",
@@ -1308,15 +1327,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-08-29T10:37:37+00:00",
+      "source": "iefimerida",
+      "title": "Υπό έλεγχο η πυρκαγιά σε εγκαταλελειμμένο κτήριο στο κέντρο της Αθήνας",
+      "url": "https://www.iefimerida.gr/ellada/pyrkagia-egkataleleimmeno-ktirio-kentro-athinas"
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-25T09:56:50+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-25T10:22:04+00:00",
       "new": 0,
@@ -1670,6 +1689,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-29T10:37:37+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
