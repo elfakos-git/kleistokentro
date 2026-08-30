@@ -303,7 +303,8 @@
     "ΨΝ0Τ46ΜΤΛΒ-ΤΦΣ",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-68/",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-117/",
-    "https://www.iefimerida.gr/ellada/pyrkagia-egkataleleimmeno-ktirio-kentro-athinas"
+    "https://www.iefimerida.gr/ellada/pyrkagia-egkataleleimmeno-ktirio-kentro-athinas",
+    "TTI-TTR51594290732005000"
   ],
   "seeded": [
     "astynomia",
@@ -383,15 +384,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 13,
+      "items": 11,
+      "fetched": 18,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-30T02:48:32+00:00"
+      "last_success": "2026-08-30T08:33:56+00:00"
     }
   },
   "active": {
@@ -604,6 +605,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51594290732005000",
+        "source": "TomTom (realtime)",
+        "title": "Erehtchiou (Vikou) → Botsari Tousa (Vikou)",
+        "url": "https://www.google.com/maps?q=37.9658907782,23.725430184",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-08-30"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51579863732014000",
@@ -1163,15 +1179,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-08-29"
+    "151797168": "2026-08-30"
   },
   "notifications": [
-    {
-      "time": "2026-08-11T08:45:31+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25538 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων επί της Λεωφ. Σχιστού, από το ύψος της Λεωφ. Αθηνών έως το ύψος του Βιομηχανικού Πάρκου Σχιστού (ΒΙ.ΠΑ.Σ.) και επί της γέφυρας Σχιστού, διαδοχικά ανά λωρίδα εναλλάξ και στα δύο ρεύματα κυκλοφορίας, περιοχής Δ",
-      "url": "https://diavgeia.gov.gr/decision/view/9Φ2646ΜΤΛΒ-ΠΕ2"
-    },
     {
       "time": "2026-08-11T08:45:31+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -1345,15 +1355,15 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "🚨 « Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στον λεωφορειόδρομο της Λεωφ. Βασ. Αμαλίας, στο τμήμα μεταξύ των οδών Όθωνος και Ξενοφώντος, περιοχής Δήμου Αθηναίων, στις 01.09.2026 κατά τις ώρες 00.30΄ έως 05.00΄, λόγω εκτέλεσης εργασιών μεταφοράς παραγόμενων υλικών ».",
       "url": "https://diavgeia.gov.gr/decision/view/Ψ7ΥΙ46ΜΤΛΒ-ΛΝΘ"
+    },
+    {
+      "time": "2026-08-30T08:33:57+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-25T15:10:16+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-25T16:04:35+00:00",
       "new": 0,
@@ -1707,6 +1717,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-08-30T08:33:57+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
