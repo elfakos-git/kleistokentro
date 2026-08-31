@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T23:37:22+00:00",
+  "generated_at": "2026-08-31T02:41:27+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-30T22:16:29+00:00"
+      "last_success": "2026-08-31T02:41:27+00:00"
     },
     {
       "name": "diavgeia",
@@ -18,13 +18,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99,
-        "εκτός χρονικού παραθύρου": 1
+        "εκτός θέματος/Αθήνας": 72,
+        "εκτός χρονικού παραθύρου": 28
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-30T22:16:29+00:00"
+      "last_success": "2026-08-31T02:41:27+00:00"
     },
     {
       "name": "iefimerida",
@@ -37,7 +37,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-30T22:16:29+00:00"
+      "last_success": "2026-08-31T02:41:27+00:00"
     },
     {
       "name": "kathimerini",
@@ -50,35 +50,34 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-30T22:16:29+00:00"
+      "last_success": "2026-08-31T02:41:27+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 2,
-      "fetched": 11,
+      "items": 4,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 2,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
-        "λεωφορεία (χωρίς ειδοποίηση)": 2
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
+        "λεωφορεία (χωρίς ειδοποίηση)": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-30T22:16:29+00:00"
+      "last_success": "2026-08-31T02:41:27+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 12,
+      "items": 11,
       "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-30T23:37:22+00:00"
+      "last_success": "2026-08-31T02:41:27+00:00"
     }
   ],
   "active_events": [
@@ -241,6 +240,32 @@
       "new_this_run": false
     },
     {
+      "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-6/",
+      "source": "ΟΑΣΑ",
+      "title": "Παράταση τροποποίησης της διαδρομής της λεωφορειακής γραμμής 730, λόγω εργασιών επί της οδού Ηρακλέους του Δήμου Περιστερίου",
+      "url": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-6/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-275/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 910 και 911, λόγω εργασιών επί της οδού Δημοσθένους και στη συμβολή των οδών Ταγμ. Πλέσσα, Αχιλλέως και Αθηνάς, στον Δήμο Καλλιθέας",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-275/",
+      "details": "",
+      "area": "Νότια",
+      "days": [],
+      "hours": [],
+      "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Δημοσθένους και · λόγω εργασιών επί της οδού Δημοσθένους και στη συμβολή των οδών…",
+      "category": "bus",
+      "new_this_run": false
+    },
+    {
       "id": "TTI-TTR51574092528022000",
       "source": "TomTom (realtime)",
       "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
@@ -318,7 +343,7 @@
     {
       "id": "TTI-TTR51582749116013000",
       "source": "TomTom (realtime)",
-      "title": "Tsoha An. (Kiriakou Pan.) → Dorileou (Kiriakou Pan.)",
+      "title": "Tsoha An. (Kiriakou Pan.) → Venizelou Elenas (Kiriakou Pan.)",
       "url": "https://www.google.com/maps?q=37.9865048936,23.7550015384",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
@@ -335,21 +360,6 @@
       "source": "TomTom (realtime)",
       "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
       "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-08-31"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749260013000",
-      "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Αλεξάνδρας → Αν. Τσόχα",
-      "url": "https://www.google.com/maps?q=37.9876046269,23.7553327912",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -820,7 +830,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-30T22:16:29+00:00",
+      "last_seen": "2026-08-31T02:41:27+00:00",
       "extended": true,
       "status": "planned"
     }
@@ -1008,12 +1018,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-25T20:19:35+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-08-25T20:51:17+00:00",
       "new": 0,
@@ -1367,6 +1371,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-31T02:41:27+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
