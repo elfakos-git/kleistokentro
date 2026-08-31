@@ -328,29 +328,25 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-31T10:19:01+00:00"
+      "last_success": "2026-08-31T18:32:21+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97,
-        "μόνο μία λωρίδα/ΛΕΑ": 2
+        "εκτός θέματος/Αθήνας": 100
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-31T10:19:01+00:00"
+      "last_success": "2026-08-31T18:32:21+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -363,7 +359,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-31T10:19:01+00:00"
+      "last_success": "2026-08-31T18:32:21+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -376,57 +372,39 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-31T10:19:01+00:00"
+      "last_success": "2026-08-31T18:32:21+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 1,
-      "fetched": 11,
+      "items": 3,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 6,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
-        "λεωφορεία (χωρίς ειδοποίηση)": 1
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10,
+        "λεωφορεία (χωρίς ειδοποίηση)": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-31T10:19:01+00:00"
+      "last_success": "2026-08-31T18:32:21+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 29,
+      "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 21
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-08-31T16:30:11+00:00"
+      "last_success": "2026-08-31T18:32:21+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [
-      {
-        "id": "9ΩΝΚ46ΜΤΛΒ-77Η",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "25572-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στην Ν.Ε.Ο. Αθηνών-Λαμίας, από τη χ/θ 50,800 έως τη χ/θ 54,100 , ρεύμα κυκλοφορίας προς Λαμία, περιοχής Δήμου Ωρωπού, κατά το χρονικό διάστημα από 31.08.2026 και ώρα 18.00΄ έως 03.10.2026 και ώρα 06.00΄, ενώ",
-        "url": "https://diavgeia.gov.gr/decision/view/9ΩΝΚ46ΜΤΛΒ-77Η",
-        "details": "Επίσημη απόφαση Τροχαίας (31/08/2026)",
-        "area": "Βόρεια",
-        "days": [
-          "2026-08-31",
-          "2026-10-03"
-        ],
-        "hours": [],
-        "plain": "Διακοπή κυκλοφορίας — Δήμου Ωρωπού (προς Λαμία) · 31/8, 3/10, 18:00–03:10",
-        "category": "",
-        "new_this_run": true
-      }
-    ],
+    "diavgeia": [],
     "iefimerida": [
       {
         "id": "https://www.iefimerida.gr/ellada/pyrkagia-egkataleleimmeno-ktirio-kentro-athinas",
@@ -576,6 +554,32 @@
         "plain": "",
         "category": "bus",
         "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-68/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 891 στην οδό Γιαννιτσών, λόγω αγώνα ποδοσφαίρου στον Δήμο Περιστερίου",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-68/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-6/",
+        "source": "ΟΑΣΑ",
+        "title": "Παράταση τροποποίησης της διαδρομής της λεωφορειακής γραμμής 730, λόγω εργασιών επί της οδού Ηρακλέους του Δήμου Περιστερίου",
+        "url": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-6/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": false
       }
     ],
     "tomtom": [
@@ -597,7 +601,7 @@
       {
         "id": "TTI-TTR51568322044037000",
         "source": "TomTom (realtime)",
-        "title": "Arahthou (Voriou Ipirou) → Xanthippis (Voriou Ipirou)",
+        "title": "Arahthou (Voriou Ipirou) → Propontidos (Voriou Ipirou)",
         "url": "https://www.google.com/maps?q=38.0015252964,23.7189472848",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
@@ -607,7 +611,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51568321972030001",
@@ -716,7 +720,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-08-31T10:19:01+00:00",
+      "last_seen": "2026-08-31T18:32:21+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1338,12 +1342,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-25T22:11:57+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-25T22:50:10+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1696,6 +1694,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-08-31T18:32:21+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
