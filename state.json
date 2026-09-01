@@ -317,7 +317,8 @@
     "980Ζ46ΜΤΛΒ-Ζ42",
     "909Δ46ΜΤΛΒ-Ξ9Ψ",
     "Ψ1ΗΡ46ΜΤΛΒ-ΚΔ4",
-    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-69/"
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-69/",
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-118/"
   ],
   "seeded": [
     "astynomia",
@@ -340,21 +341,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-01T09:02:48+00:00"
+      "last_success": "2026-09-01T15:50:30+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97,
-        "μόνο μία λωρίδα/ΛΕΑ": 2
+        "εκτός θέματος/Αθήνας": 99,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-01T09:02:48+00:00"
+      "last_success": "2026-09-01T15:50:30+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -367,7 +368,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-01T09:02:48+00:00"
+      "last_success": "2026-09-01T15:50:30+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -380,59 +381,40 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-01T09:02:48+00:00"
+      "last_success": "2026-09-01T15:50:30+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 1,
+      "items": 2,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 7,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 3,
-        "λεωφορεία (χωρίς ειδοποίηση)": 1
+        "παλιά ανακοίνωση": 5,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
+        "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
       "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-09-01T09:02:50+00:00"
+      "last_success": "2026-09-01T15:50:32+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 53,
+      "fetched": 71,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 45
+        "κατηγορία εκτός πολιτικής": 63
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-01T13:07:36+00:00"
+      "last_success": "2026-09-01T15:50:32+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [
-      {
-        "id": "Ψ1ΗΡ46ΜΤΛΒ-ΚΔ4",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στο δεξιό τμήμα του οδοστρώματος της οδού Βασ. Γεωργίου Β΄, περιοχής Δήμου Αθηναίων, στο ύψος του ο.α.Α1, την 01-09-2026, κατά τις ώρες 22.00΄ έως 06.30΄ της επομένης, λόγω εκτέλεσης ανύψωσης με γερανοφόρο όχημα».",
-        "url": "https://diavgeia.gov.gr/decision/view/Ψ1ΗΡ46ΜΤΛΒ-ΚΔ4",
-        "details": "Επίσημη απόφαση Τροχαίας (01/09/2026)",
-        "area": "Κέντρο",
-        "days": [
-          "2026-09-01"
-        ],
-        "hours": [
-          "22:00",
-          "06:30"
-        ],
-        "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Βασ. Γεωργίου Β΄ (Δήμου Αθηναίων) · 1/9, 22:00–06:30 · λόγω ανύψωσης με γερανοφόρο όχημα»",
-        "category": "",
-        "new_this_run": true
-      }
-    ],
+    "diavgeia": [],
     "iefimerida": [],
     "kathimerini": [
       {
@@ -557,19 +539,32 @@
     ],
     "oasa": [
       {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-118/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 504, 537, 725 και 726, λόγω εργασιών στον Δήμο Αχαρνών",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-118/",
+        "details": "",
+        "area": "",
+        "days": [
+          "2026-09-03"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": true
+      },
+      {
         "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-69/",
         "source": "ΟΑΣΑ",
         "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73, του Δήμου Περιστερίου",
         "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-69/",
         "details": "",
         "area": "Δυτικά",
-        "days": [
-          "2026-09-02"
-        ],
+        "days": [],
         "hours": [],
-        "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Λακεδαίμονος 73 · 2/9",
+        "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Λακεδαίμονος 73",
         "category": "bus",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "tomtom": [
@@ -710,7 +705,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-09-01T09:02:48+00:00",
+      "last_seen": "2026-09-01T15:50:30+00:00",
       "extended": true,
       "alerted_chats": [
         "151797168"
@@ -1183,6 +1178,26 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-118/": {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-118/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 504, 537, 725 και 726, λόγω εργασιών στον Δήμο Αχαρνών",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-118/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-09-03"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-09-01T15:50:32+00:00",
+      "last_seen": "2026-09-01T15:50:32+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1374,12 +1389,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-26T06:23:13+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-26T07:14:33+00:00",
       "new": 0,
@@ -1733,6 +1742,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-01T15:50:32+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
