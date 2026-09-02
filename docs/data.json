@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T19:31:57+00:00",
+  "generated_at": "2026-09-02T22:02:44+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -74,14 +74,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 7,
-      "fetched": 10,
+      "fetched": 11,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-02T19:31:57+00:00"
+      "last_success": "2026-09-02T22:02:44+00:00"
     }
   ],
   "active_events": [
@@ -238,7 +238,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-09-02"
+        "2026-09-03"
       ],
       "hours": [],
       "plain": "",
@@ -253,7 +253,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-09-02"
+        "2026-09-03"
       ],
       "hours": [],
       "plain": "",
@@ -268,7 +268,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-09-02"
+        "2026-09-03"
       ],
       "hours": [],
       "plain": "",
@@ -283,7 +283,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-09-02"
+        "2026-09-03"
       ],
       "hours": [],
       "plain": "",
@@ -298,7 +298,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-09-02"
+        "2026-09-03"
       ],
       "hours": [],
       "plain": "",
@@ -313,7 +313,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-09-02"
+        "2026-09-03"
       ],
       "hours": [],
       "plain": "",
@@ -328,7 +328,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-09-02"
+        "2026-09-03"
       ],
       "hours": [],
       "plain": "",
@@ -528,7 +528,7 @@
       "last_seen": "2026-07-24T06:20:00+00:00",
       "extended": false,
       "category": "bus",
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-110/",
@@ -698,7 +698,7 @@
       "first_seen": "2026-08-29T10:37:36+00:00",
       "last_seen": "2026-08-29T10:37:36+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "9ΩΝΚ46ΜΤΛΒ-77Η",
@@ -777,7 +777,7 @@
       "first_seen": "2026-09-01T09:02:50+00:00",
       "last_seen": "2026-09-01T09:02:50+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
@@ -795,7 +795,7 @@
       "first_seen": "2026-07-20T17:27:33+00:00",
       "last_seen": "2026-09-02T19:07:47+00:00",
       "extended": true,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-118/",
@@ -813,7 +813,7 @@
       "first_seen": "2026-09-01T15:50:32+00:00",
       "last_seen": "2026-09-01T15:50:32+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     }
   ],
   "recent_notifications": [
@@ -999,12 +999,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-26T16:42:25+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-08-26T18:31:19+00:00",
       "new": 0,
@@ -1355,6 +1349,12 @@
     },
     {
       "time": "2026-09-02T19:31:57+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-09-02T22:02:44+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
