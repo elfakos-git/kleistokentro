@@ -1,19 +1,16 @@
 {
-  "generated_at": "2026-09-03T00:22:36+00:00",
+  "generated_at": "2026-09-03T02:21:11+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-02T22:13:06+00:00"
+      "last_success": "2026-09-03T02:21:10+00:00"
     },
     {
       "name": "diavgeia",
@@ -26,7 +23,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-02T22:13:06+00:00"
+      "last_success": "2026-09-03T02:21:10+00:00"
     },
     {
       "name": "iefimerida",
@@ -40,7 +37,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-02T22:13:06+00:00"
+      "last_success": "2026-09-03T02:21:10+00:00"
     },
     {
       "name": "kathimerini",
@@ -53,22 +50,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-02T22:13:06+00:00"
+      "last_success": "2026-09-03T02:21:10+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 2,
-      "fetched": 11,
+      "items": 3,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 3,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
-        "λεωφορεία (χωρίς ειδοποίηση)": 2
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10,
+        "λεωφορεία (χωρίς ειδοποίηση)": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-02T22:13:06+00:00"
+      "last_success": "2026-09-03T02:21:11+00:00"
     },
     {
       "name": "tomtom",
@@ -81,7 +77,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-03T00:22:36+00:00"
+      "last_success": "2026-09-03T02:21:11+00:00"
     }
   ],
   "active_events": [
@@ -227,6 +223,19 @@
       "days": [],
       "hours": [],
       "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Λακεδαίμονος 73",
+      "category": "bus",
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-117/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 500 ( ΠΕΙΡΑΙΑΣ-ΚΗΦΙΣΙΑ “ΠΛ.ΠΛΑΤΑΝΟΥ” ΝΥΧΤΕΡΙΝΗ ), στον Δήμο Νέου Ηρακλείου, λόγω εργασιών στην οδό Δωδεκανήσου 16",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-117/",
+      "details": "",
+      "area": "Βόρεια",
+      "days": [],
+      "hours": [],
+      "plain": "",
       "category": "bus",
       "new_this_run": false
     },
@@ -793,7 +802,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-09-02T22:13:06+00:00",
+      "last_seen": "2026-09-03T02:21:10+00:00",
       "extended": true,
       "status": "active"
     },
@@ -999,12 +1008,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-26T22:37:13+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-08-27T00:53:24+00:00",
       "new": 0,
@@ -1358,6 +1361,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-03T02:21:11+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
