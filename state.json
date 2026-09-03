@@ -319,7 +319,10 @@
     "Ψ1ΗΡ46ΜΤΛΒ-ΚΔ4",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-69/",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-118/",
-    "https://www.iefimerida.gr/ellada/thessaloniki-kykloforiakes-rythmiseis-enopsei-deth"
+    "https://www.iefimerida.gr/ellada/thessaloniki-kykloforiakes-rythmiseis-enopsei-deth",
+    "9Η1546ΜΤΛΒ-Ω5Η",
+    "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-119/"
   ],
   "seeded": [
     "astynomia",
@@ -334,12 +337,15 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "fetched": 54,
+      "dropped": {
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-03T02:21:10+00:00"
+      "last_success": "2026-09-03T08:25:37+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -347,12 +353,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 99,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-03T02:21:10+00:00"
+      "last_success": "2026-09-03T08:25:37+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -360,13 +367,14 @@
       "items": 0,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 10,
+        "άλλη περιοχή": 1,
+        "χωρίς/παλιά ημερομηνία": 9,
         "άλλη πόλη (τίτλος)": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-03T02:21:10+00:00"
+      "last_success": "2026-09-03T08:25:37+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -377,9 +385,9 @@
         "άλλη πόλη (τίτλος)": 1
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-09-03T02:21:10+00:00"
+      "last_success": "2026-09-03T08:25:37+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -391,22 +399,22 @@
         "λεωφορεία (χωρίς ειδοποίηση)": 3
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-09-03T02:21:11+00:00"
+      "last_success": "2026-09-03T08:25:39+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 7,
-      "fetched": 50,
+      "fetched": 34,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 43
+        "κατηγορία εκτός πολιτικής": 27
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-03T07:24:02+00:00"
+      "last_success": "2026-09-03T08:25:39+00:00"
     }
   },
   "active": {
@@ -414,6 +422,25 @@
     "diavgeia": [],
     "iefimerida": [],
     "kathimerini": [
+      {
+        "id": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
+        "source": "kathimerini",
+        "title": "ΔΕΘ: Κυκλοφοριακές ρυθμίσεις στο κέντρο της Θεσσαλονίκης",
+        "url": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
+        "details": "",
+        "area": "",
+        "days": [
+          "2026-09-03",
+          "2026-09-04",
+          "2026-09-05",
+          "2026-09-06",
+          "2026-10-26"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
       {
         "id": "https://www.kathimerini.gr/society/564415858/deth-froyrio-i-thessaloniki-epi-podos-pano-apo-3-500-astynomikoi/",
         "source": "kathimerini",
@@ -517,24 +544,24 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
-        "source": "kathimerini",
-        "title": "Κυκλοφοριακές ρυθμίσεις στο Ελληνικό την Πέμπτη για το EKO Rally Acropolis",
-        "url": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
-        "details": "",
-        "area": "Νότια",
-        "days": [
-          "2026-09-03"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
       }
     ],
     "oasa": [
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-119/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 504, 537, 725 και 726, λόγω εργασιών στον Δήμο Αχαρνών",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-119/",
+        "details": "",
+        "area": "",
+        "days": [
+          "2026-09-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": true
+      },
       {
         "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-118/",
         "source": "ΟΑΣΑ",
@@ -558,19 +585,6 @@
         "days": [],
         "hours": [],
         "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Λακεδαίμονος 73",
-        "category": "bus",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-117/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 500 ( ΠΕΙΡΑΙΑΣ-ΚΗΦΙΣΙΑ “ΠΛ.ΠΛΑΤΑΝΟΥ” ΝΥΧΤΕΡΙΝΗ ), στον Δήμο Νέου Ηρακλείου, λόγω εργασιών στην οδό Δωδεκανήσου 16",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-117/",
-        "details": "",
-        "area": "Βόρεια",
-        "days": [],
-        "hours": [],
-        "plain": "",
         "category": "bus",
         "new_this_run": false
       }
@@ -1191,6 +1205,50 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/": {
+      "id": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
+      "source": "kathimerini",
+      "title": "ΔΕΘ: Κυκλοφοριακές ρυθμίσεις στο κέντρο της Θεσσαλονίκης",
+      "url": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-05",
+        "2026-09-06",
+        "2026-10-26"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-09-03T08:25:37+00:00",
+      "last_seen": "2026-09-03T08:25:37+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-119/": {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-119/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 504, 537, 725 και 726, λόγω εργασιών στον Δήμο Αχαρνών",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-119/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-09-04"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-09-03T08:25:39+00:00",
+      "last_seen": "2026-09-03T08:25:39+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1200,12 +1258,6 @@
     "151797168": "2026-09-03"
   },
   "notifications": [
-    {
-      "time": "2026-08-15T21:08:59+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "🚨 25502 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες προσωρινές κυκλοφοριακές ρυθμίσεις στα κάτωθι οδικά τμήματα του Αυτοκινητοδρόμου Α.Θ.Ε., από τη χ/θ 17,600 έως τη χ/θ 15,170 , ρεύμα κυκλοφορίας προς Αθήνα, περιοχής Δήμου Μεταμόρφωσης, κατά το χρονικό διάστημα από 18.08.2026 και ώρα 23.00΄ έως ",
-      "url": "https://diavgeia.gov.gr/decision/view/6Τ6246ΜΤΛΒ-9ΕΣ"
-    },
     {
       "time": "2026-08-16T05:16:16+00:00",
       "source": "Ενημέρωση",
@@ -1379,15 +1431,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-09-03T08:25:40+00:00",
+      "source": "kathimerini",
+      "title": "🚨 ΔΕΘ: Κυκλοφοριακές ρυθμίσεις στο κέντρο της Θεσσαλονίκης",
+      "url": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-27T06:25:33+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-08-27T13:09:34+00:00",
       "new": 0,
@@ -1741,6 +1793,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-03T08:25:40+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
