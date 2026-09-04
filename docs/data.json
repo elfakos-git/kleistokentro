@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T02:16:04+00:00",
+  "generated_at": "2026-09-04T07:26:33+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -72,14 +72,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 7,
-      "fetched": 10,
+      "fetched": 35,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 28
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-04T02:16:03+00:00"
+      "last_success": "2026-09-04T07:26:32+00:00"
     }
   ],
   "active_events": [
@@ -849,6 +849,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-09-04T07:26:33+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
+    {
       "time": "2026-09-03T08:25:40+00:00",
       "source": "kathimerini",
       "title": "🚨 ΔΕΘ: Κυκλοφοριακές ρυθμίσεις στο κέντρο της Θεσσαλονίκης",
@@ -1021,21 +1027,9 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
-    },
-    {
-      "time": "2026-08-16T05:16:16+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-29T10:37:37+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-08-29T14:34:31+00:00",
       "new": 0,
@@ -1389,6 +1383,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-09-04T07:26:33+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
