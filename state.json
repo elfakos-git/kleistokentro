@@ -326,7 +326,8 @@
     "Ρ0ΔΝ46ΜΤΛΒ-82Κ",
     "TTI-TTR51571207408012000",
     "99Θ446ΜΤΛΒ-ΜΝ7",
-    "9ΑΘ846ΜΤΛΒ-Δ1Τ"
+    "9ΑΘ846ΜΤΛΒ-Δ1Τ",
+    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-grammi-3-metro-ergasies"
   ],
   "seeded": [
     "astynomia",
@@ -349,7 +350,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-04T15:31:46+00:00"
+      "last_success": "2026-09-04T18:43:56+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -362,22 +363,22 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-04T15:31:46+00:00"
+      "last_success": "2026-09-04T18:43:56+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 11,
       "dropped": {
         "άλλη περιοχή": 2,
-        "χωρίς/παλιά ημερομηνία": 8,
+        "χωρίς/παλιά ημερομηνία": 7,
         "άλλη πόλη (τίτλος)": 1
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-09-04T15:31:46+00:00"
+      "last_success": "2026-09-04T18:43:57+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -390,7 +391,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-04T15:31:46+00:00"
+      "last_success": "2026-09-04T18:43:57+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -405,20 +406,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-04T15:31:46+00:00"
+      "last_success": "2026-09-04T18:43:57+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 7,
-      "fetched": 28,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 21
+        "κατηγορία εκτός πολιτικής": 9
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-04T16:29:19+00:00"
+      "last_success": "2026-09-04T18:43:57+00:00"
     }
   },
   "active": {
@@ -440,7 +441,7 @@
         ],
         "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 5/9, 07:00–21:00",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "9ΑΘ846ΜΤΛΒ-Δ1Τ",
@@ -455,10 +456,26 @@
         "hours": [],
         "plain": "Διακοπή κυκλοφορίας — Δήμου Ασπροπύργου · 6/9",
         "category": "",
+        "new_this_run": false
+      }
+    ],
+    "iefimerida": [
+      {
+        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-grammi-3-metro-ergasies",
+        "source": "iefimerida",
+        "title": "Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 του Μετρό λόγω εργασιών -Ποιοι σταθμοί θα κλείνουν νωρίτερα από τη Δευτέρα",
+        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-grammi-3-metro-ergasies",
+        "details": "",
+        "area": "Κέντρο",
+        "days": [
+          "2026-09-07"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
         "new_this_run": true
       }
     ],
-    "iefimerida": [],
     "kathimerini": [
       {
         "id": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
@@ -1251,7 +1268,7 @@
       "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 5/9, 07:00–21:00",
       "category": "",
       "first_seen": "2026-09-04T15:31:46+00:00",
-      "last_seen": "2026-09-04T15:31:46+00:00",
+      "last_seen": "2026-09-04T18:43:56+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1271,11 +1288,29 @@
       "plain": "Διακοπή κυκλοφορίας — Δήμου Ασπροπύργου · 6/9",
       "category": "",
       "first_seen": "2026-09-04T15:31:46+00:00",
-      "last_seen": "2026-09-04T15:31:46+00:00",
+      "last_seen": "2026-09-04T18:43:56+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-grammi-3-metro-ergasies": {
+      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-grammi-3-metro-ergasies",
+      "source": "iefimerida",
+      "title": "Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 του Μετρό λόγω εργασιών -Ποιοι σταθμοί θα κλείνουν νωρίτερα από τη Δευτέρα",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-grammi-3-metro-ergasies",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-07"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-09-04T18:43:57+00:00",
+      "last_seen": "2026-09-04T18:43:57+00:00",
+      "extended": false,
+      "alerted_chats": []
     }
   },
   "known_chats": [
@@ -1467,12 +1502,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-29T20:06:57+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-08-29T22:08:57+00:00",
       "new": 0,
@@ -1826,6 +1855,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-04T18:43:57+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
