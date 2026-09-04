@@ -323,7 +323,8 @@
     "9Η1546ΜΤΛΒ-Ω5Η",
     "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-119/",
-    "Ρ0ΔΝ46ΜΤΛΒ-82Κ"
+    "Ρ0ΔΝ46ΜΤΛΒ-82Κ",
+    "TTI-TTR51571207408012000"
   ],
   "seeded": [
     "astynomia",
@@ -407,15 +408,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 7,
-      "fetched": 32,
+      "items": 8,
+      "fetched": 58,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 25
+        "κατηγορία εκτός πολιτικής": 50
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-04T08:21:34+00:00"
+      "last_success": "2026-09-04T12:11:16+00:00"
     }
   },
   "active": {
@@ -586,6 +587,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51571207408012000",
+        "source": "TomTom (realtime)",
+        "title": "Patision (Kodrigktonos) → Aristotelous (Kodrigktonos)",
+        "url": "https://www.google.com/maps?q=37.9956230591,23.7322014206",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Βόρεια",
+        "days": [
+          "2026-09-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51579863732014000",
@@ -1388,12 +1404,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-29T15:59:15+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-08-29T17:56:20+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1746,6 +1756,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-09-04T12:11:16+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
