@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:19:28+00:00",
+  "generated_at": "2026-09-05T16:18:22+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -70,15 +70,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 12,
+      "items": 7,
+      "fetched": 10,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-05T14:19:28+00:00"
+      "last_success": "2026-09-05T16:18:22+00:00"
     }
   ],
   "active_events": [
@@ -234,36 +234,6 @@
       "url": "https://www.google.com/maps?q=37.9774685794,23.6918153995",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
-      "days": [
-        "2026-09-05"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51585634472013000",
-      "source": "TomTom (realtime)",
-      "title": "Nileos (Akamantos) → Akteou (Akamantos)",
-      "url": "https://www.google.com/maps?q=37.9744966642,23.7193080419",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-05"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51585634408005000",
-      "source": "TomTom (realtime)",
-      "title": "Dimofontos (Nileos) → Akamantos (Nileos)",
-      "url": "https://www.google.com/maps?q=37.9752557099,23.7149910265",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
       "days": [
         "2026-09-05"
       ],
@@ -1106,12 +1076,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-30T23:37:22+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-31T02:41:27+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1464,6 +1428,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-09-05T16:18:22+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
