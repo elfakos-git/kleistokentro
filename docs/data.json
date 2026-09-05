@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T07:57:23+00:00",
+  "generated_at": "2026-09-05T11:18:25+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -71,15 +71,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 8,
-      "fetched": 17,
+      "items": 11,
+      "fetched": 27,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 9
+        "κατηγορία εκτός πολιτικής": 16
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-05T07:57:23+00:00"
+      "last_success": "2026-09-05T11:18:25+00:00"
     }
   ],
   "active_events": [
@@ -277,10 +277,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51585634408005000",
+      "id": "TTI-TTR51585634472013000",
       "source": "TomTom (realtime)",
-      "title": "Dimofontos (Nileos) → Akteou (Nileos)",
-      "url": "https://www.google.com/maps?q=37.9752557099,23.7149910265",
+      "title": "Nileos (Akamantos) → Akteou (Akamantos)",
+      "url": "https://www.google.com/maps?q=37.9744966642,23.7193080419",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -292,10 +292,55 @@
       "new_this_run": true
     },
     {
+      "id": "TTI-TTR51585634408005000",
+      "source": "TomTom (realtime)",
+      "title": "Dimofontos (Nileos) → Akamantos (Nileos)",
+      "url": "https://www.google.com/maps?q=37.9752557099,23.7149910265",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-05"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
       "id": "TTI-TTR51568321972030001",
       "source": "TomTom (realtime)",
       "title": "Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
       "url": "https://www.google.com/maps?q=37.9998784141,23.7203514212",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Βόρεια",
+      "days": [
+        "2026-09-05"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51594290732013000",
+      "source": "TomTom (realtime)",
+      "title": "Botsari Tousa (Vikou) → Zinni Anast. (Vikou)",
+      "url": "https://www.google.com/maps?q=37.9649479944,23.7238637739",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-05"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51571207408012000",
+      "source": "TomTom (realtime)",
+      "title": "Patision (Kodrigktonos) → G Septemvriou (Kodrigktonos)",
+      "url": "https://www.google.com/maps?q=37.9956230591,23.7322014206",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
@@ -1125,12 +1170,6 @@
   ],
   "runs": [
     {
-      "time": "2026-08-30T18:05:39+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-08-30T18:57:41+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1483,6 +1522,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-09-05T11:18:25+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
