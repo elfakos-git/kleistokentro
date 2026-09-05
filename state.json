@@ -328,7 +328,8 @@
     "99Θ446ΜΤΛΒ-ΜΝ7",
     "9ΑΘ846ΜΤΛΒ-Δ1Τ",
     "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-grammi-3-metro-ergasies",
-    "TTI-TTR51576978244011000"
+    "TTI-TTR51576978244011000",
+    "TTI-TTR51585634408005000"
   ],
   "seeded": [
     "astynomia",
@@ -343,15 +344,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-05T02:16:59+00:00"
+      "last_success": "2026-09-05T07:57:23+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -359,12 +357,13 @@
       "items": 2,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 98
+        "εκτός θέματος/Αθήνας": 97,
+        "άλλη περιοχή": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-05T02:16:59+00:00"
+      "last_success": "2026-09-05T07:57:23+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -373,13 +372,12 @@
       "fetched": 11,
       "dropped": {
         "άλλη περιοχή": 2,
-        "χωρίς/παλιά ημερομηνία": 7,
-        "άλλη πόλη (τίτλος)": 1
+        "χωρίς/παλιά ημερομηνία": 8
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-05T02:16:59+00:00"
+      "last_success": "2026-09-05T07:57:23+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -392,7 +390,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-05T02:16:59+00:00"
+      "last_success": "2026-09-05T07:57:23+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -407,20 +405,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-05T02:16:59+00:00"
+      "last_success": "2026-09-05T07:57:23+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 7,
-      "fetched": 13,
+      "items": 8,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 9
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-05T07:07:44+00:00"
+      "last_success": "2026-09-05T07:57:23+00:00"
     }
   },
   "active": {
@@ -626,6 +624,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51585634408005000",
+        "source": "TomTom (realtime)",
+        "title": "Dimofontos (Nileos) → Akteou (Nileos)",
+        "url": "https://www.google.com/maps?q=37.9752557099,23.7149910265",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-09-05"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51568321972030001",
@@ -1269,7 +1282,7 @@
       "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 5/9, 07:00–21:00",
       "category": "",
       "first_seen": "2026-09-04T15:31:46+00:00",
-      "last_seen": "2026-09-05T02:16:59+00:00",
+      "last_seen": "2026-09-05T07:57:23+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1289,7 +1302,7 @@
       "plain": "Διακοπή κυκλοφορίας — Δήμου Ασπροπύργου · 6/9",
       "category": "",
       "first_seen": "2026-09-04T15:31:46+00:00",
-      "last_seen": "2026-09-05T02:16:59+00:00",
+      "last_seen": "2026-09-05T07:57:23+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1309,7 +1322,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-04T18:43:57+00:00",
-      "last_seen": "2026-09-05T02:16:59+00:00",
+      "last_seen": "2026-09-05T07:57:23+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1505,12 +1518,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-30T15:48:10+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-08-30T18:05:39+00:00",
       "new": 0,
@@ -1864,6 +1871,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-05T07:57:23+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
