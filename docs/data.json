@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T23:27:29+00:00",
+  "generated_at": "2026-09-05T02:16:59+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-04T21:58:54+00:00"
+      "last_success": "2026-09-05T02:16:59+00:00"
     },
     {
       "name": "diavgeia",
@@ -26,7 +26,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-04T21:58:54+00:00"
+      "last_success": "2026-09-05T02:16:59+00:00"
     },
     {
       "name": "iefimerida",
@@ -41,7 +41,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-04T21:58:54+00:00"
+      "last_success": "2026-09-05T02:16:59+00:00"
     },
     {
       "name": "kathimerini",
@@ -54,34 +54,35 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-04T21:58:54+00:00"
+      "last_success": "2026-09-05T02:16:59+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
       "items": 1,
-      "fetched": 13,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 12,
+        "παλιά ανακοίνωση": 1,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
         "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-04T21:58:54+00:00"
+      "last_success": "2026-09-05T02:16:59+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 7,
-      "fetched": 11,
+      "items": 8,
+      "fetched": 12,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-04T23:27:29+00:00"
+      "last_success": "2026-09-05T02:16:59+00:00"
     }
   ],
   "active_events": [
@@ -292,6 +293,21 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51576978244011000",
+      "source": "TomTom (realtime)",
+      "title": "Ipirou (Patision) → Ioulianou (Patision)",
+      "url": "https://www.google.com/maps?q=37.9899515549,23.7309005493",
+      "details": "Κλειστός δρόμος — Κλειστό; Οδικά έργα",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-05"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51579863732014000",
@@ -887,7 +903,7 @@
       "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 5/9, 07:00–21:00",
       "category": "",
       "first_seen": "2026-09-04T15:31:46+00:00",
-      "last_seen": "2026-09-04T21:58:54+00:00",
+      "last_seen": "2026-09-05T02:16:59+00:00",
       "extended": false,
       "status": "active"
     },
@@ -905,7 +921,7 @@
       "plain": "Διακοπή κυκλοφορίας — Δήμου Ασπροπύργου · 6/9",
       "category": "",
       "first_seen": "2026-09-04T15:31:46+00:00",
-      "last_seen": "2026-09-04T21:58:54+00:00",
+      "last_seen": "2026-09-05T02:16:59+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -923,7 +939,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-04T18:43:57+00:00",
-      "last_seen": "2026-09-04T21:58:54+00:00",
+      "last_seen": "2026-09-05T02:16:59+00:00",
       "extended": false,
       "status": "planned"
     }
@@ -1111,12 +1127,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-08-30T09:37:17+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-08-30T14:01:09+00:00",
       "new": 0,
@@ -1470,6 +1480,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-05T02:16:59+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
