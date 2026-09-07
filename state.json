@@ -348,15 +348,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-07T16:57:42+00:00"
+      "last_success": "2026-09-07T22:25:13+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -370,20 +367,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-07T16:57:43+00:00"
+      "last_success": "2026-09-07T22:25:13+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 10
+        "χωρίς/παλιά ημερομηνία": 11
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-07T16:57:43+00:00"
+      "last_success": "2026-09-07T22:25:13+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -396,18 +393,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-07T16:57:43+00:00"
+      "last_success": "2026-09-07T22:25:13+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "fetched": 13,
+      "dropped": {
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 13
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-07T16:57:43+00:00"
+      "last_success": "2026-09-07T22:25:13+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -420,7 +419,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-07T21:37:45+00:00"
+      "last_success": "2026-09-07T22:25:13+00:00"
     }
   },
   "active": {
@@ -437,26 +436,10 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
-      }
-    ],
-    "iefimerida": [
-      {
-        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-grammi-3-metro-ergasies",
-        "source": "iefimerida",
-        "title": "Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 του Μετρό λόγω εργασιών -Ποιοι σταθμοί θα κλείνουν νωρίτερα από τη Δευτέρα",
-        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-grammi-3-metro-ergasies",
-        "details": "",
-        "area": "",
-        "days": [
-          "2026-09-07"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
         "new_this_run": false
       }
     ],
+    "iefimerida": [],
     "kathimerini": [
       {
         "id": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
@@ -1408,12 +1391,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-02T19:07:47+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-09-02T19:31:57+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1766,6 +1743,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-07T22:25:13+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
