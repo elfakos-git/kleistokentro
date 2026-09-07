@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T13:42:38+00:00",
+  "generated_at": "2026-09-07T16:57:43+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,20 +13,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-07T08:47:19+00:00"
+      "last_success": "2026-09-07T16:57:42+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 97,
+        "εκτός χρονικού παραθύρου": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-07T08:47:19+00:00"
+      "last_success": "2026-09-07T16:57:43+00:00"
     },
     {
       "name": "iefimerida",
@@ -39,7 +40,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-07T08:47:19+00:00"
+      "last_success": "2026-09-07T16:57:43+00:00"
     },
     {
       "name": "kathimerini",
@@ -52,37 +53,47 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-07T08:47:19+00:00"
+      "last_success": "2026-09-07T16:57:43+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
       "items": 0,
-      "fetched": 11,
-      "dropped": {
-        "παλιά ανακοίνωση": 7,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-07T08:47:19+00:00"
+      "last_success": "2026-09-07T16:57:43+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 7,
-      "fetched": 52,
+      "fetched": 25,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 45
+        "κατηγορία εκτός πολιτικής": 18
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-07T13:42:38+00:00"
+      "last_success": "2026-09-07T16:57:43+00:00"
     }
   ],
   "active_events": [
+    {
+      "id": "631Ρ46ΜΤΛΒ-8Ι9",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "Παράταση κυκλοφοριακών ρυθμίσεων σε οδικά τμήματα επί της Ε.Ο. Πατρών-Τριπόλεως (111) και Οδού Δημοκρατίας από την Διασταύρωση Καλλιθέας μέχρι Λαχαναγορά",
+      "url": "https://diavgeia.gov.gr/decision/view/631Ρ46ΜΤΛΒ-8Ι9",
+      "details": "Επίσημη απόφαση Τροχαίας (07/09/2026)",
+      "area": "Νότια",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-grammi-3-metro-ergasies",
       "source": "iefimerida",
@@ -836,12 +847,18 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-04T18:43:57+00:00",
-      "last_seen": "2026-09-07T08:47:19+00:00",
+      "last_seen": "2026-09-07T16:57:43+00:00",
       "extended": false,
       "status": "active"
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-09-07T16:57:43+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "Παράταση κυκλοφοριακών ρυθμίσεων σε οδικά τμήματα επί της Ε.Ο. Πατρών-Τριπόλεως (111) και Οδού Δημοκρατίας από την Διασταύρωση Καλλιθέας μέχρι Λαχαναγορά",
+      "url": "https://diavgeia.gov.gr/decision/view/631Ρ46ΜΤΛΒ-8Ι9"
+    },
     {
       "time": "2026-09-07T07:34:17+00:00",
       "source": "Ενημέρωση",
@@ -1015,21 +1032,9 @@
       "source": "kathimerini",
       "title": "Σε «φρούριο» αναμένεται να μετατραπεί το κέντρο της Θεσσαλονίκης ενόψει των εγκαινίων της Διεθνούς Έκθεσης Θεσσαλονίκης.",
       "url": "https://www.kathimerini.gr/society/564415858/deth-froyrio-i-thessaloniki-epi-podos-pano-apo-3-500-astynomikoi/"
-    },
-    {
-      "time": "2026-08-22T08:19:28+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "ΑΡΣΗΣ ΠΡΟΣΩΡΙΝΩΝ ΚΥΚΛΟΦΟΡΙΑΚΩΝ ΡΥΘΜΙΣΕΩΝ ΣΤΟΝ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟ Α.Θ.Ε. Χ/Θ 124+300 ΈΩΣ Χ/Θ 123, 100 ΣΤΟ ΡΕΥΜΑ ΚΥΚΛΟΦΟΡΙΑΣ ΠΡΟΣ ΑΘΗΝΑ",
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΟ6146ΜΤΛΒ-ΗΦΨ"
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-02T12:10:03+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-02T15:43:47+00:00",
       "new": 0,
@@ -1383,6 +1388,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-07T16:57:43+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
