@@ -1,29 +1,33 @@
 {
-  "generated_at": "2026-09-08T07:27:27+00:00",
+  "generated_at": "2026-09-08T08:28:11+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "fetched": 54,
+      "dropped": {
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-08T02:21:55+00:00"
+      "last_success": "2026-09-08T08:28:09+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
       "items": 1,
-      "fetched": 100,
+      "fetched": 101,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99
+        "εκτός θέματος/Αθήνας": 98,
+        "μόνο μία λωρίδα/ΛΕΑ": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-08T02:21:55+00:00"
+      "last_success": "2026-09-08T08:28:09+00:00"
     },
     {
       "name": "iefimerida",
@@ -36,7 +40,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-08T02:21:55+00:00"
+      "last_success": "2026-09-08T08:28:09+00:00"
     },
     {
       "name": "kathimerini",
@@ -49,49 +53,48 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-08T02:21:55+00:00"
+      "last_success": "2026-09-08T08:28:09+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
       "items": 0,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 6,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 13
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-08T02:21:55+00:00"
+      "last_success": "2026-09-08T08:28:10+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 7,
-      "fetched": 62,
+      "fetched": 49,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 55
+        "κατηγορία εκτός πολιτικής": 42
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-08T07:27:27+00:00"
+      "last_success": "2026-09-08T08:28:10+00:00"
     }
   ],
   "active_events": [
     {
-      "id": "631Ρ46ΜΤΛΒ-8Ι9",
+      "id": "Ρ45346ΜΤΛΒ-ΔΑΦ",
       "source": "Διαύγεια (Τροχαία)",
-      "title": "Παράταση κυκλοφοριακών ρυθμίσεων σε οδικά τμήματα επί της Ε.Ο. Πατρών-Τριπόλεως (111) και Οδού Δημοκρατίας από την Διασταύρωση Καλλιθέας μέχρι Λαχαναγορά",
-      "url": "https://diavgeia.gov.gr/decision/view/631Ρ46ΜΤΛΒ-8Ι9",
-      "details": "Επίσημη απόφαση Τροχαίας (07/09/2026)",
-      "area": "Νότια",
+      "title": "ΠΡΟΣΩΡΙΝΕΣ ΚΥΚΛΟΦΟΡΙΑΚΕΣ ΡΥΘΜΙΣΕΙΣ - ΤΕΛΕΤΗ ΑΦΗΣ ΚΑΙ ΠΑΡΑΔΟΣΗΣ ΤΗΣ ΦΛΟΓΑΣ ΤΩΝ ΟΛΥΜΠΙΑΚΩΝ ΑΓΩΝΩΝ ΝΕΩΝ «DAKAR 2026» ΣΤΟ ΠΑΝΑΘΗΝΑΪΚΟ ΣΤΑΔΙΟ",
+      "url": "https://diavgeia.gov.gr/decision/view/Ρ45346ΜΤΛΒ-ΔΑΦ",
+      "details": "Επίσημη απόφαση Τροχαίας (08/09/2026)",
+      "area": "",
       "days": [],
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": false
+      "new_this_run": true
     },
     {
       "id": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
@@ -819,6 +822,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-09-08T08:28:11+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "ΠΡΟΣΩΡΙΝΕΣ ΚΥΚΛΟΦΟΡΙΑΚΕΣ ΡΥΘΜΙΣΕΙΣ - ΤΕΛΕΤΗ ΑΦΗΣ ΚΑΙ ΠΑΡΑΔΟΣΗΣ ΤΗΣ ΦΛΟΓΑΣ ΤΩΝ ΟΛΥΜΠΙΑΚΩΝ ΑΓΩΝΩΝ ΝΕΩΝ «DAKAR 2026» ΣΤΟ ΠΑΝΑΘΗΝΑΪΚΟ ΣΤΑΔΙΟ",
+      "url": "https://diavgeia.gov.gr/decision/view/Ρ45346ΜΤΛΒ-ΔΑΦ"
+    },
+    {
       "time": "2026-09-08T07:27:27+00:00",
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
@@ -991,21 +1000,9 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
-    },
-    {
-      "time": "2026-08-23T05:22:30+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-03T00:22:36+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-03T02:21:11+00:00",
       "new": 0,
@@ -1359,6 +1356,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-08T08:28:11+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
