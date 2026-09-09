@@ -425,7 +425,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-09T19:31:53+00:00"
+      "last_success": "2026-09-09T22:01:13+00:00"
     }
   },
   "active": {
@@ -561,7 +561,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-09-09"
+          "2026-09-10"
         ],
         "hours": [],
         "plain": "",
@@ -576,7 +576,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-09-09"
+          "2026-09-10"
         ],
         "hours": [],
         "plain": "",
@@ -591,7 +591,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-09-09"
+          "2026-09-10"
         ],
         "hours": [],
         "plain": "",
@@ -606,7 +606,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-09-09"
+          "2026-09-10"
         ],
         "hours": [],
         "plain": "",
@@ -621,7 +621,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-09-09"
+          "2026-09-10"
         ],
         "hours": [],
         "plain": "",
@@ -636,7 +636,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-09-09"
+          "2026-09-10"
         ],
         "hours": [],
         "plain": "",
@@ -651,7 +651,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-09-09"
+          "2026-09-10"
         ],
         "hours": [],
         "plain": "",
@@ -968,26 +968,6 @@
       "category": "",
       "first_seen": "2026-08-31T10:19:01+00:00",
       "last_seen": "2026-08-31T10:19:01+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-69/": {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-69/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73, του Δήμου Περιστερίου",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-69/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [
-        "2026-09-02"
-      ],
-      "hours": [],
-      "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Λακεδαίμονος 73 · 2/9",
-      "category": "bus",
-      "first_seen": "2026-09-01T09:02:50+00:00",
-      "last_seen": "2026-09-01T09:02:50+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1310,12 +1290,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-04T16:29:19+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-04T18:43:57+00:00",
       "new": 0,
@@ -1666,6 +1640,12 @@
     },
     {
       "time": "2026-09-09T19:31:53+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-09-09T22:01:13+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
