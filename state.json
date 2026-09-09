@@ -356,7 +356,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-08T22:13:38+00:00"
+      "last_success": "2026-09-09T02:24:40+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -369,7 +369,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-08T22:13:38+00:00"
+      "last_success": "2026-09-09T02:24:40+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -382,7 +382,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-08T22:13:38+00:00"
+      "last_success": "2026-09-09T02:24:40+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -395,21 +395,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-08T22:13:38+00:00"
+      "last_success": "2026-09-09T02:24:40+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
       "items": 0,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 5,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 13
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-08T22:13:38+00:00"
+      "last_success": "2026-09-09T02:24:40+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -422,7 +421,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-09T00:22:14+00:00"
+      "last_success": "2026-09-09T02:24:40+00:00"
     }
   },
   "active": {
@@ -1308,12 +1307,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-03T21:47:58+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-09-03T22:04:39+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1666,6 +1659,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-09T02:24:40+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
