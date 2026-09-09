@@ -336,7 +336,8 @@
     "631Ρ46ΜΤΛΒ-8Ι9",
     "ΡΠΖΕ46ΜΤΛΒ-ΣΣΥ",
     "9ΕΣΖ46ΜΤΛΒ-ΘΛ9",
-    "Ρ45346ΜΤΛΒ-ΔΑΦ"
+    "Ρ45346ΜΤΛΒ-ΔΑΦ",
+    "ΨΟ0146ΜΤΛΒ-9Φ9"
   ],
   "seeded": [
     "astynomia",
@@ -359,7 +360,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-09T08:30:31+00:00"
+      "last_success": "2026-09-09T15:40:43+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -367,12 +368,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 99,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-09T08:30:31+00:00"
+      "last_success": "2026-09-09T15:40:43+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -386,7 +388,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-09T08:30:31+00:00"
+      "last_success": "2026-09-09T15:40:43+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -399,7 +401,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-09T08:30:31+00:00"
+      "last_success": "2026-09-09T15:40:43+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -407,26 +409,26 @@
       "items": 0,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 6,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5
+        "παλιά ανακοίνωση": 4,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-09T08:30:31+00:00"
+      "last_success": "2026-09-09T15:40:43+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 7,
-      "fetched": 97,
+      "fetched": 93,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 90
+        "κατηγορία εκτός πολιτικής": 86
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-09T12:30:14+00:00"
+      "last_success": "2026-09-09T15:40:43+00:00"
     }
   },
   "active": {
@@ -1312,12 +1314,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-04T07:26:33+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-09-04T08:21:34+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1670,6 +1666,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-09T15:40:43+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
