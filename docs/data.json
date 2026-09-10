@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T12:24:01+00:00",
+  "generated_at": "2026-09-10T15:35:58+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,21 +13,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T08:32:24+00:00"
+      "last_success": "2026-09-10T15:35:58+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
-      "items": 1,
+      "items": 2,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 98,
+        "εκτός θέματος/Αθήνας": 97,
         "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T08:32:24+00:00"
+      "last_success": "2026-09-10T15:35:58+00:00"
     },
     {
       "name": "iefimerida",
@@ -39,9 +39,9 @@
         "χωρίς/παλιά ημερομηνία": 9
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T08:32:25+00:00"
+      "last_success": "2026-09-10T15:35:58+00:00"
     },
     {
       "name": "kathimerini",
@@ -52,47 +52,66 @@
         "άλλη πόλη (τίτλος)": 1
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T08:32:25+00:00"
+      "last_success": "2026-09-10T15:35:58+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
       "items": 1,
-      "fetched": 13,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 12,
+        "παλιά ανακοίνωση": 6,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
         "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T08:32:29+00:00"
+      "last_success": "2026-09-10T15:35:58+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 7,
-      "fetched": 84,
+      "fetched": 122,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 77
+        "κατηγορία εκτός πολιτικής": 115
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T12:24:01+00:00"
+      "last_success": "2026-09-10T15:35:58+00:00"
     }
   ],
   "active_events": [
     {
-      "id": "Ψ54Τ46ΜΤΛΒ-3Η5",
+      "id": "ΡΡΨΘ46ΜΤΛΒ-84Μ",
       "source": "Διαύγεια (Τροχαία)",
-      "title": "Κυκλοφοριακές ρυθμίσεις, για εργασίες εγκατάστασης αντιθορυβικών πετασμάτων από χ.θ. 182+420 έως 182+215 στην κατεύθυνση προς Αθήνα του Αυτοκινητόδρομου Αθηνών – Πατρών",
-      "url": "https://diavgeia.gov.gr/decision/view/Ψ54Τ46ΜΤΛΒ-3Η5",
+      "title": "25602-Προσωρινές κυκλοφοριακές ρυθμίσεις επί της Ν.Ε.Ο. Αθηνών - Λαμίας, από Χ.Θ. 27+000 έως Χ.Θ. 57+300 και στα δύο ρεύματα κυκλοφορίας, κατά το χρονικό διάστημα από 14.09.2026 και ώρα 07:00 έως 26.10.2026 και ώρα 20:00, ενώ οι εργασίες θα πραγματοποιούνται κάθε Δευτέρα έως Παρασκευή κατά τις ώρες ",
+      "url": "https://diavgeia.gov.gr/decision/view/ΡΡΨΘ46ΜΤΛΒ-84Μ",
       "details": "Επίσημη απόφαση Τροχαίας (10/09/2026)",
       "area": "",
-      "days": [],
+      "days": [
+        "2026-09-14",
+        "2026-10-26"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "62ΞΜ46ΜΤΛΒ-ΑΞΔ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "ΠΡΟΣΩΡΙΝΕΣ ΚΥΚΛΟΦΟΡΙΑΚΕΣ ΡΥΘΜΙΣΕΙΣ ΛΟΓΩ ΔΙΕΞΑΓΩΓΗΣ ΤΟΥ 7ΟΥ ΗΜΙΜΑΡΑΘΩΝΙΟΥ ΚΑΛΛΙΘΕΑΣ 2026 ΤΗΝ ΚΥΡΙΑΚΗ 13/09/2026",
+      "url": "https://diavgeia.gov.gr/decision/view/62ΞΜ46ΜΤΛΒ-ΑΞΔ",
+      "details": "Επίσημη απόφαση Τροχαίας (10/09/2026)",
+      "area": "Νότια",
+      "days": [
+        "2026-09-13"
+      ],
       "hours": [],
       "plain": "",
       "category": "",
@@ -104,15 +123,25 @@
       "title": "Ολοκληρώνονται απόψε οι κυκλοφοριακές ρυθμίσεις στο μετρό λόγω εργασιών -Ποιοι σταθμοί θα κλείσουν νωρίτερα",
       "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sti-grammi-3",
       "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-07",
-        "2026-09-10"
-      ],
+      "area": "",
+      "days": [],
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564449287/metro-mechri-simera-oi-kykloforiakes-rythmiseis-sti-grammi-3-poioi-stathmoi-kleinoyn-noritera/",
+      "source": "kathimerini",
+      "title": "Μετρό: Μέχρι σήμερα οι κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 – Ποιοι σταθμοί κλείνουν νωρίτερα",
+      "url": "https://www.kathimerini.gr/society/564449287/metro-mechri-simera-oi-kykloforiakes-rythmiseis-sti-grammi-3-poioi-stathmoi-kleinoyn-noritera/",
+      "details": "",
+      "area": "",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
     },
     {
       "id": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
@@ -225,14 +254,11 @@
       "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-95/",
       "details": "",
       "area": "Δυτικά",
-      "days": [
-        "2026-09-12",
-        "2026-09-13"
-      ],
+      "days": [],
       "hours": [],
       "plain": "",
       "category": "bus",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-TTR51574092528022000",
@@ -811,6 +837,43 @@
       "last_seen": "2026-09-10T08:32:29+00:00",
       "extended": false,
       "status": "planned"
+    },
+    {
+      "id": "62ΞΜ46ΜΤΛΒ-ΑΞΔ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "ΠΡΟΣΩΡΙΝΕΣ ΚΥΚΛΟΦΟΡΙΑΚΕΣ ΡΥΘΜΙΣΕΙΣ ΛΟΓΩ ΔΙΕΞΑΓΩΓΗΣ ΤΟΥ 7ΟΥ ΗΜΙΜΑΡΑΘΩΝΙΟΥ ΚΑΛΛΙΘΕΑΣ 2026 ΤΗΝ ΚΥΡΙΑΚΗ 13/09/2026",
+      "url": "https://diavgeia.gov.gr/decision/view/62ΞΜ46ΜΤΛΒ-ΑΞΔ",
+      "details": "Επίσημη απόφαση Τροχαίας (10/09/2026)",
+      "area": "Νότια",
+      "days": [
+        "2026-09-13"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-09-10T15:35:58+00:00",
+      "last_seen": "2026-09-10T15:35:58+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "ΡΡΨΘ46ΜΤΛΒ-84Μ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25602-Προσωρινές κυκλοφοριακές ρυθμίσεις επί της Ν.Ε.Ο. Αθηνών - Λαμίας, από Χ.Θ. 27+000 έως Χ.Θ. 57+300 και στα δύο ρεύματα κυκλοφορίας, κατά το χρονικό διάστημα από 14.09.2026 και ώρα 07:00 έως 26.10.2026 και ώρα 20:00, ενώ οι εργασίες θα πραγματοποιούνται κάθε Δευτέρα έως Παρασκευή κατά τις ώρες ",
+      "url": "https://diavgeia.gov.gr/decision/view/ΡΡΨΘ46ΜΤΛΒ-84Μ",
+      "details": "Επίσημη απόφαση Τροχαίας (10/09/2026)",
+      "area": "",
+      "days": [
+        "2026-09-14",
+        "2026-10-26"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-09-10T15:35:58+00:00",
+      "last_seen": "2026-09-10T15:35:58+00:00",
+      "extended": false,
+      "status": "planned"
     }
   ],
   "recent_notifications": [
@@ -996,12 +1059,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-05T07:07:45+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-05T07:57:23+00:00",
       "new": 0,
@@ -1355,6 +1412,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-10T15:35:58+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
