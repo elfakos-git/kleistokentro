@@ -370,7 +370,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T15:35:58+00:00"
+      "last_success": "2026-09-10T18:51:23+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -384,7 +384,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T15:35:58+00:00"
+      "last_success": "2026-09-10T18:51:23+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -398,7 +398,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T15:35:58+00:00"
+      "last_success": "2026-09-10T18:51:23+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -411,35 +411,34 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T15:35:58+00:00"
+      "last_success": "2026-09-10T18:51:23+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
       "items": 1,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 6,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 12,
         "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T15:35:58+00:00"
+      "last_success": "2026-09-10T18:51:23+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 7,
-      "fetched": 65,
+      "fetched": 10,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 58
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T16:32:33+00:00"
+      "last_success": "2026-09-10T18:51:23+00:00"
     }
   },
   "active": {
@@ -459,7 +458,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "62ΞΜ46ΜΤΛΒ-ΑΞΔ",
@@ -474,7 +473,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "iefimerida": [
@@ -1249,7 +1248,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-10T15:35:58+00:00",
-      "last_seen": "2026-09-10T15:35:58+00:00",
+      "last_seen": "2026-09-10T18:51:23+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -1267,7 +1266,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-10T15:35:58+00:00",
-      "last_seen": "2026-09-10T15:35:58+00:00",
+      "last_seen": "2026-09-10T18:51:23+00:00",
       "extended": false,
       "alerted_chats": []
     }
@@ -1461,12 +1460,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-05T11:18:25+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-05T11:38:43+00:00",
       "new": 0,
@@ -1820,6 +1813,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-10T18:51:23+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
