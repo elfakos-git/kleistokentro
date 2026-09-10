@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T19:18:50+00:00",
+  "generated_at": "2026-09-10T21:42:22+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -74,14 +74,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 7,
-      "fetched": 12,
+      "fetched": 10,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T19:18:50+00:00"
+      "last_success": "2026-09-10T21:42:21+00:00"
     }
   ],
   "active_events": [
@@ -267,7 +267,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-09-10"
+        "2026-09-11"
       ],
       "hours": [],
       "plain": "",
@@ -282,7 +282,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-09-10"
+        "2026-09-11"
       ],
       "hours": [],
       "plain": "",
@@ -297,7 +297,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-09-10"
+        "2026-09-11"
       ],
       "hours": [],
       "plain": "",
@@ -312,7 +312,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-09-10"
+        "2026-09-11"
       ],
       "hours": [],
       "plain": "",
@@ -327,7 +327,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-09-10"
+        "2026-09-11"
       ],
       "hours": [],
       "plain": "",
@@ -342,7 +342,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-09-10"
+        "2026-09-11"
       ],
       "hours": [],
       "plain": "",
@@ -357,7 +357,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-09-10"
+        "2026-09-11"
       ],
       "hours": [],
       "plain": "",
@@ -540,26 +540,6 @@
       "status": "active"
     },
     {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-114/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 500 (ΠΕΙΡΑΙΑΣ-ΚΗΦΙΣΙΑ (ΠΛ.ΠΛΑΤΑΝΟΥ)ΝΥΧΤΕΡΙΝΗ),  στο Δήμο Νέου Ηρακλείου, λόγω εργασιών στην οδό Δωδεκανήσου 16",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-114/",
-      "details": "",
-      "area": "Βόρεια",
-      "days": [
-        "2026-07-25",
-        "2026-08-25",
-        "2026-09-03"
-      ],
-      "hours": [],
-      "plain": "",
-      "first_seen": "2026-07-24T06:20:00+00:00",
-      "last_seen": "2026-07-24T06:20:00+00:00",
-      "extended": false,
-      "category": "bus",
-      "status": "ended"
-    },
-    {
       "id": "ΨΡΨΨ46ΜΤΛΒ-ΚΞΜ",
       "source": "Διαύγεια (Τροχαία)",
       "title": "25558-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων σε οδικά τμήματα της οδού Θεσμοφορίου, περιοχής Δήμου Πειραιά, για το χρονικό διάστημα από 26/08/2026 έως 26/09/2026, καθ΄όλη τη διάρκεια του 24ώρου, στο πλαίσιο εκτέλεσης του έργου: «FTTH PEIRAIAS».",
@@ -647,42 +627,6 @@
       "last_seen": "2026-08-31T10:19:01+00:00",
       "extended": false,
       "status": "planned"
-    },
-    {
-      "id": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
-      "source": "kathimerini",
-      "title": "Κυκλοφοριακές ρυθμίσεις στο Ελληνικό την Πέμπτη για το EKO Rally Acropolis",
-      "url": "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
-      "details": "",
-      "area": "Νότια",
-      "days": [
-        "2026-09-03"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-07-20T17:27:33+00:00",
-      "last_seen": "2026-09-03T02:21:10+00:00",
-      "extended": true,
-      "status": "ended"
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-118/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 504, 537, 725 και 726, λόγω εργασιών στον Δήμο Αχαρνών",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-118/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-09-03"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-09-01T15:50:32+00:00",
-      "last_seen": "2026-09-01T15:50:32+00:00",
-      "extended": false,
-      "status": "ended"
     },
     {
       "id": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
@@ -798,7 +742,7 @@
       "first_seen": "2026-09-10T08:32:25+00:00",
       "last_seen": "2026-09-10T08:32:25+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.kathimerini.gr/society/564449287/metro-mechri-simera-oi-kykloforiakes-rythmiseis-sti-grammi-3-poioi-stathmoi-kleinoyn-noritera/",
@@ -876,6 +820,12 @@
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-09-10T21:42:22+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 ΠΡΟΣΩΡΙΝΕΣ ΚΥΚΛΟΦΟΡΙΑΚΕΣ ΡΥΘΜΙΣΕΙΣ ΛΟΓΩ ΔΙΕΞΑΓΩΓΗΣ ΤΟΥ 7ΟΥ ΗΜΙΜΑΡΑΘΩΝΙΟΥ ΚΑΛΛΙΘΕΑΣ 2026 ΤΗΝ ΚΥΡΙΑΚΗ 13/09/2026",
+      "url": "https://diavgeia.gov.gr/decision/view/62ΞΜ46ΜΤΛΒ-ΑΞΔ"
+    },
     {
       "time": "2026-09-10T08:32:29+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -1049,21 +999,9 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
-    },
-    {
-      "time": "2026-08-25T12:32:21+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "🚨 25558-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων σε οδικά τμήματα της οδού Θεσμοφορίου, περιοχής Δήμου Πειραιά, για το χρονικό διάστημα από 26/08/2026 έως 26/09/2026, καθ΄όλη τη διάρκεια του 24ώρου, στο πλαίσιο εκτέλεσης του έργου: «FTTH PEIRAIAS».",
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΡΨΨ46ΜΤΛΒ-ΚΞΜ"
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-05T13:54:41+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-05T14:19:28+00:00",
       "new": 0,
@@ -1414,6 +1352,12 @@
     },
     {
       "time": "2026-09-10T19:18:50+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-09-10T21:42:22+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
