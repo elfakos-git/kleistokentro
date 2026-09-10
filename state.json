@@ -347,7 +347,8 @@
     "Ψ54Τ46ΜΤΛΒ-3Η5",
     "ΡΡΨΘ46ΜΤΛΒ-84Μ",
     "9Τ9Δ46ΜΤΛΒ-ΧΝΨ",
-    "62ΞΜ46ΜΤΛΒ-ΑΞΔ"
+    "62ΞΜ46ΜΤΛΒ-ΑΞΔ",
+    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-tin-kyriaki-stin-kallithea"
   ],
   "seeded": [
     "astynomia",
@@ -370,7 +371,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T18:51:23+00:00"
+      "last_success": "2026-09-10T22:08:45+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -384,21 +385,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T18:51:23+00:00"
+      "last_success": "2026-09-10T22:08:45+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 1,
+      "items": 2,
       "fetched": 11,
       "dropped": {
         "άλλη περιοχή": 1,
-        "χωρίς/παλιά ημερομηνία": 9
+        "χωρίς/παλιά ημερομηνία": 8
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T18:51:23+00:00"
+      "last_success": "2026-09-10T22:08:45+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -411,21 +412,22 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T18:51:23+00:00"
+      "last_success": "2026-09-10T22:08:45+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
       "items": 1,
-      "fetched": 13,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 12,
+        "παλιά ανακοίνωση": 6,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
         "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T18:51:23+00:00"
+      "last_success": "2026-09-10T22:08:45+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -438,7 +440,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T21:42:21+00:00"
+      "last_success": "2026-09-10T22:08:45+00:00"
     }
   },
   "active": {
@@ -477,6 +479,21 @@
       }
     ],
     "iefimerida": [
+      {
+        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-tin-kyriaki-stin-kallithea",
+        "source": "iefimerida",
+        "title": "Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Καλλιθέα λόγω αγώνα δρόμου",
+        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-tin-kyriaki-stin-kallithea",
+        "details": "",
+        "area": "Νότια",
+        "days": [
+          "2026-09-13"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
       {
         "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sti-grammi-3",
         "source": "iefimerida",
@@ -1186,7 +1203,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-10T15:35:58+00:00",
-      "last_seen": "2026-09-10T18:51:23+00:00",
+      "last_seen": "2026-09-10T22:08:45+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -1204,7 +1221,27 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-10T15:35:58+00:00",
-      "last_seen": "2026-09-10T18:51:23+00:00",
+      "last_seen": "2026-09-10T22:08:45+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-tin-kyriaki-stin-kallithea": {
+      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-tin-kyriaki-stin-kallithea",
+      "source": "iefimerida",
+      "title": "Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Καλλιθέα λόγω αγώνα δρόμου",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-tin-kyriaki-stin-kallithea",
+      "details": "",
+      "area": "Νότια",
+      "days": [
+        "2026-09-13"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-09-10T22:08:45+00:00",
+      "last_seen": "2026-09-10T22:08:45+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1218,12 +1255,6 @@
     "151797168": "2026-09-10"
   },
   "notifications": [
-    {
-      "time": "2026-08-26T05:02:41+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-08-26T16:42:25+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -1397,15 +1428,15 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "🚨 ΠΡΟΣΩΡΙΝΕΣ ΚΥΚΛΟΦΟΡΙΑΚΕΣ ΡΥΘΜΙΣΕΙΣ ΛΟΓΩ ΔΙΕΞΑΓΩΓΗΣ ΤΟΥ 7ΟΥ ΗΜΙΜΑΡΑΘΩΝΙΟΥ ΚΑΛΛΙΘΕΑΣ 2026 ΤΗΝ ΚΥΡΙΑΚΗ 13/09/2026",
       "url": "https://diavgeia.gov.gr/decision/view/62ΞΜ46ΜΤΛΒ-ΑΞΔ"
+    },
+    {
+      "time": "2026-09-10T22:08:45+00:00",
+      "source": "iefimerida",
+      "title": "🚨 Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Καλλιθέα λόγω αγώνα δρόμου",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-tin-kyriaki-stin-kallithea"
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-05T14:19:28+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-05T16:18:22+00:00",
       "new": 0,
@@ -1759,6 +1790,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-10T22:08:45+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
