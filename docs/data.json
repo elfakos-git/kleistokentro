@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T08:32:29+00:00",
+  "generated_at": "2026-09-10T12:24:01+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -73,15 +73,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 60,
+      "items": 7,
+      "fetched": 84,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 51
+        "κατηγορία εκτός πολιτικής": 77
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T08:32:29+00:00"
+      "last_success": "2026-09-10T12:24:01+00:00"
     }
   ],
   "active_events": [
@@ -265,21 +265,6 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51582748936022000",
-      "source": "TomTom (realtime)",
-      "title": "Leocharous (Kolokotroni) → Chavriou (Kolokotroni)",
-      "url": "https://www.google.com/maps?q=37.97769791,23.7297927969",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-10"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
       "id": "TTI-TTR51579863732014000",
       "source": "TomTom (realtime)",
       "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
@@ -293,21 +278,6 @@
       "plain": "",
       "category": "",
       "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51588519868022000",
-      "source": "TomTom (realtime)",
-      "title": "Μαρασλή / Αλωπεκής → Ι. Γενναδίου",
-      "url": "https://www.google.com/maps?q=37.978022447,23.7464010352",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-10"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
     },
     {
       "id": "TTI-TTR51594290660014001",
@@ -1027,12 +997,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-05T02:16:59+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-09-05T07:07:45+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1385,6 +1349,12 @@
       "new": 1,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-09-10T12:24:01+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
