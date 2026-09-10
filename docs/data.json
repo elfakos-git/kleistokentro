@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T02:24:08+00:00",
+  "generated_at": "2026-09-10T07:31:53+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -74,15 +74,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 7,
-      "fetched": 10,
+      "items": 9,
+      "fetched": 52,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 43
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T02:24:08+00:00"
+      "last_success": "2026-09-10T07:31:53+00:00"
     }
   ],
   "active_events": [
@@ -232,6 +232,36 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51582749116013000",
+      "source": "TomTom (realtime)",
+      "title": "Evripidou (Athinas) → Kalamida (Athinas)",
+      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-10"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51582748936022000",
+      "source": "TomTom (realtime)",
+      "title": "Leocharous (Kolokotroni) → Karytsi (Kolokotroni)",
+      "url": "https://www.google.com/maps?q=37.97769791,23.7297927969",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-10"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51579863732014000",
@@ -728,6 +758,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-09-10T07:31:53+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
+    {
       "time": "2026-09-09T07:35:23+00:00",
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
@@ -900,21 +936,9 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "24828-Β' -« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και πλήρη διακοπή της κυκλοφορίας των οχημάτων στην βόρεια παράπλευρη οδό της Αττικής Οδού, στο τμήμα της μεταξύ της Λ. Ζωοδ. Πηγής και της Επαρχιακής Οδού Οινόης –Μαγούλας και στα δύο ρεύματα κυκλοφορίας, περιοχής Δήμου Ελευσίνας, κατά το ",
       "url": "https://diavgeia.gov.gr/decision/view/Ρ84Μ46ΜΤΛΒ-7Β3"
-    },
-    {
-      "time": "2026-08-25T05:30:37+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-04T21:58:54+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-04T23:27:29+00:00",
       "new": 0,
@@ -1268,6 +1292,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-09-10T07:31:53+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
