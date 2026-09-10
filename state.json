@@ -431,14 +431,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 7,
-      "fetched": 10,
+      "fetched": 12,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T18:51:23+00:00"
+      "last_success": "2026-09-10T19:18:50+00:00"
     }
   },
   "active": {
@@ -1461,12 +1461,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-05T11:38:43+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-09-05T13:54:41+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1819,6 +1813,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-09-10T19:18:50+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
