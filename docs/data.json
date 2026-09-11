@@ -1,34 +1,30 @@
 {
-  "generated_at": "2026-09-11T07:30:19+00:00",
+  "generated_at": "2026-09-11T08:27:06+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-11T02:18:59+00:00"
+      "last_success": "2026-09-11T08:26:58+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
-      "items": 2,
+      "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 96,
-        "εκτός χρονικού παραθύρου": 1,
+        "εκτός θέματος/Αθήνας": 98,
         "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-11T02:18:59+00:00"
+      "last_success": "2026-09-11T08:26:58+00:00"
     },
     {
       "name": "iefimerida",
@@ -42,7 +38,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-11T02:18:59+00:00"
+      "last_success": "2026-09-11T08:26:58+00:00"
     },
     {
       "name": "kathimerini",
@@ -55,34 +51,34 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-11T02:18:59+00:00"
+      "last_success": "2026-09-11T08:26:58+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 1,
+      "items": 5,
       "fetched": 13,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 12,
-        "λεωφορεία (χωρίς ειδοποίηση)": 1
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8,
+        "λεωφορεία (χωρίς ειδοποίηση)": 4
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 2,
       "consecutive_failures": 0,
-      "last_success": "2026-09-11T02:18:59+00:00"
+      "last_success": "2026-09-11T08:27:06+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 7,
-      "fetched": 34,
+      "items": 8,
+      "fetched": 55,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 27
+        "κατηγορία εκτός πολιτικής": 47
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-11T07:30:19+00:00"
+      "last_success": "2026-09-11T08:27:06+00:00"
     }
   ],
   "active_events": [
@@ -96,21 +92,6 @@
       "days": [
         "2026-09-14",
         "2026-10-26"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "62ΞΜ46ΜΤΛΒ-ΑΞΔ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "ΠΡΟΣΩΡΙΝΕΣ ΚΥΚΛΟΦΟΡΙΑΚΕΣ ΡΥΘΜΙΣΕΙΣ ΛΟΓΩ ΔΙΕΞΑΓΩΓΗΣ ΤΟΥ 7ΟΥ ΗΜΙΜΑΡΑΘΩΝΙΟΥ ΚΑΛΛΙΘΕΑΣ 2026 ΤΗΝ ΚΥΡΙΑΚΗ 13/09/2026",
-      "url": "https://diavgeia.gov.gr/decision/view/62ΞΜ46ΜΤΛΒ-ΑΞΔ",
-      "details": "Επίσημη απόφαση Τροχαίας (10/09/2026)",
-      "area": "Νότια",
-      "days": [
-        "2026-09-13"
       ],
       "hours": [],
       "plain": "",
@@ -263,6 +244,64 @@
       "new_this_run": false
     },
     {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%b4%ce%b9%ce%b1%ce%ba%ce%bf%cf%80%ce%ae-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1%ce%ba%ce%ae%cf%82-%ce%b3/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή διακοπή της λεωφορειακής γραμμής Χ24 στις 13 & 14 Σεπτεμβρίου λόγω εορταστικών εκδηλώσεων.",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%b4%ce%b9%ce%b1%ce%ba%ce%bf%cf%80%ce%ae-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1%ce%ba%ce%ae%cf%82-%ce%b3/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-09-14"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "new_this_run": true
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-326/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 501 {ΠΕΥΚΗ – ΜΑΡΟΥΣΙ (ΚΥΚΛΙΚΗ)}, λόγω εργασιών για την κοπή δέντρου στην οδό Κονδύλη Γ. 12, στον Δήμο Αμαρουσίου",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-326/",
+      "details": "",
+      "area": "Βόρεια",
+      "days": [
+        "2026-09-12"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "new_this_run": true
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-7/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της Λ. Γραμμής  811  λόγω εργασιών στην οδό ΠΟΛΥΔΕΥΚΟΥΣ 26 ,  του Δήμου ΑΙΓΑΛΕΩ",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-7/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-09-13"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-323/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 818 λόγω εργασιών στην οδό ΛΑΝΙΤΟΥ, του Δήμου Περάματος",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-323/",
+      "details": "",
+      "area": "",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "new_this_run": true
+    },
+    {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-95/",
       "source": "ΟΑΣΑ",
       "title": "Προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 750, 806, 809, 810, 830, 831, 842, 400 λόγω εργασιών ειδικής ασφαλτόστρωσης περιμετρικά της πλατείας Ελευθερίας, στον Δήμο Κορυδαλλού",
@@ -304,6 +343,21 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51582749008005000",
+      "source": "TomTom (realtime)",
+      "title": "Athinas (Ermou) → Pittaki (Ermou)",
+      "url": "https://www.google.com/maps?q=37.976696078,23.726213389",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-11"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51579863732014000",
@@ -798,6 +852,24 @@
       "status": "planned"
     },
     {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-326/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 501 {ΠΕΥΚΗ – ΜΑΡΟΥΣΙ (ΚΥΚΛΙΚΗ)}, λόγω εργασιών για την κοπή δέντρου στην οδό Κονδύλη Γ. 12, στον Δήμο Αμαρουσίου",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-326/",
+      "details": "",
+      "area": "Βόρεια",
+      "days": [
+        "2026-09-12"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-09-11T08:27:04+00:00",
+      "last_seen": "2026-09-11T08:27:04+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
       "id": "62ΞΜ46ΜΤΛΒ-ΑΞΔ",
       "source": "Διαύγεια (Τροχαία)",
       "title": "ΠΡΟΣΩΡΙΝΕΣ ΚΥΚΛΟΦΟΡΙΑΚΕΣ ΡΥΘΜΙΣΕΙΣ ΛΟΓΩ ΔΙΕΞΑΓΩΓΗΣ ΤΟΥ 7ΟΥ ΗΜΙΜΑΡΑΘΩΝΙΟΥ ΚΑΛΛΙΘΕΑΣ 2026 ΤΗΝ ΚΥΡΙΑΚΗ 13/09/2026",
@@ -829,7 +901,25 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-10T22:08:45+00:00",
-      "last_seen": "2026-09-11T02:18:59+00:00",
+      "last_seen": "2026-09-11T08:26:58+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-7/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της Λ. Γραμμής  811  λόγω εργασιών στην οδό ΠΟΛΥΔΕΥΚΟΥΣ 26 ,  του Δήμου ΑΙΓΑΛΕΩ",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-7/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-09-13"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-09-11T08:27:06+00:00",
+      "last_seen": "2026-09-11T08:27:06+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -848,12 +938,36 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-10T15:35:58+00:00",
-      "last_seen": "2026-09-11T02:18:59+00:00",
+      "last_seen": "2026-09-11T08:26:58+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%b4%ce%b9%ce%b1%ce%ba%ce%bf%cf%80%ce%ae-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1%ce%ba%ce%ae%cf%82-%ce%b3/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή διακοπή της λεωφορειακής γραμμής Χ24 στις 13 & 14 Σεπτεμβρίου λόγω εορταστικών εκδηλώσεων.",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%b4%ce%b9%ce%b1%ce%ba%ce%bf%cf%80%ce%ae-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1%ce%ba%ce%ae%cf%82-%ce%b3/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-09-14"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-09-11T08:27:01+00:00",
+      "last_seen": "2026-09-11T08:27:01+00:00",
       "extended": false,
       "status": "planned"
     }
   ],
   "recent_notifications": [
+    {
+      "time": "2026-09-11T08:27:06+00:00",
+      "source": "ΟΑΣΑ",
+      "title": "🚨 Μερική προσωρινή τροποποίηση της Λ. Γραμμής  811  λόγω εργασιών στην οδό ΠΟΛΥΔΕΥΚΟΥΣ 26 ,  του Δήμου ΑΙΓΑΛΕΩ",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-7/"
+    },
     {
       "time": "2026-09-11T07:30:19+00:00",
       "source": "Ενημέρωση",
@@ -1027,21 +1141,9 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
-    },
-    {
-      "time": "2026-08-27T06:25:33+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-05T20:30:37+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-05T21:49:26+00:00",
       "new": 0,
@@ -1395,6 +1497,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-11T08:27:06+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
