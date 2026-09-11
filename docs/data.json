@@ -1,30 +1,32 @@
 {
-  "generated_at": "2026-09-11T12:22:43+00:00",
+  "generated_at": "2026-09-11T15:37:44+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
-      "date_misses": 0,
-      "body_enriched": 0,
-      "consecutive_failures": 0,
-      "last_success": "2026-09-11T08:26:58+00:00"
-    },
-    {
-      "name": "diavgeia",
-      "ok": true,
-      "items": 1,
-      "fetched": 100,
+      "fetched": 54,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 98,
-        "μόνο μία λωρίδα/ΛΕΑ": 1
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-11T08:26:58+00:00"
+      "last_success": "2026-09-11T15:37:44+00:00"
+    },
+    {
+      "name": "diavgeia",
+      "ok": true,
+      "items": 0,
+      "fetched": 100,
+      "dropped": {
+        "εκτός θέματος/Αθήνας": 100
+      },
+      "date_misses": 0,
+      "body_enriched": 0,
+      "consecutive_failures": 0,
+      "last_success": "2026-09-11T15:37:44+00:00"
     },
     {
       "name": "iefimerida",
@@ -38,7 +40,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-11T08:26:58+00:00"
+      "last_success": "2026-09-11T15:37:44+00:00"
     },
     {
       "name": "kathimerini",
@@ -51,7 +53,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-11T08:26:58+00:00"
+      "last_success": "2026-09-11T15:37:44+00:00"
     },
     {
       "name": "oasa",
@@ -63,41 +65,25 @@
         "λεωφορεία (χωρίς ειδοποίηση)": 4
       },
       "date_misses": 0,
-      "body_enriched": 2,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-11T08:27:06+00:00"
+      "last_success": "2026-09-11T15:37:44+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 7,
-      "fetched": 70,
+      "fetched": 64,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 63
+        "κατηγορία εκτός πολιτικής": 57
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-11T12:22:43+00:00"
+      "last_success": "2026-09-11T15:37:44+00:00"
     }
   ],
   "active_events": [
-    {
-      "id": "ΡΡΨΘ46ΜΤΛΒ-84Μ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25602-Προσωρινές κυκλοφοριακές ρυθμίσεις επί της Ν.Ε.Ο. Αθηνών - Λαμίας, από Χ.Θ. 27+000 έως Χ.Θ. 57+300 και στα δύο ρεύματα κυκλοφορίας, κατά το χρονικό διάστημα από 14.09.2026 και ώρα 07:00 έως 26.10.2026 και ώρα 20:00, ενώ οι εργασίες θα πραγματοποιούνται κάθε Δευτέρα έως Παρασκευή κατά τις ώρες ",
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΡΨΘ46ΜΤΛΒ-84Μ",
-      "details": "Επίσημη απόφαση Τροχαίας (10/09/2026)",
-      "area": "",
-      "days": [
-        "2026-09-14",
-        "2026-10-26"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-tin-kyriaki-stin-kallithea",
       "source": "iefimerida",
@@ -256,7 +242,7 @@
       "hours": [],
       "plain": "",
       "category": "bus",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-326/",
@@ -265,13 +251,11 @@
       "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-326/",
       "details": "",
       "area": "Βόρεια",
-      "days": [
-        "2026-09-12"
-      ],
+      "days": [],
       "hours": [],
       "plain": "",
       "category": "bus",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-7/",
@@ -280,13 +264,11 @@
       "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-7/",
       "details": "",
       "area": "Δυτικά",
-      "days": [
-        "2026-09-13"
-      ],
+      "days": [],
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-323/",
@@ -299,7 +281,7 @@
       "hours": [],
       "plain": "",
       "category": "bus",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-95/",
@@ -886,7 +868,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-10T22:08:45+00:00",
-      "last_seen": "2026-09-11T08:26:58+00:00",
+      "last_seen": "2026-09-11T15:37:44+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -941,7 +923,7 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-09-11T08:27:01+00:00",
-      "last_seen": "2026-09-11T08:27:01+00:00",
+      "last_seen": "2026-09-11T15:37:44+00:00",
       "extended": false,
       "status": "planned"
     }
@@ -1129,12 +1111,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-05T22:22:59+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-06T00:01:11+00:00",
       "new": 0,
@@ -1488,6 +1464,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-11T15:37:44+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
