@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T23:27:08+00:00",
+  "generated_at": "2026-09-11T02:18:59+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T22:08:45+00:00"
+      "last_success": "2026-09-11T02:18:59+00:00"
     },
     {
       "name": "diavgeia",
@@ -21,13 +21,14 @@
       "items": 2,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97,
+        "εκτός θέματος/Αθήνας": 96,
+        "εκτός χρονικού παραθύρου": 1,
         "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T22:08:45+00:00"
+      "last_success": "2026-09-11T02:18:59+00:00"
     },
     {
       "name": "iefimerida",
@@ -41,7 +42,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T22:08:45+00:00"
+      "last_success": "2026-09-11T02:18:59+00:00"
     },
     {
       "name": "kathimerini",
@@ -54,22 +55,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T22:08:45+00:00"
+      "last_success": "2026-09-11T02:18:59+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
       "items": 1,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 6,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 12,
         "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T22:08:45+00:00"
+      "last_success": "2026-09-11T02:18:59+00:00"
     },
     {
       "name": "tomtom",
@@ -82,7 +82,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-10T23:27:08+00:00"
+      "last_success": "2026-09-11T02:18:59+00:00"
     }
   ],
   "active_events": [
@@ -130,7 +130,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sti-grammi-3",
@@ -811,7 +811,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-10T15:35:58+00:00",
-      "last_seen": "2026-09-10T22:08:45+00:00",
+      "last_seen": "2026-09-11T02:18:59+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -829,7 +829,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-10T22:08:45+00:00",
-      "last_seen": "2026-09-10T22:08:45+00:00",
+      "last_seen": "2026-09-11T02:18:59+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -848,7 +848,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-10T15:35:58+00:00",
-      "last_seen": "2026-09-10T22:08:45+00:00",
+      "last_seen": "2026-09-11T02:18:59+00:00",
       "extended": false,
       "status": "planned"
     }
@@ -1036,12 +1036,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-05T17:50:14+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-05T18:25:40+00:00",
       "new": 0,
@@ -1395,6 +1389,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-11T02:18:59+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
