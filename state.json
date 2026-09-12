@@ -377,7 +377,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-12T17:59:57+00:00"
+      "last_success": "2026-09-12T21:52:06+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -391,7 +391,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-12T17:59:58+00:00"
+      "last_success": "2026-09-12T21:52:06+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -404,7 +404,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-12T17:59:58+00:00"
+      "last_success": "2026-09-12T21:52:06+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -417,35 +417,34 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-12T17:59:58+00:00"
+      "last_success": "2026-09-12T21:52:06+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
       "items": 5,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8,
         "λεωφορεία (χωρίς ειδοποίηση)": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-12T17:59:58+00:00"
+      "last_success": "2026-09-12T21:52:06+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 7,
-      "fetched": 12,
+      "fetched": 11,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-12T21:31:42+00:00"
+      "last_success": "2026-09-12T21:52:06+00:00"
     }
   },
   "active": {
@@ -616,32 +615,6 @@
     ],
     "oasa": [
       {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-73/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή μερική τροποποίηση της διαδρομής των λεωφορειακών γραμμών 817, 845, 861, 861Β, 862, 863, 864, 871, 871Τ, 876, 878, 879 και 881, λόγω της διεξαγωγής των ΛΑΣΚΕΙΩΝ 2026",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-73/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-72/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 891 στην οδό Γιαννιτσών, λόγω αγώνα ποδοσφαίρου στον Δήμο Περιστερίου",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-72/",
-        "details": "",
-        "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      },
-      {
         "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%b4%ce%b9%ce%b1%ce%ba%ce%bf%cf%80%ce%ae-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1%ce%ba%ce%ae%cf%82-%ce%b3/",
         "source": "ΟΑΣΑ",
         "title": "Προσωρινή διακοπή της λεωφορειακής γραμμής Χ24 στις 13 & 14 Σεπτεμβρίου λόγω εορταστικών εκδηλώσεων.",
@@ -680,6 +653,32 @@
         "hours": [],
         "plain": "",
         "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-323/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 818 λόγω εργασιών στην οδό ΛΑΝΙΤΟΥ, του Δήμου Περάματος",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-323/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-95/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 750, 806, 809, 810, 830, 831, 842, 400 λόγω εργασιών ειδικής ασφαλτόστρωσης περιμετρικά της πλατείας Ελευθερίας, στον Δήμο Κορυδαλλού",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-95/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
         "new_this_run": false
       }
     ],
@@ -1241,7 +1240,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-10T22:08:45+00:00",
-      "last_seen": "2026-09-12T17:59:58+00:00",
+      "last_seen": "2026-09-12T21:52:06+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1261,7 +1260,7 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-09-11T08:27:01+00:00",
-      "last_seen": "2026-09-12T17:59:58+00:00",
+      "last_seen": "2026-09-12T21:52:06+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1537,12 +1536,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-07T13:42:38+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-07T16:57:43+00:00",
       "new": 1,
@@ -1896,6 +1889,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-12T21:52:06+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
