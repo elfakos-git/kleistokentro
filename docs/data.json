@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T08:15:53+00:00",
+  "generated_at": "2026-09-12T11:39:35+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -70,15 +70,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 7,
-      "fetched": 17,
+      "items": 8,
+      "fetched": 30,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 10
+        "κατηγορία εκτός πολιτικής": 22
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-12T08:15:53+00:00"
+      "last_success": "2026-09-12T11:39:35+00:00"
     }
   ],
   "active_events": [
@@ -346,6 +346,21 @@
       "source": "TomTom (realtime)",
       "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
       "url": "https://www.google.com/maps?q=37.990176883,23.7386937076",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-12"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51588519868022000",
+      "source": "TomTom (realtime)",
+      "title": "Μαρασλή / Αλωπεκής → Ι. Γενναδίου",
+      "url": "https://www.google.com/maps?q=37.978022447,23.7464010352",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -1145,12 +1160,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-06T19:19:16+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-09-06T21:28:21+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1503,6 +1512,12 @@
       "new": 1,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-09-12T11:39:35+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
