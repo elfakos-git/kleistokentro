@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T19:00:47+00:00",
+  "generated_at": "2026-09-13T21:29:24+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -67,14 +67,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 12,
+      "fetched": 13,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-13T19:00:47+00:00"
+      "last_success": "2026-09-13T21:29:24+00:00"
     }
   ],
   "active_events": [
@@ -263,7 +263,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-09-13"
+        "2026-09-14"
       ],
       "hours": [],
       "plain": "",
@@ -278,7 +278,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-09-13"
+        "2026-09-14"
       ],
       "hours": [],
       "plain": "",
@@ -293,7 +293,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-09-13"
+        "2026-09-14"
       ],
       "hours": [],
       "plain": "",
@@ -308,7 +308,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-09-13"
+        "2026-09-14"
       ],
       "hours": [],
       "plain": "",
@@ -323,7 +323,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-09-13"
+        "2026-09-14"
       ],
       "hours": [],
       "plain": "",
@@ -338,7 +338,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-09-13"
+        "2026-09-14"
       ],
       "hours": [],
       "plain": "",
@@ -353,7 +353,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-09-13"
+        "2026-09-14"
       ],
       "hours": [],
       "plain": "",
@@ -368,7 +368,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-09-13"
+        "2026-09-14"
       ],
       "hours": [],
       "plain": "",
@@ -383,7 +383,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-09-13"
+        "2026-09-14"
       ],
       "hours": [],
       "plain": "",
@@ -677,24 +677,6 @@
       "status": "planned"
     },
     {
-      "id": "9ΑΘ846ΜΤΛΒ-Δ1Τ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25584-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στην Περιφερειακή Αιγάλεω, από το ύψος των Διυλιστηρίων έως το ύψος της Αττικής οδού, εναλλάξ ανά λωρίδα και στα δύο ρεύματα κυκλοφορίας, περιοχής Δήμου Ασπροπύργου, στις 05 και 06.09.2026, κατ",
-      "url": "https://diavgeia.gov.gr/decision/view/9ΑΘ846ΜΤΛΒ-Δ1Τ",
-      "details": "Επίσημη απόφαση Τροχαίας (04/09/2026)",
-      "area": "Δυτικά",
-      "days": [
-        "2026-09-06"
-      ],
-      "hours": [],
-      "plain": "Διακοπή κυκλοφορίας — Δήμου Ασπροπύργου · 6/9",
-      "category": "",
-      "first_seen": "2026-09-04T15:31:46+00:00",
-      "last_seen": "2026-09-05T07:57:23+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-grammi-3-metro-ergasies",
       "source": "iefimerida",
       "title": "Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 του Μετρό λόγω εργασιών -Ποιοι σταθμοί θα κλείνουν νωρίτερα από τη Δευτέρα",
@@ -766,7 +748,7 @@
       "first_seen": "2026-09-10T08:32:29+00:00",
       "last_seen": "2026-09-10T08:32:29+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-326/",
@@ -802,7 +784,7 @@
       "first_seen": "2026-09-10T15:35:58+00:00",
       "last_seen": "2026-09-11T02:18:59+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-tin-kyriaki-stin-kallithea",
@@ -820,7 +802,7 @@
       "first_seen": "2026-09-10T22:08:45+00:00",
       "last_seen": "2026-09-13T18:26:43+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-7/",
@@ -838,7 +820,7 @@
       "first_seen": "2026-09-11T08:27:06+00:00",
       "last_seen": "2026-09-11T08:27:06+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-72/",
@@ -856,7 +838,7 @@
       "first_seen": "2026-09-12T08:15:53+00:00",
       "last_seen": "2026-09-12T08:15:53+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "ΡΡΨΘ46ΜΤΛΒ-84Μ",
@@ -875,7 +857,7 @@
       "first_seen": "2026-09-10T15:35:58+00:00",
       "last_seen": "2026-09-11T08:26:58+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%b4%ce%b9%ce%b1%ce%ba%ce%bf%cf%80%ce%ae-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1%ce%ba%ce%ae%cf%82-%ce%b3/",
@@ -893,7 +875,7 @@
       "first_seen": "2026-09-11T08:27:01+00:00",
       "last_seen": "2026-09-13T15:23:39+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-73/",
@@ -911,7 +893,7 @@
       "first_seen": "2026-09-12T08:15:51+00:00",
       "last_seen": "2026-09-12T08:15:51+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "9ΘΩΑ46ΜΤΛΒ-2ΣΥ",
@@ -930,7 +912,7 @@
       "first_seen": "2026-09-13T08:40:10+00:00",
       "last_seen": "2026-09-13T18:26:43+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "99Ω746ΜΤΛΒ-69Ο",
@@ -949,7 +931,7 @@
       "first_seen": "2026-09-13T08:40:10+00:00",
       "last_seen": "2026-09-13T18:26:43+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-121/",
@@ -967,7 +949,7 @@
       "first_seen": "2026-09-13T08:40:13+00:00",
       "last_seen": "2026-09-13T08:40:13+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     }
   ],
   "recent_notifications": [
@@ -1153,12 +1135,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-08T15:45:16+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-08T16:44:31+00:00",
       "new": 0,
@@ -1509,6 +1485,12 @@
     },
     {
       "time": "2026-09-13T19:00:47+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-09-13T21:29:24+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
