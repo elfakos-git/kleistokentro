@@ -357,7 +357,10 @@
     "9ΘΡΔ46ΜΤΛΒ-ΣΧΔ",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-73/",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-72/",
-    "ΨΩΘΥ46ΜΤΛΒ-ΠΣΦ"
+    "ΨΩΘΥ46ΜΤΛΒ-ΠΣΦ",
+    "9ΘΩΑ46ΜΤΛΒ-2ΣΥ",
+    "99Ω746ΜΤΛΒ-69Ο",
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-121/"
   ],
   "seeded": [
     "astynomia",
@@ -377,34 +380,34 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-13T02:24:52+00:00"
+      "last_success": "2026-09-13T08:40:10+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 1,
+      "items": 3,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 96,
+        "εκτός θέματος/Αθήνας": 94,
         "εκτός χρονικού παραθύρου": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-13T02:24:52+00:00"
+      "last_success": "2026-09-13T08:40:10+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 2,
+      "items": 1,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 9
+        "χωρίς/παλιά ημερομηνία": 10
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-13T02:24:52+00:00"
+      "last_success": "2026-09-13T08:40:10+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -417,7 +420,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-13T02:24:52+00:00"
+      "last_success": "2026-09-13T08:40:10+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -427,30 +430,62 @@
       "dropped": {
         "παλιά ανακοίνωση": 1,
         "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
-        "λεωφορεία (χωρίς ειδοποίηση)": 4
+        "λεωφορεία (χωρίς ειδοποίηση)": 5
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-09-13T02:24:52+00:00"
+      "last_success": "2026-09-13T08:40:13+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 7,
-      "fetched": 11,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 10
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-13T07:40:39+00:00"
+      "last_success": "2026-09-13T08:40:13+00:00"
     }
   },
   "active": {
     "astynomia": [],
     "diavgeia": [
+      {
+        "id": "9ΘΩΑ46ΜΤΛΒ-2ΣΥ",
+        "source": "Διαύγεια (Τροχαία)",
+        "title": "25598 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες κυκλοφοριακές ρυθμίσεις στα κάτωθι οδικά τμήματα του Αυτοκινητοδρόμου Α.Θ.Ε., ρεύμα κυκλοφορίας προς Αθήνα, περιοχής Δήμου Μεταμόρφωσης, κατά το χρονικό διάστημα από 07.00΄ ώρα της 14.09.2026 έως 20.00΄ ώρα της 26.10.2026, κάθε Δευτέρα έως Παρασ",
+        "url": "https://diavgeia.gov.gr/decision/view/9ΘΩΑ46ΜΤΛΒ-2ΣΥ",
+        "details": "Επίσημη απόφαση Τροχαίας (13/09/2026)",
+        "area": "Βόρεια",
+        "days": [
+          "2026-09-14",
+          "2026-10-26"
+        ],
+        "hours": [],
+        "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Αθήνα) · 14/9, 26/10",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "99Ω746ΜΤΛΒ-69Ο",
+        "source": "Διαύγεια (Τροχαία)",
+        "title": "25597 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες κυκλοφοριακές ρυθμίσεις επί της Ν.Ε.Ο. Αθηνών - Λαμίας, στο ύψος του Μετωπικού Σταθμού Διοδίων (Μ.Σ.Δ.) Αφιδνών, κατά το χρονικό διάστημα από 07.00΄ ώρα της 14.09.2026 έως 20.00΄ ώρα της 26.10.2026, κάθε Δευτέρα έως Παρασκευή κατά τις ώρες 07.00",
+        "url": "https://diavgeia.gov.gr/decision/view/99Ω746ΜΤΛΒ-69Ο",
+        "details": "Επίσημη απόφαση Τροχαίας (13/09/2026)",
+        "area": "",
+        "days": [
+          "2026-09-14",
+          "2026-10-26"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
       {
         "id": "ΨΩΘΥ46ΜΤΛΒ-ΠΣΦ",
         "source": "Διαύγεια (Τροχαία)",
@@ -476,19 +511,6 @@
         "days": [
           "2026-09-13"
         ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sti-grammi-3",
-        "source": "iefimerida",
-        "title": "Ολοκληρώνονται απόψε οι κυκλοφοριακές ρυθμίσεις στο μετρό λόγω εργασιών -Ποιοι σταθμοί θα κλείσουν νωρίτερα",
-        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sti-grammi-3",
-        "details": "",
-        "area": "",
-        "days": [],
         "hours": [],
         "plain": "",
         "category": "",
@@ -616,6 +638,21 @@
     ],
     "oasa": [
       {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-121/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 830 και 837, λόγω εργασιών.",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-121/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [
+          "2026-09-14"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": true
+      },
+      {
         "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-73/",
         "source": "ΟΑΣΑ",
         "title": "Προσωρινή μερική τροποποίηση της διαδρομής των λεωφορειακών γραμμών 817, 845, 861, 861Β, 862, 863, 864, 871, 871Τ, 876, 878, 879 και 881, λόγω της διεξαγωγής των ΛΑΣΚΕΙΩΝ 2026",
@@ -667,19 +704,6 @@
         "hours": [],
         "plain": "",
         "category": "bus",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-7/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της Λ. Γραμμής  811  λόγω εργασιών στην οδό ΠΟΛΥΔΕΥΚΟΥΣ 26 ,  του Δήμου ΑΙΓΑΛΕΩ",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-7/",
-        "details": "",
-        "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
         "new_this_run": false
       }
     ],
@@ -1241,7 +1265,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-10T22:08:45+00:00",
-      "last_seen": "2026-09-13T02:24:52+00:00",
+      "last_seen": "2026-09-13T08:40:10+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1261,7 +1285,7 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-09-11T08:27:01+00:00",
-      "last_seen": "2026-09-13T02:24:52+00:00",
+      "last_seen": "2026-09-13T08:40:13+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1346,6 +1370,68 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "9ΘΩΑ46ΜΤΛΒ-2ΣΥ": {
+      "id": "9ΘΩΑ46ΜΤΛΒ-2ΣΥ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25598 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες κυκλοφοριακές ρυθμίσεις στα κάτωθι οδικά τμήματα του Αυτοκινητοδρόμου Α.Θ.Ε., ρεύμα κυκλοφορίας προς Αθήνα, περιοχής Δήμου Μεταμόρφωσης, κατά το χρονικό διάστημα από 07.00΄ ώρα της 14.09.2026 έως 20.00΄ ώρα της 26.10.2026, κάθε Δευτέρα έως Παρασ",
+      "url": "https://diavgeia.gov.gr/decision/view/9ΘΩΑ46ΜΤΛΒ-2ΣΥ",
+      "details": "Επίσημη απόφαση Τροχαίας (13/09/2026)",
+      "area": "Βόρεια",
+      "days": [
+        "2026-09-14",
+        "2026-10-26"
+      ],
+      "hours": [],
+      "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Αθήνα) · 14/9, 26/10",
+      "category": "",
+      "first_seen": "2026-09-13T08:40:10+00:00",
+      "last_seen": "2026-09-13T08:40:10+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "99Ω746ΜΤΛΒ-69Ο": {
+      "id": "99Ω746ΜΤΛΒ-69Ο",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25597 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες κυκλοφοριακές ρυθμίσεις επί της Ν.Ε.Ο. Αθηνών - Λαμίας, στο ύψος του Μετωπικού Σταθμού Διοδίων (Μ.Σ.Δ.) Αφιδνών, κατά το χρονικό διάστημα από 07.00΄ ώρα της 14.09.2026 έως 20.00΄ ώρα της 26.10.2026, κάθε Δευτέρα έως Παρασκευή κατά τις ώρες 07.00",
+      "url": "https://diavgeia.gov.gr/decision/view/99Ω746ΜΤΛΒ-69Ο",
+      "details": "Επίσημη απόφαση Τροχαίας (13/09/2026)",
+      "area": "",
+      "days": [
+        "2026-09-14",
+        "2026-10-26"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-09-13T08:40:10+00:00",
+      "last_seen": "2026-09-13T08:40:10+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-121/": {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-121/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 830 και 837, λόγω εργασιών.",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-121/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-09-14"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-09-13T08:40:13+00:00",
+      "last_seen": "2026-09-13T08:40:13+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1355,18 +1441,6 @@
     "151797168": "2026-09-13"
   },
   "notifications": [
-    {
-      "time": "2026-08-29T22:08:57+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "🚨 « Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στον λεωφορειόδρομο της Λεωφ. Βασ. Αμαλίας, στο τμήμα μεταξύ των οδών Όθωνος και Ξενοφώντος, περιοχής Δήμου Αθηναίων, στις 01.09.2026 κατά τις ώρες 00.30΄ έως 05.00΄, λόγω εκτέλεσης εργασιών μεταφοράς παραγόμενων υλικών ».",
-      "url": "https://diavgeia.gov.gr/decision/view/Ψ7ΥΙ46ΜΤΛΒ-ΛΝΘ"
-    },
-    {
-      "time": "2026-08-30T08:33:57+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-08-31T08:56:27+00:00",
       "source": "Ενημέρωση",
@@ -1534,15 +1608,21 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-09-13T08:40:14+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25598 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες κυκλοφοριακές ρυθμίσεις στα κάτωθι οδικά τμήματα του Αυτοκινητοδρόμου Α.Θ.Ε., ρεύμα κυκλοφορίας προς Αθήνα, περιοχής Δήμου Μεταμόρφωσης, κατά το χρονικό διάστημα από 07.00΄ ώρα της 14.09.2026 έως 20.00΄ ώρα της 26.10.2026, κάθε Δευτέρα έως Παρασ",
+      "url": "https://diavgeia.gov.gr/decision/view/9ΘΩΑ46ΜΤΛΒ-2ΣΥ"
+    },
+    {
+      "time": "2026-09-13T08:40:15+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25597 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες κυκλοφοριακές ρυθμίσεις επί της Ν.Ε.Ο. Αθηνών - Λαμίας, στο ύψος του Μετωπικού Σταθμού Διοδίων (Μ.Σ.Δ.) Αφιδνών, κατά το χρονικό διάστημα από 07.00΄ ώρα της 14.09.2026 έως 20.00΄ ώρα της 26.10.2026, κάθε Δευτέρα έως Παρασκευή κατά τις ώρες 07.00",
+      "url": "https://diavgeia.gov.gr/decision/view/99Ω746ΜΤΛΒ-69Ο"
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-07T22:25:13+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-07T23:49:23+00:00",
       "new": 0,
@@ -1896,6 +1976,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-13T08:40:15+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
