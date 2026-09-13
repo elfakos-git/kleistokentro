@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T12:52:11+00:00",
+  "generated_at": "2026-09-13T15:23:39+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-13T08:40:10+00:00"
+      "last_success": "2026-09-13T15:23:39+00:00"
     },
     {
       "name": "diavgeia",
@@ -24,7 +24,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-13T08:40:10+00:00"
+      "last_success": "2026-09-13T15:23:39+00:00"
     },
     {
       "name": "iefimerida",
@@ -37,7 +37,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-13T08:40:10+00:00"
+      "last_success": "2026-09-13T15:23:39+00:00"
     },
     {
       "name": "kathimerini",
@@ -50,7 +50,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-13T08:40:10+00:00"
+      "last_success": "2026-09-13T15:23:39+00:00"
     },
     {
       "name": "oasa",
@@ -63,22 +63,22 @@
         "λεωφορεία (χωρίς ειδοποίηση)": 5
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-13T08:40:13+00:00"
+      "last_success": "2026-09-13T15:23:39+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 7,
-      "fetched": 11,
+      "items": 9,
+      "fetched": 13,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-13T12:52:11+00:00"
+      "last_success": "2026-09-13T15:23:39+00:00"
     }
   ],
   "active_events": [
@@ -96,7 +96,7 @@
       "hours": [],
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Αθήνα) · 14/9, 26/10",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "99Ω746ΜΤΛΒ-69Ο",
@@ -112,7 +112,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "ΨΩΘΥ46ΜΤΛΒ-ΠΣΦ",
@@ -265,14 +265,12 @@
       "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 830 και 837, λόγω εργασιών.",
       "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-121/",
       "details": "",
-      "area": "Δυτικά",
-      "days": [
-        "2026-09-14"
-      ],
+      "area": "",
+      "days": [],
       "hours": [],
       "plain": "",
       "category": "bus",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-73/",
@@ -389,10 +387,40 @@
       "new_this_run": false
     },
     {
+      "id": "TTI-TTR51588520060013000",
+      "source": "TomTom (realtime)",
+      "title": "Tsoha An. (Kiriakou Pan.) → Kotieou (Kiriakou Pan.)",
+      "url": "https://www.google.com/maps?q=37.9865048936,23.7550015384",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-09-13"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
       "id": "TTI-TTR51594290768011000",
       "source": "TomTom (realtime)",
       "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
       "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-13"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51582749260013000",
+      "source": "TomTom (realtime)",
+      "title": "Λεωφόρος Αλεξάνδρας → Αν. Τσόχα",
+      "url": "https://www.google.com/maps?q=37.9876046269,23.7553327912",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -861,7 +889,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-10T22:08:45+00:00",
-      "last_seen": "2026-09-13T08:40:10+00:00",
+      "last_seen": "2026-09-13T15:23:39+00:00",
       "extended": false,
       "status": "active"
     },
@@ -934,7 +962,7 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-09-11T08:27:01+00:00",
-      "last_seen": "2026-09-13T08:40:13+00:00",
+      "last_seen": "2026-09-13T15:23:39+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -971,7 +999,7 @@
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Αθήνα) · 14/9, 26/10",
       "category": "",
       "first_seen": "2026-09-13T08:40:10+00:00",
-      "last_seen": "2026-09-13T08:40:10+00:00",
+      "last_seen": "2026-09-13T15:23:39+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -990,7 +1018,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-13T08:40:10+00:00",
-      "last_seen": "2026-09-13T08:40:10+00:00",
+      "last_seen": "2026-09-13T15:23:39+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1196,12 +1224,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-08T02:21:55+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-08T07:27:27+00:00",
       "new": 0,
@@ -1555,6 +1577,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-13T15:23:39+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
