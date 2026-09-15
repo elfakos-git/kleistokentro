@@ -450,15 +450,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 13,
+      "items": 8,
+      "fetched": 65,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 57
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-15T02:44:53+00:00"
+      "last_success": "2026-09-15T08:02:50+00:00"
     }
   },
   "active": {
@@ -682,21 +682,6 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51565436624014000",
-        "source": "TomTom (realtime)",
-        "title": "Αμφιαράου → Λεωφόρος Κηφισού",
-        "url": "https://www.google.com/maps?q=37.9987894329,23.7104969853",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Δυτικά",
-        "days": [
-          "2026-09-15"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
         "id": "TTI-TTR51568321972030001",
         "source": "TomTom (realtime)",
         "title": "Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
@@ -714,7 +699,7 @@
       {
         "id": "TTI-TTR51582749080021000",
         "source": "TomTom (realtime)",
-        "title": "Athinas (Evripidou) → Platia Ag. Theodoron (Evripidou)",
+        "title": "Athinas (Evripidou) → Praxitelous (Evripidou)",
         "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
@@ -725,21 +710,6 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582749064013000",
-        "source": "TomTom (realtime)",
-        "title": "Platia Ag. Theodoron (Dragatsaniou) → Stadiou (Dragatsaniou)",
-        "url": "https://www.google.com/maps?q=37.9795365596,23.7306055063",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-09-15"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
       },
       {
         "id": "TTI-TTR51579863732014000",
@@ -1444,15 +1414,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-09-14"
+    "151797168": "2026-09-15"
   },
   "notifications": [
-    {
-      "time": "2026-09-01T07:59:57+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-09-01T09:02:51+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -1626,15 +1590,15 @@
       "source": "iefimerida",
       "title": "🚨 Κυκλοφοριακές ρυθμίσεις στον αυτοκινητόδρομο Αθήνας - Θεσσαλονίκης, ποιους οδηγούς επηρεάζει",
       "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athina-thessaloniki-0"
+    },
+    {
+      "time": "2026-09-15T08:02:50+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-09T16:49:31+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-09T18:58:12+00:00",
       "new": 0,
@@ -1988,6 +1952,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-09-15T08:02:50+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
