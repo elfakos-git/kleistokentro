@@ -393,7 +393,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-15T19:34:31+00:00"
+      "last_success": "2026-09-15T22:34:58+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -406,7 +406,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-15T19:34:31+00:00"
+      "last_success": "2026-09-15T22:34:58+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -420,7 +420,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-15T19:34:31+00:00"
+      "last_success": "2026-09-15T22:34:58+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -433,7 +433,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-15T19:34:31+00:00"
+      "last_success": "2026-09-15T22:34:58+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -448,20 +448,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-15T19:34:31+00:00"
+      "last_success": "2026-09-15T22:34:58+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 11,
+      "fetched": 12,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-15T20:29:27+00:00"
+      "last_success": "2026-09-15T22:34:58+00:00"
     }
   },
   "active": {
@@ -679,7 +679,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-09-15"
+          "2026-09-16"
         ],
         "hours": [],
         "plain": "",
@@ -694,7 +694,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-09-15"
+          "2026-09-16"
         ],
         "hours": [],
         "plain": "",
@@ -709,7 +709,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-09-15"
+          "2026-09-16"
         ],
         "hours": [],
         "plain": "",
@@ -724,7 +724,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-09-15"
+          "2026-09-16"
         ],
         "hours": [],
         "plain": "",
@@ -739,7 +739,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-09-15"
+          "2026-09-16"
         ],
         "hours": [],
         "plain": "",
@@ -754,7 +754,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-09-15"
+          "2026-09-16"
         ],
         "hours": [],
         "plain": "",
@@ -769,7 +769,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-09-15"
+          "2026-09-16"
         ],
         "hours": [],
         "plain": "",
@@ -784,7 +784,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-09-15"
+          "2026-09-16"
         ],
         "hours": [],
         "plain": "",
@@ -1450,7 +1450,7 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-09-15T09:05:51+00:00",
-      "last_seen": "2026-09-15T19:34:31+00:00",
+      "last_seen": "2026-09-15T22:34:58+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1646,12 +1646,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-10T07:31:53+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-10T08:32:29+00:00",
       "new": 1,
@@ -2005,6 +1999,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-15T22:34:58+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
