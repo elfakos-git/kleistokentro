@@ -385,15 +385,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-15T22:34:58+00:00"
+      "last_success": "2026-09-16T02:39:49+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -406,7 +403,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-15T22:34:58+00:00"
+      "last_success": "2026-09-16T02:39:49+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -420,7 +417,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-15T22:34:58+00:00"
+      "last_success": "2026-09-16T02:39:49+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -433,35 +430,34 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-15T22:34:58+00:00"
+      "last_success": "2026-09-16T02:39:49+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 5,
-      "fetched": 11,
+      "items": 7,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
-        "λεωφορεία (χωρίς ειδοποίηση)": 5
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
+        "λεωφορεία (χωρίς ειδοποίηση)": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-15T22:34:58+00:00"
+      "last_success": "2026-09-16T02:39:49+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 11,
+      "fetched": 12,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-15T23:02:12+00:00"
+      "last_success": "2026-09-16T02:39:49+00:00"
     }
   },
   "active": {
@@ -661,6 +657,19 @@
         "source": "ΟΑΣΑ",
         "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 830 και 837, λόγω εργασιών.",
         "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-121/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-73/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή μερική τροποποίηση της διαδρομής των λεωφορειακών γραμμών 817, 845, 861, 861Β, 862, 863, 864, 871, 871Τ, 876, 878, 879 και 881, λόγω της διεξαγωγής των ΛΑΣΚΕΙΩΝ 2026",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-73/",
         "details": "",
         "area": "",
         "days": [],
@@ -1194,19 +1203,20 @@
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%b4%ce%b9%ce%b1%ce%ba%ce%bf%cf%80%ce%ae-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1%ce%ba%ce%ae%cf%82-%ce%b3/": {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%b4%ce%b9%ce%b1%ce%ba%ce%bf%cf%80%ce%ae-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1%ce%ba%ce%ae%cf%82-%ce%b3/",
       "source": "ΟΑΣΑ",
-      "title": "Προσωρινή διακοπή της λεωφορειακής γραμμής Χ24 στις 13 & 14 Σεπτεμβρίου λόγω εορταστικών εκδηλώσεων.",
+      "title": "Προσωρινή διακοπή της λεωφορειακής γραμμής Χ24 στις 13, 14 και 15 Σεπτεμβρίου λόγω εορταστικών εκδηλώσεων.",
       "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%b4%ce%b9%ce%b1%ce%ba%ce%bf%cf%80%ce%ae-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1%ce%ba%ce%ae%cf%82-%ce%b3/",
       "details": "",
       "area": "",
       "days": [
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15"
       ],
       "hours": [],
       "plain": "",
       "category": "bus",
       "first_seen": "2026-09-11T08:27:01+00:00",
-      "last_seen": "2026-09-14T02:41:53+00:00",
-      "extended": false,
+      "last_seen": "2026-09-16T02:39:49+00:00",
+      "extended": true,
       "alerted_chats": [
         "151797168"
       ]
@@ -1450,7 +1460,7 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-09-15T09:05:51+00:00",
-      "last_seen": "2026-09-15T22:34:58+00:00",
+      "last_seen": "2026-09-16T02:39:49+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1646,12 +1656,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-10T12:24:01+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-10T15:35:58+00:00",
       "new": 0,
@@ -2005,6 +2009,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-16T02:39:49+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
