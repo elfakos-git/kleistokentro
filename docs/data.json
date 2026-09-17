@@ -1,43 +1,46 @@
 {
-  "generated_at": "2026-09-17T08:00:14+00:00",
+  "generated_at": "2026-09-17T09:03:49+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "fetched": 53,
+      "dropped": {
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 52
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-17T02:43:50+00:00"
+      "last_success": "2026-09-17T09:03:42+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99
+        "εκτός θέματος/Αθήνας": 100
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-17T02:43:50+00:00"
+      "last_success": "2026-09-17T09:03:42+00:00"
     },
     {
       "name": "iefimerida",
       "ok": true,
-      "items": 2,
+      "items": 1,
       "fetched": 11,
       "dropped": {
         "άλλη περιοχή": 1,
-        "χωρίς/παλιά ημερομηνία": 8
+        "χωρίς/παλιά ημερομηνία": 9
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-17T02:43:50+00:00"
+      "last_success": "2026-09-17T09:03:42+00:00"
     },
     {
       "name": "kathimerini",
@@ -48,74 +51,42 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-17T02:43:50+00:00"
+      "last_success": "2026-09-17T09:03:42+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 3,
-      "fetched": 11,
+      "items": 4,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
-        "λεωφορεία (χωρίς ειδοποίηση)": 3
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
+        "λεωφορεία (χωρίς ειδοποίηση)": 4
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-09-17T02:43:50+00:00"
+      "last_success": "2026-09-17T09:03:49+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 13,
-      "fetched": 67,
+      "fetched": 64,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 54
+        "κατηγορία εκτός πολιτικής": 51
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-17T08:00:13+00:00"
+      "last_success": "2026-09-17T09:03:49+00:00"
     }
   ],
   "active_events": [
-    {
-      "id": "68ΛΨ46ΜΤΛΒ-7ΦΖ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25615-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στο δεξιό άκρο του οδοστρώματος της Λ. Τατοΐου, περιοχής Δήμου Κηφισιάς, στο ύψος του ο.α. 39, ρεύμα κυκλοφορίας προς Μαρούσι, την 20-09-2026, κατά τις ώρες 08.00΄ έως 13.00΄, λόγω εκτέλεσης ερ",
-      "url": "https://diavgeia.gov.gr/decision/view/68ΛΨ46ΜΤΛΒ-7ΦΖ",
-      "details": "Επίσημη απόφαση Τροχαίας (16/09/2026)",
-      "area": "Βόρεια",
-      "days": [
-        "2026-09-20"
-      ],
-      "hours": [
-        "08:00",
-        "13:00"
-      ],
-      "plain": "Διακοπή κυκλοφορίας στη Λ. Τατοΐου (ύψος αρ. 39, προς Μαρούσι, Δήμου Κηφισιάς) · 20/9, 08:00–13:00",
-      "category": "",
-      "new_this_run": false
-    },
     {
       "id": "https://www.iefimerida.gr/ellada/nees-kykloforiakes-rythmiseis-sti-grammi-3-metro",
       "source": "iefimerida",
       "title": "Νέες κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 του Μετρό -Ποιοι σταθμοί επηρεάζονται, τι αλλάζει στα δρομολόγια",
       "url": "https://www.iefimerida.gr/ellada/nees-kykloforiakes-rythmiseis-sti-grammi-3-metro",
-      "details": "",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athina-thessaloniki-0",
-      "source": "iefimerida",
-      "title": "Κυκλοφοριακές ρυθμίσεις στον αυτοκινητόδρομο Αθήνας - Θεσσαλονίκης, ποιους οδηγούς επηρεάζει",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athina-thessaloniki-0",
       "details": "",
       "area": "",
       "days": [],
@@ -255,6 +226,21 @@
       "new_this_run": false
     },
     {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-2/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση των διαδρομών των λεωφορειακών γραμμών λόγω εκδηλώσεων στο Θέατρο  Πέτρας στον Δήμο Πετρούπολης",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-2/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-09-18"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "new_this_run": true
+    },
+    {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-75/",
       "source": "ΟΑΣΑ",
       "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 891 στην οδό Γιαννιτσών, λόγω αγώνα ποδοσφαίρου στον Δήμο Περιστερίου",
@@ -324,10 +310,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51588519740004000",
+      "id": "TTI-TTR51588519776004000",
       "source": "TomTom (realtime)",
-      "title": "Mikras Asias (Chrisostomou Smirnis) → Ag. Sofias (Chrisostomou Smirnis)",
-      "url": "https://www.google.com/maps?q=37.96504454,23.698225879",
+      "title": "Chrisostomou Smirnis (Ag. Sofias) → Anaxagora (Ag. Sofias)",
+      "url": "https://www.google.com/maps?q=37.9645429776,23.700933569",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
@@ -354,10 +340,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51588519776004000",
+      "id": "TTI-TTR51588519740004000",
       "source": "TomTom (realtime)",
-      "title": "Chrisostomou Smirnis (Ag. Sofias) → Anaxagora (Ag. Sofias)",
-      "url": "https://www.google.com/maps?q=37.9645429776,23.700933569",
+      "title": "Mikras Asias (Chrisostomou Smirnis) → Ag. Sofias (Chrisostomou Smirnis)",
+      "url": "https://www.google.com/maps?q=37.96504454,23.698225879",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
@@ -386,8 +372,8 @@
     {
       "id": "TTI-TTR51582749164015000",
       "source": "TomTom (realtime)",
-      "title": "Λεωχάρους / Μιλτιάδου → Ευριπίδου",
-      "url": "https://www.google.com/maps?q=37.9787010498,23.7299456829",
+      "title": "Ιωάννου Παπαρρηγοπούλου → Ευριπίδου",
+      "url": "https://www.google.com/maps?q=37.9783657464,23.730384224",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -426,7 +412,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-TTR51594290660014001",
@@ -1144,6 +1130,24 @@
       "status": "planned"
     },
     {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-2/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση των διαδρομών των λεωφορειακών γραμμών λόγω εκδηλώσεων στο Θέατρο  Πέτρας στον Δήμο Πετρούπολης",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-2/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-09-18"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-09-17T09:03:49+00:00",
+      "last_seen": "2026-09-17T09:03:49+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
       "id": "68ΛΨ46ΜΤΛΒ-7ΦΖ",
       "source": "Διαύγεια (Τροχαία)",
       "title": "25615-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στο δεξιό άκρο του οδοστρώματος της Λ. Τατοΐου, περιοχής Δήμου Κηφισιάς, στο ύψος του ο.α. 39, ρεύμα κυκλοφορίας προς Μαρούσι, την 20-09-2026, κατά τις ώρες 08.00΄ έως 13.00΄, λόγω εκτέλεσης ερ",
@@ -1348,12 +1352,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-11T15:37:44+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-11T16:37:12+00:00",
       "new": 0,
@@ -1707,6 +1705,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-17T09:03:49+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
