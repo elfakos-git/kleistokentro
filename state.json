@@ -383,7 +383,8 @@
     "TTI-TTR51582749080022000",
     "68ΛΨ46ΜΤΛΒ-7ΦΖ",
     "https://www.kathimerini.gr/society/564461899/paylos-fyssas-kykloforiakes-rythmiseis-se-nikaia-kai-keratsini-gia-tis-ekdiloseis-sti-mnimi-toy/",
-    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-75/"
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-75/",
+    "TTI-TTR51574092968014000"
   ],
   "seeded": [
     "astynomia",
@@ -461,15 +462,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 12,
-      "fetched": 17,
+      "items": 13,
+      "fetched": 67,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 54
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-17T02:43:50+00:00"
+      "last_success": "2026-09-17T08:00:13+00:00"
     }
   },
   "active": {
@@ -712,6 +713,21 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51588519812004000",
+        "source": "TomTom (realtime)",
+        "title": "Ag. Sofias (Chrisostomou Smirnis) → Mikras Asias (Chrisostomou Smirnis)",
+        "url": "https://www.google.com/maps?q=37.9645429776,23.700933569",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Δυτικά",
+        "days": [
+          "2026-09-17"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
         "id": "TTI-TTR51588519740004000",
         "source": "TomTom (realtime)",
         "title": "Mikras Asias (Chrisostomou Smirnis) → Ag. Sofias (Chrisostomou Smirnis)",
@@ -745,21 +761,6 @@
         "id": "TTI-TTR51588519776004000",
         "source": "TomTom (realtime)",
         "title": "Chrisostomou Smirnis (Ag. Sofias) → Anaxagora (Ag. Sofias)",
-        "url": "https://www.google.com/maps?q=37.9645429776,23.700933569",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Δυτικά",
-        "days": [
-          "2026-09-17"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51588519812004000",
-        "source": "TomTom (realtime)",
-        "title": "Ag. Sofias (Chrisostomou Smirnis) → Mikras Asias (Chrisostomou Smirnis)",
         "url": "https://www.google.com/maps?q=37.9645429776,23.700933569",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
@@ -815,6 +816,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51574092968014000",
+        "source": "TomTom (realtime)",
+        "title": "Δοϊράνης → Κρέσνας",
+        "url": "https://www.google.com/maps?q=37.9994251087,23.7468529874",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Βόρεια",
+        "days": [
+          "2026-09-17"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51594290660014001",
@@ -1608,15 +1624,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-09-16"
+    "151797168": "2026-09-17"
   },
   "notifications": [
-    {
-      "time": "2026-09-04T07:26:33+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-09-04T15:31:46+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -1790,15 +1800,15 @@
       "source": "kathimerini",
       "title": "🚨 Παύλος Φύσσας: Κυκλοφοριακές ρυθμίσεις σε Νίκαια και Κερατσίνι για τις εκδηλώσεις στη μνήμη του",
       "url": "https://www.kathimerini.gr/society/564461899/paylos-fyssas-kykloforiakes-rythmiseis-se-nikaia-kai-keratsini-gia-tis-ekdiloseis-sti-mnimi-toy/"
+    },
+    {
+      "time": "2026-09-17T08:00:14+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-11T12:22:43+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-11T15:37:44+00:00",
       "new": 0,
@@ -2152,6 +2162,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-09-17T08:00:14+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
