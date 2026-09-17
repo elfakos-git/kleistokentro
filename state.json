@@ -398,15 +398,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-16T22:30:53+00:00"
+      "last_success": "2026-09-17T02:43:50+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -419,7 +416,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-16T22:30:53+00:00"
+      "last_success": "2026-09-17T02:43:50+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -433,7 +430,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-16T22:30:53+00:00"
+      "last_success": "2026-09-17T02:43:50+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -444,7 +441,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-16T22:30:53+00:00"
+      "last_success": "2026-09-17T02:43:50+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -459,7 +456,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-16T22:30:53+00:00"
+      "last_success": "2026-09-17T02:43:50+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -472,7 +469,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-16T23:03:03+00:00"
+      "last_success": "2026-09-17T02:43:50+00:00"
     }
   },
   "active": {
@@ -715,25 +712,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51588519812004000",
+        "id": "TTI-TTR51588519740004000",
         "source": "TomTom (realtime)",
-        "title": "Ag. Sofias (Chrisostomou Smirnis) → Mikras Asias (Chrisostomou Smirnis)",
-        "url": "https://www.google.com/maps?q=37.9645429776,23.700933569",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Δυτικά",
-        "days": [
-          "2026-09-17"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51588519776004000",
-        "source": "TomTom (realtime)",
-        "title": "Chrisostomou Smirnis (Ag. Sofias) → Anaxagora (Ag. Sofias)",
-        "url": "https://www.google.com/maps?q=37.9645429776,23.700933569",
+        "title": "Mikras Asias (Chrisostomou Smirnis) → Ag. Sofias (Chrisostomou Smirnis)",
+        "url": "https://www.google.com/maps?q=37.96504454,23.698225879",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
@@ -760,10 +742,25 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51588519740004000",
+        "id": "TTI-TTR51588519776004000",
         "source": "TomTom (realtime)",
-        "title": "Mikras Asias (Chrisostomou Smirnis) → Evdoxias (Chrisostomou Smirnis)",
-        "url": "https://www.google.com/maps?q=37.96504454,23.698225879",
+        "title": "Chrisostomou Smirnis (Ag. Sofias) → Anaxagora (Ag. Sofias)",
+        "url": "https://www.google.com/maps?q=37.9645429776,23.700933569",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Δυτικά",
+        "days": [
+          "2026-09-17"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51588519812004000",
+        "source": "TomTom (realtime)",
+        "title": "Ag. Sofias (Chrisostomou Smirnis) → Mikras Asias (Chrisostomou Smirnis)",
+        "url": "https://www.google.com/maps?q=37.9645429776,23.700933569",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
@@ -1562,7 +1559,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Τατοΐου (ύψος αρ. 39, προς Μαρούσι, Δήμου Κηφισιάς) · 20/9, 08:00–13:00",
       "category": "",
       "first_seen": "2026-09-16T15:51:58+00:00",
-      "last_seen": "2026-09-16T22:30:53+00:00",
+      "last_seen": "2026-09-17T02:43:50+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -1796,12 +1793,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-11T08:27:06+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-11T12:22:43+00:00",
       "new": 0,
@@ -2155,6 +2146,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-17T02:43:50+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
