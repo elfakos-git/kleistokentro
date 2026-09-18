@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T21:44:36+00:00",
+  "generated_at": "2026-09-18T22:07:42+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T18:46:00+00:00"
+      "last_success": "2026-09-18T22:07:41+00:00"
     },
     {
       "name": "diavgeia",
@@ -27,7 +27,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T18:46:00+00:00"
+      "last_success": "2026-09-18T22:07:41+00:00"
     },
     {
       "name": "iefimerida",
@@ -40,7 +40,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T18:46:00+00:00"
+      "last_success": "2026-09-18T22:07:41+00:00"
     },
     {
       "name": "kathimerini",
@@ -51,35 +51,34 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T18:46:00+00:00"
+      "last_success": "2026-09-18T22:07:41+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
       "items": 4,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
         "λεωφορεία (χωρίς ειδοποίηση)": 4
       },
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T18:46:00+00:00"
+      "last_success": "2026-09-18T22:07:42+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 14,
+      "fetched": 13,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T21:44:36+00:00"
+      "last_success": "2026-09-18T22:07:42+00:00"
     }
   ],
   "active_events": [
@@ -1159,7 +1158,7 @@
       "plain": "Διακοπή κυκλοφορίας στην οδό Όθωνος (ύψος αρ. 6, προς Λεωφ. Βασ. Αμαλίας, Δήμου Αθηναίων) · 20/9, 07:00–10:00",
       "category": "",
       "first_seen": "2026-09-18T15:33:02+00:00",
-      "last_seen": "2026-09-18T18:46:00+00:00",
+      "last_seen": "2026-09-18T22:07:41+00:00",
       "extended": false,
       "status": "planned"
     }
@@ -1347,12 +1346,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-12T21:52:06+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-12T23:27:56+00:00",
       "new": 0,
@@ -1706,6 +1699,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-18T22:07:42+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }

@@ -417,7 +417,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T18:46:00+00:00"
+      "last_success": "2026-09-18T22:07:41+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -431,7 +431,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T18:46:00+00:00"
+      "last_success": "2026-09-18T22:07:41+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -444,7 +444,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T18:46:00+00:00"
+      "last_success": "2026-09-18T22:07:41+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -455,35 +455,34 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T18:46:00+00:00"
+      "last_success": "2026-09-18T22:07:41+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
       "items": 4,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
         "λεωφορεία (χωρίς ειδοποίηση)": 4
       },
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T18:46:00+00:00"
+      "last_success": "2026-09-18T22:07:42+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 14,
+      "fetched": 13,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T21:44:36+00:00"
+      "last_success": "2026-09-18T22:07:42+00:00"
     }
   },
   "active": {
@@ -1630,7 +1629,7 @@
       "plain": "Διακοπή κυκλοφορίας στην οδό Όθωνος (ύψος αρ. 6, προς Λεωφ. Βασ. Αμαλίας, Δήμου Αθηναίων) · 20/9, 07:00–10:00",
       "category": "",
       "first_seen": "2026-09-18T15:33:02+00:00",
-      "last_seen": "2026-09-18T18:46:00+00:00",
+      "last_seen": "2026-09-18T22:07:41+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1826,12 +1825,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-12T21:52:06+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-12T23:27:56+00:00",
       "new": 0,
@@ -2185,6 +2178,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-18T22:07:42+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
