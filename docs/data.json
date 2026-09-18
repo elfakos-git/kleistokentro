@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T07:38:23+00:00",
+  "generated_at": "2026-09-18T08:39:42+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,21 +10,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T02:31:01+00:00"
+      "last_success": "2026-09-18T08:38:14+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
       "items": 0,
-      "fetched": 100,
+      "fetched": 101,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99,
-        "εκτός χρονικού παραθύρου": 1
+        "εκτός θέματος/Αθήνας": 101
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T02:31:01+00:00"
+      "last_success": "2026-09-18T08:38:14+00:00"
     },
     {
       "name": "iefimerida",
@@ -37,7 +36,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T02:31:01+00:00"
+      "last_success": "2026-09-18T08:38:14+00:00"
     },
     {
       "name": "kathimerini",
@@ -46,37 +45,36 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T02:31:01+00:00"
+      "last_success": "2026-09-18T08:38:14+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 2,
-      "fetched": 11,
+      "items": 4,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8,
-        "λεωφορεία (χωρίς ειδοποίηση)": 2
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
+        "λεωφορεία (χωρίς ειδοποίηση)": 4
       },
-      "date_misses": 0,
+      "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T02:31:01+00:00"
+      "last_success": "2026-09-18T08:39:42+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 54,
+      "fetched": 38,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 45
+        "κατηγορία εκτός πολιτικής": 29
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-18T07:38:22+00:00"
+      "last_success": "2026-09-18T08:39:42+00:00"
     }
   ],
   "active_events": [
@@ -92,6 +90,21 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564465544/paylos-fyssas-poreia-mnimis-simera-poioi-dromoi-kleinoyn-se-keratsini-kai-nikaia/",
+      "source": "kathimerini",
+      "title": "Παύλος Φύσσας: Πορεία μνήμης σήμερα – Ποιοι δρόμοι κλείνουν σε Κερατσίνι και Νίκαια",
+      "url": "https://www.kathimerini.gr/society/564465544/paylos-fyssas-poreia-mnimis-simera-poioi-dromoi-kleinoyn-se-keratsini-kai-nikaia/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-09-18"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "https://www.kathimerini.gr/society/564463768/thessaloniki-pezodromeitai-pilotika-tin-kyriaki-i-leoforos-nikis/",
@@ -211,17 +224,30 @@
       "new_this_run": false
     },
     {
-      "id": "https://www.kathimerini.gr/society/564353860/metro-kykloforiakes-rythmiseis-sti-grammi-3-apo-simera-poioi-stathmoi-kleinoyn-noritera/",
-      "source": "kathimerini",
-      "title": "Μετρό: Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 από σήμερα – Ποιοι σταθμοί κλείνουν νωρίτερα",
-      "url": "https://www.kathimerini.gr/society/564353860/metro-kykloforiakes-rythmiseis-sti-grammi-3-apo-simera-poioi-stathmoi-kleinoyn-noritera/",
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-70/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 866, λόγω εκδηλώσεων επί της Λ. Δημοκρατίας (από την οδό 28ης Οκτωβρίου έως την οδό Φυλής) στον Δήμο Ασπροπύργου",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-70/",
       "details": "",
-      "area": "",
+      "area": "Δυτικά",
       "days": [],
       "hours": [],
       "plain": "",
-      "category": "",
-      "new_this_run": false
+      "category": "bus",
+      "new_this_run": true
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-282/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 054 και 605, λόγω των εκδηλώσεων για τον εορτασμό του Αγίου Ευσταθίου, στην πλατεία Αγίου  Ευσταθίου και την οδό Άγγελου Σικελιανού, του Δήμου Ν. Ιωνίας",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-282/",
+      "details": "",
+      "area": "Βόρεια",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "new_this_run": true
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-2/",
@@ -1039,6 +1065,24 @@
       "status": "active"
     },
     {
+      "id": "https://www.kathimerini.gr/society/564465544/paylos-fyssas-poreia-mnimis-simera-poioi-dromoi-kleinoyn-se-keratsini-kai-nikaia/",
+      "source": "kathimerini",
+      "title": "Παύλος Φύσσας: Πορεία μνήμης σήμερα – Ποιοι δρόμοι κλείνουν σε Κερατσίνι και Νίκαια",
+      "url": "https://www.kathimerini.gr/society/564465544/paylos-fyssas-poreia-mnimis-simera-poioi-dromoi-kleinoyn-se-keratsini-kai-nikaia/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-09-18"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-09-18T08:38:14+00:00",
+      "last_seen": "2026-09-18T08:38:14+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
       "id": "68ΛΨ46ΜΤΛΒ-7ΦΖ",
       "source": "Διαύγεια (Τροχαία)",
       "title": "25615-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στο δεξιό άκρο του οδοστρώματος της Λ. Τατοΐου, περιοχής Δήμου Κηφισιάς, στο ύψος του ο.α. 39, ρεύμα κυκλοφορίας προς Μαρούσι, την 20-09-2026, κατά τις ώρες 08.00΄ έως 13.00΄, λόγω εκτέλεσης ερ",
@@ -1261,12 +1305,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-12T11:39:35+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-12T14:25:46+00:00",
       "new": 0,
@@ -1620,6 +1658,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-18T08:39:42+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
