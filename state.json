@@ -398,7 +398,13 @@
     "Ψ7ΚΠ46ΜΤΛΒ-ΟΜΘ",
     "https://www.iefimerida.gr/poli/athinas-horis-aytokinito-kykloforiakes-rythmiseis",
     "https://www.kathimerini.gr/society/564468949/athinas-choris-aytokinito-poioi-dromoi-kleinoyn-to-savvatokyriako/",
-    "TTI-TTR51582749044013000"
+    "TTI-TTR51582749044013000",
+    "TTI-TTR51579863500005000",
+    "TTI-TTR51579863464013000",
+    "TTI-TTR51582748944014000",
+    "TTI-TTR51582749044031000",
+    "TTI-TTR51582749008015000",
+    "TTI-TTR51582749008007000"
   ],
   "seeded": [
     "astynomia",
@@ -475,15 +481,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 26,
+      "items": 18,
+      "fetched": 32,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 15
+        "κατηγορία εκτός πολιτικής": 14
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-19T18:20:29+00:00"
+      "last_success": "2026-09-19T20:51:13+00:00"
     }
   },
   "active": {
@@ -728,6 +734,36 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51579863500005000",
+        "source": "TomTom (realtime)",
+        "title": "Πειραιώς / Θερμοπυλών → Ερμού / Πλατεία Αγίων Ασωμάτων",
+        "url": "https://www.google.com/maps?q=37.9779942351,23.7209482127",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-09-19"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51579863464013000",
+        "source": "TomTom (realtime)",
+        "title": "Platia Ag. Asomaton (Ermou) → Athinas (Ermou)",
+        "url": "https://www.google.com/maps?q=37.9773505112,23.7212647134",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-09-19"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
         "id": "TTI-TTR51582749116013000",
         "source": "TomTom (realtime)",
         "title": "Evripidou (Athinas) → Ermou (Athinas)",
@@ -745,7 +781,7 @@
       {
         "id": "TTI-TTR51582749044013000",
         "source": "TomTom (realtime)",
-        "title": "Ag. Irinis (Athinas) → Sofokleous (Athinas)",
+        "title": "Ag. Irinis (Athinas) → Armodiou (Athinas)",
         "url": "https://www.google.com/maps?q=37.9773197222,23.7263086074",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
@@ -756,6 +792,51 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51582748944014000",
+        "source": "TomTom (realtime)",
+        "title": "Athinas (Voreou) → Karori (Voreou)",
+        "url": "https://www.google.com/maps?q=37.978143157,23.7267015511",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-09-19"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51582749044031000",
+        "source": "TomTom (realtime)",
+        "title": "Sofokleous (Athinas) → Platia Omonias (Athinas)",
+        "url": "https://www.google.com/maps?q=37.9810921973,23.7272621327",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-09-19"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51582749008015000",
+        "source": "TomTom (realtime)",
+        "title": "Kalamiotou (Athinedos) → Eolou (Athinedos)",
+        "url": "https://www.google.com/maps?q=37.9768221419,23.7288754815",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-09-19"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51582749164015000",
@@ -771,6 +852,36 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51582748936022000",
+        "source": "TomTom (realtime)",
+        "title": "Leocharous (Kolokotroni) → Karytsi (Kolokotroni)",
+        "url": "https://www.google.com/maps?q=37.97769791,23.7297927969",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-09-19"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51582749008007000",
+        "source": "TomTom (realtime)",
+        "title": "Vas. Georgiou A (Karagiorgi Servias) → Lekka (Karagiorgi Servias)",
+        "url": "https://www.google.com/maps?q=37.9763192065,23.7337638074",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-09-19"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51579863732014000",
@@ -1909,12 +2020,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-13T21:29:24+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-09-13T21:59:11+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2264,6 +2369,12 @@
     },
     {
       "time": "2026-09-19T18:20:29+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-09-19T20:51:13+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
