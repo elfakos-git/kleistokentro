@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T18:24:26+00:00",
+  "generated_at": "2026-09-20T19:05:47+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -68,15 +68,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 19,
-      "fetched": 24,
+      "items": 18,
+      "fetched": 23,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-20T18:24:26+00:00"
+      "last_success": "2026-09-20T19:05:47+00:00"
     }
   ],
   "active_events": [
@@ -355,21 +355,6 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51582749080013000",
-      "source": "TomTom (realtime)",
-      "title": "Poliklitou (Evripidou) → Praxitelous (Evripidou)",
-      "url": "https://www.google.com/maps?q=37.9798061195,23.7275813156",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-20"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
       "id": "TTI-TTR51582749008015000",
       "source": "TomTom (realtime)",
       "title": "Kalamiotou (Athinedos) → Eolou (Athinedos)",
@@ -400,6 +385,21 @@
       "new_this_run": false
     },
     {
+      "id": "TTI-TTR51582748936014001",
+      "source": "TomTom (realtime)",
+      "title": "Vasilikis (Kolokotroni) → Chavriou (Kolokotroni)",
+      "url": "https://www.google.com/maps?q=37.9778628215,23.7280158335",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-20"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
       "id": "TTI-TTR51582749004007000",
       "source": "TomTom (realtime)",
       "title": "Lekka (Perikleous) → Evangelistrias (Perikleous)",
@@ -415,25 +415,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51582748936014001",
+      "id": "TTI-TTR51582748936014000",
       "source": "TomTom (realtime)",
-      "title": "Vasilikis (Kolokotroni) → Voulis (Kolokotroni)",
-      "url": "https://www.google.com/maps?q=37.9778628215,23.7280158335",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-20"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749008007000",
-      "source": "TomTom (realtime)",
-      "title": "Vas. Georgiou A (Karagiorgi Servias) → Lekka (Karagiorgi Servias)",
-      "url": "https://www.google.com/maps?q=37.9763192065,23.7337638074",
+      "title": "Gazi Anthimou (Kolokotroni) → Voulis (Kolokotroni)",
+      "url": "https://www.google.com/maps?q=37.9774377244,23.7321880096",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -1492,12 +1477,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-14T22:53:14+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-09-15T02:44:53+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1850,6 +1829,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-09-20T19:05:47+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
