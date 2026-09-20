@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T19:05:47+00:00",
+  "generated_at": "2026-09-20T21:39:17+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -68,15 +68,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 18,
-      "fetched": 23,
+      "items": 9,
+      "fetched": 12,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-20T19:05:47+00:00"
+      "last_success": "2026-09-20T21:39:17+00:00"
     }
   ],
   "active_events": [
@@ -257,7 +257,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-09-20"
+        "2026-09-21"
       ],
       "hours": [],
       "plain": "",
@@ -272,97 +272,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-09-20"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51579863500005000",
-      "source": "TomTom (realtime)",
-      "title": "Πειραιώς / Θερμοπυλών → Ερμού / Πλατεία Αγίων Ασωμάτων",
-      "url": "https://www.google.com/maps?q=37.9779942351,23.7209482127",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-20"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51579863464013000",
-      "source": "TomTom (realtime)",
-      "title": "Platia Ag. Asomaton (Ermou) → Athinas (Ermou)",
-      "url": "https://www.google.com/maps?q=37.9773505112,23.7212647134",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-20"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749116013000",
-      "source": "TomTom (realtime)",
-      "title": "Sofokleous (Athinas) → Ermou (Athinas)",
-      "url": "https://www.google.com/maps?q=37.9810921973,23.7272621327",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-20"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582748944014000",
-      "source": "TomTom (realtime)",
-      "title": "Athinas (Voreou) → Eolou (Voreou)",
-      "url": "https://www.google.com/maps?q=37.978143157,23.7267015511",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-20"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749044013000",
-      "source": "TomTom (realtime)",
-      "title": "Ag. Irinis (Athinas) → Platia Omonias (Athinas)",
-      "url": "https://www.google.com/maps?q=37.9773197222,23.7263086074",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-20"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749008015000",
-      "source": "TomTom (realtime)",
-      "title": "Kalamiotou (Athinedos) → Eolou (Athinedos)",
-      "url": "https://www.google.com/maps?q=37.9768221419,23.7288754815",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-20"
+        "2026-09-21"
       ],
       "hours": [],
       "plain": "",
@@ -377,52 +287,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-09-20"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582748936014001",
-      "source": "TomTom (realtime)",
-      "title": "Vasilikis (Kolokotroni) → Chavriou (Kolokotroni)",
-      "url": "https://www.google.com/maps?q=37.9778628215,23.7280158335",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-20"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749004007000",
-      "source": "TomTom (realtime)",
-      "title": "Lekka (Perikleous) → Evangelistrias (Perikleous)",
-      "url": "https://www.google.com/maps?q=37.976582105,23.7317213052",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-20"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582748936014000",
-      "source": "TomTom (realtime)",
-      "title": "Gazi Anthimou (Kolokotroni) → Voulis (Kolokotroni)",
-      "url": "https://www.google.com/maps?q=37.9774377244,23.7321880096",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-20"
+        "2026-09-21"
       ],
       "hours": [],
       "plain": "",
@@ -437,7 +302,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-09-20"
+        "2026-09-21"
       ],
       "hours": [],
       "plain": "",
@@ -452,7 +317,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-09-20"
+        "2026-09-21"
       ],
       "hours": [],
       "plain": "",
@@ -467,7 +332,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-09-20"
+        "2026-09-21"
       ],
       "hours": [],
       "plain": "",
@@ -482,7 +347,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-09-20"
+        "2026-09-21"
       ],
       "hours": [],
       "plain": "",
@@ -497,7 +362,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-09-20"
+        "2026-09-21"
       ],
       "hours": [],
       "plain": "",
@@ -512,7 +377,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-09-20"
+        "2026-09-21"
       ],
       "hours": [],
       "plain": "",
@@ -804,97 +669,6 @@
       "last_seen": "2026-09-03T08:25:37+00:00",
       "extended": false,
       "status": "planned"
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-95/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 750, 806, 809, 810, 830, 831, 842, 400 λόγω εργασιών ειδικής ασφαλτόστρωσης περιμετρικά της πλατείας Ελευθερίας, στον Δήμο Κορυδαλλού",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-95/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [
-        "2026-09-12",
-        "2026-09-13"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-09-10T08:32:29+00:00",
-      "last_seen": "2026-09-10T08:32:29+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "62ΞΜ46ΜΤΛΒ-ΑΞΔ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "ΠΡΟΣΩΡΙΝΕΣ ΚΥΚΛΟΦΟΡΙΑΚΕΣ ΡΥΘΜΙΣΕΙΣ ΛΟΓΩ ΔΙΕΞΑΓΩΓΗΣ ΤΟΥ 7ΟΥ ΗΜΙΜΑΡΑΘΩΝΙΟΥ ΚΑΛΛΙΘΕΑΣ 2026 ΤΗΝ ΚΥΡΙΑΚΗ 13/09/2026",
-      "url": "https://diavgeia.gov.gr/decision/view/62ΞΜ46ΜΤΛΒ-ΑΞΔ",
-      "details": "Επίσημη απόφαση Τροχαίας (10/09/2026)",
-      "area": "Νότια",
-      "days": [
-        "2026-09-13"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-09-10T15:35:58+00:00",
-      "last_seen": "2026-09-11T02:18:59+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-tin-kyriaki-stin-kallithea",
-      "source": "iefimerida",
-      "title": "Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Καλλιθέα λόγω αγώνα δρόμου",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-tin-kyriaki-stin-kallithea",
-      "details": "",
-      "area": "Νότια",
-      "days": [
-        "2026-09-13"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-09-10T22:08:45+00:00",
-      "last_seen": "2026-09-13T18:26:43+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-7/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της Λ. Γραμμής  811  λόγω εργασιών στην οδό ΠΟΛΥΔΕΥΚΟΥΣ 26 ,  του Δήμου ΑΙΓΑΛΕΩ",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-7/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [
-        "2026-09-13"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-09-11T08:27:06+00:00",
-      "last_seen": "2026-09-11T08:27:06+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-72/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 891 στην οδό Γιαννιτσών, λόγω αγώνα ποδοσφαίρου στον Δήμο Περιστερίου",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-72/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [
-        "2026-09-13"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-09-12T08:15:53+00:00",
-      "last_seen": "2026-09-12T08:15:53+00:00",
-      "extended": false,
-      "status": "ended"
     },
     {
       "id": "ΡΡΨΘ46ΜΤΛΒ-84Μ",
@@ -1190,7 +964,7 @@
       "first_seen": "2026-09-19T08:25:03+00:00",
       "last_seen": "2026-09-19T08:25:03+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.kathimerini.gr/society/564468949/athinas-choris-aytokinito-poioi-dromoi-kleinoyn-to-savvatokyriako/",
@@ -1209,7 +983,7 @@
       "first_seen": "2026-09-19T08:25:03+00:00",
       "last_seen": "2026-09-19T08:25:03+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "68ΛΨ46ΜΤΛΒ-7ΦΖ",
@@ -1230,7 +1004,7 @@
       "first_seen": "2026-09-16T15:51:58+00:00",
       "last_seen": "2026-09-17T02:43:50+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.kathimerini.gr/society/564463768/thessaloniki-pezodromeitai-pilotika-tin-kyriaki-i-leoforos-nikis/",
@@ -1248,7 +1022,7 @@
       "first_seen": "2026-09-17T15:57:58+00:00",
       "last_seen": "2026-09-17T15:57:58+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "Ρ9Δ046ΜΤΛΒ-666",
@@ -1269,7 +1043,7 @@
       "first_seen": "2026-09-18T15:33:02+00:00",
       "last_seen": "2026-09-19T02:30:07+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "Ψ7ΚΠ46ΜΤΛΒ-ΟΜΘ",
@@ -1290,7 +1064,7 @@
       "first_seen": "2026-09-19T08:25:02+00:00",
       "last_seen": "2026-09-20T08:56:41+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     }
   ],
   "recent_notifications": [
@@ -1476,12 +1250,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-15T02:44:53+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-15T08:02:50+00:00",
       "new": 0,
@@ -1832,6 +1600,12 @@
     },
     {
       "time": "2026-09-20T19:05:47+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-09-20T21:39:17+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
