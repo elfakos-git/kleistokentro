@@ -428,21 +428,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-20T08:56:41+00:00"
+      "last_success": "2026-09-20T15:11:03+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 98,
+        "εκτός θέματος/Αθήνας": 99,
         "εκτός χρονικού παραθύρου": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-20T08:56:41+00:00"
+      "last_success": "2026-09-20T15:11:03+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -455,7 +455,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-20T08:56:41+00:00"
+      "last_success": "2026-09-20T15:11:03+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -466,7 +466,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-20T08:56:41+00:00"
+      "last_success": "2026-09-20T15:11:03+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -474,51 +474,32 @@
       "items": 2,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 4,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
+        "παλιά ανακοίνωση": 5,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
         "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-20T08:56:41+00:00"
+      "last_success": "2026-09-20T15:11:03+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 18,
-      "fetched": 22,
+      "fetched": 23,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-20T12:45:09+00:00"
+      "last_success": "2026-09-20T15:11:03+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [
-      {
-        "id": "Ψ7ΚΠ46ΜΤΛΒ-ΟΜΘ",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων επί της οδού Ρηγίλλης, στο ύψος του ο.α. 14 τμήμα της μεταξύ των οδών Βασ. Γεωργίου Β΄ και Λυκείου, περιοχής Δήμου Αθηναίων, στις 20.09.2026 κατά τις ώρες 09.30΄ έως 11.30΄, λόγω εκτέλεσης εργασιών μετακόμισης »",
-        "url": "https://diavgeia.gov.gr/decision/view/Ψ7ΚΠ46ΜΤΛΒ-ΟΜΘ",
-        "details": "Επίσημη απόφαση Τροχαίας (19/09/2026)",
-        "area": "Κέντρο",
-        "days": [
-          "2026-09-20"
-        ],
-        "hours": [
-          "09:30",
-          "11:30"
-        ],
-        "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Ρηγίλλης (ύψος αρ. 14, Δήμου Αθηναίων) · 20/9, 09:30–11:30",
-        "category": "",
-        "new_this_run": false
-      }
-    ],
+    "diavgeia": [],
     "iefimerida": [
       {
         "id": "https://www.iefimerida.gr/poli/athinas-horis-aytokinito-kykloforiakes-rythmiseis",
@@ -758,8 +739,8 @@
       {
         "id": "TTI-TTR51582749116013000",
         "source": "TomTom (realtime)",
-        "title": "Evripidou (Athinas) → Ermou (Athinas)",
-        "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
+        "title": "Sofokleous (Athinas) → Ermou (Athinas)",
+        "url": "https://www.google.com/maps?q=37.9810921973,23.7272621327",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -818,8 +799,8 @@
       {
         "id": "TTI-TTR51582749164015000",
         "source": "TomTom (realtime)",
-        "title": "Λεωχάρους / Μιλτιάδου → Ευριπίδου",
-        "url": "https://www.google.com/maps?q=37.9787010498,23.7299456829",
+        "title": "Ιωάννου Παπαρρηγοπούλου → Ευριπίδου",
+        "url": "https://www.google.com/maps?q=37.9783657464,23.730384224",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -1992,12 +1973,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-14T17:20:12+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-09-14T19:52:26+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2350,6 +2325,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-20T15:11:03+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
