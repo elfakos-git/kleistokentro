@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T02:38:25+00:00",
+  "generated_at": "2026-09-21T08:14:00+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -69,14 +69,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 12,
+      "fetched": 35,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 26
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-21T02:38:25+00:00"
+      "last_success": "2026-09-21T08:14:00+00:00"
     }
   ],
   "active_events": [
@@ -282,8 +282,8 @@
     {
       "id": "TTI-TTR51582749164015000",
       "source": "TomTom (realtime)",
-      "title": "Λεωχάρους / Μιλτιάδου → Ευριπίδου",
-      "url": "https://www.google.com/maps?q=37.9787010498,23.7299456829",
+      "title": "Σταδίου → Ευριπίδου",
+      "url": "https://www.google.com/maps?q=37.9786420497,23.7309085959",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -1069,6 +1069,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-09-21T08:14:00+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
+    {
       "time": "2026-09-20T07:56:36+00:00",
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
@@ -1241,21 +1247,9 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
-    },
-    {
-      "time": "2026-09-09T07:35:23+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-15T15:59:12+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-15T17:47:25+00:00",
       "new": 0,
@@ -1609,6 +1603,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-09-21T08:14:00+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
