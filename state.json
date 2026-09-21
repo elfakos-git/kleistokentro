@@ -409,7 +409,12 @@
     "TTI-TTR51579863628013001",
     "TTI-TTR51582749004007000",
     "TTI-TTR51582748936014001",
-    "TTI-TTR51582748936014000"
+    "TTI-TTR51582748936014000",
+    "ΨΒΜ846ΜΤΛΒ-ΗΡΖ",
+    "6ΜΕΤ46ΜΤΛΒ-ΕΓ8",
+    "96Κ546ΜΤΛΒ-ΓΡΦ",
+    "9ΨΝΔ46ΜΤΛΒ-ΦΟΥ",
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-97/"
   ],
   "seeded": [
     "astynomia",
@@ -424,26 +429,30 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
-      "date_misses": 0,
-      "body_enriched": 0,
-      "consecutive_failures": 0,
-      "last_success": "2026-09-21T02:38:25+00:00"
-    },
-    "diavgeia": {
-      "name": "diavgeia",
-      "ok": true,
-      "items": 0,
-      "fetched": 100,
+      "fetched": 54,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 98,
-        "εκτός χρονικού παραθύρου": 2
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-21T02:38:25+00:00"
+      "last_success": "2026-09-21T09:28:04+00:00"
+    },
+    "diavgeia": {
+      "name": "diavgeia",
+      "ok": true,
+      "items": 2,
+      "fetched": 100,
+      "dropped": {
+        "εκτός θέματος/Αθήνας": 94,
+        "εκτός χρονικού παραθύρου": 2,
+        "μόνο μία λωρίδα/ΛΕΑ": 2
+      },
+      "date_misses": 0,
+      "body_enriched": 0,
+      "consecutive_failures": 0,
+      "last_success": "2026-09-21T09:28:04+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -456,7 +465,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-21T02:38:25+00:00"
+      "last_success": "2026-09-21T09:28:04+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -467,40 +476,77 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-21T02:38:25+00:00"
+      "last_success": "2026-09-21T09:28:04+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 2,
+      "items": 1,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 5,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
-        "λεωφορεία (χωρίς ειδοποίηση)": 2
+        "παλιά ανακοίνωση": 8,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 2,
+        "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
-      "date_misses": 1,
+      "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-21T02:38:25+00:00"
+      "last_success": "2026-09-21T09:28:04+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 35,
+      "fetched": 32,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 26
+        "κατηγορία εκτός πολιτικής": 23
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-21T08:14:00+00:00"
+      "last_success": "2026-09-21T09:28:04+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [],
+    "diavgeia": [
+      {
+        "id": "ΨΒΜ846ΜΤΛΒ-ΗΡΖ",
+        "source": "Διαύγεια (Τροχαία)",
+        "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στην οδό Ασκληπιού, περιοχής Δήμου Αθηναίων, στο τμήμα της μεταξύ των οδών Ακαδημίας και Σόλωνος, την 26-09-2026, κατά τις ώρες 07.30΄ έως 09.30΄, για την εκτέλεση εργασιών ανύψωσης κλιματιστικών »",
+        "url": "https://diavgeia.gov.gr/decision/view/ΨΒΜ846ΜΤΛΒ-ΗΡΖ",
+        "details": "Επίσημη απόφαση Τροχαίας (21/09/2026)",
+        "area": "Κέντρο",
+        "days": [
+          "2026-09-26"
+        ],
+        "hours": [
+          "07:30",
+          "09:30"
+        ],
+        "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Αθηναίων · 26/9, 07:30–09:30",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "9ΨΝΔ46ΜΤΛΒ-ΦΟΥ",
+        "source": "Διαύγεια (Τροχαία)",
+        "title": "25632-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στον λεωφορειόδρομο της Λεωφ. Βασ. Αμαλίας, στο τμήμα μεταξύ των οδών Όθωνος και Ξενοφώντος, περιοχής Δήμου Αθηναίων, την 22.09.2026, κατά τις ώρες 00.30΄ έως 05.00΄, λόγω εκτέλεσης εργασιών μετακόμισης.",
+        "url": "https://diavgeia.gov.gr/decision/view/9ΨΝΔ46ΜΤΛΒ-ΦΟΥ",
+        "details": "Επίσημη απόφαση Τροχαίας (21/09/2026)",
+        "area": "Κέντρο",
+        "days": [
+          "2026-09-22"
+        ],
+        "hours": [
+          "00:30",
+          "05:00"
+        ],
+        "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Αμαλίας (Δήμου Αθηναίων) · 22/9, 00:30–05:00 · λόγω εργασιών μετακόμισης",
+        "category": "",
+        "new_this_run": true
+      }
+    ],
     "iefimerida": [
       {
         "id": "https://www.iefimerida.gr/poli/athinas-horis-aytokinito-kykloforiakes-rythmiseis",
@@ -650,30 +696,19 @@
     ],
     "oasa": [
       {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-70/",
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-97/",
         "source": "ΟΑΣΑ",
-        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 866, λόγω εκδηλώσεων επί της Λ. Δημοκρατίας (από την οδό 28ης Οκτωβρίου έως την οδό Φυλής) στον Δήμο Ασπροπύργου",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-70/",
-        "details": "",
-        "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-282/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 054 και 605, λόγω των εκδηλώσεων για τον εορτασμό του Αγίου Ευσταθίου, στην πλατεία Αγίου  Ευσταθίου και την οδό Άγγελου Σικελιανού, του Δήμου Ν. Ιωνίας",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-282/",
+        "title": "Προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής  653 (ΨΥΧΙΚΟ – ΠΑΝΟΡΜΟΥ Β),  λόγω εργασιών στην οδό Αλέξανδρου Παπαναστασίου 71, την Τρίτη 22-09-2026,  στο Δήμο Φιλοθέης – Ψυχικού",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-97/",
         "details": "",
         "area": "Βόρεια",
-        "days": [],
+        "days": [
+          "2026-09-22"
+        ],
         "hours": [],
         "plain": "",
         "category": "bus",
-        "new_this_run": false
+        "new_this_run": true
       }
     ],
     "tomtom": [
@@ -1546,6 +1581,70 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "ΨΒΜ846ΜΤΛΒ-ΗΡΖ": {
+      "id": "ΨΒΜ846ΜΤΛΒ-ΗΡΖ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στην οδό Ασκληπιού, περιοχής Δήμου Αθηναίων, στο τμήμα της μεταξύ των οδών Ακαδημίας και Σόλωνος, την 26-09-2026, κατά τις ώρες 07.30΄ έως 09.30΄, για την εκτέλεση εργασιών ανύψωσης κλιματιστικών »",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΒΜ846ΜΤΛΒ-ΗΡΖ",
+      "details": "Επίσημη απόφαση Τροχαίας (21/09/2026)",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-26"
+      ],
+      "hours": [
+        "07:30",
+        "09:30"
+      ],
+      "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Αθηναίων · 26/9, 07:30–09:30",
+      "category": "",
+      "first_seen": "2026-09-21T09:28:04+00:00",
+      "last_seen": "2026-09-21T09:28:04+00:00",
+      "extended": false,
+      "alerted_chats": []
+    },
+    "9ΨΝΔ46ΜΤΛΒ-ΦΟΥ": {
+      "id": "9ΨΝΔ46ΜΤΛΒ-ΦΟΥ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25632-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στον λεωφορειόδρομο της Λεωφ. Βασ. Αμαλίας, στο τμήμα μεταξύ των οδών Όθωνος και Ξενοφώντος, περιοχής Δήμου Αθηναίων, την 22.09.2026, κατά τις ώρες 00.30΄ έως 05.00΄, λόγω εκτέλεσης εργασιών μετακόμισης.",
+      "url": "https://diavgeia.gov.gr/decision/view/9ΨΝΔ46ΜΤΛΒ-ΦΟΥ",
+      "details": "Επίσημη απόφαση Τροχαίας (21/09/2026)",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-22"
+      ],
+      "hours": [
+        "00:30",
+        "05:00"
+      ],
+      "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Αμαλίας (Δήμου Αθηναίων) · 22/9, 00:30–05:00 · λόγω εργασιών μετακόμισης",
+      "category": "",
+      "first_seen": "2026-09-21T09:28:04+00:00",
+      "last_seen": "2026-09-21T09:28:04+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-97/": {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-97/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής  653 (ΨΥΧΙΚΟ – ΠΑΝΟΡΜΟΥ Β),  λόγω εργασιών στην οδό Αλέξανδρου Παπαναστασίου 71, την Τρίτη 22-09-2026,  στο Δήμο Φιλοθέης – Ψυχικού",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-97/",
+      "details": "",
+      "area": "Βόρεια",
+      "days": [
+        "2026-09-22"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-09-21T09:28:04+00:00",
+      "last_seen": "2026-09-21T09:28:04+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1555,12 +1654,6 @@
     "151797168": "2026-09-21"
   },
   "notifications": [
-    {
-      "time": "2026-09-10T07:31:53+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-09-10T08:32:29+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -1734,15 +1827,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-09-21T09:28:05+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25632-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στον λεωφορειόδρομο της Λεωφ. Βασ. Αμαλίας, στο τμήμα μεταξύ των οδών Όθωνος και Ξενοφώντος, περιοχής Δήμου Αθηναίων, την 22.09.2026, κατά τις ώρες 00.30΄ έως 05.00΄, λόγω εκτέλεσης εργασιών μετακόμισης.",
+      "url": "https://diavgeia.gov.gr/decision/view/9ΨΝΔ46ΜΤΛΒ-ΦΟΥ"
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-15T17:47:25+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-15T19:34:31+00:00",
       "new": 0,
@@ -2096,6 +2189,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-21T09:28:05+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
