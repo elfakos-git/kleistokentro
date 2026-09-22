@@ -437,7 +437,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-21T22:56:35+00:00"
+      "last_success": "2026-09-22T02:40:15+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -445,14 +445,14 @@
       "items": 2,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 90,
-        "εκτός χρονικού παραθύρου": 3,
+        "εκτός θέματος/Αθήνας": 92,
+        "εκτός χρονικού παραθύρου": 1,
         "μόνο μία λωρίδα/ΛΕΑ": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-21T22:56:35+00:00"
+      "last_success": "2026-09-22T02:40:15+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -465,7 +465,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-21T22:56:35+00:00"
+      "last_success": "2026-09-22T02:40:15+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -476,7 +476,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-21T22:56:35+00:00"
+      "last_success": "2026-09-22T02:40:15+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -491,7 +491,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-21T22:56:35+00:00"
+      "last_success": "2026-09-22T02:40:15+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -504,7 +504,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-21T23:23:28+00:00"
+      "last_success": "2026-09-22T02:40:15+00:00"
     }
   },
   "active": {
@@ -1559,7 +1559,7 @@
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Αθηναίων · 26/9, 07:30–09:30",
       "category": "",
       "first_seen": "2026-09-21T09:28:04+00:00",
-      "last_seen": "2026-09-21T22:56:35+00:00",
+      "last_seen": "2026-09-22T02:40:15+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -1580,7 +1580,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Αμαλίας (Δήμου Αθηναίων) · 22/9, 00:30–05:00 · λόγω εργασιών μετακόμισης",
       "category": "",
       "first_seen": "2026-09-21T09:28:04+00:00",
-      "last_seen": "2026-09-21T22:56:35+00:00",
+      "last_seen": "2026-09-22T02:40:15+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1600,7 +1600,7 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-09-21T09:28:04+00:00",
-      "last_seen": "2026-09-21T22:56:35+00:00",
+      "last_seen": "2026-09-22T02:40:15+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1796,12 +1796,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-16T07:56:14+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-16T08:57:57+00:00",
       "new": 3,
@@ -2155,6 +2149,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-22T02:40:15+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
