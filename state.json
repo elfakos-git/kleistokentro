@@ -420,7 +420,8 @@
     "ΡΟΖΗ46ΜΤΛΒ-ΕΣ1",
     "TTI-TTR51568321972014000",
     "TTI-TTR51582749160031000",
-    "TTI-TTR51582748972005000"
+    "TTI-TTR51582748972005000",
+    "https://www.kathimerini.gr/society/564475000/diakopi-kykloforias-stin-iera-odo-fortigo-epese-se-freatio/"
   ],
   "seeded": [
     "astynomia",
@@ -435,12 +436,15 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "fetched": 54,
+      "dropped": {
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-23T02:40:39+00:00"
+      "last_success": "2026-09-23T08:57:59+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -453,7 +457,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-23T02:40:39+00:00"
+      "last_success": "2026-09-23T08:58:00+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -466,7 +470,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-23T02:40:39+00:00"
+      "last_success": "2026-09-23T08:58:00+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -475,36 +479,37 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-09-23T02:40:39+00:00"
+      "last_success": "2026-09-23T08:58:00+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 4,
-      "fetched": 13,
+      "items": 1,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
-        "λεωφορεία (χωρίς ειδοποίηση)": 4
-      },
-      "date_misses": 1,
-      "body_enriched": 0,
-      "consecutive_failures": 0,
-      "last_success": "2026-09-23T02:40:39+00:00"
-    },
-    "tomtom": {
-      "name": "tomtom",
-      "ok": true,
-      "items": 11,
-      "fetched": 108,
-      "dropped": {
-        "κατηγορία εκτός πολιτικής": 97
+        "παλιά ανακοίνωση": 5,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
+        "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-23T07:59:29+00:00"
+      "last_success": "2026-09-23T08:58:00+00:00"
+    },
+    "tomtom": {
+      "name": "tomtom",
+      "ok": true,
+      "items": 10,
+      "fetched": 71,
+      "dropped": {
+        "κατηγορία εκτός πολιτικής": 61
+      },
+      "date_misses": 0,
+      "body_enriched": 0,
+      "consecutive_failures": 0,
+      "last_success": "2026-09-23T08:58:00+00:00"
     }
   },
   "active": {
@@ -512,6 +517,19 @@
     "diavgeia": [],
     "iefimerida": [],
     "kathimerini": [
+      {
+        "id": "https://www.kathimerini.gr/society/564475000/diakopi-kykloforias-stin-iera-odo-fortigo-epese-se-freatio/",
+        "source": "kathimerini",
+        "title": "Διακοπή κυκλοφορίας στην Ιερά Οδό – Φορτηγό έπεσε σε φρεάτιο",
+        "url": "https://www.kathimerini.gr/society/564475000/diakopi-kykloforias-stin-iera-odo-fortigo-epese-se-freatio/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
       {
         "id": "https://www.kathimerini.gr/society/564468949/athinas-choris-aytokinito-poioi-dromoi-kleinoyn-to-savvatokyriako/",
         "source": "kathimerini",
@@ -628,62 +646,9 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564374677/thessaloniki-kleisto-kommati-tis-perifereiakis-to-savvato/",
-        "source": "kathimerini",
-        "title": "Κλειστή για έξι ώρες θα είναι η Ανατολική Εσωτερική Περιφερειακή Οδός στο ύψος του Ανισόπεδου Κόμβου Κ11.",
-        "url": "https://www.kathimerini.gr/society/564374677/thessaloniki-kleisto-kommati-tis-perifereiakis-to-savvato/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
       }
     ],
-    "oasa": [
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-70/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 866, λόγω εκδηλώσεων επί της Λ. Δημοκρατίας (από την οδό 28ης Οκτωβρίου έως την οδό Φυλής) στον Δήμο Ασπροπύργου",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-70/",
-        "details": "",
-        "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-282/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 054 και 605, λόγω των εκδηλώσεων για τον εορτασμό του Αγίου Ευσταθίου, στην πλατεία Αγίου  Ευσταθίου και την οδό Άγγελου Σικελιανού, του Δήμου Ν. Ιωνίας",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-282/",
-        "details": "",
-        "area": "Βόρεια",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-2/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή μερική τροποποίηση των διαδρομών των λεωφορειακών γραμμών λόγω εκδηλώσεων στο Θέατρο  Πέτρας στον Δήμο Πετρούπολης",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-2/",
-        "details": "",
-        "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      }
-    ],
+    "oasa": [],
     "tomtom": [
       {
         "id": "TTI-TTR51574092528014000",
@@ -703,8 +668,8 @@
       {
         "id": "TTI-TTR51585634408005000",
         "source": "TomTom (realtime)",
-        "title": "Erisihthonos (Nileos) → Akteou (Nileos)",
-        "url": "https://www.google.com/maps?q=37.9751497955,23.7159633273",
+        "title": "Dimofontos (Nileos) → Amfiktionos (Nileos)",
+        "url": "https://www.google.com/maps?q=37.9752557099,23.7149910265",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -729,21 +694,6 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582748972005000",
-        "source": "TomTom (realtime)",
-        "title": "Protogenous (Athinas) → Ag. Irinis (Athinas)",
-        "url": "https://www.google.com/maps?q=37.9781806847,23.726508432",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-09-23"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
       },
       {
         "id": "TTI-TTR51582749160031000",
@@ -1562,7 +1512,7 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-09-21T09:28:04+00:00",
-      "last_seen": "2026-09-23T02:40:39+00:00",
+      "last_seen": "2026-09-23T08:58:00+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1576,12 +1526,6 @@
     "151797168": "2026-09-23"
   },
   "notifications": [
-    {
-      "time": "2026-09-10T22:08:45+00:00",
-      "source": "iefimerida",
-      "title": "🚨 Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Καλλιθέα λόγω αγώνα δρόμου",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-tin-kyriaki-stin-kallithea"
-    },
     {
       "time": "2026-09-11T07:30:19+00:00",
       "source": "Ενημέρωση",
@@ -1755,15 +1699,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-09-23T08:58:00+00:00",
+      "source": "kathimerini",
+      "title": "Διακοπή κυκλοφορίας στην Ιερά Οδό – Φορτηγό έπεσε σε φρεάτιο",
+      "url": "https://www.kathimerini.gr/society/564475000/diakopi-kykloforias-stin-iera-odo-fortigo-epese-se-freatio/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-17T09:03:49+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-17T13:04:59+00:00",
       "new": 0,
@@ -2117,6 +2061,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-23T08:58:00+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
