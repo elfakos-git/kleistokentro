@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T02:40:39+00:00",
+  "generated_at": "2026-09-23T07:59:30+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -66,15 +66,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 13,
+      "items": 11,
+      "fetched": 108,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 97
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-23T02:40:39+00:00"
+      "last_success": "2026-09-23T07:59:29+00:00"
     }
   ],
   "active_events": [
@@ -263,6 +263,21 @@
       "new_this_run": false
     },
     {
+      "id": "TTI-TTR51585634408005000",
+      "source": "TomTom (realtime)",
+      "title": "Erisihthonos (Nileos) → Akteou (Nileos)",
+      "url": "https://www.google.com/maps?q=37.9751497955,23.7159633273",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-23"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
       "id": "TTI-TTR51568321972014000",
       "source": "TomTom (realtime)",
       "title": "Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
@@ -276,6 +291,21 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51582748972005000",
+      "source": "TomTom (realtime)",
+      "title": "Protogenous (Athinas) → Ag. Irinis (Athinas)",
+      "url": "https://www.google.com/maps?q=37.9781806847,23.726508432",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-09-23"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51582749160031000",
@@ -1054,6 +1084,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-09-23T07:59:30+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
+    {
       "time": "2026-09-22T07:58:06+00:00",
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
@@ -1226,21 +1262,9 @@
       "source": "iefimerida",
       "title": "🚨 Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Καλλιθέα λόγω αγώνα δρόμου",
       "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-tin-kyriaki-stin-kallithea"
-    },
-    {
-      "time": "2026-09-10T21:42:22+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "🚨 ΠΡΟΣΩΡΙΝΕΣ ΚΥΚΛΟΦΟΡΙΑΚΕΣ ΡΥΘΜΙΣΕΙΣ ΛΟΓΩ ΔΙΕΞΑΓΩΓΗΣ ΤΟΥ 7ΟΥ ΗΜΙΜΑΡΑΘΩΝΙΟΥ ΚΑΛΛΙΘΕΑΣ 2026 ΤΗΝ ΚΥΡΙΑΚΗ 13/09/2026",
-      "url": "https://diavgeia.gov.gr/decision/view/62ΞΜ46ΜΤΛΒ-ΑΞΔ"
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-17T08:00:14+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-17T09:03:49+00:00",
       "new": 0,
@@ -1594,6 +1618,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-09-23T07:59:30+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
