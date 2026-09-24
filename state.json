@@ -448,21 +448,22 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-23T22:35:32+00:00"
+      "last_success": "2026-09-24T02:29:58+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 3,
+      "items": 2,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 96,
+        "εκτός θέματος/Αθήνας": 95,
+        "εκτός χρονικού παραθύρου": 2,
         "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-23T22:35:32+00:00"
+      "last_success": "2026-09-24T02:29:58+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -475,7 +476,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-23T22:35:32+00:00"
+      "last_success": "2026-09-24T02:29:58+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -486,7 +487,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-23T22:35:32+00:00"
+      "last_success": "2026-09-24T02:29:58+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -501,7 +502,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-23T22:35:32+00:00"
+      "last_success": "2026-09-24T02:29:58+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -514,7 +515,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-23T23:14:53+00:00"
+      "last_success": "2026-09-24T02:29:58+00:00"
     }
   },
   "active": {
@@ -535,24 +536,6 @@
           "05:00"
         ],
         "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Αμαλίας (Δήμου Αθηναίων) · 24/9, 00:30–05:00 · λόγω εργασιών μετακόμ",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "ΡΟΖΗ46ΜΤΛΒ-ΕΣ1",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "25629 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Πλήρη διακοπή της κυκλοφορίας των οχημάτων επί της οδού Σόλωνος, στο τμήμα της μεταξύ των οδών Μαυρομιχάλη και Χαρ. Τρικούπη, περιοχής Δήμου Αθηναίων, στις 24-09-2026, κατά τις ώρες 00.30΄ έως 04.30΄, λόγω εκτέλεσης εργασιών σκυροδέτησης με χρήση πρέσας",
-        "url": "https://diavgeia.gov.gr/decision/view/ΡΟΖΗ46ΜΤΛΒ-ΕΣ1",
-        "details": "Επίσημη απόφαση Τροχαίας (21/09/2026)",
-        "area": "Κέντρο",
-        "days": [
-          "2026-09-24"
-        ],
-        "hours": [
-          "00:30",
-          "04:30"
-        ],
-        "plain": "Διακοπή κυκλοφορίας στην οδό Σόλωνος (Δήμου Αθηναίων) · 24/9, 00:30–04:30 · λόγω εργασιών σκυροδέτησης με χρήση πρέσας",
         "category": "",
         "new_this_run": false
       },
@@ -1499,7 +1482,7 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-09-21T09:28:04+00:00",
-      "last_seen": "2026-09-23T22:35:32+00:00",
+      "last_seen": "2026-09-24T02:29:58+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1522,7 +1505,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Αμαλίας (Δήμου Αθηναίων) · 24/9, 00:30–05:00 · λόγω εργασιών μετακόμ",
       "category": "",
       "first_seen": "2026-09-23T15:52:02+00:00",
-      "last_seen": "2026-09-23T22:35:32+00:00",
+      "last_seen": "2026-09-24T02:29:58+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1568,7 +1551,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-23T15:52:02+00:00",
-      "last_seen": "2026-09-23T22:35:32+00:00",
+      "last_seen": "2026-09-24T02:29:58+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1764,12 +1747,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-18T02:31:01+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-18T07:38:23+00:00",
       "new": 0,
@@ -2123,6 +2100,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-24T02:29:58+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
