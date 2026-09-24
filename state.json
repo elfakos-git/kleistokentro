@@ -425,7 +425,13 @@
     "TTI-TTR51602946944006000",
     "Ε7ΦΥ46ΜΤΛΒ-5ΛΡ",
     "ΡΕ2846ΜΤΛΒ-ΗΟΒ",
-    "9Θ8Κ46ΜΤΛΒ-ΩΗΝ"
+    "9Θ8Κ46ΜΤΛΒ-ΩΗΝ",
+    "99ΘΞ46ΜΤΛΒ-6Ξ4",
+    "6Σ3446ΜΤΛΒ-ΞΒ3",
+    "6ΜΘΝ46ΜΤΛΒ-73Ζ",
+    "Ρ4ΔΦ46ΜΤΛΒ-177",
+    "ΡΒΔΣ46ΜΤΛΒ-Β3Ε",
+    "ΨΥΕ046ΜΤΛΒ-ΗΑΨ"
   ],
   "seeded": [
     "astynomia",
@@ -448,7 +454,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-24T08:53:56+00:00"
+      "last_success": "2026-09-24T16:14:10+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -456,13 +462,14 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99,
-        "άλλη περιοχή": 1
+        "εκτός θέματος/Αθήνας": 93,
+        "εκτός χρονικού παραθύρου": 1,
+        "μόνο μία λωρίδα/ΛΕΑ": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-24T08:53:56+00:00"
+      "last_success": "2026-09-24T16:14:10+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -475,7 +482,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-24T08:53:56+00:00"
+      "last_success": "2026-09-24T16:14:10+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -486,34 +493,34 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-24T08:53:56+00:00"
+      "last_success": "2026-09-24T16:14:10+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 3,
-      "fetched": 13,
+      "items": 0,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10,
-        "λεωφορεία (χωρίς ειδοποίηση)": 3
+        "παλιά ανακοίνωση": 7,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4
       },
-      "date_misses": 1,
+      "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-24T08:53:56+00:00"
+      "last_success": "2026-09-24T16:14:10+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 108,
+      "fetched": 80,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 99
+        "κατηγορία εκτός πολιτικής": 71
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-24T12:56:07+00:00"
+      "last_success": "2026-09-24T16:14:10+00:00"
     }
   },
   "active": {
@@ -652,34 +659,7 @@
         "new_this_run": false
       }
     ],
-    "oasa": [
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-70/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 866, λόγω εκδηλώσεων επί της Λ. Δημοκρατίας (από την οδό 28ης Οκτωβρίου έως την οδό Φυλής) στον Δήμο Ασπροπύργου",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-70/",
-        "details": "",
-        "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-282/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 054 και 605, λόγω των εκδηλώσεων για τον εορτασμό του Αγίου Ευσταθίου, στην πλατεία Αγίου  Ευσταθίου και την οδό Άγγελου Σικελιανού, του Δήμου Ν. Ιωνίας",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-282/",
-        "details": "",
-        "area": "Βόρεια",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      }
-    ],
+    "oasa": [],
     "tomtom": [
       {
         "id": "TTI-TTR51574092528014000",
@@ -1736,12 +1716,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-18T15:33:02+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-09-18T16:34:03+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2094,6 +2068,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-24T16:14:10+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
