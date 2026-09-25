@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T21:41:26+00:00",
+  "generated_at": "2026-09-25T22:59:15+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-25T16:14:30+00:00"
+      "last_success": "2026-09-25T22:59:15+00:00"
     },
     {
       "name": "diavgeia",
@@ -21,14 +21,14 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 96,
+        "εκτός θέματος/Αθήνας": 97,
         "άλλη περιοχή": 1,
-        "μόνο μία λωρίδα/ΛΕΑ": 3
+        "μόνο μία λωρίδα/ΛΕΑ": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-25T16:14:30+00:00"
+      "last_success": "2026-09-25T22:59:15+00:00"
     },
     {
       "name": "iefimerida",
@@ -41,7 +41,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-25T16:14:30+00:00"
+      "last_success": "2026-09-25T22:59:15+00:00"
     },
     {
       "name": "kathimerini",
@@ -52,7 +52,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-25T16:14:30+00:00"
+      "last_success": "2026-09-25T22:59:15+00:00"
     },
     {
       "name": "oasa",
@@ -67,7 +67,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-25T16:14:30+00:00"
+      "last_success": "2026-09-25T22:59:15+00:00"
     },
     {
       "name": "tomtom",
@@ -80,7 +80,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-25T21:41:26+00:00"
+      "last_success": "2026-09-25T22:59:15+00:00"
     }
   ],
   "active_events": [
@@ -1220,12 +1220,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-19T15:58:01+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-09-19T18:19:20+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1578,6 +1572,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-25T22:59:15+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
