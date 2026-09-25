@@ -431,7 +431,12 @@
     "6ΜΘΝ46ΜΤΛΒ-73Ζ",
     "Ρ4ΔΦ46ΜΤΛΒ-177",
     "ΡΒΔΣ46ΜΤΛΒ-Β3Ε",
-    "ΨΥΕ046ΜΤΛΒ-ΗΑΨ"
+    "ΨΥΕ046ΜΤΛΒ-ΗΑΨ",
+    "Ψ03346ΜΤΛΒ-Ε57",
+    "Ψ2Ω646ΜΤΛΒ-4ΩΩ",
+    "Ρ14Ν46ΜΤΛΒ-ΓΣ5",
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-3/",
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-289/"
   ],
   "seeded": [
     "astynomia",
@@ -446,15 +451,15 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
+      "fetched": 53,
       "dropped": {
         "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
+        "no level detected, no disruption keyword": 52
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-25T02:46:55+00:00"
+      "last_success": "2026-09-25T09:14:31+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -462,13 +467,14 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 94,
-        "μόνο μία λωρίδα/ΛΕΑ": 6
+        "εκτός θέματος/Αθήνας": 96,
+        "άλλη περιοχή": 1,
+        "μόνο μία λωρίδα/ΛΕΑ": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-25T02:46:55+00:00"
+      "last_success": "2026-09-25T09:14:31+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -481,7 +487,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-25T02:46:55+00:00"
+      "last_success": "2026-09-25T09:14:31+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -492,34 +498,35 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-25T02:46:55+00:00"
+      "last_success": "2026-09-25T09:14:31+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 0,
+      "items": 2,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 7,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4
+        "παλιά ανακοίνωση": 2,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
+        "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 2,
       "consecutive_failures": 0,
-      "last_success": "2026-09-25T02:46:55+00:00"
+      "last_success": "2026-09-25T09:14:34+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 72,
+      "fetched": 68,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 63
+        "κατηγορία εκτός πολιτικής": 59
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-25T08:13:08+00:00"
+      "last_success": "2026-09-25T09:14:34+00:00"
     }
   },
   "active": {
@@ -658,7 +665,38 @@
         "new_this_run": false
       }
     ],
-    "oasa": [],
+    "oasa": [
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-3/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή μερική τροποποίηση των διαδρομών των λεωφορειακών γραμμών λόγω εκδηλώσεων στο Θέατρο Πέτρας στον Δήμο Πετρούπολης",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-3/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [
+          "2026-09-25"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": true
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-289/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 833, 832, λόγω εργασιών στην οδό Δωδεκανήσου 98, του Δήμου ΚΕΡΑΤΣΙΝΙΟΥ",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-289/",
+        "details": "",
+        "area": "",
+        "days": [
+          "2026-09-26"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": true
+      }
+    ],
     "tomtom": [
       {
         "id": "TTI-TTR51574092528014000",
@@ -1523,6 +1561,46 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-3/": {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-3/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση των διαδρομών των λεωφορειακών γραμμών λόγω εκδηλώσεων στο Θέατρο Πέτρας στον Δήμο Πετρούπολης",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-3/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-09-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-09-25T09:14:33+00:00",
+      "last_seen": "2026-09-25T09:14:33+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-289/": {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-289/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 833, 832, λόγω εργασιών στην οδό Δωδεκανήσου 98, του Δήμου ΚΕΡΑΤΣΙΝΙΟΥ",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-289/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-09-26"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-09-25T09:14:34+00:00",
+      "last_seen": "2026-09-25T09:14:34+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1714,12 +1792,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-19T02:30:13+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-19T07:33:52+00:00",
       "new": 0,
@@ -2073,6 +2145,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-25T09:14:34+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
