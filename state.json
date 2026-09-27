@@ -521,14 +521,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 12,
+      "fetched": 13,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-27T18:31:24+00:00"
+      "last_success": "2026-09-27T21:40:36+00:00"
     }
   },
   "active": {
@@ -762,7 +762,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-09-27"
+          "2026-09-28"
         ],
         "hours": [],
         "plain": "",
@@ -777,7 +777,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-09-27"
+          "2026-09-28"
         ],
         "hours": [],
         "plain": "",
@@ -792,7 +792,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-09-27"
+          "2026-09-28"
         ],
         "hours": [],
         "plain": "",
@@ -807,7 +807,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-09-27"
+          "2026-09-28"
         ],
         "hours": [],
         "plain": "",
@@ -822,7 +822,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-09-27"
+          "2026-09-28"
         ],
         "hours": [],
         "plain": "",
@@ -837,7 +837,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-09-27"
+          "2026-09-28"
         ],
         "hours": [],
         "plain": "",
@@ -852,7 +852,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-09-27"
+          "2026-09-28"
         ],
         "hours": [],
         "plain": "",
@@ -867,7 +867,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-09-27"
+          "2026-09-28"
         ],
         "hours": [],
         "plain": "",
@@ -882,7 +882,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-09-27"
+          "2026-09-28"
         ],
         "hours": [],
         "plain": "",
@@ -1287,137 +1287,6 @@
       "category": "bus",
       "first_seen": "2026-09-15T09:05:51+00:00",
       "last_seen": "2026-09-15T09:05:51+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "68ΛΨ46ΜΤΛΒ-7ΦΖ": {
-      "id": "68ΛΨ46ΜΤΛΒ-7ΦΖ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25615-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στο δεξιό άκρο του οδοστρώματος της Λ. Τατοΐου, περιοχής Δήμου Κηφισιάς, στο ύψος του ο.α. 39, ρεύμα κυκλοφορίας προς Μαρούσι, την 20-09-2026, κατά τις ώρες 08.00΄ έως 13.00΄, λόγω εκτέλεσης ερ",
-      "url": "https://diavgeia.gov.gr/decision/view/68ΛΨ46ΜΤΛΒ-7ΦΖ",
-      "details": "Επίσημη απόφαση Τροχαίας (16/09/2026)",
-      "area": "Βόρεια",
-      "days": [
-        "2026-09-20"
-      ],
-      "hours": [
-        "08:00",
-        "13:00"
-      ],
-      "plain": "Διακοπή κυκλοφορίας στη Λ. Τατοΐου (ύψος αρ. 39, προς Μαρούσι, Δήμου Κηφισιάς) · 20/9, 08:00–13:00",
-      "category": "",
-      "first_seen": "2026-09-16T15:51:58+00:00",
-      "last_seen": "2026-09-17T02:43:50+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.kathimerini.gr/society/564463768/thessaloniki-pezodromeitai-pilotika-tin-kyriaki-i-leoforos-nikis/": {
-      "id": "https://www.kathimerini.gr/society/564463768/thessaloniki-pezodromeitai-pilotika-tin-kyriaki-i-leoforos-nikis/",
-      "source": "kathimerini",
-      "title": "Σε ποιο σημείο και πότε θα ισχύσει η απαγόρευση κυκλοφορίας.",
-      "url": "https://www.kathimerini.gr/society/564463768/thessaloniki-pezodromeitai-pilotika-tin-kyriaki-i-leoforos-nikis/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-09-20"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-09-17T15:57:58+00:00",
-      "last_seen": "2026-09-17T15:57:58+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "Ρ9Δ046ΜΤΛΒ-666": {
-      "id": "Ρ9Δ046ΜΤΛΒ-666",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25621 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στο δεξί τμήμα του οδοστρώματος της οδού Όθωνος, στο ύψος του ο.α.6, ρεύμα κυκλοφορίας προς Λεωφ. Βασ. Αμαλίας, περιοχής Δήμου Αθηναίων, την 19 και 20-09-2026, κατά τις ώρες 07.00΄ έως 10.00΄, για την εκτέλεσ",
-      "url": "https://diavgeia.gov.gr/decision/view/Ρ9Δ046ΜΤΛΒ-666",
-      "details": "Επίσημη απόφαση Τροχαίας (18/09/2026)",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-20"
-      ],
-      "hours": [
-        "07:00",
-        "10:00"
-      ],
-      "plain": "Διακοπή κυκλοφορίας στην οδό Όθωνος (ύψος αρ. 6, προς Λεωφ. Βασ. Αμαλίας, Δήμου Αθηναίων) · 20/9, 07:00–10:00",
-      "category": "",
-      "first_seen": "2026-09-18T15:33:02+00:00",
-      "last_seen": "2026-09-19T02:30:07+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "Ψ7ΚΠ46ΜΤΛΒ-ΟΜΘ": {
-      "id": "Ψ7ΚΠ46ΜΤΛΒ-ΟΜΘ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων επί της οδού Ρηγίλλης, στο ύψος του ο.α. 14 τμήμα της μεταξύ των οδών Βασ. Γεωργίου Β΄ και Λυκείου, περιοχής Δήμου Αθηναίων, στις 20.09.2026 κατά τις ώρες 09.30΄ έως 11.30΄, λόγω εκτέλεσης εργασιών μετακόμισης »",
-      "url": "https://diavgeia.gov.gr/decision/view/Ψ7ΚΠ46ΜΤΛΒ-ΟΜΘ",
-      "details": "Επίσημη απόφαση Τροχαίας (19/09/2026)",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-20"
-      ],
-      "hours": [
-        "09:30",
-        "11:30"
-      ],
-      "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Ρηγίλλης (ύψος αρ. 14, Δήμου Αθηναίων) · 20/9, 09:30–11:30",
-      "category": "",
-      "first_seen": "2026-09-19T08:25:02+00:00",
-      "last_seen": "2026-09-20T08:56:41+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.iefimerida.gr/poli/athinas-horis-aytokinito-kykloforiakes-rythmiseis": {
-      "id": "https://www.iefimerida.gr/poli/athinas-horis-aytokinito-kykloforiakes-rythmiseis",
-      "source": "iefimerida",
-      "title": "«Αθηνάς Χωρίς Αυτοκίνητο»: Κυκλοφοριακές ρυθμίσεις στο κέντρο απόψε -Πώς διεξάγονται τα δρομολόγια λεωφορείων",
-      "url": "https://www.iefimerida.gr/poli/athinas-horis-aytokinito-kykloforiakes-rythmiseis",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-19",
-        "2026-09-20"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-09-19T08:25:03+00:00",
-      "last_seen": "2026-09-19T08:25:03+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.kathimerini.gr/society/564468949/athinas-choris-aytokinito-poioi-dromoi-kleinoyn-to-savvatokyriako/": {
-      "id": "https://www.kathimerini.gr/society/564468949/athinas-choris-aytokinito-poioi-dromoi-kleinoyn-to-savvatokyriako/",
-      "source": "kathimerini",
-      "title": "«Αθηνάς Χωρίς Αυτοκίνητο»: Ποιοι δρόμοι κλείνουν το Σαββατοκύριακο",
-      "url": "https://www.kathimerini.gr/society/564468949/athinas-choris-aytokinito-poioi-dromoi-kleinoyn-to-savvatokyriako/",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-19",
-        "2026-09-20"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-09-19T08:25:03+00:00",
-      "last_seen": "2026-09-19T08:25:03+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1872,12 +1741,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-21T09:28:05+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-09-21T15:10:35+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2227,6 +2090,12 @@
     },
     {
       "time": "2026-09-27T18:31:24+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-09-27T21:40:36+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
