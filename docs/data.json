@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:20:21+00:00",
+  "generated_at": "2026-09-27T16:07:31+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-27T09:41:23+00:00"
+      "last_success": "2026-09-27T16:07:31+00:00"
     },
     {
       "name": "diavgeia",
@@ -18,13 +18,12 @@
       "items": 2,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97,
-        "μόνο μία λωρίδα/ΛΕΑ": 1
+        "εκτός θέματος/Αθήνας": 98
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-27T09:41:23+00:00"
+      "last_success": "2026-09-27T16:07:31+00:00"
     },
     {
       "name": "iefimerida",
@@ -37,7 +36,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-27T09:41:23+00:00"
+      "last_success": "2026-09-27T16:07:31+00:00"
     },
     {
       "name": "kathimerini",
@@ -48,35 +47,34 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-27T09:41:23+00:00"
+      "last_success": "2026-09-27T16:07:31+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
       "items": 4,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
         "λεωφορεία (χωρίς ειδοποίηση)": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-27T09:41:23+00:00"
+      "last_success": "2026-09-27T16:07:31+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 15,
+      "fetched": 21,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 12
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-27T14:20:21+00:00"
+      "last_success": "2026-09-27T16:07:31+00:00"
     }
   ],
   "active_events": [
@@ -96,7 +94,7 @@
       ],
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Αθηναίων (προς την οδό 28ης Οκτωβρίου) · 1/10, 01:00–04:00",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "9Τ9746ΜΤΛΒ-Κ4Σ",
@@ -1161,7 +1159,7 @@
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Αθηναίων (προς την οδό 28ης Οκτωβρίου) · 1/10, 01:00–04:00",
       "category": "",
       "first_seen": "2026-09-27T09:41:23+00:00",
-      "last_seen": "2026-09-27T09:41:23+00:00",
+      "last_seen": "2026-09-27T16:07:31+00:00",
       "extended": false,
       "status": "planned"
     }
@@ -1349,12 +1347,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-21T02:38:25+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-21T08:14:00+00:00",
       "new": 0,
@@ -1708,6 +1700,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-27T16:07:31+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
