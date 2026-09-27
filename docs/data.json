@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T02:51:33+00:00",
+  "generated_at": "2026-09-27T08:36:10+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -69,14 +69,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 12,
+      "fetched": 21,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 12
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-27T02:51:33+00:00"
+      "last_success": "2026-09-27T08:36:09+00:00"
     }
   ],
   "active_events": [
@@ -1129,6 +1129,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-09-27T08:36:10+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
+    {
       "time": "2026-09-26T15:28:06+00:00",
       "source": "Διαύγεια (Τροχαία)",
       "title": "ΑΠΟΦΑΣΗ ΠΡΟΣΩΡΙΝΩΝ ΚΥΚΛΟΦΟΡΙΑΚΩΝ ΡΥΘΜΙΣΕΩΝ ΣΤΟΝ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟ Α.Θ.Ε. Χ.Θ. 161+500 έως Χ.Θ. 159+500 ΣΤΟ ΡΕΥΜΑ ΚΥΚΛΟΦΟΡΙΑΣ ΠΡΟΣ ΑΘΗΝΑ",
@@ -1301,21 +1307,9 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
-    },
-    {
-      "time": "2026-09-14T09:26:13+00:00",
-      "source": "iefimerida",
-      "title": "🚨 Κυκλοφοριακές ρυθμίσεις στον αυτοκινητόδρομο Αθήνας - Θεσσαλονίκης, ποιους οδηγούς επηρεάζει",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athina-thessaloniki-0"
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-20T21:39:17+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-20T22:05:00+00:00",
       "new": 0,
@@ -1669,6 +1663,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-09-27T08:36:10+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
