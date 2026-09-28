@@ -445,7 +445,9 @@
     "https://www.oasa.gr/blog/%ce%ba%ce%b1%ce%b8%cf%85%cf%83%cf%84%ce%b5%cf%81%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%b5%ce%ba%cf%84%ce%ad%ce%bb%ce%b5%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%cf%81%ce%bf%ce%bc/",
     "9Τ9746ΜΤΛΒ-Κ4Σ",
     "9ΩΨΡ46ΜΤΛΒ-ΜΘ2",
-    "TTI-TTR51582749080029000"
+    "TTI-TTR51582749080029000",
+    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kifisos-mehri-1-oktobrioy",
+    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athinon-thessalonikis-1"
   ],
   "seeded": [
     "astynomia",
@@ -460,15 +462,15 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
+      "fetched": 53,
       "dropped": {
         "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
+        "no level detected, no disruption keyword": 52
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-28T10:21:11+00:00"
+      "last_success": "2026-09-28T19:02:08+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -476,25 +478,26 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 99,
+        "άλλη περιοχή": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-28T10:21:11+00:00"
+      "last_success": "2026-09-28T19:02:08+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 0,
+      "items": 2,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 11
+        "χωρίς/παλιά ημερομηνία": 9
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 2,
       "consecutive_failures": 0,
-      "last_success": "2026-09-28T10:21:11+00:00"
+      "last_success": "2026-09-28T19:02:09+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -505,40 +508,75 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-28T10:21:11+00:00"
+      "last_success": "2026-09-28T19:02:09+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 4,
-      "fetched": 13,
+      "items": 3,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
-        "λεωφορεία (χωρίς ειδοποίηση)": 3
+        "παλιά ανακοίνωση": 1,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
+        "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-28T10:21:12+00:00"
+      "last_success": "2026-09-28T19:02:09+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 28,
+      "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 18
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-28T17:21:08+00:00"
+      "last_success": "2026-09-28T19:02:09+00:00"
     }
   },
   "active": {
     "astynomia": [],
     "diavgeia": [],
-    "iefimerida": [],
+    "iefimerida": [
+      {
+        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kifisos-mehri-1-oktobrioy",
+        "source": "iefimerida",
+        "title": "Κυκλοφοριακές ρυθμίσεις στον Κηφισό μέχρι 1/10, τι πρέπει να ξέρουν οι οδηγοί",
+        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kifisos-mehri-1-oktobrioy",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [
+          "2026-10-01"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athinon-thessalonikis-1",
+        "source": "iefimerida",
+        "title": "Κυκλοφοριακές ρυθμίσεις στον αυτοκινητόδρομο Αθηνών - Θεσσαλονίκης, ποιοι οδηγοί επηρεάζονται",
+        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athinon-thessalonikis-1",
+        "details": "",
+        "area": "",
+        "days": [
+          "2026-09-30",
+          "2026-10-01",
+          "2026-10-07",
+          "2026-10-08"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      }
+    ],
     "kathimerini": [
       {
         "id": "https://www.kathimerini.gr/society/564475000/diakopi-kykloforias-stin-iera-odo-fortigo-epese-se-freatio/",
@@ -710,19 +748,6 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-3/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή μερική τροποποίηση των διαδρομών των λεωφορειακών γραμμών λόγω εκδηλώσεων στο Θέατρο Πέτρας στον Δήμο Πετρούπολης",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-3/",
-        "details": "",
-        "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
       }
     ],
     "tomtom": [
@@ -769,7 +794,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51582749160031000",
@@ -1536,6 +1561,47 @@
       "last_seen": "2026-09-28T02:51:49+00:00",
       "extended": false,
       "alerted_chats": []
+    },
+    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kifisos-mehri-1-oktobrioy": {
+      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kifisos-mehri-1-oktobrioy",
+      "source": "iefimerida",
+      "title": "Κυκλοφοριακές ρυθμίσεις στον Κηφισό μέχρι 1/10, τι πρέπει να ξέρουν οι οδηγοί",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kifisos-mehri-1-oktobrioy",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-10-01"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-09-28T19:02:08+00:00",
+      "last_seen": "2026-09-28T19:02:08+00:00",
+      "extended": false,
+      "alerted_chats": []
+    },
+    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athinon-thessalonikis-1": {
+      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athinon-thessalonikis-1",
+      "source": "iefimerida",
+      "title": "Κυκλοφοριακές ρυθμίσεις στον αυτοκινητόδρομο Αθηνών - Θεσσαλονίκης, ποιοι οδηγοί επηρεάζονται",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athinon-thessalonikis-1",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-07",
+        "2026-10-08"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-09-28T19:02:09+00:00",
+      "last_seen": "2026-09-28T19:02:09+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1545,12 +1611,6 @@
     "151797168": "2026-09-28"
   },
   "notifications": [
-    {
-      "time": "2026-09-16T07:56:14+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-09-16T08:57:57+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -1724,15 +1784,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-09-28T19:02:10+00:00",
+      "source": "iefimerida",
+      "title": "🚨 Κυκλοφοριακές ρυθμίσεις στον αυτοκινητόδρομο Αθηνών - Θεσσαλονίκης, ποιοι οδηγοί επηρεάζονται",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athinon-thessalonikis-1"
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-22T07:58:06+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-22T08:55:48+00:00",
       "new": 0,
@@ -2086,6 +2146,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-28T19:02:10+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
