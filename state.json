@@ -447,7 +447,8 @@
     "9ΩΨΡ46ΜΤΛΒ-ΜΘ2",
     "TTI-TTR51582749080029000",
     "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kifisos-mehri-1-oktobrioy",
-    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athinon-thessalonikis-1"
+    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athinon-thessalonikis-1",
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-337/"
   ],
   "seeded": [
     "astynomia",
@@ -462,15 +463,15 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 53,
+      "fetched": 54,
       "dropped": {
         "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 52
+        "no level detected, no disruption keyword": 53
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-29T00:05:32+00:00"
+      "last_success": "2026-09-29T10:17:01+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -478,13 +479,14 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99,
-        "άλλη περιοχή": 1
+        "εκτός θέματος/Αθήνας": 95,
+        "εκτός χρονικού παραθύρου": 3,
+        "άλλη περιοχή": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-29T00:05:32+00:00"
+      "last_success": "2026-09-29T10:17:01+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -497,7 +499,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-29T00:05:32+00:00"
+      "last_success": "2026-09-29T10:17:01+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -508,35 +510,34 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-29T00:05:32+00:00"
+      "last_success": "2026-09-29T10:17:01+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 3,
-      "fetched": 11,
+      "items": 4,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
-        "λεωφορεία (χωρίς ειδοποίηση)": 2
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
+        "λεωφορεία (χωρίς ειδοποίηση)": 3
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-09-29T00:05:32+00:00"
+      "last_success": "2026-09-29T10:17:03+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 72,
+      "fetched": 68,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 62
+        "κατηγορία εκτός πολιτικής": 58
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-29T09:08:38+00:00"
+      "last_success": "2026-09-29T10:17:03+00:00"
     }
   },
   "active": {
@@ -705,6 +706,21 @@
       }
     ],
     "oasa": [
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-337/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 230 λόγω της εκκίνησης του διεθνούς αγώνα 1000 Miglia Experience Greece 2026 στον Δήμο Αθηναίων",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-337/",
+        "details": "",
+        "area": "",
+        "days": [
+          "2026-09-30"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": true
+      },
       {
         "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-128/",
         "source": "ΟΑΣΑ",
@@ -1573,7 +1589,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-28T19:02:08+00:00",
-      "last_seen": "2026-09-29T00:05:32+00:00",
+      "last_seen": "2026-09-29T10:17:01+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1597,6 +1613,26 @@
       "category": "",
       "first_seen": "2026-09-28T19:02:09+00:00",
       "last_seen": "2026-09-28T19:02:09+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-337/": {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-337/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 230 λόγω της εκκίνησης του διεθνούς αγώνα 1000 Miglia Experience Greece 2026 στον Δήμο Αθηναίων",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-337/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-09-30"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-09-29T10:17:03+00:00",
+      "last_seen": "2026-09-29T10:17:03+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1792,12 +1828,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-22T17:40:10+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-22T20:30:50+00:00",
       "new": 0,
@@ -2151,6 +2181,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-29T10:17:03+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
