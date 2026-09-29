@@ -529,14 +529,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 13,
+      "fetched": 72,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 62
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-29T00:05:32+00:00"
+      "last_success": "2026-09-29T09:08:38+00:00"
     }
   },
   "active": {
@@ -1607,15 +1607,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-09-28"
+    "151797168": "2026-09-29"
   },
   "notifications": [
-    {
-      "time": "2026-09-16T15:52:01+00:00",
-      "source": "kathimerini",
-      "title": "🚨 Παύλος Φύσσας: Κυκλοφοριακές ρυθμίσεις σε Νίκαια και Κερατσίνι για τις εκδηλώσεις στη μνήμη του",
-      "url": "https://www.kathimerini.gr/society/564461899/paylos-fyssas-kykloforiakes-rythmiseis-se-nikaia-kai-keratsini-gia-tis-ekdiloseis-sti-mnimi-toy/"
-    },
     {
       "time": "2026-09-17T08:00:14+00:00",
       "source": "Ενημέρωση",
@@ -1789,15 +1783,15 @@
       "source": "iefimerida",
       "title": "🚨 Κυκλοφοριακές ρυθμίσεις στον Κηφισό μέχρι 1/10, τι πρέπει να ξέρουν οι οδηγοί",
       "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kifisos-mehri-1-oktobrioy"
+    },
+    {
+      "time": "2026-09-29T09:08:39+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-22T16:01:52+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-22T17:40:10+00:00",
       "new": 0,
@@ -2151,6 +2145,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-09-29T09:08:39+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
