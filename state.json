@@ -472,7 +472,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-29T23:18:34+00:00"
+      "last_success": "2026-09-30T03:17:51+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -486,7 +486,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-29T23:18:34+00:00"
+      "last_success": "2026-09-30T03:17:51+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -499,7 +499,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-29T23:18:34+00:00"
+      "last_success": "2026-09-30T03:17:51+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -510,7 +510,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-29T23:18:34+00:00"
+      "last_success": "2026-09-30T03:17:51+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -518,14 +518,14 @@
       "items": 1,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 5,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
+        "παλιά ανακοίνωση": 6,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
         "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-29T23:18:34+00:00"
+      "last_success": "2026-09-30T03:17:51+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -538,7 +538,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-29T23:51:20+00:00"
+      "last_success": "2026-09-30T03:17:51+00:00"
     }
   },
   "active": {
@@ -1525,7 +1525,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-28T19:02:08+00:00",
-      "last_seen": "2026-09-29T23:18:34+00:00",
+      "last_seen": "2026-09-30T03:17:51+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1591,7 +1591,7 @@
       "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 3/10, 06:00–10:00",
       "category": "",
       "first_seen": "2026-09-29T17:23:10+00:00",
-      "last_seen": "2026-09-29T23:18:34+00:00",
+      "last_seen": "2026-09-30T03:17:51+00:00",
       "extended": false,
       "alerted_chats": []
     }
@@ -1785,12 +1785,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-23T08:58:00+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-23T13:20:56+00:00",
       "new": 0,
@@ -2144,6 +2138,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-09-30T03:17:51+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
