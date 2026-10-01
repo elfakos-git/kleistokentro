@@ -546,15 +546,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 82,
+      "items": 10,
+      "fetched": 58,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 71
+        "κατηγορία εκτός πολιτικής": 48
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-01T10:36:59+00:00"
+      "last_success": "2026-10-01T16:35:10+00:00"
     }
   },
   "active": {
@@ -822,21 +822,6 @@
         "source": "TomTom (realtime)",
         "title": "Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
         "url": "https://www.google.com/maps?q=37.999765732,23.7203259402",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Βόρεια",
-        "days": [
-          "2026-10-01"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51568322080014001",
-        "source": "TomTom (realtime)",
-        "title": "Liosion (Ag. Meletiou) → Konstantinoupoleos Ave (Ag. Meletiou)",
-        "url": "https://www.google.com/maps?q=38.0015279384,23.722312116",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
@@ -2024,12 +2009,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-24T12:56:07+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-09-24T16:14:10+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2382,6 +2361,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-01T16:35:10+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
