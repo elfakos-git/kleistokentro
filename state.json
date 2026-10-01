@@ -461,7 +461,8 @@
     "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-athina-tin-kyriaki-2",
     "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sabbato-sto-kentro",
     "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
-    "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/"
+    "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
+    "TTI-TTR51568322080014001"
   ],
   "seeded": [
     "astynomia",
@@ -542,15 +543,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 14,
+      "items": 11,
+      "fetched": 71,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 60
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-01T03:24:24+00:00"
+      "last_success": "2026-10-01T09:27:28+00:00"
     }
   },
   "active": {
@@ -829,6 +830,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51568322080014001",
+        "source": "TomTom (realtime)",
+        "title": "Liosion (Ag. Meletiou) → Konstantinoupoleos Ave (Ag. Meletiou)",
+        "url": "https://www.google.com/maps?q=38.0015279384,23.722312116",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Βόρεια",
+        "days": [
+          "2026-10-01"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51582749080029000",
@@ -1800,15 +1816,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-09-30"
+    "151797168": "2026-10-01"
   },
   "notifications": [
-    {
-      "time": "2026-09-18T07:38:23+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-09-18T15:33:02+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -1982,15 +1992,15 @@
       "source": "iefimerida",
       "title": "🚨 Κυκλοφοριακές ρυθμίσεις το Σάββατο στο κέντρο της Αθήνας λόγω του εορτασμού του Αγίου Διονυσίου Αρεοπαγίτου",
       "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sabbato-sto-kentro"
+    },
+    {
+      "time": "2026-10-01T09:27:29+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-24T07:50:38+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-24T08:53:56+00:00",
       "new": 0,
@@ -2344,6 +2354,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-01T09:27:29+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
