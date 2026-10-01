@@ -465,7 +465,8 @@
     "TTI-TTR51568322080014001",
     "9Θ0Ι46ΜΤΛΒ-Τ0Η",
     "ΡΟ1Υ46ΜΤΛΒ-ΠΔΥ",
-    "99ΘΖ46ΜΤΛΒ-Α10"
+    "99ΘΖ46ΜΤΛΒ-Α10",
+    "6ΣΤΖ46ΜΤΛΒ-Φ8Β"
   ],
   "seeded": [
     "astynomia",
@@ -488,7 +489,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-01T10:36:59+00:00"
+      "last_success": "2026-10-01T17:47:57+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -496,26 +497,27 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97,
-        "μόνο μία λωρίδα/ΛΕΑ": 2
+        "εκτός θέματος/Αθήνας": 98,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-01T10:36:59+00:00"
+      "last_success": "2026-10-01T17:47:58+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 4,
+      "items": 2,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 7
+        "άλλη περιοχή": 1,
+        "χωρίς/παλιά ημερομηνία": 8
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-01T10:36:59+00:00"
+      "last_success": "2026-10-01T17:47:58+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -526,7 +528,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-01T10:36:59+00:00"
+      "last_success": "2026-10-01T17:47:58+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -534,27 +536,27 @@
       "items": 2,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 2,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
+        "παλιά ανακοίνωση": 3,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
         "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-01T10:36:59+00:00"
+      "last_success": "2026-10-01T17:47:58+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 58,
+      "fetched": 31,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 48
+        "κατηγορία εκτός πολιτικής": 21
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-01T16:35:10+00:00"
+      "last_success": "2026-10-01T17:47:58+00:00"
     }
   },
   "active": {
@@ -574,7 +576,7 @@
         "hours": [],
         "plain": "Διακοπή κυκλοφορίας — Δήμου Ασπροπύργου · 3/10 – 4/10",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "iefimerida": [
@@ -603,34 +605,6 @@
         "days": [
           "2026-10-03"
         ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kifisos-mehri-1-oktobrioy",
-        "source": "iefimerida",
-        "title": "Κυκλοφοριακές ρυθμίσεις στον Κηφισό μέχρι 1/10, τι πρέπει να ξέρουν οι οδηγοί",
-        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kifisos-mehri-1-oktobrioy",
-        "details": "",
-        "area": "",
-        "days": [
-          "2026-10-01"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athinon-thessalonikis-1",
-        "source": "iefimerida",
-        "title": "Κυκλοφοριακές ρυθμίσεις στον αυτοκινητόδρομο Αθηνών - Θεσσαλονίκης, ποιοι οδηγοί επηρεάζονται",
-        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athinon-thessalonikis-1",
-        "details": "",
-        "area": "",
-        "days": [],
         "hours": [],
         "plain": "",
         "category": "",
@@ -1735,7 +1709,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-01T10:36:59+00:00",
+      "last_seen": "2026-10-01T17:47:58+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -1753,7 +1727,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-01T10:36:59+00:00",
+      "last_seen": "2026-10-01T17:47:58+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1773,7 +1747,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-01T10:36:59+00:00",
+      "last_seen": "2026-10-01T17:47:58+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -1791,7 +1765,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-01T10:36:59+00:00",
+      "last_seen": "2026-10-01T17:47:58+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1812,7 +1786,7 @@
       "plain": "Διακοπή κυκλοφορίας — Δήμου Ασπροπύργου · 3/10 – 4/10",
       "category": "",
       "first_seen": "2026-10-01T10:36:59+00:00",
-      "last_seen": "2026-10-01T10:36:59+00:00",
+      "last_seen": "2026-10-01T17:47:58+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2008,12 +1982,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-24T16:14:10+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-24T17:37:36+00:00",
       "new": 0,
@@ -2367,6 +2335,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-01T17:47:58+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
