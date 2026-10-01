@@ -484,7 +484,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-30T23:21:37+00:00"
+      "last_success": "2026-10-01T03:24:24+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -498,7 +498,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-30T23:21:37+00:00"
+      "last_success": "2026-10-01T03:24:24+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -511,7 +511,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-30T23:21:37+00:00"
+      "last_success": "2026-10-01T03:24:24+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -522,21 +522,22 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-30T23:21:37+00:00"
+      "last_success": "2026-10-01T03:24:24+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 3,
-      "fetched": 13,
+      "items": 2,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10,
-        "λεωφορεία (χωρίς ειδοποίηση)": 3
+        "παλιά ανακοίνωση": 2,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
+        "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-09-30T23:21:37+00:00"
+      "last_success": "2026-10-01T03:24:24+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -549,7 +550,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-01T00:12:43+00:00"
+      "last_success": "2026-10-01T03:24:24+00:00"
     }
   },
   "active": {
@@ -791,19 +792,6 @@
         "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-337/",
         "details": "",
         "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-128/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 500 (ΠΕΙΡΑΙΑΣ-ΚΗΦΙΣΙΑ (ΠΛ.ΠΛΑΤΑΝΟΥ) ΝΥΧΤΕΡΙΝΗ), στον Δήμο Νέου Ηρακλείου, λόγω εργασιών στην οδό Δωδεκανήσου 16",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-128/",
-        "details": "",
-        "area": "Βόρεια",
         "days": [],
         "hours": [],
         "plain": "",
@@ -1596,7 +1584,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-28T19:02:08+00:00",
-      "last_seen": "2026-09-30T23:21:37+00:00",
+      "last_seen": "2026-10-01T03:24:24+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1727,7 +1715,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Κηφισίας (Δήμου Φιλοθέης-Ψυχικού) · 4/10, 06:30–07:30 · λόγω εργασι",
       "category": "",
       "first_seen": "2026-09-30T17:20:51+00:00",
-      "last_seen": "2026-09-30T23:21:37+00:00",
+      "last_seen": "2026-10-01T03:24:24+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -1745,7 +1733,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-09-30T23:21:37+00:00",
+      "last_seen": "2026-10-01T03:24:24+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -1763,7 +1751,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-09-30T23:21:37+00:00",
+      "last_seen": "2026-10-01T03:24:24+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1783,7 +1771,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-09-30T23:21:37+00:00",
+      "last_seen": "2026-10-01T03:24:24+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -1801,7 +1789,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-09-30T23:21:37+00:00",
+      "last_seen": "2026-10-01T03:24:24+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1997,12 +1985,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-24T02:29:58+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-24T07:50:38+00:00",
       "new": 0,
@@ -2356,6 +2338,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-01T03:24:24+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
