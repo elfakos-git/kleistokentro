@@ -468,7 +468,9 @@
     "99ΘΖ46ΜΤΛΒ-Α10",
     "6ΣΤΖ46ΜΤΛΒ-Φ8Β",
     "9ΕΥ046ΜΤΛΒ-ΨΓ3",
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-295/"
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-295/",
+    "90ΜΓ46ΜΤΛΒ-77Ψ",
+    "https://www.kathimerini.gr/society/564496684/attiki-odos-kykloforiakes-rythmiseis-logo-ergasion-pote-kleinoyn-oi-exodoi-pros-athinon-lamias/"
   ],
   "seeded": [
     "astynomia",
@@ -491,21 +493,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-02T10:12:07+00:00"
+      "last_success": "2026-10-02T17:09:26+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99,
-        "μόνο μία λωρίδα/ΛΕΑ": 1
+        "εκτός θέματος/Αθήνας": 99
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-02T10:12:07+00:00"
+      "last_success": "2026-10-02T17:09:26+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -519,7 +520,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-02T10:12:07+00:00"
+      "last_success": "2026-10-02T17:09:26+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -528,42 +529,100 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-10-02T10:12:07+00:00"
+      "last_success": "2026-10-02T17:09:26+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 2,
-      "fetched": 11,
+      "items": 3,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8,
-        "λεωφορεία (χωρίς ειδοποίηση)": 2
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10,
+        "λεωφορεία (χωρίς ειδοποίηση)": 3
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-02T10:12:10+00:00"
+      "last_success": "2026-10-02T17:09:26+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 121,
+      "fetched": 54,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 111
+        "κατηγορία εκτός πολιτικής": 44
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-02T15:53:23+00:00"
+      "last_success": "2026-10-02T17:09:26+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [],
+    "diavgeia": [
+      {
+        "id": "90ΜΓ46ΜΤΛΒ-77Ψ",
+        "source": "Διαύγεια (Τροχαία)",
+        "title": "25686 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες προσωρινές κυκλοφοριακές ρυθμίσεις, στην κάτω διάβαση του Α/Κ Καλυφτάκη του Αυτοκινητόδρομου Α.Θ.Ε., περιοχής Δήμου Κηφισιάς, κατά το χρονικό διάστημα από 05.10.2026 έως 14.11.2026, κάθε Δευτέρα έως Παρασκευή, κατά τις ώρες 22:00΄ έως 06:00΄ της",
+        "url": "https://diavgeia.gov.gr/decision/view/90ΜΓ46ΜΤΛΒ-77Ψ",
+        "details": "Επίσημη απόφαση Τροχαίας (02/10/2026)",
+        "area": "Βόρεια",
+        "days": [
+          "2026-10-05",
+          "2026-10-06",
+          "2026-10-07",
+          "2026-10-08",
+          "2026-10-09",
+          "2026-10-10",
+          "2026-10-11",
+          "2026-10-12",
+          "2026-10-13",
+          "2026-10-14",
+          "2026-10-15",
+          "2026-10-16",
+          "2026-10-17",
+          "2026-10-18",
+          "2026-10-19",
+          "2026-10-20",
+          "2026-10-21",
+          "2026-10-22",
+          "2026-10-23",
+          "2026-10-24",
+          "2026-10-25",
+          "2026-10-26",
+          "2026-10-27",
+          "2026-10-28",
+          "2026-10-29",
+          "2026-10-30",
+          "2026-10-31",
+          "2026-11-01",
+          "2026-11-02",
+          "2026-11-03",
+          "2026-11-04",
+          "2026-11-05",
+          "2026-11-06",
+          "2026-11-07",
+          "2026-11-08",
+          "2026-11-09",
+          "2026-11-10",
+          "2026-11-11",
+          "2026-11-12",
+          "2026-11-13",
+          "2026-11-14"
+        ],
+        "hours": [
+          "22:00",
+          "06:00"
+        ],
+        "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Κηφισιάς · 5/10 – 14/11, 22:00–06:00",
+        "category": "",
+        "new_this_run": true
+      }
+    ],
     "iefimerida": [
       {
         "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-athina-tin-kyriaki-2",
@@ -597,6 +656,22 @@
       }
     ],
     "kathimerini": [
+      {
+        "id": "https://www.kathimerini.gr/society/564496684/attiki-odos-kykloforiakes-rythmiseis-logo-ergasion-pote-kleinoyn-oi-exodoi-pros-athinon-lamias/",
+        "source": "kathimerini",
+        "title": "Αττική Οδός: Κυκλοφοριακές ρυθμίσεις λόγω εργασιών – Πότε κλείνουν οι έξοδοι προς Αθηνών – Λαμίας",
+        "url": "https://www.kathimerini.gr/society/564496684/attiki-odos-kykloforiakes-rythmiseis-logo-ergasion-pote-kleinoyn-oi-exodoi-pros-athinon-lamias/",
+        "details": "",
+        "area": "Βόρεια",
+        "days": [
+          "2026-10-03",
+          "2026-10-05"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
       {
         "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
         "source": "kathimerini",
@@ -717,19 +792,6 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
-        "source": "kathimerini",
-        "title": "ΔΕΘ: Κυκλοφοριακές ρυθμίσεις στο κέντρο της Θεσσαλονίκης",
-        "url": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
       }
     ],
     "oasa": [
@@ -740,13 +802,11 @@
         "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-295/",
         "details": "",
         "area": "",
-        "days": [
-          "2026-10-03"
-        ],
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "bus",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7-8/",
@@ -755,6 +815,19 @@
         "url": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7-8/",
         "details": "",
         "area": "Βόρεια",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-337/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 230 λόγω της εκκίνησης του διεθνούς αγώνα 1000 Miglia Experience Greece 2026 στον Δήμο Αθηναίων",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-337/",
+        "details": "",
+        "area": "",
         "days": [],
         "hours": [],
         "plain": "",
@@ -1629,7 +1702,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-02T10:12:07+00:00",
+      "last_seen": "2026-10-02T17:09:26+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1649,7 +1722,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-02T10:12:07+00:00",
+      "last_seen": "2026-10-02T17:09:26+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1669,7 +1742,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-02T10:12:07+00:00",
+      "last_seen": "2026-10-02T17:09:26+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1689,7 +1762,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-02T10:12:07+00:00",
+      "last_seen": "2026-10-02T17:09:26+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1731,6 +1804,88 @@
       "category": "bus",
       "first_seen": "2026-10-02T10:12:10+00:00",
       "last_seen": "2026-10-02T10:12:10+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "90ΜΓ46ΜΤΛΒ-77Ψ": {
+      "id": "90ΜΓ46ΜΤΛΒ-77Ψ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25686 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες προσωρινές κυκλοφοριακές ρυθμίσεις, στην κάτω διάβαση του Α/Κ Καλυφτάκη του Αυτοκινητόδρομου Α.Θ.Ε., περιοχής Δήμου Κηφισιάς, κατά το χρονικό διάστημα από 05.10.2026 έως 14.11.2026, κάθε Δευτέρα έως Παρασκευή, κατά τις ώρες 22:00΄ έως 06:00΄ της",
+      "url": "https://diavgeia.gov.gr/decision/view/90ΜΓ46ΜΤΛΒ-77Ψ",
+      "details": "Επίσημη απόφαση Τροχαίας (02/10/2026)",
+      "area": "Βόρεια",
+      "days": [
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14"
+      ],
+      "hours": [
+        "22:00",
+        "06:00"
+      ],
+      "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Κηφισιάς · 5/10 – 14/11, 22:00–06:00",
+      "category": "",
+      "first_seen": "2026-10-02T17:09:26+00:00",
+      "last_seen": "2026-10-02T17:09:26+00:00",
+      "extended": false,
+      "alerted_chats": []
+    },
+    "https://www.kathimerini.gr/society/564496684/attiki-odos-kykloforiakes-rythmiseis-logo-ergasion-pote-kleinoyn-oi-exodoi-pros-athinon-lamias/": {
+      "id": "https://www.kathimerini.gr/society/564496684/attiki-odos-kykloforiakes-rythmiseis-logo-ergasion-pote-kleinoyn-oi-exodoi-pros-athinon-lamias/",
+      "source": "kathimerini",
+      "title": "Αττική Οδός: Κυκλοφοριακές ρυθμίσεις λόγω εργασιών – Πότε κλείνουν οι έξοδοι προς Αθηνών – Λαμίας",
+      "url": "https://www.kathimerini.gr/society/564496684/attiki-odos-kykloforiakes-rythmiseis-logo-ergasion-pote-kleinoyn-oi-exodoi-pros-athinon-lamias/",
+      "details": "",
+      "area": "Βόρεια",
+      "days": [
+        "2026-10-03",
+        "2026-10-05"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-10-02T17:09:26+00:00",
+      "last_seen": "2026-10-02T17:09:26+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1926,12 +2081,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-25T13:57:27+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-25T16:14:30+00:00",
       "new": 0,
@@ -2285,6 +2434,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-02T17:09:26+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
