@@ -493,7 +493,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-02T17:09:26+00:00"
+      "last_success": "2026-10-02T23:28:02+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -506,7 +506,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-02T17:09:26+00:00"
+      "last_success": "2026-10-02T23:28:03+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -514,13 +514,13 @@
       "items": 2,
       "fetched": 11,
       "dropped": {
-        "άλλη περιοχή": 1,
-        "χωρίς/παλιά ημερομηνία": 8
+        "άλλη περιοχή": 2,
+        "χωρίς/παλιά ημερομηνία": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-02T17:09:26+00:00"
+      "last_success": "2026-10-02T23:28:03+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -529,36 +529,37 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-02T17:09:26+00:00"
+      "last_success": "2026-10-02T23:28:03+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 3,
-      "fetched": 13,
+      "items": 2,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10,
-        "λεωφορεία (χωρίς ειδοποίηση)": 3
+        "παλιά ανακοίνωση": 1,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8,
+        "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-02T17:09:26+00:00"
+      "last_success": "2026-10-02T23:28:03+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 15,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-02T20:11:13+00:00"
+      "last_success": "2026-10-02T23:28:03+00:00"
     }
   },
   "active": {
@@ -620,7 +621,7 @@
         ],
         "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Κηφισιάς · 5/10 – 14/11, 22:00–06:00",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "iefimerida": [
@@ -663,14 +664,11 @@
         "url": "https://www.kathimerini.gr/society/564496684/attiki-odos-kykloforiakes-rythmiseis-logo-ergasion-pote-kleinoyn-oi-exodoi-pros-athinon-lamias/",
         "details": "",
         "area": "Βόρεια",
-        "days": [
-          "2026-10-03",
-          "2026-10-05"
-        ],
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
@@ -820,19 +818,6 @@
         "plain": "",
         "category": "bus",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-337/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 230 λόγω της εκκίνησης του διεθνούς αγώνα 1000 Miglia Experience Greece 2026 στον Δήμο Αθηναίων",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-337/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
       }
     ],
     "tomtom": [
@@ -844,7 +829,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-10-02"
+          "2026-10-03"
         ],
         "hours": [],
         "plain": "",
@@ -859,7 +844,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-10-02"
+          "2026-10-03"
         ],
         "hours": [],
         "plain": "",
@@ -874,7 +859,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-02"
+          "2026-10-03"
         ],
         "hours": [],
         "plain": "",
@@ -889,7 +874,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-02"
+          "2026-10-03"
         ],
         "hours": [],
         "plain": "",
@@ -904,7 +889,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-02"
+          "2026-10-03"
         ],
         "hours": [],
         "plain": "",
@@ -919,7 +904,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-10-02"
+          "2026-10-03"
         ],
         "hours": [],
         "plain": "",
@@ -934,7 +919,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-02"
+          "2026-10-03"
         ],
         "hours": [],
         "plain": "",
@@ -949,7 +934,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-02"
+          "2026-10-03"
         ],
         "hours": [],
         "plain": "",
@@ -964,7 +949,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-02"
+          "2026-10-03"
         ],
         "hours": [],
         "plain": "",
@@ -979,7 +964,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-02"
+          "2026-10-03"
         ],
         "hours": [],
         "plain": "",
@@ -1412,26 +1397,6 @@
         "151797168"
       ]
     },
-    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-3/": {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-3/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση των διαδρομών των λεωφορειακών γραμμών λόγω εκδηλώσεων στο Θέατρο Πέτρας στον Δήμο Πετρούπολης",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b4%ce%b9%ce%b1-3/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [
-        "2026-09-25"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-09-25T09:14:33+00:00",
-      "last_seen": "2026-09-25T09:14:33+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-289/": {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-289/",
       "source": "ΟΑΣΑ",
@@ -1702,7 +1667,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-02T17:09:26+00:00",
+      "last_seen": "2026-10-02T23:28:03+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1722,7 +1687,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-02T17:09:26+00:00",
+      "last_seen": "2026-10-02T23:28:03+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1742,7 +1707,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-02T17:09:26+00:00",
+      "last_seen": "2026-10-02T23:28:03+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1762,7 +1727,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-02T17:09:26+00:00",
+      "last_seen": "2026-10-02T23:28:03+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1866,9 +1831,11 @@
       "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Κηφισιάς · 5/10 – 14/11, 22:00–06:00",
       "category": "",
       "first_seen": "2026-10-02T17:09:26+00:00",
-      "last_seen": "2026-10-02T17:09:26+00:00",
+      "last_seen": "2026-10-02T23:28:03+00:00",
       "extended": false,
-      "alerted_chats": []
+      "alerted_chats": [
+        "151797168"
+      ]
     },
     "https://www.kathimerini.gr/society/564496684/attiki-odos-kykloforiakes-rythmiseis-logo-ergasion-pote-kleinoyn-oi-exodoi-pros-athinon-lamias/": {
       "id": "https://www.kathimerini.gr/society/564496684/attiki-odos-kykloforiakes-rythmiseis-logo-ergasion-pote-kleinoyn-oi-exodoi-pros-athinon-lamias/",
@@ -1899,12 +1866,6 @@
     "151797168": "2026-10-02"
   },
   "notifications": [
-    {
-      "time": "2026-09-20T07:56:36+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-09-21T08:14:00+00:00",
       "source": "Ενημέρωση",
@@ -2078,15 +2039,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-10-02T23:28:04+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25686 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες προσωρινές κυκλοφοριακές ρυθμίσεις, στην κάτω διάβαση του Α/Κ Καλυφτάκη του Αυτοκινητόδρομου Α.Θ.Ε., περιοχής Δήμου Κηφισιάς, κατά το χρονικό διάστημα από 05.10.2026 έως 14.11.2026, κάθε Δευτέρα έως Παρασκευή, κατά τις ώρες 22:00΄ έως 06:00΄ της",
+      "url": "https://diavgeia.gov.gr/decision/view/90ΜΓ46ΜΤΛΒ-77Ψ"
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-25T18:09:29+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-25T21:41:26+00:00",
       "new": 0,
@@ -2440,6 +2401,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-02T23:28:04+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
