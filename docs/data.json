@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T03:25:07+00:00",
+  "generated_at": "2026-10-02T09:03:21+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -69,14 +69,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 13,
+      "fetched": 87,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 77
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-02T03:25:07+00:00"
+      "last_success": "2026-10-02T09:03:20+00:00"
     }
   ],
   "active_events": [
@@ -1185,6 +1185,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-10-02T09:03:21+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
+    {
       "time": "2026-10-01T21:25:51+00:00",
       "source": "kathimerini",
       "title": "🚨 Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Αθήνα για το «Greece Race for the Cure 2026»",
@@ -1357,21 +1363,9 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
-    },
-    {
-      "time": "2026-09-19T08:25:05+00:00",
-      "source": "kathimerini",
-      "title": "🚨 «Αθηνάς Χωρίς Αυτοκίνητο»: Ποιοι δρόμοι κλείνουν το Σαββατοκύριακο",
-      "url": "https://www.kathimerini.gr/society/564468949/athinas-choris-aytokinito-poioi-dromoi-kleinoyn-to-savvatokyriako/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-25T02:46:55+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-25T08:13:08+00:00",
       "new": 0,
@@ -1725,6 +1719,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-02T09:03:21+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }

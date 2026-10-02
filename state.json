@@ -545,14 +545,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 13,
+      "fetched": 87,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 77
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-02T03:25:07+00:00"
+      "last_success": "2026-10-02T09:03:20+00:00"
     }
   },
   "active": {
@@ -1730,15 +1730,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-10-01"
+    "151797168": "2026-10-02"
   },
   "notifications": [
-    {
-      "time": "2026-09-19T08:25:05+00:00",
-      "source": "kathimerini",
-      "title": "🚨 «Αθηνάς Χωρίς Αυτοκίνητο»: Ποιοι δρόμοι κλείνουν το Σαββατοκύριακο",
-      "url": "https://www.kathimerini.gr/society/564468949/athinas-choris-aytokinito-poioi-dromoi-kleinoyn-to-savvatokyriako/"
-    },
     {
       "time": "2026-09-20T07:56:36+00:00",
       "source": "Ενημέρωση",
@@ -1912,15 +1906,15 @@
       "source": "kathimerini",
       "title": "🚨 Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Αθήνα για το «Greece Race for the Cure 2026»",
       "url": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/"
+    },
+    {
+      "time": "2026-10-02T09:03:21+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-25T02:46:55+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-25T08:13:08+00:00",
       "new": 0,
@@ -2274,6 +2268,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-02T09:03:21+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
