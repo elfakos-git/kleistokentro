@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:43:32+00:00",
+  "generated_at": "2026-10-03T18:55:15+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-03T15:30:14+00:00"
+      "last_success": "2026-10-03T18:55:15+00:00"
     },
     {
       "name": "diavgeia",
@@ -24,7 +24,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-03T15:30:14+00:00"
+      "last_success": "2026-10-03T18:55:15+00:00"
     },
     {
       "name": "iefimerida",
@@ -38,7 +38,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-03T15:30:14+00:00"
+      "last_success": "2026-10-03T18:55:15+00:00"
     },
     {
       "name": "kathimerini",
@@ -49,34 +49,35 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-03T15:30:14+00:00"
+      "last_success": "2026-10-03T18:55:15+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
       "items": 2,
-      "fetched": 13,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 11,
+        "παλιά ανακοίνωση": 1,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8,
         "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-03T15:30:17+00:00"
+      "last_success": "2026-10-03T18:55:15+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 24,
+      "fetched": 22,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 14
+        "κατηγορία εκτός πολιτικής": 12
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-03T17:43:32+00:00"
+      "last_success": "2026-10-03T18:55:15+00:00"
     }
   ],
   "active_events": [
@@ -96,7 +97,7 @@
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kyriaki-kentro-athinas-ektakta-metra-tram",
       "source": "iefimerida",
-      "title": "﻿Κυκλοφοριακές ρυθμίσεις την Κυριακή στο κέντρο της Αθήνας και τροποιήσεις στα δρομολόγια του Τραμ",
+      "title": "﻿Κυκλοφοριακές ρυθμίσεις την Κυριακή στο κέντρο της Αθήνας και τροποποιήσεις στα δρομολόγια του Τραμ",
       "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kyriaki-kentro-athinas-ektakta-metra-tram",
       "details": "",
       "area": "Κέντρο",
@@ -106,7 +107,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-se-ishy-sto-kentro-athinas",
@@ -1058,7 +1059,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-03T15:30:14+00:00",
+      "last_seen": "2026-10-03T18:55:15+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1190,14 +1191,14 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-03T15:30:14+00:00",
+      "last_seen": "2026-10-03T18:55:15+00:00",
       "extended": false,
       "status": "planned"
     },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kyriaki-kentro-athinas-ektakta-metra-tram",
       "source": "iefimerida",
-      "title": "﻿Κυκλοφοριακές ρυθμίσεις την Κυριακή στο κέντρο της Αθήνας και τροποιήσεις στα δρομολόγια του Τραμ",
+      "title": "﻿Κυκλοφοριακές ρυθμίσεις την Κυριακή στο κέντρο της Αθήνας και τροποποιήσεις στα δρομολόγια του Τραμ",
       "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kyriaki-kentro-athinas-ektakta-metra-tram",
       "details": "",
       "area": "Κέντρο",
@@ -1208,7 +1209,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-03T15:30:14+00:00",
-      "last_seen": "2026-10-03T15:30:14+00:00",
+      "last_seen": "2026-10-03T18:55:15+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1478,12 +1479,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-26T15:28:06+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-26T17:17:23+00:00",
       "new": 0,
@@ -1837,6 +1832,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-03T18:55:15+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
