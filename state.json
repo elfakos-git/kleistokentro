@@ -497,7 +497,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-03T18:55:15+00:00"
+      "last_success": "2026-10-03T22:34:12+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -511,7 +511,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-03T18:55:15+00:00"
+      "last_success": "2026-10-03T22:34:12+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -525,7 +525,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-03T18:55:15+00:00"
+      "last_success": "2026-10-03T22:34:12+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -536,7 +536,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-03T18:55:15+00:00"
+      "last_success": "2026-10-03T22:34:12+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -551,20 +551,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-03T18:55:15+00:00"
+      "last_success": "2026-10-03T22:34:12+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 21,
+      "fetched": 19,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 11
+        "κατηγορία εκτός πολιτικής": 9
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-03T20:14:24+00:00"
+      "last_success": "2026-10-03T22:34:12+00:00"
     }
   },
   "active": {
@@ -663,21 +663,6 @@
         "area": "",
         "days": [
           "2026-10-04"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
-        "source": "kathimerini",
-        "title": "Κυκλοφοριακές ρυθμίσεις το Σάββατο στο κέντρο λόγω του εορτασμού του Αγίου Διονυσίου Αρεοπαγίτη",
-        "url": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
-        "details": "",
-        "area": "",
-        "days": [
-          "2026-10-03"
         ],
         "hours": [],
         "plain": "",
@@ -787,7 +772,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-10-03"
+          "2026-10-04"
         ],
         "hours": [],
         "plain": "",
@@ -802,7 +787,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-10-03"
+          "2026-10-04"
         ],
         "hours": [],
         "plain": "",
@@ -817,7 +802,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-03"
+          "2026-10-04"
         ],
         "hours": [],
         "plain": "",
@@ -832,7 +817,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-03"
+          "2026-10-04"
         ],
         "hours": [],
         "plain": "",
@@ -847,7 +832,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-03"
+          "2026-10-04"
         ],
         "hours": [],
         "plain": "",
@@ -862,7 +847,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-10-03"
+          "2026-10-04"
         ],
         "hours": [],
         "plain": "",
@@ -877,7 +862,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-03"
+          "2026-10-04"
         ],
         "hours": [],
         "plain": "",
@@ -892,7 +877,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-03"
+          "2026-10-04"
         ],
         "hours": [],
         "plain": "",
@@ -907,7 +892,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-03"
+          "2026-10-04"
         ],
         "hours": [],
         "plain": "",
@@ -922,7 +907,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-03"
+          "2026-10-04"
         ],
         "hours": [],
         "plain": "",
@@ -1107,57 +1092,6 @@
       ],
       "category": ""
     },
-    "ΨΡΨΨ46ΜΤΛΒ-ΚΞΜ": {
-      "id": "ΨΡΨΨ46ΜΤΛΒ-ΚΞΜ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25558-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων σε οδικά τμήματα της οδού Θεσμοφορίου, περιοχής Δήμου Πειραιά, για το χρονικό διάστημα από 26/08/2026 έως 26/09/2026, καθ΄όλη τη διάρκεια του 24ώρου, στο πλαίσιο εκτέλεσης του έργου: «FTTH PEIRAIAS».",
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΡΨΨ46ΜΤΛΒ-ΚΞΜ",
-      "details": "Επίσημη απόφαση Τροχαίας (25/08/2026)",
-      "area": "Νότια",
-      "days": [
-        "2026-08-26",
-        "2026-08-27",
-        "2026-08-28",
-        "2026-08-29",
-        "2026-08-30",
-        "2026-08-31",
-        "2026-09-01",
-        "2026-09-02",
-        "2026-09-03",
-        "2026-09-04",
-        "2026-09-05",
-        "2026-09-06",
-        "2026-09-07",
-        "2026-09-08",
-        "2026-09-09",
-        "2026-09-10",
-        "2026-09-11",
-        "2026-09-12",
-        "2026-09-13",
-        "2026-09-14",
-        "2026-09-15",
-        "2026-09-16",
-        "2026-09-17",
-        "2026-09-18",
-        "2026-09-19",
-        "2026-09-20",
-        "2026-09-21",
-        "2026-09-22",
-        "2026-09-23",
-        "2026-09-24",
-        "2026-09-25",
-        "2026-09-26"
-      ],
-      "hours": [],
-      "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Θεσμοφορίου (Δήμου Πειραιά) · 26/8 – 26/9",
-      "category": "",
-      "first_seen": "2026-08-25T12:32:20+00:00",
-      "last_seen": "2026-08-26T08:33:46+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-117/": {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-117/",
       "source": "ΟΑΣΑ",
@@ -1327,49 +1261,6 @@
       "category": "bus",
       "first_seen": "2026-09-15T09:05:51+00:00",
       "last_seen": "2026-09-15T09:05:51+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "ΨΒΜ846ΜΤΛΒ-ΗΡΖ": {
-      "id": "ΨΒΜ846ΜΤΛΒ-ΗΡΖ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων στην οδό Ασκληπιού, περιοχής Δήμου Αθηναίων, στο τμήμα της μεταξύ των οδών Ακαδημίας και Σόλωνος, την 26-09-2026, κατά τις ώρες 07.30΄ έως 09.30΄, για την εκτέλεση εργασιών ανύψωσης κλιματιστικών »",
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΒΜ846ΜΤΛΒ-ΗΡΖ",
-      "details": "Επίσημη απόφαση Τροχαίας (21/09/2026)",
-      "area": "Κέντρο",
-      "days": [
-        "2026-09-26"
-      ],
-      "hours": [
-        "07:30",
-        "09:30"
-      ],
-      "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Αθηναίων · 26/9, 07:30–09:30",
-      "category": "",
-      "first_seen": "2026-09-21T09:28:04+00:00",
-      "last_seen": "2026-09-22T02:40:15+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-289/": {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-289/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 833, 832, λόγω εργασιών στην οδό Δωδεκανήσου 98, του Δήμου ΚΕΡΑΤΣΙΝΙΟΥ",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-289/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-09-26"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-09-25T09:14:34+00:00",
-      "last_seen": "2026-09-25T09:14:34+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1665,7 +1556,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-03T18:55:15+00:00",
+      "last_seen": "2026-10-03T22:34:12+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1685,7 +1576,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-03T18:55:15+00:00",
+      "last_seen": "2026-10-03T22:34:12+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1851,7 +1742,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-03T15:30:14+00:00",
-      "last_seen": "2026-10-03T18:55:15+00:00",
+      "last_seen": "2026-10-03T22:34:12+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2047,12 +1938,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-26T18:53:25+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-26T19:58:34+00:00",
       "new": 0,
@@ -2406,6 +2291,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-03T22:34:12+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
