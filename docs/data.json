@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T14:27:07+00:00",
+  "generated_at": "2026-10-04T16:14:17+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-04T10:19:37+00:00"
+      "last_success": "2026-10-04T16:14:17+00:00"
     },
     {
       "name": "diavgeia",
@@ -23,7 +23,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-04T10:19:37+00:00"
+      "last_success": "2026-10-04T16:14:17+00:00"
     },
     {
       "name": "iefimerida",
@@ -31,13 +31,13 @@
       "items": 3,
       "fetched": 11,
       "dropped": {
-        "άλλη περιοχή": 2,
-        "χωρίς/παλιά ημερομηνία": 6
+        "άλλη περιοχή": 1,
+        "χωρίς/παλιά ημερομηνία": 7
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-04T10:19:38+00:00"
+      "last_success": "2026-10-04T16:14:17+00:00"
     },
     {
       "name": "kathimerini",
@@ -48,31 +48,35 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-04T10:19:38+00:00"
+      "last_success": "2026-10-04T16:14:17+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "items": 1,
+      "fetched": 11,
+      "dropped": {
+        "παλιά ανακοίνωση": 1,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
+        "λεωφορεία (χωρίς ειδοποίηση)": 1
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-04T10:19:38+00:00"
+      "last_success": "2026-10-04T16:14:17+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 24,
+      "fetched": 22,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 14
+        "κατηγορία εκτός πολιτικής": 12
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-04T14:27:07+00:00"
+      "last_success": "2026-10-04T16:14:17+00:00"
     }
   ],
   "active_events": [
@@ -96,13 +100,11 @@
       "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-se-athina-kai-peiraia-logo-diexagogis-agonon",
       "details": "",
       "area": "Νότια",
-      "days": [
-        "2026-10-04"
-      ],
+      "days": [],
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kyriaki-kentro-athinas-ektakta-metra-tram",
@@ -249,6 +251,19 @@
       "hours": [],
       "plain": "",
       "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-124/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών Α11, Β11 και 700, λόγω του 4ου Λαϊκού Αγώνα Δρόμου, στον δήμο Πετρούπολης",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-124/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
       "new_this_run": false
     },
     {
@@ -940,7 +955,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-04T10:19:38+00:00",
+      "last_seen": "2026-10-04T16:14:17+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -1072,7 +1087,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-04T10:19:38+00:00",
+      "last_seen": "2026-10-04T16:14:17+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1090,7 +1105,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-03T15:30:14+00:00",
-      "last_seen": "2026-10-04T10:19:38+00:00",
+      "last_seen": "2026-10-04T16:14:17+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1378,12 +1393,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-27T08:36:10+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-27T09:41:23+00:00",
       "new": 0,
@@ -1737,6 +1746,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-04T16:14:17+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
