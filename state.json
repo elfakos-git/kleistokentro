@@ -477,7 +477,20 @@
     "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-se-ishy-sto-kentro-athinas",
     "https://www.kathimerini.gr/society/564499195/fotia-se-egkataleleimmeno-ktirio-sto-metaxoyrgeio-diakopi-kykloforias-stin-odo-kerameikoy/",
     "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kyriaki-kentro-athinas-ektakta-metra-tram",
-    "TTI-TTR51585634572013000"
+    "TTI-TTR51585634572013000",
+    "TTI-TTR51582749044012000",
+    "TTI-TTR51576978280011001",
+    "TTI-TTR51576978260011000",
+    "TTI-TTR51576978352011000",
+    "TTI-TTR51576978244003000",
+    "TTI-TTR51576978280012000",
+    "TTI-TTR51576978244012000",
+    "TTI-TTR51571207444003000",
+    "TTI-TTR51576978244012001",
+    "TTI-TTR51576978172011000",
+    "TTI-TTR51571207408020000",
+    "TTI-TTR51579863752011000",
+    "TTI-TTR51579863824011000"
   ],
   "seeded": [
     "astynomia",
@@ -554,15 +567,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 13,
+      "items": 23,
+      "fetched": 44,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 21
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-04T03:37:41+00:00"
+      "last_success": "2026-10-04T08:52:29+00:00"
     }
   },
   "active": {
@@ -793,6 +806,21 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51582749044012000",
+        "source": "TomTom (realtime)",
+        "title": "Platia Omonias (G Septemvriou) → Marni (G Septemvriou)",
+        "url": "https://www.google.com/maps?q=37.9845496171,23.728112393",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
         "id": "TTI-TTR51582749080029000",
         "source": "TomTom (realtime)",
         "title": "Athinas (Evripidou) → Platia Ag. Theodoron (Evripidou)",
@@ -806,6 +834,36 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51576978280011001",
+        "source": "TomTom (realtime)",
+        "title": "Aristotelous (Ipirou) → Patision (Ipirou)",
+        "url": "https://www.google.com/maps?q=37.990365944,23.7283148998",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51576978260011000",
+        "source": "TomTom (realtime)",
+        "title": "Pros Kapodistriou (Marni) → Patision (Marni)",
+        "url": "https://www.google.com/maps?q=37.9872371261,23.7268249327",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51582749160031000",
@@ -823,10 +881,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51579863732014000",
+        "id": "TTI-TTR51576978352011000",
         "source": "TomTom (realtime)",
-        "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
-        "url": "https://www.google.com/maps?q=37.990176883,23.7386937076",
+        "title": "Patision (Ioulianou) → Alitsis (Ioulianou)",
+        "url": "https://www.google.com/maps?q=37.9912658599,23.7311258548",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -835,7 +893,142 @@
         "hours": [],
         "plain": "",
         "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51576978244003000",
+        "source": "TomTom (realtime)",
+        "title": "Marni (Patision) → Alexandras Ave (Patision)",
+        "url": "https://www.google.com/maps?q=37.9897208753,23.7308536106",
+        "details": "Κλειστός δρόμος — Κλειστό; Οδικά έργα",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51576978280012000",
+        "source": "TomTom (realtime)",
+        "title": "Εικοστής Ογδόης Οκτωβρίου → Μαυρομματαίων",
+        "url": "https://www.google.com/maps?q=37.9899515549,23.7309005493",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51576978244012000",
+        "source": "TomTom (realtime)",
+        "title": "Vas. Irakliou (Mavrommateon) → Alexandras Ave (Mavrommateon)",
+        "url": "https://www.google.com/maps?q=37.990203703,23.7319466108",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51571207444003000",
+        "source": "TomTom (realtime)",
+        "title": "Derigni (Patision) → Androu (Patision)",
+        "url": "https://www.google.com/maps?q=37.9946508003,23.7321075433",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Βόρεια",
+        "days": [
+          "2026-10-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51576978244012001",
+        "source": "TomTom (realtime)",
+        "title": "Kotsika (Mavrommateon) → Derigni (Mavrommateon)",
+        "url": "https://www.google.com/maps?q=37.9935202583,23.7328786784",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Βόρεια",
+        "days": [
+          "2026-10-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51576978172011000",
+        "source": "TomTom (realtime)",
+        "title": "Agathoupoleos (Patision) → Panepistimiou (Patision)",
+        "url": "https://www.google.com/maps?q=38.000130528,23.7332957619",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Βόρεια",
+        "days": [
+          "2026-10-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51571207408012000",
+        "source": "TomTom (realtime)",
+        "title": "Kipselis (Kodrigktonos) → Patision (Kodrigktonos)",
+        "url": "https://www.google.com/maps?q=37.9953977478,23.7336001926",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Βόρεια",
+        "days": [
+          "2026-10-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51571207408020000",
+        "source": "TomTom (realtime)",
+        "title": "Spetson (Evelpidon) → Kipselis (Evelpidon)",
+        "url": "https://www.google.com/maps?q=37.9950853096,23.7358331316",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Βόρεια",
+        "days": [
+          "2026-10-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51579863752011000",
+        "source": "TomTom (realtime)",
+        "title": "Patision (Alexandras Ave) → Trikoupi Har. (Alexandras Ave)",
+        "url": "https://www.google.com/maps?q=37.9916266027,23.7319948905",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51574092968014000",
@@ -881,6 +1074,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51579863824011000",
+        "source": "TomTom (realtime)",
+        "title": "Kifisias Ave (Alexandras Ave) → Patision (Alexandras Ave)",
+        "url": "https://www.google.com/maps?q=37.9865465129,23.7612993651",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-10-04"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51594291004012000",
@@ -1751,15 +1959,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-10-03"
+    "151797168": "2026-10-04"
   },
   "notifications": [
-    {
-      "time": "2026-09-23T15:52:03+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "🚨 25629 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Πλήρη διακοπή της κυκλοφορίας των οχημάτων επί της οδού Σόλωνος, στο τμήμα της μεταξύ των οδών Μαυρομιχάλη και Χαρ. Τρικούπη, περιοχής Δήμου Αθηναίων, στις 24-09-2026, κατά τις ώρες 00.30΄ έως 04.30΄, λόγω εκτέλεσης εργασιών σκυροδέτησης με χρήση πρέσας",
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΟΖΗ46ΜΤΛΒ-ΕΣ1"
-    },
     {
       "time": "2026-09-23T15:52:03+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -1933,15 +2135,15 @@
       "source": "iefimerida",
       "title": "🚨 ﻿Κυκλοφοριακές ρυθμίσεις την Κυριακή στο κέντρο της Αθήνας και τροποιήσεις στα δρομολόγια του Τραμ",
       "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kyriaki-kentro-athinas-ektakta-metra-tram"
+    },
+    {
+      "time": "2026-10-04T08:52:31+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-26T22:19:28+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-27T00:42:30+00:00",
       "new": 0,
@@ -2295,6 +2497,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-04T08:52:31+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
