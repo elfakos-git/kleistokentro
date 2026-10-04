@@ -512,7 +512,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-04T16:14:17+00:00"
+      "last_success": "2026-10-04T22:38:25+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -525,7 +525,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-04T16:14:17+00:00"
+      "last_success": "2026-10-04T22:38:25+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -539,7 +539,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-04T16:14:17+00:00"
+      "last_success": "2026-10-04T22:38:25+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -550,7 +550,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-04T16:14:17+00:00"
+      "last_success": "2026-10-04T22:38:25+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -565,20 +565,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-04T16:14:17+00:00"
+      "last_success": "2026-10-04T22:38:25+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 13,
+      "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-04T21:40:32+00:00"
+      "last_success": "2026-10-04T22:38:25+00:00"
     }
   },
   "active": {
@@ -607,21 +607,6 @@
         "details": "",
         "area": "Νότια",
         "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kyriaki-kentro-athinas-ektakta-metra-tram",
-        "source": "iefimerida",
-        "title": "﻿Κυκλοφοριακές ρυθμίσεις την Κυριακή στο κέντρο της Αθήνας και τροποποιήσεις στα δρομολόγια του Τραμ",
-        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-kyriaki-kentro-athinas-ektakta-metra-tram",
-        "details": "",
-        "area": "Κέντρο",
-        "days": [
-          "2026-10-04"
-        ],
         "hours": [],
         "plain": "",
         "category": "",
@@ -676,21 +661,6 @@
         "details": "",
         "area": "Βόρεια",
         "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
-        "source": "kathimerini",
-        "title": "Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Αθήνα για το «Greece Race for the Cure 2026»",
-        "url": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
-        "details": "",
-        "area": "",
-        "days": [
-          "2026-10-04"
-        ],
         "hours": [],
         "plain": "",
         "category": "",
@@ -1530,7 +1500,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-04T16:14:17+00:00",
+      "last_seen": "2026-10-04T22:38:25+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1550,7 +1520,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-04T16:14:17+00:00",
+      "last_seen": "2026-10-04T22:38:25+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1716,7 +1686,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-03T15:30:14+00:00",
-      "last_seen": "2026-10-04T16:14:17+00:00",
+      "last_seen": "2026-10-04T22:38:25+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1932,12 +1902,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-27T16:07:31+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-27T18:31:24+00:00",
       "new": 0,
@@ -2291,6 +2255,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-04T22:38:25+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
