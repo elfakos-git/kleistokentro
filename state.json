@@ -579,15 +579,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 86,
+      "items": 9,
+      "fetched": 74,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 75
+        "κατηγορία εκτός πολιτικής": 65
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-06T14:37:15+00:00"
+      "last_success": "2026-10-06T16:06:03+00:00"
     }
   },
   "active": {
@@ -890,36 +890,6 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51574092924021000",
-        "source": "TomTom (realtime)",
-        "title": "Platia Efkalipton (Vas. Pavlou) → Vironos (Vas. Pavlou)",
-        "url": "https://www.google.com/maps?q=38.0038011089,23.7713630134",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-10-06"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51574093140021000",
-        "source": "TomTom (realtime)",
-        "title": "Stratigou Mazaraki (Vas. Pavlou) → Platia Efkalipton (Vas. Pavlou)",
-        "url": "https://www.google.com/maps?q=38.0063237259,23.7732901805",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Βόρεια",
-        "days": [
-          "2026-10-06"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
       }
     ]
   },
@@ -2031,12 +2001,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-28T22:34:45+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-09-29T00:05:32+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2389,6 +2353,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-06T16:06:03+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
