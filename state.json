@@ -1,7 +1,5 @@
 {
   "seen": [
-    "dfde1e3acc1aa20d",
-    "https://www.kathimerini.gr/society/564312118/metro-kykloforiakes-rythmiseis-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera/",
     "https://www.kathimerini.gr/society/564306166/elliniko-kykloforiakes-rythmiseis-gia-to-eco-rally-acropolis/",
     "https://www.kathimerini.gr/society/564295948/kykloforiakes-rythmiseis-sto-elliniko-tin-pempti-gia-to-eko-rally-acropolis/",
     "https://www.kathimerini.gr/society/564291292/athina-kleistoi-dromoi-tin-triti-23-6-logo-agonon-dromoy/",
@@ -498,7 +496,10 @@
     "6ΔΧΔ46ΜΤΛΒ-ΒΗΖ",
     "94ΘΟ46ΜΤΛΒ-4ΘΗ",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-76/",
-    "TTI-TTR51574093068013000"
+    "TTI-TTR51574093068013000",
+    "https://www.iefimerida.gr/ellada/kykloforiako-emfragma-sto-kentro-tis-athinas",
+    "https://www.iefimerida.gr/ellada/episkepsi-roympio-athina-kykloforiakes-rythmiseis",
+    "https://www.kathimerini.gr/society/564502786/froyrio-i-athina-enopsei-tis-episkepsis-roympio/"
   ],
   "seeded": [
     "astynomia",
@@ -521,7 +522,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-05T11:02:45+00:00"
+      "last_success": "2026-10-06T04:07:40+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -529,27 +530,26 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 96,
-        "μόνο μία λωρίδα/ΛΕΑ": 3
+        "εκτός θέματος/Αθήνας": 97,
+        "μόνο μία λωρίδα/ΛΕΑ": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-05T11:02:45+00:00"
+      "last_success": "2026-10-06T04:07:40+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 3,
+      "items": 5,
       "fetched": 11,
       "dropped": {
-        "άλλη περιοχή": 1,
-        "χωρίς/παλιά ημερομηνία": 7
+        "χωρίς/παλιά ημερομηνία": 6
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 2,
       "consecutive_failures": 0,
-      "last_success": "2026-10-05T11:02:45+00:00"
+      "last_success": "2026-10-06T04:07:41+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -558,9 +558,9 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-10-05T11:02:45+00:00"
+      "last_success": "2026-10-06T04:07:42+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -572,22 +572,22 @@
         "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-05T11:02:48+00:00"
+      "last_success": "2026-10-06T04:07:42+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 13,
+      "fetched": 21,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 11
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-06T00:24:40+00:00"
+      "last_success": "2026-10-06T04:07:42+00:00"
     }
   },
   "active": {
@@ -609,10 +609,43 @@
         ],
         "plain": "Διακοπή κυκλοφορίας στην οδό Πεσμαζόγλου (Δήμου Αθηναίων) · 11/10, 07:00–13:00 · λόγω εργασιών με χρήση γερανοφόρου οχήματ",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "iefimerida": [
+      {
+        "id": "https://www.iefimerida.gr/ellada/kykloforiako-emfragma-sto-kentro-tis-athinas",
+        "source": "iefimerida",
+        "title": "Συστάσεις της ΕΛΑΣ για την κυκλοφορία στο κέντρο της Αθήνας λόγω της άφιξης Ρούμπιο",
+        "url": "https://www.iefimerida.gr/ellada/kykloforiako-emfragma-sto-kentro-tis-athinas",
+        "details": "",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-06",
+          "2026-10-08"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "https://www.iefimerida.gr/ellada/episkepsi-roympio-athina-kykloforiakes-rythmiseis",
+        "source": "iefimerida",
+        "title": "Επίσκεψη Ρούμπιο στην Αθήνα: Κυκλοφοριακές ρυθμίσεις στο κέντρο από το βράδυ της Τρίτης",
+        "url": "https://www.iefimerida.gr/ellada/episkepsi-roympio-athina-kykloforiakes-rythmiseis",
+        "details": "",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-06",
+          "2026-10-07",
+          "2026-10-08"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
       {
         "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-se-athina-kai-peiraia-logo-diexagogis-agonon",
         "source": "iefimerida",
@@ -641,6 +674,22 @@
       }
     ],
     "kathimerini": [
+      {
+        "id": "https://www.kathimerini.gr/society/564502786/froyrio-i-athina-enopsei-tis-episkepsis-roympio/",
+        "source": "kathimerini",
+        "title": "«Φρούριο» η Αθήνα ενόψει της επίσκεψης Ρούμπιο",
+        "url": "https://www.kathimerini.gr/society/564502786/froyrio-i-athina-enopsei-tis-episkepsis-roympio/",
+        "details": "",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-07",
+          "2026-10-08"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
       {
         "id": "https://www.kathimerini.gr/society/564499315/ektaktes-kykloforiakes-rythmiseis-sto-kentro-tis-athinas-to-savvatokyriako/",
         "source": "kathimerini",
@@ -731,19 +780,6 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564461899/paylos-fyssas-kykloforiakes-rythmiseis-se-nikaia-kai-keratsini-gia-tis-ekdiloseis-sti-mnimi-toy/",
-        "source": "kathimerini",
-        "title": "Παύλος Φύσσας: Κυκλοφοριακές ρυθμίσεις σε Νίκαια και Κερατσίνι για τις εκδηλώσεις στη μνήμη του",
-        "url": "https://www.kathimerini.gr/society/564461899/paylos-fyssas-kykloforiakes-rythmiseis-se-nikaia-kai-keratsini-gia-tis-ekdiloseis-sti-mnimi-toy/",
-        "details": "",
-        "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
       }
     ],
     "oasa": [
@@ -754,13 +790,11 @@
         "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-76/",
         "details": "",
         "area": "Δυτικά",
-        "days": [
-          "2026-10-06"
-        ],
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "bus",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-124/",
@@ -1529,7 +1563,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-05T11:02:45+00:00",
+      "last_seen": "2026-10-06T04:07:42+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1549,7 +1583,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-05T11:02:45+00:00",
+      "last_seen": "2026-10-06T04:07:42+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1715,7 +1749,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-03T15:30:14+00:00",
-      "last_seen": "2026-10-05T11:02:45+00:00",
+      "last_seen": "2026-10-06T04:07:41+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1758,7 +1792,7 @@
       "plain": "Διακοπή κυκλοφορίας στην οδό Πεσμαζόγλου (Δήμου Αθηναίων) · 11/10, 07:00–13:00 · λόγω εργασιών με χρήση γερανοφόρου οχήματ",
       "category": "",
       "first_seen": "2026-10-05T11:02:45+00:00",
-      "last_seen": "2026-10-05T11:02:45+00:00",
+      "last_seen": "2026-10-06T04:07:40+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -1781,6 +1815,70 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.iefimerida.gr/ellada/kykloforiako-emfragma-sto-kentro-tis-athinas": {
+      "id": "https://www.iefimerida.gr/ellada/kykloforiako-emfragma-sto-kentro-tis-athinas",
+      "source": "iefimerida",
+      "title": "Συστάσεις της ΕΛΑΣ για την κυκλοφορία στο κέντρο της Αθήνας λόγω της άφιξης Ρούμπιο",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiako-emfragma-sto-kentro-tis-athinas",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2026-10-06",
+        "2026-10-08"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-10-06T04:07:41+00:00",
+      "last_seen": "2026-10-06T04:07:41+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.iefimerida.gr/ellada/episkepsi-roympio-athina-kykloforiakes-rythmiseis": {
+      "id": "https://www.iefimerida.gr/ellada/episkepsi-roympio-athina-kykloforiakes-rythmiseis",
+      "source": "iefimerida",
+      "title": "Επίσκεψη Ρούμπιο στην Αθήνα: Κυκλοφοριακές ρυθμίσεις στο κέντρο από το βράδυ της Τρίτης",
+      "url": "https://www.iefimerida.gr/ellada/episkepsi-roympio-athina-kykloforiakes-rythmiseis",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-08"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-10-06T04:07:41+00:00",
+      "last_seen": "2026-10-06T04:07:41+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.kathimerini.gr/society/564502786/froyrio-i-athina-enopsei-tis-episkepsis-roympio/": {
+      "id": "https://www.kathimerini.gr/society/564502786/froyrio-i-athina-enopsei-tis-episkepsis-roympio/",
+      "source": "kathimerini",
+      "title": "«Φρούριο» η Αθήνα ενόψει της επίσκεψης Ρούμπιο",
+      "url": "https://www.kathimerini.gr/society/564502786/froyrio-i-athina-enopsei-tis-episkepsis-roympio/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2026-10-07",
+        "2026-10-08"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-10-06T04:07:42+00:00",
+      "last_seen": "2026-10-06T04:07:42+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1790,18 +1888,6 @@
     "151797168": "2026-10-05"
   },
   "notifications": [
-    {
-      "time": "2026-09-24T07:50:38+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
-    {
-      "time": "2026-09-25T08:13:08+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-09-26T08:01:36+00:00",
       "source": "Ενημέρωση",
@@ -1969,15 +2055,21 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-10-06T04:07:42+00:00",
+      "source": "iefimerida",
+      "title": "🚨 Συστάσεις της ΕΛΑΣ για την κυκλοφορία στο κέντρο της Αθήνας λόγω της άφιξης Ρούμπιο",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiako-emfragma-sto-kentro-tis-athinas"
+    },
+    {
+      "time": "2026-10-06T04:07:43+00:00",
+      "source": "iefimerida",
+      "title": "🚨 Επίσκεψη Ρούμπιο στην Αθήνα: Κυκλοφοριακές ρυθμίσεις στο κέντρο από το βράδυ της Τρίτης",
+      "url": "https://www.iefimerida.gr/ellada/episkepsi-roympio-athina-kykloforiakes-rythmiseis"
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-28T10:21:12+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-28T17:21:08+00:00",
       "new": 0,
@@ -2331,6 +2423,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-06T04:07:43+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
