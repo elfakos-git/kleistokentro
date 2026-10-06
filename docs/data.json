@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:42:17+00:00",
+  "generated_at": "2026-10-06T21:04:19+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -78,7 +78,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-06T20:42:17+00:00"
+      "last_success": "2026-10-06T21:04:19+00:00"
     }
   ],
   "active_events": [
@@ -246,7 +246,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-10-06"
+        "2026-10-07"
       ],
       "hours": [],
       "plain": "",
@@ -261,7 +261,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-10-06"
+        "2026-10-07"
       ],
       "hours": [],
       "plain": "",
@@ -276,7 +276,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-06"
+        "2026-10-07"
       ],
       "hours": [],
       "plain": "",
@@ -291,7 +291,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-06"
+        "2026-10-07"
       ],
       "hours": [],
       "plain": "",
@@ -306,7 +306,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-06"
+        "2026-10-07"
       ],
       "hours": [],
       "plain": "",
@@ -321,12 +321,12 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-06"
+        "2026-10-07"
       ],
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-TTR51594290660014001",
@@ -336,7 +336,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-06"
+        "2026-10-07"
       ],
       "hours": [],
       "plain": "",
@@ -351,7 +351,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-06"
+        "2026-10-07"
       ],
       "hours": [],
       "plain": "",
@@ -366,7 +366,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-10-06"
+        "2026-10-07"
       ],
       "hours": [],
       "plain": "",
@@ -381,7 +381,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-10-06"
+        "2026-10-07"
       ],
       "hours": [],
       "plain": "",
@@ -760,7 +760,7 @@
       "first_seen": "2026-09-28T19:02:09+00:00",
       "last_seen": "2026-09-28T19:02:09+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-337/",
@@ -1140,7 +1140,7 @@
       "first_seen": "2026-10-05T11:02:48+00:00",
       "last_seen": "2026-10-05T11:02:48+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiako-emfragma-sto-kentro-tis-athinas",
@@ -1159,7 +1159,7 @@
       "first_seen": "2026-10-06T04:07:41+00:00",
       "last_seen": "2026-10-06T04:07:41+00:00",
       "extended": false,
-      "status": "active"
+      "status": "planned"
     },
     {
       "id": "https://www.iefimerida.gr/ellada/episkepsi-roympio-athina-kykloforiakes-rythmiseis",
@@ -1198,7 +1198,7 @@
       "first_seen": "2026-10-06T04:07:42+00:00",
       "last_seen": "2026-10-06T04:07:42+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "ΨΧΑΖ46ΜΤΛΒ-Ι1Τ",
@@ -1426,12 +1426,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-29T09:08:39+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-29T10:17:03+00:00",
       "new": 0,
@@ -1785,6 +1779,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-06T21:04:19+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
