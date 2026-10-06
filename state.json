@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.kathimerini.gr/society/564291292/athina-kleistoi-dromoi-tin-triti-23-6-logo-agonon-dromoy/",
     "https://www.kathimerini.gr/society/564276574/thessaloniki-kykloforiakes-rythmiseis-logo-flyover/",
     "https://www.kathimerini.gr/society/564270133/kykloforiakes-rythmiseis-logo-tis-diexagogis-toy-6oy-agona-run-bike-care/",
     "https://www.kathimerini.gr/society/564263236/kykloforiakes-rythmiseis-stis-6-ioynioy-sto-kentro-tis-athinas/",
@@ -499,7 +498,8 @@
     "https://www.iefimerida.gr/ellada/episkepsi-roympio-athina-kykloforiakes-rythmiseis",
     "https://www.kathimerini.gr/society/564502786/froyrio-i-athina-enopsei-tis-episkepsis-roympio/",
     "TTI-TTR51574092924021000",
-    "TTI-TTR51574093140021000"
+    "TTI-TTR51574093140021000",
+    "TTI-TTR51588519904022000"
   ],
   "seeded": [
     "astynomia",
@@ -522,7 +522,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-06T14:37:13+00:00"
+      "last_success": "2026-10-06T20:42:16+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -535,20 +535,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-06T14:37:13+00:00"
+      "last_success": "2026-10-06T20:42:17+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 4,
+      "items": 3,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 7
+        "χωρίς/παλιά ημερομηνία": 8
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-06T14:37:15+00:00"
+      "last_success": "2026-10-06T20:42:17+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -559,7 +559,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-06T14:37:15+00:00"
+      "last_success": "2026-10-06T20:42:17+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -574,20 +574,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-06T14:37:15+00:00"
+      "last_success": "2026-10-06T20:42:17+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 74,
+      "items": 10,
+      "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 65
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-06T16:06:03+00:00"
+      "last_success": "2026-10-06T20:42:17+00:00"
     }
   },
   "active": {
@@ -830,6 +830,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51588519904022000",
+        "source": "TomTom (realtime)",
+        "title": "Λεωφόρος Βασιλίσσης Σοφίας → Μιχαλακοπούλου",
+        "url": "https://www.google.com/maps?q=37.9771949806,23.7508937353",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-06"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51594290660014001",
@@ -1493,7 +1508,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-06T14:37:15+00:00",
+      "last_seen": "2026-10-06T20:42:17+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1513,7 +1528,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-06T14:37:15+00:00",
+      "last_seen": "2026-10-06T20:42:17+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2001,12 +2016,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-29T00:05:32+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-09-29T09:08:39+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2359,6 +2368,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-06T20:42:17+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
