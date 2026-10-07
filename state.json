@@ -514,15 +514,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-06T20:42:16+00:00"
+      "last_success": "2026-10-07T03:35:17+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -535,7 +532,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-06T20:42:17+00:00"
+      "last_success": "2026-10-07T03:35:17+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -548,7 +545,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-06T20:42:17+00:00"
+      "last_success": "2026-10-07T03:35:17+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -559,7 +556,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-06T20:42:17+00:00"
+      "last_success": "2026-10-07T03:35:17+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -574,20 +571,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-06T20:42:17+00:00"
+      "last_success": "2026-10-07T03:35:17+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 14,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-07T00:50:18+00:00"
+      "last_success": "2026-10-07T03:35:17+00:00"
     }
   },
   "active": {
@@ -682,6 +679,21 @@
         "details": "",
         "area": "Βόρεια",
         "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
+        "source": "kathimerini",
+        "title": "Κυκλοφοριακές ρυθμίσεις το Σάββατο στο κέντρο λόγω του εορτασμού του Αγίου Διονυσίου Αρεοπαγίτη",
+        "url": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
+        "details": "",
+        "area": "",
+        "days": [
+          "2026-10-10"
+        ],
         "hours": [],
         "plain": "",
         "category": "",
@@ -1508,7 +1520,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-06T20:42:17+00:00",
+      "last_seen": "2026-10-07T03:35:17+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1522,13 +1534,13 @@
       "details": "",
       "area": "",
       "days": [
-        "2026-10-03"
+        "2026-10-10"
       ],
       "hours": [],
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-06T20:42:17+00:00",
+      "last_seen": "2026-10-07T03:35:17+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2016,12 +2028,6 @@
   ],
   "runs": [
     {
-      "time": "2026-09-29T16:00:08+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-09-29T17:23:10+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2374,6 +2380,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-07T03:35:17+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
