@@ -579,15 +579,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 16,
+      "items": 10,
+      "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-07T18:12:59+00:00"
+      "last_success": "2026-10-07T21:39:10+00:00"
     }
   },
   "active": {
@@ -882,7 +882,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-10-07"
+          "2026-10-08"
         ],
         "hours": [],
         "plain": "",
@@ -897,7 +897,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-10-07"
+          "2026-10-08"
         ],
         "hours": [],
         "plain": "",
@@ -912,7 +912,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-07"
+          "2026-10-08"
         ],
         "hours": [],
         "plain": "",
@@ -927,27 +927,12 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-07"
+          "2026-10-08"
         ],
         "hours": [],
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51591405424011000",
-        "source": "TomTom (realtime)",
-        "title": "Panepistimiou (Vas. Georgiou A) → Stadiou (Vas. Georgiou A)",
-        "url": "https://www.google.com/maps?q=37.9761194056,23.7356534236",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-10-07"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
       },
       {
         "id": "TTI-TTR51579863732014000",
@@ -957,7 +942,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-07"
+          "2026-10-08"
         ],
         "hours": [],
         "plain": "",
@@ -972,7 +957,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-07"
+          "2026-10-08"
         ],
         "hours": [],
         "plain": "",
@@ -987,7 +972,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-07"
+          "2026-10-08"
         ],
         "hours": [],
         "plain": "",
@@ -1002,7 +987,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-07"
+          "2026-10-08"
         ],
         "hours": [],
         "plain": "",
@@ -1017,7 +1002,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-07"
+          "2026-10-08"
         ],
         "hours": [],
         "plain": "",
@@ -1032,7 +1017,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-07"
+          "2026-10-08"
         ],
         "hours": [],
         "plain": "",
@@ -1479,26 +1464,6 @@
         "151797168"
       ]
     },
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-337/": {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-337/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 230 λόγω της εκκίνησης του διεθνούς αγώνα 1000 Miglia Experience Greece 2026 στον Δήμο Αθηναίων",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-337/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-09-30"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-09-29T10:17:03+00:00",
-      "last_seen": "2026-09-29T10:17:03+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
     "ΡΒΦΓ46ΜΤΛΒ-ΑΘ7": {
       "id": "ΡΒΦΓ46ΜΤΛΒ-ΑΘ7",
       "source": "Διαύγεια (Τροχαία)",
@@ -1541,7 +1506,9 @@
       "first_seen": "2026-09-30T10:08:41+00:00",
       "last_seen": "2026-09-30T10:08:41+00:00",
       "extended": false,
-      "alerted_chats": []
+      "alerted_chats": [
+        "151797168"
+      ]
     },
     "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7-8/": {
       "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7-8/",
@@ -2072,7 +2039,9 @@
       "first_seen": "2026-10-07T10:44:18+00:00",
       "last_seen": "2026-10-07T10:44:18+00:00",
       "extended": false,
-      "alerted_chats": []
+      "alerted_chats": [
+        "151797168"
+      ]
     },
     "https://www.iefimerida.gr/ellada/froyrio-athina-episkepsi-roympio-dromoi-kleinoyn-metro": {
       "id": "https://www.iefimerida.gr/ellada/froyrio-athina-episkepsi-roympio-dromoi-kleinoyn-metro",
@@ -2144,18 +2113,6 @@
     "151797168": "2026-10-07"
   },
   "notifications": [
-    {
-      "time": "2026-09-28T08:59:35+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
-    {
-      "time": "2026-09-28T19:02:10+00:00",
-      "source": "iefimerida",
-      "title": "🚨 Κυκλοφοριακές ρυθμίσεις στον αυτοκινητόδρομο Αθηνών - Θεσσαλονίκης, ποιοι οδηγοί επηρεάζονται",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athinon-thessalonikis-1"
-    },
     {
       "time": "2026-09-28T22:34:44+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -2323,15 +2280,21 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "🚨 Προσωρινές Κυκλοφοριακές Ρυθμίσεις στο πλαίσιο συναυλίας στο Κέντρου Πολιτισμού Ιερισσού την Παρασκευή 09/10/2026",
       "url": "https://diavgeia.gov.gr/decision/view/94Θ746ΜΤΛΒ-ΣΚ6"
+    },
+    {
+      "time": "2026-10-07T21:39:10+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25674-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στο δεξιό τμήμα του οδοστρώματος της Λ. Βασ. Αμαλίας, στο ύψος του ο.α. 36, περιοχής Δήμου Αθηναίων, την 10.10.2026, κατά τις ώρες 04.00΄ έως 06.00΄, λόγω εκτέλεσης εργασιών με τη χρήση γερανοφόρου οχήματος.",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΧΑΖ46ΜΤΛΒ-Ι1Τ"
+    },
+    {
+      "time": "2026-10-07T21:39:11+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25706-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινές κυκλοφοριακές ρυθμίσεις, για το χρονικό διάστημα από 10.10.2026 έως 10.10.2031, καθ΄όλη τη διάρκεια του 24ώρου, για την εκτέλεση εργασιών της Γραμμής 4 «ΤΜΗΜΑ Α΄ΑΛΣΟΣ ΒΕΪΚΟΥ-ΓΟΥΔΗ» του μετρό της Αθήνας – «ΣΤΑΘΜΟΣ ΕΞΑΡΧΕΙΑ» - ΚΥΡΙΑ ΦΑΣΗ, σε οδι",
+      "url": "https://diavgeia.gov.gr/decision/view/9Ο8Ψ46ΜΤΛΒ-Δ0Η"
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-30T03:17:51+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-09-30T09:02:42+00:00",
       "new": 0,
@@ -2685,6 +2648,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-07T21:39:11+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
