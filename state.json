@@ -522,20 +522,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-07T18:12:59+00:00"
+      "last_success": "2026-10-07T23:56:58+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 3,
+      "items": 2,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97
+        "εκτός θέματος/Αθήνας": 98
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-07T18:12:59+00:00"
+      "last_success": "2026-10-07T23:56:58+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -548,7 +548,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-07T18:12:59+00:00"
+      "last_success": "2026-10-07T23:56:58+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -559,22 +559,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-07T18:12:59+00:00"
+      "last_success": "2026-10-07T23:56:58+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 1,
-      "fetched": 11,
+      "items": 2,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 4,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
-        "λεωφορεία (χωρίς ειδοποίηση)": 1
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 11,
+        "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-07T18:12:59+00:00"
+      "last_success": "2026-10-07T23:56:59+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -587,7 +586,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-07T21:39:10+00:00"
+      "last_success": "2026-10-07T23:56:59+00:00"
     }
   },
   "active": {
@@ -606,7 +605,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "ΡΡΒ746ΜΤΛΒ-0ΔΖ",
@@ -679,19 +678,6 @@
           "15:00"
         ],
         "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Εθν. Αντιστάσεως (Δήμων Αγ. Δημητρίου και Ηλιούπολης) · 12/10 – 7/12, 10:00–15:00",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "ΨΙΞΒ46ΜΤΛΒ-ΣΚΚ",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "25708 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων επί της Λεωφ. Μαραθώνος, από το ύψος της συμβολής της με την οδό Ελ. Βενιζέλου έως το ύψος της συμβολής της με την οδό Παλλάδος Αθηνάς, διαδοχικά ανά λωρίδα εναλλάξ και στα δύο ρεύματα κυκλοφορί",
-        "url": "https://diavgeia.gov.gr/decision/view/ΨΙΞΒ46ΜΤΛΒ-ΣΚΚ",
-        "details": "Επίσημη απόφαση Τροχαίας (07/10/2026)",
-        "area": "Ανατολικά",
-        "days": [],
-        "hours": [],
-        "plain": "Διακοπή κυκλοφορίας στη Λ. Μαραθώνος",
         "category": "",
         "new_this_run": false
       }
@@ -804,6 +790,21 @@
         "new_this_run": false
       },
       {
+        "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
+        "source": "kathimerini",
+        "title": "Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Αθήνα για το «Greece Race for the Cure 2026»",
+        "url": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
+        "details": "",
+        "area": "",
+        "days": [
+          "2026-10-11"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
         "id": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
         "source": "kathimerini",
         "title": "Κυκλοφοριακές ρυθμίσεις το Σάββατο στο κέντρο λόγω του εορτασμού του Αγίου Διονυσίου Αρεοπαγίτη",
@@ -864,6 +865,19 @@
         "source": "ΟΑΣΑ",
         "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73  του Δήμου Περιστερίου",
         "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-76/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-124/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών Α11, Β11 και 700, λόγω του 4ου Λαϊκού Αγώνα Δρόμου, στον δήμο Πετρούπολης",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-124/",
         "details": "",
         "area": "Δυτικά",
         "days": [],
@@ -1602,13 +1616,13 @@
       "details": "",
       "area": "",
       "days": [
-        "2026-10-04"
+        "2026-10-11"
       ],
       "hours": [],
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-07T18:12:59+00:00",
+      "last_seen": "2026-10-07T23:56:58+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1628,7 +1642,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-07T18:12:59+00:00",
+      "last_seen": "2026-10-07T23:56:58+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1998,7 +2012,7 @@
       "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Εθν. Αντιστάσεως (Δήμων Αγ. Δημητρίου και Ηλιούπολης) · 12/10 – 7/12, 10:00–15:00",
       "category": "",
       "first_seen": "2026-10-07T10:44:18+00:00",
-      "last_seen": "2026-10-07T18:12:59+00:00",
+      "last_seen": "2026-10-07T23:56:58+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -2099,7 +2113,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-07T18:12:59+00:00",
-      "last_seen": "2026-10-07T18:12:59+00:00",
+      "last_seen": "2026-10-07T23:56:58+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2295,12 +2309,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-09-30T09:02:42+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-09-30T10:08:43+00:00",
       "new": 0,
@@ -2654,6 +2662,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-07T23:56:59+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
