@@ -522,35 +522,35 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-08T15:06:05+00:00"
+      "last_success": "2026-10-08T20:56:48+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
       "items": 3,
-      "fetched": 101,
+      "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 96,
+        "εκτός θέματος/Αθήνας": 95,
         "μόνο μία λωρίδα/ΛΕΑ": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-08T15:06:05+00:00"
+      "last_success": "2026-10-08T20:56:49+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 2,
+      "items": 1,
       "fetched": 11,
       "dropped": {
         "άλλη περιοχή": 1,
-        "χωρίς/παλιά ημερομηνία": 8
+        "χωρίς/παλιά ημερομηνία": 9
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-08T15:06:05+00:00"
+      "last_success": "2026-10-08T20:56:49+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -561,7 +561,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-08T15:06:05+00:00"
+      "last_success": "2026-10-08T20:56:49+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -576,20 +576,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-08T15:06:05+00:00"
+      "last_success": "2026-10-08T20:56:49+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 56,
+      "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 47
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-08T17:00:36+00:00"
+      "last_success": "2026-10-08T20:56:49+00:00"
     }
   },
   "active": {
@@ -788,7 +788,7 @@
         "hours": [],
         "plain": "Διακοπή κυκλοφορίας στη Λ. Καλλιρόης (Δήμου Αθηναίων) · 1/1/27 – 30/6/27 · λόγω εργασιών στα",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "951Υ46ΜΤΛΒ-0ΦΖ",
@@ -806,7 +806,7 @@
         ],
         "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Αμαλίας (Δήμου Αθηναίων) · 9/10, 00:30–05:00 · λόγω εργασιών μεταφορ",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "Ρ62Κ46ΜΤΛΒ-ΚΔΣ",
@@ -819,7 +819,7 @@
         "hours": [],
         "plain": "Διακοπή κυκλοφορίας — Δήμου Πειραιά",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "iefimerida": [
@@ -830,19 +830,6 @@
         "url": "https://www.iefimerida.gr/ellada/froyrio-athina-episkepsi-roympio-dromoi-kleinoyn-metro",
         "details": "",
         "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.iefimerida.gr/ellada/kykloforiako-emfragma-sto-kentro-tis-athinas",
-        "source": "iefimerida",
-        "title": "Συστάσεις της ΕΛΑΣ για την κυκλοφορία στο κέντρο της Αθήνας λόγω της άφιξης Ρούμπιο",
-        "url": "https://www.iefimerida.gr/ellada/kykloforiako-emfragma-sto-kentro-tis-athinas",
-        "details": "",
-        "area": "Κέντρο",
         "days": [],
         "hours": [],
         "plain": "",
@@ -1721,7 +1708,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-08T15:06:05+00:00",
+      "last_seen": "2026-10-08T20:56:49+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1741,7 +1728,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-08T15:06:05+00:00",
+      "last_seen": "2026-10-08T20:56:49+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2432,7 +2419,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Καλλιρόης (Δήμου Αθηναίων) · 1/1/27 – 30/6/27 · λόγω εργασιών στα",
       "category": "",
       "first_seen": "2026-10-08T15:06:05+00:00",
-      "last_seen": "2026-10-08T15:06:05+00:00",
+      "last_seen": "2026-10-08T20:56:49+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -2453,7 +2440,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Αμαλίας (Δήμου Αθηναίων) · 9/10, 00:30–05:00 · λόγω εργασιών μεταφορ",
       "category": "",
       "first_seen": "2026-10-08T15:06:05+00:00",
-      "last_seen": "2026-10-08T15:06:05+00:00",
+      "last_seen": "2026-10-08T20:56:49+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2649,12 +2636,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-01T00:12:43+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-01T03:24:24+00:00",
       "new": 0,
@@ -3008,6 +2989,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-08T20:56:49+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
