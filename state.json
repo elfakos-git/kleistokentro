@@ -522,7 +522,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-08T20:56:48+00:00"
+      "last_success": "2026-10-09T03:54:58+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -536,7 +536,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-08T20:56:49+00:00"
+      "last_success": "2026-10-09T03:54:58+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -550,7 +550,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-08T20:56:49+00:00"
+      "last_success": "2026-10-09T03:54:58+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -561,35 +561,34 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-08T20:56:49+00:00"
+      "last_success": "2026-10-09T03:54:58+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 1,
-      "fetched": 11,
+      "items": 2,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 2,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8,
-        "λεωφορεία (χωρίς ειδοποίηση)": 1
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 11,
+        "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-08T20:56:49+00:00"
+      "last_success": "2026-10-09T03:54:58+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 13,
+      "fetched": 19,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 10
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-09T02:19:12+00:00"
+      "last_success": "2026-10-09T03:54:58+00:00"
     }
   },
   "active": {
@@ -981,6 +980,19 @@
         "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-98/",
         "details": "",
         "area": "Βόρεια",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-76/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73  του Δήμου Περιστερίου",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-76/",
+        "details": "",
+        "area": "Δυτικά",
         "days": [],
         "hours": [],
         "plain": "",
@@ -1665,7 +1677,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-08T20:56:49+00:00",
+      "last_seen": "2026-10-09T03:54:58+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1685,7 +1697,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-08T20:56:49+00:00",
+      "last_seen": "2026-10-09T03:54:58+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2380,7 +2392,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Καλλιρόης (Δήμου Αθηναίων) · 1/1/27 – 30/6/27 · λόγω εργασιών στα",
       "category": "",
       "first_seen": "2026-10-08T15:06:05+00:00",
-      "last_seen": "2026-10-08T20:56:49+00:00",
+      "last_seen": "2026-10-09T03:54:58+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -2401,7 +2413,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Αμαλίας (Δήμου Αθηναίων) · 9/10, 00:30–05:00 · λόγω εργασιών μεταφορ",
       "category": "",
       "first_seen": "2026-10-08T15:06:05+00:00",
-      "last_seen": "2026-10-08T20:56:49+00:00",
+      "last_seen": "2026-10-09T03:54:58+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2597,12 +2609,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-01T10:37:00+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-01T16:35:10+00:00",
       "new": 0,
@@ -2956,6 +2962,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-09T03:54:58+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
