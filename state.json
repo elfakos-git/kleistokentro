@@ -522,21 +522,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-09T11:03:13+00:00"
+      "last_success": "2026-10-09T17:47:46+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 96,
-        "μόνο μία λωρίδα/ΛΕΑ": 3
+        "εκτός θέματος/Αθήνας": 100
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-09T11:03:13+00:00"
+      "last_success": "2026-10-09T17:47:46+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -550,7 +549,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-09T11:03:13+00:00"
+      "last_success": "2026-10-09T17:47:46+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -561,54 +560,40 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-09T11:03:13+00:00"
+      "last_success": "2026-10-09T17:47:46+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 3,
+      "items": 2,
       "fetched": 11,
       "dropped": {
         "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
-        "λεωφορεία (χωρίς ειδοποίηση)": 3
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8,
+        "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
-      "body_enriched": 2,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-09T11:03:17+00:00"
+      "last_success": "2026-10-09T17:47:46+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 53,
+      "fetched": 31,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 44
+        "κατηγορία εκτός πολιτικής": 22
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-09T16:38:42+00:00"
+      "last_success": "2026-10-09T17:47:46+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [
-      {
-        "id": "ΡΔΦΒ46ΜΤΛΒ-Β1Β",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "Κυκλοφοριακές ρυθμίσεις, για εργασίες εγκατάστασης νέων αντιθορυβικών πετασμάτων από χ/θ. 182+420 έως 182+215 στην κατεύθυνση κυκλοφορίας προς Αθήνα του Αυτοκινητόδρομου Αθηνών – Πατρών",
-        "url": "https://diavgeia.gov.gr/decision/view/ΡΔΦΒ46ΜΤΛΒ-Β1Β",
-        "details": "Επίσημη απόφαση Τροχαίας (09/10/2026)",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
-      }
-    ],
+    "diavgeia": [],
     "iefimerida": [
       {
         "id": "https://www.iefimerida.gr/ellada/froyrio-athina-episkepsi-roympio-dromoi-kleinoyn-metro",
@@ -768,14 +753,11 @@
         "url": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7-9/",
         "details": "",
         "area": "Βόρεια",
-        "days": [
-          "2026-10-11",
-          "2026-10-18"
-        ],
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "bus",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-126/",
@@ -784,21 +766,6 @@
         "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-126/",
         "details": "",
         "area": "",
-        "days": [
-          "2026-10-10"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": true
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-98/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 653 (ΨΥΧΙΚΟ – ΠΑΝΟΡΜΟΥ Β), λόγω εργασιών στην οδό Αλέξανδρου Παπαναστασίου 71, στον Δήμο Φιλοθέης – Ψυχικού",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-98/",
-        "details": "",
-        "area": "Βόρεια",
         "days": [],
         "hours": [],
         "plain": "",
@@ -1483,7 +1450,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-09T11:03:13+00:00",
+      "last_seen": "2026-10-09T17:47:46+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1503,7 +1470,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-09T11:03:13+00:00",
+      "last_seen": "2026-10-09T17:47:46+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2457,12 +2424,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-01T23:36:06+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-10-02T00:56:53+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2815,6 +2776,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-09T17:47:46+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
