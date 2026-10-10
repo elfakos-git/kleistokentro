@@ -577,14 +577,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 27,
+      "fetched": 18,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 18
+        "κατηγορία εκτός πολιτικής": 9
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T19:24:44+00:00"
+      "last_success": "2026-10-10T22:42:37+00:00"
     }
   },
   "active": {
@@ -820,7 +820,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-10-10"
+          "2026-10-11"
         ],
         "hours": [],
         "plain": "",
@@ -835,7 +835,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-10-10"
+          "2026-10-11"
         ],
         "hours": [],
         "plain": "",
@@ -850,7 +850,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-10"
+          "2026-10-11"
         ],
         "hours": [],
         "plain": "",
@@ -865,7 +865,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-10"
+          "2026-10-11"
         ],
         "hours": [],
         "plain": "",
@@ -880,7 +880,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-10"
+          "2026-10-11"
         ],
         "hours": [],
         "plain": "",
@@ -895,7 +895,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-10"
+          "2026-10-11"
         ],
         "hours": [],
         "plain": "",
@@ -910,7 +910,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-10"
+          "2026-10-11"
         ],
         "hours": [],
         "plain": "",
@@ -925,7 +925,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-10"
+          "2026-10-11"
         ],
         "hours": [],
         "plain": "",
@@ -940,7 +940,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-10"
+          "2026-10-11"
         ],
         "hours": [],
         "plain": "",
@@ -1148,27 +1148,6 @@
         "151797168"
       ]
     },
-    "9ΩΝΚ46ΜΤΛΒ-77Η": {
-      "id": "9ΩΝΚ46ΜΤΛΒ-77Η",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25572-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στην Ν.Ε.Ο. Αθηνών-Λαμίας, από τη χ/θ 50,800 έως τη χ/θ 54,100 , ρεύμα κυκλοφορίας προς Λαμία, περιοχής Δήμου Ωρωπού, κατά το χρονικό διάστημα από 31.08.2026 και ώρα 18.00΄ έως 03.10.2026 και ώρα 06.00΄, ενώ",
-      "url": "https://diavgeia.gov.gr/decision/view/9ΩΝΚ46ΜΤΛΒ-77Η",
-      "details": "Επίσημη απόφαση Τροχαίας (31/08/2026)",
-      "area": "Βόρεια",
-      "days": [
-        "2026-08-31",
-        "2026-10-03"
-      ],
-      "hours": [],
-      "plain": "Διακοπή κυκλοφορίας — Δήμου Ωρωπού (προς Λαμία) · 31/8, 3/10, 18:00–03:10",
-      "category": "",
-      "first_seen": "2026-08-31T10:19:01+00:00",
-      "last_seen": "2026-08-31T10:19:01+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
     "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/": {
       "id": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
       "source": "kathimerini",
@@ -1344,29 +1323,6 @@
         "151797168"
       ]
     },
-    "ΡΒΦΓ46ΜΤΛΒ-ΑΘ7": {
-      "id": "ΡΒΦΓ46ΜΤΛΒ-ΑΘ7",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25668 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Πλήρη διακοπή της κυκλοφορίας των οχημάτων στην οδό Ασκληπιού, στο τμήμα της μεταξύ των οδών Βαλσάμωνος και Γρ. Θεολόγου, περιοχής Δήμου Αθηναίων, την 03-10-2026, κατά τις ώρες 06.00΄ έως 10.00΄, για την εκτέλεση εργασιών φορτοεκφόρτωσης οικοδομικών υλικώ",
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΒΦΓ46ΜΤΛΒ-ΑΘ7",
-      "details": "Επίσημη απόφαση Τροχαίας (29/09/2026)",
-      "area": "Κέντρο",
-      "days": [
-        "2026-10-03"
-      ],
-      "hours": [
-        "06:00",
-        "10:00"
-      ],
-      "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 3/10, 06:00–10:00",
-      "category": "",
-      "first_seen": "2026-09-29T17:23:10+00:00",
-      "last_seen": "2026-09-30T03:17:51+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
     "ΨΧΑΖ46ΜΤΛΒ-Ι1Τ": {
       "id": "ΨΧΑΖ46ΜΤΛΒ-Ι1Τ",
       "source": "Διαύγεια (Τροχαία)",
@@ -1454,26 +1410,6 @@
         "151797168"
       ]
     },
-    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sabbato-sto-kentro": {
-      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sabbato-sto-kentro",
-      "source": "iefimerida",
-      "title": "Κυκλοφοριακές ρυθμίσεις το Σάββατο στο κέντρο της Αθήνας λόγω του εορτασμού του Αγίου Διονυσίου Αρεοπαγίτου",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sabbato-sto-kentro",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-10-03"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-03T09:33:46+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
     "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/": {
       "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
       "source": "kathimerini",
@@ -1530,26 +1466,6 @@
       "category": "",
       "first_seen": "2026-10-01T10:36:59+00:00",
       "last_seen": "2026-10-02T03:25:06+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-295/": {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-295/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση των  λεωφορειακών  γραμμών 833, 832,   λόγω εργασιών στην οδό  Δωδεκανήσου 98,  του Δήμου ΚΕΡΑΤΣΙΝΙΟΥ",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-295/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-10-03"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-10-02T10:12:10+00:00",
-      "last_seen": "2026-10-02T10:12:10+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2523,12 +2439,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-03T03:09:29+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-10-03T08:35:37+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2878,6 +2788,12 @@
     },
     {
       "time": "2026-10-10T19:24:44+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-10-10T22:42:37+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
