@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T16:41:52+00:00"
+      "last_success": "2026-10-10T23:07:00+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -532,7 +532,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T16:41:52+00:00"
+      "last_success": "2026-10-10T23:07:00+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -546,7 +546,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T16:41:52+00:00"
+      "last_success": "2026-10-10T23:07:00+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -557,34 +557,35 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T16:41:52+00:00"
+      "last_success": "2026-10-10T23:07:00+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
       "items": 4,
-      "fetched": 13,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
+        "παλιά ανακοίνωση": 1,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
         "λεωφορεία (χωρίς ειδοποίηση)": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T16:41:52+00:00"
+      "last_success": "2026-10-10T23:07:00+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 18,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 9
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T22:42:37+00:00"
+      "last_success": "2026-10-10T23:07:00+00:00"
     }
   },
   "active": {
@@ -709,21 +710,6 @@
         "area": "",
         "days": [
           "2026-10-11"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
-        "source": "kathimerini",
-        "title": "Κυκλοφοριακές ρυθμίσεις το Σάββατο στο κέντρο λόγω του εορτασμού του Αγίου Διονυσίου Αρεοπαγίτη",
-        "url": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
-        "details": "",
-        "area": "",
-        "days": [
-          "2026-10-10"
         ],
         "hours": [],
         "plain": "",
@@ -1424,7 +1410,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-10T16:41:52+00:00",
+      "last_seen": "2026-10-10T23:07:00+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1444,7 +1430,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-10T16:41:52+00:00",
+      "last_seen": "2026-10-10T23:07:00+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2222,7 +2208,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-10T16:41:52+00:00",
+      "last_seen": "2026-10-10T23:07:00+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2438,12 +2424,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-03T08:35:37+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-03T09:33:49+00:00",
       "new": 3,
@@ -2797,6 +2777,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-10T23:07:00+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
