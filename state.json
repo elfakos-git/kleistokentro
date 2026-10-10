@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T10:19:26+00:00"
+      "last_success": "2026-10-10T16:41:52+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -532,7 +532,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T10:19:26+00:00"
+      "last_success": "2026-10-10T16:41:52+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -544,9 +544,9 @@
         "χωρίς/παλιά ημερομηνία": 9
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T10:19:26+00:00"
+      "last_success": "2026-10-10T16:41:52+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -555,37 +555,36 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T10:19:27+00:00"
+      "last_success": "2026-10-10T16:41:52+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
       "items": 4,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
         "λεωφορεία (χωρίς ειδοποίηση)": 4
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T10:19:29+00:00"
+      "last_success": "2026-10-10T16:41:52+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 21,
+      "fetched": 20,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 12
+        "κατηγορία εκτός πολιτικής": 11
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T15:28:13+00:00"
+      "last_success": "2026-10-10T16:41:52+00:00"
     }
   },
   "active": {
@@ -602,7 +601,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "iefimerida": [
@@ -613,14 +612,11 @@
         "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sti-grammi-3-toy-metro",
         "details": "",
         "area": "Βόρεια",
-        "days": [
-          "2026-10-15",
-          "2026-10-22"
-        ],
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "kathimerini": [
@@ -630,14 +626,14 @@
         "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
         "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
         "details": "",
-        "area": "Κέντρο",
+        "area": "",
         "days": [
           "2026-10-11"
         ],
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.kathimerini.gr/society/564505150/episkepsi-roympio-drakonteia-metra-asfaleias-kykloforiakes-rythmiseis-kai-apagoreysi-sygkentroseon/",
@@ -769,13 +765,11 @@
         "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-127/",
         "details": "",
         "area": "",
-        "days": [
-          "2026-10-11"
-        ],
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "bus",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-288/",
@@ -788,7 +782,7 @@
         "hours": [],
         "plain": "",
         "category": "bus",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7-9/",
@@ -1494,7 +1488,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-10T10:19:27+00:00",
+      "last_seen": "2026-10-10T16:41:52+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1514,7 +1508,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-10T10:19:27+00:00",
+      "last_seen": "2026-10-10T16:41:52+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2304,7 +2298,7 @@
       "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
       "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
       "details": "",
-      "area": "Κέντρο",
+      "area": "",
       "days": [
         "2026-10-11"
       ],
@@ -2312,7 +2306,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-10T10:19:27+00:00",
+      "last_seen": "2026-10-10T16:41:52+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2528,12 +2522,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-02T23:28:04+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-02T23:52:01+00:00",
       "new": 0,
@@ -2887,6 +2875,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-10T16:41:52+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
