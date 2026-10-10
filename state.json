@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-09T23:44:20+00:00"
+      "last_success": "2026-10-10T03:39:14+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -532,7 +532,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-09T23:44:20+00:00"
+      "last_success": "2026-10-10T03:39:14+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -546,7 +546,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-09T23:44:20+00:00"
+      "last_success": "2026-10-10T03:39:14+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -557,7 +557,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-09T23:44:20+00:00"
+      "last_success": "2026-10-10T03:39:14+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -572,7 +572,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-09T23:44:20+00:00"
+      "last_success": "2026-10-10T03:39:14+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -585,7 +585,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T01:01:51+00:00"
+      "last_success": "2026-10-10T03:39:14+00:00"
     }
   },
   "active": {
@@ -1447,7 +1447,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-09T23:44:20+00:00",
+      "last_seen": "2026-10-10T03:39:14+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1467,7 +1467,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-09T23:44:20+00:00",
+      "last_seen": "2026-10-10T03:39:14+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2423,12 +2423,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-02T10:12:10+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-10-02T15:53:23+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2781,6 +2775,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-10T03:39:14+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
