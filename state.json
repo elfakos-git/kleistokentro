@@ -577,15 +577,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 13,
+      "items": 9,
+      "fetched": 23,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 14
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-11T03:12:17+00:00"
+      "last_success": "2026-10-11T09:20:49+00:00"
     }
   },
   "active": {
@@ -857,21 +857,6 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582749060013000",
-        "source": "TomTom (realtime)",
-        "title": "Platia Ag. Theodoron (Dragatsaniou) → Stadiou (Dragatsaniou)",
-        "url": "https://www.google.com/maps?q=37.9795365596,23.7306055063",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-10-11"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
       },
       {
         "id": "TTI-TTR51579863732014000",
@@ -2254,15 +2239,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-10-10"
+    "151797168": "2026-10-11"
   },
   "notifications": [
-    {
-      "time": "2026-10-02T09:03:21+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-10-02T23:28:04+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -2436,15 +2415,15 @@
       "source": "kathimerini",
       "title": "🚨 Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
       "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/"
+    },
+    {
+      "time": "2026-10-11T09:20:50+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-03T13:58:22+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-03T15:30:17+00:00",
       "new": 0,
@@ -2798,6 +2777,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-11T09:20:50+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
