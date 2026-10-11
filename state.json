@@ -578,15 +578,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 22,
+      "items": 9,
+      "fetched": 12,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 11
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-11T17:07:52+00:00"
+      "last_success": "2026-10-11T19:45:48+00:00"
     }
   },
   "active": {
@@ -890,40 +890,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51582749116013000",
-        "source": "TomTom (realtime)",
-        "title": "Tsoha An. (Kiriakou Pan.) → Dorileou (Kiriakou Pan.)",
-        "url": "https://www.google.com/maps?q=37.9865048936,23.7550015384",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-10-11"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
         "id": "TTI-TTR51594290912011001",
         "source": "TomTom (realtime)",
         "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
         "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-10-11"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582749260013000",
-        "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Αλεξάνδρας → Αν. Τσόχα",
-        "url": "https://www.google.com/maps?q=37.9876046269,23.7553327912",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -2456,12 +2426,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-03T20:14:24+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-03T22:34:12+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2814,6 +2778,12 @@
       "new": 1,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-11T19:45:48+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
