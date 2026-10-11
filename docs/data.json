@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T23:07:00+00:00",
+  "generated_at": "2026-10-11T03:12:17+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T23:07:00+00:00"
+      "last_success": "2026-10-11T03:12:16+00:00"
     },
     {
       "name": "diavgeia",
@@ -18,12 +18,13 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99
+        "εκτός θέματος/Αθήνας": 97,
+        "εκτός χρονικού παραθύρου": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T23:07:00+00:00"
+      "last_success": "2026-10-11T03:12:16+00:00"
     },
     {
       "name": "iefimerida",
@@ -37,7 +38,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T23:07:00+00:00"
+      "last_success": "2026-10-11T03:12:16+00:00"
     },
     {
       "name": "kathimerini",
@@ -48,35 +49,34 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T23:07:00+00:00"
+      "last_success": "2026-10-11T03:12:16+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
       "items": 4,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
         "λεωφορεία (χωρίς ειδοποίηση)": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T23:07:00+00:00"
+      "last_success": "2026-10-11T03:12:17+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 15,
+      "items": 10,
+      "fetched": 13,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-10T23:07:00+00:00"
+      "last_success": "2026-10-11T03:12:17+00:00"
     }
   ],
   "active_events": [
@@ -338,6 +338,21 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51582749060013000",
+      "source": "TomTom (realtime)",
+      "title": "Platia Ag. Theodoron (Dragatsaniou) → Stadiou (Dragatsaniou)",
+      "url": "https://www.google.com/maps?q=37.9795365596,23.7306055063",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-10-11"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51579863732014000",
@@ -1187,7 +1202,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-10T23:07:00+00:00",
+      "last_seen": "2026-10-11T03:12:16+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -1241,7 +1256,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-10T23:07:00+00:00",
+      "last_seen": "2026-10-11T03:12:16+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1320,7 +1335,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-10T23:07:00+00:00",
+      "last_seen": "2026-10-11T03:12:16+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1821,12 +1836,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-03T09:33:49+00:00",
-      "new": 3,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-10-03T13:58:22+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2176,6 +2185,12 @@
     },
     {
       "time": "2026-10-10T23:07:00+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
+    },
+    {
+      "time": "2026-10-11T03:12:17+00:00",
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
