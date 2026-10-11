@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-257/",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51574092528022000",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51600061312012000",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51568321972030001",
@@ -499,7 +498,8 @@
     "9ΨΘΚ46ΜΤΛΒ-Ξ4Δ",
     "TTI-TTR51582749060013000",
     "ΨΗ3546ΜΤΛΒ-ΔΓΠ",
-    "ΨΞΡΤ46ΜΤΛΒ-Ο7Υ"
+    "ΨΞΡΤ46ΜΤΛΒ-Ο7Υ",
+    "TTI-TTR51585634372011000"
   ],
   "seeded": [
     "astynomia",
@@ -578,15 +578,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
+      "items": 12,
       "fetched": 24,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 15
+        "κατηγορία εκτός πολιτικής": 12
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-11T10:28:09+00:00"
+      "last_success": "2026-10-11T15:49:32+00:00"
     }
   },
   "active": {
@@ -847,6 +847,21 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51585634372011000",
+        "source": "TomTom (realtime)",
+        "title": "Vas. Sofias Ave (Sekeri) → Kanari (Sekeri)",
+        "url": "https://www.google.com/maps?q=37.9763085029,23.7391858929",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-11"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
         "id": "TTI-TTR51579863732014000",
         "source": "TomTom (realtime)",
         "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
@@ -877,10 +892,40 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51582749116013000",
+        "source": "TomTom (realtime)",
+        "title": "Tsoha An. (Kiriakou Pan.) → Dorileou (Kiriakou Pan.)",
+        "url": "https://www.google.com/maps?q=37.9865048936,23.7550015384",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-10-11"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
         "id": "TTI-TTR51594290912011001",
         "source": "TomTom (realtime)",
         "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
         "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-11"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51582749260013000",
+        "source": "TomTom (realtime)",
+        "title": "Λεωφόρος Αλεξάνδρας → Αν. Τσόχα",
+        "url": "https://www.google.com/maps?q=37.9876046269,23.7553327912",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -2413,12 +2458,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-03T17:43:32+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-03T18:55:15+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2771,6 +2810,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-11T15:49:32+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
