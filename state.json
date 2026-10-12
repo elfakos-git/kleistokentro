@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-11T23:20:05+00:00"
+      "last_success": "2026-10-12T03:35:19+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -534,7 +534,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-11T23:20:05+00:00"
+      "last_success": "2026-10-12T03:35:19+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -547,7 +547,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-11T23:20:05+00:00"
+      "last_success": "2026-10-12T03:35:19+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -558,7 +558,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-11T23:20:05+00:00"
+      "last_success": "2026-10-12T03:35:19+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -572,20 +572,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-11T23:20:12+00:00"
+      "last_success": "2026-10-12T03:35:20+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 12,
+      "fetched": 13,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-11T23:20:12+00:00"
+      "last_success": "2026-10-12T03:35:20+00:00"
     }
   },
   "active": {
@@ -1350,7 +1350,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-11T23:20:05+00:00",
+      "last_seen": "2026-10-12T03:35:19+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1370,7 +1370,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-11T23:20:05+00:00",
+      "last_seen": "2026-10-12T03:35:19+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2066,7 +2066,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-11T23:20:05+00:00",
+      "last_seen": "2026-10-12T03:35:19+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2282,12 +2282,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-04T03:37:41+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-04T08:52:31+00:00",
       "new": 0,
@@ -2638,6 +2632,12 @@
     },
     {
       "time": "2026-10-11T23:20:12+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
+    },
+    {
+      "time": "2026-10-12T03:35:20+00:00",
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
