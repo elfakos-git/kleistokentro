@@ -1,8 +1,5 @@
 {
   "seen": [
-    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51579863732014000",
-    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290660014001",
-    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290912011001",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594291004012000",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594291000004000",
     "9ΣΕΩ46ΜΤΛΒ-ΡΟΡ",
@@ -499,7 +496,10 @@
     "ΡΘΠΔ46ΜΤΛΒ-0Α9",
     "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-se-6-stathmoys-toy-metro",
     "TTI-TTR51579863868021000",
-    "TTI-TTR51574092996021000"
+    "TTI-TTR51574092996021000",
+    "9ΓΒ246ΜΤΛΒ-ΦΟΑ",
+    "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
+    "Ρ6ΠΠ46ΜΤΛΒ-ΣΙΘ"
   ],
   "seeded": [
     "astynomia",
@@ -514,38 +514,42 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "fetched": 54,
+      "dropped": {
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-13T04:49:00+00:00"
+      "last_success": "2026-10-13T15:27:22+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 98,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-13T04:49:00+00:00"
+      "last_success": "2026-10-13T15:27:22+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 2,
+      "items": 1,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 9
+        "χωρίς/παλιά ημερομηνία": 10
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-13T04:49:00+00:00"
+      "last_success": "2026-10-13T15:27:22+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -554,41 +558,55 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-10-13T04:49:00+00:00"
+      "last_success": "2026-10-13T15:27:22+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 2,
-      "fetched": 13,
+      "items": 0,
+      "fetched": 11,
       "dropped": {
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 11,
-        "λεωφορεία (χωρίς ειδοποίηση)": 2
+        "παλιά ανακοίνωση": 5,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-13T04:49:00+00:00"
+      "last_success": "2026-10-13T15:27:22+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 60,
+      "fetched": 95,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 51
+        "κατηγορία εκτός πολιτικής": 86
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-13T09:46:50+00:00"
+      "last_success": "2026-10-13T15:27:22+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [],
+    "diavgeia": [
+      {
+        "id": "Ρ6ΠΠ46ΜΤΛΒ-ΣΙΘ",
+        "source": "Διαύγεια (Τροχαία)",
+        "title": "ΑΠΟΦΑΣΗ ΠΡΟΣΩΡΙΝΩΝ ΚΥΚΛΟΦΟΡΙΑΚΩΝ ΡΥΘΜΙΣΕΩΝ ΣΤΟΝ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟ Α.Θ.Ε. Χ.Θ. 161+500 έως Χ.Θ. 159+500 ΣΤΟ ΡΕΥΜΑ ΚΥΚΛΟΦΟΡΙΑΣ ΠΡΟΣ ΑΘΗΝΑ",
+        "url": "https://diavgeia.gov.gr/decision/view/Ρ6ΠΠ46ΜΤΛΒ-ΣΙΘ",
+        "details": "Επίσημη απόφαση Τροχαίας (13/10/2026)",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      }
+    ],
     "iefimerida": [
       {
         "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-se-6-stathmoys-toy-metro",
@@ -602,22 +620,25 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sti-grammi-3-toy-metro",
-        "source": "iefimerida",
-        "title": "Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 του Μετρό από Κυριακή στο τμήμα Αμπελόκηποι-Χαλάνδρι -Έξι σταθμοί θα κλείνουν 21:40",
-        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sti-grammi-3-toy-metro",
-        "details": "",
-        "area": "Βόρεια",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
       }
     ],
     "kathimerini": [
+      {
+        "id": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
+        "source": "kathimerini",
+        "title": "Οι περιορισμοί στην κυκλοφορία και στάση των οχημάτων θα εφαρμόζονται σταδιακά και ανάλογα με το σημείο κίνησης των δρομέων.",
+        "url": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
+        "details": "",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-10-17",
+          "2026-10-26"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
       {
         "id": "https://www.kathimerini.gr/society/564505150/episkepsi-roympio-drakonteia-metra-asfaleias-kykloforiakes-rythmiseis-kai-apagoreysi-sygkentroseon/",
         "source": "kathimerini",
@@ -695,49 +716,9 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564468949/athinas-choris-aytokinito-poioi-dromoi-kleinoyn-to-savvatokyriako/",
-        "source": "kathimerini",
-        "title": "«Αθηνάς Χωρίς Αυτοκίνητο»: Ποιοι δρόμοι κλείνουν το Σαββατοκύριακο",
-        "url": "https://www.kathimerini.gr/society/564468949/athinas-choris-aytokinito-poioi-dromoi-kleinoyn-to-savvatokyriako/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
       }
     ],
-    "oasa": [
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-127/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 504, 537 και 740, λόγω αγώνων, στον Δήμο Αχαρνών",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-127/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-288/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 402, 411, 421, 447, 450, 451, 460, 461 και των γραμμών τρόλεϊ 10, 18, 19, 19Β, λόγω διεξαγωγής αγώνα δρόμου, στον Δήμο Χαλανδρίου",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-288/",
-        "details": "",
-        "area": "Βόρεια",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      }
-    ],
+    "oasa": [],
     "tomtom": [
       {
         "id": "TTI-TTR51574092528014000",
@@ -1308,7 +1289,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-13T04:49:00+00:00",
+      "last_seen": "2026-10-13T15:27:22+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1328,7 +1309,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-13T04:49:00+00:00",
+      "last_seen": "2026-10-13T15:27:22+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2005,7 +1986,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-13T04:49:00+00:00",
+      "last_seen": "2026-10-13T15:27:22+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2051,6 +2032,25 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/": {
+      "id": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
+      "source": "kathimerini",
+      "title": "Οι περιορισμοί στην κυκλοφορία και στάση των οχημάτων θα εφαρμόζονται σταδιακά και ανάλογα με το σημείο κίνησης των δρομέων.",
+      "url": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
+      "details": "",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-10-17",
+        "2026-10-26"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-10-13T15:27:22+00:00",
+      "last_seen": "2026-10-13T15:27:22+00:00",
+      "extended": false,
+      "alerted_chats": []
     }
   },
   "known_chats": [
@@ -2242,12 +2242,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-05T00:15:16+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-05T03:20:31+00:00",
       "new": 0,
@@ -2601,6 +2595,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-13T15:27:22+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
