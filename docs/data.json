@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T13:52:14+00:00",
+  "generated_at": "2026-10-14T16:15:48+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T09:10:43+00:00"
+      "last_success": "2026-10-14T16:15:48+00:00"
     },
     {
       "name": "diavgeia",
@@ -21,12 +21,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 99,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T09:10:43+00:00"
+      "last_success": "2026-10-14T16:15:48+00:00"
     },
     {
       "name": "iefimerida",
@@ -39,7 +40,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T09:10:43+00:00"
+      "last_success": "2026-10-14T16:15:48+00:00"
     },
     {
       "name": "kathimerini",
@@ -50,7 +51,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T09:10:43+00:00"
+      "last_success": "2026-10-14T16:15:48+00:00"
     },
     {
       "name": "oasa",
@@ -64,20 +65,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T09:10:43+00:00"
+      "last_success": "2026-10-14T16:15:48+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 85,
+      "fetched": 57,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 76
+        "κατηγορία εκτός πολιτικής": 48
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T13:52:14+00:00"
+      "last_success": "2026-10-14T16:15:48+00:00"
     }
   ],
   "active_events": [
@@ -994,7 +995,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-14T09:10:43+00:00",
+      "last_seen": "2026-10-14T16:15:48+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -1073,7 +1074,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-14T09:10:43+00:00",
+      "last_seen": "2026-10-14T16:15:48+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -1224,7 +1225,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-14T09:10:43+00:00",
+      "last_seen": "2026-10-14T16:15:48+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1630,12 +1631,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-06T16:06:03+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-06T20:42:17+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1988,6 +1983,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-14T16:15:48+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
