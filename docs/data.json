@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T21:49:10+00:00",
+  "generated_at": "2026-10-14T22:54:00+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T16:15:48+00:00"
+      "last_success": "2026-10-14T22:54:00+00:00"
     },
     {
       "name": "diavgeia",
@@ -27,7 +27,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T16:15:48+00:00"
+      "last_success": "2026-10-14T22:54:00+00:00"
     },
     {
       "name": "iefimerida",
@@ -40,7 +40,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T16:15:48+00:00"
+      "last_success": "2026-10-14T22:54:00+00:00"
     },
     {
       "name": "kathimerini",
@@ -51,7 +51,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T16:15:48+00:00"
+      "last_success": "2026-10-14T22:54:00+00:00"
     },
     {
       "name": "oasa",
@@ -65,7 +65,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T16:15:48+00:00"
+      "last_success": "2026-10-14T22:54:00+00:00"
     },
     {
       "name": "tomtom",
@@ -78,7 +78,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T21:49:09+00:00"
+      "last_success": "2026-10-14T22:54:00+00:00"
     }
   ],
   "active_events": [
@@ -103,6 +103,21 @@
       "details": "",
       "area": "",
       "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+      "source": "kathimerini",
+      "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
+      "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-10-18"
+      ],
       "hours": [],
       "plain": "",
       "category": "",
@@ -168,6 +183,21 @@
       "details": "",
       "area": "Βόρεια",
       "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
+      "source": "kathimerini",
+      "title": "Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Αθήνα για το «Greece Race for the Cure 2026»",
+      "url": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-10-18"
+      ],
       "hours": [],
       "plain": "",
       "category": "",
@@ -982,24 +1012,6 @@
       "status": "ended"
     },
     {
-      "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
-      "source": "kathimerini",
-      "title": "Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Αθήνα για το «Greece Race for the Cure 2026»",
-      "url": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-10-11"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-14T16:15:48+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
       "id": "6ΔΧΔ46ΜΤΛΒ-ΒΗΖ",
       "source": "Διαύγεια (Τροχαία)",
       "title": "25702-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στο αριστερό άκρο του οδοστρώματος της οδού Πεσμαζόγλου, στο ύψος των ο.α. 12-14, περιοχής Δήμου Αθηναίων, την 11-10-2026, κατά τις ώρες 07.00΄ έως 13.00΄, λόγω εκτέλεσης εργασιών με χρήση γερανοφόρου οχήματ",
@@ -1059,24 +1071,6 @@
       "last_seen": "2026-10-09T11:03:16+00:00",
       "extended": false,
       "status": "planned"
-    },
-    {
-      "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
-      "source": "kathimerini",
-      "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
-      "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-10-11"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-14T16:15:48+00:00",
-      "extended": false,
-      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-127/",
@@ -1225,7 +1219,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-14T16:15:48+00:00",
+      "last_seen": "2026-10-14T22:54:00+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1245,6 +1239,42 @@
       "category": "",
       "first_seen": "2026-10-13T15:27:22+00:00",
       "last_seen": "2026-10-13T15:27:22+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
+      "source": "kathimerini",
+      "title": "Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Αθήνα για το «Greece Race for the Cure 2026»",
+      "url": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-10-18"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-09-30T17:20:52+00:00",
+      "last_seen": "2026-10-14T22:54:00+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+      "source": "kathimerini",
+      "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
+      "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-10-18"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-10-10T10:19:27+00:00",
+      "last_seen": "2026-10-14T22:54:00+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1631,12 +1661,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-07T00:50:18+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-07T03:35:17+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1989,6 +2013,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-14T22:54:00+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
