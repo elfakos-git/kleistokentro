@@ -522,7 +522,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T22:54:00+00:00"
+      "last_success": "2026-10-15T02:36:03+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -536,7 +536,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T22:54:00+00:00"
+      "last_success": "2026-10-15T02:36:03+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -549,7 +549,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T22:54:00+00:00"
+      "last_success": "2026-10-15T02:36:03+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -560,7 +560,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T22:54:00+00:00"
+      "last_success": "2026-10-15T02:36:03+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -574,20 +574,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-14T22:54:00+00:00"
+      "last_success": "2026-10-15T02:36:03+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 16,
+      "items": 12,
+      "fetched": 18,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-15T00:09:12+00:00"
+      "last_success": "2026-10-15T02:36:03+00:00"
     }
   },
   "active": {
@@ -770,6 +770,36 @@
         "url": "https://www.google.com/maps?q=37.999765732,23.7203259402",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
+        "days": [
+          "2026-10-15"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51582749012015000",
+        "source": "TomTom (realtime)",
+        "title": "Eolou (Ag. Irinis) → Athinas (Ag. Irinis)",
+        "url": "https://www.google.com/maps?q=37.9770313229,23.7272809082",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-15"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51582749008015000",
+        "source": "TomTom (realtime)",
+        "title": "Kalamiotou (Athinedos) → Eolou (Athinedos)",
+        "url": "https://www.google.com/maps?q=37.9768221419,23.7288754815",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
         "days": [
           "2026-10-15"
         ],
@@ -1332,7 +1362,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-14T22:54:00+00:00",
+      "last_seen": "2026-10-15T02:36:03+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1352,7 +1382,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-14T22:54:00+00:00",
+      "last_seen": "2026-10-15T02:36:03+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2009,7 +2039,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-14T22:54:00+00:00",
+      "last_seen": "2026-10-15T02:36:03+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2267,12 +2297,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-07T09:24:23+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-07T10:44:20+00:00",
       "new": 1,
@@ -2626,6 +2650,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-15T02:36:03+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
