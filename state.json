@@ -579,15 +579,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 12,
-      "fetched": 18,
+      "items": 9,
+      "fetched": 62,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 53
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-15T02:36:03+00:00"
+      "last_success": "2026-10-15T07:45:11+00:00"
     }
   },
   "active": {
@@ -779,36 +779,6 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51582749012015000",
-        "source": "TomTom (realtime)",
-        "title": "Eolou (Ag. Irinis) → Athinas (Ag. Irinis)",
-        "url": "https://www.google.com/maps?q=37.9770313229,23.7272809082",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-10-15"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582749008015000",
-        "source": "TomTom (realtime)",
-        "title": "Kalamiotou (Athinedos) → Eolou (Athinedos)",
-        "url": "https://www.google.com/maps?q=37.9768221419,23.7288754815",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-10-15"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
         "id": "TTI-TTR51582749080029000",
         "source": "TomTom (realtime)",
         "title": "Athinas (Evripidou) → Platia Ag. Theodoron (Evripidou)",
@@ -828,21 +798,6 @@
         "source": "TomTom (realtime)",
         "title": "Σταδίου → Ευριπίδου",
         "url": "https://www.google.com/maps?q=37.9786420497,23.7309085959",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-10-15"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582749008007000",
-        "source": "TomTom (realtime)",
-        "title": "Lekka (Perikleous) → Evangelistrias (Perikleous)",
-        "url": "https://www.google.com/maps?q=37.976582105,23.7317213052",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -2112,15 +2067,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-10-14"
+    "151797168": "2026-10-15"
   },
   "notifications": [
-    {
-      "time": "2026-10-04T08:52:31+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-10-04T10:19:39+00:00",
       "source": "iefimerida",
@@ -2294,15 +2243,15 @@
       "source": "kathimerini",
       "title": "🚨 Οι περιορισμοί στην κυκλοφορία και στάση των οχημάτων θα εφαρμόζονται σταδιακά και ανάλογα με το σημείο κίνησης των δρομέων.",
       "url": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/"
+    },
+    {
+      "time": "2026-10-15T07:45:12+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-07T10:44:20+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-07T16:41:53+00:00",
       "new": 0,
@@ -2656,6 +2605,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-15T07:45:12+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
