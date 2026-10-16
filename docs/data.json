@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T19:59:34+00:00",
+  "generated_at": "2026-10-16T22:21:31+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-16T19:09:28+00:00"
+      "last_success": "2026-10-16T22:21:31+00:00"
     },
     {
       "name": "diavgeia",
@@ -24,7 +24,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-16T19:09:28+00:00"
+      "last_success": "2026-10-16T22:21:31+00:00"
     },
     {
       "name": "iefimerida",
@@ -37,7 +37,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-16T19:09:28+00:00"
+      "last_success": "2026-10-16T22:21:31+00:00"
     },
     {
       "name": "kathimerini",
@@ -48,7 +48,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-16T19:09:28+00:00"
+      "last_success": "2026-10-16T22:21:31+00:00"
     },
     {
       "name": "oasa",
@@ -63,20 +63,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-16T19:09:28+00:00"
+      "last_success": "2026-10-16T22:21:31+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 14,
+      "fetched": 13,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-16T19:59:34+00:00"
+      "last_success": "2026-10-16T22:21:31+00:00"
     }
   ],
   "active_events": [
@@ -106,7 +106,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-athe-eos-26-oktobrioy",
@@ -293,7 +293,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-10-16"
+        "2026-10-17"
       ],
       "hours": [],
       "plain": "",
@@ -308,7 +308,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-10-16"
+        "2026-10-17"
       ],
       "hours": [],
       "plain": "",
@@ -323,7 +323,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-16"
+        "2026-10-17"
       ],
       "hours": [],
       "plain": "",
@@ -338,7 +338,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-16"
+        "2026-10-17"
       ],
       "hours": [],
       "plain": "",
@@ -353,7 +353,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-16"
+        "2026-10-17"
       ],
       "hours": [],
       "plain": "",
@@ -368,7 +368,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-16"
+        "2026-10-17"
       ],
       "hours": [],
       "plain": "",
@@ -383,7 +383,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-16"
+        "2026-10-17"
       ],
       "hours": [],
       "plain": "",
@@ -398,7 +398,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-10-16"
+        "2026-10-17"
       ],
       "hours": [],
       "plain": "",
@@ -413,7 +413,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-10-16"
+        "2026-10-17"
       ],
       "hours": [],
       "plain": "",
@@ -835,63 +835,6 @@
       "status": "active"
     },
     {
-      "id": "94Θ746ΜΤΛΒ-ΣΚ6",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "Προσωρινές Κυκλοφοριακές Ρυθμίσεις στο πλαίσιο συναυλίας στο Κέντρου Πολιτισμού Ιερισσού την Παρασκευή 09/10/2026",
-      "url": "https://diavgeia.gov.gr/decision/view/94Θ746ΜΤΛΒ-ΣΚ6",
-      "details": "Επίσημη απόφαση Τροχαίας (07/10/2026)",
-      "area": "",
-      "days": [
-        "2026-10-09"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-10-07T18:12:59+00:00",
-      "last_seen": "2026-10-08T04:26:30+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-98/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή τροποποίηση της διαδρομής της λεωφορειακής γραμμής 653 (ΨΥΧΙΚΟ – ΠΑΝΟΡΜΟΥ Β), λόγω εργασιών στην οδό Αλέξανδρου Παπαναστασίου 71, στον Δήμο Φιλοθέης – Ψυχικού",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-98/",
-      "details": "",
-      "area": "Βόρεια",
-      "days": [
-        "2026-10-09"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-10-08T04:26:32+00:00",
-      "last_seen": "2026-10-08T04:26:32+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "951Υ46ΜΤΛΒ-0ΦΖ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25714 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή και πλήρη διακοπή της κυκλοφορίας των οχημάτων στον λεωφορειόδρομο της Λεωφ. Βασ. Αμαλίας, στο τμήμα μεταξύ των οδών Όθωνος και Ξενοφώντος, περιοχής Δήμου Αθηναίων, στις 09.10.2026 κατά τις ώρες 00.30΄ έως 05.00΄, λόγω εκτέλεσης εργασιών μεταφορ",
-      "url": "https://diavgeia.gov.gr/decision/view/951Υ46ΜΤΛΒ-0ΦΖ",
-      "details": "Επίσημη απόφαση Τροχαίας (08/10/2026)",
-      "area": "Κέντρο",
-      "days": [
-        "2026-10-09"
-      ],
-      "hours": [
-        "00:30",
-        "05:00"
-      ],
-      "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Αμαλίας (Δήμου Αθηναίων) · 9/10, 00:30–05:00 · λόγω εργασιών μεταφορ",
-      "category": "",
-      "first_seen": "2026-10-08T15:06:05+00:00",
-      "last_seen": "2026-10-09T03:54:58+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
       "id": "ΨΧΑΖ46ΜΤΛΒ-Ι1Τ",
       "source": "Διαύγεια (Τροχαία)",
       "title": "25674-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στο δεξιό τμήμα του οδοστρώματος της Λ. Βασ. Αμαλίας, στο ύψος του ο.α. 36, περιοχής Δήμου Αθηναίων, την 10.10.2026, κατά τις ώρες 04.00΄ έως 06.00΄, λόγω εκτέλεσης εργασιών με τη χρήση γερανοφόρου οχήματος.",
@@ -1156,9 +1099,9 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-16T19:09:28+00:00",
+      "last_seen": "2026-10-16T22:21:31+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
@@ -1177,7 +1120,7 @@
       "first_seen": "2026-10-13T15:27:22+00:00",
       "last_seen": "2026-10-13T15:27:22+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "6ΤΘ846ΜΤΛΒ-ΟΔΥ",
@@ -1199,7 +1142,7 @@
       "first_seen": "2026-10-15T08:43:38+00:00",
       "last_seen": "2026-10-15T08:43:38+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-290/",
@@ -1217,7 +1160,7 @@
       "first_seen": "2026-10-16T08:38:30+00:00",
       "last_seen": "2026-10-16T08:38:30+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
@@ -1233,7 +1176,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-16T19:09:28+00:00",
+      "last_seen": "2026-10-16T22:21:31+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1251,7 +1194,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-16T19:09:28+00:00",
+      "last_seen": "2026-10-16T22:21:31+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1269,7 +1212,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-16T19:09:28+00:00",
-      "last_seen": "2026-10-16T19:09:28+00:00",
+      "last_seen": "2026-10-16T22:21:31+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1287,7 +1230,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-16T08:38:28+00:00",
-      "last_seen": "2026-10-16T19:09:28+00:00",
+      "last_seen": "2026-10-16T22:21:31+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1674,12 +1617,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-09T16:38:42+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-09T17:47:46+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2032,6 +1969,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-16T22:21:31+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
