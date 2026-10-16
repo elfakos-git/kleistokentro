@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T15:51:34+00:00",
+  "generated_at": "2026-10-16T17:01:01+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -68,15 +68,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 98,
+      "items": 9,
+      "fetched": 49,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 87
+        "κατηγορία εκτός πολιτικής": 40
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-16T15:51:34+00:00"
+      "last_success": "2026-10-16T17:01:01+00:00"
     }
   ],
   "active_events": [
@@ -395,36 +395,6 @@
       "source": "TomTom (realtime)",
       "title": "Λοχαγού Σπηλιωτοπούλου / Λεωφόρος Γεωργίου Παπανδρέου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
       "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-10-16"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51574092996021000",
-      "source": "TomTom (realtime)",
-      "title": "Platia Efkalipton (Vas. Pavlou) → Amarillidos (Vas. Pavlou)",
-      "url": "https://www.google.com/maps?q=38.0033183707,23.7710518771",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-10-16"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51579863868013000",
-      "source": "TomTom (realtime)",
-      "title": "Amarillidos (Vas. Pavlou) → Platia Efkalipton (Vas. Pavlou)",
-      "url": "https://www.google.com/maps?q=38.0010934673,23.7693741554",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
@@ -1671,12 +1641,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-09T03:54:58+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-10-09T09:40:57+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2029,6 +1993,12 @@
       "new": 1,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-16T17:01:01+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
