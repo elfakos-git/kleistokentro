@@ -577,15 +577,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 14,
+      "items": 8,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T02:23:47+00:00"
+      "last_success": "2026-10-17T07:13:29+00:00"
     }
   },
   "active": {
@@ -826,21 +826,6 @@
         "url": "https://www.google.com/maps?q=37.999765732,23.7203259402",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
-        "days": [
-          "2026-10-17"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582749044015000",
-        "source": "TomTom (realtime)",
-        "title": "Ευριπίδου / Πλατεία Αγίων Θεοδώρων → Πεσμαζόγλου / Σοφοκλέους",
-        "url": "https://www.google.com/maps?q=37.9794963237,23.7298276657",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
         "days": [
           "2026-10-17"
         ],
@@ -2013,15 +1998,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-10-16"
+    "151797168": "2026-10-17"
   },
   "notifications": [
-    {
-      "time": "2026-10-07T09:24:23+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-10-07T10:44:20+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -2195,15 +2174,15 @@
       "source": "iefimerida",
       "title": "🚨 «10ος Ημιμαραθώνιος Μαραθώνα»: Κυκλοφοριακές ρυθμίσεις την Κυριακή 18-10-2026, ποιοι δρόμοι θα κλείσουν",
       "url": "https://www.iefimerida.gr/ellada/imimarathonios-marathona-kykloforiakes-rythmiseis"
+    },
+    {
+      "time": "2026-10-17T07:13:30+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-09T23:44:20+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-10T01:01:51+00:00",
       "new": 0,
@@ -2557,6 +2536,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-17T07:13:30+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
