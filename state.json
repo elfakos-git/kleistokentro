@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
     "ΡΑΕΓ46ΜΤΛΒ-5Ω8",
     "ΨΔ6Θ46ΜΤΛΒ-8ΤΟ",
@@ -499,7 +498,8 @@
     "https://www.iefimerida.gr/ellada/imimarathonios-marathona-kykloforiakes-rythmiseis",
     "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%b9%ce%b3%ce%bf%cf%89%cf%81%ce%b7-%ce%b1%ce%bd%ce%b1%cf%83%cf%84%ce%bf%ce%bb%ce%b7-%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%b9%ce%b1%cf%82-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5/",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%cf%8e%ce%bd-509-509%ce%b2/",
-    "Ψ1ΦΙ46ΜΤΛΒ-60Β"
+    "Ψ1ΦΙ46ΜΤΛΒ-60Β",
+    "TTI-TTR51594290520003000"
   ],
   "seeded": [
     "astynomia",
@@ -576,15 +576,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 8,
-      "fetched": 26,
+      "items": 9,
+      "fetched": 29,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 18
+        "κατηγορία εκτός πολιτικής": 20
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T14:44:41+00:00"
+      "last_success": "2026-10-17T17:25:09+00:00"
     }
   },
   "active": {
@@ -848,6 +848,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51594290520003000",
+        "source": "TomTom (realtime)",
+        "title": "Achilleos (Venizelou El. Ave (Thiseos)) → Skra (Venizelou El. Ave (Thiseos))",
+        "url": "https://www.google.com/maps?q=37.9495641793,23.6915243798",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Δυτικά",
+        "days": [
+          "2026-10-17"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51568321972030001",
@@ -2277,12 +2292,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-10T15:28:13+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-10T16:41:52+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2635,6 +2644,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-17T17:25:09+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
