@@ -1,7 +1,5 @@
 {
   "seen": [
-    "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%b9%cf%8e%ce%bd-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%cf%86%ce%bf%cf%81%ce%ac-%ce%ba%ce%b1%ce%bd%ce%bf%ce%bd/",
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-101/",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749012015000",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-103/",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
@@ -499,7 +497,9 @@
     "TTI-TTR51579863868013000",
     "ΨΕΘΥ46ΜΤΛΒ-03Υ",
     "ΡΣΔΜ46ΜΤΛΒ-ΞΤΙ",
-    "https://www.iefimerida.gr/ellada/imimarathonios-marathona-kykloforiakes-rythmiseis"
+    "https://www.iefimerida.gr/ellada/imimarathonios-marathona-kykloforiakes-rythmiseis",
+    "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%b9%ce%b3%ce%bf%cf%89%cf%81%ce%b7-%ce%b1%ce%bd%ce%b1%cf%83%cf%84%ce%bf%ce%bb%ce%b7-%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%b9%ce%b1%cf%82-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5/",
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%cf%8e%ce%bd-509-509%ce%b2/"
   ],
   "seeded": [
     "astynomia",
@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T02:23:46+00:00"
+      "last_success": "2026-10-17T08:10:06+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -533,7 +533,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T02:23:47+00:00"
+      "last_success": "2026-10-17T08:10:06+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -546,7 +546,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T02:23:47+00:00"
+      "last_success": "2026-10-17T08:10:06+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -557,35 +557,35 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T02:23:47+00:00"
+      "last_success": "2026-10-17T08:10:06+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 2,
+      "items": 4,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 2,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
-        "λεωφορεία (χωρίς ειδοποίηση)": 2
+        "παλιά ανακοίνωση": 1,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
+        "λεωφορεία (χωρίς ειδοποίηση)": 3
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 2,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T02:23:47+00:00"
+      "last_success": "2026-10-17T08:10:11+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 15,
+      "fetched": 27,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 7
+        "κατηγορία εκτός πολιτικής": 19
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T07:13:29+00:00"
+      "last_success": "2026-10-17T08:10:11+00:00"
     }
   },
   "active": {
@@ -776,6 +776,36 @@
       }
     ],
     "oasa": [
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%b9%ce%b3%ce%bf%cf%89%cf%81%ce%b7-%ce%b1%ce%bd%ce%b1%cf%83%cf%84%ce%bf%ce%bb%ce%b7-%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%b9%ce%b1%cf%82-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5/",
+        "source": "ΟΑΣΑ",
+        "title": "ΟΛΙΓΟΩΡΗ ΑΝΑΣΤΟΛΗ ΛΕΙΤΟΥΡΓΙΑΣ των λεωφορειακών γραμμών 310, 310Β, 310Γ και 314Γ, λόγω αθλητικών εκδηλώσεων στο Δήμο Μαραθώνα",
+        "url": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%b9%ce%b3%ce%bf%cf%89%cf%81%ce%b7-%ce%b1%ce%bd%ce%b1%cf%83%cf%84%ce%bf%ce%bb%ce%b7-%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%b9%ce%b1%cf%82-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5/",
+        "details": "",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-10-18"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": true
+      },
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%cf%8e%ce%bd-509-509%ce%b2/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή τροποποίηση των γραμμών 509, 509Β, 510 και 535, λόγω διεξαγωγής του 8ου ΑΡΣΑΚΕΙΟΥ ΔΡΟΜΟΥ,  στον Δήμο Διονύσου.",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%cf%8e%ce%bd-509-509%ce%b2/",
+        "details": "",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-10-18"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
       {
         "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-290/",
         "source": "ΟΑΣΑ",
@@ -1335,7 +1365,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-17T02:23:47+00:00",
+      "last_seen": "2026-10-17T08:10:06+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1355,7 +1385,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-17T02:23:47+00:00",
+      "last_seen": "2026-10-17T08:10:06+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1843,7 +1873,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-17T02:23:47+00:00",
+      "last_seen": "2026-10-17T08:10:06+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1949,7 +1979,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-16T08:38:28+00:00",
-      "last_seen": "2026-10-17T02:23:47+00:00",
+      "last_seen": "2026-10-17T08:10:06+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -1987,7 +2017,47 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-16T19:09:28+00:00",
-      "last_seen": "2026-10-17T02:23:47+00:00",
+      "last_seen": "2026-10-17T08:10:06+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%b9%ce%b3%ce%bf%cf%89%cf%81%ce%b7-%ce%b1%ce%bd%ce%b1%cf%83%cf%84%ce%bf%ce%bb%ce%b7-%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%b9%ce%b1%cf%82-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5/": {
+      "id": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%b9%ce%b3%ce%bf%cf%89%cf%81%ce%b7-%ce%b1%ce%bd%ce%b1%cf%83%cf%84%ce%bf%ce%bb%ce%b7-%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%b9%ce%b1%cf%82-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5/",
+      "source": "ΟΑΣΑ",
+      "title": "ΟΛΙΓΟΩΡΗ ΑΝΑΣΤΟΛΗ ΛΕΙΤΟΥΡΓΙΑΣ των λεωφορειακών γραμμών 310, 310Β, 310Γ και 314Γ, λόγω αθλητικών εκδηλώσεων στο Δήμο Μαραθώνα",
+      "url": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%b9%ce%b3%ce%bf%cf%89%cf%81%ce%b7-%ce%b1%ce%bd%ce%b1%cf%83%cf%84%ce%bf%ce%bb%ce%b7-%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%b9%ce%b1%cf%82-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5/",
+      "details": "",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-10-18"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-10-17T08:10:09+00:00",
+      "last_seen": "2026-10-17T08:10:09+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%cf%8e%ce%bd-509-509%ce%b2/": {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%cf%8e%ce%bd-509-509%ce%b2/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή τροποποίηση των γραμμών 509, 509Β, 510 και 535, λόγω διεξαγωγής του 8ου ΑΡΣΑΚΕΙΟΥ ΔΡΟΜΟΥ,  στον Δήμο Διονύσου.",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%cf%8e%ce%bd-509-509%ce%b2/",
+      "details": "",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-10-18"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-10-17T08:10:11+00:00",
+      "last_seen": "2026-10-17T08:10:11+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2001,12 +2071,6 @@
     "151797168": "2026-10-17"
   },
   "notifications": [
-    {
-      "time": "2026-10-07T10:44:20+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25708 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων επί της Λεωφ. Μαραθώνος, από το ύψος της συμβολής της με την οδό Ελ. Βενιζέλου έως το ύψος της συμβολής της με την οδό Παλλάδος Αθηνάς, διαδοχικά ανά λωρίδα εναλλάξ και στα δύο ρεύματα κυκλοφορί",
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΙΞΒ46ΜΤΛΒ-ΣΚΚ"
-    },
     {
       "time": "2026-10-07T18:13:00+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -2180,15 +2244,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-10-17T08:10:11+00:00",
+      "source": "ΟΑΣΑ",
+      "title": "🚨 Προσωρινή τροποποίηση των γραμμών 509, 509Β, 510 και 535, λόγω διεξαγωγής του 8ου ΑΡΣΑΚΕΙΟΥ ΔΡΟΜΟΥ,  στον Δήμο Διονύσου.",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%cf%8e%ce%bd-509-509%ce%b2/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-10T01:01:51+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-10T03:39:14+00:00",
       "new": 0,
@@ -2542,6 +2606,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-17T08:10:11+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
