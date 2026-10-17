@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T17:25:09+00:00",
+  "generated_at": "2026-10-17T18:04:09+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T14:44:41+00:00"
+      "last_success": "2026-10-17T18:04:09+00:00"
     },
     {
       "name": "diavgeia",
@@ -23,7 +23,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T14:44:41+00:00"
+      "last_success": "2026-10-17T18:04:09+00:00"
     },
     {
       "name": "iefimerida",
@@ -36,7 +36,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T14:44:41+00:00"
+      "last_success": "2026-10-17T18:04:09+00:00"
     },
     {
       "name": "kathimerini",
@@ -47,7 +47,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T14:44:41+00:00"
+      "last_success": "2026-10-17T18:04:09+00:00"
     },
     {
       "name": "oasa",
@@ -62,20 +62,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T14:44:41+00:00"
+      "last_success": "2026-10-17T18:04:09+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 29,
+      "items": 10,
+      "fetched": 42,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 20
+        "κατηγορία εκτός πολιτικής": 32
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T17:25:09+00:00"
+      "last_success": "2026-10-17T18:04:09+00:00"
     }
   ],
   "active_events": [
@@ -95,7 +95,7 @@
       ],
       "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Γεωργίου Β΄ (Δήμου Αθηναίων) · 18/10, 10:00–14:00 · λόγω εργασιών με χρήση γερανοφόρου",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.iefimerida.gr/ellada/imimarathonios-marathona-kykloforiakes-rythmiseis",
@@ -331,10 +331,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51594290520003000",
+      "id": "TTI-TTR51594290588011000",
       "source": "TomTom (realtime)",
-      "title": "Achilleos (Venizelou El. Ave (Thiseos)) → Skra (Venizelou El. Ave (Thiseos))",
-      "url": "https://www.google.com/maps?q=37.9495641793,23.6915243798",
+      "title": "Skra (Venizelou El. Ave (Thiseos)) → Achilleos (Venizelou El. Ave (Thiseos))",
+      "url": "https://www.google.com/maps?q=37.9539710439,23.6989876264",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
@@ -344,6 +344,21 @@
       "plain": "",
       "category": "",
       "new_this_run": true
+    },
+    {
+      "id": "TTI-TTR51594290520003000",
+      "source": "TomTom (realtime)",
+      "title": "Pisistratou (Venizelou El. Ave (Thiseos)) → Skra (Venizelou El. Ave (Thiseos))",
+      "url": "https://www.google.com/maps?q=37.9435238417,23.6853874856",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Δυτικά",
+      "days": [
+        "2026-10-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
     },
     {
       "id": "TTI-TTR51568321972030001",
@@ -1129,7 +1144,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-17T14:44:41+00:00",
+      "last_seen": "2026-10-17T18:04:09+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1206,7 +1221,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-17T14:44:41+00:00",
+      "last_seen": "2026-10-17T18:04:09+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1224,7 +1239,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-17T14:44:41+00:00",
+      "last_seen": "2026-10-17T18:04:09+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1242,7 +1257,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-16T19:09:28+00:00",
-      "last_seen": "2026-10-17T14:44:41+00:00",
+      "last_seen": "2026-10-17T18:04:09+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1299,7 +1314,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Γεωργίου Β΄ (Δήμου Αθηναίων) · 18/10, 10:00–14:00 · λόγω εργασιών με χρήση γερανοφόρου",
       "category": "",
       "first_seen": "2026-10-17T14:44:41+00:00",
-      "last_seen": "2026-10-17T14:44:41+00:00",
+      "last_seen": "2026-10-17T18:04:09+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1317,7 +1332,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-16T08:38:28+00:00",
-      "last_seen": "2026-10-17T14:44:41+00:00",
+      "last_seen": "2026-10-17T18:04:09+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1704,12 +1719,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-10T16:41:52+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-10-10T19:24:44+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2062,6 +2071,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-17T18:04:09+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }

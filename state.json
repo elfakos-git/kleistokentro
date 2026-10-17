@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-258/",
     "ΡΑΕΓ46ΜΤΛΒ-5Ω8",
     "ΨΔ6Θ46ΜΤΛΒ-8ΤΟ",
     "9Θ9646ΜΤΛΒ-2Ε9",
@@ -499,7 +498,8 @@
     "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%b9%ce%b3%ce%bf%cf%89%cf%81%ce%b7-%ce%b1%ce%bd%ce%b1%cf%83%cf%84%ce%bf%ce%bb%ce%b7-%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%b9%ce%b1%cf%82-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5/",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%cf%8e%ce%bd-509-509%ce%b2/",
     "Ψ1ΦΙ46ΜΤΛΒ-60Β",
-    "TTI-TTR51594290520003000"
+    "TTI-TTR51594290520003000",
+    "TTI-TTR51594290588011000"
   ],
   "seeded": [
     "astynomia",
@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T14:44:41+00:00"
+      "last_success": "2026-10-17T18:04:09+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -532,7 +532,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T14:44:41+00:00"
+      "last_success": "2026-10-17T18:04:09+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -545,7 +545,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T14:44:41+00:00"
+      "last_success": "2026-10-17T18:04:09+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -556,7 +556,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T14:44:41+00:00"
+      "last_success": "2026-10-17T18:04:09+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -571,20 +571,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T14:44:41+00:00"
+      "last_success": "2026-10-17T18:04:09+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 29,
+      "items": 10,
+      "fetched": 42,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 20
+        "κατηγορία εκτός πολιτικής": 32
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-17T17:25:09+00:00"
+      "last_success": "2026-10-17T18:04:09+00:00"
     }
   },
   "active": {
@@ -606,7 +606,7 @@
         ],
         "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Γεωργίου Β΄ (Δήμου Αθηναίων) · 18/10, 10:00–14:00 · λόγω εργασιών με χρήση γερανοφόρου",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "iefimerida": [
@@ -850,10 +850,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51594290520003000",
+        "id": "TTI-TTR51594290588011000",
         "source": "TomTom (realtime)",
-        "title": "Achilleos (Venizelou El. Ave (Thiseos)) → Skra (Venizelou El. Ave (Thiseos))",
-        "url": "https://www.google.com/maps?q=37.9495641793,23.6915243798",
+        "title": "Skra (Venizelou El. Ave (Thiseos)) → Achilleos (Venizelou El. Ave (Thiseos))",
+        "url": "https://www.google.com/maps?q=37.9539710439,23.6989876264",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
@@ -863,6 +863,21 @@
         "plain": "",
         "category": "",
         "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51594290520003000",
+        "source": "TomTom (realtime)",
+        "title": "Pisistratou (Venizelou El. Ave (Thiseos)) → Skra (Venizelou El. Ave (Thiseos))",
+        "url": "https://www.google.com/maps?q=37.9435238417,23.6853874856",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Δυτικά",
+        "days": [
+          "2026-10-17"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51568321972030001",
@@ -1380,7 +1395,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-17T14:44:41+00:00",
+      "last_seen": "2026-10-17T18:04:09+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1400,7 +1415,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-17T14:44:41+00:00",
+      "last_seen": "2026-10-17T18:04:09+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1888,7 +1903,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-17T14:44:41+00:00",
+      "last_seen": "2026-10-17T18:04:09+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1994,7 +2009,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-16T08:38:28+00:00",
-      "last_seen": "2026-10-17T14:44:41+00:00",
+      "last_seen": "2026-10-17T18:04:09+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -2032,7 +2047,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-16T19:09:28+00:00",
-      "last_seen": "2026-10-17T14:44:41+00:00",
+      "last_seen": "2026-10-17T18:04:09+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2095,7 +2110,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Γεωργίου Β΄ (Δήμου Αθηναίων) · 18/10, 10:00–14:00 · λόγω εργασιών με χρήση γερανοφόρου",
       "category": "",
       "first_seen": "2026-10-17T14:44:41+00:00",
-      "last_seen": "2026-10-17T14:44:41+00:00",
+      "last_seen": "2026-10-17T18:04:09+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2291,12 +2306,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-10T16:41:52+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-10T19:24:44+00:00",
       "new": 0,
@@ -2650,6 +2659,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-17T18:04:09+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
