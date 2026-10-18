@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T18:23:12+00:00"
+      "last_success": "2026-10-18T22:07:00+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -534,7 +534,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T18:23:12+00:00"
+      "last_success": "2026-10-18T22:07:00+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -547,7 +547,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T18:23:12+00:00"
+      "last_success": "2026-10-18T22:07:00+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -558,7 +558,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T18:23:12+00:00"
+      "last_success": "2026-10-18T22:07:00+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -573,60 +573,26 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T18:23:12+00:00"
+      "last_success": "2026-10-18T22:07:00+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 12,
+      "items": 8,
+      "fetched": 11,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T21:06:24+00:00"
+      "last_success": "2026-10-18T22:07:00+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [
-      {
-        "id": "Ψ1ΦΙ46ΜΤΛΒ-60Β",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "25747-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και πλήρη διακοπή της κυκλοφορίας των οχημάτων της Λεωφ. Βασ. Γεωργίου Β΄, στο τμήμα μεταξύ των οδών Ρηγίλλης και Μελεάγρου, περιοχής Δήμου Αθηναίων, στις 18.10.2026 κατά τις ώρες 10.00΄ έως 14.00΄, λόγω εκτέλεσης εργασιών με χρήση γερανοφόρου ",
-        "url": "https://diavgeia.gov.gr/decision/view/Ψ1ΦΙ46ΜΤΛΒ-60Β",
-        "details": "Επίσημη απόφαση Τροχαίας (17/10/2026)",
-        "area": "Κέντρο",
-        "days": [
-          "2026-10-18"
-        ],
-        "hours": [
-          "10:00",
-          "14:00"
-        ],
-        "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Γεωργίου Β΄ (Δήμου Αθηναίων) · 18/10, 10:00–14:00 · λόγω εργασιών με χρήση γερανοφόρου",
-        "category": "",
-        "new_this_run": false
-      }
-    ],
+    "diavgeia": [],
     "iefimerida": [
-      {
-        "id": "https://www.iefimerida.gr/ellada/imimarathonios-marathona-kykloforiakes-rythmiseis",
-        "source": "iefimerida",
-        "title": "«10ος Ημιμαραθώνιος Μαραθώνα»: Κυκλοφοριακές ρυθμίσεις την Κυριακή 18-10-2026, ποιοι δρόμοι θα κλείσουν",
-        "url": "https://www.iefimerida.gr/ellada/imimarathonios-marathona-kykloforiakes-rythmiseis",
-        "details": "",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-10-18"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
       {
         "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-athe-eos-26-oktobrioy",
         "source": "iefimerida",
@@ -652,21 +618,6 @@
         "details": "",
         "area": "",
         "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
-        "source": "kathimerini",
-        "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
-        "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
-        "details": "",
-        "area": "",
-        "days": [
-          "2026-10-18"
-        ],
         "hours": [],
         "plain": "",
         "category": "",
@@ -732,21 +683,6 @@
         "details": "",
         "area": "Βόρεια",
         "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
-        "source": "kathimerini",
-        "title": "Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Αθήνα για το «Greece Race for the Cure 2026»",
-        "url": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
-        "details": "",
-        "area": "",
-        "days": [
-          "2026-10-18"
-        ],
         "hours": [],
         "plain": "",
         "category": "",
@@ -901,21 +837,6 @@
         "source": "TomTom (realtime)",
         "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
         "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-10-19"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582749260013000",
-        "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Αλεξάνδρας → Αν. Τσόχα",
-        "url": "https://www.google.com/maps?q=37.9876046269,23.7553327912",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -1323,7 +1244,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-18T18:23:12+00:00",
+      "last_seen": "2026-10-18T22:07:00+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1343,7 +1264,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-18T18:23:12+00:00",
+      "last_seen": "2026-10-18T22:07:00+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1745,7 +1666,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-18T18:23:12+00:00",
+      "last_seen": "2026-10-18T22:07:00+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1831,7 +1752,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-16T08:38:28+00:00",
-      "last_seen": "2026-10-18T18:23:12+00:00",
+      "last_seen": "2026-10-18T22:07:00+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -1869,7 +1790,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-16T19:09:28+00:00",
-      "last_seen": "2026-10-18T18:23:12+00:00",
+      "last_seen": "2026-10-18T22:07:00+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1932,7 +1853,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Γεωργίου Β΄ (Δήμου Αθηναίων) · 18/10, 10:00–14:00 · λόγω εργασιών με χρήση γερανοφόρου",
       "category": "",
       "first_seen": "2026-10-17T14:44:41+00:00",
-      "last_seen": "2026-10-18T18:23:12+00:00",
+      "last_seen": "2026-10-18T22:07:00+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2128,12 +2049,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-12T11:30:33+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-12T19:25:23+00:00",
       "new": 0,
@@ -2487,6 +2402,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-18T22:07:00+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
