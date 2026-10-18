@@ -1,6 +1,5 @@
 {
   "seen": [
-    "ΡΑΕΓ46ΜΤΛΒ-5Ω8",
     "ΨΔ6Θ46ΜΤΛΒ-8ΤΟ",
     "9Θ9646ΜΤΛΒ-2Ε9",
     "Ψ94446ΜΤΛΒ-ΒΘΝ",
@@ -499,7 +498,8 @@
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%cf%8e%ce%bd-509-509%ce%b2/",
     "Ψ1ΦΙ46ΜΤΛΒ-60Β",
     "TTI-TTR51594290520003000",
-    "TTI-TTR51594290588011000"
+    "TTI-TTR51594290588011000",
+    "659446ΜΤΛΒ-ΥΔΧ"
   ],
   "seeded": [
     "astynomia",
@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T02:24:08+00:00"
+      "last_success": "2026-10-18T08:26:56+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -527,13 +527,14 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97,
-        "εκτός χρονικού παραθύρου": 2
+        "εκτός θέματος/Αθήνας": 96,
+        "εκτός χρονικού παραθύρου": 2,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T02:24:08+00:00"
+      "last_success": "2026-10-18T08:26:57+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -546,7 +547,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T02:24:08+00:00"
+      "last_success": "2026-10-18T08:26:57+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -557,7 +558,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T02:24:08+00:00"
+      "last_success": "2026-10-18T08:26:57+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -572,20 +573,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T02:24:08+00:00"
+      "last_success": "2026-10-18T08:26:57+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 14,
+      "items": 11,
+      "fetched": 26,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 15
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T07:26:29+00:00"
+      "last_success": "2026-10-18T08:26:57+00:00"
     }
   },
   "active": {
@@ -842,6 +843,21 @@
         "url": "https://www.google.com/maps?q=37.999765732,23.7203259402",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
+        "days": [
+          "2026-10-18"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51582749012015000",
+        "source": "TomTom (realtime)",
+        "title": "Eolou (Ag. Irinis) → Athinas (Ag. Irinis)",
+        "url": "https://www.google.com/maps?q=37.9770313229,23.7272809082",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
         "days": [
           "2026-10-18"
         ],
@@ -1337,7 +1353,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-18T02:24:08+00:00",
+      "last_seen": "2026-10-18T08:26:57+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1357,7 +1373,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-18T02:24:08+00:00",
+      "last_seen": "2026-10-18T08:26:57+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1805,7 +1821,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-18T02:24:08+00:00",
+      "last_seen": "2026-10-18T08:26:57+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1911,7 +1927,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-16T08:38:28+00:00",
-      "last_seen": "2026-10-18T02:24:08+00:00",
+      "last_seen": "2026-10-18T08:26:57+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -1949,7 +1965,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-16T19:09:28+00:00",
-      "last_seen": "2026-10-18T02:24:08+00:00",
+      "last_seen": "2026-10-18T08:26:57+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2012,7 +2028,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Γεωργίου Β΄ (Δήμου Αθηναίων) · 18/10, 10:00–14:00 · λόγω εργασιών με χρήση γερανοφόρου",
       "category": "",
       "first_seen": "2026-10-17T14:44:41+00:00",
-      "last_seen": "2026-10-18T02:24:08+00:00",
+      "last_seen": "2026-10-18T08:26:57+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2208,12 +2224,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-11T15:49:32+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-11T17:07:52+00:00",
       "new": 1,
@@ -2567,6 +2577,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-18T08:26:57+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
