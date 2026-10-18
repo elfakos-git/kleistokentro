@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T08:26:57+00:00",
+  "generated_at": "2026-10-18T12:07:26+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -69,15 +69,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 26,
+      "items": 8,
+      "fetched": 25,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 15
+        "κατηγορία εκτός πολιτικής": 17
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T08:26:57+00:00"
+      "last_success": "2026-10-18T12:07:26+00:00"
     }
   ],
   "active_events": [
@@ -333,55 +333,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51582749012015000",
-      "source": "TomTom (realtime)",
-      "title": "Eolou (Ag. Irinis) → Athinas (Ag. Irinis)",
-      "url": "https://www.google.com/maps?q=37.9770313229,23.7272809082",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-10-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749008015000",
-      "source": "TomTom (realtime)",
-      "title": "Kalamiotou (Athinedos) → Eolou (Athinedos)",
-      "url": "https://www.google.com/maps?q=37.9768221419,23.7288754815",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-10-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
       "id": "TTI-TTR51582749160031000",
       "source": "TomTom (realtime)",
       "title": "Σταδίου → Ευριπίδου",
       "url": "https://www.google.com/maps?q=37.9786420497,23.7309085959",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-10-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749008007000",
-      "source": "TomTom (realtime)",
-      "title": "Lekka (Perikleous) → Evangelistrias (Perikleous)",
-      "url": "https://www.google.com/maps?q=37.976582105,23.7317213052",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -1645,12 +1600,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-11T17:07:52+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-10-11T19:45:48+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2003,6 +1952,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-18T12:07:26+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
