@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T18:43:23+00:00",
+  "generated_at": "2026-10-18T21:06:24+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -69,15 +69,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 15,
+      "items": 9,
+      "fetched": 12,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T18:43:23+00:00"
+      "last_success": "2026-10-18T21:06:24+00:00"
     }
   ],
   "active_events": [
@@ -310,7 +310,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-10-18"
+        "2026-10-19"
       ],
       "hours": [],
       "plain": "",
@@ -325,7 +325,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-10-18"
+        "2026-10-19"
       ],
       "hours": [],
       "plain": "",
@@ -340,7 +340,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-18"
+        "2026-10-19"
       ],
       "hours": [],
       "plain": "",
@@ -355,7 +355,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-18"
+        "2026-10-19"
       ],
       "hours": [],
       "plain": "",
@@ -370,22 +370,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749116013000",
-      "source": "TomTom (realtime)",
-      "title": "Tsoha An. (Kiriakou Pan.) → Dorileou (Kiriakou Pan.)",
-      "url": "https://www.google.com/maps?q=37.9865048936,23.7550015384",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-10-18"
+        "2026-10-19"
       ],
       "hours": [],
       "plain": "",
@@ -400,7 +385,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-18"
+        "2026-10-19"
       ],
       "hours": [],
       "plain": "",
@@ -415,7 +400,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-18"
+        "2026-10-19"
       ],
       "hours": [],
       "plain": "",
@@ -430,7 +415,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-10-18"
+        "2026-10-19"
       ],
       "hours": [],
       "plain": "",
@@ -445,7 +430,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-10-18"
+        "2026-10-19"
       ],
       "hours": [],
       "plain": "",
@@ -848,48 +833,6 @@
       "status": "active"
     },
     {
-      "id": "6ΔΧΔ46ΜΤΛΒ-ΒΗΖ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25702-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στο αριστερό άκρο του οδοστρώματος της οδού Πεσμαζόγλου, στο ύψος των ο.α. 12-14, περιοχής Δήμου Αθηναίων, την 11-10-2026, κατά τις ώρες 07.00΄ έως 13.00΄, λόγω εκτέλεσης εργασιών με χρήση γερανοφόρου οχήματ",
-      "url": "https://diavgeia.gov.gr/decision/view/6ΔΧΔ46ΜΤΛΒ-ΒΗΖ",
-      "details": "Επίσημη απόφαση Τροχαίας (05/10/2026)",
-      "area": "Κέντρο",
-      "days": [
-        "2026-10-11"
-      ],
-      "hours": [
-        "07:00",
-        "13:00"
-      ],
-      "plain": "Διακοπή κυκλοφορίας στην οδό Πεσμαζόγλου (Δήμου Αθηναίων) · 11/10, 07:00–13:00 · λόγω εργασιών με χρήση γερανοφόρου οχήματ",
-      "category": "",
-      "first_seen": "2026-10-05T11:02:45+00:00",
-      "last_seen": "2026-10-06T04:07:40+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "ΡΟΨΧ46ΜΤΛΒ-ΕΓΘ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25710 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας επί της Λεωφ. Κηφισίας, κάτωθι του Α/Κ Φάρου Ψυχικού, διαδοχικά ανά λωρίδα, εναλλάξ και στα δύο ρεύματα κυκλοφορίας, περιοχής Δήμου Φιλοθέης-Ψυχικού, στις 11-10-2026, κατά τις ώρες 06.30΄ έως 07.30΄, λόγω εκτέλεσης εργασι",
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΟΨΧ46ΜΤΛΒ-ΕΓΘ",
-      "details": "Επίσημη απόφαση Τροχαίας (07/10/2026)",
-      "area": "Βόρεια",
-      "days": [
-        "2026-10-11"
-      ],
-      "hours": [
-        "06:30",
-        "07:30"
-      ],
-      "plain": "Διακοπή κυκλοφορίας στη Λ. Κηφισίας (Δήμου Φιλοθέης-Ψυχικού) · 11/10, 06:30–07:30 · λόγω εργασι",
-      "category": "",
-      "first_seen": "2026-10-07T10:44:18+00:00",
-      "last_seen": "2026-10-07T10:44:18+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
       "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7-9/",
       "source": "ΟΑΣΑ",
       "title": "Παράταση προσωρινής τροποποίησης της διαδρομής της λεωφορειακής γραμμής 500 (ΠΕΙΡΑΙΑΣ-ΚΗΦΙΣΙΑ (ΠΛ.ΠΛΑΤΑΝΟΥ) ΝΥΧΤΕΡΙΝΗ), στον Δήμο Νέου Ηρακλείου, λόγω εργασιών στην οδό Δωδεκανήσου 16",
@@ -905,24 +848,6 @@
       "category": "bus",
       "first_seen": "2026-10-09T11:03:16+00:00",
       "last_seen": "2026-10-09T11:03:16+00:00",
-      "extended": false,
-      "status": "active"
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-127/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 504, 537 και 740, λόγω αγώνων, στον Δήμο Αχαρνών",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-127/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-10-11"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-10-10T10:19:29+00:00",
-      "last_seen": "2026-10-10T10:19:29+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -1098,7 +1023,7 @@
       "first_seen": "2026-10-15T08:43:38+00:00",
       "last_seen": "2026-10-15T08:43:38+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-290/",
@@ -1134,7 +1059,7 @@
       "first_seen": "2026-09-30T17:20:52+00:00",
       "last_seen": "2026-10-18T18:23:12+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
@@ -1152,7 +1077,7 @@
       "first_seen": "2026-10-10T10:19:27+00:00",
       "last_seen": "2026-10-18T18:23:12+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.iefimerida.gr/ellada/imimarathonios-marathona-kykloforiakes-rythmiseis",
@@ -1170,7 +1095,7 @@
       "first_seen": "2026-10-16T19:09:28+00:00",
       "last_seen": "2026-10-18T18:23:12+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%b9%ce%b3%ce%bf%cf%89%cf%81%ce%b7-%ce%b1%ce%bd%ce%b1%cf%83%cf%84%ce%bf%ce%bb%ce%b7-%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%b9%ce%b1%cf%82-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5/",
@@ -1188,7 +1113,7 @@
       "first_seen": "2026-10-17T08:10:09+00:00",
       "last_seen": "2026-10-17T08:10:09+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%cf%8e%ce%bd-509-509%ce%b2/",
@@ -1206,7 +1131,7 @@
       "first_seen": "2026-10-17T08:10:11+00:00",
       "last_seen": "2026-10-17T08:10:11+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "Ψ1ΦΙ46ΜΤΛΒ-60Β",
@@ -1227,7 +1152,7 @@
       "first_seen": "2026-10-17T14:44:41+00:00",
       "last_seen": "2026-10-18T18:23:12+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-athe-eos-26-oktobrioy",
@@ -1630,12 +1555,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-12T09:50:15+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-12T11:30:33+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1985,6 +1904,12 @@
     },
     {
       "time": "2026-10-18T18:43:23+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-10-18T21:06:24+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
