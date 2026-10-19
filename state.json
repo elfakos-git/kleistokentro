@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T22:07:00+00:00"
+      "last_success": "2026-10-19T02:38:31+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -527,14 +527,14 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 96,
-        "εκτός χρονικού παραθύρου": 2,
+        "εκτός θέματος/Αθήνας": 94,
+        "εκτός χρονικού παραθύρου": 4,
         "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T22:07:00+00:00"
+      "last_success": "2026-10-19T02:38:31+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -547,7 +547,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T22:07:00+00:00"
+      "last_success": "2026-10-19T02:38:31+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -558,7 +558,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T22:07:00+00:00"
+      "last_success": "2026-10-19T02:38:31+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -573,7 +573,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T22:07:00+00:00"
+      "last_success": "2026-10-19T02:38:31+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -586,7 +586,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-18T23:23:36+00:00"
+      "last_success": "2026-10-19T02:38:31+00:00"
     }
   },
   "active": {
@@ -1244,7 +1244,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-18T22:07:00+00:00",
+      "last_seen": "2026-10-19T02:38:31+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1264,7 +1264,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-18T22:07:00+00:00",
+      "last_seen": "2026-10-19T02:38:31+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1666,7 +1666,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-18T22:07:00+00:00",
+      "last_seen": "2026-10-19T02:38:31+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1752,7 +1752,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-16T08:38:28+00:00",
-      "last_seen": "2026-10-18T22:07:00+00:00",
+      "last_seen": "2026-10-19T02:38:31+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -1790,7 +1790,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-16T19:09:28+00:00",
-      "last_seen": "2026-10-18T22:07:00+00:00",
+      "last_seen": "2026-10-19T02:38:31+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1853,7 +1853,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Γεωργίου Β΄ (Δήμου Αθηναίων) · 18/10, 10:00–14:00 · λόγω εργασιών με χρήση γερανοφόρου",
       "category": "",
       "first_seen": "2026-10-17T14:44:41+00:00",
-      "last_seen": "2026-10-18T22:07:00+00:00",
+      "last_seen": "2026-10-19T02:38:31+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2049,12 +2049,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-12T20:40:12+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-13T01:28:10+00:00",
       "new": 0,
@@ -2408,6 +2402,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-19T02:38:31+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
