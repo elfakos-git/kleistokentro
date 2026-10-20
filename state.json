@@ -1,7 +1,5 @@
 {
   "seen": [
-    "https://www.kathimerini.gr/society/564335986/xanthi-stis-floges-ntalika-stin-egnatia-odo-kykloforiakes-rythmiseis/",
-    "93ΚΗ46ΜΤΛΒ-19Γ",
     "ΡΡ1546ΜΤΛΒ-ΞΤΣ",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51594290768011000",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51588520084004000",
@@ -499,7 +497,9 @@
     "TTI-TTR51597175992011000",
     "TTI-TTR51600061604043000",
     "ΨΥ3Λ46ΜΤΛΒ-ΗΓΤ",
-    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-79/"
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-79/",
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ad%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-2/",
+    "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf-26/"
   ],
   "seeded": [
     "astynomia",
@@ -522,7 +522,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-20T09:01:40+00:00"
+      "last_success": "2026-10-20T16:06:32+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -530,13 +530,12 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99,
-        "μόνο μία λωρίδα/ΛΕΑ": 1
+        "εκτός θέματος/Αθήνας": 100
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-20T09:01:43+00:00"
+      "last_success": "2026-10-20T16:06:32+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -550,7 +549,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-20T09:01:43+00:00"
+      "last_success": "2026-10-20T16:06:32+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -561,35 +560,35 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-20T09:01:43+00:00"
+      "last_success": "2026-10-20T16:06:32+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 1,
+      "items": 3,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 6,
+        "παλιά ανακοίνωση": 4,
         "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
-        "λεωφορεία (χωρίς ειδοποίηση)": 1
+        "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 2,
       "consecutive_failures": 0,
-      "last_success": "2026-10-20T09:01:45+00:00"
+      "last_success": "2026-10-20T16:06:36+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 101,
+      "items": 9,
+      "fetched": 79,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 91
+        "κατηγορία εκτός πολιτικής": 70
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-20T13:09:42+00:00"
+      "last_success": "2026-10-20T16:06:36+00:00"
     }
   },
   "active": {
@@ -691,19 +690,32 @@
     ],
     "oasa": [
       {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ad%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-2/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινές κυκλοφοριακές ρυθμίσεις λόγω λιτάνευσης Ιεράς Εικόνας στον Δήμο Ζωγράφου",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ad%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-2/",
+        "details": "",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-10-20"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
         "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-79/",
         "source": "ΟΑΣΑ",
         "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73, του Δήμου Περιστερίου",
         "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-79/",
         "details": "",
         "area": "Δυτικά",
-        "days": [
-          "2026-10-21"
-        ],
+        "days": [],
         "hours": [],
-        "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Λακεδαίμονος 73 · 21/10",
+        "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Λακεδαίμονος 73",
         "category": "bus",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "tomtom": [
@@ -832,21 +844,6 @@
         "source": "TomTom (realtime)",
         "title": "Λοχαγού Σπηλιωτοπούλου / Λεωφόρος Γεωργίου Παπανδρέου → Ε. Κοκκινοπούλου / Λοχαγού Γκανογιάννη",
         "url": "https://www.google.com/maps?q=37.9822469129,23.7698743874",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-10-20"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51579863868013000",
-        "source": "TomTom (realtime)",
-        "title": "Hlois (Vas. Pavlou) → Platia Efkalipton (Vas. Pavlou)",
-        "url": "https://www.google.com/maps?q=38.000467185,23.7689450019",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -1224,7 +1221,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-20T09:01:43+00:00",
+      "last_seen": "2026-10-20T16:06:32+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1244,7 +1241,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-20T09:01:43+00:00",
+      "last_seen": "2026-10-20T16:06:32+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1646,7 +1643,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-20T09:01:43+00:00",
+      "last_seen": "2026-10-20T16:06:32+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1858,6 +1855,46 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ad%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-2/": {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ad%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-2/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινές κυκλοφοριακές ρυθμίσεις λόγω λιτάνευσης Ιεράς Εικόνας στον Δήμο Ζωγράφου",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ad%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-2/",
+      "details": "",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-10-20"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-10-20T16:06:34+00:00",
+      "last_seen": "2026-10-20T16:06:34+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf-26/": {
+      "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf-26/",
+      "source": "ΟΑΣΑ",
+      "title": "Παράταση μερικής προσωρινής τροποποίησης της διαδρομής των λεωφορειακών γραμμών 830 και 837, λόγω εργασιών.",
+      "url": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf-26/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-10-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-10-20T16:06:36+00:00",
+      "last_seen": "2026-10-20T16:06:36+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -1867,12 +1904,6 @@
     "151797168": "2026-10-20"
   },
   "notifications": [
-    {
-      "time": "2026-10-08T15:06:05+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25717-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και πλήρη διακοπή της κυκλοφορίας επί της υπόγειας διάβασης της οδού Ακτής Ηετιώνειας (Περιφερειακή οδός Δραπετσώνας-Κερατσινίου), στο ύψος της Πύλης Ε2 του Λιμένα Πειραιώς και στα δύο ρεύματα κυκλοφορίας, περιοχής Δήμου Πειραιά, στις 10 και 11",
-      "url": "https://diavgeia.gov.gr/decision/view/Ρ62Κ46ΜΤΛΒ-ΚΔΣ"
-    },
     {
       "time": "2026-10-08T15:06:06+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -2046,15 +2077,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-10-20T16:06:36+00:00",
+      "source": "ΟΑΣΑ",
+      "title": "🚨 Προσωρινές κυκλοφοριακές ρυθμίσεις λόγω λιτάνευσης Ιεράς Εικόνας στον Δήμο Ζωγράφου",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ad%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-2/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-14T13:52:14+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-14T16:15:48+00:00",
       "new": 0,
@@ -2408,6 +2439,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-20T16:06:36+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
