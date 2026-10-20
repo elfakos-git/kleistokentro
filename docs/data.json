@@ -1,16 +1,19 @@
 {
-  "generated_at": "2026-10-20T07:57:08+00:00",
+  "generated_at": "2026-10-20T09:01:45+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "fetched": 54,
+      "dropped": {
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-20T02:50:28+00:00"
+      "last_success": "2026-10-20T09:01:40+00:00"
     },
     {
       "name": "diavgeia",
@@ -24,7 +27,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-20T02:50:28+00:00"
+      "last_success": "2026-10-20T09:01:43+00:00"
     },
     {
       "name": "iefimerida",
@@ -38,7 +41,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-20T02:50:28+00:00"
+      "last_success": "2026-10-20T09:01:43+00:00"
     },
     {
       "name": "kathimerini",
@@ -49,35 +52,35 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-20T02:50:28+00:00"
+      "last_success": "2026-10-20T09:01:43+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 2,
+      "items": 1,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 4,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
+        "παλιά ανακοίνωση": 6,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
         "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-10-20T02:50:28+00:00"
+      "last_success": "2026-10-20T09:01:45+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 59,
+      "fetched": 50,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 50
+        "κατηγορία εκτός πολιτικής": 41
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-20T07:57:07+00:00"
+      "last_success": "2026-10-20T09:01:45+00:00"
     }
   ],
   "active_events": [
@@ -173,30 +176,19 @@
       "new_this_run": false
     },
     {
-      "id": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%b9%ce%b3%ce%bf%cf%89%cf%81%ce%b7-%ce%b1%ce%bd%ce%b1%cf%83%cf%84%ce%bf%ce%bb%ce%b7-%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%b9%ce%b1%cf%82-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5/",
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-79/",
       "source": "ΟΑΣΑ",
-      "title": "ΟΛΙΓΟΩΡΗ ΑΝΑΣΤΟΛΗ ΛΕΙΤΟΥΡΓΙΑΣ των λεωφορειακών γραμμών 310, 310Β, 310Γ και 314Γ, λόγω αθλητικών εκδηλώσεων στο Δήμο Μαραθώνα",
-      "url": "https://www.oasa.gr/blog/%ce%bf%ce%bb%ce%b9%ce%b3%ce%bf%cf%89%cf%81%ce%b7-%ce%b1%ce%bd%ce%b1%cf%83%cf%84%ce%bf%ce%bb%ce%b7-%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%b9%ce%b1%cf%82-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5/",
+      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73, του Δήμου Περιστερίου",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-79/",
       "details": "",
-      "area": "Ανατολικά",
-      "days": [],
+      "area": "Δυτικά",
+      "days": [
+        "2026-10-21"
+      ],
       "hours": [],
-      "plain": "",
+      "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Λακεδαίμονος 73 · 21/10",
       "category": "bus",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%cf%8e%ce%bd-509-509%ce%b2/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή τροποποίηση των γραμμών 509, 509Β, 510 και 535, λόγω διεξαγωγής του 8ου ΑΡΣΑΚΕΙΟΥ ΔΡΟΜΟΥ,  στον Δήμο Διονύσου.",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%cf%8e%ce%bd-509-509%ce%b2/",
-      "details": "",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51574092528014000",
@@ -876,7 +868,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-20T02:50:28+00:00",
+      "last_seen": "2026-10-20T09:01:43+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -953,7 +945,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-20T02:50:28+00:00",
+      "last_seen": "2026-10-20T09:01:43+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -971,7 +963,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-20T02:50:28+00:00",
+      "last_seen": "2026-10-20T09:01:43+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -1049,6 +1041,24 @@
       "last_seen": "2026-10-19T02:38:31+00:00",
       "extended": false,
       "status": "ended"
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-79/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73, του Δήμου Περιστερίου",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-79/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-10-21"
+      ],
+      "hours": [],
+      "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Λακεδαίμονος 73 · 21/10",
+      "category": "bus",
+      "first_seen": "2026-10-20T09:01:45+00:00",
+      "last_seen": "2026-10-20T09:01:45+00:00",
+      "extended": false,
+      "status": "planned"
     },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-athe-eos-26-oktobrioy",
@@ -1451,12 +1461,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-14T08:03:53+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-14T09:10:43+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1809,6 +1813,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-20T09:01:45+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
