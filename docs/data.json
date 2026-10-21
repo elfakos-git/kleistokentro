@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T18:19:44+00:00",
+  "generated_at": "2026-10-21T21:50:50+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -72,14 +72,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 14,
+      "fetched": 12,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-21T18:19:44+00:00"
+      "last_success": "2026-10-21T21:50:50+00:00"
     }
   ],
   "active_events": [
@@ -251,7 +251,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-10-21"
+        "2026-10-22"
       ],
       "hours": [],
       "plain": "",
@@ -266,7 +266,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-10-21"
+        "2026-10-22"
       ],
       "hours": [],
       "plain": "",
@@ -281,7 +281,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-21"
+        "2026-10-22"
       ],
       "hours": [],
       "plain": "",
@@ -296,7 +296,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-21"
+        "2026-10-22"
       ],
       "hours": [],
       "plain": "",
@@ -311,7 +311,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-21"
+        "2026-10-22"
       ],
       "hours": [],
       "plain": "",
@@ -326,7 +326,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-21"
+        "2026-10-22"
       ],
       "hours": [],
       "plain": "",
@@ -341,7 +341,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-10-21"
+        "2026-10-22"
       ],
       "hours": [],
       "plain": "",
@@ -356,7 +356,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-10-21"
+        "2026-10-22"
       ],
       "hours": [],
       "plain": "",
@@ -871,7 +871,7 @@
       "first_seen": "2026-10-10T10:19:26+00:00",
       "last_seen": "2026-10-10T10:19:26+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-se-6-stathmoys-toy-metro",
@@ -890,7 +890,7 @@
       "first_seen": "2026-10-12T11:30:15+00:00",
       "last_seen": "2026-10-12T11:30:15+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
@@ -1114,7 +1114,7 @@
       "first_seen": "2026-10-20T09:01:45+00:00",
       "last_seen": "2026-10-20T09:01:45+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%ba%ce%bb%ce%b5%ce%b9%cf%83%cf%84%cf%8c%cf%82-%ce%bf-%cf%83%cf%84%ce%b1%ce%b8%ce%bc%cf%8c%cf%82-%cf%80%ce%b1%ce%bd%ce%b5%cf%80%ce%b9%cf%83%cf%84%ce%ae%ce%bc%ce%b9%ce%bf-%cf%84/",
@@ -1132,7 +1132,7 @@
       "first_seen": "2026-10-21T16:22:42+00:00",
       "last_seen": "2026-10-21T16:22:42+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
@@ -1553,12 +1553,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-15T17:24:47+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-15T20:24:57+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1908,6 +1902,12 @@
     },
     {
       "time": "2026-10-21T18:19:44+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-10-21T21:50:50+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
