@@ -1,6 +1,5 @@
 {
   "seen": [
-    "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51608717876013000",
     "62Ι846ΜΤΛΒ-ΡΦ8",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51579863700013000",
     "TTI-358b6ef8-79ba-4e97-a812-e5577805ce49-TTR51582749116013000",
@@ -499,7 +498,8 @@
     "TTI-TTR51582749172010000",
     "TTI-TTR51602946956014000",
     "TTI-TTR51602946944014000",
-    "https://www.oasa.gr/blog/%ce%ba%ce%bb%ce%b5%ce%b9%cf%83%cf%84%cf%8c%cf%82-%ce%bf-%cf%83%cf%84%ce%b1%ce%b8%ce%bc%cf%8c%cf%82-%cf%80%ce%b1%ce%bd%ce%b5%cf%80%ce%b9%cf%83%cf%84%ce%ae%ce%bc%ce%b9%ce%bf-%cf%84/"
+    "https://www.oasa.gr/blog/%ce%ba%ce%bb%ce%b5%ce%b9%cf%83%cf%84%cf%8c%cf%82-%ce%bf-%cf%83%cf%84%ce%b1%ce%b8%ce%bc%cf%8c%cf%82-%cf%80%ce%b1%ce%bd%ce%b5%cf%80%ce%b9%cf%83%cf%84%ce%ae%ce%bc%ce%b9%ce%bf-%cf%84/",
+    "TTI-TTR51591405352011000"
   ],
   "seeded": [
     "astynomia",
@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-21T22:56:13+00:00"
+      "last_success": "2026-10-22T02:42:55+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -532,7 +532,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-21T22:56:13+00:00"
+      "last_success": "2026-10-22T02:42:55+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -546,7 +546,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-21T22:56:13+00:00"
+      "last_success": "2026-10-22T02:42:55+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -557,7 +557,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-21T22:56:13+00:00"
+      "last_success": "2026-10-22T02:42:55+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -572,20 +572,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-21T22:56:13+00:00"
+      "last_success": "2026-10-22T02:42:55+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 8,
-      "fetched": 11,
+      "items": 9,
+      "fetched": 13,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-22T00:16:33+00:00"
+      "last_success": "2026-10-22T02:42:55+00:00"
     }
   },
   "active": {
@@ -816,6 +816,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51591405352011000",
+        "source": "TomTom (realtime)",
+        "title": "Panepistimiou (Vas. Sofias Ave) → Akadimias (Vas. Sofias Ave)",
+        "url": "https://www.google.com/maps?q=37.9761811166,23.7361536556",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-22"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51579863732014000",
@@ -1259,7 +1274,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-21T22:56:13+00:00",
+      "last_seen": "2026-10-22T02:42:55+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1279,7 +1294,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-21T22:56:13+00:00",
+      "last_seen": "2026-10-22T02:42:55+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1681,7 +1696,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-21T22:56:13+00:00",
+      "last_seen": "2026-10-22T02:42:55+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1948,7 +1963,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-21T16:22:42+00:00",
-      "last_seen": "2026-10-21T22:56:13+00:00",
+      "last_seen": "2026-10-22T02:42:55+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2144,12 +2159,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-15T23:07:37+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-16T02:31:12+00:00",
       "new": 0,
@@ -2503,6 +2512,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-22T02:42:55+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
