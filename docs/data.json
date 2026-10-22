@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T16:23:13+00:00",
+  "generated_at": "2026-10-22T18:05:23+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -71,14 +71,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 65,
+      "fetched": 27,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 57
+        "κατηγορία εκτός πολιτικής": 19
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-22T16:23:13+00:00"
+      "last_success": "2026-10-22T18:05:23+00:00"
     }
   ],
   "active_events": [
@@ -1705,12 +1705,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-16T15:51:34+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-10-16T17:01:01+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2063,6 +2057,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-22T18:05:23+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
