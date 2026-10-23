@@ -1,8 +1,5 @@
 {
   "seen": [
-    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51574092528022000",
-    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51600061312012000",
-    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51568321972030001",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749080021000",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51579863732014000",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594290660014001",
@@ -499,7 +496,10 @@
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b3%cf%81%ce%b1-24/",
     "TTI-TTR51579863904021000",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-83/",
-    "TTI-TTR51579863860013000"
+    "TTI-TTR51579863860013000",
+    "6Α1Δ46ΜΤΛΒ-ΧΞΑ",
+    "940346ΜΤΛΒ-1ΜΒ",
+    "ΡΔΒΜ46ΜΤΛΒ-22Υ"
   ],
   "seeded": [
     "astynomia",
@@ -522,20 +522,22 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-23T08:58:19+00:00"
+      "last_success": "2026-10-23T16:12:17+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 96,
+        "άλλη περιοχή": 1,
+        "μόνο μία λωρίδα/ΛΕΑ": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-23T08:58:20+00:00"
+      "last_success": "2026-10-23T16:12:17+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -549,7 +551,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-23T08:58:20+00:00"
+      "last_success": "2026-10-23T16:12:17+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -560,40 +562,50 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-23T08:58:20+00:00"
+      "last_success": "2026-10-23T16:12:17+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 1,
-      "fetched": 11,
-      "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
-        "λεωφορεία (χωρίς ειδοποίηση)": 1
-      },
+      "items": 0,
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-23T08:58:22+00:00"
+      "last_success": "2026-10-23T16:12:17+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 120,
+      "items": 8,
+      "fetched": 61,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 111
+        "κατηγορία εκτός πολιτικής": 53
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-23T13:01:35+00:00"
+      "last_success": "2026-10-23T16:12:17+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [],
+    "diavgeia": [
+      {
+        "id": "ΡΔΒΜ46ΜΤΛΒ-22Υ",
+        "source": "Διαύγεια (Τροχαία)",
+        "title": "25777-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στη Λ. Πέτρου Ράλλη, από το ύψος της συμβολής της με την οδό Αγ. Άννης έως το ύψος της συμβολής της με την οδό Αμφιπόλεως, εναλλάξ ανά λωρίδα και στα δύο ρεύματα κυκλοφορίας, περιοχής Δήμων Αθη",
+        "url": "https://diavgeia.gov.gr/decision/view/ΡΔΒΜ46ΜΤΛΒ-22Υ",
+        "details": "Επίσημη απόφαση Τροχαίας (23/10/2026)",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "Διακοπή κυκλοφορίας στη Λ. Πέτρου Ράλλη (Δήμων Αθη)",
+        "category": "",
+        "new_this_run": true
+      }
+    ],
     "iefimerida": [],
     "kathimerini": [
       {
@@ -733,23 +745,7 @@
         "new_this_run": false
       }
     ],
-    "oasa": [
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-83/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή μερική τροποποίηση της διαδρομής των λεωφορειακών γραμμών 700, 747, Α11 και Β11, λόγω διεξαγωγής εκδηλώσεων στις πλατείες «Ηρώων Αγωνιστών 1821» και «ΗΡΩ» του Δήμου Πετρούπολης",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-83/",
-        "details": "",
-        "area": "Δυτικά",
-        "days": [
-          "2026-10-24"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": true
-      }
-    ],
+    "oasa": [],
     "tomtom": [
       {
         "id": "TTI-TTR51574092528014000",
@@ -840,21 +836,6 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51579863860013000",
-        "source": "TomTom (realtime)",
-        "title": "Μουσών → Χλόης",
-        "url": "https://www.google.com/maps?q=37.9985145265,23.7687988216",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-10-23"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
       },
       {
         "id": "TTI-TTR51594291004012000",
@@ -1253,7 +1234,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-23T08:58:20+00:00",
+      "last_seen": "2026-10-23T16:12:17+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1273,7 +1254,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-23T08:58:20+00:00",
+      "last_seen": "2026-10-23T16:12:17+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1675,7 +1656,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-23T08:58:20+00:00",
+      "last_seen": "2026-10-23T16:12:17+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2149,12 +2130,6 @@
   },
   "notifications": [
     {
-      "time": "2026-10-10T10:19:30+00:00",
-      "source": "kathimerini",
-      "title": "🚨 Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
-      "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/"
-    },
-    {
       "time": "2026-10-11T09:20:50+00:00",
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
@@ -2327,15 +2302,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-10-23T16:12:17+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25777-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στη Λ. Πέτρου Ράλλη, από το ύψος της συμβολής της με την οδό Αγ. Άννης έως το ύψος της συμβολής της με την οδό Αμφιπόλεως, εναλλάξ ανά λωρίδα και στα δύο ρεύματα κυκλοφορίας, περιοχής Δήμων Αθη",
+      "url": "https://diavgeia.gov.gr/decision/view/ΡΔΒΜ46ΜΤΛΒ-22Υ"
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-17T08:10:11+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-17T11:40:49+00:00",
       "new": 0,
@@ -2689,6 +2664,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-23T16:12:17+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
