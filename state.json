@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.kathimerini.gr/society/564340552/attiki-odos-nychterines-rythmiseis-ston-komvo-metamorfosis-pote-tha-kleisoyn-oi-exodoi-pros-lamia/",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51574092528022000",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51600061312012000",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51568321972030001",
@@ -499,7 +498,8 @@
     "ΨΘΧ646ΜΤΛΒ-5ΝΝ",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b3%cf%81%ce%b1-24/",
     "TTI-TTR51579863904021000",
-    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-83/"
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-83/",
+    "TTI-TTR51579863860013000"
   ],
   "seeded": [
     "astynomia",
@@ -580,15 +580,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 8,
-      "fetched": 45,
+      "items": 9,
+      "fetched": 120,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 37
+        "κατηγορία εκτός πολιτικής": 111
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-23T08:58:22+00:00"
+      "last_success": "2026-10-23T13:01:35+00:00"
     }
   },
   "active": {
@@ -840,6 +840,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51579863860013000",
+        "source": "TomTom (realtime)",
+        "title": "Μουσών → Χλόης",
+        "url": "https://www.google.com/maps?q=37.9985145265,23.7687988216",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-10-23"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51594291004012000",
@@ -2316,12 +2331,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-17T07:13:30+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-17T08:10:11+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2674,6 +2683,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-23T13:01:35+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
