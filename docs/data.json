@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T20:40:57+00:00",
+  "generated_at": "2026-10-23T22:47:11+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,22 +13,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-23T16:12:17+00:00"
+      "last_success": "2026-10-23T22:47:10+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 96,
-        "άλλη περιοχή": 1,
-        "μόνο μία λωρίδα/ΛΕΑ": 2
+        "εκτός θέματος/Αθήνας": 100
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-23T16:12:17+00:00"
+      "last_success": "2026-10-23T22:47:10+00:00"
     },
     {
       "name": "iefimerida",
@@ -42,7 +40,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-23T16:12:17+00:00"
+      "last_success": "2026-10-23T22:47:10+00:00"
     },
     {
       "name": "kathimerini",
@@ -53,47 +51,38 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-23T16:12:17+00:00"
+      "last_success": "2026-10-23T22:47:10+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "items": 1,
+      "fetched": 11,
+      "dropped": {
+        "παλιά ανακοίνωση": 1,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
+        "λεωφορεία (χωρίς ειδοποίηση)": 1
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-23T16:12:17+00:00"
+      "last_success": "2026-10-23T22:47:10+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 14,
+      "items": 8,
+      "fetched": 13,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-23T20:40:57+00:00"
+      "last_success": "2026-10-23T22:47:10+00:00"
     }
   ],
   "active_events": [
-    {
-      "id": "ΡΔΒΜ46ΜΤΛΒ-22Υ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25777-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στη Λ. Πέτρου Ράλλη, από το ύψος της συμβολής της με την οδό Αγ. Άννης έως το ύψος της συμβολής της με την οδό Αμφιπόλεως, εναλλάξ ανά λωρίδα και στα δύο ρεύματα κυκλοφορίας, περιοχής Δήμων Αθη",
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΔΒΜ46ΜΤΛΒ-22Υ",
-      "details": "Επίσημη απόφαση Τροχαίας (23/10/2026)",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "Διακοπή κυκλοφορίας στη Λ. Πέτρου Ράλλη (Δήμων Αθη)",
-      "category": "",
-      "new_this_run": true
-    },
     {
       "id": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
       "source": "kathimerini",
@@ -231,6 +220,19 @@
       "new_this_run": false
     },
     {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-83/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση της διαδρομής των λεωφορειακών γραμμών 700, 747, Α11 και Β11, λόγω διεξαγωγής εκδηλώσεων στις πλατείες «Ηρώων Αγωνιστών 1821» και «ΗΡΩ» του Δήμου Πετρούπολης",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-83/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "new_this_run": false
+    },
+    {
       "id": "TTI-TTR51574092528014000",
       "source": "TomTom (realtime)",
       "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
@@ -238,7 +240,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-10-23"
+        "2026-10-24"
       ],
       "hours": [],
       "plain": "",
@@ -253,22 +255,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-10-23"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749044013000",
-      "source": "TomTom (realtime)",
-      "title": "Evripidou (Athinas) → Platia Omonias (Athinas)",
-      "url": "https://www.google.com/maps?q=37.9799120272,23.726969772",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-10-23"
+        "2026-10-24"
       ],
       "hours": [],
       "plain": "",
@@ -283,7 +270,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-23"
+        "2026-10-24"
       ],
       "hours": [],
       "plain": "",
@@ -298,7 +285,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-23"
+        "2026-10-24"
       ],
       "hours": [],
       "plain": "",
@@ -313,7 +300,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-23"
+        "2026-10-24"
       ],
       "hours": [],
       "plain": "",
@@ -328,7 +315,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-23"
+        "2026-10-24"
       ],
       "hours": [],
       "plain": "",
@@ -343,7 +330,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-10-23"
+        "2026-10-24"
       ],
       "hours": [],
       "plain": "",
@@ -358,7 +345,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-10-23"
+        "2026-10-24"
       ],
       "hours": [],
       "plain": "",
@@ -1237,9 +1224,9 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-23T16:12:17+00:00",
+      "last_seen": "2026-10-23T22:47:10+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "6ΣΠΨ46ΜΤΛΒ-ΣΤΖ",
@@ -1261,7 +1248,7 @@
       "first_seen": "2026-10-22T09:03:25+00:00",
       "last_seen": "2026-10-22T09:03:25+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "ΨΣΑ746ΜΤΛΒ-Ξ79",
@@ -1280,7 +1267,7 @@
       "first_seen": "2026-10-22T09:03:25+00:00",
       "last_seen": "2026-10-22T09:03:25+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-83/",
@@ -1298,7 +1285,7 @@
       "first_seen": "2026-10-23T08:58:22+00:00",
       "last_seen": "2026-10-23T08:58:22+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
@@ -1314,7 +1301,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-23T16:12:17+00:00",
+      "last_seen": "2026-10-23T22:47:10+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1332,7 +1319,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-23T16:12:17+00:00",
+      "last_seen": "2026-10-23T22:47:10+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1555,6 +1542,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-10-23T22:47:11+00:00",
+      "source": "iefimerida",
+      "title": "🚨 Κυκλοφοριακές ρυθμίσεις στην Αθηνών - Θεσσαλονίκης έως 26 Οκτωβρίου λόγω εργασιών, πώς θα διεξάγεται η κυκλοφορία",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-athe-eos-26-oktobrioy"
+    },
+    {
       "time": "2026-10-23T16:12:17+00:00",
       "source": "Διαύγεια (Τροχαία)",
       "title": "25777-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στη Λ. Πέτρου Ράλλη, από το ύψος της συμβολής της με την οδό Αγ. Άννης έως το ύψος της συμβολής της με την οδό Αμφιπόλεως, εναλλάξ ανά λωρίδα και στα δύο ρεύματα κυκλοφορίας, περιοχής Δήμων Αθη",
@@ -1727,21 +1720,9 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "ΑΠΟΦΑΣΗ ΠΡΟΣΩΡΙΝΩΝ ΚΥΚΛΟΦΟΡΙΑΚΩΝ ΡΥΘΜΙΣΕΩΝ ΣΤΟΝ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟ Α.Θ.Ε. Χ.Θ. 161+500 έως Χ.Θ. 159+500 ΣΤΟ ΡΕΥΜΑ ΚΥΚΛΟΦΟΡΙΑΣ ΠΡΟΣ ΑΘΗΝΑ",
       "url": "https://diavgeia.gov.gr/decision/view/ΡΘΠΔ46ΜΤΛΒ-0Α9"
-    },
-    {
-      "time": "2026-10-11T09:20:50+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-17T14:44:42+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-17T17:25:09+00:00",
       "new": 0,
@@ -2095,6 +2076,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-23T22:47:11+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
