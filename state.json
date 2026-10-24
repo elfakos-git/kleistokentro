@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-24T18:28:48+00:00"
+      "last_success": "2026-10-24T22:09:36+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -532,7 +532,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-24T18:28:48+00:00"
+      "last_success": "2026-10-24T22:09:36+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -545,7 +545,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-24T18:28:48+00:00"
+      "last_success": "2026-10-24T22:09:36+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -556,7 +556,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-24T18:28:48+00:00"
+      "last_success": "2026-10-24T22:09:36+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -571,20 +571,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-24T18:28:48+00:00"
+      "last_success": "2026-10-24T22:09:36+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 14,
-      "fetched": 25,
+      "items": 9,
+      "fetched": 21,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 11
+        "κατηγορία εκτός πολιτικής": 12
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-24T21:15:49+00:00"
+      "last_success": "2026-10-24T22:09:36+00:00"
     }
   },
   "active": {
@@ -717,21 +717,6 @@
         "new_this_run": false
       },
       {
-        "id": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
-        "source": "kathimerini",
-        "title": "Κυκλοφοριακές ρυθμίσεις το Σάββατο στο κέντρο λόγω του εορτασμού του Αγίου Διονυσίου Αρεοπαγίτη",
-        "url": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
-        "details": "",
-        "area": "",
-        "days": [
-          "2026-10-24"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
         "id": "https://www.kathimerini.gr/society/564475000/diakopi-kykloforias-stin-iera-odo-fortigo-epese-se-freatio/",
         "source": "kathimerini",
         "title": "Διακοπή κυκλοφορίας στην Ιερά Οδό – Φορτηγό έπεσε σε φρεάτιο",
@@ -790,21 +775,6 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51579863628013000",
-        "source": "TomTom (realtime)",
-        "title": "Psaromiligkou (Ag. Asomaton) → Dipilou (Ag. Asomaton)",
-        "url": "https://www.google.com/maps?q=37.9794788816,23.7198511892",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-10-25"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
         "id": "TTI-TTR51568321972030001",
         "source": "TomTom (realtime)",
         "title": "Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
@@ -820,51 +790,6 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51582749116013001",
-        "source": "TomTom (realtime)",
-        "title": "Ag. Konstantinou (Sokratous) → Pireos (Tsaldari) (Sokratous)",
-        "url": "https://www.google.com/maps?q=37.9843484513,23.7268396848",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-10-25"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
-      },
-      {
-        "id": "TTI-TTR51582749044015000",
-        "source": "TomTom (realtime)",
-        "title": "Sofokleous (Athinas) → Platia Omonias (Athinas)",
-        "url": "https://www.google.com/maps?q=37.9810921973,23.7272621327",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-10-25"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51576978352012000",
-        "source": "TomTom (realtime)",
-        "title": "G Septemvriou (Stournari) → Marni (Stournari)",
-        "url": "https://www.google.com/maps?q=37.9877642313,23.7289103502",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-10-25"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
-      },
-      {
         "id": "TTI-TTR51582749160031000",
         "source": "TomTom (realtime)",
         "title": "Σταδίου → Ευριπίδου",
@@ -878,21 +803,6 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582749136018000",
-        "source": "TomTom (realtime)",
-        "title": "Akadimias (Ippokratous) → Panepistimiou (Ippokratous)",
-        "url": "https://www.google.com/maps?q=37.9819384488,23.7339649731",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-10-25"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
       },
       {
         "id": "TTI-TTR51579863732014000",
@@ -1351,7 +1261,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-24T18:28:48+00:00",
+      "last_seen": "2026-10-24T22:09:36+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1371,7 +1281,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-24T18:28:48+00:00",
+      "last_seen": "2026-10-24T22:09:36+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1773,7 +1683,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-24T18:28:48+00:00",
+      "last_seen": "2026-10-24T22:09:36+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2234,7 +2144,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-24T15:09:10+00:00",
-      "last_seen": "2026-10-24T18:28:48+00:00",
+      "last_seen": "2026-10-24T22:09:36+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2430,12 +2340,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-18T15:10:08+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-18T16:00:22+00:00",
       "new": 0,
@@ -2789,6 +2693,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-24T22:09:36+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
