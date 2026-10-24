@@ -1,8 +1,5 @@
 {
   "seen": [
-    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594290768011000",
-    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594291004012000",
-    "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51594291000004000",
     "94ΡΨ46ΜΤΛΒ-ΨΝ8",
     "6Α7146ΜΤΛΒ-2ΨΕ",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-256/",
@@ -499,7 +496,10 @@
     "ΡΔΒΜ46ΜΤΛΒ-22Υ",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-371/",
     "ΨΣΙΕ46ΜΤΛΒ-ΤΚΚ",
-    "TTI-TTR51582749200004000"
+    "TTI-TTR51582749200004000",
+    "TTI-TTR51582749116013001",
+    "TTI-TTR51576978352012000",
+    "TTI-TTR51582749136018000"
   ],
   "seeded": [
     "astynomia",
@@ -576,15 +576,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 27,
+      "items": 14,
+      "fetched": 25,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 18
+        "κατηγορία εκτός πολιτικής": 11
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-24T18:51:41+00:00"
+      "last_success": "2026-10-24T21:15:49+00:00"
     }
   },
   "active": {
@@ -782,7 +782,22 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-10-24"
+          "2026-10-25"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51579863628013000",
+        "source": "TomTom (realtime)",
+        "title": "Psaromiligkou (Ag. Asomaton) → Dipilou (Ag. Asomaton)",
+        "url": "https://www.google.com/maps?q=37.9794788816,23.7198511892",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-25"
         ],
         "hours": [],
         "plain": "",
@@ -797,12 +812,57 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-10-24"
+          "2026-10-25"
         ],
         "hours": [],
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51582749116013001",
+        "source": "TomTom (realtime)",
+        "title": "Ag. Konstantinou (Sokratous) → Pireos (Tsaldari) (Sokratous)",
+        "url": "https://www.google.com/maps?q=37.9843484513,23.7268396848",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-25"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51582749044015000",
+        "source": "TomTom (realtime)",
+        "title": "Sofokleous (Athinas) → Platia Omonias (Athinas)",
+        "url": "https://www.google.com/maps?q=37.9810921973,23.7272621327",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-25"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51576978352012000",
+        "source": "TomTom (realtime)",
+        "title": "G Septemvriou (Stournari) → Marni (Stournari)",
+        "url": "https://www.google.com/maps?q=37.9877642313,23.7289103502",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-25"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51582749160031000",
@@ -812,12 +872,27 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-24"
+          "2026-10-25"
         ],
         "hours": [],
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51582749136018000",
+        "source": "TomTom (realtime)",
+        "title": "Akadimias (Ippokratous) → Panepistimiou (Ippokratous)",
+        "url": "https://www.google.com/maps?q=37.9819384488,23.7339649731",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-10-25"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51579863732014000",
@@ -827,7 +902,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-24"
+          "2026-10-25"
         ],
         "hours": [],
         "plain": "",
@@ -842,7 +917,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-24"
+          "2026-10-25"
         ],
         "hours": [],
         "plain": "",
@@ -857,7 +932,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-24"
+          "2026-10-25"
         ],
         "hours": [],
         "plain": "",
@@ -872,7 +947,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-24"
+          "2026-10-25"
         ],
         "hours": [],
         "plain": "",
@@ -887,7 +962,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-24"
+          "2026-10-25"
         ],
         "hours": [],
         "plain": "",
@@ -902,7 +977,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-24"
+          "2026-10-25"
         ],
         "hours": [],
         "plain": "",
@@ -1790,26 +1865,6 @@
         "151797168"
       ]
     },
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-290/": {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-290/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 040,  910 και των γραμμών τρόλεϊ 1,5,10, λόγω της διοργάνωσης του 10ου Νυχτερινού αγώνα δρόμου , του Δήμου Καλλιθέας",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-290/",
-      "details": "",
-      "area": "Νότια",
-      "days": [
-        "2026-10-17"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-10-16T08:38:30+00:00",
-      "last_seen": "2026-10-16T08:38:30+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
     "https://www.iefimerida.gr/ellada/imimarathonios-marathona-kykloforiakes-rythmiseis": {
       "id": "https://www.iefimerida.gr/ellada/imimarathonios-marathona-kykloforiakes-rythmiseis",
       "source": "iefimerida",
@@ -1928,26 +1983,6 @@
       "category": "",
       "first_seen": "2026-10-20T16:06:34+00:00",
       "last_seen": "2026-10-20T16:06:34+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf-26/": {
-      "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf-26/",
-      "source": "ΟΑΣΑ",
-      "title": "Παράταση μερικής προσωρινής τροποποίησης της διαδρομής των λεωφορειακών γραμμών 830 και 837, λόγω εργασιών.",
-      "url": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf-26/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [
-        "2026-10-17"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-10-20T16:06:36+00:00",
-      "last_seen": "2026-10-20T16:06:36+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2396,12 +2431,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-18T12:07:26+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-18T15:10:08+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2751,6 +2780,12 @@
     },
     {
       "time": "2026-10-24T18:51:41+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-10-24T21:15:49+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
