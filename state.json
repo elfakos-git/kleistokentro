@@ -514,15 +514,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T18:00:19+00:00"
+      "last_success": "2026-10-26T23:29:18+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -536,7 +533,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T18:00:19+00:00"
+      "last_success": "2026-10-26T23:29:18+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -549,7 +546,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T18:00:19+00:00"
+      "last_success": "2026-10-26T23:29:18+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -560,7 +557,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T18:00:19+00:00"
+      "last_success": "2026-10-26T23:29:18+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -573,9 +570,9 @@
         "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T18:00:21+00:00"
+      "last_success": "2026-10-26T23:29:18+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -588,7 +585,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T20:37:44+00:00"
+      "last_success": "2026-10-26T23:29:18+00:00"
     }
   },
   "active": {
@@ -605,7 +602,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "iefimerida": [
@@ -725,16 +722,12 @@
         "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 724 και 727, λόγω εργασιών  στην λεωφόρο  Καραμανλή μεταξύ των οδών Αγίας Τριάδος και Μαντζάρου, του δήμου Αχαρνών",
         "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-137/",
         "details": "",
-        "area": "Βόρεια",
-        "days": [
-          "2026-10-27",
-          "2026-10-28",
-          "2026-10-29"
-        ],
+        "area": "",
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "bus",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-371/",
@@ -759,7 +752,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-10-26"
+          "2026-10-27"
         ],
         "hours": [],
         "plain": "",
@@ -774,7 +767,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-10-26"
+          "2026-10-27"
         ],
         "hours": [],
         "plain": "",
@@ -789,7 +782,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-26"
+          "2026-10-27"
         ],
         "hours": [],
         "plain": "",
@@ -804,7 +797,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-26"
+          "2026-10-27"
         ],
         "hours": [],
         "plain": "",
@@ -819,7 +812,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-26"
+          "2026-10-27"
         ],
         "hours": [],
         "plain": "",
@@ -834,7 +827,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-26"
+          "2026-10-27"
         ],
         "hours": [],
         "plain": "",
@@ -849,7 +842,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-26"
+          "2026-10-27"
         ],
         "hours": [],
         "plain": "",
@@ -864,7 +857,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-10-26"
+          "2026-10-27"
         ],
         "hours": [],
         "plain": "",
@@ -879,7 +872,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-10-26"
+          "2026-10-27"
         ],
         "hours": [],
         "plain": "",
@@ -894,7 +887,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-26"
+          "2026-10-27"
         ],
         "hours": [],
         "plain": "",
@@ -909,7 +902,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-26"
+          "2026-10-27"
         ],
         "hours": [],
         "plain": "",
@@ -924,7 +917,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-26"
+          "2026-10-27"
         ],
         "hours": [],
         "plain": "",
@@ -1298,7 +1291,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-26T18:00:19+00:00",
+      "last_seen": "2026-10-26T23:29:18+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1318,7 +1311,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-26T18:00:19+00:00",
+      "last_seen": "2026-10-26T23:29:18+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1699,7 +1692,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-26T18:00:19+00:00",
+      "last_seen": "2026-10-26T23:29:18+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2096,7 +2089,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-25T22:12:16+00:00",
-      "last_seen": "2026-10-26T18:00:19+00:00",
+      "last_seen": "2026-10-26T23:29:18+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2314,12 +2307,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-20T16:06:36+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-20T18:01:33+00:00",
       "new": 0,
@@ -2673,6 +2660,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-26T23:29:18+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
