@@ -1,7 +1,5 @@
 {
   "seen": [
-    "9ΦΦ446ΜΤΛΒ-24Χ",
-    "9Γ2Γ46ΜΤΛΒ-3Ρ2",
     "92ΓΓ46ΜΤΛΒ-Γ4Β",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749044023000",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51582749096002000",
@@ -499,7 +497,9 @@
     "6ΜΞ846ΜΤΛΒ-Ι26",
     "TTI-TTR51582749224014000",
     "TTI-TTR51585634780013000",
-    "TTI-TTR51582749200068000"
+    "TTI-TTR51582749200068000",
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-137/",
+    "Ρ3ΙΚ46ΜΤΛΒ-ΥΧΡ"
   ],
   "seeded": [
     "astynomia",
@@ -522,7 +522,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T09:32:06+00:00"
+      "last_success": "2026-10-26T18:00:19+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -530,13 +530,13 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 94,
-        "εκτός χρονικού παραθύρου": 5
+        "εκτός θέματος/Αθήνας": 98,
+        "άλλη περιοχή": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T09:32:06+00:00"
+      "last_success": "2026-10-26T18:00:19+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -549,7 +549,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T09:32:06+00:00"
+      "last_success": "2026-10-26T18:00:19+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -560,52 +560,49 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T09:32:06+00:00"
+      "last_success": "2026-10-26T18:00:19+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 1,
+      "items": 2,
       "fetched": 11,
       "dropped": {
         "παλιά ανακοίνωση": 5,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
-        "λεωφορεία (χωρίς ειδοποίηση)": 1
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
+        "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T09:32:06+00:00"
+      "last_success": "2026-10-26T18:00:21+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 102,
+      "fetched": 31,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 90
+        "κατηγορία εκτός πολιτικής": 19
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T15:18:27+00:00"
+      "last_success": "2026-10-26T18:00:21+00:00"
     }
   },
   "active": {
     "astynomia": [],
     "diavgeia": [
       {
-        "id": "6ΜΞ846ΜΤΛΒ-Ι26",
+        "id": "Ρ3ΙΚ46ΜΤΛΒ-ΥΧΡ",
         "source": "Διαύγεια (Τροχαία)",
-        "title": "25786-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στα κάτωθι οδικά τμήματα, κατά τις ώρες 22:00 έως 06:00 της επομένης, για την εκτέλεση εργασιών στο πλαίσιο του έργου «Προμήθεια, εγκατάσταση και λειτουργία ηλεκτρονικών μέσων παρακολούθησης πα",
-        "url": "https://diavgeia.gov.gr/decision/view/6ΜΞ846ΜΤΛΒ-Ι26",
+        "title": "ΑΠΟΦΑΣΗ ΠΡΟΣΩΡΙΝΩΝ ΚΥΚΛΟΦΟΡΙΑΚΩΝ ΡΥΘΜΙΣΕΩΝ 48ΩΡΗΣ ΔΙΑΡΚΕΙΑΣ ΓΙΑ THN ΠΑΡΑΚΟΛΟΥΘΗΣΗ ΚΑΙ ΤΗΝ ΕΚΤΕΛΕΣΗ ΕΡΓΑΣΙΩΝ ΚΑΘΑΡΙΣΜΟΥ ΦΡΕΑΤΙΩΝ ΚΕΝΤΡΙΚΗΣ ΝΗΣΙΔΑΣ ΑΠΟ ΤΗ Χ/Θ 161+500 ΈΩΣ ΤΗ Χ/Θ 159+500 ΣΤΗΝ ΚΑΤΕΥΘΥΝΣΗ ΠΡΟΣ ΑΘΗΝΑ ΤΟΥ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟΥ Α.Θ.Ε.",
+        "url": "https://diavgeia.gov.gr/decision/view/Ρ3ΙΚ46ΜΤΛΒ-ΥΧΡ",
         "details": "Επίσημη απόφαση Τροχαίας (26/10/2026)",
         "area": "",
         "days": [],
-        "hours": [
-          "22:00",
-          "06:00"
-        ],
+        "hours": [],
         "plain": "",
         "category": "",
         "new_this_run": true
@@ -722,6 +719,23 @@
       }
     ],
     "oasa": [
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-137/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 724 και 727, λόγω εργασιών  στην λεωφόρο  Καραμανλή μεταξύ των οδών Αγίας Τριάδος και Μαντζάρου, του δήμου Αχαρνών",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-137/",
+        "details": "",
+        "area": "Βόρεια",
+        "days": [
+          "2026-10-27",
+          "2026-10-28",
+          "2026-10-29"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": true
+      },
       {
         "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-371/",
         "source": "ΟΑΣΑ",
@@ -840,7 +854,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51585634780013000",
@@ -855,7 +869,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51585634720014000",
@@ -885,7 +899,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51594291004012000",
@@ -1284,7 +1298,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-26T09:32:06+00:00",
+      "last_seen": "2026-10-26T18:00:19+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1304,7 +1318,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-26T09:32:06+00:00",
+      "last_seen": "2026-10-26T18:00:19+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1685,7 +1699,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-26T09:32:06+00:00",
+      "last_seen": "2026-10-26T18:00:19+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2082,7 +2096,29 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-25T22:12:16+00:00",
-      "last_seen": "2026-10-26T09:32:06+00:00",
+      "last_seen": "2026-10-26T18:00:19+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-137/": {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-137/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 724 και 727, λόγω εργασιών  στην λεωφόρο  Καραμανλή μεταξύ των οδών Αγίας Τριάδος και Μαντζάρου, του δήμου Αχαρνών",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-137/",
+      "details": "",
+      "area": "Βόρεια",
+      "days": [
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-10-26T18:00:21+00:00",
+      "last_seen": "2026-10-26T18:00:21+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2278,12 +2314,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-20T09:01:45+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-20T13:09:42+00:00",
       "new": 0,
@@ -2637,6 +2667,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-26T18:00:21+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
