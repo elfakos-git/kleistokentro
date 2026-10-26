@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-25T22:12:16+00:00"
+      "last_success": "2026-10-26T02:33:14+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -527,12 +527,13 @@
       "items": 3,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97
+        "εκτός θέματος/Αθήνας": 92,
+        "εκτός χρονικού παραθύρου": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-25T22:12:16+00:00"
+      "last_success": "2026-10-26T02:33:15+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -545,7 +546,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-25T22:12:16+00:00"
+      "last_success": "2026-10-26T02:33:15+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -556,7 +557,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-25T22:12:16+00:00"
+      "last_success": "2026-10-26T02:33:15+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -571,7 +572,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-25T22:12:16+00:00"
+      "last_success": "2026-10-26T02:33:15+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -584,7 +585,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-25T23:39:22+00:00"
+      "last_success": "2026-10-26T02:33:15+00:00"
     }
   },
   "active": {
@@ -618,7 +619,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "kathimerini": [
@@ -1275,7 +1276,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-25T22:12:16+00:00",
+      "last_seen": "2026-10-26T02:33:15+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1295,7 +1296,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-25T22:12:16+00:00",
+      "last_seen": "2026-10-26T02:33:15+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1676,7 +1677,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-25T22:12:16+00:00",
+      "last_seen": "2026-10-26T02:33:15+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2030,7 +2031,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-24T15:09:10+00:00",
-      "last_seen": "2026-10-25T22:12:16+00:00",
+      "last_seen": "2026-10-26T02:33:15+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2053,7 +2054,7 @@
       "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Κλεομένους (από Αριστοδήμου έως Ηλία Ρογκάκου, ύψος αρ. 33, Δήμου Αθηναίων) · 25/10, 10:00–14:00",
       "category": "",
       "first_seen": "2026-10-25T08:51:02+00:00",
-      "last_seen": "2026-10-25T22:12:16+00:00",
+      "last_seen": "2026-10-26T02:33:15+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2073,7 +2074,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-25T22:12:16+00:00",
-      "last_seen": "2026-10-25T22:12:16+00:00",
+      "last_seen": "2026-10-26T02:33:15+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2269,12 +2270,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-19T23:13:59+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-19T23:58:46+00:00",
       "new": 0,
@@ -2628,6 +2623,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-26T02:33:15+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
