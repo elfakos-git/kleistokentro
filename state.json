@@ -577,15 +577,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 12,
-      "fetched": 15,
+      "items": 8,
+      "fetched": 60,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 52
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-27T03:07:49+00:00"
+      "last_success": "2026-10-27T08:24:45+00:00"
     }
   },
   "active": {
@@ -826,66 +826,6 @@
         "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
-        "days": [
-          "2026-10-27"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582749224014000",
-        "source": "TomTom (realtime)",
-        "title": "Πανόρμου → Λαμίας",
-        "url": "https://www.google.com/maps?q=37.9887297771,23.7581772739",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-10-27"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582749200068000",
-        "source": "TomTom (realtime)",
-        "title": "Alexandras Ave (Panormou) → Fthiotidos (Panormou)",
-        "url": "https://www.google.com/maps?q=37.9872532452,23.7577789658",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-10-27"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51585634780013000",
-        "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Κηφισίας → Πανόρμου",
-        "url": "https://www.google.com/maps?q=37.990183555,23.7603002423",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Βόρεια",
-        "days": [
-          "2026-10-27"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51585634720014000",
-        "source": "TomTom (realtime)",
-        "title": "Πανόρμου → Λεωφόρος Κηφισίας",
-        "url": "https://www.google.com/maps?q=37.9918585974,23.7602184349",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Βόρεια",
         "days": [
           "2026-10-27"
         ],
@@ -2122,15 +2062,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-10-26"
+    "151797168": "2026-10-27"
   },
   "notifications": [
-    {
-      "time": "2026-10-15T07:45:12+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-10-15T08:43:38+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -2304,15 +2238,15 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "25786-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στα κάτωθι οδικά τμήματα, κατά τις ώρες 22:00 έως 06:00 της επομένης, για την εκτέλεση εργασιών στο πλαίσιο του έργου «Προμήθεια, εγκατάσταση και λειτουργία ηλεκτρονικών μέσων παρακολούθησης πα",
       "url": "https://diavgeia.gov.gr/decision/view/6ΜΞ846ΜΤΛΒ-Ι26"
+    },
+    {
+      "time": "2026-10-27T08:24:46+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-20T22:51:21+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-21T00:11:44+00:00",
       "new": 0,
@@ -2666,6 +2600,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-27T08:24:46+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
