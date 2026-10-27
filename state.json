@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T23:29:18+00:00"
+      "last_success": "2026-10-27T03:07:49+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -533,7 +533,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T23:29:18+00:00"
+      "last_success": "2026-10-27T03:07:49+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -546,7 +546,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T23:29:18+00:00"
+      "last_success": "2026-10-27T03:07:49+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -557,7 +557,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T23:29:18+00:00"
+      "last_success": "2026-10-27T03:07:49+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -565,27 +565,27 @@
       "items": 2,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 5,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
+        "παλιά ανακοίνωση": 6,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 3,
         "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-26T23:29:18+00:00"
+      "last_success": "2026-10-27T03:07:49+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 14,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 2
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-27T00:06:53+00:00"
+      "last_success": "2026-10-27T03:07:49+00:00"
     }
   },
   "active": {
@@ -850,6 +850,21 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51582749200068000",
+        "source": "TomTom (realtime)",
+        "title": "Alexandras Ave (Panormou) → Fthiotidos (Panormou)",
+        "url": "https://www.google.com/maps?q=37.9872532452,23.7577789658",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-10-27"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
         "id": "TTI-TTR51585634780013000",
         "source": "TomTom (realtime)",
         "title": "Λεωφόρος Κηφισίας → Πανόρμου",
@@ -871,21 +886,6 @@
         "url": "https://www.google.com/maps?q=37.9918585974,23.7602184349",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
-        "days": [
-          "2026-10-27"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582749200068000",
-        "source": "TomTom (realtime)",
-        "title": "Alexandras Ave (Panormou) → Larisis (Panormou)",
-        "url": "https://www.google.com/maps?q=37.9872532452,23.7577789658",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
         "days": [
           "2026-10-27"
         ],
@@ -1291,7 +1291,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-26T23:29:18+00:00",
+      "last_seen": "2026-10-27T03:07:49+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1311,7 +1311,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-26T23:29:18+00:00",
+      "last_seen": "2026-10-27T03:07:49+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1692,7 +1692,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-26T23:29:18+00:00",
+      "last_seen": "2026-10-27T03:07:49+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2089,7 +2089,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-25T22:12:16+00:00",
-      "last_seen": "2026-10-26T23:29:18+00:00",
+      "last_seen": "2026-10-27T03:07:49+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2307,12 +2307,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-20T21:44:17+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-20T22:51:21+00:00",
       "new": 0,
@@ -2666,6 +2660,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-27T03:07:49+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
