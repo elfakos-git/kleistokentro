@@ -577,14 +577,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-28T03:21:04+00:00"
+      "last_success": "2026-10-28T09:01:40+00:00"
     }
   },
   "active": {
@@ -2235,15 +2235,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-10-27"
+    "151797168": "2026-10-28"
   },
   "notifications": [
-    {
-      "time": "2026-10-16T07:33:31+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-10-16T15:51:34+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -2417,15 +2411,15 @@
       "source": "ΟΑΣΑ",
       "title": "🚨 Λειτουργία των ΜΜΜ λόγω των εορταστικών εκδηλώσεων για την Εθνική Επέτειο της 28ης Οκτωβρίου",
       "url": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%cf%84%cf%89%ce%bd-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%cf%89%ce%bd-%ce%b5%ce%bf%cf%81%cf%84%ce%b1%cf%83%cf%84%ce%b9%ce%ba-4/"
+    },
+    {
+      "time": "2026-10-28T09:01:40+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-21T21:50:50+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-21T22:56:13+00:00",
       "new": 0,
@@ -2779,6 +2773,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-10-28T09:01:40+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
