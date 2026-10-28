@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T21:11:36+00:00",
+  "generated_at": "2026-10-28T23:44:56+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-28T17:43:55+00:00"
+      "last_success": "2026-10-28T23:44:56+00:00"
     },
     {
       "name": "diavgeia",
@@ -18,25 +18,26 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99
+        "εκτός θέματος/Αθήνας": 98,
+        "εκτός χρονικού παραθύρου": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-28T17:43:55+00:00"
+      "last_success": "2026-10-28T23:44:56+00:00"
     },
     {
       "name": "iefimerida",
       "ok": true,
-      "items": 2,
+      "items": 1,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 9
+        "χωρίς/παλιά ημερομηνία": 10
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-28T17:43:55+00:00"
+      "last_success": "2026-10-28T23:44:56+00:00"
     },
     {
       "name": "kathimerini",
@@ -47,7 +48,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-28T17:43:55+00:00"
+      "last_success": "2026-10-28T23:44:56+00:00"
     },
     {
       "name": "oasa",
@@ -62,20 +63,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-28T17:43:55+00:00"
+      "last_success": "2026-10-28T23:44:56+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 11,
+      "fetched": 10,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-28T21:11:36+00:00"
+      "last_success": "2026-10-28T23:44:56+00:00"
     }
   ],
   "active_events": [
@@ -90,51 +91,6 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
-    },
-    {
-      "id": "https://www.iefimerida.gr/ellada/28i-oktobrioy-oi-dromoi-poy-thakleisoyn-stin-athina-allages-sta-dromologia-ton-mmm",
-      "source": "iefimerida",
-      "title": "28η Οκτωβρίου: Οι δρόμοι που θα κλείσουν σε Αθήνα και Θεσσαλονίκη -Πώς θα κινηθούν τα ΜΜΜ",
-      "url": "https://www.iefimerida.gr/ellada/28i-oktobrioy-oi-dromoi-poy-thakleisoyn-stin-athina-allages-sta-dromologia-ton-mmm",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-10-28"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-28i-athina-peiraia",
-      "source": "iefimerida",
-      "title": "Κυκλοφοριακές ρυθμίσεις για την 28η Οκτωβρίου:Ποιοι δρόμοι θα είναι κλειστοί σε Αθήνα και Πειραιά",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-28i-athina-peiraia",
-      "details": "",
-      "area": "Νότια",
-      "days": [
-        "2026-10-28"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.kathimerini.gr/society/564552064/28i-oktovrioy-poioi-dromoi-kleinoyn-se-thessaloniki-kai-athina-pos-tha-kinithoyn-ta-mmm/",
-      "source": "kathimerini",
-      "title": "28η Οκτωβρίου:  Ποιοι δρόμοι κλείνουν σε Θεσσαλονίκη και Αθήνα – Πώς θα κινηθούν τα ΜΜΜ",
-      "url": "https://www.kathimerini.gr/society/564552064/28i-oktovrioy-poioi-dromoi-kleinoyn-se-thessaloniki-kai-athina-pos-tha-kinithoyn-ta-mmm/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-10-28"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
       "new_this_run": false
     },
     {
@@ -145,6 +101,21 @@
       "details": "",
       "area": "",
       "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+      "source": "kathimerini",
+      "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
+      "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-11-01"
+      ],
       "hours": [],
       "plain": "",
       "category": "",
@@ -216,6 +187,21 @@
       "new_this_run": false
     },
     {
+      "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
+      "source": "kathimerini",
+      "title": "Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Αθήνα για το «Greece Race for the Cure 2026»",
+      "url": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-11-01"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
       "id": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
       "source": "kathimerini",
       "title": "Κυκλοφοριακές ρυθμίσεις το Σάββατο στο κέντρο λόγω του εορτασμού του Αγίου Διονυσίου Αρεοπαγίτη",
@@ -228,66 +214,6 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%cf%84%cf%89%ce%bd-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%cf%89%ce%bd-%ce%b5%ce%bf%cf%81%cf%84%ce%b1%cf%83%cf%84%ce%b9%ce%ba-4/",
-      "source": "ΟΑΣΑ",
-      "title": "Λειτουργία των ΜΜΜ λόγω των εορταστικών εκδηλώσεων για την Εθνική Επέτειο της 28ης Οκτωβρίου",
-      "url": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%cf%84%cf%89%ce%bd-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%cf%89%ce%bd-%ce%b5%ce%bf%cf%81%cf%84%ce%b1%cf%83%cf%84%ce%b9%ce%ba-4/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-10-28"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-317/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση των λεωφ. γραμμών 409 και 418 λόγω εορτασμού της 28ης Οκτωβρίου στο Δήμο Παπάγου-Χολαργού",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-317/",
-      "details": "",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-10-28"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-78/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση της διαδρομής των λεωφορειακών γραμμών 700, 747, Α11 και Β11, λόγω διεξαγωγής της παρέλασης της 28ης Οκτωβρίου επί της οδού 25ης Μαρτίου (από τη στρογγυλή πλατεία της Πετρούπολης έως το ύψος της οδού Κολοκοτρώνη) του Δήμου Πετρούπολης",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-78/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [
-        "2026-10-28"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-129/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 537, 721, 734, 740, 755, Α10 και Β10, λόγω διεξαγωγής εκδηλώσεων για τον εορτασμό της 28ης Οκτωβρίου στο Δήμο Αχαρνών",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-129/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-10-28"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
       "new_this_run": false
     },
     {
@@ -311,7 +237,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-10-28"
+        "2026-10-29"
       ],
       "hours": [],
       "plain": "",
@@ -326,7 +252,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-10-28"
+        "2026-10-29"
       ],
       "hours": [],
       "plain": "",
@@ -341,7 +267,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-28"
+        "2026-10-29"
       ],
       "hours": [],
       "plain": "",
@@ -356,7 +282,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-28"
+        "2026-10-29"
       ],
       "hours": [],
       "plain": "",
@@ -371,7 +297,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-28"
+        "2026-10-29"
       ],
       "hours": [],
       "plain": "",
@@ -386,7 +312,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-10-28"
+        "2026-10-29"
       ],
       "hours": [],
       "plain": "",
@@ -401,7 +327,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-10-28"
+        "2026-10-29"
       ],
       "hours": [],
       "plain": "",
@@ -416,7 +342,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-10-28"
+        "2026-10-29"
       ],
       "hours": [],
       "plain": "",
@@ -617,7 +543,7 @@
       "first_seen": "2026-08-29T10:37:36+00:00",
       "last_seen": "2026-08-29T10:37:36+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
@@ -735,7 +661,7 @@
       "first_seen": "2026-09-15T09:05:51+00:00",
       "last_seen": "2026-09-15T09:05:51+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-128/",
@@ -755,7 +681,7 @@
       "first_seen": "2026-09-26T08:57:33+00:00",
       "last_seen": "2026-09-26T08:57:33+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "90ΜΓ46ΜΤΛΒ-77Ψ",
@@ -953,42 +879,6 @@
       "status": "ended"
     },
     {
-      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-79/",
-      "source": "ΟΑΣΑ",
-      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73, του Δήμου Περιστερίου",
-      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-79/",
-      "details": "",
-      "area": "Δυτικά",
-      "days": [
-        "2026-10-21"
-      ],
-      "hours": [],
-      "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Λακεδαίμονος 73 · 21/10",
-      "category": "bus",
-      "first_seen": "2026-10-20T09:01:45+00:00",
-      "last_seen": "2026-10-20T09:01:45+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%ba%ce%bb%ce%b5%ce%b9%cf%83%cf%84%cf%8c%cf%82-%ce%bf-%cf%83%cf%84%ce%b1%ce%b8%ce%bc%cf%8c%cf%82-%cf%80%ce%b1%ce%bd%ce%b5%cf%80%ce%b9%cf%83%cf%84%ce%ae%ce%bc%ce%b9%ce%bf-%cf%84/",
-      "source": "ΟΑΣΑ",
-      "title": "Κλειστός ο σταθμός “Πανεπιστήμιο”  , Τετάρτη 21/10/2026",
-      "url": "https://www.oasa.gr/blog/%ce%ba%ce%bb%ce%b5%ce%b9%cf%83%cf%84%cf%8c%cf%82-%ce%bf-%cf%83%cf%84%ce%b1%ce%b8%ce%bc%cf%8c%cf%82-%cf%80%ce%b1%ce%bd%ce%b5%cf%80%ce%b9%cf%83%cf%84%ce%ae%ce%bc%ce%b9%ce%bf-%cf%84/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-10-21"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-10-21T16:22:42+00:00",
-      "last_seen": "2026-10-23T02:47:04+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
       "id": "9ΦΔ046ΜΤΛΒ-ΗΓΝ",
       "source": "Διαύγεια (Τροχαία)",
       "title": "24207-Γ΄-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινές κυκλοφοριακές ρυθμίσεις, κατά το χρονικό διάστημα από 23-10-2026 έως 17-01-2027, για την εκτέλεση εργασιών στο πλαίσιο του έργου «Συντήρηση ασφαλτοστρώσεων και επούλωσης λακούβων στο οδικό δίκτυο Π.Ε. Ανατολικής Αττικής».",
@@ -1171,42 +1061,6 @@
       "status": "ended"
     },
     {
-      "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
-      "source": "kathimerini",
-      "title": "Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Αθήνα για το «Greece Race for the Cure 2026»",
-      "url": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-10-25"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-28T17:43:55+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
-      "source": "kathimerini",
-      "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
-      "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-10-25"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-28T17:43:55+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-371/",
       "source": "ΟΑΣΑ",
       "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 060 λόγω εργασιών μετακόμισης στην οδό Κλεομένους 33",
@@ -1317,7 +1171,7 @@
       "first_seen": "2026-10-25T22:12:16+00:00",
       "last_seen": "2026-10-28T17:43:55+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-317/",
@@ -1333,9 +1187,9 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-10-27T09:28:52+00:00",
-      "last_seen": "2026-10-28T17:43:55+00:00",
+      "last_seen": "2026-10-28T23:44:56+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-78/",
@@ -1351,9 +1205,9 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-10-27T09:28:52+00:00",
-      "last_seen": "2026-10-28T17:43:55+00:00",
+      "last_seen": "2026-10-28T23:44:56+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-129/",
@@ -1369,9 +1223,9 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-10-27T09:28:54+00:00",
-      "last_seen": "2026-10-28T17:43:55+00:00",
+      "last_seen": "2026-10-28T23:44:56+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-304/",
@@ -1389,7 +1243,7 @@
       "first_seen": "2026-10-27T09:28:56+00:00",
       "last_seen": "2026-10-27T09:28:56+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-85/",
@@ -1407,7 +1261,7 @@
       "first_seen": "2026-10-27T09:28:58+00:00",
       "last_seen": "2026-10-27T09:28:58+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%cf%84%cf%89%ce%bd-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%cf%89%ce%bd-%ce%b5%ce%bf%cf%81%cf%84%ce%b1%cf%83%cf%84%ce%b9%ce%ba-4/",
@@ -1423,9 +1277,9 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-27T17:07:57+00:00",
-      "last_seen": "2026-10-28T17:43:55+00:00",
+      "last_seen": "2026-10-28T23:44:56+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.iefimerida.gr/ellada/28i-oktobrioy-oi-dromoi-poy-thakleisoyn-stin-athina-allages-sta-dromologia-ton-mmm",
@@ -1441,9 +1295,9 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-28T10:13:29+00:00",
-      "last_seen": "2026-10-28T17:43:55+00:00",
+      "last_seen": "2026-10-28T23:44:56+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.kathimerini.gr/society/564552064/28i-oktovrioy-poioi-dromoi-kleinoyn-se-thessaloniki-kai-athina-pos-tha-kinithoyn-ta-mmm/",
@@ -1459,9 +1313,9 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-28T10:13:29+00:00",
-      "last_seen": "2026-10-28T17:43:55+00:00",
+      "last_seen": "2026-10-28T23:44:56+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
@@ -1477,7 +1331,43 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-28T17:43:55+00:00",
+      "last_seen": "2026-10-28T23:44:56+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
+      "source": "kathimerini",
+      "title": "Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Αθήνα για το «Greece Race for the Cure 2026»",
+      "url": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-11-01"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-09-30T17:20:52+00:00",
+      "last_seen": "2026-10-28T23:44:56+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+      "source": "kathimerini",
+      "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
+      "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-11-01"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-10-10T10:19:27+00:00",
+      "last_seen": "2026-10-28T23:44:56+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1864,12 +1754,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-22T09:03:29+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-10-22T13:28:00+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2222,6 +2106,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-28T23:44:56+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
