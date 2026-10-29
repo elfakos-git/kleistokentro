@@ -514,15 +514,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T17:51:00+00:00"
+      "last_success": "2026-10-29T23:43:31+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -535,7 +532,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T17:51:01+00:00"
+      "last_success": "2026-10-29T23:43:31+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -548,7 +545,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T17:51:01+00:00"
+      "last_success": "2026-10-29T23:43:31+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -559,7 +556,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T17:51:01+00:00"
+      "last_success": "2026-10-29T23:43:31+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -574,20 +571,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T17:51:01+00:00"
+      "last_success": "2026-10-29T23:43:31+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 11,
+      "fetched": 12,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T20:41:34+00:00"
+      "last_success": "2026-10-29T23:43:31+00:00"
     }
   },
   "active": {
@@ -743,7 +740,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-10-29"
+          "2026-10-30"
         ],
         "hours": [],
         "plain": "",
@@ -758,7 +755,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-10-29"
+          "2026-10-30"
         ],
         "hours": [],
         "plain": "",
@@ -773,7 +770,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-29"
+          "2026-10-30"
         ],
         "hours": [],
         "plain": "",
@@ -788,7 +785,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-29"
+          "2026-10-30"
         ],
         "hours": [],
         "plain": "",
@@ -803,7 +800,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-29"
+          "2026-10-30"
         ],
         "hours": [],
         "plain": "",
@@ -818,7 +815,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-10-29"
+          "2026-10-30"
         ],
         "hours": [],
         "plain": "",
@@ -833,7 +830,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-29"
+          "2026-10-30"
         ],
         "hours": [],
         "plain": "",
@@ -848,7 +845,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-10-29"
+          "2026-10-30"
         ],
         "hours": [],
         "plain": "",
@@ -1222,7 +1219,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-29T17:51:01+00:00",
+      "last_seen": "2026-10-29T23:43:31+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1242,7 +1239,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-29T17:51:01+00:00",
+      "last_seen": "2026-10-29T23:43:31+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1588,27 +1585,6 @@
       "extended": false,
       "alerted_chats": []
     },
-    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sti-grammi-3-toy-metro": {
-      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sti-grammi-3-toy-metro",
-      "source": "iefimerida",
-      "title": "Κυκλοφοριακές ρυθμίσεις στη Γραμμή 3 του Μετρό από Κυριακή στο τμήμα Αμπελόκηποι-Χαλάνδρι -Έξι σταθμοί θα κλείνουν 21:40",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-sti-grammi-3-toy-metro",
-      "details": "",
-      "area": "Βόρεια",
-      "days": [
-        "2026-10-15",
-        "2026-10-22"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-10-10T10:19:26+00:00",
-      "last_seen": "2026-10-10T10:19:26+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
     "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/": {
       "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
       "source": "kathimerini",
@@ -1623,28 +1599,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-29T17:51:01+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-se-6-stathmoys-toy-metro": {
-      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-se-6-stathmoys-toy-metro",
-      "source": "iefimerida",
-      "title": "Κυκλοφοριακές ρυθμίσεις σε 6 σταθμούς του Μετρό - Πότε κλείνουν νωρίτερα, πώς γίνονται οι μετακινήσεις",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-se-6-stathmoys-toy-metro",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-10-15",
-        "2026-10-22"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-10-12T11:30:15+00:00",
-      "last_seen": "2026-10-12T11:30:15+00:00",
+      "last_seen": "2026-10-29T23:43:31+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2002,7 +1957,7 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-10-27T09:28:52+00:00",
-      "last_seen": "2026-10-29T17:51:01+00:00",
+      "last_seen": "2026-10-29T23:43:31+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2102,7 +2057,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-27T17:07:57+00:00",
-      "last_seen": "2026-10-29T17:51:01+00:00",
+      "last_seen": "2026-10-29T23:43:31+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2122,7 +2077,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-28T10:13:29+00:00",
-      "last_seen": "2026-10-29T17:51:01+00:00",
+      "last_seen": "2026-10-29T23:43:31+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2142,7 +2097,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-28T10:13:29+00:00",
-      "last_seen": "2026-10-29T17:51:01+00:00",
+      "last_seen": "2026-10-29T23:43:31+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2359,12 +2314,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-23T07:58:23+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-23T08:58:22+00:00",
       "new": 0,
@@ -2718,6 +2667,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-29T23:43:31+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
