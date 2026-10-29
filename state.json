@@ -522,7 +522,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T10:36:44+00:00"
+      "last_success": "2026-10-29T17:51:00+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -535,7 +535,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T10:36:45+00:00"
+      "last_success": "2026-10-29T17:51:01+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -548,7 +548,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T10:36:45+00:00"
+      "last_success": "2026-10-29T17:51:01+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -559,7 +559,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T10:36:45+00:00"
+      "last_success": "2026-10-29T17:51:01+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -572,22 +572,22 @@
         "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T10:36:47+00:00"
+      "last_success": "2026-10-29T17:51:01+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 121,
+      "fetched": 33,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 113
+        "κατηγορία εκτός πολιτικής": 25
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T15:51:32+00:00"
+      "last_success": "2026-10-29T17:51:01+00:00"
     }
   },
   "active": {
@@ -726,15 +726,12 @@
         "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 724 και 727, λόγω εργασιών στην λεωφόρο Καραμανλή μεταξύ των οδών Αγίας Τριάδος και Μαντζάρου, του Δήμου Αχαρνών",
         "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-139/",
         "details": "",
-        "area": "Βόρεια",
-        "days": [
-          "2026-10-30",
-          "2026-10-31"
-        ],
+        "area": "",
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "bus",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "tomtom": [
@@ -1225,7 +1222,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-29T10:36:45+00:00",
+      "last_seen": "2026-10-29T17:51:01+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1245,7 +1242,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-29T10:36:45+00:00",
+      "last_seen": "2026-10-29T17:51:01+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1626,7 +1623,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-29T10:36:45+00:00",
+      "last_seen": "2026-10-29T17:51:01+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2005,7 +2002,7 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-10-27T09:28:52+00:00",
-      "last_seen": "2026-10-29T10:36:47+00:00",
+      "last_seen": "2026-10-29T17:51:01+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2105,7 +2102,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-27T17:07:57+00:00",
-      "last_seen": "2026-10-29T10:36:47+00:00",
+      "last_seen": "2026-10-29T17:51:01+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2125,7 +2122,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-28T10:13:29+00:00",
-      "last_seen": "2026-10-29T10:36:45+00:00",
+      "last_seen": "2026-10-29T17:51:01+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2145,7 +2142,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-28T10:13:29+00:00",
-      "last_seen": "2026-10-29T10:36:45+00:00",
+      "last_seen": "2026-10-29T17:51:01+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2362,12 +2359,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-23T00:13:05+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-23T02:47:04+00:00",
       "new": 0,
@@ -2721,6 +2712,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-29T17:51:01+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
