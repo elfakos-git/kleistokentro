@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T23:43:31+00:00"
+      "last_success": "2026-10-30T03:47:34+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -532,7 +532,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T23:43:31+00:00"
+      "last_success": "2026-10-30T03:47:34+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -545,7 +545,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T23:43:31+00:00"
+      "last_success": "2026-10-30T03:47:34+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -556,7 +556,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T23:43:31+00:00"
+      "last_success": "2026-10-30T03:47:34+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -571,20 +571,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-29T23:43:31+00:00"
+      "last_success": "2026-10-30T03:47:34+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 11,
+      "fetched": 10,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T00:27:57+00:00"
+      "last_success": "2026-10-30T03:47:34+00:00"
     }
   },
   "active": {
@@ -1219,7 +1219,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-29T23:43:31+00:00",
+      "last_seen": "2026-10-30T03:47:34+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1239,7 +1239,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-29T23:43:31+00:00",
+      "last_seen": "2026-10-30T03:47:34+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1599,7 +1599,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-29T23:43:31+00:00",
+      "last_seen": "2026-10-30T03:47:34+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1957,7 +1957,7 @@
       "plain": "",
       "category": "bus",
       "first_seen": "2026-10-27T09:28:52+00:00",
-      "last_seen": "2026-10-29T23:43:31+00:00",
+      "last_seen": "2026-10-30T03:47:34+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2057,7 +2057,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-27T17:07:57+00:00",
-      "last_seen": "2026-10-29T23:43:31+00:00",
+      "last_seen": "2026-10-30T03:47:34+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2077,7 +2077,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-28T10:13:29+00:00",
-      "last_seen": "2026-10-29T23:43:31+00:00",
+      "last_seen": "2026-10-30T03:47:34+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2097,7 +2097,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-28T10:13:29+00:00",
-      "last_seen": "2026-10-29T23:43:31+00:00",
+      "last_seen": "2026-10-30T03:47:34+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2314,12 +2314,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-23T13:01:35+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-23T16:12:17+00:00",
       "new": 1,
@@ -2673,6 +2667,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-30T03:47:34+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
