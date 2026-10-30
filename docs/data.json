@@ -1,29 +1,33 @@
 {
-  "generated_at": "2026-10-30T09:06:26+00:00",
+  "generated_at": "2026-10-30T10:38:55+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
-      "date_misses": 0,
-      "body_enriched": 0,
-      "consecutive_failures": 0,
-      "last_success": "2026-10-30T03:47:34+00:00"
-    },
-    {
-      "name": "diavgeia",
-      "ok": true,
-      "items": 0,
-      "fetched": 100,
+      "fetched": 54,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T03:47:34+00:00"
+      "last_success": "2026-10-30T10:38:51+00:00"
+    },
+    {
+      "name": "diavgeia",
+      "ok": true,
+      "items": 1,
+      "fetched": 100,
+      "dropped": {
+        "εκτός θέματος/Αθήνας": 94,
+        "μόνο μία λωρίδα/ΛΕΑ": 5
+      },
+      "date_misses": 0,
+      "body_enriched": 0,
+      "consecutive_failures": 0,
+      "last_success": "2026-10-30T10:38:52+00:00"
     },
     {
       "name": "iefimerida",
@@ -36,7 +40,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T03:47:34+00:00"
+      "last_success": "2026-10-30T10:38:52+00:00"
     },
     {
       "name": "kathimerini",
@@ -47,7 +51,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T03:47:34+00:00"
+      "last_success": "2026-10-30T10:38:52+00:00"
     },
     {
       "name": "oasa",
@@ -55,30 +59,61 @@
       "items": 3,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
+        "παλιά ανακοίνωση": 3,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
         "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T03:47:34+00:00"
+      "last_success": "2026-10-30T10:38:54+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 8,
-      "fetched": 51,
+      "items": 9,
+      "fetched": 64,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 43
+        "κατηγορία εκτός πολιτικής": 55
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-30T09:06:26+00:00"
+      "last_success": "2026-10-30T10:38:54+00:00"
     }
   ],
   "active_events": [
+    {
+      "id": "9Ο3846ΜΤΛΒ-Ν02",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25823 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων επί της Λεωφ. Βασ. Σοφίας, στο ύψος του ο.α.04, ρεύμα κυκλοφορίας προς Λεωφ. Βασ. Κωνσταντίνου, περιοχής Δήμου Αθηναίων, την 01-11-2026 κατά τις ώρες 08.30΄ έως 13.00΄, λόγω εκτέλεσης εργασιών μετακόμισης.",
+      "url": "https://diavgeia.gov.gr/decision/view/9Ο3846ΜΤΛΒ-Ν02",
+      "details": "Επίσημη απόφαση Τροχαίας (30/10/2026)",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-01"
+      ],
+      "hours": [
+        "08:30",
+        "13:00"
+      ],
+      "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Σοφίας (ύψος αρ. 04, προς Λεωφ. Βασ. Κωνσταντίνου, Δήμου Αθηναίων) · 1/11, 08:30–13:00 · λόγω εργασιών μετακόμισης",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564556282/omonoia-diakopi-kykloforias-logo-ypoptoy-antikeimenoy/",
+      "source": "kathimerini",
+      "title": "Ομόνοια: Αποκαταστάθηκε η κυκλοφορία μετά τον έλεγχο σε ύποπτο αντικείμενο",
+      "url": "https://www.kathimerini.gr/society/564556282/omonoia-diakopi-kykloforias-logo-ypoptoy-antikeimenoy/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
     {
       "id": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
       "source": "kathimerini",
@@ -188,19 +223,17 @@
       "new_this_run": false
     },
     {
-      "id": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
-      "source": "kathimerini",
-      "title": "Κυκλοφοριακές ρυθμίσεις το Σάββατο στο κέντρο λόγω του εορτασμού του Αγίου Διονυσίου Αρεοπαγίτη",
-      "url": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-315/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 101 και 109 λόγω εορταστικών εκδηλώσεων στην οδό Δωδεκανήσου του Δήμου Αλίμου",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-315/",
       "details": "",
-      "area": "",
-      "days": [
-        "2026-10-31"
-      ],
+      "area": "Νότια",
+      "days": [],
       "hours": [],
       "plain": "",
-      "category": "",
-      "new_this_run": false
+      "category": "bus",
+      "new_this_run": true
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-139/",
@@ -244,6 +277,21 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51579863628010000",
+      "source": "TomTom (realtime)",
+      "title": "Platia Karaiskaki (Deligiorgi) → Agisilaou (Deligiorgi)",
+      "url": "https://www.google.com/maps?q=37.985225517,23.7215450042",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-10-30"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51582749160031000",
@@ -1225,7 +1273,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-27T17:07:57+00:00",
-      "last_seen": "2026-10-30T03:47:34+00:00",
+      "last_seen": "2026-10-30T10:38:54+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -1243,7 +1291,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-28T10:13:29+00:00",
-      "last_seen": "2026-10-30T03:47:34+00:00",
+      "last_seen": "2026-10-30T10:38:52+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -1261,7 +1309,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-28T10:13:29+00:00",
-      "last_seen": "2026-10-30T03:47:34+00:00",
+      "last_seen": "2026-10-30T10:38:52+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -1316,7 +1364,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-30T03:47:34+00:00",
+      "last_seen": "2026-10-30T10:38:52+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1334,7 +1382,28 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-30T03:47:34+00:00",
+      "last_seen": "2026-10-30T10:38:52+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "9Ο3846ΜΤΛΒ-Ν02",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25823 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων επί της Λεωφ. Βασ. Σοφίας, στο ύψος του ο.α.04, ρεύμα κυκλοφορίας προς Λεωφ. Βασ. Κωνσταντίνου, περιοχής Δήμου Αθηναίων, την 01-11-2026 κατά τις ώρες 08.30΄ έως 13.00΄, λόγω εκτέλεσης εργασιών μετακόμισης.",
+      "url": "https://diavgeia.gov.gr/decision/view/9Ο3846ΜΤΛΒ-Ν02",
+      "details": "Επίσημη απόφαση Τροχαίας (30/10/2026)",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-01"
+      ],
+      "hours": [
+        "08:30",
+        "13:00"
+      ],
+      "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Σοφίας (ύψος αρ. 04, προς Λεωφ. Βασ. Κωνσταντίνου, Δήμου Αθηναίων) · 1/11, 08:30–13:00 · λόγω εργασιών μετακόμισης",
+      "category": "",
+      "first_seen": "2026-10-30T10:38:52+00:00",
+      "last_seen": "2026-10-30T10:38:52+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1539,6 +1608,18 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-10-30T10:38:55+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25823 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων επί της Λεωφ. Βασ. Σοφίας, στο ύψος του ο.α.04, ρεύμα κυκλοφορίας προς Λεωφ. Βασ. Κωνσταντίνου, περιοχής Δήμου Αθηναίων, την 01-11-2026 κατά τις ώρες 08.30΄ έως 13.00΄, λόγω εκτέλεσης εργασιών μετακόμισης.",
+      "url": "https://diavgeia.gov.gr/decision/view/9Ο3846ΜΤΛΒ-Ν02"
+    },
+    {
+      "time": "2026-10-30T10:38:55+00:00",
+      "source": "kathimerini",
+      "title": "Ομόνοια: Αποκαταστάθηκε η κυκλοφορία μετά τον έλεγχο σε ύποπτο αντικείμενο",
+      "url": "https://www.kathimerini.gr/society/564556282/omonoia-diakopi-kykloforias-logo-ypoptoy-antikeimenoy/"
+    },
+    {
       "time": "2026-10-30T09:06:26+00:00",
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
@@ -1705,27 +1786,9 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
-    },
-    {
-      "time": "2026-10-18T07:26:30+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
-    {
-      "time": "2026-10-17T14:44:42+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "🚨 25747-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και πλήρη διακοπή της κυκλοφορίας των οχημάτων της Λεωφ. Βασ. Γεωργίου Β΄, στο τμήμα μεταξύ των οδών Ρηγίλλης και Μελεάγρου, περιοχής Δήμου Αθηναίων, στις 18.10.2026 κατά τις ώρες 10.00΄ έως 14.00΄, λόγω εκτέλεσης εργασιών με χρήση γερανοφόρου ",
-      "url": "https://diavgeia.gov.gr/decision/view/Ψ1ΦΙ46ΜΤΛΒ-60Β"
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-23T17:54:36+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-23T20:40:57+00:00",
       "new": 0,
@@ -2079,6 +2142,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-30T10:38:55+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
