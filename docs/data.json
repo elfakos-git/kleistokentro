@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T14:58:15+00:00",
+  "generated_at": "2026-10-31T16:37:15+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,20 +10,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-31T10:04:58+00:00"
+      "last_success": "2026-10-31T16:37:14+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 99
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-31T10:04:59+00:00"
+      "last_success": "2026-10-31T16:37:14+00:00"
     },
     {
       "name": "iefimerida",
@@ -36,7 +36,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-31T10:04:59+00:00"
+      "last_success": "2026-10-31T16:37:14+00:00"
     },
     {
       "name": "kathimerini",
@@ -47,7 +47,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-31T10:04:59+00:00"
+      "last_success": "2026-10-31T16:37:14+00:00"
     },
     {
       "name": "oasa",
@@ -60,25 +60,38 @@
         "λεωφορεία (χωρίς ειδοποίηση)": 4
       },
       "date_misses": 0,
-      "body_enriched": 2,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-31T10:05:04+00:00"
+      "last_success": "2026-10-31T16:37:14+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 26,
+      "items": 10,
+      "fetched": 27,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 15
+        "κατηγορία εκτός πολιτικής": 17
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-31T14:58:15+00:00"
+      "last_success": "2026-10-31T16:37:14+00:00"
     }
   ],
   "active_events": [
+    {
+      "id": "90ΤΨ46ΜΤΛΒ-Μ4Λ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "ΑΠΟΦΑΣΗ ΠΡΟΣΩΡΙΝΩΝ ΚΥΚΛΟΦΟΡΙΑΚΩΝ ΡΥΘΜΙΣΕΩΝ 24ΩΡΗΣ ΔΙΑΡΚΕΙΑΣ ΓΙΑ THN ΠΑΡΑΚΟΛΟΥΘΗΣΗ ΚΑΙ ΤΗΝ ΕΚΤΕΛΕΣΗ ΕΡΓΑΣΙΩΝ ΚΑΘΑΡΙΣΜΟΥ ΦΡΕΑΤΙΩΝ ΚΕΝΤΡΙΚΗΣ ΝΗΣΙΔΑΣ ΑΠΟ ΤΗ Χ/Θ 161+500 ΈΩΣ ΤΗ Χ/Θ 159+500 ΣΤΗΝ ΚΑΤΕΥΘΥΝΣΗ ΠΡΟΣ ΑΘΗΝΑ ΤΟΥ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟΥ Α.Θ.Ε.",
+      "url": "https://diavgeia.gov.gr/decision/view/90ΤΨ46ΜΤΛΒ-Μ4Λ",
+      "details": "Επίσημη απόφαση Τροχαίας (31/10/2026)",
+      "area": "",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
     {
       "id": "https://www.kathimerini.gr/society/564556282/omonoia-diakopi-kykloforias-logo-ypoptoy-antikeimenoy/",
       "source": "kathimerini",
@@ -207,13 +220,11 @@
       "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-310/",
       "details": "",
       "area": "Ανατολικά",
-      "days": [
-        "2026-11-01"
-      ],
+      "days": [],
       "hours": [],
       "plain": "",
       "category": "bus",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-7/",
@@ -222,13 +233,11 @@
       "url": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-7/",
       "details": "",
       "area": "Δυτικά",
-      "days": [
-        "2026-11-30"
-      ],
+      "days": [],
       "hours": [],
       "plain": "",
       "category": "bus",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-315/",
@@ -347,21 +356,6 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51582749080022000",
-      "source": "TomTom (realtime)",
-      "title": "Παναθηναϊκού → Π. Κυριάκου",
-      "url": "https://www.google.com/maps?q=37.9868455768,23.7531950706",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-10-31"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
       "id": "TTI-TTR51594290768011000",
       "source": "TomTom (realtime)",
       "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
@@ -377,12 +371,12 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51582749260013000",
+      "id": "TTI-TTR51582749080022000",
       "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Αλεξάνδρας → Αν. Τσόχα",
-      "url": "https://www.google.com/maps?q=37.9876046269,23.7553327912",
+      "title": "Κόνιαρη → Βουρνάζου",
+      "url": "https://www.google.com/maps?q=37.9869716233,23.7525218361",
       "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
+      "area": "Ανατολικά",
       "days": [
         "2026-10-31"
       ],
@@ -1347,7 +1341,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-28T10:13:29+00:00",
-      "last_seen": "2026-10-31T10:04:59+00:00",
+      "last_seen": "2026-10-31T16:37:14+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -1423,7 +1417,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-31T10:04:59+00:00",
+      "last_seen": "2026-10-31T16:37:14+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1441,7 +1435,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-31T10:04:59+00:00",
+      "last_seen": "2026-10-31T16:37:14+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1721,6 +1715,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-10-31T16:37:15+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "ΑΠΟΦΑΣΗ ΠΡΟΣΩΡΙΝΩΝ ΚΥΚΛΟΦΟΡΙΑΚΩΝ ΡΥΘΜΙΣΕΩΝ 24ΩΡΗΣ ΔΙΑΡΚΕΙΑΣ ΓΙΑ THN ΠΑΡΑΚΟΛΟΥΘΗΣΗ ΚΑΙ ΤΗΝ ΕΚΤΕΛΕΣΗ ΕΡΓΑΣΙΩΝ ΚΑΘΑΡΙΣΜΟΥ ΦΡΕΑΤΙΩΝ ΚΕΝΤΡΙΚΗΣ ΝΗΣΙΔΑΣ ΑΠΟ ΤΗ Χ/Θ 161+500 ΈΩΣ ΤΗ Χ/Θ 159+500 ΣΤΗΝ ΚΑΤΕΥΘΥΝΣΗ ΠΡΟΣ ΑΘΗΝΑ ΤΟΥ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟΥ Α.Θ.Ε.",
+      "url": "https://diavgeia.gov.gr/decision/view/90ΤΨ46ΜΤΛΒ-Μ4Λ"
+    },
+    {
       "time": "2026-10-31T08:58:40+00:00",
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
@@ -1893,21 +1893,9 @@
       "source": "ΟΑΣΑ",
       "title": "🚨 Κλειστός ο σταθμός “Πανεπιστήμιο”  , Τετάρτη 21/10/2026",
       "url": "https://www.oasa.gr/blog/%ce%ba%ce%bb%ce%b5%ce%b9%cf%83%cf%84%cf%8c%cf%82-%ce%bf-%cf%83%cf%84%ce%b1%ce%b8%ce%bc%cf%8c%cf%82-%cf%80%ce%b1%ce%bd%ce%b5%cf%80%ce%b9%cf%83%cf%84%ce%ae%ce%bc%ce%b9%ce%bf-%cf%84/"
-    },
-    {
-      "time": "2026-10-21T08:01:24+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-24T18:28:48+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-24T18:51:41+00:00",
       "new": 0,
@@ -2261,6 +2249,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-31T16:37:15+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
