@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.iefimerida.gr/ellada/metro-kykloforiakes-rythmiseis-stathmoi-kleinoyn-noritera",
     "https://www.kathimerini.gr/society/564353860/metro-kykloforiakes-rythmiseis-sti-grammi-3-apo-simera-poioi-stathmoi-kleinoyn-noritera/",
     "TTI-d877867f-fbae-4ad6-b619-78a2039b3287-TTR51562551236023000",
     "9ΦΘΦ46ΜΤΛΒ-ΙΣΠ",
@@ -499,7 +498,8 @@
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-310/",
     "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-7/",
     "TTI-TTR51588520060005000",
-    "90ΤΨ46ΜΤΛΒ-Μ4Λ"
+    "90ΤΨ46ΜΤΛΒ-Μ4Λ",
+    "https://www.kathimerini.gr/society/564560518/ypopto-antikeimeno-sti-leoforo-syggroy-kykloforiakes-rythmiseis/"
   ],
   "seeded": [
     "astynomia",
@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-31T16:37:14+00:00"
+      "last_success": "2026-10-31T22:57:05+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -532,7 +532,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-31T16:37:14+00:00"
+      "last_success": "2026-10-31T22:57:06+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -545,7 +545,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-31T16:37:14+00:00"
+      "last_success": "2026-10-31T22:57:06+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -554,9 +554,9 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-10-31T16:37:14+00:00"
+      "last_success": "2026-10-31T22:57:06+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -571,20 +571,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-31T16:37:14+00:00"
+      "last_success": "2026-10-31T22:57:06+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 14,
+      "fetched": 18,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 10
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-10-31T22:37:03+00:00"
+      "last_success": "2026-10-31T22:57:06+00:00"
     }
   },
   "active": {
@@ -601,7 +601,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "iefimerida": [],
@@ -707,21 +707,6 @@
         "details": "",
         "area": "Βόρεια",
         "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
-        "source": "kathimerini",
-        "title": "Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Αθήνα για το «Greece Race for the Cure 2026»",
-        "url": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
-        "details": "",
-        "area": "",
-        "days": [
-          "2026-11-01"
-        ],
         "hours": [],
         "plain": "",
         "category": "",
@@ -1650,7 +1635,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-10-31T16:37:14+00:00",
+      "last_seen": "2026-10-31T22:57:06+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2107,7 +2092,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-28T10:13:29+00:00",
-      "last_seen": "2026-10-31T16:37:14+00:00",
+      "last_seen": "2026-10-31T22:57:06+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2237,6 +2222,24 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.kathimerini.gr/society/564560518/ypopto-antikeimeno-sti-leoforo-syggroy-kykloforiakes-rythmiseis/": {
+      "id": "https://www.kathimerini.gr/society/564560518/ypopto-antikeimeno-sti-leoforo-syggroy-kykloforiakes-rythmiseis/",
+      "source": "kathimerini",
+      "title": "Ύποπτο αντικείμενο στη λεωφόρο Συγγρού – Κυκλοφοριακές ρυθμίσεις",
+      "url": "https://www.kathimerini.gr/society/564560518/ypopto-antikeimeno-sti-leoforo-syggroy-kykloforiakes-rythmiseis/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2026-10-31"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-10-31T22:57:06+00:00",
+      "last_seen": "2026-10-31T22:57:06+00:00",
+      "extended": false,
+      "alerted_chats": []
     }
   },
   "known_chats": [
@@ -2428,12 +2431,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-24T22:09:36+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-24T23:25:51+00:00",
       "new": 0,
@@ -2787,6 +2784,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-10-31T22:57:06+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
