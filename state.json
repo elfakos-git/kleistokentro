@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-01T17:27:41+00:00"
+      "last_success": "2026-11-01T23:15:42+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -532,7 +532,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-01T17:27:41+00:00"
+      "last_success": "2026-11-01T23:15:42+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -545,7 +545,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-01T17:27:41+00:00"
+      "last_success": "2026-11-01T23:15:42+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -553,10 +553,10 @@
       "items": 10,
       "fetched": 10,
       "dropped": {},
-      "date_misses": 0,
+      "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-01T17:27:41+00:00"
+      "last_success": "2026-11-01T23:15:42+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -571,7 +571,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-01T17:27:41+00:00"
+      "last_success": "2026-11-01T23:15:42+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -584,7 +584,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-01T20:41:22+00:00"
+      "last_success": "2026-11-01T23:15:42+00:00"
     }
   },
   "active": {
@@ -659,10 +659,10 @@
         "new_this_run": false
       },
       {
-        "id": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
+        "id": "https://www.kathimerini.gr/society/564552064/28i-oktovrioy-poioi-dromoi-kleinoyn-se-thessaloniki-kai-athina-pos-tha-kinithoyn-ta-mmm/",
         "source": "kathimerini",
-        "title": "Οι περιορισμοί στην κυκλοφορία και στάση των οχημάτων θα εφαρμόζονται σταδιακά και ανάλογα με το σημείο κίνησης των δρομέων.",
-        "url": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
+        "title": "28η Οκτωβρίου:  Ποιοι δρόμοι κλείνουν σε Θεσσαλονίκη και Αθήνα – Πώς θα κινηθούν τα ΜΜΜ",
+        "url": "https://www.kathimerini.gr/society/564552064/28i-oktovrioy-poioi-dromoi-kleinoyn-se-thessaloniki-kai-athina-pos-tha-kinithoyn-ta-mmm/",
         "details": "",
         "area": "",
         "days": [],
@@ -672,15 +672,13 @@
         "new_this_run": false
       },
       {
-        "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+        "id": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
         "source": "kathimerini",
-        "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
-        "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+        "title": "Οι περιορισμοί στην κυκλοφορία και στάση των οχημάτων θα εφαρμόζονται σταδιακά και ανάλογα με το σημείο κίνησης των δρομέων.",
+        "url": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
         "details": "",
         "area": "",
-        "days": [
-          "2026-11-01"
-        ],
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "",
@@ -815,7 +813,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-11-01"
+          "2026-11-02"
         ],
         "hours": [],
         "plain": "",
@@ -830,7 +828,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-11-01"
+          "2026-11-02"
         ],
         "hours": [],
         "plain": "",
@@ -845,7 +843,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-01"
+          "2026-11-02"
         ],
         "hours": [],
         "plain": "",
@@ -860,7 +858,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-01"
+          "2026-11-02"
         ],
         "hours": [],
         "plain": "",
@@ -875,7 +873,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-01"
+          "2026-11-02"
         ],
         "hours": [],
         "plain": "",
@@ -890,7 +888,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-01"
+          "2026-11-02"
         ],
         "hours": [],
         "plain": "",
@@ -905,7 +903,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-01"
+          "2026-11-02"
         ],
         "hours": [],
         "plain": "",
@@ -920,7 +918,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-01"
+          "2026-11-02"
         ],
         "hours": [],
         "plain": "",
@@ -1674,7 +1672,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-01T17:27:41+00:00",
+      "last_seen": "2026-11-01T23:15:42+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1822,114 +1820,6 @@
       "category": "",
       "first_seen": "2026-10-22T09:03:25+00:00",
       "last_seen": "2026-10-22T09:03:25+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "6ΣΠΨ46ΜΤΛΒ-ΣΤΖ": {
-      "id": "6ΣΠΨ46ΜΤΛΒ-ΣΤΖ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25763-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στο δεξιά τμήμα του οδοστρώματος της οδού Φορμίωνος, στο ύψος του ο.α. 36, περιοχής Δήμου Αθηναίων, στις 24-10-2026 κατά τις ώρες 13.30΄ έως 15.30΄ και στις 25-10-2026 κατά τις ώρες 07:00 έως 09:00, για την ",
-      "url": "https://diavgeia.gov.gr/decision/view/6ΣΠΨ46ΜΤΛΒ-ΣΤΖ",
-      "details": "Επίσημη απόφαση Τροχαίας (21/10/2026)",
-      "area": "Κέντρο",
-      "days": [
-        "2026-10-24",
-        "2026-10-25"
-      ],
-      "hours": [
-        "13:30",
-        "15:30"
-      ],
-      "plain": "Διακοπή κυκλοφορίας στην οδό Φορμίωνος (ύψος αρ. 36, Δήμου Αθηναίων) · 24/10 – 25/10, 13:30–15:30",
-      "category": "",
-      "first_seen": "2026-10-22T09:03:25+00:00",
-      "last_seen": "2026-10-22T09:03:25+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "ΨΣΑ746ΜΤΛΒ-Ξ79": {
-      "id": "ΨΣΑ746ΜΤΛΒ-Ξ79",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25764-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στη Λεωφ. Βουλιαγμένης, στο ύψος της συμβολής της με την οδό Καλύμνου, εναλλάξ ανά λωρίδα, ρεύμα κυκλοφορίας προς Αθήνα, περιοχής Δήμου Αγ. Δημητρίου, στις 24/10/2026 και 25/10/2026 κατά τις ώρ",
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΣΑ746ΜΤΛΒ-Ξ79",
-      "details": "Επίσημη απόφαση Τροχαίας (21/10/2026)",
-      "area": "Νότια",
-      "days": [
-        "2026-10-24",
-        "2026-10-25"
-      ],
-      "hours": [],
-      "plain": "Διακοπή κυκλοφορίας στη Λ. Βουλιαγμένης (προς Αθήνα, Δήμου Αγ. Δημητρίου) · 24/10 – 25/10",
-      "category": "",
-      "first_seen": "2026-10-22T09:03:25+00:00",
-      "last_seen": "2026-10-22T09:03:25+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-371/": {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-371/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 060 λόγω εργασιών μετακόμισης στην οδό Κλεομένους 33",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-371/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-10-25"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-10-24T08:32:02+00:00",
-      "last_seen": "2026-10-24T08:32:02+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "ΨΣΙΕ46ΜΤΛΒ-ΤΚΚ": {
-      "id": "ΨΣΙΕ46ΜΤΛΒ-ΤΚΚ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "\"Διακοπή κυκλοφορίας την Κυριακή 25/10/2026 λόγω εργασιών αποκατάστασης φθαρμένου αγωγού επί της οδού Αθηναγόρα Καββαδά αρ.5\"",
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΣΙΕ46ΜΤΛΒ-ΤΚΚ",
-      "details": "Επίσημη απόφαση Τροχαίας (24/10/2026)",
-      "area": "",
-      "days": [
-        "2026-10-25"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-10-24T15:09:10+00:00",
-      "last_seen": "2026-10-26T02:33:15+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "630Δ46ΜΤΛΒ-526": {
-      "id": "630Δ46ΜΤΛΒ-526",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις των οχημάτων επί της οδού Κλεομένους στο ύψος του ο.α.33, από το ύψος της οδού Αριστοδήμου έως το ύψος της οδού Ηλία Ρογκάκου, περιοχής Δήμου Αθηναίων, την 25.10.2026, κατά τις ώρες 10.00΄ έως 14.00΄, λόγω εκτέλεσης εργασιών μετακόμισης ».",
-      "url": "https://diavgeia.gov.gr/decision/view/630Δ46ΜΤΛΒ-526",
-      "details": "Επίσημη απόφαση Τροχαίας (25/10/2026)",
-      "area": "Κέντρο",
-      "days": [
-        "2026-10-25"
-      ],
-      "hours": [
-        "10:00",
-        "14:00"
-      ],
-      "plain": "Κυκλοφοριακές ρυθμίσεις στην οδό Κλεομένους (από Αριστοδήμου έως Ηλία Ρογκάκου, ύψος αρ. 33, Δήμου Αθηναίων) · 25/10, 10:00–14:00",
-      "category": "",
-      "first_seen": "2026-10-25T08:51:02+00:00",
-      "last_seen": "2026-10-26T02:33:15+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2530,12 +2420,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-25T16:52:38+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-25T18:39:00+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2888,6 +2772,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-01T23:15:42+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
