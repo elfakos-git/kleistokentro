@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T11:54:00+00:00",
+  "generated_at": "2026-11-02T20:25:07+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -73,14 +73,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 54,
+      "fetched": 10,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 46
+        "κατηγορία εκτός πολιτικής": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-02T11:53:59+00:00"
+      "last_success": "2026-11-02T20:25:07+00:00"
     }
   ],
   "active_events": [
@@ -468,7 +468,7 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51594290768011000",
+      "id": "TTI-TTR51594290912011001",
       "source": "TomTom (realtime)",
       "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
       "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
@@ -2074,12 +2074,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-25T23:39:22+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-26T02:33:15+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2432,6 +2426,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-02T20:25:07+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
