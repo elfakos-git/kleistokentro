@@ -1,6 +1,5 @@
 {
   "seen": [
-    "TTI-TTR51600061312012000",
     "TTI-TTR51600061388012002",
     "TTI-TTR51568321972030001",
     "TTI-TTR51562551236031000",
@@ -499,7 +498,8 @@
     "9ΛΠ646ΜΤΛΒ-80Ζ",
     "TTI-TTR51582749008015001",
     "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis",
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-141/"
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-141/",
+    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-anakoinosi-trohaias"
   ],
   "seeded": [
     "astynomia",
@@ -522,7 +522,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-03T15:39:49+00:00"
+      "last_success": "2026-11-03T21:22:55+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -535,20 +535,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-03T15:39:49+00:00"
+      "last_success": "2026-11-03T21:22:55+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 1,
+      "items": 2,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 10
+        "χωρίς/παλιά ημερομηνία": 9
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-03T15:39:50+00:00"
+      "last_success": "2026-11-03T21:22:55+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -559,7 +559,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-03T15:39:50+00:00"
+      "last_success": "2026-11-03T21:22:55+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -572,22 +572,22 @@
         "λεωφορεία (χωρίς ειδοποίηση)": 3
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-03T15:39:53+00:00"
+      "last_success": "2026-11-03T21:22:55+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 43,
+      "fetched": 12,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 35
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-03T17:55:43+00:00"
+      "last_success": "2026-11-03T21:22:55+00:00"
     }
   },
   "active": {
@@ -595,20 +595,32 @@
     "diavgeia": [],
     "iefimerida": [
       {
-        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis",
+        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-anakoinosi-trohaias",
         "source": "iefimerida",
-        "title": "Κυκλοφοριακές ρυθμίσεις στην Αττική Οδό το βράδυ της Τρίτης",
-        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis",
+        "title": "Κυκλοφοριακές ρυθμίσεις για τον 43ο Αυθεντικό Μαραθώνιο Αθήνας 7-8 Νοεμβρίου -Ποιοι δρόμοι θα κλείσουν, η ανακοίνωση της Τροχαίας",
+        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-anakoinosi-trohaias",
         "details": "",
-        "area": "Βόρεια",
+        "area": "Ανατολικά",
         "days": [
-          "2026-11-03",
-          "2026-11-04"
+          "2026-11-08"
         ],
         "hours": [],
         "plain": "",
         "category": "",
         "new_this_run": true
+      },
+      {
+        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis",
+        "source": "iefimerida",
+        "title": "Κυκλοφοριακές ρυθμίσεις στην Αττική Οδό το βράδυ της Τρίτης",
+        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
       }
     ],
     "kathimerini": [
@@ -737,12 +749,12 @@
         "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 724 και 727, λόγω εργασιών στην λεωφόρο Καραμανλή μεταξύ των οδών Αγίας Τριάδος και Μαντζάρου, του δήμου Αχαρνών",
         "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-141/",
         "details": "",
-        "area": "Βόρεια",
+        "area": "",
         "days": [],
         "hours": [],
         "plain": "",
         "category": "bus",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-140/",
@@ -1531,7 +1543,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-03T15:39:50+00:00",
+      "last_seen": "2026-11-03T21:22:55+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2213,6 +2225,24 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-anakoinosi-trohaias": {
+      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-anakoinosi-trohaias",
+      "source": "iefimerida",
+      "title": "Κυκλοφοριακές ρυθμίσεις για τον 43ο Αυθεντικό Μαραθώνιο Αθήνας 7-8 Νοεμβρίου -Ποιοι δρόμοι θα κλείσουν, η ανακοίνωση της Τροχαίας",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-anakoinosi-trohaias",
+      "details": "",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-11-08"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-11-03T21:22:55+00:00",
+      "last_seen": "2026-11-03T21:22:55+00:00",
+      "extended": false,
+      "alerted_chats": []
     }
   },
   "known_chats": [
@@ -2404,12 +2434,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-26T23:29:18+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-27T00:06:53+00:00",
       "new": 0,
@@ -2763,6 +2787,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-03T21:22:55+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
