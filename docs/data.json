@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T02:29:09+00:00",
+  "generated_at": "2026-11-03T04:47:04+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-02T21:12:05+00:00"
+      "last_success": "2026-11-03T04:47:02+00:00"
     },
     {
       "name": "diavgeia",
@@ -18,14 +18,13 @@
       "items": 2,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 94,
-        "εκτός χρονικού παραθύρου": 3,
+        "εκτός θέματος/Αθήνας": 97,
         "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-02T21:12:05+00:00"
+      "last_success": "2026-11-03T04:47:02+00:00"
     },
     {
       "name": "iefimerida",
@@ -38,7 +37,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-02T21:12:05+00:00"
+      "last_success": "2026-11-03T04:47:02+00:00"
     },
     {
       "name": "kathimerini",
@@ -49,7 +48,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-02T21:12:05+00:00"
+      "last_success": "2026-11-03T04:47:04+00:00"
     },
     {
       "name": "oasa",
@@ -64,20 +63,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-02T21:12:05+00:00"
+      "last_success": "2026-11-03T04:47:04+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 13,
+      "items": 8,
+      "fetched": 12,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 2
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-03T02:29:08+00:00"
+      "last_success": "2026-11-03T04:47:04+00:00"
     }
   ],
   "active_events": [
@@ -92,7 +91,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "ΨΒ0Α46ΜΤΛΒ-ΘΦΛ",
@@ -433,55 +432,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51582749012015000",
-      "source": "TomTom (realtime)",
-      "title": "Eolou (Ag. Irinis) → Athinas (Ag. Irinis)",
-      "url": "https://www.google.com/maps?q=37.9770313229,23.7272809082",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-03"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749008015001",
-      "source": "TomTom (realtime)",
-      "title": "Kalamiotou (Athinedos) → Eolou (Athinedos)",
-      "url": "https://www.google.com/maps?q=37.9768221419,23.7288754815",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-03"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
-    },
-    {
       "id": "TTI-TTR51582749160031000",
       "source": "TomTom (realtime)",
       "title": "Σταδίου → Ευριπίδου",
       "url": "https://www.google.com/maps?q=37.9786420497,23.7309085959",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-03"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749008015000",
-      "source": "TomTom (realtime)",
-      "title": "Lekka (Perikleous) → Evangelistrias (Perikleous)",
-      "url": "https://www.google.com/maps?q=37.976582105,23.7317213052",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -1335,7 +1289,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-02T21:12:05+00:00",
+      "last_seen": "2026-11-03T04:47:04+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -1553,7 +1507,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-02T11:53:59+00:00",
-      "last_seen": "2026-11-02T21:12:05+00:00",
+      "last_seen": "2026-11-03T04:47:02+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1994,12 +1948,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-26T09:32:07+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-10-26T15:18:27+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2352,6 +2300,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-03T04:47:04+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
