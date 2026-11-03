@@ -1,6 +1,5 @@
 {
   "seen": [
-    "62ΕΞ46ΜΤΛΒ-ΝΞΓ",
     "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ergasion-athinon-thessalonikis",
     "TTI-TTR51574092528022000",
     "TTI-TTR51600061312012000",
@@ -499,7 +498,8 @@
     "ΨΓ3Λ46ΜΤΛΒ-Σ4Β",
     "9ΜΟΑ46ΜΤΛΒ-ΧΛΦ",
     "ΨΒ0Α46ΜΤΛΒ-ΘΦΛ",
-    "9ΛΠ646ΜΤΛΒ-80Ζ"
+    "9ΛΠ646ΜΤΛΒ-80Ζ",
+    "TTI-TTR51582749008015001"
   ],
   "seeded": [
     "astynomia",
@@ -578,15 +578,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 8,
-      "fetched": 10,
+      "items": 11,
+      "fetched": 13,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-02T21:12:05+00:00"
+      "last_success": "2026-11-03T02:29:08+00:00"
     }
   },
   "active": {
@@ -928,7 +928,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-11-02"
+          "2026-11-03"
         ],
         "hours": [],
         "plain": "",
@@ -943,12 +943,42 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-11-02"
+          "2026-11-03"
         ],
         "hours": [],
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51582749012015000",
+        "source": "TomTom (realtime)",
+        "title": "Eolou (Ag. Irinis) → Athinas (Ag. Irinis)",
+        "url": "https://www.google.com/maps?q=37.9770313229,23.7272809082",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-03"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51582749008015001",
+        "source": "TomTom (realtime)",
+        "title": "Kalamiotou (Athinedos) → Eolou (Athinedos)",
+        "url": "https://www.google.com/maps?q=37.9768221419,23.7288754815",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-03"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51582749160031000",
@@ -958,7 +988,22 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-02"
+          "2026-11-03"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51582749008015000",
+        "source": "TomTom (realtime)",
+        "title": "Lekka (Perikleous) → Evangelistrias (Perikleous)",
+        "url": "https://www.google.com/maps?q=37.976582105,23.7317213052",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-03"
         ],
         "hours": [],
         "plain": "",
@@ -973,7 +1018,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-02"
+          "2026-11-03"
         ],
         "hours": [],
         "plain": "",
@@ -988,7 +1033,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-02"
+          "2026-11-03"
         ],
         "hours": [],
         "plain": "",
@@ -1003,7 +1048,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-02"
+          "2026-11-03"
         ],
         "hours": [],
         "plain": "",
@@ -1018,7 +1063,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-02"
+          "2026-11-03"
         ],
         "hours": [],
         "plain": "",
@@ -1033,7 +1078,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-02"
+          "2026-11-03"
         ],
         "hours": [],
         "plain": "",
@@ -1236,114 +1281,6 @@
       "category": "bus",
       "first_seen": "2026-08-29T10:37:36+00:00",
       "last_seen": "2026-08-29T10:37:36+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/": {
-      "id": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
-      "source": "kathimerini",
-      "title": "ΔΕΘ: Κυκλοφοριακές ρυθμίσεις στο κέντρο της Θεσσαλονίκης",
-      "url": "https://www.kathimerini.gr/society/564435265/deth-kykloforiakes-rythmiseis-sto-kentro-tis-thessalonikis/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-09-03",
-        "2026-09-04",
-        "2026-09-05",
-        "2026-09-06",
-        "2026-10-26"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-09-03T08:25:37+00:00",
-      "last_seen": "2026-09-03T08:25:37+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "ΡΡΨΘ46ΜΤΛΒ-84Μ": {
-      "id": "ΡΡΨΘ46ΜΤΛΒ-84Μ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25602-Προσωρινές κυκλοφοριακές ρυθμίσεις επί της Ν.Ε.Ο. Αθηνών - Λαμίας, από Χ.Θ. 27+000 έως Χ.Θ. 57+300 και στα δύο ρεύματα κυκλοφορίας, κατά το χρονικό διάστημα από 14.09.2026 και ώρα 07:00 έως 26.10.2026 και ώρα 20:00, ενώ οι εργασίες θα πραγματοποιούνται κάθε Δευτέρα έως Παρασκευή κατά τις ώρες ",
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΡΨΘ46ΜΤΛΒ-84Μ",
-      "details": "Επίσημη απόφαση Τροχαίας (10/09/2026)",
-      "area": "",
-      "days": [
-        "2026-09-14",
-        "2026-10-26"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-09-10T15:35:58+00:00",
-      "last_seen": "2026-09-11T08:26:58+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "9ΘΩΑ46ΜΤΛΒ-2ΣΥ": {
-      "id": "9ΘΩΑ46ΜΤΛΒ-2ΣΥ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25598 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες κυκλοφοριακές ρυθμίσεις στα κάτωθι οδικά τμήματα του Αυτοκινητοδρόμου Α.Θ.Ε., ρεύμα κυκλοφορίας προς Αθήνα, περιοχής Δήμου Μεταμόρφωσης, κατά το χρονικό διάστημα από 07.00΄ ώρα της 14.09.2026 έως 20.00΄ ώρα της 26.10.2026, κάθε Δευτέρα έως Παρασ",
-      "url": "https://diavgeia.gov.gr/decision/view/9ΘΩΑ46ΜΤΛΒ-2ΣΥ",
-      "details": "Επίσημη απόφαση Τροχαίας (13/09/2026)",
-      "area": "Βόρεια",
-      "days": [
-        "2026-09-14",
-        "2026-10-26"
-      ],
-      "hours": [],
-      "plain": "Κυκλοφοριακές ρυθμίσεις — Δήμου Μεταμόρφωσης (προς Αθήνα) · 14/9, 26/10",
-      "category": "",
-      "first_seen": "2026-09-13T08:40:10+00:00",
-      "last_seen": "2026-09-14T02:41:53+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "99Ω746ΜΤΛΒ-69Ο": {
-      "id": "99Ω746ΜΤΛΒ-69Ο",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25597 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Ακόλουθες κυκλοφοριακές ρυθμίσεις επί της Ν.Ε.Ο. Αθηνών - Λαμίας, στο ύψος του Μετωπικού Σταθμού Διοδίων (Μ.Σ.Δ.) Αφιδνών, κατά το χρονικό διάστημα από 07.00΄ ώρα της 14.09.2026 έως 20.00΄ ώρα της 26.10.2026, κάθε Δευτέρα έως Παρασκευή κατά τις ώρες 07.00",
-      "url": "https://diavgeia.gov.gr/decision/view/99Ω746ΜΤΛΒ-69Ο",
-      "details": "Επίσημη απόφαση Τροχαίας (13/09/2026)",
-      "area": "",
-      "days": [
-        "2026-09-14",
-        "2026-10-26"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-09-13T08:40:10+00:00",
-      "last_seen": "2026-09-14T02:41:53+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athina-thessaloniki-0": {
-      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athina-thessaloniki-0",
-      "source": "iefimerida",
-      "title": "Κυκλοφοριακές ρυθμίσεις στον αυτοκινητόδρομο Αθήνας - Θεσσαλονίκης, ποιους οδηγούς επηρεάζει",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-athina-thessaloniki-0",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-09-14",
-        "2026-10-26"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-09-14T09:26:02+00:00",
-      "last_seen": "2026-09-14T09:26:02+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1788,47 +1725,6 @@
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
       "last_seen": "2026-11-02T21:12:05+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/": {
-      "id": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
-      "source": "kathimerini",
-      "title": "Οι περιορισμοί στην κυκλοφορία και στάση των οχημάτων θα εφαρμόζονται σταδιακά και ανάλογα με το σημείο κίνησης των δρομέων.",
-      "url": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
-      "details": "",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-10-17",
-        "2026-10-26"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-10-13T15:27:22+00:00",
-      "last_seen": "2026-10-13T15:27:22+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-athe-eos-26-oktobrioy": {
-      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-athe-eos-26-oktobrioy",
-      "source": "iefimerida",
-      "title": "Κυκλοφοριακές ρυθμίσεις στην Αθηνών - Θεσσαλονίκης έως 26 Οκτωβρίου λόγω εργασιών, πώς θα διεξάγεται η κυκλοφορία",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-athe-eos-26-oktobrioy",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-10-26"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-10-16T08:38:28+00:00",
-      "last_seen": "2026-10-19T02:38:31+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2301,7 +2197,9 @@
       "first_seen": "2026-11-01T10:55:38+00:00",
       "last_seen": "2026-11-01T10:55:38+00:00",
       "extended": false,
-      "alerted_chats": []
+      "alerted_chats": [
+        "151797168"
+      ]
     },
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-140/": {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-140/",
@@ -2497,12 +2395,6 @@
   },
   "notifications": [
     {
-      "time": "2026-10-22T09:03:28+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "🚨 25764-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στη Λεωφ. Βουλιαγμένης, στο ύψος της συμβολής της με την οδό Καλύμνου, εναλλάξ ανά λωρίδα, ρεύμα κυκλοφορίας προς Αθήνα, περιοχής Δήμου Αγ. Δημητρίου, στις 24/10/2026 και 25/10/2026 κατά τις ώρ",
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΣΑ746ΜΤΛΒ-Ξ79"
-    },
-    {
       "time": "2026-10-22T09:03:29+00:00",
       "source": "ΟΑΣΑ",
       "title": "🚨 Μερική προσωρινή τροποποίηση της γραμμής τρόλεϊ 17, λόγω εργασιών για την ΚΑΤΑΣΚΕΥΗ ΣΥΝΔΕΣΕΩΝ ΑΚΙΝΗΤΩΝ ΚΑΙ ΔΕΥΤΕΡΕΥΟΝΤΟΣ ΔΙΚΤΥΟΥ ΑΠΟΧΕΤΕΥΣΗΣ ΑΚΑΘΑΡΤΩΝ ΥΔΑΤΩΝ ΜΕ ΤΑ ΑΠΑΙΤΟΥΜΕΝΑ ΦΡΕΑΤΙΑ ΕΠΙΣΚΕΨΗΣ –ΑΝΑΚΑΤΑΣΚΕΥΗ ΚΑΤΑΘΛΙΠΤΙΚΩΝ ΑΓΩΓΩΝ ΣΕ ΠΕΡΙΟΧΕΣ ΕΥΘΥΝΗΣ ΤΩΝ ΤΟΜΕΩΝ Α, Β », ΕΡΓΟΛΑΒΙΑ Α-452, ΕΥΔΑΠ Α.Ε",
@@ -2675,15 +2567,15 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "ΑΠΟΦΑΣΗ ΠΡΟΣΩΡΙΝΩΝ ΚΥΚΛΟΦΟΡΙΑΚΩΝ ΡΥΘΜΙΣΕΩΝ ΣΧΕΤΙΚΑ ΜΕ ΤΗΝ ΕΚΤΕΛΕΣΗ ΑΣΦΑΛΤΙΚΩΝ ΕΡΓΑΣΙΩΝ ΣΤΙΣ ΣΗΡΑΓΓΕΣ ΠΑΡΑΚΑΜΨΗΣ ΣΤΥΛΙΔΑΣ ΤΟΥ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟΥ ΠΑΘΕ ΣΤΗΝ ΚΑΤΕΥΘΥΝΣΗ ΠΡΟΣ ΑΘΗΝΑ.",
       "url": "https://diavgeia.gov.gr/decision/view/9ΛΠ646ΜΤΛΒ-80Ζ"
+    },
+    {
+      "time": "2026-11-03T02:29:09+00:00",
+      "source": "kathimerini",
+      "title": "🚨 Μετρό: Κλειστοί από τις 21:40 πέντε σταθμοί της Γραμμής 3",
+      "url": "https://www.kathimerini.gr/society/564560683/metro-kleistoi-apo-tis-21-40-pente-stathmoi-tis-grammis-3/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-26T08:09:48+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-26T09:32:07+00:00",
       "new": 1,
@@ -3037,6 +2929,12 @@
       "new": 1,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-03T02:29:09+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
