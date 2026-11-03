@@ -1,7 +1,5 @@
 {
   "seen": [
-    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ergasion-athinon-thessalonikis",
-    "TTI-TTR51574092528022000",
     "TTI-TTR51600061312012000",
     "TTI-TTR51600061388012002",
     "TTI-TTR51568321972030001",
@@ -499,7 +497,9 @@
     "9ΜΟΑ46ΜΤΛΒ-ΧΛΦ",
     "ΨΒ0Α46ΜΤΛΒ-ΘΦΛ",
     "9ΛΠ646ΜΤΛΒ-80Ζ",
-    "TTI-TTR51582749008015001"
+    "TTI-TTR51582749008015001",
+    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis",
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-141/"
   ],
   "seeded": [
     "astynomia",
@@ -514,39 +514,41 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "fetched": 54,
+      "dropped": {
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-03T04:47:02+00:00"
+      "last_success": "2026-11-03T15:39:49+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 2,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97,
-        "μόνο μία λωρίδα/ΛΕΑ": 1
+        "εκτός θέματος/Αθήνας": 100
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-03T04:47:02+00:00"
+      "last_success": "2026-11-03T15:39:49+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 11
+        "χωρίς/παλιά ημερομηνία": 10
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-11-03T04:47:02+00:00"
+      "last_success": "2026-11-03T15:39:50+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -557,194 +559,58 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-03T04:47:04+00:00"
+      "last_success": "2026-11-03T15:39:50+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 4,
+      "items": 3,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
-        "λεωφορεία (χωρίς ειδοποίηση)": 4
+        "παλιά ανακοίνωση": 3,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
+        "λεωφορεία (χωρίς ειδοποίηση)": 3
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-11-03T04:47:04+00:00"
+      "last_success": "2026-11-03T15:39:53+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 68,
+      "fetched": 126,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 60
+        "κατηγορία εκτός πολιτικής": 118
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-03T10:09:34+00:00"
+      "last_success": "2026-11-03T15:39:53+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [
+    "diavgeia": [],
+    "iefimerida": [
       {
-        "id": "9ΛΠ646ΜΤΛΒ-80Ζ",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "ΑΠΟΦΑΣΗ ΠΡΟΣΩΡΙΝΩΝ ΚΥΚΛΟΦΟΡΙΑΚΩΝ ΡΥΘΜΙΣΕΩΝ ΣΧΕΤΙΚΑ ΜΕ ΤΗΝ ΕΚΤΕΛΕΣΗ ΑΣΦΑΛΤΙΚΩΝ ΕΡΓΑΣΙΩΝ ΣΤΙΣ ΣΗΡΑΓΓΕΣ ΠΑΡΑΚΑΜΨΗΣ ΣΤΥΛΙΔΑΣ ΤΟΥ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟΥ ΠΑΘΕ ΣΤΗΝ ΚΑΤΕΥΘΥΝΣΗ ΠΡΟΣ ΑΘΗΝΑ.",
-        "url": "https://diavgeia.gov.gr/decision/view/9ΛΠ646ΜΤΛΒ-80Ζ",
-        "details": "Επίσημη απόφαση Τροχαίας (02/11/2026)",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "ΨΒ0Α46ΜΤΛΒ-ΘΦΛ",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "« Προσωρινές κυκλοφοριακές ρυθμίσεις στα παρακάτω οδικά τμήματα, περιοχής αρμοδιότητας της Περιφέρειας Αττικής, κατά το χρονικό διάστημα από 02.11.2026 έως 06.03.2027, λόγω εκτέλεσης εργασιών »",
-        "url": "https://diavgeia.gov.gr/decision/view/ΨΒ0Α46ΜΤΛΒ-ΘΦΛ",
-        "details": "Επίσημη απόφαση Τροχαίας (02/11/2026)",
-        "area": "",
+        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis",
+        "source": "iefimerida",
+        "title": "Κυκλοφοριακές ρυθμίσεις στην Αττική Οδό το βράδυ της Τρίτης",
+        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis",
+        "details": "",
+        "area": "Βόρεια",
         "days": [
-          "2026-11-02",
           "2026-11-03",
-          "2026-11-04",
-          "2026-11-05",
-          "2026-11-06",
-          "2026-11-07",
-          "2026-11-08",
-          "2026-11-09",
-          "2026-11-10",
-          "2026-11-11",
-          "2026-11-12",
-          "2026-11-13",
-          "2026-11-14",
-          "2026-11-15",
-          "2026-11-16",
-          "2026-11-17",
-          "2026-11-18",
-          "2026-11-19",
-          "2026-11-20",
-          "2026-11-21",
-          "2026-11-22",
-          "2026-11-23",
-          "2026-11-24",
-          "2026-11-25",
-          "2026-11-26",
-          "2026-11-27",
-          "2026-11-28",
-          "2026-11-29",
-          "2026-11-30",
-          "2026-12-01",
-          "2026-12-02",
-          "2026-12-03",
-          "2026-12-04",
-          "2026-12-05",
-          "2026-12-06",
-          "2026-12-07",
-          "2026-12-08",
-          "2026-12-09",
-          "2026-12-10",
-          "2026-12-11",
-          "2026-12-12",
-          "2026-12-13",
-          "2026-12-14",
-          "2026-12-15",
-          "2026-12-16",
-          "2026-12-17",
-          "2026-12-18",
-          "2026-12-19",
-          "2026-12-20",
-          "2026-12-21",
-          "2026-12-22",
-          "2026-12-23",
-          "2026-12-24",
-          "2026-12-25",
-          "2026-12-26",
-          "2026-12-27",
-          "2026-12-28",
-          "2026-12-29",
-          "2026-12-30",
-          "2026-12-31",
-          "2027-01-01",
-          "2027-01-02",
-          "2027-01-03",
-          "2027-01-04",
-          "2027-01-05",
-          "2027-01-06",
-          "2027-01-07",
-          "2027-01-08",
-          "2027-01-09",
-          "2027-01-10",
-          "2027-01-11",
-          "2027-01-12",
-          "2027-01-13",
-          "2027-01-14",
-          "2027-01-15",
-          "2027-01-16",
-          "2027-01-17",
-          "2027-01-18",
-          "2027-01-19",
-          "2027-01-20",
-          "2027-01-21",
-          "2027-01-22",
-          "2027-01-23",
-          "2027-01-24",
-          "2027-01-25",
-          "2027-01-26",
-          "2027-01-27",
-          "2027-01-28",
-          "2027-01-29",
-          "2027-01-30",
-          "2027-01-31",
-          "2027-02-01",
-          "2027-02-02",
-          "2027-02-03",
-          "2027-02-04",
-          "2027-02-05",
-          "2027-02-06",
-          "2027-02-07",
-          "2027-02-08",
-          "2027-02-09",
-          "2027-02-10",
-          "2027-02-11",
-          "2027-02-12",
-          "2027-02-13",
-          "2027-02-14",
-          "2027-02-15",
-          "2027-02-16",
-          "2027-02-17",
-          "2027-02-18",
-          "2027-02-19",
-          "2027-02-20",
-          "2027-02-21",
-          "2027-02-22",
-          "2027-02-23",
-          "2027-02-24",
-          "2027-02-25",
-          "2027-02-26",
-          "2027-02-27",
-          "2027-02-28",
-          "2027-03-01",
-          "2027-03-02",
-          "2027-03-03",
-          "2027-03-04",
-          "2027-03-05",
-          "2027-03-06"
+          "2026-11-04"
         ],
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": false
+        "new_this_run": true
       }
     ],
-    "iefimerida": [],
     "kathimerini": [
       {
         "id": "https://www.kathimerini.gr/society/564560683/metro-kleistoi-apo-tis-21-40-pente-stathmoi-tis-grammis-3/",
@@ -866,6 +732,19 @@
     ],
     "oasa": [
       {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-141/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 724 και 727, λόγω εργασιών στην λεωφόρο Καραμανλή μεταξύ των οδών Αγίας Τριάδος και Μαντζάρου, του δήμου Αχαρνών",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-141/",
+        "details": "",
+        "area": "Βόρεια",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": true
+      },
+      {
         "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-140/",
         "source": "ΟΑΣΑ",
         "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 724 και 727, λόγω εργασιών  στην λεωφόρο  Καραμανλή μεταξύ των οδών Αγίας Τριάδος και Μαντζάρου, του δήμου Αχαρνών",
@@ -883,32 +762,6 @@
         "source": "ΟΑΣΑ",
         "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 891 στην οδό Γιαννιτσών, λόγω αγώνα ποδοσφαίρου στον Δήμο Περιστερίου",
         "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-86/",
-        "details": "",
-        "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-310/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση των λεωφ. γραμμών 608, 230, 235 και 140 λόγω διοργάνωσης του Αγώνα Δρόμου «5o Zografou City Run» του Δήμου Ζωγράφου",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-310/",
-        "details": "",
-        "area": "Ανατολικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-7/",
-        "source": "ΟΑΣΑ",
-        "title": "Παράταση τροποποίησης της διαδρομής της λεωφορειακής γραμμής 730, λόγω εργασιών επί της οδού Ηρακλέους του Δήμου Περιστερίου",
-        "url": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-7/",
         "details": "",
         "area": "Δυτικά",
         "days": [],
@@ -1678,7 +1531,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-03T04:47:04+00:00",
+      "last_seen": "2026-11-03T15:39:50+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2339,6 +2192,27 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis": {
+      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis",
+      "source": "iefimerida",
+      "title": "Κυκλοφοριακές ρυθμίσεις στην Αττική Οδό το βράδυ της Τρίτης",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis",
+      "details": "",
+      "area": "Βόρεια",
+      "days": [
+        "2026-11-03",
+        "2026-11-04"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-11-03T15:39:50+00:00",
+      "last_seen": "2026-11-03T15:39:50+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -2348,12 +2222,6 @@
     "151797168": "2026-11-03"
   },
   "notifications": [
-    {
-      "time": "2026-10-23T07:58:23+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-10-23T16:12:17+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -2527,15 +2395,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-11-03T15:39:53+00:00",
+      "source": "iefimerida",
+      "title": "🚨 Κυκλοφοριακές ρυθμίσεις στην Αττική Οδό το βράδυ της Τρίτης",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis"
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-26T18:00:21+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-26T20:37:44+00:00",
       "new": 0,
@@ -2889,6 +2757,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-03T15:39:53+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
