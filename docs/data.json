@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T15:52:58+00:00",
+  "generated_at": "2026-11-04T17:44:01+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -71,14 +71,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 153,
+      "fetched": 48,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 144
+        "κατηγορία εκτός πολιτικής": 39
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-04T15:52:58+00:00"
+      "last_success": "2026-11-04T17:44:01+00:00"
     }
   ],
   "active_events": [
@@ -271,6 +271,21 @@
       "new_this_run": false
     },
     {
+      "id": "TTI-TTR51579863628013000",
+      "source": "TomTom (realtime)",
+      "title": "Keramikou (Thermopilon) → Agisilaou (Thermopilon)",
+      "url": "https://www.google.com/maps?q=37.9815267208,23.7184068197",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-04"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
       "id": "TTI-TTR51568321972030001",
       "source": "TomTom (realtime)",
       "title": "Sepolion (Konstantinoupoleos Ave) → Panourgia (Konstantinoupoleos Ave)",
@@ -292,21 +307,6 @@
       "url": "https://www.google.com/maps?q=37.9786420497,23.7309085959",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
-      "days": [
-        "2026-11-04"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51602946944014000",
-      "source": "TomTom (realtime)",
-      "title": "Αγίας Βαρβάρας → Λεωφόρος Βουλιαγμένης",
-      "url": "https://www.google.com/maps?q=37.9518454369,23.7352081769",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Νότια",
       "days": [
         "2026-11-04"
       ],
@@ -1872,12 +1872,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-27T14:41:31+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-27T17:07:58+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2230,6 +2224,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-04T17:44:01+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
