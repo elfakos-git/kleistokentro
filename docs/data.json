@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T17:45:22+00:00",
+  "generated_at": "2026-11-05T21:47:31+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T15:58:06+00:00"
+      "last_success": "2026-11-05T21:47:31+00:00"
     },
     {
       "name": "diavgeia",
@@ -26,7 +26,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T15:58:06+00:00"
+      "last_success": "2026-11-05T21:47:31+00:00"
     },
     {
       "name": "iefimerida",
@@ -37,9 +37,9 @@
         "χωρίς/παλιά ημερομηνία": 8
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T15:58:07+00:00"
+      "last_success": "2026-11-05T21:47:31+00:00"
     },
     {
       "name": "kathimerini",
@@ -48,9 +48,9 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 1,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T15:58:07+00:00"
+      "last_success": "2026-11-05T21:47:31+00:00"
     },
     {
       "name": "oasa",
@@ -65,20 +65,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T15:58:07+00:00"
+      "last_success": "2026-11-05T21:47:31+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 73,
+      "fetched": 11,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 65
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T17:45:22+00:00"
+      "last_success": "2026-11-05T21:47:31+00:00"
     }
   ],
   "active_events": [
@@ -89,17 +89,11 @@
       "url": "https://www.iefimerida.gr/ellada/apo-simera-kykloforiakes-rythmiseis-marathonios-athina",
       "details": "",
       "area": "Ανατολικά",
-      "days": [
-        "2026-11-05",
-        "2026-11-06",
-        "2026-11-07",
-        "2026-11-08",
-        "2026-11-09"
-      ],
+      "days": [],
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-anakoinosi-trohaias",
@@ -136,14 +130,11 @@
       "url": "https://www.kathimerini.gr/society/564569203/se-ischy-kykloforiakes-rythmiseis-gia-ton-marathonio-2/",
       "details": "",
       "area": "Ανατολικά",
-      "days": [
-        "2026-11-05",
-        "2026-11-09"
-      ],
+      "days": [],
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.kathimerini.gr/society/564560683/metro-kleistoi-apo-tis-21-40-pente-stathmoi-tis-grammis-3/",
@@ -277,7 +268,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-141/",
@@ -320,7 +311,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-TTR51582749160031000",
@@ -350,7 +341,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": false
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51594290660014001",
@@ -1289,7 +1280,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-05T15:58:07+00:00",
+      "last_seen": "2026-11-05T21:47:31+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1307,7 +1298,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-03T21:22:55+00:00",
-      "last_seen": "2026-11-05T15:58:07+00:00",
+      "last_seen": "2026-11-05T21:47:31+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1325,7 +1316,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-05T15:58:07+00:00",
-      "last_seen": "2026-11-05T15:58:07+00:00",
+      "last_seen": "2026-11-05T21:47:31+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1730,12 +1721,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-28T10:13:30+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-10-28T16:09:32+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2088,6 +2073,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-05T21:47:31+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
