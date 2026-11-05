@@ -1,6 +1,5 @@
 {
   "seen": [
-    "TTI-TTR51579863732014000",
     "TTI-TTR51600061604022000",
     "TTI-TTR51594290660014001",
     "TTI-TTR51594290768011000",
@@ -499,7 +498,8 @@
     "ΕΒΞΒ46ΜΤΛΒ-1ΩΛ",
     "https://www.iefimerida.gr/ellada/apo-simera-kykloforiakes-rythmiseis-marathonios-athina",
     "https://www.kathimerini.gr/society/564569203/se-ischy-kykloforiakes-rythmiseis-gia-ton-marathonio-2/",
-    "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b5%ce%be%ce%b1%ce%b3%cf%89%ce%b3%ce%ae%cf%82-%cf%84%ce%bf-5/"
+    "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b5%ce%be%ce%b1%ce%b3%cf%89%ce%b3%ce%ae%cf%82-%cf%84%ce%bf-5/",
+    "TTI-TTR51568321972030001"
   ],
   "seeded": [
     "astynomia",
@@ -580,14 +580,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 144,
+      "fetched": 73,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 136
+        "κατηγορία εκτός πολιτικής": 65
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T15:58:07+00:00"
+      "last_success": "2026-11-05T17:45:22+00:00"
     }
   },
   "active": {
@@ -838,7 +838,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": false
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51582749160031000",
@@ -2299,12 +2299,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-28T09:01:40+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-28T10:13:30+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2657,6 +2651,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-05T17:45:22+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
