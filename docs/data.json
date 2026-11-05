@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T21:47:31+00:00",
+  "generated_at": "2026-11-05T22:56:40+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -71,14 +71,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 11,
+      "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T21:47:31+00:00"
+      "last_success": "2026-11-05T22:56:39+00:00"
     }
   ],
   "active_events": [
@@ -291,7 +291,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-11-05"
+        "2026-11-06"
       ],
       "hours": [],
       "plain": "",
@@ -306,7 +306,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-11-05"
+        "2026-11-06"
       ],
       "hours": [],
       "plain": "",
@@ -321,7 +321,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-05"
+        "2026-11-06"
       ],
       "hours": [],
       "plain": "",
@@ -336,12 +336,12 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-05"
+        "2026-11-06"
       ],
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-TTR51594290660014001",
@@ -351,7 +351,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-05"
+        "2026-11-06"
       ],
       "hours": [],
       "plain": "",
@@ -366,7 +366,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-05"
+        "2026-11-06"
       ],
       "hours": [],
       "plain": "",
@@ -381,7 +381,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-11-05"
+        "2026-11-06"
       ],
       "hours": [],
       "plain": "",
@@ -396,7 +396,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-11-05"
+        "2026-11-06"
       ],
       "hours": [],
       "plain": "",
@@ -821,26 +821,6 @@
       "status": "active"
     },
     {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-137/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 724 και 727, λόγω εργασιών  στην λεωφόρο  Καραμανλή μεταξύ των οδών Αγίας Τριάδος και Μαντζάρου, του δήμου Αχαρνών",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-137/",
-      "details": "",
-      "area": "Βόρεια",
-      "days": [
-        "2026-10-27",
-        "2026-10-28",
-        "2026-10-29"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-10-26T18:00:21+00:00",
-      "last_seen": "2026-10-26T18:00:21+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-139/",
       "source": "ΟΑΣΑ",
       "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 724 και 727, λόγω εργασιών στην λεωφόρο Καραμανλή μεταξύ των οδών Αγίας Τριάδος και Μαντζάρου, του Δήμου Αχαρνών",
@@ -1205,7 +1185,7 @@
       "first_seen": "2026-11-01T10:55:38+00:00",
       "last_seen": "2026-11-01T10:55:38+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.iefimerida.gr/ellada/apo-simera-kykloforiakes-rythmiseis-marathonios-athina",
@@ -1246,7 +1226,7 @@
       "first_seen": "2026-11-05T15:58:07+00:00",
       "last_seen": "2026-11-05T15:58:07+00:00",
       "extended": false,
-      "status": "active"
+      "status": "planned"
     },
     {
       "id": "ΡΝ3Φ46ΜΤΛΒ-Δ29",
@@ -1539,6 +1519,18 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-11-05T22:56:40+00:00",
+      "source": "ΟΑΣΑ",
+      "title": "🚨 Λειτουργία ΜΜΜ λόγω της διεξαγωγής του 43ου Αυθεντικού Μαραθωνίου Αθηνών στις 06, 07 & 08/11/2026",
+      "url": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b5%ce%be%ce%b1%ce%b3%cf%89%ce%b3%ce%ae%cf%82-%cf%84%ce%bf-5/"
+    },
+    {
+      "time": "2026-11-05T22:56:39+00:00",
+      "source": "iefimerida",
+      "title": "🚨 Κυκλοφοριακές ρυθμίσεις για τον 43ο Αυθεντικό Μαραθώνιο Αθήνας 7-8 Νοεμβρίου -Ποιοι δρόμοι θα κλείσουν, η ανακοίνωση της Τροχαίας",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-anakoinosi-trohaias"
+    },
+    {
       "time": "2026-11-05T15:58:08+00:00",
       "source": "kathimerini",
       "title": "🚨 Σε ισχύ κυκλοφοριακές ρυθμίσεις για τον Μαραθώνιο",
@@ -1705,27 +1697,9 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "25786-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στα κάτωθι οδικά τμήματα, κατά τις ώρες 22:00 έως 06:00 της επομένης, για την εκτέλεση εργασιών στο πλαίσιο του έργου «Προμήθεια, εγκατάσταση και λειτουργία ηλεκτρονικών μέσων παρακολούθησης πα",
       "url": "https://diavgeia.gov.gr/decision/view/6ΜΞ846ΜΤΛΒ-Ι26"
-    },
-    {
-      "time": "2026-10-26T08:09:48+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
-    {
-      "time": "2026-10-25T22:12:17+00:00",
-      "source": "iefimerida",
-      "title": "🚨 Κυκλοφοριακές ρυθμίσεις για την 28η Οκτωβρίου:Ποιοι δρόμοι θα είναι κλειστοί σε Αθήνα και Πειραιά",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-28i-athina-peiraia"
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-28T16:09:32+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-28T17:43:56+00:00",
       "new": 1,
@@ -2079,6 +2053,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-05T22:56:40+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
