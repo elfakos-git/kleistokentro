@@ -1,43 +1,45 @@
 {
-  "generated_at": "2026-11-05T09:56:46+00:00",
+  "generated_at": "2026-11-05T15:58:08+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "fetched": 54,
+      "dropped": {
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T04:30:49+00:00"
+      "last_success": "2026-11-05T15:58:06+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 98,
-        "εκτός χρονικού παραθύρου": 1
+        "εκτός θέματος/Αθήνας": 100
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T04:30:49+00:00"
+      "last_success": "2026-11-05T15:58:06+00:00"
     },
     {
       "name": "iefimerida",
       "ok": true,
-      "items": 2,
+      "items": 3,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 9
+        "χωρίς/παλιά ημερομηνία": 8
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T04:30:49+00:00"
+      "last_success": "2026-11-05T15:58:07+00:00"
     },
     {
       "name": "kathimerini",
@@ -46,40 +48,59 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 1,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T04:30:49+00:00"
+      "last_success": "2026-11-05T15:58:07+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 1,
+      "items": 2,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 2,
+        "παλιά ανακοίνωση": 1,
         "λειτουργικό/χωρίς οδικό αντίκτυπο": 8,
         "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T04:30:49+00:00"
+      "last_success": "2026-11-05T15:58:07+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 80,
+      "fetched": 144,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 72
+        "κατηγορία εκτός πολιτικής": 136
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T09:56:45+00:00"
+      "last_success": "2026-11-05T15:58:07+00:00"
     }
   ],
   "active_events": [
+    {
+      "id": "https://www.iefimerida.gr/ellada/apo-simera-kykloforiakes-rythmiseis-marathonios-athina",
+      "source": "iefimerida",
+      "title": "Από σήμερα οι κυκλοφοριακές ρυθμίσεις για τον Μαραθώνιο της Αθήνας -Οι περιοχές που επηρεάζονται",
+      "url": "https://www.iefimerida.gr/ellada/apo-simera-kykloforiakes-rythmiseis-marathonios-athina",
+      "details": "",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-anakoinosi-trohaias",
       "source": "iefimerida",
@@ -107,6 +128,22 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564569203/se-ischy-kykloforiakes-rythmiseis-gia-ton-marathonio-2/",
+      "source": "kathimerini",
+      "title": "Σε ισχύ κυκλοφοριακές ρυθμίσεις για τον Μαραθώνιο",
+      "url": "https://www.kathimerini.gr/society/564569203/se-ischy-kykloforiakes-rythmiseis-gia-ton-marathonio-2/",
+      "details": "",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-11-05",
+        "2026-11-09"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "https://www.kathimerini.gr/society/564560683/metro-kleistoi-apo-tis-21-40-pente-stathmoi-tis-grammis-3/",
@@ -228,17 +265,19 @@
       "new_this_run": false
     },
     {
-      "id": "https://www.kathimerini.gr/society/564499195/fotia-se-egkataleleimmeno-ktirio-sto-metaxoyrgeio-diakopi-kykloforias-stin-odo-kerameikoy/",
-      "source": "kathimerini",
-      "title": "Φωτιά σε εγκαταλελειμμένο κτίριο στο Μεταξουργείο – Διακοπή κυκλοφορίας στην οδό Κεραμεικού",
-      "url": "https://www.kathimerini.gr/society/564499195/fotia-se-egkataleleimmeno-ktirio-sto-metaxoyrgeio-diakopi-kykloforias-stin-odo-kerameikoy/",
+      "id": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b5%ce%be%ce%b1%ce%b3%cf%89%ce%b3%ce%ae%cf%82-%cf%84%ce%bf-5/",
+      "source": "ΟΑΣΑ",
+      "title": "Λειτουργία ΜΜΜ λόγω της διεξαγωγής του 43ου Αυθεντικού Μαραθωνίου Αθηνών στις 06, 07 & 08/11/2026",
+      "url": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b5%ce%be%ce%b1%ce%b3%cf%89%ce%b3%ce%ae%cf%82-%cf%84%ce%bf-5/",
       "details": "",
-      "area": "Κέντρο",
-      "days": [],
+      "area": "Ανατολικά",
+      "days": [
+        "2026-11-08"
+      ],
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": false
+      "new_this_run": true
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-141/",
@@ -1178,6 +1217,47 @@
       "status": "active"
     },
     {
+      "id": "https://www.iefimerida.gr/ellada/apo-simera-kykloforiakes-rythmiseis-marathonios-athina",
+      "source": "iefimerida",
+      "title": "Από σήμερα οι κυκλοφοριακές ρυθμίσεις για τον Μαραθώνιο της Αθήνας -Οι περιοχές που επηρεάζονται",
+      "url": "https://www.iefimerida.gr/ellada/apo-simera-kykloforiakes-rythmiseis-marathonios-athina",
+      "details": "",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-11-05T15:58:07+00:00",
+      "last_seen": "2026-11-05T15:58:07+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564569203/se-ischy-kykloforiakes-rythmiseis-gia-ton-marathonio-2/",
+      "source": "kathimerini",
+      "title": "Σε ισχύ κυκλοφοριακές ρυθμίσεις για τον Μαραθώνιο",
+      "url": "https://www.kathimerini.gr/society/564569203/se-ischy-kykloforiakes-rythmiseis-gia-ton-marathonio-2/",
+      "details": "",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-11-05",
+        "2026-11-09"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-11-05T15:58:07+00:00",
+      "last_seen": "2026-11-05T15:58:07+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
       "id": "ΡΝ3Φ46ΜΤΛΒ-Δ29",
       "source": "Διαύγεια (Τροχαία)",
       "title": "ΠΡΟΣΩΡΙΝΕΣ ΚΥΚΛΟΦΟΡΙΑΚΕΣ ΡΥΘΜΙΣΕΙΣ ΛΟΓΩ ΔΙΕΞΑΓΩΓΗΣ ΛΑΜΠΑΔΗΔΡΟΜΙΑΣ ΣΤΟ ΠΛΑΙΣΙΟ ΤΟΥ 43ΟΥ ΑΥΘΕΝΤΙΚΟΥ ΜΑΡΑΘΩΝΙΟΥ ΑΘΗΝΩΝ 07/11/2026.",
@@ -1209,7 +1289,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-05T04:30:49+00:00",
+      "last_seen": "2026-11-05T15:58:07+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1227,7 +1307,25 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-03T21:22:55+00:00",
-      "last_seen": "2026-11-05T04:30:49+00:00",
+      "last_seen": "2026-11-05T15:58:07+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b5%ce%be%ce%b1%ce%b3%cf%89%ce%b3%ce%ae%cf%82-%cf%84%ce%bf-5/",
+      "source": "ΟΑΣΑ",
+      "title": "Λειτουργία ΜΜΜ λόγω της διεξαγωγής του 43ου Αυθεντικού Μαραθωνίου Αθηνών στις 06, 07 & 08/11/2026",
+      "url": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b5%ce%be%ce%b1%ce%b3%cf%89%ce%b3%ce%ae%cf%82-%cf%84%ce%bf-5/",
+      "details": "",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-11-08"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-11-05T15:58:07+00:00",
+      "last_seen": "2026-11-05T15:58:07+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1450,6 +1548,18 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-11-05T15:58:08+00:00",
+      "source": "kathimerini",
+      "title": "🚨 Σε ισχύ κυκλοφοριακές ρυθμίσεις για τον Μαραθώνιο",
+      "url": "https://www.kathimerini.gr/society/564569203/se-ischy-kykloforiakes-rythmiseis-gia-ton-marathonio-2/"
+    },
+    {
+      "time": "2026-11-05T15:58:08+00:00",
+      "source": "iefimerida",
+      "title": "🚨 Από σήμερα οι κυκλοφοριακές ρυθμίσεις για τον Μαραθώνιο της Αθήνας -Οι περιοχές που επηρεάζονται",
+      "url": "https://www.iefimerida.gr/ellada/apo-simera-kykloforiakes-rythmiseis-marathonios-athina"
+    },
+    {
       "time": "2026-11-05T09:56:46+00:00",
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
@@ -1616,27 +1726,9 @@
       "source": "iefimerida",
       "title": "🚨 Κυκλοφοριακές ρυθμίσεις για την 28η Οκτωβρίου:Ποιοι δρόμοι θα είναι κλειστοί σε Αθήνα και Πειραιά",
       "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-28i-athina-peiraia"
-    },
-    {
-      "time": "2026-10-25T15:20:42+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "ΑΠΟΦΑΣΗ ΠΡΟΣΩΡΙΝΩΝ ΚΥΚΛΟΦΟΡΙΑΚΩΝ ΡΥΘΜΙΣΕΩΝ ΣΤΟΝ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟ Α.Θ.Ε. Χ.Θ. 161+500 έως Χ.Θ. 159+500 ΣΤΟ ΡΕΥΜΑ ΚΥΚΛΟΦΟΡΙΑΣ ΠΡΟΣ ΑΘΗΝΑ",
-      "url": "https://diavgeia.gov.gr/decision/view/Ρ9ΔΧ46ΜΤΛΒ-ΟΟΡ"
-    },
-    {
-      "time": "2026-10-25T07:50:21+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-28T03:21:04+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-28T09:01:40+00:00",
       "new": 0,
@@ -1990,6 +2082,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-05T15:58:08+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
