@@ -514,15 +514,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-04T21:38:38+00:00"
+      "last_success": "2026-11-05T04:30:49+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -530,13 +527,13 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός χρονικού παραθύρου": 1,
-        "εκτός θέματος/Αθήνας": 98
+        "εκτός θέματος/Αθήνας": 98,
+        "εκτός χρονικού παραθύρου": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-04T21:38:38+00:00"
+      "last_success": "2026-11-05T04:30:49+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -549,7 +546,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-04T21:38:38+00:00"
+      "last_success": "2026-11-05T04:30:49+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -560,7 +557,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-04T21:38:38+00:00"
+      "last_success": "2026-11-05T04:30:49+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -575,41 +572,25 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-04T21:38:38+00:00"
+      "last_success": "2026-11-05T04:30:49+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 15,
+      "fetched": 11,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 7
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-04T22:55:33+00:00"
+      "last_success": "2026-11-05T04:30:49+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [
-      {
-        "id": "ΕΒΞΒ46ΜΤΛΒ-1ΩΛ",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "25843-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και πλήρη διακοπή της κυκλοφορίας των οχημάτων στην υπόγεια διάβαση οχημάτων στην Λ. Μεσογείων, στο ύψος της συμβολής της με τον Α/Κ Λ. Κατεχάκη και στα δύο ρεύματα κυκλοφορίας, την 04.11.2026 κατά τις ώρες 23:00 έως την 06.00΄ της επομένης, γι",
-        "url": "https://diavgeia.gov.gr/decision/view/ΕΒΞΒ46ΜΤΛΒ-1ΩΛ",
-        "details": "Επίσημη απόφαση Τροχαίας (04/11/2026)",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-11-04"
-        ],
-        "hours": [],
-        "plain": "Διακοπή κυκλοφορίας στη Λ. Μεσογείων · 4/11",
-        "category": "",
-        "new_this_run": false
-      }
-    ],
+    "diavgeia": [],
     "iefimerida": [
       {
         "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-anakoinosi-trohaias",
@@ -701,6 +682,21 @@
         "details": "",
         "area": "",
         "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+        "source": "kathimerini",
+        "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
+        "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+        "details": "",
+        "area": "",
+        "days": [
+          "2026-11-08"
+        ],
         "hours": [],
         "plain": "",
         "category": "",
@@ -1461,13 +1457,13 @@
       "details": "",
       "area": "",
       "days": [
-        "2026-11-01"
+        "2026-11-08"
       ],
       "hours": [],
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-04T21:38:38+00:00",
+      "last_seen": "2026-11-05T04:30:49+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1986,7 +1982,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-03T21:22:55+00:00",
-      "last_seen": "2026-11-04T21:38:38+00:00",
+      "last_seen": "2026-11-05T04:30:49+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -2004,7 +2000,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Μεσογείων · 4/11",
       "category": "",
       "first_seen": "2026-11-04T15:52:53+00:00",
-      "last_seen": "2026-11-04T21:38:38+00:00",
+      "last_seen": "2026-11-05T04:30:49+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2200,12 +2196,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-27T23:16:04+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-27T23:24:21+00:00",
       "new": 0,
@@ -2559,6 +2549,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-05T04:30:49+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
