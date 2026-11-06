@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T22:56:40+00:00",
+  "generated_at": "2026-11-06T04:29:44+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T21:47:31+00:00"
+      "last_success": "2026-11-06T04:29:44+00:00"
     },
     {
       "name": "diavgeia",
@@ -21,12 +21,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 99,
+        "εκτός χρονικού παραθύρου": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T21:47:31+00:00"
+      "last_success": "2026-11-06T04:29:44+00:00"
     },
     {
       "name": "iefimerida",
@@ -39,7 +40,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T21:47:31+00:00"
+      "last_success": "2026-11-06T04:29:44+00:00"
     },
     {
       "name": "kathimerini",
@@ -50,35 +51,35 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T21:47:31+00:00"
+      "last_success": "2026-11-06T04:29:44+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 2,
+      "items": 3,
       "fetched": 11,
       "dropped": {
         "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8,
-        "λεωφορεία (χωρίς ειδοποίηση)": 1
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
+        "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T21:47:31+00:00"
+      "last_success": "2026-11-06T04:29:44+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 14,
+      "fetched": 11,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-05T22:56:39+00:00"
+      "last_success": "2026-11-06T04:29:44+00:00"
     }
   ],
   "active_events": [
@@ -254,6 +255,21 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-319/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 054, 608 και 622 λόγω εργασιών στην οδό Δροσοπούλου 143 στον Δήμο Αθηναίων",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-319/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-07"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "new_this_run": true
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b5%ce%be%ce%b1%ce%b3%cf%89%ce%b3%ce%ae%cf%82-%cf%84%ce%bf-5/",
@@ -1247,6 +1263,24 @@
       "status": "planned"
     },
     {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-319/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 054, 608 και 622 λόγω εργασιών στην οδό Δροσοπούλου 143 στον Δήμο Αθηναίων",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-319/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-07"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-11-06T04:29:44+00:00",
+      "last_seen": "2026-11-06T04:29:44+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
       "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
       "source": "kathimerini",
       "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
@@ -1260,7 +1294,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-05T21:47:31+00:00",
+      "last_seen": "2026-11-06T04:29:44+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1278,7 +1312,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-03T21:22:55+00:00",
-      "last_seen": "2026-11-05T21:47:31+00:00",
+      "last_seen": "2026-11-06T04:29:44+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1296,7 +1330,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-05T15:58:07+00:00",
-      "last_seen": "2026-11-05T21:47:31+00:00",
+      "last_seen": "2026-11-06T04:29:44+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1701,12 +1735,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-28T17:43:56+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-10-28T21:11:36+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2059,6 +2087,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-06T04:29:44+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
