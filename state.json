@@ -1,10 +1,5 @@
 {
   "seen": [
-    "TTI-TTR51594291004012000",
-    "TTI-TTR51594291000004000",
-    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-61/",
-    "TTI-TTR51591405588007000",
-    "https://www.kathimerini.gr/society/564356959/trochaio-atychima-ston-kerameiko-diakopi-tis-kykloforias-stin-peiraios/",
     "https://www.oasa.gr/blog/%ce%ad%ce%ba%cf%84%ce%b1%ce%ba%cf%84%ce%b5%cf%82-%ce%ba%cf%85%ce%ba%ce%bb%ce%bf%cf%86%ce%bf%cf%81%ce%b9%ce%b1%ce%ba%ce%ad%cf%82-%cf%81%cf%85%ce%b8%ce%bc%ce%af%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5/",
     "6ΤΘ246ΜΤΛΒ-ΘΘΦ",
     "TTI-TTR51585634556039000",
@@ -499,7 +494,12 @@
     "TTI-TTR51568321972030001",
     "TTI-TTR51579863732014000",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-319/",
-    "TTI-TTR51594290660014001"
+    "TTI-TTR51594290660014001",
+    "68ΧΩ46ΜΤΛΒ-9ΟΕ",
+    "Ρ4ΘΨ46ΜΤΛΒ-10Ν",
+    "https://www.iefimerida.gr/ellada/se-ishy-kykloforiakes-rythmiseis-gia-ton-marathonio",
+    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ionia-odos-gia-5-imeres",
+    "Ρ3Ν746ΜΤΛΒ-ΙΥΣ"
   ],
   "seeded": [
     "astynomia",
@@ -522,34 +522,34 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-06T04:29:44+00:00"
+      "last_success": "2026-11-06T15:30:12+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99,
-        "εκτός χρονικού παραθύρου": 1
+        "εκτός θέματος/Αθήνας": 97,
+        "μόνο μία λωρίδα/ΛΕΑ": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-06T04:29:44+00:00"
+      "last_success": "2026-11-06T15:30:12+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 3,
+      "items": 4,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 8
+        "χωρίς/παλιά ημερομηνία": 7
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 2,
       "consecutive_failures": 0,
-      "last_success": "2026-11-06T04:29:44+00:00"
+      "last_success": "2026-11-06T15:30:13+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -560,41 +560,89 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-06T04:29:44+00:00"
+      "last_success": "2026-11-06T15:30:13+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 3,
+      "items": 2,
       "fetched": 11,
       "dropped": {
         "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
-        "λεωφορεία (χωρίς ειδοποίηση)": 2
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8,
+        "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-06T04:29:44+00:00"
+      "last_success": "2026-11-06T15:30:13+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 8,
-      "fetched": 57,
+      "fetched": 140,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 49
+        "κατηγορία εκτός πολιτικής": 132
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-06T09:59:16+00:00"
+      "last_success": "2026-11-06T15:30:13+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [],
+    "diavgeia": [
+      {
+        "id": "Ρ3Ν746ΜΤΛΒ-ΙΥΣ",
+        "source": "Διαύγεια (Τροχαία)",
+        "title": "25847- Προσωρινές κυκλοφοριακές ρυθμίσεις για την εκτέλεση εργασιών στο πλαίσιο το έργου «Αποψίλωση και καθαρισμός βλάστησης και εύλεκτης ύλης από νησίδες πρανή και ερείσματα εκατέρωθεν οδικών αξόνων αρμοδιότητας Περιφερειακής Ενότητας Δυτικής Αττικής (Π.Ε.Δ.Α.)», για τα έτη 2025-2026-2027.",
+        "url": "https://diavgeia.gov.gr/decision/view/Ρ3Ν746ΜΤΛΒ-ΙΥΣ",
+        "details": "Επίσημη απόφαση Τροχαίας (06/11/2026)",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      }
+    ],
     "iefimerida": [
+      {
+        "id": "https://www.iefimerida.gr/ellada/se-ishy-kykloforiakes-rythmiseis-gia-ton-marathonio",
+        "source": "iefimerida",
+        "title": "43ος Μαραθώνιος Αθήνας, ο Αυθεντικός: Ποιοι δρόμοι κλείνουν -Πώς θα κινηθείτε το Σαββατοκύριακο",
+        "url": "https://www.iefimerida.gr/ellada/se-ishy-kykloforiakes-rythmiseis-gia-ton-marathonio",
+        "details": "",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-11-06",
+          "2026-11-07",
+          "2026-11-08",
+          "2026-11-09"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ionia-odos-gia-5-imeres",
+        "source": "iefimerida",
+        "title": "Κυκλοφοριακές ρυθμίσεις στην Ιόνια Οδό για 5 ημέρες, ποιες περιοχές επηρεάζονται",
+        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ionia-odos-gia-5-imeres",
+        "details": "",
+        "area": "",
+        "days": [
+          "2026-11-06",
+          "2026-11-10"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
       {
         "id": "https://www.iefimerida.gr/ellada/apo-simera-kykloforiakes-rythmiseis-marathonios-athina",
         "source": "iefimerida",
@@ -618,19 +666,6 @@
         "days": [
           "2026-11-08"
         ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis",
-        "source": "iefimerida",
-        "title": "Κυκλοφοριακές ρυθμίσεις στην Αττική Οδό το βράδυ της Τρίτης",
-        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis",
-        "details": "",
-        "area": "",
-        "days": [],
         "hours": [],
         "plain": "",
         "category": "",
@@ -773,21 +808,6 @@
     ],
     "oasa": [
       {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-319/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 054, 608 και 622 λόγω εργασιών στην οδό Δροσοπούλου 143 στον Δήμο Αθηναίων",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-319/",
-        "details": "",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-07"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": true
-      },
-      {
         "id": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b5%ce%be%ce%b1%ce%b3%cf%89%ce%b3%ce%ae%cf%82-%cf%84%ce%bf-5/",
         "source": "ΟΑΣΑ",
         "title": "Λειτουργία ΜΜΜ λόγω της διεξαγωγής του 43ου Αυθεντικού Μαραθωνίου Αθηνών στις 06, 07 & 08/11/2026",
@@ -803,10 +823,10 @@
         "new_this_run": false
       },
       {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-141/",
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-319/",
         "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 724 και 727, λόγω εργασιών στην λεωφόρο Καραμανλή μεταξύ των οδών Αγίας Τριάδος και Μαντζάρου, του δήμου Αχαρνών",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-141/",
+        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 054, 608 και 622 λόγω εργασιών στην οδό Δροσοπούλου 143 στον Δήμο Αθηναίων",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-319/",
         "details": "",
         "area": "",
         "days": [],
@@ -890,7 +910,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51594290912011001",
@@ -1509,7 +1529,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-06T04:29:44+00:00",
+      "last_seen": "2026-11-06T15:30:13+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2006,7 +2026,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-03T21:22:55+00:00",
-      "last_seen": "2026-11-06T04:29:44+00:00",
+      "last_seen": "2026-11-06T15:30:13+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2091,7 +2111,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-05T15:58:07+00:00",
-      "last_seen": "2026-11-06T04:29:44+00:00",
+      "last_seen": "2026-11-06T15:30:13+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2116,6 +2136,50 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.iefimerida.gr/ellada/se-ishy-kykloforiakes-rythmiseis-gia-ton-marathonio": {
+      "id": "https://www.iefimerida.gr/ellada/se-ishy-kykloforiakes-rythmiseis-gia-ton-marathonio",
+      "source": "iefimerida",
+      "title": "43ος Μαραθώνιος Αθήνας, ο Αυθεντικός: Ποιοι δρόμοι κλείνουν -Πώς θα κινηθείτε το Σαββατοκύριακο",
+      "url": "https://www.iefimerida.gr/ellada/se-ishy-kykloforiakes-rythmiseis-gia-ton-marathonio",
+      "details": "",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-11-06T15:30:12+00:00",
+      "last_seen": "2026-11-06T15:30:12+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ionia-odos-gia-5-imeres": {
+      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ionia-odos-gia-5-imeres",
+      "source": "iefimerida",
+      "title": "Κυκλοφοριακές ρυθμίσεις στην Ιόνια Οδό για 5 ημέρες, ποιες περιοχές επηρεάζονται",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ionia-odos-gia-5-imeres",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-11-06",
+        "2026-11-10"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-11-06T15:30:13+00:00",
+      "last_seen": "2026-11-06T15:30:13+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -2125,18 +2189,6 @@
     "151797168": "2026-11-06"
   },
   "notifications": [
-    {
-      "time": "2026-10-27T08:24:46+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
-    {
-      "time": "2026-10-27T09:28:59+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "Προσωρινές Κυκλοφοριακές Ρυθμίσεις στην Κομοτηνή σε τμήματα των οδών Λεωφόρο Δημοκρατίας, Ορφέως, Συντάγματος Κρητών και Μπακάλμπαση",
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΖ9Ζ46ΜΤΛΒ-45Η"
-    },
     {
       "time": "2026-10-27T17:07:58+00:00",
       "source": "ΟΑΣΑ",
@@ -2304,15 +2356,21 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-11-06T15:30:14+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25847- Προσωρινές κυκλοφοριακές ρυθμίσεις για την εκτέλεση εργασιών στο πλαίσιο το έργου «Αποψίλωση και καθαρισμός βλάστησης και εύλεκτης ύλης από νησίδες πρανή και ερείσματα εκατέρωθεν οδικών αξόνων αρμοδιότητας Περιφερειακής Ενότητας Δυτικής Αττικής (Π.Ε.Δ.Α.)», για τα έτη 2025-2026-2027.",
+      "url": "https://diavgeia.gov.gr/decision/view/Ρ3Ν746ΜΤΛΒ-ΙΥΣ"
+    },
+    {
+      "time": "2026-11-06T15:30:14+00:00",
+      "source": "iefimerida",
+      "title": "🚨 Κυκλοφοριακές ρυθμίσεις στην Ιόνια Οδό για 5 ημέρες, ποιες περιοχές επηρεάζονται",
+      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ionia-odos-gia-5-imeres"
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-28T23:44:56+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-29T01:04:25+00:00",
       "new": 0,
@@ -2666,6 +2724,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-06T15:30:14+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
