@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T15:30:14+00:00",
+  "generated_at": "2026-11-06T17:09:56+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -71,15 +71,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 8,
-      "fetched": 140,
+      "items": 9,
+      "fetched": 77,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 132
+        "κατηγορία εκτός πολιτικής": 68
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-06T15:30:13+00:00"
+      "last_success": "2026-11-06T17:09:56+00:00"
     }
   ],
   "active_events": [
@@ -379,6 +379,21 @@
       "new_this_run": false
     },
     {
+      "id": "TTI-TTR51574092928014000",
+      "source": "TomTom (realtime)",
+      "title": "Zakinthou (Spetson) → Skirou (Spetson)",
+      "url": "https://www.google.com/maps?q=37.9990093837,23.7400495642",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Βόρεια",
+      "days": [
+        "2026-11-06"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
       "id": "TTI-TTR51594290660014001",
       "source": "TomTom (realtime)",
       "title": "Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
@@ -421,7 +436,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": false
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51594291000004000",
@@ -436,7 +451,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": false
+      "new_this_run": true
     }
   ],
   "closures": [
@@ -1794,12 +1809,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-29T01:04:25+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-29T03:44:45+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2152,6 +2161,12 @@
       "new": 1,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-06T17:09:56+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
