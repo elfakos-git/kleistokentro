@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T23:07:57+00:00",
+  "generated_at": "2026-11-07T23:17:17+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T17:13:49+00:00"
+      "last_success": "2026-11-07T23:17:15+00:00"
     },
     {
       "name": "diavgeia",
@@ -23,20 +23,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T17:13:49+00:00"
+      "last_success": "2026-11-07T23:17:15+00:00"
     },
     {
       "name": "iefimerida",
       "ok": true,
-      "items": 3,
+      "items": 4,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 8
+        "χωρίς/παλιά ημερομηνία": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T17:13:49+00:00"
+      "last_success": "2026-11-07T23:17:16+00:00"
     },
     {
       "name": "kathimerini",
@@ -47,7 +47,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T17:13:49+00:00"
+      "last_success": "2026-11-07T23:17:16+00:00"
     },
     {
       "name": "oasa",
@@ -62,23 +62,36 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T17:13:50+00:00"
+      "last_success": "2026-11-07T23:17:16+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 15,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T23:07:57+00:00"
+      "last_success": "2026-11-07T23:17:16+00:00"
     }
   ],
   "active_events": [
+    {
+      "id": "https://www.iefimerida.gr/ellada/43os-aythentikos-marathonios-kleisto-kentro-athinas",
+      "source": "iefimerida",
+      "title": "43ος Αυθεντικός Μαραθώνιος: Κλειστό το κέντρο της Αθήνας, από πού περνάνε οι δρομείς",
+      "url": "https://www.iefimerida.gr/ellada/43os-aythentikos-marathonios-kleisto-kentro-athinas",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
     {
       "id": "https://www.iefimerida.gr/ellada/se-ishy-kykloforiakes-rythmiseis-gia-ton-marathonio",
       "source": "iefimerida",
@@ -374,8 +387,8 @@
     {
       "id": "TTI-TTR51591405224011000",
       "source": "TomTom (realtime)",
-      "title": "Ktisiviou (Eratosthenous) → Tsiklitira K. (Eratosthenous)",
-      "url": "https://www.google.com/maps?q=37.9694406963,23.7428350383",
+      "title": "Platia Ag. Spiridonos (Eratosthenous) → Pilariou (Eratosthenous)",
+      "url": "https://www.google.com/maps?q=37.9697947404,23.7424756223",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -384,7 +397,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-TTR51594290660014001",
@@ -1286,7 +1299,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-07T17:13:49+00:00",
+      "last_seen": "2026-11-07T23:17:16+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1304,7 +1317,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-07T17:13:49+00:00",
+      "last_seen": "2026-11-07T23:17:16+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1340,7 +1353,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-05T15:58:07+00:00",
-      "last_seen": "2026-11-07T17:13:50+00:00",
+      "last_seen": "2026-11-07T23:17:16+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1563,6 +1576,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-11-07T23:17:17+00:00",
+      "source": "iefimerida",
+      "title": "43ος Αυθεντικός Μαραθώνιος: Κλειστό το κέντρο της Αθήνας, από πού περνάνε οι δρομείς",
+      "url": "https://www.iefimerida.gr/ellada/43os-aythentikos-marathonios-kleisto-kentro-athinas"
+    },
+    {
       "time": "2026-11-07T09:18:47+00:00",
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
@@ -1735,21 +1754,9 @@
       "source": "iefimerida",
       "title": "🚨 28η Οκτωβρίου: Οι δρόμοι που θα κλείσουν σε Αθήνα και Θεσσαλονίκη -Πώς θα κινηθούν τα ΜΜΜ",
       "url": "https://www.iefimerida.gr/ellada/28i-oktobrioy-oi-dromoi-poy-thakleisoyn-stin-athina-allages-sta-dromologia-ton-mmm"
-    },
-    {
-      "time": "2026-10-28T09:01:40+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-30T10:38:55+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-30T16:02:38+00:00",
       "new": 0,
@@ -2103,6 +2110,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-07T23:17:17+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
