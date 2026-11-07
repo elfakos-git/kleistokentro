@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T17:13:50+00:00",
+  "generated_at": "2026-11-07T19:41:28+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -67,15 +67,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 53,
-      "fetched": 99,
+      "items": 30,
+      "fetched": 53,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 46
+        "κατηγορία εκτός πολιτικής": 23
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T17:13:50+00:00"
+      "last_success": "2026-11-07T19:41:28+00:00"
     }
   ],
   "active_events": [
@@ -312,40 +312,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51582749152010000",
+      "id": "TTI-TTR51582749132013000",
       "source": "TomTom (realtime)",
-      "title": "Menandrou (Ag. Konstantinou) → Platia Karaiskaki (Ag. Konstantinou)",
-      "url": "https://www.google.com/maps?q=37.9845334975,23.7255535656",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
-    },
-    {
-      "id": "TTI-TTR51582749152013000",
-      "source": "TomTom (realtime)",
-      "title": "Pesmazoglou (Sofokleous) → Athinas (Sofokleous)",
-      "url": "https://www.google.com/maps?q=37.980628205,23.7299389773",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
-    },
-    {
-      "id": "TTI-TTR51576978136011000",
-      "source": "TomTom (realtime)",
-      "title": "Patision (Halkokondili) → Akadimias (Halkokondili)",
-      "url": "https://www.google.com/maps?q=37.9859631134,23.7298397356",
+      "title": "Stadiou (Pesmazoglou) → Sofokleous (Pesmazoglou)",
+      "url": "https://www.google.com/maps?q=37.980901791,23.7308522695",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -372,40 +342,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51582749132013000",
+      "id": "TTI-TTR51597176216010000",
       "source": "TomTom (realtime)",
-      "title": "Panepistimiou (Pesmazoglou) → Sofokleous (Pesmazoglou)",
-      "url": "https://www.google.com/maps?q=37.9812450769,23.731461131",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51588519712002000",
-      "source": "TomTom (realtime)",
-      "title": "Diakou Ath. (Siggrou Andr. Ave) → Lisikratous (Siggrou Andr. Ave)",
-      "url": "https://www.google.com/maps?q=37.9681478725,23.7314262622",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749100003000",
-      "source": "TomTom (realtime)",
-      "title": "Tzortz (Akadimias) → Benaki Emm. (Akadimias)",
-      "url": "https://www.google.com/maps?q=37.985124902,23.7314182156",
+      "title": "Αθανασίου Διάκου / Αρδηττού → Βούρβαχη",
+      "url": "https://www.google.com/maps?q=37.967225206,23.7333386773",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -415,21 +355,6 @@
       "plain": "",
       "category": "",
       "new_this_run": true
-    },
-    {
-      "id": "TTI-TTR51582749060006000",
-      "source": "TomTom (realtime)",
-      "title": "Panepistimiou (Riga Fereou) → Akadimias (Riga Fereou)",
-      "url": "https://www.google.com/maps?q=37.9808132605,23.7330114478",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
     },
     {
       "id": "TTI-TTR51591405356014000",
@@ -447,40 +372,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51582749136018000",
-      "source": "TomTom (realtime)",
-      "title": "Solonos (Ippokratous) → Panepistimiou (Ippokratous)",
-      "url": "https://www.google.com/maps?q=37.9825245229,23.7350646788",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749092023000",
-      "source": "TomTom (realtime)",
-      "title": "Ιπποκράτους → Σόλωνος",
-      "url": "https://www.google.com/maps?q=37.981859301,23.7338201338",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
       "id": "TTI-TTR51591405352014000",
       "source": "TomTom (realtime)",
-      "title": "Πλατεία Συντάγματος / Φιλελλήνων → Φιλελλήνων",
-      "url": "https://www.google.com/maps?q=37.9750277592,23.734078967",
+      "title": "Προς Γεωργίου Πρώτου → Φιλελλήνων",
+      "url": "https://www.google.com/maps?q=37.9740366608,23.7351987892",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -492,116 +387,11 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51591405412003001",
+      "id": "TTI-TTR51591405444003000",
       "source": "TomTom (realtime)",
-      "title": "Panepistimiou (Vas. Georgiou A) → Stadiou (Vas. Georgiou A)",
-      "url": "https://www.google.com/maps?q=37.9761194056,23.7356534236",
+      "title": "Λεωφόρος Βασιλίσσης Αμαλίας / Προς Λεωφόρο Βασιλίσσης Σοφίας → Ελευθερίου Βενιζέλου",
+      "url": "https://www.google.com/maps?q=37.9761811166,23.7361536556",
       "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51591405324010000",
-      "source": "TomTom (realtime)",
-      "title": "Gkoura (Vas. Amalias Ave) → Vas. Sofias Ave (Vas. Amalias Ave)",
-      "url": "https://www.google.com/maps?q=37.9709253176,23.7330369287",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51585634500018000",
-      "source": "TomTom (realtime)",
-      "title": "Vas. Sofias Ave (Panepistimiou) → Patision (Panepistimiou)",
-      "url": "https://www.google.com/maps?q=37.9765244246,23.7358438605",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51585634392021000",
-      "source": "TomTom (realtime)",
-      "title": "Stoa S Miliou (Amerikis) → Akadimias (Amerikis)",
-      "url": "https://www.google.com/maps?q=37.9776737283,23.7341259056",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51585634608029000",
-      "source": "TomTom (realtime)",
-      "title": "Solonos (Omirou) → Stadiou (Omirou)",
-      "url": "https://www.google.com/maps?q=37.9800890903,23.7370065981",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51591405268034000",
-      "source": "TomTom (realtime)",
-      "title": "Vas. Olgas Ave (Ardittou) → Karea (Ardittou)",
-      "url": "https://www.google.com/maps?q=37.9686655334,23.7377830976",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749100010000",
-      "source": "TomTom (realtime)",
-      "title": "Trikoupi Har. (Akadimias) → Vas. Sofias Ave (Akadimias)",
-      "url": "https://www.google.com/maps?q=37.9829067139,23.7331871325",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51585634536013004",
-      "source": "TomTom (realtime)",
-      "title": "Ακαδημίας / Αμερικής → Σκουφά",
-      "url": "https://www.google.com/maps?q=37.9789169645,23.7364580863",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
       "area": "Κέντρο",
       "days": [
         "2026-11-07"
@@ -614,7 +404,7 @@
     {
       "id": "TTI-TTR51597176144002001",
       "source": "TomTom (realtime)",
-      "title": "Karea (Ardittou) → Vas. Olgas Ave (Ardittou)",
+      "title": "Karea (Ardittou) → Theotoki (Ardittou)",
       "url": "https://www.google.com/maps?q=37.9671527825,23.7336739534",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
@@ -625,6 +415,21 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51597176248012000",
+      "source": "TomTom (realtime)",
+      "title": "Voulgareos Evg. (Mousourou M.) → Ardittou (Mousourou M.)",
+      "url": "https://www.google.com/maps?q=37.9667625137,23.7379842633",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-07"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51585634372011000",
@@ -657,100 +462,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51585634408013001",
+      "id": "TTI-TTR51591405352013000",
       "source": "TomTom (realtime)",
-      "title": "Akadimias (Kanari) → Platia Filikis Eterias (Kanari)",
-      "url": "https://www.google.com/maps?q=37.9771855985,23.7386427456",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51591405388012001",
-      "source": "TomTom (realtime)",
-      "title": "Mourouzi (Irodou Attikou) → Vas. Konstantinou Ave (Irodou Attikou)",
-      "url": "https://www.google.com/maps?q=37.9750062855,23.7404840821",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51591405388012000",
-      "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Βασιλίσσης Σοφίας / Κουμπάρη → Λυκείου",
-      "url": "https://www.google.com/maps?q=37.9755762273,23.7405578428",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51585634468005000",
-      "source": "TomTom (realtime)",
-      "title": "Skoufa (Platia Filikis Eterias) → Koubari (Platia Filikis Eterias)",
-      "url": "https://www.google.com/maps?q=37.9770099159,23.7404210502",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
-    },
-    {
-      "id": "TTI-TTR51591405352023005",
-      "source": "TomTom (realtime)",
-      "title": "Αρδηττού / Προς Λεωφόρο Βασιλίσσης Όλγας → Πλατεία Σκουζέ / Ρηγίλλης",
-      "url": "https://www.google.com/maps?q=37.9712444663,23.738634699",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51585634472005000",
-      "source": "TomTom (realtime)",
-      "title": "Tsakalof (Platia Filikis Eterias) → Skoufa (Platia Filikis Eterias)",
-      "url": "https://www.google.com/maps?q=37.9772861583,23.7410768503",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
-    },
-    {
-      "id": "TTI-TTR51585634396005000",
-      "source": "TomTom (realtime)",
-      "title": "Kanari (Platia Filikis Eterias) → Tsakalof (Platia Filikis Eterias)",
-      "url": "https://www.google.com/maps?q=37.9769602966,23.7402413422",
+      "title": "Ηρώδου Αττικού → Ρηγίλλης",
+      "url": "https://www.google.com/maps?q=37.9731904503,23.740175628",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -764,7 +479,7 @@
     {
       "id": "TTI-TTR51574092928014000",
       "source": "TomTom (realtime)",
-      "title": "Zakinthou (Spetson) → Skirou (Spetson)",
+      "title": "Zakinthou (Spetson) → Skopelou (Spetson)",
       "url": "https://www.google.com/maps?q=37.9990093837,23.7400495642",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
@@ -779,8 +494,23 @@
     {
       "id": "TTI-TTR51591405364003000",
       "source": "TomTom (realtime)",
-      "title": "Vas. Konstantinou Ave (Eratosthenous) → Arktinou (Eratosthenous)",
+      "title": "Vas. Konstantinou Ave (Eratosthenous) → Arrianou (Eratosthenous)",
       "url": "https://www.google.com/maps?q=37.9707911822,23.7414537006",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-07"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51591405448014000",
+      "source": "TomTom (realtime)",
+      "title": "Λεωφόρος Βασιλίσσης Σοφίας / Ρηγίλλης → Πατριάρχου Ιωακείμ",
+      "url": "https://www.google.com/maps?q=37.9770782994,23.7424434358",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -796,8 +526,8 @@
       "source": "TomTom (realtime)",
       "title": "Mimnermou (Rigillis) → Irodotou (Rigillis)",
       "url": "https://www.google.com/maps?q=37.9727330816,23.742549383",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
       "days": [
         "2026-11-07"
       ],
@@ -807,11 +537,11 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51591405448014000",
+      "id": "TTI-TTR51591405436004000",
       "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Βασιλίσσης Σοφίας / Ρηγίλλης → Πατριάρχου Ιωακείμ",
-      "url": "https://www.google.com/maps?q=37.9753227736,23.7430294984",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
+      "title": "Αρριανού → Λεωφόρος Βασιλέως Κωνσταντίνου",
+      "url": "https://www.google.com/maps?q=37.971416132,23.7436665231",
+      "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
         "2026-11-07"
@@ -837,6 +567,21 @@
       "new_this_run": false
     },
     {
+      "id": "TTI-TTR51585634432014000",
+      "source": "TomTom (realtime)",
+      "title": "Υψηλάντου → Λεωφόρος Βασιλίσσης Σοφίας",
+      "url": "https://www.google.com/maps?q=37.9763112118,23.7440943354",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-07"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
       "id": "TTI-TTR51591405352013001",
       "source": "TomTom (realtime)",
       "title": "Irodou Attikou (Vas. Georgiou Ave) → Ptolemeon (Vas. Georgiou Ave)",
@@ -852,22 +597,7 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51594290852012000",
-      "source": "TomTom (realtime)",
-      "title": "Vas. Sofias Ave (Rizari) → Vas. Konstantinou Ave (Rizari)",
-      "url": "https://www.google.com/maps?q=37.9754166626,23.7459745639",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
-    },
-    {
-      "id": "TTI-TTR51594290848004000",
+      "id": "TTI-TTR51594290848004001",
       "source": "TomTom (realtime)",
       "title": "Vas. Sofias Ave (Rizari) → Antinoros (Rizari)",
       "url": "https://www.google.com/maps?q=37.9742726755,23.7463675076",
@@ -884,98 +614,8 @@
     {
       "id": "TTI-TTR51594290920020000",
       "source": "TomTom (realtime)",
-      "title": "Evfroniou (Rizari) → Vas. Sofias Ave (Rizari)",
-      "url": "https://www.google.com/maps?q=37.9730590281,23.7468570107",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51588519904013004",
-      "source": "TomTom (realtime)",
-      "title": "Patriarchou Ioakim (Marasli) → Vas. Sofias Ave (Marasli)",
-      "url": "https://www.google.com/maps?q=37.978022447,23.7464010352",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51594290876010001",
-      "source": "TomTom (realtime)",
-      "title": "Vas. Alexandrou Ave (Vas. Konstantinou Ave) → Vas. Olgas Ave (Vas. Konstantinou Ave)",
-      "url": "https://www.google.com/maps?q=37.9759048041,23.7487439447",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51591405336018000",
-      "source": "TomTom (realtime)",
-      "title": "Vas. Olgas Ave (Vas. Konstantinou Ave) → Vas. Alexandrou Ave (Vas. Konstantinou Ave)",
-      "url": "https://www.google.com/maps?q=37.9691939613,23.7386119002",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51594290908003000",
-      "source": "TomTom (realtime)",
-      "title": "Mihalakopoulou (Vas. Alexandrou Ave) → Vas. Sofias Ave (Vas. Alexandrou Ave)",
-      "url": "https://www.google.com/maps?q=37.9751604993,23.7500810259",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51588519940011000",
-      "source": "TomTom (realtime)",
-      "title": "Αθήνα → Μαρασλή",
-      "url": "https://www.google.com/maps?q=37.9771292401,23.7505343193",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51594290660014001",
-      "source": "TomTom (realtime)",
-      "title": "Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
-      "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437",
+      "title": "Vas. Georgiou Ave (Rizari) → Vas. Konstantinou Ave (Rizari)",
+      "url": "https://www.google.com/maps?q=37.9725131842,23.7470554942",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -987,12 +627,27 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51591405352011000",
+      "id": "TTI-TTR51588520072010000",
       "source": "TomTom (realtime)",
-      "title": "Panepistimiou (Vas. Sofias Ave) → Lourou K. (Vas. Sofias Ave)",
-      "url": "https://www.google.com/maps?q=37.9761811166,23.7361536556",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
-      "area": "Ανατολικά",
+      "title": "Evzonon (Vas. Sofias Ave) → Papadiamantopoulou (Vas. Sofias Ave)",
+      "url": "https://www.google.com/maps?q=37.9790134916,23.7528973454",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-07"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "TTI-TTR51594290660014001",
+      "source": "TomTom (realtime)",
+      "title": "Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
+      "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
       "days": [
         "2026-11-07"
       ],
@@ -1014,7 +669,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": false
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51588519944012000",
@@ -1034,9 +689,9 @@
     {
       "id": "TTI-TTR51588519932010001",
       "source": "TomTom (realtime)",
-      "title": "Alexandras Ave (Vas. Sofias Ave) → Panepistimiou (Vas. Sofias Ave)",
-      "url": "https://www.google.com/maps?q=37.9855460569,23.7605523699",
-      "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
+      "title": "Xenias (Vas. Sofias Ave) → Kokkali (Vas. Sofias Ave)",
+      "url": "https://www.google.com/maps?q=37.9828892726,23.7571727866",
+      "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
         "2026-11-07"
@@ -2451,12 +2106,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-30T03:47:34+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-10-30T09:06:26+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2809,6 +2458,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-07T19:41:28+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
