@@ -1,6 +1,5 @@
 {
   "seen": [
-    "930Κ46ΜΤΛΒ-ΟΨΟ",
     "ΨΝΥ746ΜΤΛΒ-ΚΥΕ",
     "Ψ6ΗΛ46ΜΤΛΒ-78Λ",
     "TTI-TTR51597176260014000",
@@ -499,7 +498,8 @@
     "TTI-TTR51574092928014000",
     "TTI-TTR51594291004012000",
     "TTI-TTR51594291000004000",
-    "TTI-TTR51591405388012000"
+    "TTI-TTR51591405388012000",
+    "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/"
   ],
   "seeded": [
     "astynomia",
@@ -519,21 +519,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T03:56:28+00:00"
+      "last_success": "2026-11-07T10:51:18+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97,
-        "μόνο μία λωρίδα/ΛΕΑ": 2
+        "εκτός θέματος/Αθήνας": 100
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T03:56:28+00:00"
+      "last_success": "2026-11-07T10:51:19+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -546,7 +545,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T03:56:28+00:00"
+      "last_success": "2026-11-07T10:51:19+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -557,7 +556,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T03:56:28+00:00"
+      "last_success": "2026-11-07T10:51:19+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -565,46 +564,32 @@
       "items": 2,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8,
+        "παλιά ανακοίνωση": 2,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
         "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T03:56:28+00:00"
+      "last_success": "2026-11-07T10:51:19+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 27,
+      "items": 11,
+      "fetched": 39,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 17
+        "κατηγορία εκτός πολιτικής": 28
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T09:18:46+00:00"
+      "last_success": "2026-11-07T10:51:19+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [
-      {
-        "id": "Ρ3Ν746ΜΤΛΒ-ΙΥΣ",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "25847- Προσωρινές κυκλοφοριακές ρυθμίσεις για την εκτέλεση εργασιών στο πλαίσιο το έργου «Αποψίλωση και καθαρισμός βλάστησης και εύλεκτης ύλης από νησίδες πρανή και ερείσματα εκατέρωθεν οδικών αξόνων αρμοδιότητας Περιφερειακής Ενότητας Δυτικής Αττικής (Π.Ε.Δ.Α.)», για τα έτη 2025-2026-2027.",
-        "url": "https://diavgeia.gov.gr/decision/view/Ρ3Ν746ΜΤΛΒ-ΙΥΣ",
-        "details": "Επίσημη απόφαση Τροχαίας (06/11/2026)",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      }
-    ],
+    "diavgeia": [],
     "iefimerida": [
       {
         "id": "https://www.iefimerida.gr/ellada/se-ishy-kykloforiakes-rythmiseis-gia-ton-marathonio",
@@ -647,6 +632,22 @@
       }
     ],
     "kathimerini": [
+      {
+        "id": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
+        "source": "kathimerini",
+        "title": "Μαραθώνιος: Ολες οι κυκλοφοριακές ρυθμίσεις – Ποιοι δρόμοι κλείνουν το Σάββατο και την Κυριακή",
+        "url": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
+        "details": "",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-11-07",
+          "2026-11-08"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
       {
         "id": "https://www.kathimerini.gr/society/564569203/se-ischy-kykloforiakes-rythmiseis-gia-ton-marathonio-2/",
         "source": "kathimerini",
@@ -765,19 +766,6 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564499315/ektaktes-kykloforiakes-rythmiseis-sto-kentro-tis-athinas-to-savvatokyriako/",
-        "source": "kathimerini",
-        "title": "Έκτακτες κυκλοφοριακές ρυθμίσεις στο κέντρο της Αθήνας το Σαββατοκύριακο",
-        "url": "https://www.kathimerini.gr/society/564499315/ektaktes-kykloforiakes-rythmiseis-sto-kentro-tis-athinas-to-savvatokyriako/",
-        "details": "",
-        "area": "Κέντρο",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
       }
     ],
     "oasa": [
@@ -872,6 +860,21 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51591405388012001",
+        "source": "TomTom (realtime)",
+        "title": "Mourouzi (Irodou Attikou) → Vas. Georgiou Ave (Irodou Attikou)",
+        "url": "https://www.google.com/maps?q=37.9750062855,23.7404840821",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-07"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
         "id": "TTI-TTR51591405388012000",
         "source": "TomTom (realtime)",
         "title": "Λεωφόρος Βασιλίσσης Σοφίας / Κουμπάρη → Λυκείου",
@@ -884,7 +887,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51574092928014000",
@@ -1533,7 +1536,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-07T03:56:28+00:00",
+      "last_seen": "2026-11-07T10:51:19+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2115,7 +2118,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-05T15:58:07+00:00",
-      "last_seen": "2026-11-07T03:56:28+00:00",
+      "last_seen": "2026-11-07T10:51:19+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2180,6 +2183,27 @@
       "category": "",
       "first_seen": "2026-11-06T15:30:13+00:00",
       "last_seen": "2026-11-06T15:30:13+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/": {
+      "id": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
+      "source": "kathimerini",
+      "title": "Μαραθώνιος: Ολες οι κυκλοφοριακές ρυθμίσεις – Ποιοι δρόμοι κλείνουν το Σάββατο και την Κυριακή",
+      "url": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
+      "details": "",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-11-07T10:51:19+00:00",
+      "last_seen": "2026-11-07T10:51:19+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2375,12 +2399,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-29T20:41:34+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-29T23:43:31+00:00",
       "new": 0,
@@ -2734,6 +2752,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-07T10:51:19+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
