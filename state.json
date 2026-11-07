@@ -1,6 +1,5 @@
 {
   "seen": [
-    "9Ι9Π46ΜΤΛΒ-Κ4Ξ",
     "930Κ46ΜΤΛΒ-ΟΨΟ",
     "ΨΝΥ746ΜΤΛΒ-ΚΥΕ",
     "Ψ6ΗΛ46ΜΤΛΒ-78Λ",
@@ -499,7 +498,8 @@
     "Ρ3Ν746ΜΤΛΒ-ΙΥΣ",
     "TTI-TTR51574092928014000",
     "TTI-TTR51594291004012000",
-    "TTI-TTR51594291000004000"
+    "TTI-TTR51594291000004000",
+    "TTI-TTR51591405388012000"
   ],
   "seeded": [
     "astynomia",
@@ -577,15 +577,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 11,
+      "items": 10,
+      "fetched": 27,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 2
+        "κατηγορία εκτός πολιτικής": 17
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T03:56:28+00:00"
+      "last_success": "2026-11-07T09:18:46+00:00"
     }
   },
   "active": {
@@ -870,6 +870,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51591405388012000",
+        "source": "TomTom (realtime)",
+        "title": "Λεωφόρος Βασιλίσσης Σοφίας / Κουμπάρη → Λυκείου",
+        "url": "https://www.google.com/maps?q=37.9755762273,23.7405578428",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-07"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51574092928014000",
@@ -2175,15 +2190,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-11-06"
+    "151797168": "2026-11-07"
   },
   "notifications": [
-    {
-      "time": "2026-10-27T17:07:58+00:00",
-      "source": "ΟΑΣΑ",
-      "title": "🚨 Λειτουργία των ΜΜΜ λόγω των εορταστικών εκδηλώσεων για την Εθνική Επέτειο της 28ης Οκτωβρίου",
-      "url": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%cf%84%cf%89%ce%bd-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%cf%89%ce%bd-%ce%b5%ce%bf%cf%81%cf%84%ce%b1%cf%83%cf%84%ce%b9%ce%ba-4/"
-    },
     {
       "time": "2026-10-28T09:01:40+00:00",
       "source": "Ενημέρωση",
@@ -2357,15 +2366,15 @@
       "source": "iefimerida",
       "title": "🚨 Κυκλοφοριακές ρυθμίσεις στην Ιόνια Οδό για 5 ημέρες, ποιες περιοχές επηρεάζονται",
       "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ionia-odos-gia-5-imeres"
+    },
+    {
+      "time": "2026-11-07T09:18:47+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-29T17:51:01+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-10-29T20:41:34+00:00",
       "new": 0,
@@ -2719,6 +2728,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-07T09:18:47+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
