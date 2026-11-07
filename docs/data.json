@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T19:41:28+00:00",
+  "generated_at": "2026-11-07T23:07:57+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -67,15 +67,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 30,
-      "fetched": 53,
+      "items": 11,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 23
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T19:41:28+00:00"
+      "last_success": "2026-11-07T23:07:57+00:00"
     }
   ],
   "active_events": [
@@ -289,7 +289,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-11-07"
+        "2026-11-08"
       ],
       "hours": [],
       "plain": "",
@@ -304,22 +304,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51582749132013000",
-      "source": "TomTom (realtime)",
-      "title": "Stadiou (Pesmazoglou) → Sofokleous (Pesmazoglou)",
-      "url": "https://www.google.com/maps?q=37.980901791,23.7308522695",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
+        "2026-11-08"
       ],
       "hours": [],
       "plain": "",
@@ -334,112 +319,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51597176216010000",
-      "source": "TomTom (realtime)",
-      "title": "Αθανασίου Διάκου / Αρδηττού → Βούρβαχη",
-      "url": "https://www.google.com/maps?q=37.967225206,23.7333386773",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
-    },
-    {
-      "id": "TTI-TTR51591405356014000",
-      "source": "TomTom (realtime)",
-      "title": "Φιλελλήνων / Ναυάρχου Νικοδήμου → Λεωφόρος Βασιλίσσης Αμαλίας",
-      "url": "https://www.google.com/maps?q=37.97346935,23.7337530786",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51591405352014000",
-      "source": "TomTom (realtime)",
-      "title": "Προς Γεωργίου Πρώτου → Φιλελλήνων",
-      "url": "https://www.google.com/maps?q=37.9740366608,23.7351987892",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51591405444003000",
-      "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Βασιλίσσης Αμαλίας / Προς Λεωφόρο Βασιλίσσης Σοφίας → Ελευθερίου Βενιζέλου",
-      "url": "https://www.google.com/maps?q=37.9761811166,23.7361536556",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
-    },
-    {
-      "id": "TTI-TTR51597176144002001",
-      "source": "TomTom (realtime)",
-      "title": "Karea (Ardittou) → Theotoki (Ardittou)",
-      "url": "https://www.google.com/maps?q=37.9671527825,23.7336739534",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51597176248012000",
-      "source": "TomTom (realtime)",
-      "title": "Voulgareos Evg. (Mousourou M.) → Ardittou (Mousourou M.)",
-      "url": "https://www.google.com/maps?q=37.9667625137,23.7379842633",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
-    },
-    {
-      "id": "TTI-TTR51585634372011000",
-      "source": "TomTom (realtime)",
-      "title": "Vas. Sofias Ave (Sekeri) → Kanari (Sekeri)",
-      "url": "https://www.google.com/maps?q=37.9763085029,23.7391858929",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
+        "2026-11-08"
       ],
       "hours": [],
       "plain": "",
@@ -454,27 +334,12 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-07"
+        "2026-11-08"
       ],
       "hours": [],
       "plain": "",
       "category": "",
       "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51591405352013000",
-      "source": "TomTom (realtime)",
-      "title": "Ηρώδου Αττικού → Ρηγίλλης",
-      "url": "https://www.google.com/maps?q=37.9731904503,23.740175628",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
     },
     {
       "id": "TTI-TTR51574092928014000",
@@ -484,7 +349,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-11-07"
+        "2026-11-08"
       ],
       "hours": [],
       "plain": "",
@@ -499,7 +364,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-07"
+        "2026-11-08"
       ],
       "hours": [],
       "plain": "",
@@ -507,134 +372,14 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51591405448014000",
+      "id": "TTI-TTR51591405224011000",
       "source": "TomTom (realtime)",
-      "title": "Λεωφόρος Βασιλίσσης Σοφίας / Ρηγίλλης → Πατριάρχου Ιωακείμ",
-      "url": "https://www.google.com/maps?q=37.9770782994,23.7424434358",
+      "title": "Ktisiviou (Eratosthenous) → Tsiklitira K. (Eratosthenous)",
+      "url": "https://www.google.com/maps?q=37.9694406963,23.7428350383",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51591405316004000",
-      "source": "TomTom (realtime)",
-      "title": "Mimnermou (Rigillis) → Irodotou (Rigillis)",
-      "url": "https://www.google.com/maps?q=37.9727330816,23.742549383",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51591405436004000",
-      "source": "TomTom (realtime)",
-      "title": "Αρριανού → Λεωφόρος Βασιλέως Κωνσταντίνου",
-      "url": "https://www.google.com/maps?q=37.971416132,23.7436665231",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
-    },
-    {
-      "id": "TTI-TTR51591405436003001",
-      "source": "TomTom (realtime)",
-      "title": "Pilariou (Eratosthenous) → Vas. Konstantinou Ave (Eratosthenous)",
-      "url": "https://www.google.com/maps?q=37.9684268574,23.7438046568",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51585634432014000",
-      "source": "TomTom (realtime)",
-      "title": "Υψηλάντου → Λεωφόρος Βασιλίσσης Σοφίας",
-      "url": "https://www.google.com/maps?q=37.9763112118,23.7440943354",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
-    },
-    {
-      "id": "TTI-TTR51591405352013001",
-      "source": "TomTom (realtime)",
-      "title": "Irodou Attikou (Vas. Georgiou Ave) → Ptolemeon (Vas. Georgiou Ave)",
-      "url": "https://www.google.com/maps?q=37.9730992675,23.7414832049",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51594290848004001",
-      "source": "TomTom (realtime)",
-      "title": "Vas. Sofias Ave (Rizari) → Antinoros (Rizari)",
-      "url": "https://www.google.com/maps?q=37.9742726755,23.7463675076",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
-    },
-    {
-      "id": "TTI-TTR51594290920020000",
-      "source": "TomTom (realtime)",
-      "title": "Vas. Georgiou Ave (Rizari) → Vas. Konstantinou Ave (Rizari)",
-      "url": "https://www.google.com/maps?q=37.9725131842,23.7470554942",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51588520072010000",
-      "source": "TomTom (realtime)",
-      "title": "Evzonon (Vas. Sofias Ave) → Papadiamantopoulou (Vas. Sofias Ave)",
-      "url": "https://www.google.com/maps?q=37.9790134916,23.7528973454",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
+        "2026-11-08"
       ],
       "hours": [],
       "plain": "",
@@ -649,7 +394,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-07"
+        "2026-11-08"
       ],
       "hours": [],
       "plain": "",
@@ -664,37 +409,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": true
-    },
-    {
-      "id": "TTI-TTR51588519944012000",
-      "source": "TomTom (realtime)",
-      "title": "Mihalakopoulou (Papadiamantopoulou) → Vas. Sofias Ave (Papadiamantopoulou)",
-      "url": "https://www.google.com/maps?q=37.9789182859,23.7556989127",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-07"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51588519932010001",
-      "source": "TomTom (realtime)",
-      "title": "Xenias (Vas. Sofias Ave) → Kokkali (Vas. Sofias Ave)",
-      "url": "https://www.google.com/maps?q=37.9828892726,23.7571727866",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-07"
+        "2026-11-08"
       ],
       "hours": [],
       "plain": "",
@@ -709,7 +424,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-11-07"
+        "2026-11-08"
       ],
       "hours": [],
       "plain": "",
@@ -724,7 +439,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-11-07"
+        "2026-11-08"
       ],
       "hours": [],
       "plain": "",
@@ -1149,82 +864,6 @@
       "status": "active"
     },
     {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-139/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση της διαδρομής των λεωφορειακών γραμμών 724 και 727, λόγω εργασιών στην λεωφόρο Καραμανλή μεταξύ των οδών Αγίας Τριάδος και Μαντζάρου, του Δήμου Αχαρνών",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-139/",
-      "details": "",
-      "area": "Βόρεια",
-      "days": [
-        "2026-10-30",
-        "2026-10-31"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-10-29T10:36:47+00:00",
-      "last_seen": "2026-10-29T10:36:47+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
-      "source": "kathimerini",
-      "title": "Κυκλοφοριακές ρυθμίσεις το Σάββατο στο κέντρο λόγω του εορτασμού του Αγίου Διονυσίου Αρεοπαγίτη",
-      "url": "https://www.kathimerini.gr/society/564491203/kykloforiakes-rythmiseis-to-savvato-sto-kentro-logo-toy-eortasmoy-toy-agioy-dionysioy-areopagiti/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-10-31"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-30T03:47:34+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "ΨΦΘ046ΜΤΛΒ-Θ0Α",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25821 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στα κάτωθι οδικά τμήματα, περιοχής Δήμων Αγ. Δημητρίου, Ελληνικού, Γλυφάδας και Βάρης-Βούλας-Βουλιαγμένης, ρεύμα κυκλοφορίας προς Βουλιαγμένη, στις 31/10/2026 κατά τις ώρες 23.00΄ έως 06.00΄ της",
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΦΘ046ΜΤΛΒ-Θ0Α",
-      "details": "Επίσημη απόφαση Τροχαίας (30/10/2026)",
-      "area": "Νότια",
-      "days": [
-        "2026-10-31"
-      ],
-      "hours": [
-        "23:00",
-        "06:00"
-      ],
-      "plain": "Διακοπή κυκλοφορίας — Δήμων Αγ. Δημητρίου (προς Βουλιαγμένη) · 31/10, 23:00–06:00",
-      "category": "",
-      "first_seen": "2026-10-30T17:31:59+00:00",
-      "last_seen": "2026-10-31T03:31:05+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "https://www.kathimerini.gr/society/564560518/ypopto-antikeimeno-sti-leoforo-syggroy-kykloforiakes-rythmiseis/",
-      "source": "kathimerini",
-      "title": "Ύποπτο αντικείμενο στη λεωφόρο Συγγρού – Κυκλοφοριακές ρυθμίσεις",
-      "url": "https://www.kathimerini.gr/society/564560518/ypopto-antikeimeno-sti-leoforo-syggroy-kykloforiakes-rythmiseis/",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-10-31"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-10-31T22:57:06+00:00",
-      "last_seen": "2026-10-31T22:57:06+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
       "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
       "source": "kathimerini",
       "title": "Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Αθήνα για το «Greece Race for the Cure 2026»",
@@ -1612,7 +1251,7 @@
       "first_seen": "2026-10-30T17:31:59+00:00",
       "last_seen": "2026-10-31T03:31:05+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-319/",
@@ -1630,7 +1269,7 @@
       "first_seen": "2026-11-06T04:29:44+00:00",
       "last_seen": "2026-11-06T04:29:44+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
@@ -1667,7 +1306,7 @@
       "first_seen": "2026-10-10T10:19:27+00:00",
       "last_seen": "2026-11-07T17:13:49+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-anakoinosi-trohaias",
@@ -1685,7 +1324,7 @@
       "first_seen": "2026-11-03T21:22:55+00:00",
       "last_seen": "2026-11-06T15:30:13+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b5%ce%be%ce%b1%ce%b3%cf%89%ce%b3%ce%ae%cf%82-%cf%84%ce%bf-5/",
@@ -1703,7 +1342,7 @@
       "first_seen": "2026-11-05T15:58:07+00:00",
       "last_seen": "2026-11-07T17:13:50+00:00",
       "extended": false,
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-7/",
@@ -2106,12 +1745,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-30T09:06:26+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-30T10:38:55+00:00",
       "new": 1,
       "sources_ok": 6,
@@ -2461,6 +2094,12 @@
     },
     {
       "time": "2026-11-07T19:41:28+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-11-07T23:07:57+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
