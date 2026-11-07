@@ -1,15 +1,5 @@
 {
   "seen": [
-    "TTI-TTR51594290912011001",
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-112/",
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-113/",
-    "9ΥΤΠ46ΜΤΛΒ-ΠΩ1",
-    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-5/",
-    "TTI-TTR51608717896013000",
-    "9ΛΣΞ46ΜΤΛΒ-Υ3Σ",
-    "Ψ6ΔΒ46ΜΤΛΒ-9ΔΓ",
-    "https://www.kathimerini.gr/society/564374677/thessaloniki-kleisto-kommati-tis-perifereiakis-to-savvato/",
-    "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf-22/",
     "TTI-TTR51600061716012000",
     "96ΩΡ46ΜΤΛΒ-ΒΘΦ",
     "ΡΨΧΔ46ΜΤΛΒ-Κ14",
@@ -499,7 +489,17 @@
     "TTI-TTR51594290908003000",
     "TTI-TTR51588519940011000",
     "TTI-TTR51588519944012000",
-    "TTI-TTR51588519932010001"
+    "TTI-TTR51588519932010001",
+    "TTI-TTR51582749152010000",
+    "TTI-TTR51582749152013000",
+    "TTI-TTR51582749100003000",
+    "TTI-TTR51585634536013004",
+    "TTI-TTR51585634468005000",
+    "TTI-TTR51585634472005000",
+    "TTI-TTR51585634396005000",
+    "TTI-TTR51591405448014000",
+    "TTI-TTR51594290852012000",
+    "TTI-TTR51594290848004000"
   ],
   "seeded": [
     "astynomia",
@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T10:51:18+00:00"
+      "last_success": "2026-11-07T17:13:49+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -532,7 +532,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T10:51:19+00:00"
+      "last_success": "2026-11-07T17:13:49+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -545,7 +545,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T10:51:19+00:00"
+      "last_success": "2026-11-07T17:13:49+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -556,7 +556,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T10:51:19+00:00"
+      "last_success": "2026-11-07T17:13:49+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -564,27 +564,27 @@
       "items": 2,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 2,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
+        "παλιά ανακοίνωση": 3,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
         "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T10:51:19+00:00"
+      "last_success": "2026-11-07T17:13:50+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 45,
-      "fetched": 102,
+      "items": 53,
+      "fetched": 99,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 57
+        "κατηγορία εκτός πολιτικής": 46
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T15:46:47+00:00"
+      "last_success": "2026-11-07T17:13:50+00:00"
     }
   },
   "active": {
@@ -646,7 +646,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.kathimerini.gr/society/564569203/se-ischy-kykloforiakes-rythmiseis-gia-ton-marathonio-2/",
@@ -830,6 +830,36 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51582749152010000",
+        "source": "TomTom (realtime)",
+        "title": "Menandrou (Ag. Konstantinou) → Platia Karaiskaki (Ag. Konstantinou)",
+        "url": "https://www.google.com/maps?q=37.9845334975,23.7255535656",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-07"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51582749152013000",
+        "source": "TomTom (realtime)",
+        "title": "Pesmazoglou (Sofokleous) → Athinas (Sofokleous)",
+        "url": "https://www.google.com/maps?q=37.980628205,23.7299389773",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-07"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
         "id": "TTI-TTR51576978136011000",
         "source": "TomTom (realtime)",
         "title": "Patision (Halkokondili) → Akadimias (Halkokondili)",
@@ -842,7 +872,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51582749160031000",
@@ -860,21 +890,6 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51576978152011000",
-        "source": "TomTom (realtime)",
-        "title": "Χαλκοκονδύλη / Κάνιγγος → Χαριλάου Τρικούπη",
-        "url": "https://www.google.com/maps?q=37.9858383865,23.730769121",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-07"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
-      },
-      {
         "id": "TTI-TTR51582749132013000",
         "source": "TomTom (realtime)",
         "title": "Panepistimiou (Pesmazoglou) → Sofokleous (Pesmazoglou)",
@@ -887,13 +902,28 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51588519712002000",
         "source": "TomTom (realtime)",
         "title": "Diakou Ath. (Siggrou Andr. Ave) → Lisikratous (Siggrou Andr. Ave)",
         "url": "https://www.google.com/maps?q=37.9681478725,23.7314262622",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-07"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51582749100003000",
+        "source": "TomTom (realtime)",
+        "title": "Tzortz (Akadimias) → Benaki Emm. (Akadimias)",
+        "url": "https://www.google.com/maps?q=37.985124902,23.7314182156",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -917,7 +947,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51591405356014000",
@@ -932,7 +962,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51582749136018000",
@@ -962,7 +992,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51591405352014000",
@@ -977,7 +1007,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51591405412003001",
@@ -992,7 +1022,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51591405324010000",
@@ -1022,7 +1052,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51585634392021000",
@@ -1052,7 +1082,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51591405268034000",
@@ -1067,7 +1097,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51582749100010000",
@@ -1076,6 +1106,21 @@
         "url": "https://www.google.com/maps?q=37.9829067139,23.7331871325",
         "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
         "area": "Ανατολικά",
+        "days": [
+          "2026-11-07"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51585634536013004",
+        "source": "TomTom (realtime)",
+        "title": "Ακαδημίας / Αμερικής → Σκουφά",
+        "url": "https://www.google.com/maps?q=37.9789169645,23.7364580863",
+        "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
+        "area": "Κέντρο",
         "days": [
           "2026-11-07"
         ],
@@ -1097,7 +1142,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51585634372011000",
@@ -1142,7 +1187,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51591405388012001",
@@ -1175,12 +1220,57 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51585634468005000",
+        "source": "TomTom (realtime)",
+        "title": "Skoufa (Platia Filikis Eterias) → Koubari (Platia Filikis Eterias)",
+        "url": "https://www.google.com/maps?q=37.9770099159,23.7404210502",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-07"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
         "id": "TTI-TTR51591405352023005",
         "source": "TomTom (realtime)",
         "title": "Αρδηττού / Προς Λεωφόρο Βασιλίσσης Όλγας → Πλατεία Σκουζέ / Ρηγίλλης",
         "url": "https://www.google.com/maps?q=37.9712444663,23.738634699",
         "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
         "area": "Ανατολικά",
+        "days": [
+          "2026-11-07"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51585634472005000",
+        "source": "TomTom (realtime)",
+        "title": "Tsakalof (Platia Filikis Eterias) → Skoufa (Platia Filikis Eterias)",
+        "url": "https://www.google.com/maps?q=37.9772861583,23.7410768503",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-07"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51585634396005000",
+        "source": "TomTom (realtime)",
+        "title": "Kanari (Platia Filikis Eterias) → Tsakalof (Platia Filikis Eterias)",
+        "url": "https://www.google.com/maps?q=37.9769602966,23.7402413422",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
         "days": [
           "2026-11-07"
         ],
@@ -1217,22 +1307,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
-      },
-      {
-        "id": "TTI-TTR51591405436003001",
-        "source": "TomTom (realtime)",
-        "title": "Arrianou (Eratosthenous) → Vas. Konstantinou Ave (Eratosthenous)",
-        "url": "https://www.google.com/maps?q=37.9699919153,23.7422945732",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-07"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51591405316004000",
@@ -1247,13 +1322,73 @@
         "hours": [],
         "plain": "",
         "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51591405448014000",
+        "source": "TomTom (realtime)",
+        "title": "Λεωφόρος Βασιλίσσης Σοφίας / Ρηγίλλης → Πατριάρχου Ιωακείμ",
+        "url": "https://www.google.com/maps?q=37.9753227736,23.7430294984",
+        "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-07"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
         "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51591405436003001",
+        "source": "TomTom (realtime)",
+        "title": "Pilariou (Eratosthenous) → Vas. Konstantinou Ave (Eratosthenous)",
+        "url": "https://www.google.com/maps?q=37.9684268574,23.7438046568",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-07"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51591405352013001",
         "source": "TomTom (realtime)",
-        "title": "Irodou Attikou (Vas. Georgiou Ave) → Kleanthous (Vas. Georgiou Ave)",
+        "title": "Irodou Attikou (Vas. Georgiou Ave) → Ptolemeon (Vas. Georgiou Ave)",
         "url": "https://www.google.com/maps?q=37.9730992675,23.7414832049",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-07"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51594290852012000",
+        "source": "TomTom (realtime)",
+        "title": "Vas. Sofias Ave (Rizari) → Vas. Konstantinou Ave (Rizari)",
+        "url": "https://www.google.com/maps?q=37.9754166626,23.7459745639",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-07"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51594290848004000",
+        "source": "TomTom (realtime)",
+        "title": "Vas. Sofias Ave (Rizari) → Antinoros (Rizari)",
+        "url": "https://www.google.com/maps?q=37.9742726755,23.7463675076",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -1267,8 +1402,8 @@
       {
         "id": "TTI-TTR51594290920020000",
         "source": "TomTom (realtime)",
-        "title": "Vas. Konstantinou Ave (Rizari) → Vas. Sofias Ave (Rizari)",
-        "url": "https://www.google.com/maps?q=37.974465808,23.7462977701",
+        "title": "Evfroniou (Rizari) → Vas. Sofias Ave (Rizari)",
+        "url": "https://www.google.com/maps?q=37.9730590281,23.7468570107",
         "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
         "area": "Ανατολικά",
         "days": [
@@ -1277,22 +1412,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
-      },
-      {
-        "id": "TTI-TTR51594290920004000",
-        "source": "TomTom (realtime)",
-        "title": "Timarchou (Rizari) → Vas. Konstantinou Ave (Rizari)",
-        "url": "https://www.google.com/maps?q=37.9734908241,23.7466960782",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-07"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51588519904013004",
@@ -1307,7 +1427,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51594290876010001",
@@ -1322,7 +1442,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51591405336018000",
@@ -1337,7 +1457,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51594290908003000",
@@ -1352,7 +1472,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51588519940011000",
@@ -1367,7 +1487,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51594290660014001",
@@ -1387,8 +1507,8 @@
       {
         "id": "TTI-TTR51591405352011000",
         "source": "TomTom (realtime)",
-        "title": "Akadimias (Vas. Sofias Ave) → Lourou K. (Vas. Sofias Ave)",
-        "url": "https://www.google.com/maps?q=37.9760054317,23.7375886374",
+        "title": "Panepistimiou (Vas. Sofias Ave) → Lourou K. (Vas. Sofias Ave)",
+        "url": "https://www.google.com/maps?q=37.9761811166,23.7361536556",
         "details": "Κλειστός δρόμος — Κλειστό; Μαραθώνιος",
         "area": "Ανατολικά",
         "days": [
@@ -1427,7 +1547,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51588519932010001",
@@ -1442,7 +1562,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51594291004012000",
@@ -2046,7 +2166,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-07T10:51:19+00:00",
+      "last_seen": "2026-11-07T17:13:49+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2628,7 +2748,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-05T15:58:07+00:00",
-      "last_seen": "2026-11-07T10:51:19+00:00",
+      "last_seen": "2026-11-07T17:13:50+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2713,7 +2833,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-07T10:51:19+00:00",
+      "last_seen": "2026-11-07T17:13:49+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2909,12 +3029,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-30T00:27:57+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-30T03:47:34+00:00",
       "new": 0,
@@ -3268,6 +3382,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-07T17:13:50+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
