@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T23:17:17+00:00",
+  "generated_at": "2026-11-08T03:41:42+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -10,7 +10,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T23:17:15+00:00"
+      "last_success": "2026-11-08T03:41:42+00:00"
     },
     {
       "name": "diavgeia",
@@ -23,7 +23,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T23:17:15+00:00"
+      "last_success": "2026-11-08T03:41:42+00:00"
     },
     {
       "name": "iefimerida",
@@ -36,7 +36,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T23:17:16+00:00"
+      "last_success": "2026-11-08T03:41:42+00:00"
     },
     {
       "name": "kathimerini",
@@ -47,7 +47,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T23:17:16+00:00"
+      "last_success": "2026-11-08T03:41:42+00:00"
     },
     {
       "name": "oasa",
@@ -62,20 +62,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T23:17:16+00:00"
+      "last_success": "2026-11-08T03:41:42+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 16,
+      "items": 10,
+      "fetched": 13,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 5
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-07T23:17:16+00:00"
+      "last_success": "2026-11-08T03:41:42+00:00"
     }
   ],
   "active_events": [
@@ -90,7 +90,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.iefimerida.gr/ellada/se-ishy-kykloforiakes-rythmiseis-gia-ton-marathonio",
@@ -357,7 +357,7 @@
     {
       "id": "TTI-TTR51574092928014000",
       "source": "TomTom (realtime)",
-      "title": "Zakinthou (Spetson) → Skopelou (Spetson)",
+      "title": "Zakinthou (Spetson) → Dodekanisou (Spetson)",
       "url": "https://www.google.com/maps?q=37.9990093837,23.7400495642",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
@@ -372,23 +372,8 @@
     {
       "id": "TTI-TTR51591405364003000",
       "source": "TomTom (realtime)",
-      "title": "Vas. Konstantinou Ave (Eratosthenous) → Arrianou (Eratosthenous)",
+      "title": "Vas. Konstantinou Ave (Eratosthenous) → Platia Plastira N. (Eratosthenous)",
       "url": "https://www.google.com/maps?q=37.9707911822,23.7414537006",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-08"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "TTI-TTR51591405224011000",
-      "source": "TomTom (realtime)",
-      "title": "Platia Ag. Spiridonos (Eratosthenous) → Pilariou (Eratosthenous)",
-      "url": "https://www.google.com/maps?q=37.9697947404,23.7424756223",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -1299,7 +1284,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-07T23:17:16+00:00",
+      "last_seen": "2026-11-08T03:41:42+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1317,7 +1302,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-07T23:17:16+00:00",
+      "last_seen": "2026-11-08T03:41:42+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1353,7 +1338,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-05T15:58:07+00:00",
-      "last_seen": "2026-11-07T23:17:16+00:00",
+      "last_seen": "2026-11-08T03:41:42+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1758,12 +1743,6 @@
   ],
   "runs": [
     {
-      "time": "2026-10-30T16:02:38+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-10-30T17:32:00+00:00",
       "new": 1,
       "sources_ok": 6,
@@ -2114,6 +2093,12 @@
     {
       "time": "2026-11-07T23:17:17+00:00",
       "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
+    },
+    {
+      "time": "2026-11-08T03:41:42+00:00",
+      "new": 0,
       "sources_ok": 6,
       "sources_total": 6
     }
