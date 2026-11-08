@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T17:26:43+00:00"
+      "last_success": "2026-11-08T23:19:59+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -532,7 +532,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T17:26:43+00:00"
+      "last_success": "2026-11-08T23:19:59+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -543,9 +543,9 @@
         "χωρίς/παλιά ημερομηνία": 7
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T17:26:44+00:00"
+      "last_success": "2026-11-08T23:19:59+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -556,7 +556,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T17:26:44+00:00"
+      "last_success": "2026-11-08T23:19:59+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -571,20 +571,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T17:26:44+00:00"
+      "last_success": "2026-11-08T23:19:59+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 20,
-      "fetched": 22,
+      "items": 16,
+      "fetched": 18,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T20:38:15+00:00"
+      "last_success": "2026-11-08T23:19:59+00:00"
     }
   },
   "active": {
@@ -598,13 +598,11 @@
         "url": "https://www.iefimerida.gr/ellada/43os-marathonios-mehri-pote-kykloforiakes-rythmiseis",
         "details": "",
         "area": "Ανατολικά",
-        "days": [
-          "2026-11-09"
-        ],
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.iefimerida.gr/ellada/43os-aythentikos-marathonios-kleisto-kentro-athinas",
@@ -655,22 +653,6 @@
         "details": "",
         "area": "Ανατολικά",
         "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
-        "source": "kathimerini",
-        "title": "Μαραθώνιος: Ολες οι κυκλοφοριακές ρυθμίσεις – Ποιοι δρόμοι κλείνουν το Σάββατο και την Κυριακή",
-        "url": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
-        "details": "",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-11-07",
-          "2026-11-08"
-        ],
         "hours": [],
         "plain": "",
         "category": "",
@@ -755,21 +737,6 @@
         "new_this_run": false
       },
       {
-        "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
-        "source": "kathimerini",
-        "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
-        "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
-        "details": "",
-        "area": "",
-        "days": [
-          "2026-11-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
         "id": "https://www.kathimerini.gr/society/564505150/episkepsi-roympio-drakonteia-metra-asfaleias-kykloforiakes-rythmiseis-kai-apagoreysi-sygkentroseon/",
         "source": "kathimerini",
         "title": "Επίσκεψη Ρούμπιο: Δρακόντεια μέτρα ασφαλείας – Κυκλοφοριακές ρυθμίσεις και απαγόρευση συγκεντρώσεων",
@@ -798,21 +765,6 @@
         "new_this_run": false
       },
       {
-        "id": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b5%ce%be%ce%b1%ce%b3%cf%89%ce%b3%ce%ae%cf%82-%cf%84%ce%bf-5/",
-        "source": "ΟΑΣΑ",
-        "title": "Λειτουργία ΜΜΜ λόγω της διεξαγωγής του 43ου Αυθεντικού Μαραθωνίου Αθηνών στις 06, 07 & 08/11/2026",
-        "url": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b5%ce%be%ce%b1%ce%b3%cf%89%ce%b3%ce%ae%cf%82-%cf%84%ce%bf-5/",
-        "details": "",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-11-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
         "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-319/",
         "source": "ΟΑΣΑ",
         "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 054, 608 και 622 λόγω εργασιών στην οδό Δροσοπούλου 143 στον Δήμο Αθηναίων",
@@ -835,7 +787,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
@@ -850,7 +802,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
@@ -865,42 +817,12 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51597176124006000",
-        "source": "TomTom (realtime)",
-        "title": "Καρέα / Τριβωνιανού → Αρδηττού",
-        "url": "https://www.google.com/maps?q=37.9667477778,23.7342224651",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
-      },
-      {
-        "id": "TTI-TTR51591405232004000",
-        "source": "TomTom (realtime)",
-        "title": "Αρδηττού → Πηγά Μελετίου",
-        "url": "https://www.google.com/maps?q=37.9681519033,23.7373230988",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
       },
       {
         "id": "TTI-TTR51591405304004000",
@@ -910,22 +832,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51591405232012000",
-        "source": "TomTom (realtime)",
-        "title": "Piga M. (Mousourou M.) → Voulgareos Evg. (Mousourou M.)",
-        "url": "https://www.google.com/maps?q=37.9678233579,23.737480008",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
@@ -940,7 +847,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
@@ -955,7 +862,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
@@ -970,7 +877,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
@@ -985,7 +892,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
@@ -995,27 +902,12 @@
       {
         "id": "TTI-TTR51591405368011000",
         "source": "TomTom (realtime)",
-        "title": "Vas. Konstantinou Ave (Eratosthenous) → Platia Plastira N. (Eratosthenous)",
+        "title": "Vas. Konstantinou Ave (Eratosthenous) → Pilariou (Eratosthenous)",
         "url": "https://www.google.com/maps?q=37.9707911822,23.7414537006",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51585634432014000",
-        "source": "TomTom (realtime)",
-        "title": "Υψηλάντου → Λεωφόρος Βασιλίσσης Σοφίας",
-        "url": "https://www.google.com/maps?q=37.9763112118,23.7440943354",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
@@ -1030,7 +922,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
@@ -1045,7 +937,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
@@ -1060,7 +952,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
@@ -1075,7 +967,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
@@ -1090,7 +982,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
@@ -1105,7 +997,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
@@ -1120,7 +1012,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-08"
+          "2026-11-09"
         ],
         "hours": [],
         "plain": "",
@@ -1304,26 +1196,6 @@
         "151797168"
       ],
       "category": ""
-    },
-    "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/": {
-      "id": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
-      "source": "kathimerini",
-      "title": "Κυκλοφοριακές ρυθμίσεις την Κυριακή στην Αθήνα για το «Greece Race for the Cure 2026»",
-      "url": "https://www.kathimerini.gr/society/564491440/kykloforiakes-rythmiseis-tin-kyriaki-stin-athina-gia-to-greece-race-for-the-cure-2026/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-11-01"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-09-30T17:20:52+00:00",
-      "last_seen": "2026-10-31T16:37:14+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
     },
     "90ΜΓ46ΜΤΛΒ-77Ψ": {
       "id": "90ΜΓ46ΜΤΛΒ-77Ψ",
@@ -1679,7 +1551,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-08T17:26:44+00:00",
+      "last_seen": "2026-11-08T23:19:59+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1791,29 +1663,6 @@
         "151797168"
       ]
     },
-    "9Ο3846ΜΤΛΒ-Ν02": {
-      "id": "9Ο3846ΜΤΛΒ-Ν02",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25823 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων επί της Λεωφ. Βασ. Σοφίας, στο ύψος του ο.α.04, ρεύμα κυκλοφορίας προς Λεωφ. Βασ. Κωνσταντίνου, περιοχής Δήμου Αθηναίων, την 01-11-2026 κατά τις ώρες 08.30΄ έως 13.00΄, λόγω εκτέλεσης εργασιών μετακόμισης.",
-      "url": "https://diavgeia.gov.gr/decision/view/9Ο3846ΜΤΛΒ-Ν02",
-      "details": "Επίσημη απόφαση Τροχαίας (30/10/2026)",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-01"
-      ],
-      "hours": [
-        "08:30",
-        "13:00"
-      ],
-      "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Σοφίας (ύψος αρ. 04, προς Λεωφ. Βασ. Κωνσταντίνου, Δήμου Αθηναίων) · 1/11, 08:30–13:00 · λόγω εργασιών μετακόμισης",
-      "category": "",
-      "first_seen": "2026-10-30T10:38:52+00:00",
-      "last_seen": "2026-10-30T10:38:52+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
     "ΡΝ3Φ46ΜΤΛΒ-Δ29": {
       "id": "ΡΝ3Φ46ΜΤΛΒ-Δ29",
       "source": "Διαύγεια (Τροχαία)",
@@ -1829,26 +1678,6 @@
       "category": "",
       "first_seen": "2026-10-30T17:31:59+00:00",
       "last_seen": "2026-10-31T03:31:05+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-310/": {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-310/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση των λεωφ. γραμμών 608, 230, 235 και 140 λόγω διοργάνωσης του Αγώνα Δρόμου «5o Zografou City Run» του Δήμου Ζωγράφου",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-310/",
-      "details": "",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-01"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-10-31T10:05:01+00:00",
-      "last_seen": "2026-10-31T10:05:01+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2199,7 +2028,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-05T15:58:07+00:00",
-      "last_seen": "2026-11-08T17:26:44+00:00",
+      "last_seen": "2026-11-08T23:19:59+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2284,7 +2113,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-08T17:26:44+00:00",
+      "last_seen": "2026-11-08T23:19:59+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2520,12 +2349,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-31T08:58:40+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-31T10:05:04+00:00",
       "new": 0,
@@ -2879,6 +2702,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-08T23:19:59+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
