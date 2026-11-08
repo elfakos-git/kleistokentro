@@ -1,10 +1,5 @@
 {
   "seen": [
-    "9ΚΦ946ΜΤΛΒ-3Ο7",
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-116/",
-    "TTI-TTR51585634644011001",
-    "TTI-TTR51585634644019000",
-    "TTI-TTR51579863592015000",
     "TTI-TTR51605832668023000",
     "TTI-TTR51562551240023000",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-66/",
@@ -499,7 +494,12 @@
     "TTI-TTR51588520224010000",
     "TTI-TTR51588520152018000",
     "TTI-TTR51585634752074001",
-    "TTI-TTR51585634676042000"
+    "TTI-TTR51585634676042000",
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-87/",
+    "TTI-TTR51588520100014001",
+    "TTI-TTR51588520072098001",
+    "TTI-TTR51585634580002000",
+    "https://www.kathimerini.gr/athletics/564575734/marathonios-athinas-2026-xekinise-o-megalos-agonas-tis-klasikis-diadromis/"
   ],
   "seeded": [
     "astynomia",
@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T03:41:42+00:00"
+      "last_success": "2026-11-08T10:56:40+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -532,20 +532,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T03:41:42+00:00"
+      "last_success": "2026-11-08T10:56:40+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 4,
+      "items": 3,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 7
+        "χωρίς/παλιά ημερομηνία": 8
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T03:41:42+00:00"
+      "last_success": "2026-11-08T10:56:40+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -556,35 +556,35 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T03:41:42+00:00"
+      "last_success": "2026-11-08T10:56:41+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 2,
+      "items": 3,
       "fetched": 11,
       "dropped": {
         "παλιά ανακοίνωση": 3,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
-        "λεωφορεία (χωρίς ειδοποίηση)": 1
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
+        "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T03:41:42+00:00"
+      "last_success": "2026-11-08T10:56:42+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 51,
-      "fetched": 55,
+      "fetched": 64,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 13
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T09:36:16+00:00"
+      "last_success": "2026-11-08T10:56:42+00:00"
     }
   },
   "active": {
@@ -629,22 +629,22 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
+      }
+    ],
+    "kathimerini": [
       {
-        "id": "https://www.iefimerida.gr/ellada/apo-simera-kykloforiakes-rythmiseis-marathonios-athina",
-        "source": "iefimerida",
-        "title": "Από σήμερα οι κυκλοφοριακές ρυθμίσεις για τον Μαραθώνιο της Αθήνας -Οι περιοχές που επηρεάζονται",
-        "url": "https://www.iefimerida.gr/ellada/apo-simera-kykloforiakes-rythmiseis-marathonios-athina",
+        "id": "https://www.kathimerini.gr/athletics/564575734/marathonios-athinas-2026-xekinise-o-megalos-agonas-tis-klasikis-diadromis/",
+        "source": "kathimerini",
+        "title": "Μαραθώνιος Αθήνας 2026: Νέο ρεκόρ αγώνα για τον πρώτο – Ιστορικό ρεκόρ συμμετοχών",
+        "url": "https://www.kathimerini.gr/athletics/564575734/marathonios-athinas-2026-xekinise-o-megalos-agonas-tis-klasikis-diadromis/",
         "details": "",
         "area": "Ανατολικά",
         "days": [],
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": false
-      }
-    ],
-    "kathimerini": [
+        "new_this_run": true
+      },
       {
         "id": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
         "source": "kathimerini",
@@ -766,22 +766,24 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564502786/froyrio-i-athina-enopsei-tis-episkepsis-roympio/",
-        "source": "kathimerini",
-        "title": "Επίσκεψη Ρούμπιο: «Φρούριο» η Αθήνα – Πού θα εφαρμοστούν κυκλοφοριακές ρυθμίσεις",
-        "url": "https://www.kathimerini.gr/society/564502786/froyrio-i-athina-enopsei-tis-episkepsis-roympio/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
       }
     ],
     "oasa": [
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-87/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73  του Δήμου Περιστερίου",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-87/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [
+          "2026-11-09"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": true
+      },
       {
         "id": "https://www.oasa.gr/blog/%ce%bb%ce%b5%ce%b9%cf%84%ce%bf%cf%85%cf%81%ce%b3%ce%af%ce%b1-%ce%bc%ce%bc%ce%bc-%ce%bb%cf%8c%ce%b3%cf%89-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b5%ce%be%ce%b1%ce%b3%cf%89%ce%b3%ce%ae%cf%82-%cf%84%ce%bf-5/",
         "source": "ΟΑΣΑ",
@@ -873,36 +875,6 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51582748920013000",
-        "source": "TomTom (realtime)",
-        "title": "Panepistimiou (Amerikis) → Valaoritou Ar. (Amerikis)",
-        "url": "https://www.google.com/maps?q=37.9782638007,23.7352068358",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
-      },
-      {
-        "id": "TTI-TTR51591405352011001",
-        "source": "TomTom (realtime)",
-        "title": "Panepistimiou (Vas. Sofias Ave) → Akadimias (Vas. Sofias Ave)",
-        "url": "https://www.google.com/maps?q=37.9761811166,23.7361536556",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
-      },
-      {
         "id": "TTI-TTR51591405268034000",
         "source": "TomTom (realtime)",
         "title": "Vas. Olgas Ave (Ardittou) → Karea (Ardittou)",
@@ -922,6 +894,21 @@
         "source": "TomTom (realtime)",
         "title": "Karea (Ardittou) → Vas. Olgas Ave (Ardittou)",
         "url": "https://www.google.com/maps?q=37.9671527825,23.7336739534",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-08"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51585634372011000",
+        "source": "TomTom (realtime)",
+        "title": "Vas. Sofias Ave (Sekeri) → Kanari (Sekeri)",
+        "url": "https://www.google.com/maps?q=37.9763085029,23.7391858929",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -963,6 +950,36 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51591405388012001",
+        "source": "TomTom (realtime)",
+        "title": "Mourouzi (Irodou Attikou) → Vas. Georgiou Ave (Irodou Attikou)",
+        "url": "https://www.google.com/maps?q=37.9750062855,23.7404840821",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-08"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51591405388012000",
+        "source": "TomTom (realtime)",
+        "title": "Λεωφόρος Βασιλίσσης Σοφίας / Κουμπάρη → Λυκείου",
+        "url": "https://www.google.com/maps?q=37.9755762273,23.7405578428",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-08"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
         "id": "TTI-TTR51574092928014000",
         "source": "TomTom (realtime)",
         "title": "Zakinthou (Spetson) → Dodekanisou (Spetson)",
@@ -990,7 +1007,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51591405316004000",
@@ -1023,36 +1040,6 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51594290812011000",
-        "source": "TomTom (realtime)",
-        "title": "Loukianou (Vas. Sofias Ave) → Rizari (Vas. Sofias Ave)",
-        "url": "https://www.google.com/maps?q=37.9756178529,23.7443598741",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
-      },
-      {
-        "id": "TTI-TTR51594290884011000",
-        "source": "TomTom (realtime)",
-        "title": "Rizari (Vas. Sofias Ave) → Loukianou (Vas. Sofias Ave)",
-        "url": "https://www.google.com/maps?q=37.9759503937,23.7457680338",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
-      },
-      {
         "id": "TTI-TTR51588519904013004",
         "source": "TomTom (realtime)",
         "title": "Patriarchou Ioakim (Marasli) → Vas. Sofias Ave (Marasli)",
@@ -1070,8 +1057,8 @@
       {
         "id": "TTI-TTR51594290920004000",
         "source": "TomTom (realtime)",
-        "title": "Evfroniou (Rizari) → Vas. Sofias Ave (Rizari)",
-        "url": "https://www.google.com/maps?q=37.9730590281,23.7468570107",
+        "title": "Vas. Georgiou Ave (Rizari) → Vas. Sofias Ave (Rizari)",
+        "url": "https://www.google.com/maps?q=37.9725131842,23.7470554942",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -1095,13 +1082,13 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51594290844004000",
         "source": "TomTom (realtime)",
-        "title": "Vas. Sofias Ave (Rizari) → Hironos (Rizari)",
-        "url": "https://www.google.com/maps?q=37.975417984,23.7459732228",
+        "title": "Vas. Sofias Ave (Rizari) → Ellanikou (Rizari)",
+        "url": "https://www.google.com/maps?q=37.9754193715,23.7459732228",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -1110,7 +1097,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51594290876010001",
@@ -1140,22 +1127,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
-      },
-      {
-        "id": "TTI-TTR51594290844011000",
-        "source": "TomTom (realtime)",
-        "title": "Vas. Sofias Ave (Vas. Alexandrou Ave) → Mihalakopoulou (Vas. Alexandrou Ave)",
-        "url": "https://www.google.com/maps?q=37.9761677041,23.749350124",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51594290912003001",
@@ -1170,7 +1142,22 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51588519940011000",
+        "source": "TomTom (realtime)",
+        "title": "Αθήνα → Μαρασλή",
+        "url": "https://www.google.com/maps?q=37.9771292401,23.7505343193",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-08"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51594290660014001",
@@ -1215,7 +1202,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51588519960006001",
@@ -1230,22 +1217,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
-      },
-      {
-        "id": "TTI-TTR51588519984003000",
-        "source": "TomTom (realtime)",
-        "title": "Antimahou (Mihalakopoulou) → Papadiamantopoulou (Mihalakopoulou)",
-        "url": "https://www.google.com/maps?q=37.9775248715,23.7554655605",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51588520064011000",
@@ -1260,13 +1232,28 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51588519992013000",
         "source": "TomTom (realtime)",
         "title": "Vas. Sofias Ave (Soutsou D.) → Tsoha An. (Soutsou D.)",
         "url": "https://www.google.com/maps?q=37.9821449726,23.7560703987",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-11-08"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51588520100014001",
+        "source": "TomTom (realtime)",
+        "title": "Vas. Sofias Ave (Dorileou) → Gelonos (Dorileou)",
+        "url": "https://www.google.com/maps?q=37.9828892726,23.7571727866",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
@@ -1290,15 +1277,30 @@
         "hours": [],
         "plain": "",
         "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51588520072098001",
+        "source": "TomTom (realtime)",
+        "title": "Alexandras Ave (Vas. Sofias Ave) → Akadimias (Vas. Sofias Ave)",
+        "url": "https://www.google.com/maps?q=37.9859282322,23.7608568007",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-11-08"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
         "new_this_run": true
       },
       {
-        "id": "TTI-TTR51585634556002002",
+        "id": "TTI-TTR51585634580002000",
         "source": "TomTom (realtime)",
-        "title": "Panormou (Alexandras Ave) → Kifisias Ave (Alexandras Ave)",
-        "url": "https://www.google.com/maps?q=37.9871741031,23.7577440971",
+        "title": "Λεωφόρος Βασιλίσσης Σοφίας → Μεσογείων",
+        "url": "https://www.google.com/maps?q=37.9855460569,23.7605523699",
         "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
+        "area": "Κέντρο",
         "days": [
           "2026-11-08"
         ],
@@ -1320,15 +1322,30 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51585634556002002",
+        "source": "TomTom (realtime)",
+        "title": "Panormou (Alexandras Ave) → Kifisias Ave (Alexandras Ave)",
+        "url": "https://www.google.com/maps?q=37.9871741031,23.7577440971",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-11-08"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51591405352011000",
         "source": "TomTom (realtime)",
-        "title": "Mesogion Ave (Vas. Sofias Ave) → Alexandras Ave (Vas. Sofias Ave)",
-        "url": "https://www.google.com/maps?q=37.984740014,23.7599917882",
+        "title": "Panepistimiou (Vas. Sofias Ave) → Alexandras Ave (Vas. Sofias Ave)",
+        "url": "https://www.google.com/maps?q=37.9761811166,23.7361536556",
         "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
+        "area": "Κέντρο",
         "days": [
           "2026-11-08"
         ],
@@ -1350,12 +1367,12 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51585634672010000",
         "source": "TomTom (realtime)",
-        "title": "Alexandras Ave (Kifisias Ave) → Fokidos (Kifisias Ave)",
+        "title": "Alexandras Ave (Kifisias Ave) → Argolidos (Kifisias Ave)",
         "url": "https://www.google.com/maps?q=37.9865048936,23.7614321345",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
@@ -1365,7 +1382,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51585634548010000",
@@ -1380,7 +1397,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51591405544003000",
@@ -1395,22 +1412,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
-      },
-      {
-        "id": "TTI-TTR51585634532011000",
-        "source": "TomTom (realtime)",
-        "title": "Ag. Thoma (Mihalakopoulou) → Fidippidou (Mihalakopoulou)",
-        "url": "https://www.google.com/maps?q=37.9845227951,23.7639212245",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-11-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51585634532010000",
@@ -1425,7 +1427,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51585634596010000",
@@ -1440,28 +1442,13 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
-        "id": "TTI-TTR51585634528018000",
+        "id": "TTI-TTR51588519984003000",
         "source": "TomTom (realtime)",
-        "title": "Fokidos (Mihalakopoulou) → Mesogion Ave (Mihalakopoulou)",
-        "url": "https://www.google.com/maps?q=37.9865196916,23.7658349806",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-11-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
-      },
-      {
-        "id": "TTI-TTR51585634748012000",
-        "source": "TomTom (realtime)",
-        "title": "Προς Λεωφόρο Αλεξάνδρας / Προς Λεωφόρο Βασιλίσσης Σοφίας → Φειδιππίδου",
-        "url": "https://www.google.com/maps?q=37.9883676989,23.7673584753",
+        "title": "Antimahou (Mihalakopoulou) → Mesogion Ave (Mihalakopoulou)",
+        "url": "https://www.google.com/maps?q=37.9775248715,23.7554655605",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -1470,7 +1457,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51585634624018001",
@@ -1485,7 +1472,22 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51585634748012000",
+        "source": "TomTom (realtime)",
+        "title": "Προς Λεωφόρο Αλεξάνδρας / Προς Λεωφόρο Βασιλίσσης Σοφίας → Φειδιππίδου",
+        "url": "https://www.google.com/maps?q=37.9883676989,23.7673584753",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-08"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51594291004012000",
@@ -1518,21 +1520,6 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51588520224010000",
-        "source": "TomTom (realtime)",
-        "title": "Προς Μεσογείων → Γεωργίου Μπούσιου",
-        "url": "https://www.google.com/maps?q=37.9930347441,23.7754466766",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-11-08"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
-      },
-      {
         "id": "TTI-TTR51588520152018000",
         "source": "TomTom (realtime)",
         "title": "Μιχαλακοπούλου → Προς Λεωφόρο Παναγιώτη Κανελλόπουλου",
@@ -1545,12 +1532,27 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51588520224010000",
+        "source": "TomTom (realtime)",
+        "title": "Κατεχάκη / Προς Μεσογείων → Γεωργίου Μπούσιου",
+        "url": "https://www.google.com/maps?q=37.9931916944,23.7756585711",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-11-08"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51585634752074001",
         "source": "TomTom (realtime)",
-        "title": "Lavriou Ave (Mesogion Ave) → Trikalon (Mesogion Ave)",
+        "title": "Lavriou Ave (Mesogion Ave) → Fidippidou (Mesogion Ave)",
         "url": "https://www.google.com/maps?q=38.0106890781,23.8434527451",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
@@ -1560,7 +1562,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51585634676042000",
@@ -1575,7 +1577,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ]
   },
@@ -2129,7 +2131,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-08T03:41:42+00:00",
+      "last_seen": "2026-11-08T10:56:41+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2649,7 +2651,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-05T15:58:07+00:00",
-      "last_seen": "2026-11-08T03:41:42+00:00",
+      "last_seen": "2026-11-08T10:56:42+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2734,7 +2736,27 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-08T03:41:42+00:00",
+      "last_seen": "2026-11-08T10:56:41+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-87/": {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-87/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73  του Δήμου Περιστερίου",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-87/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-11-09"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-11-08T10:56:42+00:00",
+      "last_seen": "2026-11-08T10:56:42+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2748,12 +2770,6 @@
     "151797168": "2026-11-08"
   },
   "notifications": [
-    {
-      "time": "2026-10-28T17:43:56+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "ΑΠΟΦΑΣΗ ΠΡΟΣΩΡΙΝΩΝ ΚΥΚΛΟΦΟΡΙΑΚΩΝ ΡΥΘΜΙΣΕΩΝ ΣΤΟΝ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟ Α.Θ.Ε. Χ.Θ. 161+500 έως Χ.Θ. 159+500 ΣΤΟ ΡΕΥΜΑ ΚΥΚΛΟΦΟΡΙΑΣ ΠΡΟΣ ΑΘΗΝΑ",
-      "url": "https://diavgeia.gov.gr/decision/view/Ε6ΥΜ46ΜΤΛΒ-Ν1Ρ"
-    },
     {
       "time": "2026-10-29T08:59:34+00:00",
       "source": "Ενημέρωση",
@@ -2927,15 +2943,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-11-08T10:56:43+00:00",
+      "source": "kathimerini",
+      "title": "Μαραθώνιος Αθήνας 2026: Νέο ρεκόρ αγώνα για τον πρώτο – Ιστορικό ρεκόρ συμμετοχών",
+      "url": "https://www.kathimerini.gr/athletics/564575734/marathonios-athinas-2026-xekinise-o-megalos-agonas-tis-klasikis-diadromis/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-30T20:54:26+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-30T23:23:56+00:00",
       "new": 0,
@@ -3289,6 +3305,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-08T10:56:43+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
