@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T23:19:59+00:00"
+      "last_success": "2026-11-09T03:54:13+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -532,7 +532,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T23:19:59+00:00"
+      "last_success": "2026-11-09T03:54:13+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -545,7 +545,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T23:19:59+00:00"
+      "last_success": "2026-11-09T03:54:13+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -556,7 +556,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T23:19:59+00:00"
+      "last_success": "2026-11-09T03:54:13+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -564,27 +564,27 @@
       "items": 3,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 3,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
+        "παλιά ανακοίνωση": 2,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
         "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-08T23:19:59+00:00"
+      "last_success": "2026-11-09T03:54:13+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 16,
-      "fetched": 18,
+      "items": 10,
+      "fetched": 12,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-09T00:10:03+00:00"
+      "last_success": "2026-11-09T03:54:13+00:00"
     }
   },
   "active": {
@@ -825,21 +825,6 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51591405304004000",
-        "source": "TomTom (realtime)",
-        "title": "Voulgareos Evg. (Mousourou M.) → Ardittou (Mousourou M.)",
-        "url": "https://www.google.com/maps?q=37.9667625137,23.7379842633",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-09"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
         "id": "TTI-TTR51579863732014000",
         "source": "TomTom (realtime)",
         "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
@@ -857,23 +842,8 @@
       {
         "id": "TTI-TTR51591405388012001",
         "source": "TomTom (realtime)",
-        "title": "Mourouzi (Irodou Attikou) → Vas. Konstantinou Ave (Irodou Attikou)",
-        "url": "https://www.google.com/maps?q=37.9750062855,23.7404840821",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-09"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51591405388012000",
-        "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Βασιλίσσης Σοφίας / Κουμπάρη → Λυκείου",
-        "url": "https://www.google.com/maps?q=37.9755762273,23.7405578428",
+        "title": "Vas. Georgiou Ave (Irodou Attikou) → Vas. Konstantinou Ave (Irodou Attikou)",
+        "url": "https://www.google.com/maps?q=37.9731904503,23.740175628",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -891,51 +861,6 @@
         "url": "https://www.google.com/maps?q=37.9990093837,23.7400495642",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
-        "days": [
-          "2026-11-09"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51591405368011000",
-        "source": "TomTom (realtime)",
-        "title": "Vas. Konstantinou Ave (Eratosthenous) → Pilariou (Eratosthenous)",
-        "url": "https://www.google.com/maps?q=37.9707911822,23.7414537006",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-09"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51594290824004000",
-        "source": "TomTom (realtime)",
-        "title": "Irodou Attikou (Vas. Georgiou Ave) → Vas. Konstantinou Ave (Vas. Georgiou Ave)",
-        "url": "https://www.google.com/maps?q=37.9730992675,23.7414832049",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-09"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51588519904022000",
-        "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Βασιλίσσης Σοφίας → Μιχαλακοπούλου",
-        "url": "https://www.google.com/maps?q=37.9771949806,23.7508937353",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
         "days": [
           "2026-11-09"
         ],
@@ -964,21 +889,6 @@
         "source": "TomTom (realtime)",
         "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
         "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-09"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51585634580011000",
-        "source": "TomTom (realtime)",
-        "title": "Λεωφόρος Αλεξάνδρας → Λεωφόρος Βασιλίσσης Σοφίας",
-        "url": "https://www.google.com/maps?q=37.9865853576,23.7606113785",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -1551,7 +1461,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-08T23:19:59+00:00",
+      "last_seen": "2026-11-09T03:54:13+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2028,7 +1938,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-05T15:58:07+00:00",
-      "last_seen": "2026-11-08T23:19:59+00:00",
+      "last_seen": "2026-11-09T03:54:13+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2113,7 +2023,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-08T23:19:59+00:00",
+      "last_seen": "2026-11-09T03:54:13+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2349,12 +2259,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-31T14:58:15+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-31T16:37:15+00:00",
       "new": 1,
@@ -2708,6 +2612,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-09T03:54:13+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
