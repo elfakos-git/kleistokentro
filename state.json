@@ -1,9 +1,5 @@
 {
   "seen": [
-    "TTI-TTR51582749044015000",
-    "Ψ7ΥΙ46ΜΤΛΒ-ΛΝΘ",
-    "ΡΗΣ646ΜΤΛΒ-3ΣΤ",
-    "TTI-TTR51562551240031001",
     "TTI-TTR51579863592007000",
     "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae%cf%82-%cf%84%cf%81%ce%bf%cf%80-20/",
     "TTI-TTR51617374128014000",
@@ -499,7 +495,11 @@
     "TTI-TTR51594290896014000",
     "TTI-TTR51588519988013000",
     "TTI-TTR51597176124006000",
-    "TTI-TTR51591405232004000"
+    "TTI-TTR51591405232004000",
+    "Ρ6ΣΙ46ΜΤΛΒ-ΔΦ9",
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-375/",
+    "TTI-TTR51568322060004000",
+    "TTI-TTR51579863908005000"
   ],
   "seeded": [
     "astynomia",
@@ -514,12 +514,15 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "fetched": 54,
+      "dropped": {
+        "legend row (level word as road)": 1,
+        "no level detected, no disruption keyword": 53
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-09T03:54:13+00:00"
+      "last_success": "2026-11-09T12:22:59+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -527,25 +530,26 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 99,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-09T03:54:13+00:00"
+      "last_success": "2026-11-09T12:23:00+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 4,
+      "items": 2,
       "fetched": 11,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 7
+        "χωρίς/παλιά ημερομηνία": 9
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-09T03:54:13+00:00"
+      "last_success": "2026-11-09T12:23:00+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -556,35 +560,35 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-09T03:54:13+00:00"
+      "last_success": "2026-11-09T12:23:00+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 3,
+      "items": 2,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 2,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
+        "παλιά ανακοίνωση": 4,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
         "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-11-09T03:54:13+00:00"
+      "last_success": "2026-11-09T12:23:02+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 51,
+      "items": 11,
+      "fetched": 49,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 42
+        "κατηγορία εκτός πολιτικής": 38
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-09T10:27:28+00:00"
+      "last_success": "2026-11-09T12:23:02+00:00"
     }
   },
   "active": {
@@ -611,32 +615,6 @@
         "url": "https://www.iefimerida.gr/ellada/43os-aythentikos-marathonios-kleisto-kentro-athinas",
         "details": "",
         "area": "Κέντρο",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.iefimerida.gr/ellada/se-ishy-kykloforiakes-rythmiseis-gia-ton-marathonio",
-        "source": "iefimerida",
-        "title": "43ος Μαραθώνιος Αθήνας, ο Αυθεντικός: Ποιοι δρόμοι κλείνουν -Πώς θα κινηθείτε το Σαββατοκύριακο",
-        "url": "https://www.iefimerida.gr/ellada/se-ishy-kykloforiakes-rythmiseis-gia-ton-marathonio",
-        "details": "",
-        "area": "Ανατολικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ionia-odos-gia-5-imeres",
-        "source": "iefimerida",
-        "title": "Κυκλοφοριακές ρυθμίσεις στην Ιόνια Οδό για 5 ημέρες, ποιες περιοχές επηρεάζονται",
-        "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ionia-odos-gia-5-imeres",
-        "details": "",
-        "area": "",
         "days": [],
         "hours": [],
         "plain": "",
@@ -752,25 +730,28 @@
     ],
     "oasa": [
       {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-375/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 915 λόγω εργασιών στην οδό ΧΑΙΔΑΡΙΟΥ στην συμβολή της με την οδό ΔΑΦΝΗΣ του Δήμου Πειραιά",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-375/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [
+          "2026-11-10",
+          "2026-11-11"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": true
+      },
+      {
         "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-87/",
         "source": "ΟΑΣΑ",
         "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73  του Δήμου Περιστερίου",
         "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-87/",
         "details": "",
         "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-319/",
-        "source": "ΟΑΣΑ",
-        "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών 054, 608 και 622 λόγω εργασιών στην οδό Δροσοπούλου 143 στον Δήμο Αθηναίων",
-        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-319/",
-        "details": "",
-        "area": "",
         "days": [],
         "hours": [],
         "plain": "",
@@ -842,7 +823,7 @@
       {
         "id": "TTI-TTR51574092928014000",
         "source": "TomTom (realtime)",
-        "title": "Zakinthou (Spetson) → Skopelou (Spetson)",
+        "title": "Zakinthou (Spetson) → Dodekanisou (Spetson)",
         "url": "https://www.google.com/maps?q=37.9990093837,23.7400495642",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
@@ -853,6 +834,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51568322060004000",
+        "source": "TomTom (realtime)",
+        "title": "Ekatis (Dafnidos) → Eglis (Dafnidos)",
+        "url": "https://www.google.com/maps?q=38.0056505302,23.743665182",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Βόρεια",
+        "days": [
+          "2026-11-09"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51594290660014001",
@@ -883,6 +879,21 @@
         "plain": "",
         "category": "",
         "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51579863908005000",
+        "source": "TomTom (realtime)",
+        "title": "Ψυχικό → Ιλισού",
+        "url": "https://www.google.com/maps?q=38.0020617439,23.7663767868",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Βόρεια",
+        "days": [
+          "2026-11-09"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
       },
       {
         "id": "TTI-TTR51594291004012000",
@@ -1446,7 +1457,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-09T03:54:13+00:00",
+      "last_seen": "2026-11-09T12:23:00+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2008,7 +2019,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-09T03:54:13+00:00",
+      "last_seen": "2026-11-09T12:23:00+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2049,6 +2060,27 @@
       "category": "",
       "first_seen": "2026-11-08T17:26:44+00:00",
       "last_seen": "2026-11-08T17:26:44+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-375/": {
+      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-375/",
+      "source": "ΟΑΣΑ",
+      "title": "Μερική προσωρινή τροποποίηση της λεωφορειακής γραμμής 915 λόγω εργασιών στην οδό ΧΑΙΔΑΡΙΟΥ στην συμβολή της με την οδό ΔΑΦΝΗΣ του Δήμου Πειραιά",
+      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-375/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-11-10",
+        "2026-11-11"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-11-09T12:23:02+00:00",
+      "last_seen": "2026-11-09T12:23:02+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2244,12 +2276,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-10-31T19:00:22+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-10-31T22:37:03+00:00",
       "new": 0,
@@ -2603,6 +2629,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-09T12:23:02+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
