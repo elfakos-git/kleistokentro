@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T05:28:21+00:00",
+  "generated_at": "2026-11-10T10:47:44+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -68,15 +68,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 9,
-      "fetched": 27,
+      "items": 10,
+      "fetched": 52,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 18
+        "κατηγορία εκτός πολιτικής": 42
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-10T05:28:21+00:00"
+      "last_success": "2026-11-10T10:47:43+00:00"
     }
   ],
   "active_events": [
@@ -297,7 +297,7 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51574092928014000",
+      "id": "TTI-TTR51574092928030000",
       "source": "TomTom (realtime)",
       "title": "Zakinthou (Spetson) → Skirou (Spetson)",
       "url": "https://www.google.com/maps?q=37.9990093837,23.7400495642",
@@ -309,7 +309,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": false
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51594290660014001",
@@ -327,7 +327,7 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51594290912011001",
+      "id": "TTI-TTR51594290768011000",
       "source": "TomTom (realtime)",
       "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
       "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
@@ -339,7 +339,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": false
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51594291004012000",
@@ -370,6 +370,21 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51600061860014000",
+      "source": "TomTom (realtime)",
+      "title": "Μακεδονίας → Εθνικής Αντιστάσεως",
+      "url": "https://www.google.com/maps?q=37.9714469895,23.7699897224",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-11-10"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     }
   ],
   "closures": [
@@ -1468,6 +1483,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-11-10T10:47:44+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
+    {
       "time": "2026-11-09T10:27:29+00:00",
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
@@ -1640,21 +1661,9 @@
       "source": "kathimerini",
       "title": "Ομόνοια: Αποκαταστάθηκε η κυκλοφορία μετά τον έλεγχο σε ύποπτο αντικείμενο",
       "url": "https://www.kathimerini.gr/society/564556282/omonoia-diakopi-kykloforias-logo-ypoptoy-antikeimenoy/"
-    },
-    {
-      "time": "2026-10-30T09:06:26+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-01T10:55:43+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-11-01T16:28:52+00:00",
       "new": 0,
@@ -2008,6 +2017,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-10T10:47:44+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
