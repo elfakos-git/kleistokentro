@@ -514,15 +514,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-09T23:55:16+00:00"
+      "last_success": "2026-11-10T05:28:20+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -536,7 +533,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-09T23:55:16+00:00"
+      "last_success": "2026-11-10T05:28:21+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -549,7 +546,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-09T23:55:16+00:00"
+      "last_success": "2026-11-10T05:28:21+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -560,7 +557,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-09T23:55:16+00:00"
+      "last_success": "2026-11-10T05:28:21+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -568,27 +565,27 @@
       "items": 2,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 4,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 5,
+        "παλιά ανακοίνωση": 2,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
         "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-09T23:55:16+00:00"
+      "last_success": "2026-11-10T05:28:21+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 9,
-      "fetched": 11,
+      "fetched": 27,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 2
+        "κατηγορία εκτός πολιτικής": 18
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-10T02:59:57+00:00"
+      "last_success": "2026-11-10T05:28:21+00:00"
     }
   },
   "active": {
@@ -1424,7 +1421,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-09T23:55:16+00:00",
+      "last_seen": "2026-11-10T05:28:21+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1966,7 +1963,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-09T23:55:16+00:00",
+      "last_seen": "2026-11-10T05:28:21+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2223,12 +2220,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-01T09:48:37+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-11-01T10:55:43+00:00",
       "new": 1,
@@ -2582,6 +2573,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-10T05:28:21+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
