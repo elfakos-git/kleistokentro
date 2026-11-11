@@ -580,14 +580,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 12,
+      "fetched": 64,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 2
+        "κατηγορία εκτός πολιτικής": 54
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-11T03:58:27+00:00"
+      "last_success": "2026-11-11T09:54:47+00:00"
     }
   },
   "active": {
@@ -2034,15 +2034,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-11-10"
+    "151797168": "2026-11-11"
   },
   "notifications": [
-    {
-      "time": "2026-10-30T10:38:55+00:00",
-      "source": "kathimerini",
-      "title": "Ομόνοια: Αποκαταστάθηκε η κυκλοφορία μετά τον έλεγχο σε ύποπτο αντικείμενο",
-      "url": "https://www.kathimerini.gr/society/564556282/omonoia-diakopi-kykloforias-logo-ypoptoy-antikeimenoy/"
-    },
     {
       "time": "2026-10-30T10:38:55+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -2216,15 +2210,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-11-11T09:54:48+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-02T03:42:57+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-11-02T10:07:31+00:00",
       "new": 0,
@@ -2578,6 +2572,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-11T09:54:48+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
