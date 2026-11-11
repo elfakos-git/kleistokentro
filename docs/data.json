@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T19:04:22+00:00",
+  "generated_at": "2026-11-11T23:36:38+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -71,14 +71,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 25,
+      "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 15
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-11T19:04:21+00:00"
+      "last_success": "2026-11-11T23:36:38+00:00"
     }
   ],
   "active_events": [
@@ -223,7 +223,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-11-11"
+        "2026-11-12"
       ],
       "hours": [],
       "plain": "",
@@ -238,7 +238,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-11-11"
+        "2026-11-12"
       ],
       "hours": [],
       "plain": "",
@@ -253,7 +253,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-11"
+        "2026-11-12"
       ],
       "hours": [],
       "plain": "",
@@ -268,7 +268,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-11"
+        "2026-11-12"
       ],
       "hours": [],
       "plain": "",
@@ -278,12 +278,12 @@
     {
       "id": "TTI-TTR51574092928030000",
       "source": "TomTom (realtime)",
-      "title": "Zakinthou (Spetson) → Dodekanisou (Spetson)",
+      "title": "Zakinthou (Spetson) → Skirou (Spetson)",
       "url": "https://www.google.com/maps?q=37.9990093837,23.7400495642",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-11-11"
+        "2026-11-12"
       ],
       "hours": [],
       "plain": "",
@@ -298,7 +298,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-11"
+        "2026-11-12"
       ],
       "hours": [],
       "plain": "",
@@ -313,7 +313,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-11"
+        "2026-11-12"
       ],
       "hours": [],
       "plain": "",
@@ -328,7 +328,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-11-11"
+        "2026-11-12"
       ],
       "hours": [],
       "plain": "",
@@ -343,7 +343,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-11-11"
+        "2026-11-12"
       ],
       "hours": [],
       "plain": "",
@@ -358,7 +358,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-11-11"
+        "2026-11-12"
       ],
       "hours": [],
       "plain": "",
@@ -925,43 +925,6 @@
       "status": "active"
     },
     {
-      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis",
-      "source": "iefimerida",
-      "title": "Κυκλοφοριακές ρυθμίσεις στην Αττική Οδό το βράδυ της Τρίτης",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis",
-      "details": "",
-      "area": "Βόρεια",
-      "days": [
-        "2026-11-03",
-        "2026-11-04"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-11-03T15:39:50+00:00",
-      "last_seen": "2026-11-03T15:39:50+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "ΕΒΞΒ46ΜΤΛΒ-1ΩΛ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25843-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και πλήρη διακοπή της κυκλοφορίας των οχημάτων στην υπόγεια διάβαση οχημάτων στην Λ. Μεσογείων, στο ύψος της συμβολής της με τον Α/Κ Λ. Κατεχάκη και στα δύο ρεύματα κυκλοφορίας, την 04.11.2026 κατά τις ώρες 23:00 έως την 06.00΄ της επομένης, γι",
-      "url": "https://diavgeia.gov.gr/decision/view/ΕΒΞΒ46ΜΤΛΒ-1ΩΛ",
-      "details": "Επίσημη απόφαση Τροχαίας (04/11/2026)",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-04"
-      ],
-      "hours": [],
-      "plain": "Διακοπή κυκλοφορίας στη Λ. Μεσογείων · 4/11",
-      "category": "",
-      "first_seen": "2026-11-04T15:52:53+00:00",
-      "last_seen": "2026-11-05T04:30:49+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
       "id": "https://www.kathimerini.gr/society/564560683/metro-kleistoi-apo-tis-21-40-pente-stathmoi-tis-grammis-3/",
       "source": "kathimerini",
       "title": "Μετρό: Κλειστοί από τις 21:40 πέντε σταθμοί της Γραμμής 3",
@@ -1222,7 +1185,7 @@
       "first_seen": "2026-11-09T12:23:02+00:00",
       "last_seen": "2026-11-09T12:23:02+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-7/",
@@ -1625,12 +1588,6 @@
   ],
   "runs": [
     {
-      "time": "2026-11-02T21:12:06+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-11-03T02:29:09+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -1983,6 +1940,12 @@
       "new": 1,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-11T23:36:38+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
