@@ -1,19 +1,16 @@
 {
-  "generated_at": "2026-11-11T23:36:38+00:00",
+  "generated_at": "2026-11-12T01:45:00+00:00",
   "sources": [
     {
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-11T19:04:21+00:00"
+      "last_success": "2026-11-12T01:45:00+00:00"
     },
     {
       "name": "diavgeia",
@@ -27,20 +24,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-11T19:04:21+00:00"
+      "last_success": "2026-11-12T01:45:00+00:00"
     },
     {
       "name": "iefimerida",
       "ok": true,
       "items": 0,
-      "fetched": 11,
+      "fetched": 13,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 11
+        "χωρίς/παλιά ημερομηνία": 13
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-11T19:04:21+00:00"
+      "last_success": "2026-11-12T01:45:00+00:00"
     },
     {
       "name": "kathimerini",
@@ -51,7 +48,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-11T19:04:21+00:00"
+      "last_success": "2026-11-12T01:45:00+00:00"
     },
     {
       "name": "oasa",
@@ -65,7 +62,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-11T19:04:21+00:00"
+      "last_success": "2026-11-12T01:45:00+00:00"
     },
     {
       "name": "tomtom",
@@ -78,7 +75,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-11T23:36:38+00:00"
+      "last_success": "2026-11-12T01:45:00+00:00"
     }
   ],
   "active_events": [
@@ -93,7 +90,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.kathimerini.gr/society/564581122/patra-ekleise-tmima-tis-olympias-odoy-logo-lasporrois/",
@@ -129,8 +126,8 @@
       "details": "",
       "area": "Ανατολικά",
       "days": [
-        "2026-11-08",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-15"
       ],
       "hours": [],
       "plain": "",
@@ -210,6 +207,21 @@
       "details": "",
       "area": "",
       "days": [],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+      "source": "kathimerini",
+      "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
+      "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-11-15"
+      ],
       "hours": [],
       "plain": "",
       "category": "",
@@ -1060,24 +1072,6 @@
       "status": "ended"
     },
     {
-      "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
-      "source": "kathimerini",
-      "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
-      "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-11-08"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-10-10T10:19:27+00:00",
-      "last_seen": "2026-11-11T19:04:21+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-anakoinosi-trohaias",
       "source": "iefimerida",
       "title": "Κυκλοφοριακές ρυθμίσεις για τον 43ο Αυθεντικό Μαραθώνιο Αθήνας 7-8 Νοεμβρίου -Ποιοι δρόμοι θα κλείσουν, η ανακοίνωση της Τροχαίας",
@@ -1112,25 +1106,6 @@
       "last_seen": "2026-11-09T03:54:13+00:00",
       "extended": false,
       "status": "ended"
-    },
-    {
-      "id": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
-      "source": "kathimerini",
-      "title": "Μαραθώνιος: Ολες οι κυκλοφοριακές ρυθμίσεις – Ποιοι δρόμοι κλείνουν το Σάββατο και την Κυριακή",
-      "url": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
-      "details": "",
-      "area": "Ανατολικά",
-      "days": [
-        "2026-11-08",
-        "2026-11-14"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-11T19:04:21+00:00",
-      "extended": false,
-      "status": "planned"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-87/",
@@ -1186,6 +1161,43 @@
       "last_seen": "2026-11-09T12:23:02+00:00",
       "extended": false,
       "status": "ended"
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
+      "source": "kathimerini",
+      "title": "Μαραθώνιος: Ολες οι κυκλοφοριακές ρυθμίσεις – Ποιοι δρόμοι κλείνουν το Σάββατο και την Κυριακή",
+      "url": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
+      "details": "",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-11-07T10:51:19+00:00",
+      "last_seen": "2026-11-12T01:45:00+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+      "source": "kathimerini",
+      "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
+      "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
+      "details": "",
+      "area": "",
+      "days": [
+        "2026-11-15"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-10-10T10:19:27+00:00",
+      "last_seen": "2026-11-12T01:45:00+00:00",
+      "extended": false,
+      "status": "planned"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-7/",
@@ -1588,12 +1600,6 @@
   ],
   "runs": [
     {
-      "time": "2026-11-03T02:29:09+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-11-03T04:47:04+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1946,6 +1952,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-12T01:45:00+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
