@@ -579,15 +579,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 13,
-      "fetched": 17,
+      "items": 12,
+      "fetched": 16,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-12T21:58:48+00:00"
+      "last_success": "2026-11-12T23:43:27+00:00"
     }
   },
   "active": {
@@ -744,7 +744,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-11-12"
+          "2026-11-13"
         ],
         "hours": [],
         "plain": "",
@@ -759,22 +759,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-11-12"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582748944014000",
-        "source": "TomTom (realtime)",
-        "title": "Athinas (Voreou) → Eolou (Voreou)",
-        "url": "https://www.google.com/maps?q=37.978143157,23.7267015511",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-12"
+          "2026-11-13"
         ],
         "hours": [],
         "plain": "",
@@ -789,7 +774,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-12"
+          "2026-11-13"
         ],
         "hours": [],
         "plain": "",
@@ -804,22 +789,22 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-12"
+          "2026-11-13"
         ],
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51582748936022000",
         "source": "TomTom (realtime)",
-        "title": "Vasilikis (Kolokotroni) → Stadiou (Kolokotroni)",
-        "url": "https://www.google.com/maps?q=37.9778628215,23.7280158335",
+        "title": "Nikiou (Kolokotroni) → Voulis (Kolokotroni)",
+        "url": "https://www.google.com/maps?q=37.9777904085,23.7287212544",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-12"
+          "2026-11-13"
         ],
         "hours": [],
         "plain": "",
@@ -834,7 +819,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-12"
+          "2026-11-13"
         ],
         "hours": [],
         "plain": "",
@@ -849,7 +834,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-11-12"
+          "2026-11-13"
         ],
         "hours": [],
         "plain": "",
@@ -864,7 +849,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-12"
+          "2026-11-13"
         ],
         "hours": [],
         "plain": "",
@@ -879,7 +864,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-12"
+          "2026-11-13"
         ],
         "hours": [],
         "plain": "",
@@ -894,7 +879,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-12"
+          "2026-11-13"
         ],
         "hours": [],
         "plain": "",
@@ -909,7 +894,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-12"
+          "2026-11-13"
         ],
         "hours": [],
         "plain": "",
@@ -924,7 +909,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-12"
+          "2026-11-13"
         ],
         "hours": [],
         "plain": "",
@@ -1615,26 +1600,6 @@
         "151797168"
       ]
     },
-    "https://www.kathimerini.gr/society/564560683/metro-kleistoi-apo-tis-21-40-pente-stathmoi-tis-grammis-3/": {
-      "id": "https://www.kathimerini.gr/society/564560683/metro-kleistoi-apo-tis-21-40-pente-stathmoi-tis-grammis-3/",
-      "source": "kathimerini",
-      "title": "Μετρό: Κλειστοί από τις 21:40 πέντε σταθμοί της Γραμμής 3",
-      "url": "https://www.kathimerini.gr/society/564560683/metro-kleistoi-apo-tis-21-40-pente-stathmoi-tis-grammis-3/",
-      "details": "",
-      "area": "Βόρεια",
-      "days": [
-        "2026-11-05"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-11-01T10:55:38+00:00",
-      "last_seen": "2026-11-01T10:55:38+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
     "ΨΒ0Α46ΜΤΛΒ-ΘΦΛ": {
       "id": "ΨΒ0Α46ΜΤΛΒ-ΘΦΛ",
       "source": "Διαύγεια (Τροχαία)",
@@ -2029,7 +1994,9 @@
       "first_seen": "2026-11-12T21:58:48+00:00",
       "last_seen": "2026-11-12T21:58:48+00:00",
       "extended": false,
-      "alerted_chats": []
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
@@ -2039,12 +2006,6 @@
     "151797168": "2026-11-12"
   },
   "notifications": [
-    {
-      "time": "2026-10-31T08:58:40+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-10-31T16:37:15+00:00",
       "source": "Διαύγεια (Τροχαία)",
@@ -2218,15 +2179,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-11-12T23:43:28+00:00",
+      "source": "kathimerini",
+      "title": "🚨 Πολυτεχνείο: Κυκλοφοριακές ρυθμίσεις στην Αθήνα από 15 έως 18 Νοεμβρίου",
+      "url": "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-03T21:22:55+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-11-03T22:37:55+00:00",
       "new": 0,
@@ -2580,6 +2541,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-12T23:43:28+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
