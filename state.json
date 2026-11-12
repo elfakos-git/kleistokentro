@@ -1,7 +1,5 @@
 {
   "seen": [
-    "ΡΟ6146ΜΤΛΒ-ΗΦΨ",
-    "https://www.kathimerini.gr/society/564415858/deth-froyrio-i-thessaloniki-epi-podos-pano-apo-3-500-astynomikoi/",
     "TTI-TTR51600061676014000",
     "9ΠΖΧ46ΜΤΛΒ-87Μ",
     "TTI-TTR51600061388004000",
@@ -499,7 +497,9 @@
     "TTI-TTR51585634464014000",
     "ΨΛΩΜ46ΜΤΛΒ-6ΜΥ",
     "9ΝΙΥ46ΜΤΛΒ-ΛΑΛ",
-    "TTI-TTR51579863896014000"
+    "TTI-TTR51579863896014000",
+    "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/",
+    "TTI-TTR51582749028015000"
   ],
   "seeded": [
     "astynomia",
@@ -514,15 +514,15 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 19,
+      "fetched": 53,
       "dropped": {
         "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 18
+        "no level detected, no disruption keyword": 52
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-12T12:00:22+00:00"
+      "last_success": "2026-11-12T21:58:48+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -530,12 +530,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 99,
+        "εκτός χρονικού παραθύρου": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-12T12:00:23+00:00"
+      "last_success": "2026-11-12T21:58:48+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -548,7 +549,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-12T12:00:23+00:00"
+      "last_success": "2026-11-12T21:58:48+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -557,9 +558,9 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 1,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-11-12T12:00:23+00:00"
+      "last_success": "2026-11-12T21:58:48+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -573,20 +574,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-12T12:00:23+00:00"
+      "last_success": "2026-11-12T21:58:48+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 24,
+      "items": 13,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 14
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-12T18:26:56+00:00"
+      "last_success": "2026-11-12T21:58:48+00:00"
     }
   },
   "active": {
@@ -594,6 +595,24 @@
     "diavgeia": [],
     "iefimerida": [],
     "kathimerini": [
+      {
+        "id": "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/",
+        "source": "kathimerini",
+        "title": "Πολυτεχνείο: Κυκλοφοριακές ρυθμίσεις στην Αθήνα από 15 έως 18 Νοεμβρίου",
+        "url": "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/",
+        "details": "",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17",
+          "2026-11-18"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
       {
         "id": "https://www.kathimerini.gr/society/564581122/patra-ekleise-tmima-tis-olympias-odoy-logo-lasporrois/",
         "source": "kathimerini",
@@ -713,21 +732,6 @@
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
-        "source": "kathimerini",
-        "title": "Μετρό – Εργα στη «μπλε» γραμμή: Ποιοι σταθμοί θα κλείνουν νωρίτερα από την Κυριακή",
-        "url": "https://www.kathimerini.gr/society/564513937/metro-erga-sti-mple-grammi-poioi-stathmoi-tha-kleinoyn-noritera-apo-tin-kyriaki/",
-        "details": "",
-        "area": "",
-        "days": [
-          "2026-11-15"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
       }
     ],
     "oasa": [],
@@ -763,10 +767,55 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51582748944014000",
+        "source": "TomTom (realtime)",
+        "title": "Athinas (Voreou) → Eolou (Voreou)",
+        "url": "https://www.google.com/maps?q=37.978143157,23.7267015511",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-12"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
         "id": "TTI-TTR51582749160031000",
         "source": "TomTom (realtime)",
         "title": "Σταδίου → Ευριπίδου",
         "url": "https://www.google.com/maps?q=37.9786420497,23.7309085959",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-12"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51582749028015000",
+        "source": "TomTom (realtime)",
+        "title": "Σταδίου / Εδουάρδου Λω → Δραγατσανίου / Πλατεία Αγίων Θεοδώρων",
+        "url": "https://www.google.com/maps?q=37.9782289818,23.7312224143",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-12"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "TTI-TTR51582748936022000",
+        "source": "TomTom (realtime)",
+        "title": "Vasilikis (Kolokotroni) → Stadiou (Kolokotroni)",
+        "url": "https://www.google.com/maps?q=37.9778628215,23.7280158335",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -1894,7 +1943,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-12T12:00:23+00:00",
+      "last_seen": "2026-11-12T21:58:48+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1960,6 +2009,27 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/": {
+      "id": "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/",
+      "source": "kathimerini",
+      "title": "Πολυτεχνείο: Κυκλοφοριακές ρυθμίσεις στην Αθήνα από 15 έως 18 Νοεμβρίου",
+      "url": "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-11-12T21:58:48+00:00",
+      "last_seen": "2026-11-12T21:58:48+00:00",
+      "extended": false,
+      "alerted_chats": []
     }
   },
   "known_chats": [
@@ -2151,12 +2221,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-03T17:55:43+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-11-03T21:22:55+00:00",
       "new": 0,
@@ -2510,6 +2574,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-12T21:58:48+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
