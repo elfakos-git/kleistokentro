@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T23:43:28+00:00",
+  "generated_at": "2026-11-13T04:25:12+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-12T21:58:48+00:00"
+      "last_success": "2026-11-13T04:25:10+00:00"
     },
     {
       "name": "diavgeia",
@@ -21,13 +21,12 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99,
-        "εκτός χρονικού παραθύρου": 1
+        "εκτός θέματος/Αθήνας": 100
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-12T21:58:48+00:00"
+      "last_success": "2026-11-13T04:25:10+00:00"
     },
     {
       "name": "iefimerida",
@@ -40,7 +39,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-12T21:58:48+00:00"
+      "last_success": "2026-11-13T04:25:10+00:00"
     },
     {
       "name": "kathimerini",
@@ -49,36 +48,37 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 1,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-12T21:58:48+00:00"
+      "last_success": "2026-11-13T04:25:10+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 11,
       "dropped": {
         "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
+        "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-11-12T21:58:48+00:00"
+      "last_success": "2026-11-13T04:25:12+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
-      "items": 12,
-      "fetched": 16,
+      "items": 11,
+      "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-12T23:43:27+00:00"
+      "last_success": "2026-11-13T04:25:12+00:00"
     }
   ],
   "active_events": [
@@ -88,7 +88,7 @@
       "title": "Πολυτεχνείο: Κυκλοφοριακές ρυθμίσεις στην Αθήνα από 15 έως 18 Νοεμβρίου",
       "url": "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/",
       "details": "",
-      "area": "Κέντρο",
+      "area": "",
       "days": [
         "2026-11-15",
         "2026-11-16",
@@ -98,7 +98,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.kathimerini.gr/society/564581122/patra-ekleise-tmima-tis-olympias-odoy-logo-lasporrois/",
@@ -221,6 +221,22 @@
       "new_this_run": false
     },
     {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1-50/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή τροποποίηση των λεωφορειακών γραμμών 302 και 306, λόγω διεξαγωγής αγώνων ορεινής ποδηλασίας, στον Δήμο Παλλήνης",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1-50/",
+      "details": "",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "new_this_run": true
+    },
+    {
       "id": "TTI-TTR51574092528014000",
       "source": "TomTom (realtime)",
       "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
@@ -266,24 +282,9 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51582749028015000",
-      "source": "TomTom (realtime)",
-      "title": "Σταδίου / Εδουάρδου Λω → Δραγατσανίου / Πλατεία Αγίων Θεοδώρων",
-      "url": "https://www.google.com/maps?q=37.9782289818,23.7312224143",
-      "details": "Κλειστός δρόμος — Κλειστό",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-13"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
       "id": "TTI-TTR51582748936022000",
       "source": "TomTom (realtime)",
-      "title": "Nikiou (Kolokotroni) → Voulis (Kolokotroni)",
+      "title": "Nikiou (Kolokotroni) → Stadiou (Kolokotroni)",
       "url": "https://www.google.com/maps?q=37.9777904085,23.7287212544",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
@@ -1182,7 +1183,26 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-12T21:58:48+00:00",
+      "last_seen": "2026-11-13T04:25:10+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1-50/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή τροποποίηση των λεωφορειακών γραμμών 302 και 306, λόγω διεξαγωγής αγώνων ορεινής ποδηλασίας, στον Δήμο Παλλήνης",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1-50/",
+      "details": "",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-11-13T04:25:12+00:00",
+      "last_seen": "2026-11-13T04:25:12+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1210,7 +1230,7 @@
       "title": "Πολυτεχνείο: Κυκλοφοριακές ρυθμίσεις στην Αθήνα από 15 έως 18 Νοεμβρίου",
       "url": "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/",
       "details": "",
-      "area": "Κέντρο",
+      "area": "",
       "days": [
         "2026-11-15",
         "2026-11-16",
@@ -1221,7 +1241,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-12T21:58:48+00:00",
-      "last_seen": "2026-11-12T21:58:48+00:00",
+      "last_seen": "2026-11-13T04:25:10+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1626,12 +1646,6 @@
   ],
   "runs": [
     {
-      "time": "2026-11-03T22:37:55+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-11-04T04:12:23+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -1984,6 +1998,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-13T04:25:12+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
