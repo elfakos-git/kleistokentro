@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T17:54:22+00:00",
+  "generated_at": "2026-11-13T21:44:53+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,7 +13,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-13T15:49:03+00:00"
+      "last_success": "2026-11-13T21:44:53+00:00"
     },
     {
       "name": "diavgeia",
@@ -28,7 +28,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-13T15:49:03+00:00"
+      "last_success": "2026-11-13T21:44:53+00:00"
     },
     {
       "name": "iefimerida",
@@ -40,9 +40,9 @@
         "άλλη περιοχή": 1
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-13T15:49:04+00:00"
+      "last_success": "2026-11-13T21:44:53+00:00"
     },
     {
       "name": "kathimerini",
@@ -53,7 +53,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-13T15:49:04+00:00"
+      "last_success": "2026-11-13T21:44:53+00:00"
     },
     {
       "name": "oasa",
@@ -68,20 +68,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-13T15:49:04+00:00"
+      "last_success": "2026-11-13T21:44:53+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 37,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 26
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-13T17:54:22+00:00"
+      "last_success": "2026-11-13T21:44:53+00:00"
     }
   ],
   "active_events": [
@@ -101,7 +101,7 @@
       ],
       "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Σοφίας (ύψος αρ. 02, προς Λεωφ. Βασ. Κων/νου, Δήμου Αθηναίων) · 18/11, 00:05–05:00 · λόγω εργασιών κατεβάσματος ψυκτικ",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-polytehneio-kleistoi-dromoi",
@@ -109,16 +109,12 @@
       "title": "Κυκλοφοριακές ρυθμίσεις για το Πολυτεχνείο: Οι κλειστοί δρόμοι και οι αλλαγές σε λεωφορεία και τρόλεϊ",
       "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-polytehneio-kleistoi-dromoi",
       "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-15",
-        "2026-11-17",
-        "2026-11-18"
-      ],
+      "area": "",
+      "days": [],
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/",
@@ -319,8 +315,8 @@
     {
       "id": "TTI-TTR51582748936022000",
       "source": "TomTom (realtime)",
-      "title": "Vasilikis (Kolokotroni) → Karytsi (Kolokotroni)",
-      "url": "https://www.google.com/maps?q=37.9778628215,23.7280158335",
+      "title": "Leocharous (Kolokotroni) → Gazi Anthimou (Kolokotroni)",
+      "url": "https://www.google.com/maps?q=37.97769791,23.7297927969",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -1218,7 +1214,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-13T15:49:04+00:00",
+      "last_seen": "2026-11-13T21:44:53+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1276,7 +1272,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-12T21:58:48+00:00",
-      "last_seen": "2026-11-13T15:49:04+00:00",
+      "last_seen": "2026-11-13T21:44:53+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1317,7 +1313,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Σοφίας (ύψος αρ. 02, προς Λεωφ. Βασ. Κων/νου, Δήμου Αθηναίων) · 18/11, 00:05–05:00 · λόγω εργασιών κατεβάσματος ψυκτικ",
       "category": "",
       "first_seen": "2026-11-13T15:49:03+00:00",
-      "last_seen": "2026-11-13T15:49:03+00:00",
+      "last_seen": "2026-11-13T21:44:53+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1722,12 +1718,6 @@
   ],
   "runs": [
     {
-      "time": "2026-11-04T17:44:01+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-11-04T21:38:38+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2080,6 +2070,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-13T21:44:53+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
