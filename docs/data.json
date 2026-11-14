@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T04:21:02+00:00",
+  "generated_at": "2026-11-14T09:32:30+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -70,14 +70,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 14,
+      "fetched": 30,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 2
+        "κατηγορία εκτός πολιτικής": 18
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-14T04:21:02+00:00"
+      "last_success": "2026-11-14T09:32:30+00:00"
     }
   ],
   "active_events": [
@@ -326,7 +326,7 @@
     {
       "id": "TTI-TTR51582748936022000",
       "source": "TomTom (realtime)",
-      "title": "Vasilikis (Kolokotroni) → Voulis (Kolokotroni)",
+      "title": "Vasilikis (Kolokotroni) → Karytsi (Kolokotroni)",
       "url": "https://www.google.com/maps?q=37.9778628215,23.7280158335",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
@@ -1547,6 +1547,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-11-14T09:32:30+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
+    {
       "time": "2026-11-13T15:49:05+00:00",
       "source": "iefimerida",
       "title": "🚨 Κυκλοφοριακές ρυθμίσεις για το Πολυτεχνείο: Οι κλειστοί δρόμοι και οι αλλαγές σε λεωφορεία και τρόλεϊ",
@@ -1719,21 +1725,9 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "🚨 « Προσωρινές κυκλοφοριακές ρυθμίσεις στα παρακάτω οδικά τμήματα, περιοχής αρμοδιότητας της Περιφέρειας Αττικής, κατά το χρονικό διάστημα από 02.11.2026 έως 06.03.2027, λόγω εκτέλεσης εργασιών »",
       "url": "https://diavgeia.gov.gr/decision/view/ΨΒ0Α46ΜΤΛΒ-ΘΦΛ"
-    },
-    {
-      "time": "2026-11-02T10:07:31+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-05T04:30:49+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-11-05T09:56:46+00:00",
       "new": 0,
@@ -2087,6 +2081,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-14T09:32:30+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
