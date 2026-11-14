@@ -522,7 +522,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-14T14:40:29+00:00"
+      "last_success": "2026-11-14T20:15:58+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -535,7 +535,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-14T14:40:30+00:00"
+      "last_success": "2026-11-14T20:15:58+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -549,7 +549,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-14T14:40:30+00:00"
+      "last_success": "2026-11-14T20:15:58+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -560,7 +560,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-14T14:40:30+00:00"
+      "last_success": "2026-11-14T20:15:58+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -573,22 +573,22 @@
         "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-14T14:40:32+00:00"
+      "last_success": "2026-11-14T20:15:58+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 31,
+      "fetched": 29,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 19
+        "κατηγορία εκτός πολιτικής": 17
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-14T16:10:50+00:00"
+      "last_success": "2026-11-14T20:15:58+00:00"
     }
   },
   "active": {
@@ -757,14 +757,11 @@
         "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-324/",
         "details": "",
         "area": "Κέντρο",
-        "days": [
-          "2026-11-15",
-          "2026-11-18"
-        ],
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "bus",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1-50/",
@@ -1953,7 +1950,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-14T14:40:30+00:00",
+      "last_seen": "2026-11-14T20:15:58+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2037,7 +2034,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-12T21:58:48+00:00",
-      "last_seen": "2026-11-14T14:40:30+00:00",
+      "last_seen": "2026-11-14T20:15:58+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2318,12 +2315,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-05T17:45:22+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-11-05T21:47:31+00:00",
       "new": 0,
@@ -2677,6 +2668,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-14T20:15:58+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
