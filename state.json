@@ -514,15 +514,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-13T21:44:53+00:00"
+      "last_success": "2026-11-14T04:21:02+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -530,14 +527,13 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 93,
-        "εκτός χρονικού παραθύρου": 1,
+        "εκτός θέματος/Αθήνας": 94,
         "μόνο μία λωρίδα/ΛΕΑ": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-13T21:44:53+00:00"
+      "last_success": "2026-11-14T04:21:02+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -551,7 +547,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-13T21:44:53+00:00"
+      "last_success": "2026-11-14T04:21:02+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -562,7 +558,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-13T21:44:53+00:00"
+      "last_success": "2026-11-14T04:21:02+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -577,20 +573,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-13T21:44:53+00:00"
+      "last_success": "2026-11-14T04:21:02+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 19,
+      "fetched": 14,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 7
+        "κατηγορία εκτός πολιτικής": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-13T22:56:10+00:00"
+      "last_success": "2026-11-14T04:21:02+00:00"
     }
   },
   "active": {
@@ -849,7 +845,7 @@
       {
         "id": "TTI-TTR51582748936022000",
         "source": "TomTom (realtime)",
-        "title": "Vasilikis (Kolokotroni) → Karytsi (Kolokotroni)",
+        "title": "Vasilikis (Kolokotroni) → Voulis (Kolokotroni)",
         "url": "https://www.google.com/maps?q=37.9778628215,23.7280158335",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
@@ -1958,7 +1954,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-13T21:44:53+00:00",
+      "last_seen": "2026-11-14T04:21:02+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2042,7 +2038,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-12T21:58:48+00:00",
-      "last_seen": "2026-11-13T21:44:53+00:00",
+      "last_seen": "2026-11-14T04:21:02+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2086,7 +2082,7 @@
       "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Σοφίας (ύψος αρ. 02, προς Λεωφ. Βασ. Κων/νου, Δήμου Αθηναίων) · 18/11, 00:05–05:00 · λόγω εργασιών κατεβάσματος ψυκτικ",
       "category": "",
       "first_seen": "2026-11-13T15:49:03+00:00",
-      "last_seen": "2026-11-13T21:44:53+00:00",
+      "last_seen": "2026-11-14T04:21:02+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -2302,12 +2298,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-04T22:55:34+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-11-05T04:30:49+00:00",
       "new": 0,
@@ -2661,6 +2651,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-14T04:21:02+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
