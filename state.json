@@ -1,6 +1,5 @@
 {
   "seen": [
-    "https://www.oasa.gr/blog/%cf%80%ce%b1%cf%81%ce%ac%cf%84%ce%b1%cf%83%ce%b7-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1%ce%b4%cf%81%ce%bf%ce%bc%ce%ae%cf%82-6/",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-275/",
     "ΨΝ0Τ46ΜΤΛΒ-ΤΦΣ",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-68/",
@@ -499,7 +498,8 @@
     "97ΔΔ46ΜΤΛΒ-ΣΓΧ",
     "ΡΔΟ446ΜΤΛΒ-ΗΨΩ",
     "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-polytehneio-kleistoi-dromoi",
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-324/"
+    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-324/",
+    "Ρ6ΛΖ46ΜΤΛΒ-ΟΕΑ"
   ],
   "seeded": [
     "astynomia",
@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-15T04:05:16+00:00"
+      "last_success": "2026-11-15T15:09:20+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -527,12 +527,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 99,
+        "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-15T04:05:16+00:00"
+      "last_success": "2026-11-15T15:09:20+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -546,7 +547,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-15T04:05:16+00:00"
+      "last_success": "2026-11-15T15:09:20+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -557,7 +558,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-15T04:05:16+00:00"
+      "last_success": "2026-11-15T15:09:20+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -565,27 +566,27 @@
       "items": 2,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 2,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 7,
+        "παλιά ανακοίνωση": 5,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
         "λεωφορεία (χωρίς ειδοποίηση)": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-15T04:05:16+00:00"
+      "last_success": "2026-11-15T15:09:20+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 16,
+      "fetched": 18,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-15T09:59:18+00:00"
+      "last_success": "2026-11-15T15:09:20+00:00"
     }
   },
   "active": {
@@ -838,7 +839,7 @@
       {
         "id": "TTI-TTR51582748936022000",
         "source": "TomTom (realtime)",
-        "title": "Vasilikis (Kolokotroni) → Karytsi (Kolokotroni)",
+        "title": "Vasilikis (Kolokotroni) → Stadiou (Kolokotroni)",
         "url": "https://www.google.com/maps?q=37.9778628215,23.7280158335",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
@@ -1907,7 +1908,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-15T04:05:16+00:00",
+      "last_seen": "2026-11-15T15:09:20+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1991,7 +1992,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-12T21:58:48+00:00",
-      "last_seen": "2026-11-15T04:05:16+00:00",
+      "last_seen": "2026-11-15T15:09:20+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2272,12 +2273,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-06T15:30:14+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-11-06T17:09:56+00:00",
       "new": 0,
@@ -2631,6 +2626,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-15T15:09:20+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
