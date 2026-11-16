@@ -1,6 +1,5 @@
 {
   "seen": [
-    "ΨΝ0Τ46ΜΤΛΒ-ΤΦΣ",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-68/",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-117/",
     "https://www.iefimerida.gr/ellada/pyrkagia-egkataleleimmeno-ktirio-kentro-athinas",
@@ -499,7 +498,8 @@
     "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-polytehneio-kleistoi-dromoi",
     "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-324/",
     "Ρ6ΛΖ46ΜΤΛΒ-ΟΕΑ",
-    "TTI-TTR51574092928022000"
+    "TTI-TTR51574092928022000",
+    "TTI-TTR51602946940011000"
   ],
   "seeded": [
     "astynomia",
@@ -579,15 +579,15 @@
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 13,
-      "fetched": 41,
+      "items": 14,
+      "fetched": 18,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 28
+        "κατηγορία εκτός πολιτικής": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-16T17:43:08+00:00"
+      "last_success": "2026-11-16T20:34:21+00:00"
     }
   },
   "active": {
@@ -810,6 +810,21 @@
         "new_this_run": false
       },
       {
+        "id": "TTI-TTR51602946940011000",
+        "source": "TomTom (realtime)",
+        "title": "Frantzi Amvrosiou (Iliou Ilia) → Evdoxou (Iliou Ilia)",
+        "url": "https://www.google.com/maps?q=37.9581713839,23.7307650977",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-16"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": true
+      },
+      {
         "id": "TTI-TTR51579863732014000",
         "source": "TomTom (realtime)",
         "title": "Μιχαήλ Ψέλλου → Λεωφόρος Αλεξάνδρας",
@@ -837,7 +852,7 @@
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51594290660014001",
@@ -857,7 +872,7 @@
       {
         "id": "TTI-TTR51588520060013000",
         "source": "TomTom (realtime)",
-        "title": "Tsoha An. (Kiriakou Pan.) → Kotieou (Kiriakou Pan.)",
+        "title": "Tsoha An. (Kiriakou Pan.) → Dorileou (Kiriakou Pan.)",
         "url": "https://www.google.com/maps?q=37.9865048936,23.7550015384",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
@@ -2209,12 +2224,6 @@
   ],
   "runs": [
     {
-      "time": "2026-11-07T15:46:47+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-11-07T17:13:50+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2567,6 +2576,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-16T20:34:21+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
