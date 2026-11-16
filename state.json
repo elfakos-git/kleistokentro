@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-15T20:41:23+00:00"
+      "last_success": "2026-11-16T04:05:15+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -527,13 +527,14 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 99,
+        "εκτός θέματος/Αθήνας": 96,
+        "εκτός χρονικού παραθύρου": 3,
         "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-15T20:41:23+00:00"
+      "last_success": "2026-11-16T04:05:15+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -547,7 +548,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-15T20:41:23+00:00"
+      "last_success": "2026-11-16T04:05:15+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -558,35 +559,35 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-15T20:41:23+00:00"
+      "last_success": "2026-11-16T04:05:15+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 2,
+      "items": 1,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 5,
+        "παλιά ανακοίνωση": 6,
         "λειτουργικό/χωρίς οδικό αντίκτυπο": 4,
-        "λεωφορεία (χωρίς ειδοποίηση)": 2
+        "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-15T20:41:23+00:00"
+      "last_success": "2026-11-16T04:05:15+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 11,
-      "fetched": 13,
+      "items": 10,
+      "fetched": 12,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-16T01:10:35+00:00"
+      "last_success": "2026-11-16T04:05:15+00:00"
     }
   },
   "active": {
@@ -647,22 +648,6 @@
         "details": "",
         "area": "Ανατολικά",
         "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
-        "source": "kathimerini",
-        "title": "Μαραθώνιος: Ολες οι κυκλοφοριακές ρυθμίσεις – Ποιοι δρόμοι κλείνουν το Σάββατο και την Κυριακή",
-        "url": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
-        "details": "",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-11-14",
-          "2026-11-15"
-        ],
         "hours": [],
         "plain": "",
         "category": "",
@@ -760,19 +745,6 @@
         "plain": "",
         "category": "bus",
         "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1-50/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή τροποποίηση των λεωφορειακών γραμμών 302 και 306, λόγω διεξαγωγής αγώνων ορεινής ποδηλασίας, στον Δήμο Παλλήνης",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89%cf%86%ce%bf%cf%81%ce%b5%ce%b9%ce%b1-50/",
-        "details": "",
-        "area": "Ανατολικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
       }
     ],
     "tomtom": [
@@ -807,40 +779,10 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51582748944014000",
-        "source": "TomTom (realtime)",
-        "title": "Athinas (Voreou) → Eolou (Voreou)",
-        "url": "https://www.google.com/maps?q=37.978143157,23.7267015511",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-16"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
         "id": "TTI-TTR51582749160031000",
         "source": "TomTom (realtime)",
         "title": "Σταδίου → Ευριπίδου",
         "url": "https://www.google.com/maps?q=37.9786420497,23.7309085959",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-16"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582748936014000",
-        "source": "TomTom (realtime)",
-        "title": "Vasilikis (Kolokotroni) → Karytsi (Kolokotroni)",
-        "url": "https://www.google.com/maps?q=37.9778628215,23.7280158335",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -886,6 +828,21 @@
         "source": "TomTom (realtime)",
         "title": "Φορμίωνος → Λεωφόρος Εθνικής Αντιστάσεως",
         "url": "https://www.google.com/maps?q=37.9685917897,23.7539152437",
+        "details": "Κλειστός δρόμος — Κλειστό",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-16"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "TTI-TTR51594290768011000",
+        "source": "TomTom (realtime)",
+        "title": "Ethnikis Antistaseos Ave (Vas. Alexandrou Ave) → Imittou (Vas. Alexandrou Ave)",
+        "url": "https://www.google.com/maps?q=37.9691027736,23.7549908095",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
@@ -1853,7 +1810,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-15T20:41:23+00:00",
+      "last_seen": "2026-11-16T04:05:15+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1937,7 +1894,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-12T21:58:48+00:00",
-      "last_seen": "2026-11-15T20:41:23+00:00",
+      "last_seen": "2026-11-16T04:05:15+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2220,12 +2177,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-07T03:56:28+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-11-07T09:18:47+00:00",
       "new": 0,
@@ -2579,6 +2530,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-16T04:05:15+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
