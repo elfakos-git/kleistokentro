@@ -514,28 +514,25 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-17T12:39:31+00:00"
+      "last_success": "2026-11-17T23:15:46+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 2,
+      "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 98
+        "εκτός θέματος/Αθήνας": 99
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-17T12:39:31+00:00"
+      "last_success": "2026-11-17T23:15:46+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -546,9 +543,9 @@
         "χωρίς/παλιά ημερομηνία": 11
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-17T12:39:32+00:00"
+      "last_success": "2026-11-17T23:15:46+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -557,9 +554,9 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 1,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-17T12:39:32+00:00"
+      "last_success": "2026-11-17T23:15:46+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -573,20 +570,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-17T12:39:32+00:00"
+      "last_success": "2026-11-17T23:15:46+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
-      "items": 17,
-      "fetched": 19,
+      "items": 15,
+      "fetched": 17,
       "dropped": {
         "κατηγορία εκτός πολιτικής": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-17T21:07:01+00:00"
+      "last_success": "2026-11-17T23:15:46+00:00"
     }
   },
   "active": {
@@ -608,20 +605,7 @@
         ],
         "plain": "Διακοπή κυκλοφορίας — Δήμου Μεγαρέων · 19/11, 20:00–06:00",
         "category": "",
-        "new_this_run": true
-      },
-      {
-        "id": "ΨΥΨΖ46ΜΤΛΒ-ΞΕ8",
-        "source": "Διαύγεια (Τροχαία)",
-        "title": "25901-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στον οδικό άξονα Λ. Αργυρουπόλεως, Ηρώων Πολυτεχνείου, Δημάρχου Παύλου Πεντάρη, Λ. Πρωτόπαπα, Λ. Ελ. Βενιζέλου και Λ. Αλίμου/Καρέα/Κατεχάκη, Π. Κανελλοπούλου, εναλλάξ ανά λωρίδα και στα δύο ρεύ",
-        "url": "https://diavgeia.gov.gr/decision/view/ΨΥΨΖ46ΜΤΛΒ-ΞΕ8",
-        "details": "Επίσημη απόφαση Τροχαίας (17/11/2026)",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "Διακοπή κυκλοφορίας στη Λ. Αργυρουπόλεως",
-        "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "iefimerida": [
@@ -631,25 +615,8 @@
         "title": "Κορυφώνονται σήμερα οι εκδηλώσεις για την 53η επέτειο του Πολυτεχνείου: Επί ποδός 5.000 αστυνομικοί και drones, κλειστοί δρόμοι και σταθμοί του Μετρό",
         "url": "https://www.iefimerida.gr/ellada/polytehneio-koryfosi-ekdiloseon-gia-53i-epeteio",
         "details": "",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-17"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
-      },
-      {
-        "id": "https://www.iefimerida.gr/ellada/polytehneio-epeteio-poioi-dromoi-tha-kleisoyn-mmm",
-        "source": "iefimerida",
-        "title": "Πολυτεχνείο: Κορυφώνονται την Τρίτη οι εκδηλώσεις για την επέτειο -Επί ποδός 5.000 αστυνομικοί, ποιοι δρόμοι θα κλείσουν, πώς θα κινηθούν τα ΜΜΜ",
-        "url": "https://www.iefimerida.gr/ellada/polytehneio-epeteio-poioi-dromoi-tha-kleisoyn-mmm",
-        "details": "",
         "area": "",
-        "days": [
-          "2026-11-17"
-        ],
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "",
@@ -663,15 +630,12 @@
         "title": "Κορυφώνονται οι εκδηλώσεις για την 53η επέτειο του Πολυτεχνείου – Κυκλοφοριακές ρυθμίσεις, πώς θα κινηθούν τα ΜΜΜ",
         "url": "https://www.kathimerini.gr/society/564593452/koryfonontai-oi-ekdiloseis-gia-tin-53i-epeteio-toy-polytechneioy-kykloforiakes-rythmiseis-pos-tha-kinithoyn-ta-mmm/",
         "details": "",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-17",
-          "2026-11-18"
-        ],
+        "area": "",
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/",
@@ -712,6 +676,22 @@
         "details": "",
         "area": "Ανατολικά",
         "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
+        "id": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
+        "source": "kathimerini",
+        "title": "Μαραθώνιος: Ολες οι κυκλοφοριακές ρυθμίσεις – Ποιοι δρόμοι κλείνουν το Σάββατο και την Κυριακή",
+        "url": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
+        "details": "",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-11-15",
+          "2026-11-21"
+        ],
         "hours": [],
         "plain": "",
         "category": "",
@@ -793,7 +773,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-11-17"
+          "2026-11-18"
         ],
         "hours": [],
         "plain": "",
@@ -808,7 +788,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-11-17"
+          "2026-11-18"
         ],
         "hours": [],
         "plain": "",
@@ -816,14 +796,14 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51582748944014000",
+        "id": "TTI-TTR51582748936022000",
         "source": "TomTom (realtime)",
-        "title": "Athinas (Voreou) → Eolou (Voreou)",
-        "url": "https://www.google.com/maps?q=37.978143157,23.7267015511",
+        "title": "Leocharous (Kolokotroni) → Chavriou (Kolokotroni)",
+        "url": "https://www.google.com/maps?q=37.97769791,23.7297927969",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-17"
+          "2026-11-18"
         ],
         "hours": [],
         "plain": "",
@@ -838,7 +818,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-17"
+          "2026-11-18"
         ],
         "hours": [],
         "plain": "",
@@ -853,7 +833,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-17"
+          "2026-11-18"
         ],
         "hours": [],
         "plain": "",
@@ -863,27 +843,12 @@
       {
         "id": "TTI-TTR51582749064014002",
         "source": "TomTom (realtime)",
-        "title": "Stadiou (Benaki Emmanouil) → Gravias (Benaki Emmanouil)",
-        "url": "https://www.google.com/maps?q=37.9830381845,23.7301294142",
+        "title": "Akadimias (Benaki Emmanouil) → Gravias (Benaki Emmanouil)",
+        "url": "https://www.google.com/maps?q=37.984147285,23.7322134906",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-17"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
-      },
-      {
-        "id": "TTI-TTR51582748936022000",
-        "source": "TomTom (realtime)",
-        "title": "Vasilikis (Kolokotroni) → Stadiou (Kolokotroni)",
-        "url": "https://www.google.com/maps?q=37.9778628215,23.7280158335",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-17"
+          "2026-11-18"
         ],
         "hours": [],
         "plain": "",
@@ -898,12 +863,12 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-17"
+          "2026-11-18"
         ],
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "TTI-TTR51579863732014000",
@@ -913,7 +878,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-17"
+          "2026-11-18"
         ],
         "hours": [],
         "plain": "",
@@ -928,7 +893,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-17"
+          "2026-11-18"
         ],
         "hours": [],
         "plain": "",
@@ -943,7 +908,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-11-17"
+          "2026-11-18"
         ],
         "hours": [],
         "plain": "",
@@ -958,27 +923,12 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-17"
+          "2026-11-18"
         ],
         "hours": [],
         "plain": "",
         "category": "",
         "new_this_run": false
-      },
-      {
-        "id": "TTI-TTR51582749260022000",
-        "source": "TomTom (realtime)",
-        "title": "Κεδρηνού / Δήμου Τσέλιου → Λεωφόρος Αλεξάνδρας",
-        "url": "https://www.google.com/maps?q=37.9893668613,23.7541646892",
-        "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-17"
-        ],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": true
       },
       {
         "id": "TTI-TTR51594290660014001",
@@ -988,7 +938,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-17"
+          "2026-11-18"
         ],
         "hours": [],
         "plain": "",
@@ -1003,7 +953,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-17"
+          "2026-11-18"
         ],
         "hours": [],
         "plain": "",
@@ -1018,7 +968,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-17"
+          "2026-11-18"
         ],
         "hours": [],
         "plain": "",
@@ -1033,7 +983,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-17"
+          "2026-11-18"
         ],
         "hours": [],
         "plain": "",
@@ -1848,27 +1798,6 @@
         "151797168"
       ]
     },
-    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ionia-odos-gia-5-imeres": {
-      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ionia-odos-gia-5-imeres",
-      "source": "iefimerida",
-      "title": "Κυκλοφοριακές ρυθμίσεις στην Ιόνια Οδό για 5 ημέρες, ποιες περιοχές επηρεάζονται",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-ionia-odos-gia-5-imeres",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-11-06",
-        "2026-11-10"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-11-06T15:30:13+00:00",
-      "last_seen": "2026-11-06T15:30:13+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
     "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/": {
       "id": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
       "source": "kathimerini",
@@ -1877,14 +1806,14 @@
       "details": "",
       "area": "Ανατολικά",
       "days": [
-        "2026-11-14",
-        "2026-11-15"
+        "2026-11-15",
+        "2026-11-21"
       ],
       "hours": [],
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-17T12:39:32+00:00",
+      "last_seen": "2026-11-17T23:15:46+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1928,7 +1857,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-12T21:58:48+00:00",
-      "last_seen": "2026-11-17T12:39:32+00:00",
+      "last_seen": "2026-11-17T23:15:46+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2035,7 +1964,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-17T02:42:33+00:00",
-      "last_seen": "2026-11-17T12:39:32+00:00",
+      "last_seen": "2026-11-17T23:15:46+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2058,7 +1987,7 @@
       "plain": "Διακοπή κυκλοφορίας — Δήμου Μεγαρέων · 19/11, 20:00–06:00",
       "category": "",
       "first_seen": "2026-11-17T12:39:31+00:00",
-      "last_seen": "2026-11-17T12:39:31+00:00",
+      "last_seen": "2026-11-17T23:15:46+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2295,12 +2224,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-08T09:36:17+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-11-08T10:56:43+00:00",
       "new": 1,
@@ -2654,6 +2577,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-17T23:15:46+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
