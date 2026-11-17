@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T03:15:02+00:00",
+  "generated_at": "2026-11-17T12:07:54+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -70,15 +70,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 12,
-      "fetched": 14,
+      "items": 18,
+      "fetched": 44,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 2
+        "κατηγορία εκτός πολιτικής": 26
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-17T03:15:02+00:00"
+      "last_success": "2026-11-17T12:07:53+00:00"
     }
   ],
   "active_events": [
@@ -278,10 +278,40 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51582749160031000",
+      "id": "TTI-TTR51576978136011000",
       "source": "TomTom (realtime)",
-      "title": "Σταδίου → Ευριπίδου",
-      "url": "https://www.google.com/maps?q=37.9786420497,23.7309085959",
+      "title": "Patision (Halkokondili) → Akadimias (Halkokondili)",
+      "url": "https://www.google.com/maps?q=37.9859631134,23.7298397356",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51576978260003000",
+      "source": "TomTom (realtime)",
+      "title": "G Septemvriou (Marni) → Patision (Marni)",
+      "url": "https://www.google.com/maps?q=37.9885890022,23.7291182214",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "TTI-TTR51576978172011000",
+      "source": "TomTom (realtime)",
+      "title": "Ioulianou (Patision) → Panepistimiou (Patision)",
+      "url": "https://www.google.com/maps?q=37.9912658599,23.7311258548",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -308,10 +338,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51602946940011000",
+      "id": "TTI-TTR51576978152011000",
       "source": "TomTom (realtime)",
-      "title": "Frantzi Amvrosiou (Iliou Ilia) → Evdoxou (Iliou Ilia)",
-      "url": "https://www.google.com/maps?q=37.9581713839,23.7307650977",
+      "title": "Χαλκοκονδύλη / Κάνιγγος → Χαριλάου Τρικούπη",
+      "url": "https://www.google.com/maps?q=37.9858383865,23.730769121",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -321,6 +351,51 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51602946940011000",
+      "source": "TomTom (realtime)",
+      "title": "Frantzi Amvrosiou (Iliou Ilia) → Evdoxou (Iliou Ilia)",
+      "url": "https://www.google.com/maps?q=37.9581512932,23.7306993836",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51582749160031000",
+      "source": "TomTom (realtime)",
+      "title": "Σταδίου → Ευριπίδου",
+      "url": "https://www.google.com/maps?q=37.9793635254,23.7321477765",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51582749060014000",
+      "source": "TomTom (realtime)",
+      "title": "Σταδίου / Χρήστου Λαδά → Ελευθερίου Βενιζέλου / Σίνα",
+      "url": "https://www.google.com/maps?q=37.9786916679,23.7327217692",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51579863732014000",
@@ -340,7 +415,7 @@
     {
       "id": "TTI-TTR51574092928022000",
       "source": "TomTom (realtime)",
-      "title": "Zakinthou (Spetson) → Skirou (Spetson)",
+      "title": "Zakinthou (Spetson) → Evias (Spetson)",
       "url": "https://www.google.com/maps?q=37.9990093837,23.7400495642",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
@@ -381,6 +456,21 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51579863908022000",
+      "source": "TomTom (realtime)",
+      "title": "Μουσών → Λεωφόρος Μαραθωνοδρόμων / Υακίνθων",
+      "url": "https://www.google.com/maps?q=38.0006602486,23.76708489",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Ανατολικά",
+      "days": [
+        "2026-11-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51594291004012000",
@@ -1383,6 +1473,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-11-17T12:07:54+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
+    {
       "time": "2026-11-17T02:42:34+00:00",
       "source": "iefimerida",
       "title": "🚨 Πολυτεχνείο: Κορυφώνονται την Τρίτη οι εκδηλώσεις για την επέτειο -Επί ποδός 5.000 αστυνομικοί, ποιοι δρόμοι θα κλείσουν, πώς θα κινηθούν τα ΜΜΜ",
@@ -1555,21 +1651,9 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
-    },
-    {
-      "time": "2026-11-03T15:39:53+00:00",
-      "source": "iefimerida",
-      "title": "🚨 Κυκλοφοριακές ρυθμίσεις στην Αττική Οδό το βράδυ της Τρίτης",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-stin-attiki-odo-brady-tis-tritis"
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-07T23:07:57+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-11-07T23:17:17+00:00",
       "new": 1,
@@ -1920,6 +2004,12 @@
     },
     {
       "time": "2026-11-17T03:15:02+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
+    },
+    {
+      "time": "2026-11-17T12:07:54+00:00",
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
