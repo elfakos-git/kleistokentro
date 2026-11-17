@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:07:54+00:00",
+  "generated_at": "2026-11-17T12:39:33+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -13,33 +13,33 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-17T02:42:32+00:00"
+      "last_success": "2026-11-17T12:39:31+00:00"
     },
     {
       "name": "diavgeia",
       "ok": true,
-      "items": 0,
+      "items": 2,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 98
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-17T02:42:33+00:00"
+      "last_success": "2026-11-17T12:39:31+00:00"
     },
     {
       "name": "iefimerida",
       "ok": true,
-      "items": 1,
+      "items": 2,
       "fetched": 13,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 12
+        "χωρίς/παλιά ημερομηνία": 11
       },
       "date_misses": 0,
       "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-11-17T02:42:33+00:00"
+      "last_success": "2026-11-17T12:39:32+00:00"
     },
     {
       "name": "kathimerini",
@@ -48,49 +48,110 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 1,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-11-17T02:42:33+00:00"
+      "last_success": "2026-11-17T12:39:32+00:00"
     },
     {
       "name": "oasa",
       "ok": true,
-      "items": 1,
+      "items": 0,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 4,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 6,
-        "λεωφορεία (χωρίς ειδοποίηση)": 1
+        "παλιά ανακοίνωση": 7,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 4
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-17T02:42:33+00:00"
+      "last_success": "2026-11-17T12:39:32+00:00"
     },
     {
       "name": "tomtom",
       "ok": true,
       "items": 18,
-      "fetched": 44,
+      "fetched": 39,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 26
+        "κατηγορία εκτός πολιτικής": 21
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-17T12:07:53+00:00"
+      "last_success": "2026-11-17T12:39:32+00:00"
     }
   ],
   "active_events": [
+    {
+      "id": "9Κ8Π46ΜΤΛΒ-ΔΩΥ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25899-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στην Ν.Ε.Ο. Αθηνών-Κορίνθου, μεταξύ των χ/θ 45,500 και 52,200, εναλλάξ ανά λωρίδα και στα δύο ρεύματα κυκλοφορίας, περιοχής Δήμου Μεγαρέων, στις 18 και 19-11-2026, κατά τις ώρες 20:00΄έως 06:00",
+      "url": "https://diavgeia.gov.gr/decision/view/9Κ8Π46ΜΤΛΒ-ΔΩΥ",
+      "details": "Επίσημη απόφαση Τροχαίας (17/11/2026)",
+      "area": "Δυτικά",
+      "days": [
+        "2026-11-19"
+      ],
+      "hours": [
+        "20:00",
+        "06:00"
+      ],
+      "plain": "Διακοπή κυκλοφορίας — Δήμου Μεγαρέων · 19/11, 20:00–06:00",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "ΨΥΨΖ46ΜΤΛΒ-ΞΕ8",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25901-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στον οδικό άξονα Λ. Αργυρουπόλεως, Ηρώων Πολυτεχνείου, Δημάρχου Παύλου Πεντάρη, Λ. Πρωτόπαπα, Λ. Ελ. Βενιζέλου και Λ. Αλίμου/Καρέα/Κατεχάκη, Π. Κανελλοπούλου, εναλλάξ ανά λωρίδα και στα δύο ρεύ",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΥΨΖ46ΜΤΛΒ-ΞΕ8",
+      "details": "Επίσημη απόφαση Τροχαίας (17/11/2026)",
+      "area": "",
+      "days": [],
+      "hours": [],
+      "plain": "Διακοπή κυκλοφορίας στη Λ. Αργυρουπόλεως",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "https://www.iefimerida.gr/ellada/polytehneio-koryfosi-ekdiloseon-gia-53i-epeteio",
+      "source": "iefimerida",
+      "title": "Κορυφώνονται σήμερα οι εκδηλώσεις για την 53η επέτειο του Πολυτεχνείου: Επί ποδός 5.000 αστυνομικοί και drones, κλειστοί δρόμοι και σταθμοί του Μετρό",
+      "url": "https://www.iefimerida.gr/ellada/polytehneio-koryfosi-ekdiloseon-gia-53i-epeteio",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
     {
       "id": "https://www.iefimerida.gr/ellada/polytehneio-epeteio-poioi-dromoi-tha-kleisoyn-mmm",
       "source": "iefimerida",
       "title": "Πολυτεχνείο: Κορυφώνονται την Τρίτη οι εκδηλώσεις για την επέτειο -Επί ποδός 5.000 αστυνομικοί, ποιοι δρόμοι θα κλείσουν, πώς θα κινηθούν τα ΜΜΜ",
       "url": "https://www.iefimerida.gr/ellada/polytehneio-epeteio-poioi-dromoi-tha-kleisoyn-mmm",
       "details": "",
-      "area": "Κέντρο",
+      "area": "",
       "days": [
         "2026-11-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564593452/koryfonontai-oi-ekdiloseis-gia-tin-53i-epeteio-toy-polytechneioy-kykloforiakes-rythmiseis-pos-tha-kinithoyn-ta-mmm/",
+      "source": "kathimerini",
+      "title": "Κορυφώνονται οι εκδηλώσεις για την 53η επέτειο του Πολυτεχνείου – Κυκλοφοριακές ρυθμίσεις, πώς θα κινηθούν τα ΜΜΜ",
+      "url": "https://www.kathimerini.gr/society/564593452/koryfonontai-oi-ekdiloseis-gia-tin-53i-epeteio-toy-polytechneioy-kykloforiakes-rythmiseis-pos-tha-kinithoyn-ta-mmm/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-17",
+        "2026-11-18"
       ],
       "hours": [],
       "plain": "",
@@ -118,7 +179,7 @@
     {
       "id": "https://www.kathimerini.gr/society/564581122/patra-ekleise-tmima-tis-olympias-odoy-logo-lasporrois/",
       "source": "kathimerini",
-      "title": "Πραγματοποιείται εκτροπή της κυκλοφορίας στην παλαιά εθνική οδό Πατρών - Κορίνθου μέσω των κόμβων Δρεπάνου και Σελιανιτίκων.",
+      "title": "Πραγματοποιείται εκτροπή της κυκλοφορίας στην παλαιά εθνική οδό Πατρών – Κορίνθου μέσω των κόμβων Δρεπάνου και Σελιανιτίκων.",
       "url": "https://www.kathimerini.gr/society/564581122/patra-ekleise-tmima-tis-olympias-odoy-logo-lasporrois/",
       "details": "",
       "area": "",
@@ -207,32 +268,6 @@
       "new_this_run": false
     },
     {
-      "id": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
-      "source": "kathimerini",
-      "title": "Οι περιορισμοί στην κυκλοφορία και στάση των οχημάτων θα εφαρμόζονται σταδιακά και ανάλογα με το σημείο κίνησης των δρομέων.",
-      "url": "https://www.kathimerini.gr/society/564519046/thessaloniki-kykloforiakes-rythmiseis-logo-toy-14oy-diethni-nychterinoy-imimarathonioy/",
-      "details": "",
-      "area": "",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "new_this_run": false
-    },
-    {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-324/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών και γραμμών τρόλεϊ, λόγω του εορτασμού της 53ης επετείου του Πολυτεχνείου στο κέντρο της Αθήνας",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-324/",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "new_this_run": false
-    },
-    {
       "id": "TTI-TTR51574092528014000",
       "source": "TomTom (realtime)",
       "title": "Ιωάννου Βιταλιώτου → Πέτρου Ράλλη",
@@ -280,8 +315,8 @@
     {
       "id": "TTI-TTR51576978136011000",
       "source": "TomTom (realtime)",
-      "title": "Patision (Halkokondili) → Akadimias (Halkokondili)",
-      "url": "https://www.google.com/maps?q=37.9859631134,23.7298397356",
+      "title": "G Septemvriou (Halkokondili) → Akadimias (Halkokondili)",
+      "url": "https://www.google.com/maps?q=37.9861387745,23.7285174066",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -305,7 +340,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-TTR51576978172011000",
@@ -323,10 +358,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51582748936022000",
+      "id": "TTI-TTR51576978152011000",
       "source": "TomTom (realtime)",
-      "title": "Vasilikis (Kolokotroni) → Lekka (Kolokotroni)",
-      "url": "https://www.google.com/maps?q=37.9778628215,23.7280158335",
+      "title": "Χαλκοκονδύλη / Κάνιγγος → Χαριλάου Τρικούπη",
+      "url": "https://www.google.com/maps?q=37.9858383865,23.730769121",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -338,10 +373,10 @@
       "new_this_run": false
     },
     {
-      "id": "TTI-TTR51576978152011000",
+      "id": "TTI-TTR51582748936022000",
       "source": "TomTom (realtime)",
-      "title": "Χαλκοκονδύλη / Κάνιγγος → Χαριλάου Τρικούπη",
-      "url": "https://www.google.com/maps?q=37.9858383865,23.730769121",
+      "title": "Vasilikis (Kolokotroni) → Karytsi (Kolokotroni)",
+      "url": "https://www.google.com/maps?q=37.9778628215,23.7280158335",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -395,7 +430,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-TTR51579863732014000",
@@ -470,7 +505,7 @@
       "hours": [],
       "plain": "",
       "category": "",
-      "new_this_run": true
+      "new_this_run": false
     },
     {
       "id": "TTI-TTR51594291004012000",
@@ -1114,7 +1149,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-17T02:42:33+00:00",
+      "last_seen": "2026-11-17T12:39:32+00:00",
       "extended": false,
       "status": "ended"
     },
@@ -1172,7 +1207,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-12T21:58:48+00:00",
-      "last_seen": "2026-11-17T02:42:33+00:00",
+      "last_seen": "2026-11-17T12:39:32+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1221,7 +1256,7 @@
       "title": "Πολυτεχνείο: Κορυφώνονται την Τρίτη οι εκδηλώσεις για την επέτειο -Επί ποδός 5.000 αστυνομικοί, ποιοι δρόμοι θα κλείσουν, πώς θα κινηθούν τα ΜΜΜ",
       "url": "https://www.iefimerida.gr/ellada/polytehneio-epeteio-poioi-dromoi-tha-kleisoyn-mmm",
       "details": "",
-      "area": "Κέντρο",
+      "area": "",
       "days": [
         "2026-11-17"
       ],
@@ -1229,7 +1264,44 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-17T02:42:33+00:00",
-      "last_seen": "2026-11-17T02:42:33+00:00",
+      "last_seen": "2026-11-17T12:39:32+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
+      "id": "https://www.iefimerida.gr/ellada/polytehneio-koryfosi-ekdiloseon-gia-53i-epeteio",
+      "source": "iefimerida",
+      "title": "Κορυφώνονται σήμερα οι εκδηλώσεις για την 53η επέτειο του Πολυτεχνείου: Επί ποδός 5.000 αστυνομικοί και drones, κλειστοί δρόμοι και σταθμοί του Μετρό",
+      "url": "https://www.iefimerida.gr/ellada/polytehneio-koryfosi-ekdiloseon-gia-53i-epeteio",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-17"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-11-17T12:39:32+00:00",
+      "last_seen": "2026-11-17T12:39:32+00:00",
+      "extended": false,
+      "status": "active"
+    },
+    {
+      "id": "https://www.kathimerini.gr/society/564593452/koryfonontai-oi-ekdiloseis-gia-tin-53i-epeteio-toy-polytechneioy-kykloforiakes-rythmiseis-pos-tha-kinithoyn-ta-mmm/",
+      "source": "kathimerini",
+      "title": "Κορυφώνονται οι εκδηλώσεις για την 53η επέτειο του Πολυτεχνείου – Κυκλοφοριακές ρυθμίσεις, πώς θα κινηθούν τα ΜΜΜ",
+      "url": "https://www.kathimerini.gr/society/564593452/koryfonontai-oi-ekdiloseis-gia-tin-53i-epeteio-toy-polytechneioy-kykloforiakes-rythmiseis-pos-tha-kinithoyn-ta-mmm/",
+      "details": "",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-17",
+        "2026-11-18"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "first_seen": "2026-11-17T12:39:32+00:00",
+      "last_seen": "2026-11-17T12:39:32+00:00",
       "extended": false,
       "status": "active"
     },
@@ -1251,6 +1323,27 @@
       "category": "",
       "first_seen": "2026-11-13T15:49:03+00:00",
       "last_seen": "2026-11-14T04:21:02+00:00",
+      "extended": false,
+      "status": "planned"
+    },
+    {
+      "id": "9Κ8Π46ΜΤΛΒ-ΔΩΥ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25899-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στην Ν.Ε.Ο. Αθηνών-Κορίνθου, μεταξύ των χ/θ 45,500 και 52,200, εναλλάξ ανά λωρίδα και στα δύο ρεύματα κυκλοφορίας, περιοχής Δήμου Μεγαρέων, στις 18 και 19-11-2026, κατά τις ώρες 20:00΄έως 06:00",
+      "url": "https://diavgeia.gov.gr/decision/view/9Κ8Π46ΜΤΛΒ-ΔΩΥ",
+      "details": "Επίσημη απόφαση Τροχαίας (17/11/2026)",
+      "area": "Δυτικά",
+      "days": [
+        "2026-11-19"
+      ],
+      "hours": [
+        "20:00",
+        "06:00"
+      ],
+      "plain": "Διακοπή κυκλοφορίας — Δήμου Μεγαρέων · 19/11, 20:00–06:00",
+      "category": "",
+      "first_seen": "2026-11-17T12:39:31+00:00",
+      "last_seen": "2026-11-17T12:39:31+00:00",
       "extended": false,
       "status": "planned"
     },
@@ -1473,6 +1566,18 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-11-17T12:39:33+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25899-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στην Ν.Ε.Ο. Αθηνών-Κορίνθου, μεταξύ των χ/θ 45,500 και 52,200, εναλλάξ ανά λωρίδα και στα δύο ρεύματα κυκλοφορίας, περιοχής Δήμου Μεγαρέων, στις 18 και 19-11-2026, κατά τις ώρες 20:00΄έως 06:00",
+      "url": "https://diavgeia.gov.gr/decision/view/9Κ8Π46ΜΤΛΒ-ΔΩΥ"
+    },
+    {
+      "time": "2026-11-17T12:39:32+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25901-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και τμηματική διακοπή της κυκλοφορίας των οχημάτων στον οδικό άξονα Λ. Αργυρουπόλεως, Ηρώων Πολυτεχνείου, Δημάρχου Παύλου Πεντάρη, Λ. Πρωτόπαπα, Λ. Ελ. Βενιζέλου και Λ. Αλίμου/Καρέα/Κατεχάκη, Π. Κανελλοπούλου, εναλλάξ ανά λωρίδα και στα δύο ρεύ",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΥΨΖ46ΜΤΛΒ-ΞΕ8"
+    },
+    {
       "time": "2026-11-17T12:07:54+00:00",
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
@@ -1639,27 +1744,9 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "🚨 ΠΡΟΣΩΡΙΝΕΣ ΚΥΚΛΟΦΟΡΙΑΚΕΣ ΡΥΘΜΙΣΕΙΣ ΛΟΓΩ ΔΙΕΞΑΓΩΓΗΣ ΛΑΜΠΑΔΗΔΡΟΜΙΑΣ ΣΤΟ ΠΛΑΙΣΙΟ ΤΟΥ 43ΟΥ ΑΥΘΕΝΤΙΚΟΥ ΜΑΡΑΘΩΝΙΟΥ ΑΘΗΝΩΝ 07/11/2026.",
       "url": "https://diavgeia.gov.gr/decision/view/ΡΝ3Φ46ΜΤΛΒ-Δ29"
-    },
-    {
-      "time": "2026-11-04T15:52:58+00:00",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "🚨 25843-« Προσωρινές κυκλοφοριακές ρυθμίσεις ».-Προσωρινή και πλήρη διακοπή της κυκλοφορίας των οχημάτων στην υπόγεια διάβαση οχημάτων στην Λ. Μεσογείων, στο ύψος της συμβολής της με τον Α/Κ Λ. Κατεχάκη και στα δύο ρεύματα κυκλοφορίας, την 04.11.2026 κατά τις ώρες 23:00 έως την 06.00΄ της επομένης, γι",
-      "url": "https://diavgeia.gov.gr/decision/view/ΕΒΞΒ46ΜΤΛΒ-1ΩΛ"
-    },
-    {
-      "time": "2026-11-04T09:59:15+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-07T23:17:17+00:00",
-      "new": 1,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-11-08T03:41:42+00:00",
       "new": 0,
@@ -2013,6 +2100,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-17T12:39:33+00:00",
+      "new": 1,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
