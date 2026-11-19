@@ -514,15 +514,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-18T16:50:50+00:00"
+      "last_success": "2026-11-19T01:35:11+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -535,7 +532,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-18T16:50:50+00:00"
+      "last_success": "2026-11-19T01:35:11+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -548,7 +545,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-18T16:50:50+00:00"
+      "last_success": "2026-11-19T01:35:11+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -559,7 +556,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-18T16:50:50+00:00"
+      "last_success": "2026-11-19T01:35:11+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -573,7 +570,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-18T16:50:50+00:00"
+      "last_success": "2026-11-19T01:35:11+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -586,7 +583,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-19T01:17:55+00:00"
+      "last_success": "2026-11-19T01:35:11+00:00"
     }
   },
   "active": {
@@ -603,7 +600,7 @@
         "hours": [],
         "plain": "Κυκλοφοριακές ρυθμίσεις στη Λ. Βουλιαγμένης (Δήμων Καλλιθέας)",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "iefimerida": [
@@ -630,24 +627,6 @@
         "details": "",
         "area": "",
         "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/",
-        "source": "kathimerini",
-        "title": "Πολυτεχνείο: Κυκλοφοριακές ρυθμίσεις στην Αθήνα από 15 έως 18 Νοεμβρίου",
-        "url": "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/",
-        "details": "",
-        "area": "",
-        "days": [
-          "2026-11-15",
-          "2026-11-16",
-          "2026-11-17",
-          "2026-11-18"
-        ],
         "hours": [],
         "plain": "",
         "category": "",
@@ -687,8 +666,8 @@
         "details": "",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-15",
-          "2026-11-21"
+          "2026-11-21",
+          "2026-11-22"
         ],
         "hours": [],
         "plain": "",
@@ -1729,14 +1708,14 @@
       "details": "",
       "area": "Ανατολικά",
       "days": [
-        "2026-11-15",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ],
       "hours": [],
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-18T16:50:50+00:00",
+      "last_seen": "2026-11-19T01:35:11+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1759,7 +1738,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-12T21:58:48+00:00",
-      "last_seen": "2026-11-18T16:50:50+00:00",
+      "last_seen": "2026-11-19T01:35:11+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1866,7 +1845,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-17T02:42:33+00:00",
-      "last_seen": "2026-11-18T16:50:50+00:00",
+      "last_seen": "2026-11-19T01:35:11+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2126,12 +2105,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-09T03:54:13+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-11-09T10:27:29+00:00",
       "new": 0,
@@ -2485,6 +2458,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-19T01:35:11+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
