@@ -514,15 +514,15 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
+      "fetched": 53,
       "dropped": {
         "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
+        "no level detected, no disruption keyword": 52
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-19T22:51:04+00:00"
+      "last_success": "2026-11-20T05:05:33+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -536,7 +536,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-19T22:51:04+00:00"
+      "last_success": "2026-11-20T05:05:35+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -549,7 +549,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-19T22:51:04+00:00"
+      "last_success": "2026-11-20T05:05:35+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -560,31 +560,35 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-19T22:51:04+00:00"
+      "last_success": "2026-11-20T05:05:35+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 0,
-      "fetched": 0,
-      "dropped": {},
+      "items": 1,
+      "fetched": 11,
+      "dropped": {
+        "παλιά ανακοίνωση": 1,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
+        "λεωφορεία (χωρίς ειδοποίηση)": 1
+      },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-19T22:51:04+00:00"
+      "last_success": "2026-11-20T05:05:35+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 10,
-      "fetched": 13,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 7
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-20T01:21:04+00:00"
+      "last_success": "2026-11-20T05:05:35+00:00"
     }
   },
   "active": {
@@ -746,7 +750,21 @@
         "new_this_run": false
       }
     ],
-    "oasa": [],
+    "oasa": [
+      {
+        "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-400/",
+        "source": "ΟΑΣΑ",
+        "title": "Μερική προσωρινή τροποποίηση της  λεωφορειακής γραμμής 818 λόγω εργασιών στην οδό ΛΑΝΙΤΟΥ 53, του Δήμου Περάματος",
+        "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-400/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": false
+      }
+    ],
     "tomtom": [
       {
         "id": "TTI-TTR51574092528014000",
@@ -1721,7 +1739,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-19T22:51:04+00:00",
+      "last_seen": "2026-11-20T05:05:35+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1741,7 +1759,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-12T21:58:48+00:00",
-      "last_seen": "2026-11-19T22:51:04+00:00",
+      "last_seen": "2026-11-20T05:05:35+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1935,7 +1953,7 @@
       "plain": "Διακοπή κυκλοφορίας στην οδό Α. Παπανδρέου (Δήμου Χαλανδρίου) · 24/11, 23:00–06:00",
       "category": "",
       "first_seen": "2026-11-19T12:21:52+00:00",
-      "last_seen": "2026-11-19T22:51:04+00:00",
+      "last_seen": "2026-11-20T05:05:35+00:00",
       "extended": false,
       "alerted_chats": []
     },
@@ -2149,12 +2167,6 @@
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-10T05:28:21+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-11-10T10:47:44+00:00",
       "new": 0,
@@ -2508,6 +2520,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-20T05:05:35+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
