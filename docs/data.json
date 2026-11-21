@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T01:00:02+00:00",
+  "generated_at": "2026-11-21T10:18:52+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -71,15 +71,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 10,
-      "fetched": 12,
+      "items": 17,
+      "fetched": 58,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 2
+        "κατηγορία εκτός πολιτικής": 41
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-21T01:00:01+00:00"
+      "last_success": "2026-11-21T10:18:51+00:00"
     }
   ],
   "active_events": [
@@ -265,6 +265,36 @@
       "new_this_run": false
     },
     {
+      "id": "TTI-TTR51582749116013000",
+      "source": "TomTom (realtime)",
+      "title": "Sofokleous (Athinas) → Evripidou (Athinas)",
+      "url": "https://www.google.com/maps?q=37.9810921973,23.7272621327",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-21"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "TTI-TTR51582748944014000",
+      "source": "TomTom (realtime)",
+      "title": "Athinas (Voreou) → Eolou (Voreou)",
+      "url": "https://www.google.com/maps?q=37.978143157,23.7267015511",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-21"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
       "id": "TTI-TTR51582749160031000",
       "source": "TomTom (realtime)",
       "title": "Σταδίου → Ευριπίδου",
@@ -280,10 +310,70 @@
       "new_this_run": false
     },
     {
+      "id": "TTI-TTR51582748932006000",
+      "source": "TomTom (realtime)",
+      "title": "Vasilikis (Kolokotroni) → Karytsi (Kolokotroni)",
+      "url": "https://www.google.com/maps?q=37.9778628215,23.7280158335",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-21"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51588519712002000",
+      "source": "TomTom (realtime)",
+      "title": "Diakou Ath. (Siggrou Andr. Ave) → Lisikratous (Siggrou Andr. Ave)",
+      "url": "https://www.google.com/maps?q=37.9681478725,23.7314262622",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-21"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
       "id": "TTI-TTR51602946940011000",
       "source": "TomTom (realtime)",
-      "title": "Frantzi Amvrosiou (Iliou Ilia) → Evdoxou (Iliou Ilia)",
+      "title": "Frantzi Amvrosiou (Iliou Ilia) → Pitheou (Iliou Ilia)",
       "url": "https://www.google.com/maps?q=37.9581512932,23.7306993836",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-21"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51591405328010000",
+      "source": "TomTom (realtime)",
+      "title": "Gkoura (Vas. Amalias Ave) → Filellinon (Vas. Amalias Ave)",
+      "url": "https://www.google.com/maps?q=37.9709253176,23.7330369287",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-21"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "TTI-TTR51591405316018000",
+      "source": "TomTom (realtime)",
+      "title": "Souri G. (Vas. Amalias Ave) → Othonos (Vas. Amalias Ave)",
+      "url": "https://www.google.com/maps?q=37.9729771617,23.7348433965",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
@@ -310,9 +400,24 @@
       "new_this_run": false
     },
     {
+      "id": "TTI-TTR51579863736014000",
+      "source": "TomTom (realtime)",
+      "title": "Βασιλείου Βουλγαροκτόνου / Εμμανουήλ Μπενάκη → Λεωφόρος Αλεξάνδρας / Μουστοξύδη",
+      "url": "https://www.google.com/maps?q=37.9886801657,23.7407737607",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-21"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
       "id": "TTI-TTR51574092928022000",
       "source": "TomTom (realtime)",
-      "title": "Zakinthou (Spetson) → Dodekanisou (Spetson)",
+      "title": "Zakinthou (Spetson) → Skirou (Spetson)",
       "url": "https://www.google.com/maps?q=37.9990093837,23.7400495642",
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
@@ -1432,6 +1537,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-11-21T10:18:52+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
+    {
       "time": "2026-11-21T01:00:02+00:00",
       "source": "iefimerida",
       "title": "Μετρό: Και την επόμενη εβδομάδα κλείνουν τέσσερις σταθμοί -Πώς θα κινούνται οι επιβάτες",
@@ -1604,21 +1715,9 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "25847- Προσωρινές κυκλοφοριακές ρυθμίσεις για την εκτέλεση εργασιών στο πλαίσιο το έργου «Αποψίλωση και καθαρισμός βλάστησης και εύλεκτης ύλης από νησίδες πρανή και ερείσματα εκατέρωθεν οδικών αξόνων αρμοδιότητας Περιφερειακής Ενότητας Δυτικής Αττικής (Π.Ε.Δ.Α.)», για τα έτη 2025-2026-2027.",
       "url": "https://diavgeia.gov.gr/decision/view/Ρ3Ν746ΜΤΛΒ-ΙΥΣ"
-    },
-    {
-      "time": "2026-11-06T09:59:16+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-11T03:58:27+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-11-11T09:54:48+00:00",
       "new": 0,
@@ -1972,6 +2071,12 @@
       "new": 1,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-21T10:18:52+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
