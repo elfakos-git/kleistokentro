@@ -1,6 +1,5 @@
 {
   "seen": [
-    "TTI-TTR51585634408005000",
     "TTI-TTR51585634472013000",
     "TTI-TTR51582749116023000",
     "TTI-TTR51582748972013000",
@@ -499,7 +498,8 @@
     "97Μ446ΜΤΛΒ-Λ9Λ",
     "ΨΡΡΒ46ΜΤΛΒ-23Δ",
     "TTI-TTR51585634536015000",
-    "https://www.iefimerida.gr/ellada/espase-kentrikos-agogos-lymaton-perama"
+    "https://www.iefimerida.gr/ellada/espase-kentrikos-agogos-lymaton-perama",
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-88/"
   ],
   "seeded": [
     "astynomia",
@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-21T23:59:58+00:00"
+      "last_success": "2026-11-22T06:01:01+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -527,13 +527,14 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97,
+        "εκτός θέματος/Αθήνας": 94,
+        "εκτός χρονικού παραθύρου": 3,
         "μόνο μία λωρίδα/ΛΕΑ": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-21T23:59:59+00:00"
+      "last_success": "2026-11-22T06:01:01+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -544,9 +545,9 @@
         "χωρίς/παλιά ημερομηνία": 11
       },
       "date_misses": 0,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-22T00:00:00+00:00"
+      "last_success": "2026-11-22T06:01:01+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -557,34 +558,35 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-22T00:00:00+00:00"
+      "last_success": "2026-11-22T06:01:01+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 0,
+      "items": 1,
       "fetched": 11,
       "dropped": {
         "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
+        "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
-      "body_enriched": 0,
+      "body_enriched": 1,
       "consecutive_failures": 0,
-      "last_success": "2026-11-22T00:00:00+00:00"
+      "last_success": "2026-11-22T06:01:03+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 14,
+      "fetched": 13,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-22T02:27:24+00:00"
+      "last_success": "2026-11-22T06:01:03+00:00"
     }
   },
   "active": {
@@ -598,14 +600,11 @@
         "url": "https://www.iefimerida.gr/ellada/espase-kentrikos-agogos-lymaton-perama",
         "details": "",
         "area": "",
-        "days": [
-          "2026-11-21",
-          "2026-11-23"
-        ],
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.iefimerida.gr/ellada/metro-kai-tin-epomeni-ebdomada-kleinoyn-tesseris-stathmoi",
@@ -743,7 +742,23 @@
         "new_this_run": false
       }
     ],
-    "oasa": [],
+    "oasa": [
+      {
+        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-88/",
+        "source": "ΟΑΣΑ",
+        "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73 του Δήμου Περιστερίου",
+        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-88/",
+        "details": "",
+        "area": "Δυτικά",
+        "days": [
+          "2026-11-23"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "bus",
+        "new_this_run": true
+      }
+    ],
     "tomtom": [
       {
         "id": "TTI-TTR51574092528014000",
@@ -1670,7 +1685,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-22T00:00:00+00:00",
+      "last_seen": "2026-11-22T06:01:01+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1690,7 +1705,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-12T21:58:48+00:00",
-      "last_seen": "2026-11-22T00:00:00+00:00",
+      "last_seen": "2026-11-22T06:01:01+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1953,21 +1968,35 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-88/": {
+      "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-88/",
+      "source": "ΟΑΣΑ",
+      "title": "Προσωρινή μερική τροποποίηση της διαδρομής της λεωφορειακής γραμμής 748, λόγω εργασιών επί της οδού Λακεδαίμονος 73 του Δήμου Περιστερίου",
+      "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-88/",
+      "details": "",
+      "area": "Δυτικά",
+      "days": [
+        "2026-11-23"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "bus",
+      "first_seen": "2026-11-22T06:01:03+00:00",
+      "last_seen": "2026-11-22T06:01:03+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
     }
   },
   "known_chats": [
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-11-21"
+    "151797168": "2026-11-22"
   },
   "notifications": [
-    {
-      "time": "2026-11-07T09:18:47+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-11-07T23:17:17+00:00",
       "source": "iefimerida",
@@ -2141,15 +2170,15 @@
       "source": "iefimerida",
       "title": "🚨 Έσπασε ο κεντρικός αγωγός λυμάτων στο Πέραμα -Έκκληση για περιορισμό των μετακινήσεων, κυκλοφοριακές ρυθμίσεις",
       "url": "https://www.iefimerida.gr/ellada/espase-kentrikos-agogos-lymaton-perama"
+    },
+    {
+      "time": "2026-11-22T06:01:04+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-12T10:23:03+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
     {
       "time": "2026-11-12T12:00:23+00:00",
       "new": 0,
@@ -2503,6 +2532,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-22T06:01:04+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
