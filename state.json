@@ -579,14 +579,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 17,
+      "fetched": 45,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 6
+        "κατηγορία εκτός πολιτικής": 34
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-23T04:59:11+00:00"
+      "last_success": "2026-11-23T11:23:03+00:00"
     }
   },
   "active": {
@@ -858,12 +858,12 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51579863736014000",
+        "id": "TTI-TTR51574092928022000",
         "source": "TomTom (realtime)",
-        "title": "Βασιλείου Βουλγαροκτόνου / Εμμανουήλ Μπενάκη → Λεωφόρος Αλεξάνδρας / Μουστοξύδη",
-        "url": "https://www.google.com/maps?q=37.9886801657,23.7407737607",
+        "title": "Zakinthou (Spetson) → Evias (Spetson)",
+        "url": "https://www.google.com/maps?q=37.9990093837,23.7400495642",
         "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Κέντρο",
+        "area": "Βόρεια",
         "days": [
           "2026-11-23"
         ],
@@ -873,12 +873,12 @@
         "new_this_run": false
       },
       {
-        "id": "TTI-TTR51574092928022000",
+        "id": "TTI-TTR51579863736014000",
         "source": "TomTom (realtime)",
-        "title": "Zakinthou (Spetson) → Skopelou (Spetson)",
-        "url": "https://www.google.com/maps?q=37.9990093837,23.7400495642",
+        "title": "Βασιλείου Βουλγαροκτόνου / Εμμανουήλ Μπενάκη → Λεωφόρος Αλεξάνδρας / Μουστοξύδη",
+        "url": "https://www.google.com/maps?q=37.9886801657,23.7407737607",
         "details": "Κλειστός δρόμος — Κλειστό",
-        "area": "Βόρεια",
+        "area": "Κέντρο",
         "days": [
           "2026-11-23"
         ],
@@ -1975,15 +1975,9 @@
     "151797168"
   ],
   "digests": {
-    "151797168": "2026-11-22"
+    "151797168": "2026-11-23"
   },
   "notifications": [
-    {
-      "time": "2026-11-08T10:56:43+00:00",
-      "source": "kathimerini",
-      "title": "Μαραθώνιος Αθήνας 2026: Νέο ρεκόρ αγώνα για τον πρώτο – Ιστορικό ρεκόρ συμμετοχών",
-      "url": "https://www.kathimerini.gr/athletics/564575734/marathonios-athinas-2026-xekinise-o-megalos-agonas-tis-klasikis-diadromis/"
-    },
     {
       "time": "2026-11-09T10:27:29+00:00",
       "source": "Ενημέρωση",
@@ -2157,15 +2151,15 @@
       "source": "iefimerida",
       "title": "Έσπασε αγωγός της ΕΥΔΑΠ στο Σύνταγμα - Διακοπή κυκλοφορίας στην οδό Αμερικής",
       "url": "https://www.iefimerida.gr/ellada/espase-agogos-tis-eydap-sto-syntagma"
+    },
+    {
+      "time": "2026-11-23T11:23:04+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-13T15:49:05+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-11-13T17:54:22+00:00",
       "new": 0,
@@ -2519,6 +2513,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-23T11:23:04+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
