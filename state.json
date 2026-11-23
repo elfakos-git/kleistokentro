@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-22T21:25:54+00:00"
+      "last_success": "2026-11-23T04:59:10+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -527,13 +527,14 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 98,
+        "εκτός θέματος/Αθήνας": 97,
+        "εκτός χρονικού παραθύρου": 1,
         "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-22T21:25:54+00:00"
+      "last_success": "2026-11-23T04:59:11+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -546,7 +547,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-22T21:25:54+00:00"
+      "last_success": "2026-11-23T04:59:11+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -554,10 +555,10 @@
       "items": 10,
       "fetched": 10,
       "dropped": {},
-      "date_misses": 1,
+      "date_misses": 2,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-22T21:25:54+00:00"
+      "last_success": "2026-11-23T04:59:11+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -565,27 +566,27 @@
       "items": 1,
       "fetched": 11,
       "dropped": {
-        "παλιά ανακοίνωση": 2,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8,
+        "παλιά ανακοίνωση": 1,
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 9,
         "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-22T21:25:54+00:00"
+      "last_success": "2026-11-23T04:59:11+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 11,
-      "fetched": 15,
+      "fetched": 17,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 4
+        "κατηγορία εκτός πολιτικής": 6
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-22T22:52:29+00:00"
+      "last_success": "2026-11-23T04:59:11+00:00"
     }
   },
   "active": {
@@ -661,6 +662,19 @@
         "new_this_run": false
       },
       {
+        "id": "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/",
+        "source": "kathimerini",
+        "title": "Πολυτεχνείο: Κυκλοφοριακές ρυθμίσεις στην Αθήνα από 15 έως 18 Νοεμβρίου",
+        "url": "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/",
+        "details": "",
+        "area": "",
+        "days": [],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
         "id": "https://www.kathimerini.gr/society/564581122/patra-ekleise-tmima-tis-olympias-odoy-logo-lasporrois/",
         "source": "kathimerini",
         "title": "Πραγματοποιείται εκτροπή της κυκλοφορίας στην παλαιά εθνική οδό Πατρών – Κορίνθου μέσω των κόμβων Δρεπάνου και Σελιανιτίκων.",
@@ -681,22 +695,6 @@
         "details": "",
         "area": "Ανατολικά",
         "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
-        "source": "kathimerini",
-        "title": "Μαραθώνιος: Ολες οι κυκλοφοριακές ρυθμίσεις – Ποιοι δρόμοι κλείνουν το Σάββατο και την Κυριακή",
-        "url": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
-        "details": "",
-        "area": "Ανατολικά",
-        "days": [
-          "2026-11-21",
-          "2026-11-22"
-        ],
         "hours": [],
         "plain": "",
         "category": "",
@@ -1689,7 +1687,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-22T21:25:54+00:00",
+      "last_seen": "2026-11-23T04:59:11+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2163,12 +2161,6 @@
   ],
   "runs": [
     {
-      "time": "2026-11-13T10:07:58+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-11-13T15:49:05+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2521,6 +2513,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-23T04:59:11+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
