@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T04:31:44+00:00",
+  "generated_at": "2026-11-24T12:58:28+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -69,15 +69,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 12,
-      "fetched": 15,
+      "items": 13,
+      "fetched": 81,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 68
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-24T04:31:44+00:00"
+      "last_success": "2026-11-24T12:58:27+00:00"
     }
   ],
   "active_events": [
@@ -251,6 +251,21 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51582748760013000",
+      "source": "TomTom (realtime)",
+      "title": "Alkifronos (Ious) → Simmahidon (Ious)",
+      "url": "https://www.google.com/maps?q=37.9665063863,23.7056019538",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Δυτικά",
+      "days": [
+        "2026-11-24"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51568321972030001",
@@ -1422,6 +1437,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-11-24T12:58:28+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
+    {
       "time": "2026-11-23T19:41:35+00:00",
       "source": "kathimerini",
       "title": "🚨 Πέραμα: Κυκλοφοριακές ρυθμίσεις λόγω βλάβης της ΕΥΔΑΠ – Πώς θα κινούνται τα Ι.Χ.",
@@ -1594,21 +1615,9 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
-    },
-    {
-      "time": "2026-11-10T10:47:44+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-14T04:21:02+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-11-14T09:32:30+00:00",
       "new": 0,
@@ -1962,6 +1971,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-24T12:58:28+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
