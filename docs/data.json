@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T19:14:42+00:00",
+  "generated_at": "2026-11-24T22:52:58+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -73,14 +73,14 @@
       "name": "tomtom",
       "ok": true,
       "items": 13,
-      "fetched": 21,
+      "fetched": 16,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 8
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-24T19:14:42+00:00"
+      "last_success": "2026-11-24T22:52:58+00:00"
     }
   ],
   "active_events": [
@@ -267,7 +267,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-11-24"
+        "2026-11-25"
       ],
       "hours": [],
       "plain": "",
@@ -282,7 +282,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Δυτικά",
       "days": [
-        "2026-11-24"
+        "2026-11-25"
       ],
       "hours": [],
       "plain": "",
@@ -297,7 +297,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-11-24"
+        "2026-11-25"
       ],
       "hours": [],
       "plain": "",
@@ -312,7 +312,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-24"
+        "2026-11-25"
       ],
       "hours": [],
       "plain": "",
@@ -327,7 +327,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-24"
+        "2026-11-25"
       ],
       "hours": [],
       "plain": "",
@@ -342,7 +342,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-24"
+        "2026-11-25"
       ],
       "hours": [],
       "plain": "",
@@ -357,7 +357,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-24"
+        "2026-11-25"
       ],
       "hours": [],
       "plain": "",
@@ -372,7 +372,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Βόρεια",
       "days": [
-        "2026-11-24"
+        "2026-11-25"
       ],
       "hours": [],
       "plain": "",
@@ -387,7 +387,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-24"
+        "2026-11-25"
       ],
       "hours": [],
       "plain": "",
@@ -402,7 +402,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Κέντρο",
       "days": [
-        "2026-11-24"
+        "2026-11-25"
       ],
       "hours": [],
       "plain": "",
@@ -417,7 +417,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-11-24"
+        "2026-11-25"
       ],
       "hours": [],
       "plain": "",
@@ -432,7 +432,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-11-24"
+        "2026-11-25"
       ],
       "hours": [],
       "plain": "",
@@ -447,7 +447,7 @@
       "details": "Κλειστός δρόμος — Κλειστό",
       "area": "Ανατολικά",
       "days": [
-        "2026-11-24"
+        "2026-11-25"
       ],
       "hours": [],
       "plain": "",
@@ -992,42 +992,6 @@
       "status": "ended"
     },
     {
-      "id": "https://www.iefimerida.gr/ellada/polytehneio-epeteio-poioi-dromoi-tha-kleisoyn-mmm",
-      "source": "iefimerida",
-      "title": "Πολυτεχνείο: Κορυφώνονται την Τρίτη οι εκδηλώσεις για την επέτειο -Επί ποδός 5.000 αστυνομικοί, ποιοι δρόμοι θα κλείσουν, πώς θα κινηθούν τα ΜΜΜ",
-      "url": "https://www.iefimerida.gr/ellada/polytehneio-epeteio-poioi-dromoi-tha-kleisoyn-mmm",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-11-17"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-11-17T02:42:33+00:00",
-      "last_seen": "2026-11-19T12:21:52+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
-      "id": "https://www.iefimerida.gr/ellada/polytehneio-koryfosi-ekdiloseon-gia-53i-epeteio",
-      "source": "iefimerida",
-      "title": "Κορυφώνονται σήμερα οι εκδηλώσεις για την 53η επέτειο του Πολυτεχνείου: Επί ποδός 5.000 αστυνομικοί και drones, κλειστοί δρόμοι και σταθμοί του Μετρό",
-      "url": "https://www.iefimerida.gr/ellada/polytehneio-koryfosi-ekdiloseon-gia-53i-epeteio",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-17"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-11-17T12:39:32+00:00",
-      "last_seen": "2026-11-17T12:39:32+00:00",
-      "extended": false,
-      "status": "ended"
-    },
-    {
       "id": "https://www.kathimerini.gr/society/564593452/koryfonontai-oi-ekdiloseis-gia-tin-53i-epeteio-toy-polytechneioy-kykloforiakes-rythmiseis-pos-tha-kinithoyn-ta-mmm/",
       "source": "kathimerini",
       "title": "Κορυφώνονται οι εκδηλώσεις για την 53η επέτειο του Πολυτεχνείου – Κυκλοφοριακές ρυθμίσεις, πώς θα κινηθούν τα ΜΜΜ",
@@ -1220,7 +1184,7 @@
       "first_seen": "2026-11-19T12:21:52+00:00",
       "last_seen": "2026-11-20T05:05:35+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.kathimerini.gr/society/564606982/perama-kykloforiakes-rythmiseis-logo-vlavis-tis-eydap-pos-tha-kinoyntai-ta-ich/",
@@ -1238,7 +1202,7 @@
       "first_seen": "2026-11-23T19:41:35+00:00",
       "last_seen": "2026-11-23T19:41:35+00:00",
       "extended": false,
-      "status": "active"
+      "status": "ended"
     },
     {
       "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-90/",
@@ -1679,12 +1643,6 @@
   ],
   "runs": [
     {
-      "time": "2026-11-14T14:40:32+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-11-14T16:10:50+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2037,6 +1995,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-24T22:52:58+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
