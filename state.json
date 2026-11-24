@@ -514,15 +514,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-23T19:41:35+00:00"
+      "last_success": "2026-11-24T04:31:44+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -530,14 +527,13 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 93,
-        "εκτός χρονικού παραθύρου": 6,
+        "εκτός θέματος/Αθήνας": 99,
         "μόνο μία λωρίδα/ΛΕΑ": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-23T19:41:35+00:00"
+      "last_success": "2026-11-24T04:31:44+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -551,7 +547,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-23T19:41:35+00:00"
+      "last_success": "2026-11-24T04:31:44+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -560,9 +556,9 @@
       "fetched": 10,
       "dropped": {},
       "date_misses": 1,
-      "body_enriched": 1,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-23T19:41:35+00:00"
+      "last_success": "2026-11-24T04:31:44+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -577,20 +573,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-23T19:41:35+00:00"
+      "last_success": "2026-11-24T04:31:44+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 14,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 2
+        "κατηγορία εκτός πολιτικής": 3
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-23T22:45:28+00:00"
+      "last_success": "2026-11-24T04:31:44+00:00"
     }
   },
   "active": {
@@ -631,14 +627,12 @@
         "title": "Πέραμα: Κυκλοφοριακές ρυθμίσεις λόγω βλάβης της ΕΥΔΑΠ – Πώς θα κινούνται τα Ι.Χ.",
         "url": "https://www.kathimerini.gr/society/564606982/perama-kykloforiakes-rythmiseis-logo-vlavis-tis-eydap-pos-tha-kinoyntai-ta-ich/",
         "details": "",
-        "area": "Δυτικά",
-        "days": [
-          "2026-11-24"
-        ],
+        "area": "",
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.kathimerini.gr/society/564593452/koryfonontai-oi-ekdiloseis-gia-tin-53i-epeteio-toy-polytechneioy-kykloforiakes-rythmiseis-pos-tha-kinithoyn-ta-mmm/",
@@ -1681,7 +1675,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-23T19:41:35+00:00",
+      "last_seen": "2026-11-24T04:31:44+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2175,12 +2169,6 @@
   ],
   "runs": [
     {
-      "time": "2026-11-13T22:56:10+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-11-14T04:21:02+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2533,6 +2521,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-24T04:31:44+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
