@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T03:15:56+00:00",
+  "generated_at": "2026-11-25T11:48:01+00:00",
   "sources": [
     {
       "name": "astynomia",
@@ -72,15 +72,15 @@
     {
       "name": "tomtom",
       "ok": true,
-      "items": 13,
-      "fetched": 15,
+      "items": 28,
+      "fetched": 79,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 2
+        "κατηγορία εκτός πολιτικής": 51
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-25T03:15:56+00:00"
+      "last_success": "2026-11-25T11:48:01+00:00"
     }
   ],
   "active_events": [
@@ -317,6 +317,51 @@
       "new_this_run": false
     },
     {
+      "id": "TTI-TTR51582749132013000",
+      "source": "TomTom (realtime)",
+      "title": "Panepistimiou (Pesmazoglou) → Sofokleous (Pesmazoglou)",
+      "url": "https://www.google.com/maps?q=37.9812450769,23.731461131",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51582749060013000",
+      "source": "TomTom (realtime)",
+      "title": "Platia Ag. Theodoron (Dragatsaniou) → Stadiou (Dragatsaniou)",
+      "url": "https://www.google.com/maps?q=37.9795365596,23.7306055063",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51588519712002000",
+      "source": "TomTom (realtime)",
+      "title": "Diakou Ath. (Siggrou Andr. Ave) → Lisikratous (Siggrou Andr. Ave)",
+      "url": "https://www.google.com/maps?q=37.9681478725,23.7314262622",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
       "id": "TTI-TTR51602946940011000",
       "source": "TomTom (realtime)",
       "title": "Frantzi Amvrosiou (Iliou Ilia) → Evdoxou (Iliou Ilia)",
@@ -330,6 +375,186 @@
       "plain": "",
       "category": "",
       "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51582749064010002",
+      "source": "TomTom (realtime)",
+      "title": "Panepistimiou (Trikoupi Har.) → Akadimias (Trikoupi Har.)",
+      "url": "https://www.google.com/maps?q=37.9821704742,23.7317937249",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "TTI-TTR51582749096002000",
+      "source": "TomTom (realtime)",
+      "title": "Paparrigopoulou (Stadiou) → Amerikis (Stadiou)",
+      "url": "https://www.google.com/maps?q=37.9793635254,23.7321477765",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "TTI-TTR51591405388010000",
+      "source": "TomTom (realtime)",
+      "title": "Mitropoleos (Filellinon) → Navarchou Nikodimou (Filellinon)",
+      "url": "https://www.google.com/maps?q=37.9750746709,23.7340682381",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "TTI-TTR51582749064014000",
+      "source": "TomTom (realtime)",
+      "title": "Panepistimiou (Riga Fereou) → Akadimias (Riga Fereou)",
+      "url": "https://www.google.com/maps?q=37.9808132605,23.7330114478",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "TTI-TTR51591405428015000",
+      "source": "TomTom (realtime)",
+      "title": "Πλατεία Συντάγματος / Σταδίου → Νίκης",
+      "url": "https://www.google.com/maps?q=37.9761837595,23.7343297535",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "TTI-TTR51591405412003001",
+      "source": "TomTom (realtime)",
+      "title": "Panepistimiou (Vas. Georgiou A) → Stadiou (Vas. Georgiou A)",
+      "url": "https://www.google.com/maps?q=37.9761194056,23.7356534236",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51591405316002000",
+      "source": "TomTom (realtime)",
+      "title": "Gkoura (Vas. Amalias Ave) → Vas. Sofias Ave (Vas. Amalias Ave)",
+      "url": "https://www.google.com/maps?q=37.9709253176,23.7330369287",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "TTI-TTR51582749168002000",
+      "source": "TomTom (realtime)",
+      "title": "Vas. Sofias Ave (Panepistimiou) → Patision (Panepistimiou)",
+      "url": "https://www.google.com/maps?q=37.9765244246,23.7358438605",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "TTI-TTR51585634608021000",
+      "source": "TomTom (realtime)",
+      "title": "Akadimias (Omirou) → Stadiou (Omirou)",
+      "url": "https://www.google.com/maps?q=37.9795405898,23.7359310323",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
+    },
+    {
+      "id": "TTI-TTR51582748920013000",
+      "source": "TomTom (realtime)",
+      "title": "Stoa S Miliou (Amerikis) → Akadimias (Amerikis)",
+      "url": "https://www.google.com/maps?q=37.9776737283,23.7341259056",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51591405352011000",
+      "source": "TomTom (realtime)",
+      "title": "Panepistimiou (Vas. Sofias Ave) → Akadimias (Vas. Sofias Ave)",
+      "url": "https://www.google.com/maps?q=37.9761811166,23.7361536556",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": false
+    },
+    {
+      "id": "TTI-TTR51591405420003000",
+      "source": "TomTom (realtime)",
+      "title": "Sekeri (Vas. Sofias Ave) → Panepistimiou (Vas. Sofias Ave)",
+      "url": "https://www.google.com/maps?q=37.975782769,23.7390665346",
+      "details": "Κλειστός δρόμος — Κλειστό",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-25"
+      ],
+      "hours": [],
+      "plain": "",
+      "category": "",
+      "new_this_run": true
     },
     {
       "id": "TTI-TTR51579863732014000",
@@ -1458,6 +1683,12 @@
   ],
   "recent_notifications": [
     {
+      "time": "2026-11-25T11:48:01+00:00",
+      "source": "Ενημέρωση",
+      "title": "🗓 Ημερήσια ενημέρωση (admin)",
+      "url": ""
+    },
+    {
       "time": "2026-11-24T19:14:42+00:00",
       "source": "ΟΑΣΑ",
       "title": "🚨 Διακοπή εκτέλεσης δρομολογίων της γραμμής Χ26",
@@ -1630,21 +1861,9 @@
       "source": "Διαύγεια (Τροχαία)",
       "title": "ΑΠΟΦΑΣΗ ΠΡΟΣΩΡΙΝΩΝ ΚΥΚΛΟΦΟΡΙΑΚΩΝ ΡΥΘΜΙΣΕΩΝ 48ΩΡΗΣ ΔΙΑΡΚΕΙΑΣ ΓΙΑ THN ΕΚΤΕΛΕΣΗ ΕΡΓΑΣΙΩΝ ΑΠΟΚΑΤΑΣΤΑΣΗΣ ΦΘΟΡΑΣ ΥΔΡΑΥΛΙΚΗΣ ΥΠΟΔΟΜΗΣ ΠΕΡΙ ΤΗ Χ/Θ 125+300 ΣΤΗΝ ΚΑΤΕΥΘΥΝΣΗ ΠΡΟΣ ΑΘΗΝΑ ΤΟΥ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟΥ Α.Θ.Ε.",
       "url": "https://diavgeia.gov.gr/decision/view/9ΝΙΥ46ΜΤΛΒ-ΛΑΛ"
-    },
-    {
-      "time": "2026-11-11T11:42:56+00:00",
-      "source": "kathimerini",
-      "title": "Πραγματοποιείται εκτροπή της κυκλοφορίας στην παλαιά εθνική οδό Πατρών - Κορίνθου μέσω των κόμβων Δρεπάνου και Σελιανιτίκων.",
-      "url": "https://www.kathimerini.gr/society/564581122/patra-ekleise-tmima-tis-olympias-odoy-logo-lasporrois/"
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-14T20:15:58+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-11-14T20:48:42+00:00",
       "new": 0,
@@ -1998,6 +2217,12 @@
       "new": 0,
       "sources_ok": 6,
       "sources_total": 6
+    },
+    {
+      "time": "2026-11-25T11:48:01+00:00",
+      "new": 0,
+      "sources_ok": 1,
+      "sources_total": 1
     }
   ]
 }
