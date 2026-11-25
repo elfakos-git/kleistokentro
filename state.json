@@ -522,7 +522,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-24T19:14:35+00:00"
+      "last_success": "2026-11-25T03:15:56+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -536,21 +536,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-24T19:14:36+00:00"
+      "last_success": "2026-11-25T03:15:56+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
       "ok": true,
-      "items": 2,
+      "items": 1,
       "fetched": 13,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 9,
+        "χωρίς/παλιά ημερομηνία": 10,
         "άλλη περιοχή": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-24T19:14:36+00:00"
+      "last_success": "2026-11-25T03:15:56+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -561,7 +561,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-24T19:14:36+00:00"
+      "last_success": "2026-11-25T03:15:56+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -574,22 +574,22 @@
         "λεωφορεία (χωρίς ειδοποίηση)": 1
       },
       "date_misses": 0,
-      "body_enriched": 2,
+      "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-24T19:14:42+00:00"
+      "last_success": "2026-11-25T03:15:56+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 13,
-      "fetched": 16,
+      "fetched": 15,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 3
+        "κατηγορία εκτός πολιτικής": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-24T22:52:58+00:00"
+      "last_success": "2026-11-25T03:15:56+00:00"
     }
   },
   "active": {
@@ -603,19 +603,6 @@
         "url": "https://www.iefimerida.gr/ellada/espase-agogos-tis-eydap-sto-syntagma",
         "details": "",
         "area": "Κέντρο",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.iefimerida.gr/ellada/espase-kentrikos-agogos-lymaton-perama",
-        "source": "iefimerida",
-        "title": "Έσπασε ο κεντρικός αγωγός λυμάτων στο Πέραμα -Έκκληση για περιορισμό των μετακινήσεων, κυκλοφοριακές ρυθμίσεις",
-        "url": "https://www.iefimerida.gr/ellada/espase-kentrikos-agogos-lymaton-perama",
-        "details": "",
-        "area": "",
         "days": [],
         "hours": [],
         "plain": "",
@@ -690,6 +677,22 @@
         "new_this_run": false
       },
       {
+        "id": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
+        "source": "kathimerini",
+        "title": "Μαραθώνιος: Ολες οι κυκλοφοριακές ρυθμίσεις – Ποιοι δρόμοι κλείνουν το Σάββατο και την Κυριακή",
+        "url": "https://www.kathimerini.gr/society/564573601/marathonios-oles-oi-kykloforiakes-rythmiseis-poioi-dromoi-kleinoyn-to-savvato-kai-tin-kyriaki/",
+        "details": "",
+        "area": "Ανατολικά",
+        "days": [
+          "2026-11-22",
+          "2026-11-28"
+        ],
+        "hours": [],
+        "plain": "",
+        "category": "",
+        "new_this_run": false
+      },
+      {
         "id": "https://www.kathimerini.gr/society/564569203/se-ischy-kykloforiakes-rythmiseis-gia-ton-marathonio-2/",
         "source": "kathimerini",
         "title": "Σε ισχύ κυκλοφοριακές ρυθμίσεις για τον Μαραθώνιο",
@@ -750,14 +753,11 @@
         "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-90/",
         "details": "",
         "area": "Δυτικά",
-        "days": [
-          "2026-11-24",
-          "2026-11-25"
-        ],
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "bus",
-        "new_this_run": true
+        "new_this_run": false
       },
       {
         "id": "https://www.oasa.gr/blog/%ce%b4%ce%b9%ce%b1%ce%ba%ce%bf%cf%80%ce%ae-%ce%b5%ce%ba%cf%84%ce%ad%ce%bb%ce%b5%cf%83%ce%b7%cf%82-%ce%b4%cf%81%ce%bf%ce%bc%ce%bf%ce%bb%ce%bf%ce%b3%ce%af%cf%89%ce%bd-%cf%84%ce%b7%cf%82-%ce%b3%cf%81/",
@@ -765,15 +765,12 @@
         "title": "Διακοπή εκτέλεσης δρομολογίων της γραμμής Χ26",
         "url": "https://www.oasa.gr/blog/%ce%b4%ce%b9%ce%b1%ce%ba%ce%bf%cf%80%ce%ae-%ce%b5%ce%ba%cf%84%ce%ad%ce%bb%ce%b5%cf%83%ce%b7%cf%82-%ce%b4%cf%81%ce%bf%ce%bc%ce%bf%ce%bb%ce%bf%ce%b3%ce%af%cf%89%ce%bd-%cf%84%ce%b7%cf%82-%ce%b3%cf%81/",
         "details": "",
-        "area": "Κέντρο",
-        "days": [
-          "2026-11-24",
-          "2026-11-25"
-        ],
+        "area": "",
+        "days": [],
         "hours": [],
         "plain": "",
         "category": "",
-        "new_this_run": true
+        "new_this_run": false
       }
     ],
     "tomtom": [
@@ -1705,14 +1702,14 @@
       "details": "",
       "area": "Ανατολικά",
       "days": [
-        "2026-11-21",
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-28"
       ],
       "hours": [],
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-24T19:14:36+00:00",
+      "last_seen": "2026-11-25T03:15:56+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2208,12 +2205,6 @@
   ],
   "runs": [
     {
-      "time": "2026-11-14T16:10:50+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-11-14T20:15:58+00:00",
       "new": 0,
       "sources_ok": 6,
@@ -2566,6 +2557,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-25T03:15:56+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
