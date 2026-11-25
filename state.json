@@ -519,7 +519,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-25T13:45:23+00:00"
+      "last_success": "2026-11-25T23:55:46+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -527,13 +527,12 @@
       "items": 1,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 97,
-        "μόνο μία λωρίδα/ΛΕΑ": 2
+        "εκτός θέματος/Αθήνας": 99
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-25T13:45:23+00:00"
+      "last_success": "2026-11-25T23:55:46+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -547,7 +546,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-25T13:45:23+00:00"
+      "last_success": "2026-11-25T23:55:46+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -558,7 +557,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-25T13:45:23+00:00"
+      "last_success": "2026-11-25T23:55:46+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -573,20 +572,20 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-25T13:45:24+00:00"
+      "last_success": "2026-11-25T23:55:46+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 13,
-      "fetched": 20,
+      "fetched": 18,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 7
+        "κατηγορία εκτός πολιτικής": 5
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-25T20:43:51+00:00"
+      "last_success": "2026-11-25T23:55:46+00:00"
     }
   },
   "active": {
@@ -681,8 +680,8 @@
         "details": "",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-22",
-          "2026-11-28"
+          "2026-11-28",
+          "2026-11-29"
         ],
         "hours": [],
         "plain": "",
@@ -779,7 +778,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-11-25"
+          "2026-11-26"
         ],
         "hours": [],
         "plain": "",
@@ -794,7 +793,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Δυτικά",
         "days": [
-          "2026-11-25"
+          "2026-11-26"
         ],
         "hours": [],
         "plain": "",
@@ -809,7 +808,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-11-25"
+          "2026-11-26"
         ],
         "hours": [],
         "plain": "",
@@ -824,7 +823,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-25"
+          "2026-11-26"
         ],
         "hours": [],
         "plain": "",
@@ -839,7 +838,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-25"
+          "2026-11-26"
         ],
         "hours": [],
         "plain": "",
@@ -854,7 +853,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-25"
+          "2026-11-26"
         ],
         "hours": [],
         "plain": "",
@@ -869,7 +868,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-25"
+          "2026-11-26"
         ],
         "hours": [],
         "plain": "",
@@ -884,7 +883,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
         "days": [
-          "2026-11-25"
+          "2026-11-26"
         ],
         "hours": [],
         "plain": "",
@@ -899,7 +898,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
         "days": [
-          "2026-11-25"
+          "2026-11-26"
         ],
         "hours": [],
         "plain": "",
@@ -914,7 +913,7 @@
         "details": "Κλειστός δρόμος — Κλειστό; Οδικά έργα",
         "area": "Κέντρο",
         "days": [
-          "2026-11-25"
+          "2026-11-26"
         ],
         "hours": [],
         "plain": "",
@@ -929,7 +928,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-25"
+          "2026-11-26"
         ],
         "hours": [],
         "plain": "",
@@ -944,7 +943,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-25"
+          "2026-11-26"
         ],
         "hours": [],
         "plain": "",
@@ -959,7 +958,7 @@
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Ανατολικά",
         "days": [
-          "2026-11-25"
+          "2026-11-26"
         ],
         "hours": [],
         "plain": "",
@@ -1699,100 +1698,14 @@
       "details": "",
       "area": "Ανατολικά",
       "days": [
-        "2026-11-22",
-        "2026-11-28"
+        "2026-11-28",
+        "2026-11-29"
       ],
       "hours": [],
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-25T13:45:23+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/": {
-      "id": "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/",
-      "source": "kathimerini",
-      "title": "Πολυτεχνείο: Κυκλοφοριακές ρυθμίσεις στην Αθήνα από 15 έως 18 Νοεμβρίου",
-      "url": "https://www.kathimerini.gr/society/564584677/polytechneio-kykloforiakes-rythmiseis-stin-athina-apo-15-eos-18-noemvrioy/",
-      "details": "",
-      "area": "",
-      "days": [
-        "2026-11-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-11-12T21:58:48+00:00",
-      "last_seen": "2026-11-22T21:25:54+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "97ΔΔ46ΜΤΛΒ-ΣΓΧ": {
-      "id": "97ΔΔ46ΜΤΛΒ-ΣΓΧ",
-      "source": "Διαύγεια (Τροχαία)",
-      "title": "25874 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων επί της Λεωφ. Βασ. Σοφίας, στο ύψος του ο.α.02, ρεύμα κυκλοφορίας προς Λεωφ. Βασ. Κων/νου, περιοχής Δήμου Αθηναίων, στις 18-11-2026 κατά τις ώρες 00.05΄ έως 05.00΄, λόγω εκτέλεσης εργασιών κατεβάσματος ψυκτικ",
-      "url": "https://diavgeia.gov.gr/decision/view/97ΔΔ46ΜΤΛΒ-ΣΓΧ",
-      "details": "Επίσημη απόφαση Τροχαίας (13/11/2026)",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-18"
-      ],
-      "hours": [
-        "00:05",
-        "05:00"
-      ],
-      "plain": "Διακοπή κυκλοφορίας στη Λ. Βασ. Σοφίας (ύψος αρ. 02, προς Λεωφ. Βασ. Κων/νου, Δήμου Αθηναίων) · 18/11, 00:05–05:00 · λόγω εργασιών κατεβάσματος ψυκτικ",
-      "category": "",
-      "first_seen": "2026-11-13T15:49:03+00:00",
-      "last_seen": "2026-11-14T04:21:02+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-polytehneio-kleistoi-dromoi": {
-      "id": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-polytehneio-kleistoi-dromoi",
-      "source": "iefimerida",
-      "title": "Κυκλοφοριακές ρυθμίσεις για το Πολυτεχνείο: Οι κλειστοί δρόμοι και οι αλλαγές σε λεωφορεία και τρόλεϊ",
-      "url": "https://www.iefimerida.gr/ellada/kykloforiakes-rythmiseis-polytehneio-kleistoi-dromoi",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-15",
-        "2026-11-17",
-        "2026-11-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-11-13T15:49:04+00:00",
-      "last_seen": "2026-11-13T15:49:04+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-324/": {
-      "id": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-324/",
-      "source": "ΟΑΣΑ",
-      "title": "Μερική προσωρινή τροποποίηση των λεωφορειακών γραμμών και γραμμών τρόλεϊ, λόγω του εορτασμού της 53ης επετείου του Πολυτεχνείου στο κέντρο της Αθήνας",
-      "url": "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%cf%89%ce%bd-%ce%bb%ce%b5%cf%89-324/",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-15",
-        "2026-11-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "bus",
-      "first_seen": "2026-11-14T14:40:32+00:00",
-      "last_seen": "2026-11-14T14:40:32+00:00",
+      "last_seen": "2026-11-25T23:55:46+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1816,27 +1729,6 @@
       "category": "",
       "first_seen": "2026-11-17T12:39:31+00:00",
       "last_seen": "2026-11-18T05:23:09+00:00",
-      "extended": false,
-      "alerted_chats": [
-        "151797168"
-      ]
-    },
-    "https://www.kathimerini.gr/society/564593452/koryfonontai-oi-ekdiloseis-gia-tin-53i-epeteio-toy-polytechneioy-kykloforiakes-rythmiseis-pos-tha-kinithoyn-ta-mmm/": {
-      "id": "https://www.kathimerini.gr/society/564593452/koryfonontai-oi-ekdiloseis-gia-tin-53i-epeteio-toy-polytechneioy-kykloforiakes-rythmiseis-pos-tha-kinithoyn-ta-mmm/",
-      "source": "kathimerini",
-      "title": "Κορυφώνονται οι εκδηλώσεις για την 53η επέτειο του Πολυτεχνείου – Κυκλοφοριακές ρυθμίσεις, πώς θα κινηθούν τα ΜΜΜ",
-      "url": "https://www.kathimerini.gr/society/564593452/koryfonontai-oi-ekdiloseis-gia-tin-53i-epeteio-toy-polytechneioy-kykloforiakes-rythmiseis-pos-tha-kinithoyn-ta-mmm/",
-      "details": "",
-      "area": "Κέντρο",
-      "days": [
-        "2026-11-17",
-        "2026-11-18"
-      ],
-      "hours": [],
-      "plain": "",
-      "category": "",
-      "first_seen": "2026-11-17T12:39:32+00:00",
-      "last_seen": "2026-11-17T12:39:32+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2202,12 +2094,6 @@
   ],
   "runs": [
     {
-      "time": "2026-11-15T04:05:16+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
-    {
       "time": "2026-11-15T09:59:19+00:00",
       "new": 0,
       "sources_ok": 1,
@@ -2560,6 +2446,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-25T23:55:46+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
