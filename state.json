@@ -1,9 +1,5 @@
 {
   "seen": [
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb-%ce%b3%cf%81-7/",
-    "https://www.oasa.gr/blog/%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%bb%ce%b5%cf%89-323/",
-    "TTI-TTR51582749008005000",
-    "9ΘΡΔ46ΜΤΛΒ-ΣΧΔ",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-73/",
     "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-72/",
     "ΨΩΘΥ46ΜΤΛΒ-ΠΣΦ",
@@ -499,7 +495,11 @@
     "TTI-TTR51585634608021000",
     "TTI-TTR51591405420003000",
     "9ΟΥΕ46ΜΤΛΒ-Ζ5Φ",
-    "9Θ9Ζ46ΜΤΛΒ-94Μ"
+    "9Θ9Ζ46ΜΤΛΒ-94Μ",
+    "ΡΦΖΚ46ΜΤΛΒ-ΞΗΝ",
+    "6ΧΝΜ46ΜΤΛΒ-ΘΒ3",
+    "918Ξ46ΜΤΛΒ-ΔΝ6",
+    "ΨΡΑΙ46ΜΤΛΒ-ΕΘΝ"
   ],
   "seeded": [
     "astynomia",
@@ -522,20 +522,21 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-26T06:23:57+00:00"
+      "last_success": "2026-11-26T18:00:02+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
       "ok": true,
-      "items": 0,
+      "items": 2,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 100
+        "εκτός θέματος/Αθήνας": 96,
+        "μόνο μία λωρίδα/ΛΕΑ": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-26T06:23:57+00:00"
+      "last_success": "2026-11-26T18:00:02+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -543,13 +544,13 @@
       "items": 0,
       "fetched": 13,
       "dropped": {
-        "χωρίς/παλιά ημερομηνία": 11,
-        "άλλη περιοχή": 2
+        "χωρίς/παλιά ημερομηνία": 12,
+        "άλλη περιοχή": 1
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-26T06:23:57+00:00"
+      "last_success": "2026-11-26T18:00:02+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -560,40 +561,76 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-26T06:23:57+00:00"
+      "last_success": "2026-11-26T18:00:02+00:00"
     },
     "oasa": {
       "name": "oasa",
       "ok": true,
-      "items": 2,
+      "items": 0,
       "fetched": 11,
       "dropped": {
         "παλιά ανακοίνωση": 1,
-        "λειτουργικό/χωρίς οδικό αντίκτυπο": 8,
-        "λεωφορεία (χωρίς ειδοποίηση)": 1
+        "λειτουργικό/χωρίς οδικό αντίκτυπο": 10
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-26T06:23:57+00:00"
+      "last_success": "2026-11-26T18:00:03+00:00"
     },
     "tomtom": {
       "name": "tomtom",
       "ok": true,
       "items": 12,
-      "fetched": 104,
+      "fetched": 58,
       "dropped": {
-        "κατηγορία εκτός πολιτικής": 92
+        "κατηγορία εκτός πολιτικής": 46
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-26T12:54:45+00:00"
+      "last_success": "2026-11-26T18:00:03+00:00"
     }
   },
   "active": {
     "astynomia": [],
-    "diavgeia": [],
+    "diavgeia": [
+      {
+        "id": "ΡΦΖΚ46ΜΤΛΒ-ΞΗΝ",
+        "source": "Διαύγεια (Τροχαία)",
+        "title": "25945 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή και πλήρη διακοπή της κυκλοφορίας των οχημάτων στην οδό Βαλτινών, στο τμήμα της μεταξύ των οδών Ιωάννου Βαρβάκη και Αναστασίου Γενναδίου, περιοχής Δήμου Αθηναίων, την 28-11-2026, κατά τις ώρες 09.00΄ έως 12.00΄, για την εκτέλεση εργασιών ανύψωση",
+        "url": "https://diavgeia.gov.gr/decision/view/ΡΦΖΚ46ΜΤΛΒ-ΞΗΝ",
+        "details": "Επίσημη απόφαση Τροχαίας (26/11/2026)",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-28"
+        ],
+        "hours": [
+          "09:00",
+          "12:00"
+        ],
+        "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 28/11, 09:00–12:00",
+        "category": "",
+        "new_this_run": true
+      },
+      {
+        "id": "6ΧΝΜ46ΜΤΛΒ-ΘΒ3",
+        "source": "Διαύγεια (Τροχαία)",
+        "title": "25938 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στο αριστερό τμήμα του οδοστρώματος της οδού Πεσμαζόγλου, στο ύψος του ο.α.12, περιοχής Δήμου Αθηναίων, στις 29-11-2026 κατά τις ώρες 07.30΄ έως 14.30΄, λόγω εκτέλεσης εργασιών ανύψωσης εξοπλισμού.",
+        "url": "https://diavgeia.gov.gr/decision/view/6ΧΝΜ46ΜΤΛΒ-ΘΒ3",
+        "details": "Επίσημη απόφαση Τροχαίας (26/11/2026)",
+        "area": "Κέντρο",
+        "days": [
+          "2026-11-29"
+        ],
+        "hours": [
+          "07:30",
+          "14:30"
+        ],
+        "plain": "Διακοπή κυκλοφορίας στην οδό Πεσμαζόγλου (ύψος αρ. 12, Δήμου Αθηναίων) · 29/11, 07:30–14:30 · λόγω εργασιών ανύψωσης εξοπλισμού",
+        "category": "",
+        "new_this_run": true
+      }
+    ],
     "iefimerida": [],
     "kathimerini": [
       {
@@ -730,34 +767,7 @@
         "new_this_run": false
       }
     ],
-    "oasa": [
-      {
-        "id": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-90/",
-        "source": "ΟΑΣΑ",
-        "title": "Προσωρινή μερική τροποποίηση της διαδρομής των λεωφορειακών γραμμών 817, 863 και 865 στον Δήμο Μάνδρας-Ειδυλλίας, λόγω διεξαγωγής της εμποροπανήγυρης της Αγ. Αικατερίνης",
-        "url": "https://www.oasa.gr/blog/%cf%80%cf%81%ce%bf%cf%83%cf%89%cf%81%ce%b9%ce%bd%ce%ae-%ce%bc%ce%b5%cf%81%ce%b9%ce%ba%ce%ae-%cf%84%cf%81%ce%bf%cf%80%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%cf%84%ce%b7%cf%82-%ce%b4%ce%b9%ce%b1-90/",
-        "details": "",
-        "area": "Δυτικά",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "bus",
-        "new_this_run": false
-      },
-      {
-        "id": "https://www.oasa.gr/blog/%ce%b4%ce%b9%ce%b1%ce%ba%ce%bf%cf%80%ce%ae-%ce%b5%ce%ba%cf%84%ce%ad%ce%bb%ce%b5%cf%83%ce%b7%cf%82-%ce%b4%cf%81%ce%bf%ce%bc%ce%bf%ce%bb%ce%bf%ce%b3%ce%af%cf%89%ce%bd-%cf%84%ce%b7%cf%82-%ce%b3%cf%81/",
-        "source": "ΟΑΣΑ",
-        "title": "Διακοπή εκτέλεσης δρομολογίων της γραμμής Χ26",
-        "url": "https://www.oasa.gr/blog/%ce%b4%ce%b9%ce%b1%ce%ba%ce%bf%cf%80%ce%ae-%ce%b5%ce%ba%cf%84%ce%ad%ce%bb%ce%b5%cf%83%ce%b7%cf%82-%ce%b4%cf%81%ce%bf%ce%bc%ce%bf%ce%bb%ce%bf%ce%b3%ce%af%cf%89%ce%bd-%cf%84%ce%b7%cf%82-%ce%b3%cf%81/",
-        "details": "",
-        "area": "",
-        "days": [],
-        "hours": [],
-        "plain": "",
-        "category": "",
-        "new_this_run": false
-      }
-    ],
+    "oasa": [],
     "tomtom": [
       {
         "id": "TTI-TTR51574092528014000",
@@ -807,7 +817,7 @@
       {
         "id": "TTI-TTR51602946940011000",
         "source": "TomTom (realtime)",
-        "title": "Frantzi Amvrosiou (Iliou Ilia) → Dinostratou (Iliou Ilia)",
+        "title": "Frantzi Amvrosiou (Iliou Ilia) → Vouliagmenis Ave (Iliou Ilia)",
         "url": "https://www.google.com/maps?q=37.9581512932,23.7306993836",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Κέντρο",
@@ -1679,7 +1689,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-26T06:23:57+00:00",
+      "last_seen": "2026-11-26T18:00:02+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -1876,6 +1886,50 @@
       "alerted_chats": [
         "151797168"
       ]
+    },
+    "ΡΦΖΚ46ΜΤΛΒ-ΞΗΝ": {
+      "id": "ΡΦΖΚ46ΜΤΛΒ-ΞΗΝ",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25945 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή και πλήρη διακοπή της κυκλοφορίας των οχημάτων στην οδό Βαλτινών, στο τμήμα της μεταξύ των οδών Ιωάννου Βαρβάκη και Αναστασίου Γενναδίου, περιοχής Δήμου Αθηναίων, την 28-11-2026, κατά τις ώρες 09.00΄ έως 12.00΄, για την εκτέλεση εργασιών ανύψωση",
+      "url": "https://diavgeia.gov.gr/decision/view/ΡΦΖΚ46ΜΤΛΒ-ΞΗΝ",
+      "details": "Επίσημη απόφαση Τροχαίας (26/11/2026)",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-28"
+      ],
+      "hours": [
+        "09:00",
+        "12:00"
+      ],
+      "plain": "Διακοπή κυκλοφορίας — Δήμου Αθηναίων · 28/11, 09:00–12:00",
+      "category": "",
+      "first_seen": "2026-11-26T18:00:02+00:00",
+      "last_seen": "2026-11-26T18:00:02+00:00",
+      "extended": false,
+      "alerted_chats": [
+        "151797168"
+      ]
+    },
+    "6ΧΝΜ46ΜΤΛΒ-ΘΒ3": {
+      "id": "6ΧΝΜ46ΜΤΛΒ-ΘΒ3",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "25938 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή διακοπή της κυκλοφορίας των οχημάτων στο αριστερό τμήμα του οδοστρώματος της οδού Πεσμαζόγλου, στο ύψος του ο.α.12, περιοχής Δήμου Αθηναίων, στις 29-11-2026 κατά τις ώρες 07.30΄ έως 14.30΄, λόγω εκτέλεσης εργασιών ανύψωσης εξοπλισμού.",
+      "url": "https://diavgeia.gov.gr/decision/view/6ΧΝΜ46ΜΤΛΒ-ΘΒ3",
+      "details": "Επίσημη απόφαση Τροχαίας (26/11/2026)",
+      "area": "Κέντρο",
+      "days": [
+        "2026-11-29"
+      ],
+      "hours": [
+        "07:30",
+        "14:30"
+      ],
+      "plain": "Διακοπή κυκλοφορίας στην οδό Πεσμαζόγλου (ύψος αρ. 12, Δήμου Αθηναίων) · 29/11, 07:30–14:30 · λόγω εργασιών ανύψωσης εξοπλισμού",
+      "category": "",
+      "first_seen": "2026-11-26T18:00:02+00:00",
+      "last_seen": "2026-11-26T18:00:02+00:00",
+      "extended": false,
+      "alerted_chats": []
     }
   },
   "known_chats": [
@@ -1885,12 +1939,6 @@
     "151797168": "2026-11-26"
   },
   "notifications": [
-    {
-      "time": "2026-11-12T10:23:03+00:00",
-      "source": "Ενημέρωση",
-      "title": "🗓 Ημερήσια ενημέρωση (admin)",
-      "url": ""
-    },
     {
       "time": "2026-11-12T23:43:28+00:00",
       "source": "kathimerini",
@@ -2064,15 +2112,15 @@
       "source": "Ενημέρωση",
       "title": "🗓 Ημερήσια ενημέρωση (admin)",
       "url": ""
+    },
+    {
+      "time": "2026-11-26T18:00:03+00:00",
+      "source": "Διαύγεια (Τροχαία)",
+      "title": "🚨 25945 - Προσωρινές κυκλοφοριακές ρυθμίσεις - Προσωρινή και πλήρη διακοπή της κυκλοφορίας των οχημάτων στην οδό Βαλτινών, στο τμήμα της μεταξύ των οδών Ιωάννου Βαρβάκη και Αναστασίου Γενναδίου, περιοχής Δήμου Αθηναίων, την 28-11-2026, κατά τις ώρες 09.00΄ έως 12.00΄, για την εκτέλεση εργασιών ανύψωση",
+      "url": "https://diavgeia.gov.gr/decision/view/ΡΦΖΚ46ΜΤΛΒ-ΞΗΝ"
     }
   ],
   "runs": [
-    {
-      "time": "2026-11-15T20:41:23+00:00",
-      "new": 0,
-      "sources_ok": 6,
-      "sources_total": 6
-    },
     {
       "time": "2026-11-15T21:22:58+00:00",
       "new": 0,
@@ -2426,6 +2474,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-26T18:00:03+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
