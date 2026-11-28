@@ -514,15 +514,12 @@
       "name": "astynomia",
       "ok": true,
       "items": 0,
-      "fetched": 54,
-      "dropped": {
-        "legend row (level word as road)": 1,
-        "no level detected, no disruption keyword": 53
-      },
+      "fetched": 0,
+      "dropped": {},
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-27T23:51:00+00:00"
+      "last_success": "2026-11-28T05:43:56+00:00"
     },
     "diavgeia": {
       "name": "diavgeia",
@@ -530,13 +527,14 @@
       "items": 0,
       "fetched": 100,
       "dropped": {
-        "εκτός θέματος/Αθήνας": 98,
+        "εκτός θέματος/Αθήνας": 97,
+        "εκτός χρονικού παραθύρου": 1,
         "μόνο μία λωρίδα/ΛΕΑ": 2
       },
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-27T23:51:00+00:00"
+      "last_success": "2026-11-28T05:43:56+00:00"
     },
     "iefimerida": {
       "name": "iefimerida",
@@ -549,7 +547,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-27T23:51:00+00:00"
+      "last_success": "2026-11-28T05:43:56+00:00"
     },
     "kathimerini": {
       "name": "kathimerini",
@@ -560,7 +558,7 @@
       "date_misses": 1,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-27T23:51:00+00:00"
+      "last_success": "2026-11-28T05:43:56+00:00"
     },
     "oasa": {
       "name": "oasa",
@@ -571,7 +569,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-27T23:51:00+00:00"
+      "last_success": "2026-11-28T05:43:56+00:00"
     },
     "tomtom": {
       "name": "tomtom",
@@ -584,7 +582,7 @@
       "date_misses": 0,
       "body_enriched": 0,
       "consecutive_failures": 0,
-      "last_success": "2026-11-28T04:01:04+00:00"
+      "last_success": "2026-11-28T05:43:56+00:00"
     }
   },
   "active": {
@@ -821,7 +819,7 @@
       {
         "id": "TTI-TTR51574092928014000",
         "source": "TomTom (realtime)",
-        "title": "Zakinthou (Spetson) → Skirou (Spetson)",
+        "title": "Zakinthou (Spetson) → Dodekanisou (Spetson)",
         "url": "https://www.google.com/maps?q=37.9990093837,23.7400495642",
         "details": "Κλειστός δρόμος — Κλειστό",
         "area": "Βόρεια",
@@ -1648,7 +1646,7 @@
       "plain": "",
       "category": "",
       "first_seen": "2026-11-07T10:51:19+00:00",
-      "last_seen": "2026-11-27T23:51:00+00:00",
+      "last_seen": "2026-11-28T05:43:56+00:00",
       "extended": false,
       "alerted_chats": [
         "151797168"
@@ -2040,12 +2038,6 @@
   ],
   "runs": [
     {
-      "time": "2026-11-17T12:07:54+00:00",
-      "new": 0,
-      "sources_ok": 1,
-      "sources_total": 1
-    },
-    {
       "time": "2026-11-17T12:39:33+00:00",
       "new": 1,
       "sources_ok": 6,
@@ -2398,6 +2390,12 @@
       "new": 0,
       "sources_ok": 1,
       "sources_total": 1
+    },
+    {
+      "time": "2026-11-28T05:43:56+00:00",
+      "new": 0,
+      "sources_ok": 6,
+      "sources_total": 6
     }
   ]
 }
